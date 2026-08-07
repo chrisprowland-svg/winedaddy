@@ -21,12 +21,25 @@ const analyticsHead = '<!-- Google tag (gtag.js) --><script async src="https://w
 const metaPixelNoScript = '<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1085436810811087&amp;ev=PageView&amp;noscript=1" alt=""></noscript>';
 
 for (const [slug, title, description] of articles) {
-  const md = fs.readFileSync(path.join('article-source', `${slug}.md`), 'utf8');
+  const source = fs.readFileSync(path.join('article-source', `${slug}.md`), 'utf8');
+  // Research references and QA notes belong in the internal work package, not
+  // on the reader-facing page. Everything from the evidence appendix onward
+  // is deliberately excluded from publication.
+  const md = source.replace(/\n#{1,3}\s+(?:References|Claim-to-Source Notes|Unresolved Flags)\s*\n[\s\S]*$/i, '\n');
   const firstHeading = md.match(/^# (.+)$/m)?.[1] || title;
   let body = marked.parse(md);
   body = body.replace(/^<h1>.*?<\/h1>\s*/, '');
+  // The page hero owns the sole h1. Editorial top-level sections are article
+  // sections and must not inherit the oversized hero treatment.
+  body = body.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>');
   body = body.replace('<h2>Highlights</h2>', '<section class="highlights"><h2>Highlights</h2>').replace(/<\/ul>\s*<h2>Quick [Aa]nswer/, '</ul></section><h2>Quick answer');
   body = body.replace(/<table>/g, '<table class="article-table">');
+  if (/<h[1-3][^>]*>\s*(?:References|Claim-to-Source Notes|Unresolved Flags)\s*<\/h[1-3]>/i.test(body)) {
+    throw new Error(`${slug}: internal evidence or QA material reached the public article`);
+  }
+  if (/<h1(?:\s|>)/i.test(body)) {
+    throw new Error(`${slug}: article body contains an h1; the page hero must be the only h1`);
+  }
   const canonical = `https://winedaddy.com.au/${slug}/`;
   const schema = JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'Article',headline:title,description,mainEntityOfPage:canonical,articleSection:'Wine fundamentals',inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://winedaddy.com.au/'},{'@type':'ListItem',position:2,name:firstHeading,item:canonical}]}]});
   const html = `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${analyticsHead}<title>${title} | WineDaddy</title><meta name="description" content="${description}"><link rel="canonical" href="${canonical}"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:type" content="article"><meta property="og:url" content="${canonical}"><meta property="og:site_name" content="WineDaddy"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">${schema}</script></head><body>${metaPixelNoScript}${nav}<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / Wine fundamentals</p><p class="eyebrow">Wine fundamentals</p><h1>${firstHeading}</h1><p class="lede">${description}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}</article></main>${footer}<script src="/assets/script.js"></script></body></html>`;
