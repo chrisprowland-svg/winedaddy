@@ -26,7 +26,10 @@ for (const [slug, title, description] of articles) {
   // on the reader-facing page. Everything from the evidence appendix onward
   // is deliberately excluded from publication.
   const md = source.replace(/\n#{1,3}\s+(?:References|Claim-to-Source Notes|Unresolved Flags)\s*\n[\s\S]*$/i, '\n');
-  const firstHeading = md.match(/^# (.+)$/m)?.[1] || title;
+  const sourceHeading = md.match(/^# (.+)$/m)?.[1];
+  const firstHeading = sourceHeading && !/^Highlights$/i.test(sourceHeading)
+    ? sourceHeading
+    : title.replace(/\s+A Beginner(?:’s|'s) Guide.*$/i, '');
   let body = marked.parse(md);
   body = body.replace(/^<h1>.*?<\/h1>\s*/, '');
   // The page hero owns the sole h1. Editorial top-level sections are article
