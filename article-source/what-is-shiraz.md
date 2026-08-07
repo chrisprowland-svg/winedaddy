@@ -1,0 +1,170 @@
+# What Is Shiraz?
+
+## Highlights
+
+- Shiraz is a dark-skinned grape used mainly to make red wine.
+- Syrah is the principal international name for the same grape variety.
+- Australian Shiraz can be medium-bodied and savoury, or rich, full-bodied and dark-fruited.
+- Typical flavours may include blackberry, plum, spice, liquorice, pepper, floral notes and savoury characters.
+- Shiraz is usually made as a dry wine, even when it tastes ripe, rich or jammy.
+- Climate, vineyard site, ripeness and winemaking all help shape the final wine.
+- Barossa Valley, McLaren Vale, Hunter Valley, Heathcote and cooler regions can produce noticeably different styles.
+
+## Quick Answer
+
+Shiraz is a dark-skinned wine grape variety, usually made into red wine. In Australia, **Shiraz** is the familiar name used on labels and by wine drinkers. Internationally, the same grape is commonly called **Syrah**.
+
+There is no single Shiraz flavour or style. Depending on where the grapes grow and how the wine is made, Shiraz may be medium- to full-bodied, with flavours ranging from red and dark fruit to black pepper, spice, liquorice, flowers and savoury notes. It may feel fresh and peppery, plush and generous, or firm and structured.
+
+Australian Shiraz is especially diverse. Warm regions such as Barossa Valley and McLaren Vale are often associated with richer, fuller and darker-fruited wines. More moderate or cooler regions, including Hunter Valley, Yarra Valley and Canberra District, can produce fresher, more aromatic, savoury or peppery expressions. These are broad tendencies, not guarantees.
+
+The most useful thing to remember is that “Shiraz” on a label identifies the grape and the Australian naming convention. It does not promise a sweet, heavy, high-alcohol or heavily oaked wine.
+
+## Shiraz and Syrah: are they the same grape?
+
+Yes. Shiraz and Syrah are names for the same grape variety.
+
+**Syrah** is the common international name, particularly in France and regions influenced by French terminology. **Shiraz** is the established Australian name. Australia adopted and popularised the name during the nineteenth century, and it is now the normal term for the variety on Australian wine labels.
+
+The names can be connected with different regional traditions and stylistic expectations, but those comparisons are more detailed than this introduction needs to be. For now, treat Shiraz and Syrah as the same grape with different naming conventions.
+
+## What does Shiraz taste like?
+
+Shiraz can show a wide range of aromas and flavours, including:
+
+- blackberry, plum, blueberry and black cherry
+- red-fruit notes in some fresher styles
+- black pepper and other spices
+- liquorice
+- violet or other floral aromas
+- earthy, savoury or herbal characters
+- vanilla, toast or spice from oak maturation
+
+These are possibilities rather than a tasting checklist. One Shiraz may smell mainly of dark fruit, while another may be floral, peppery or savoury.
+
+Shiraz can also feel quite different from one bottle to another. Its body may be medium or full. Its tannins—the drying or grippy sensation in the mouth—may feel firm, fine, silky or plush. Acidity can provide freshness and lift, while alcohol, ripeness and oak can add weight and warmth.
+
+Some Shiraz has a distinctive black-pepper aroma. The Australian Wine Research Institute links this character to a grape-derived compound called **rotundone**, particularly in some cool-climate Shiraz. Not every Shiraz contains enough rotundone to smell peppery, and not every person perceives it in the same way.
+
+## Why does Shiraz vary so much?
+
+The finished wine reflects several influences working together.
+
+### Climate
+
+Warm conditions can encourage riper fruit, richer texture and darker-fruited flavours. Cooler or more moderate conditions can support freshness, aromatic detail, savoury notes and pepper.
+
+That does not mean warm-climate Shiraz is always heavy or cool-climate Shiraz is always light. Water availability, vineyard management, harvest timing, vintage conditions and winemaking can all change the result.
+
+### Vineyard site
+
+The vineyard’s aspect, elevation, soil, water conditions and local climate can influence how grapes ripen. Australian research has found that Shiraz from different regions can show measurable chemical and sensory differences, while also finding substantial variation within individual regions.
+
+A regional name is therefore a useful clue, not a flavour guarantee.
+
+### Ripeness and harvest timing
+
+Riper grapes may give the wine fuller fruit flavours, more weight and a softer impression of acidity. Earlier-picked grapes may retain more freshness and aromatic lift. Neither approach automatically makes a better wine; they create different styles.
+
+### Fermentation and extraction
+
+During red-wine fermentation, colour, flavour and tannin are extracted from the grape skins. Winemakers can adjust the amount and texture of that extraction through choices involving temperature, time, vessel and cap management.
+
+Some Shiraz is fermented with whole bunches, while other wines are made from destemmed grapes. These choices can influence aroma and texture, but neither method is required for an authentic Shiraz.
+
+### Oak and maturation
+
+Oak can contribute flavour, texture and structure. New oak may add vanilla, toast or spice, while older oak can have a subtler influence. Some Shiraz is matured in oak; some uses older vessels; some fresh styles see little or no oak.
+
+Oak is common in Shiraz, but it does not define the grape.
+
+## Australian Shiraz is not one style
+
+Shiraz is grown in many Australian wine regions. That gives Australian drinkers a particularly broad range of styles to explore.
+
+**Barossa Valley** is strongly associated with rich, full-bodied and textured Shiraz, often with dark fruit, spice and liquorice-like characters. However, Barossa also produces fresher, more fragrant and medium-bodied wines. It should not automatically be equated with sweetness, high alcohol or heavy oak.
+
+**McLaren Vale** is associated with full-bodied Shiraz, rich fruit and chocolate-like characters. Its Mediterranean-influenced climate contributes to a distinctive regional context, but individual wines still vary.
+
+**Hunter Valley** provides a useful counterexample to the idea that Australian Shiraz is always massive. Its wines are often described as medium-bodied, red-fruited and savoury.
+
+**Heathcote** can produce medium- to full-bodied Shiraz with dark fruit and spice. **Yarra Valley** and **Canberra District** are examples of regions capable of more aromatic, savoury, elegant or peppery styles.
+
+These descriptions help you form expectations, but they should not be treated as rules. A winemaker, vineyard site and growing season can make two wines from the same region taste quite different.
+
+## Is Shiraz sweet?
+
+Usually, Shiraz is made as a dry red wine. However, ripe fruit flavours can taste sweet, particularly when the wine is rich, jammy or full-bodied.
+
+This is an important distinction:
+
+- **Residual sugar** means sugar left in the wine.
+- **Fruit sweetness** is the impression created by ripe fruit aromas and flavours.
+
+A dry Shiraz can smell or taste sweet-fruited without being a sweet wine. The exact sweetness of a bottle depends on the individual wine.
+
+## Is Shiraz always full-bodied?
+
+No. Shiraz ranges from medium-bodied to full-bodied.
+
+Many warm-region examples are broad, rich and generous, while wines from more moderate regions may feel fresher, lighter on their feet or more savoury. Body is a style characteristic, not a measure of quality.
+
+## How should a beginner approach Shiraz?
+
+Start by comparing wines rather than trying to find one “correct” Shiraz style. A fuller Barossa Valley wine and a medium-bodied Hunter Valley wine can both be recognisably Australian Shiraz while offering very different experiences.
+
+Read the region, producer description and alcohol information on the label as clues, not guarantees. Serve the wine according to its individual recommendation; a full-bodied red is generally more enjoyable slightly below a warm room temperature than overheated. A standard red-wine glass is all you need.
+
+Most importantly, do not decide whether you like Shiraz based on one bottle. The variety covers a broad landscape of fruit, spice, freshness, tannin and texture.
+
+## The short version
+
+Shiraz is Australia’s familiar name for the Syrah grape. It is usually made into dry red wine and can taste dark-fruited, peppery, floral, savoury, spicy or richly textured. Australian Shiraz is not a single heavy or sweet style: region, climate, ripeness, vineyard conditions and winemaking all shape the result.
+
+# References
+
+1. Wine Australia. “Shiraz – The classic Australian red wine.”  
+   https://www.wineaustralia.com/market-insights/regions-and-varieties/shiraz
+
+2. Wine Australia. “Shiraz.” November 2016.  
+   https://www.wineaustralia.com/whats-happening/stories-of-australian-wine/november-2016/shiraz
+
+3. Wine Australia. “Australian Shiraz — The history, evolution and revolution.” 18 April 2016.  
+   https://www.wineaustralia.com/whats-happening/stories-of-australian-wine/april-2016/australian-shiraz-the-history-evolution-and-rev
+
+4. Wine Australia. “Unravelling regional typicality of Shiraz.” 7 February 2020.  
+   https://www.wineaustralia.com/news/articles/unravelling-regional-typicality-of-shiraz
+
+5. Wine Australia. “Benchmarking regional and subregional influences on Shiraz fine wines.”  
+   https://www.wineaustralia.com/research_and_innovation/projects/benchmarking-regional-and-subregional-in
+
+6. Australian Wine Research Institute. “Pepper flavour in wine.” Updated January 2023.  
+   https://www.awri.com.au/files/attachment/fact-sheet-pepper-flavour-in-wine/
+
+7. Australian Wine Research Institute. “Rotundone and its role in iconic peppery Australian cool climate Shiraz.”  
+   https://www.awri.com.au/research_and_development/2017-2025-rde-plan-projects/project-4-4-4/
+
+8. Barossa. “Shiraz.”  
+   https://www.barossa.com/wine/varieties/shiraz/
+
+# Claim-to-Source Notes
+
+- Shiraz is a dark-skinned red wine grape and Syrah is the international name: S1, S2.
+- Australian use of “Shiraz”: S1, S2.
+- Medium- to full-bodied range and variable flavour profile: S1, S2.
+- Climate, ripeness, winemaking and oak influence: S1, S2, S3.
+- Regional variation and within-region variation: S4, S5.
+- Barossa, McLaren Vale, Hunter Valley, Heathcote and cooler-region tendencies: S1, S3, S8, S9.
+- Black-pepper aroma and rotundone: S6, S7.
+- “Usually dry” and distinction between fruit sweetness and residual sugar: editorial synthesis based on the Research Pack; retained with qualification.
+- Beginner serving guidance: limited to the supplied research recommendation; no exact temperature or decanting claim introduced.
+
+# Unresolved Flags
+
+- Do not present planting figures as current unless a year is included.
+- Do not state that Australian law requires “Shiraz” on every label.
+- Do not present regional characteristics as guarantees.
+- Do not claim all Shiraz is dry without referring to the individual wine.
+- Do not introduce exact serving temperatures, decanting instructions or health claims.
+- No visual asset is available or required for this text-first draft.
+
