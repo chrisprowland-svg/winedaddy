@@ -168,38 +168,3 @@ Pinot Gris and Pinot Grigio are two names for the same grape. The names come fro
 
 Expect anything from a light, crisp and citrus-driven white to a fuller wine with ripe fruit and a more rounded texture. For the most reliable guide, read beyond the grape name and look for the producer’s description of the wine’s freshness, sweetness and texture.
 
-# References
-
-1. **Wine Australia**, “The rise (and rise) of Pinot Gris and Grigio”, 24 February 2017.  
-   https://www.wineaustralia.com/whats-happening/stories-of-australian-wine/february-2017/pinot-grigio
-
-2. **Wine Australia**, “Mornington Peninsula – A Pinot Paradise”, current regional page, accessed 7 August 2026.  
-   https://www.wineaustralia.com/market-insights/regions-and-varieties/victoria-wines/mornington-peninsula
-
-3. **Wine Australia**, “Variety snapshot 2024 – Pinot Gris/Grigio”, 2024 snapshot, accessed 7 August 2026.  
-   https://www.wineaustralia.com/getmedia/9cceee8f-2a31-4d86-8691-cdd38daeafdb/MI_Pinot-Gris-snapshot.pdf
-
-4. **Australian Wine Research Institute**, “Wine consumers benefit with new Grigio/Gris wine label”, 30 July 2010.  
-   https://www.awri.com.au/information_services/ebulletin/2010/07/30/wine-consumers-benefit-with-new-grigiogris-wine-label/
-
-5. **Wine Australia**, “Additional labelling terms”, current page, accessed 7 August 2026.  
-   https://www.wineaustralia.com/labelling/additional-labelling-terms
-
-# Claim-to-Source Notes
-
-- Same grape variety, French and Italian names, greyish skin colour and broad style associations: Wine Australia, “The rise (and rise) of Pinot Gris and Grigio”.
-- Australian flexibility in the use of Pinot Gris and Pinot Grigio: Wine Australia, “The rise (and rise) of Pinot Gris and Grigio”.
-- Mornington Peninsula regional context: Wine Australia, “Mornington Peninsula – A Pinot Paradise”.
-- Australian production figures and data-year distinction: Wine Australia, “Variety snapshot 2024 – Pinot Gris/Grigio”.
-- Crisp-to-luscious style spectrum: Australian Wine Research Institute, “Wine consumers benefit with new Grigio/Gris wine label”.
-- Cautious label terminology: Wine Australia, “Additional labelling terms”.
-- Lees contact, skin contact, barrel fermentation, sweetness and vessel explanations are presented as qualified winemaking guidance drawn from the Research Pack. They are not used to imply that every producer or wine uses these techniques.
-
-# Unresolved Flags
-
-- Exact Australian labelling-law distinctions between Pinot Gris and Pinot Grigio were not established and are not claimed.
-- No universal residual-sugar range, alcohol range or acidity range is supplied.
-- Regional descriptions are broad tendencies, not fixed regional identities.
-- The legacy route `/grapes/pinot-gris.html` remains a downstream redirect-implementation requirement. It is not the canonical article route.
-- No visual asset ID exists. Text-first learning components are suitable for implementation.
-
