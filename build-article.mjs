@@ -8,6 +8,11 @@ const articles = [
   ['what-is-sparkling-wine', 'What Is Sparkling Wine? A Beginner’s Guide', 'Learn what creates the bubbles, how sparkling wine is made and why Champagne is one protected regional style.'],
   ['what-is-sweet-wine', 'What Is Sweet Wine? A Beginner’s Guide', 'Learn what makes wine taste sweet, how residual sugar works and why fruity does not necessarily mean sweet.'],
   ['what-is-fortified-wine', 'What Is Fortified Wine? A Beginner’s Guide', 'Fortified wine is wine with distilled spirit added. Learn why some styles are sweet, others dry and what Australian fortified terms mean.'],
+  ['what-is-pinot-noir', 'What Is Pinot Noir? A Beginner’s Guide to the Red Wine', 'Pinot Noir is a red grape variety known for fresh acidity, red-fruit flavours and often lighter to medium-bodied wines. Learn what it tastes like, whether it is sweet and where it is grown in Australia.'],
+  ['what-is-shiraz', 'What Is Shiraz? A Beginner’s Guide to Australia’s Favourite Red Grape', 'Shiraz is a versatile red wine grape known as Syrah internationally. Learn what Shiraz tastes like, whether it is sweet and how Australian regions shape its style.'],
+  ['what-is-chardonnay', 'What Is Chardonnay? A Beginner’s Guide to Its Flavours and Styles', 'Chardonnay is a versatile white wine grape that can make fresh, citrusy, oaky, creamy, still or sparkling wines. Learn what it tastes like and why styles vary.'],
+  ['what-is-pinot-gris-pinot-grigio', 'What Is Pinot Gris / Pinot Grigio? A Beginner’s Guide', 'Pinot Gris and Pinot Grigio are names for the same grape. Learn why both appear on labels, how the styles can differ and what Australian drinkers should look for.'],
+  ['what-is-sauvignon-blanc', 'What Is Sauvignon Blanc? A Beginner’s Guide to Its Flavour and Style', 'Sauvignon Blanc is a fresh, aromatic white wine grape variety. Learn what it tastes like, whether it is sweet and how Australian styles vary.'],
 ];
 
 const nav = '<header class="site-header"><nav class="nav"><a class="logo" href="/">Wine<span>Daddy</span></a><button class="menu" aria-label="Toggle menu">Menu</button><div class="nav-links"><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a><a href="/about.html">About</a></div></nav></header>';
