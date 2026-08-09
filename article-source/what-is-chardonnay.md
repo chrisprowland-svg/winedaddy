@@ -1,4 +1,6 @@
-# Highlights
+# What Is Chardonnay?
+
+## Highlights
 
 - Chardonnay is a white wine grape variety, not one fixed style of wine.
 - It can taste fresh and citrusy, or rich, textured and creamy.
