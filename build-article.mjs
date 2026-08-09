@@ -27,6 +27,12 @@ for (const [slug, title, description] of articles) {
   // is deliberately excluded from publication.
   const md = source.replace(/\n#{1,3}\s+(?:References|Claim-to-Source Notes|Unresolved Flags)\s*\n[\s\S]*$/i, '\n');
   const sourceHeading = md.match(/^# (.+)$/m)?.[1];
+  if (!sourceHeading || /^Highlights$/i.test(sourceHeading)) {
+    throw new Error(`${slug}: source must begin with the article title, not Highlights`);
+  }
+  if (!/^## Highlights\s*$/im.test(md)) {
+    throw new Error(`${slug}: source must include a level-two Highlights section`);
+  }
   const firstHeading = sourceHeading && !/^Highlights$/i.test(sourceHeading)
     ? sourceHeading
     : title.replace(/\s+A Beginner(?:’s|'s) Guide.*$/i, '');
