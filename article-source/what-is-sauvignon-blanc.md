@@ -1,4 +1,6 @@
-# Highlights
+# What Is Sauvignon Blanc?
+
+## Highlights
 
 - Sauvignon Blanc is a white wine grape variety and the name commonly used for wines made from it.
 - It is often fresh, aromatic and high in perceived acidity, with flavours such as citrus, grapefruit, passionfruit, herbs or grass.
@@ -141,4 +143,3 @@ The main lesson is that Sauvignon Blanc is a grape with a recognisable personali
 - [Explore grape varieties](/grapes/)
 - [Explore Australian wine regions](/regions/)
 - [What does oak do to wine?](/winemaking/oak.html)
-
