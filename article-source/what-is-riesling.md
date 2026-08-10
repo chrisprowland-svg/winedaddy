@@ -139,5 +139,3 @@ New oak is uncommon in Australian Riesling. Stainless-steel fermentation is more
 Some Rieslings age very well and can develop honeyed, nutty, toasty or lemon-curd characters. Many are also enjoyable young for their fresh citrus and floral character.
 
 For more foundational context, start with [what is wine?](/what-is-wine/) or explore the [grape varieties](/grapes/) index.
-
-END READER ARTICLE
