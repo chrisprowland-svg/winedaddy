@@ -1,0 +1,136 @@
+---
+title: What is Sangiovese?
+description: Sangiovese is an Italian red wine grape known for cherry flavours, lively acidity and noticeable tannin. Learn what Sangiovese wine tastes like and how styles vary.
+canonical: https://winedaddy.com.au/what-is-sangiovese/
+article_type: Educational Guide
+---
+
+# What is Sangiovese?
+
+## Highlights
+
+- Sangiovese is an Italian red wine grape variety, not one single wine style.
+- It is best known for dry red wines with cherry flavours, lively acidity and noticeable tannin.
+- Plum, herbs, spice and savoury notes may also appear, depending on the wine.
+- Chianti and Brunello di Montalcino are famous Sangiovese-based appellations, not definitions of every Sangiovese wine.
+- Australian Sangiovese can be brighter, riper, darker or more savoury depending on its region and how it is made.
+- Its acidity and tannin make it a natural partner for tomato-based dishes, pizza and grilled food.
+
+## Quick answer
+
+Sangiovese is an Italian red wine grape variety strongly associated with Tuscany. It is used to make wines ranging from light and fresh to dark, firm and structured.
+
+A typical Sangiovese wine is dry, with flavours of cherry, sour cherry and other red fruits. It often has lively acidity, which gives the wine freshness and a mouth-watering quality, along with noticeable tannin that can feel drying or grippy.
+
+Sangiovese is not a fixed recipe. Climate, vineyard site, ripeness, harvest timing, extraction, oak, blending and maturation all influence the finished wine. That is why one bottle may taste bright and savoury while another is richer, darker and more powerful.
+
+The variety is famous in Italy through wines such as Chianti and Brunello di Montalcino, but it is also grown and made in Australia. Australian examples are produced in places including the King Valley, McLaren Vale, Riverina, Riverland and the Murray–Darling–Swan Hill area.
+
+## What does Sangiovese taste like?
+
+Sangiovese commonly shows cherry, sour cherry, plum and other red-fruit flavours. Depending on the wine, you may also notice herbs, violet, spice, earth or savoury flavours.
+
+Its structure is often as important as its fruit. Acidity gives Sangiovese lift and freshness, while tannin provides grip and a drying sensation. Many examples are medium-bodied, although riper fruit, more extraction, oak maturation or blending can produce a fuller, more structured wine.
+
+The finish may be fresh, savoury, tannic or persistent. There is no single tasting profile that applies to every bottle.
+
+### Is Sangiovese sweet?
+
+Most still Sangiovese is dry, meaning it contains little perceptible residual sugar. However, a wine can taste of ripe cherry or plum without being sweet.
+
+This is a useful distinction when reading a tasting note: **fruitiness describes flavour and aroma; dryness describes sweetness on the palate**. A dry Sangiovese can still taste generously fruity.
+
+## Why does Sangiovese vary so much?
+
+The grape’s final style reflects a chain of decisions and conditions.
+
+### Climate and site
+
+Warmer conditions can encourage riper fruit, darker flavours and a fuller impression. Cooler conditions or earlier harvesting may preserve brighter acidity and more red-fruit or herbal character.
+
+These are tendencies, not rules. Vineyard elevation, aspect, rainfall, water availability, the season and the producer’s decisions all matter too. A warm region does not automatically produce heavy wine, and a cool region does not automatically produce thin wine.
+
+### Ripeness and harvest timing
+
+Riper grapes can contribute darker fruit, greater body and softer-feeling tannin. Earlier-picked grapes may retain more acidity and show fresher red-fruit flavours.
+
+Neither approach is automatically better. The winemaker is balancing freshness, ripeness, tannin and alcohol to create the intended style.
+
+### Extraction, oak and maturation
+
+During red-wine making, contact with grape skins helps extract colour and tannin. More intensive extraction can create a darker, firmer wine, while gentler extraction may preserve freshness and make the wine feel lighter.
+
+Oak can add texture and flavours such as spice, toast or vanilla. These are winemaking influences, not inherent Sangiovese flavours. Bottle maturation may soften tannin and bring more savoury, earthy or dried-fruit character, although ageing outcomes vary from wine to wine.
+
+Sangiovese may be bottled on its own or blended with other grape varieties. Blending can alter colour, body, aroma, tannin and balance.
+
+## Sangiovese, Chianti and Brunello
+
+One of the easiest ways to understand Sangiovese is to separate the grape from the wine category.
+
+- **Sangiovese** is the grape variety.
+- **Chianti** is a regulated Italian appellation whose wines contain 70% to 100% Sangiovese according to the Chianti consortium’s summary of the rules.
+- **Brunello di Montalcino** is a specific appellation made exclusively from Sangiovese, locally called Brunello, under defined production and maturation rules.
+
+Chianti and Brunello therefore show different expressions of Sangiovese. They do not mean that every Sangiovese wine must taste like either one.
+
+Chianti is commonly described as dry, savoury and slightly tannic, with red-fruit and violet notes. Brunello di Montalcino is typically associated with a more robust, structured style and extended maturation. These are appellation-based traditions, not universal characteristics of the grape.
+
+## Sangiovese in Australia
+
+Sangiovese is an established but relatively small variety in Australia. Wine Australia’s 2024 snapshot recorded 5,906 tonnes crushed in 2024. Its planting figure—438 hectares—uses 2015 Australian Bureau of Statistics data, so the two figures refer to different years.
+
+The largest regional shares listed in that snapshot included Murray–Darling–Swan Hill, the King Valley, Riverina, Riverland and McLaren Vale. These figures describe production context, not a ranking of quality.
+
+Australian Sangiovese is not one national style. Depending on the region, season, vineyard material and winemaking, it may be bright and cherry-driven, fuller and darker-fruited, or more savoury and structured. It can be useful to compare Australian and Italian examples, but neither country produces one uniform style.
+
+## What food goes with Sangiovese?
+
+Sangiovese’s acidity can work particularly well with tomato-based foods, while its tannin and savoury character can suit roasted or grilled ingredients.
+
+Try it with:
+
+- tomato-based pasta;
+- pizza;
+- grilled or roasted vegetables;
+- roast or grilled meats;
+- mushroom dishes; and
+- other savoury Mediterranean-style foods.
+
+These are suggestions rather than rules. The best match depends on the wine’s weight, tannin and fruit character, as well as the dish.
+
+For serving, Sangiovese is generally more refreshing when served slightly cool rather than warm. A lighter, fresher bottle may suit a cooler serving temperature than a fuller, oak-matured example.
+
+## How to choose a Sangiovese
+
+If you are buying Sangiovese for the first time, start by thinking about the style you enjoy:
+
+- For freshness and red-fruit flavour, look for a lighter or more fruit-driven style.
+- For structure and savoury depth, choose a wine described as firm, concentrated or oak-matured.
+- If you are cooking with tomatoes, acidity is likely to be useful at the table.
+- If you prefer softer wines, be aware that young Sangiovese can have noticeable tannin.
+
+The grape name gives you a helpful starting point, but the region, producer and winemaking details on the label can change the experience considerably. For more grape varieties, explore WineDaddy’s [grape variety guide](/grapes/). For a broader introduction to wine, see [what is wine?](/what-is-wine/).
+
+## Sangiovese FAQs
+
+### Is Sangiovese a red or white grape?
+
+Sangiovese is a red wine grape variety.
+
+### Is Sangiovese the same as Chianti?
+
+No. Sangiovese is the grape. Chianti is a regulated Italian wine appellation that uses Sangiovese as its principal grape.
+
+### Is Brunello made from Sangiovese?
+
+Yes. Brunello di Montalcino is made exclusively from Sangiovese, which is locally called Brunello.
+
+### Is Sangiovese full-bodied?
+
+It can be, but not every example is. Many Sangiovese wines are medium-bodied and fresh, while riper, more extracted or oak-matured examples may feel fuller and more structured.
+
+### Is Sangiovese a good food wine?
+
+Often, yes. Its acidity and tannin can work well with tomato-based dishes, grilled food, roasted vegetables and savoury meats.
+

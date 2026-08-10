@@ -1,0 +1,61 @@
+name: Rebuild corrected WD7 preview
+
+on:
+  push:
+    branches:
+      - agent/wd7-batch-20-preview
+    paths:
+      - 'sanitize-reader-source.mjs'
+      - 'department7-reader-qa.mjs'
+      - '.github/workflows/rebuild-wd7-preview.yml'
+      - '.wd7-rebuild-trigger'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/wd7-batch-20-preview
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install renderer dependency
+        run: npm install --no-save --no-package-lock marked
+      - name: Apply WDOS reader boundary
+        run: node sanitize-reader-source.mjs
+      - name: Rebuild static article HTML
+        run: |
+          cp build-article.mjs /tmp/build-article.mjs
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('build-article.mjs')
+          s = p.read_text()
+          old = "import { marked } from '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js';"
+          if old not in s:
+              raise SystemExit('expected marked import not found')
+          p.write_text(s.replace(old, "import { marked } from 'marked';", 1))
+          PY
+          node build-article.mjs
+          mv /tmp/build-article.mjs build-article.mjs
+      - name: Run Department 7 Deployment QA
+        run: node department7-reader-qa.mjs
+      - name: Commit corrected 20-article preview
+        run: |
+          git config user.name 'winedaddy-deployment-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add sanitize-reader-source.mjs department7-reader-qa.mjs
+          for slug in what-is-natural-wine what-is-organic-wine what-is-biodynamic-wine what-is-merlot what-is-grenache what-is-sangiovese what-is-nebbiolo what-is-tempranillo how-to-taste-wine what-is-fermentation what-does-oak-do-to-wine what-is-terroir how-climate-affects-wine wine-serving-temperature-explained when-to-decant-wine how-to-store-open-wine how-to-cellar-wine what-is-cork-taint what-is-oxidation-in-wine how-to-read-a-wine-label; do
+            git add "article-source/$slug.md" "$slug/index.html"
+          done
+          if git diff --cached --quiet; then
+            echo 'No corrected content changes to commit.'
+          else
+            git commit -m 'Rebuild 20-article preview under WDOS reader boundary fix'
+            git push origin HEAD:agent/wd7-batch-20-preview
+          fi
