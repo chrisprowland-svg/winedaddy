@@ -177,5 +177,3 @@ No. Vine age can be meaningful heritage information, but quality also depends on
 ### Can Barossa wines age?
 
 Some can. Appropriate Shiraz, Cabernet Sauvignon, Grenache and Riesling may develop with careful cellaring, but not every Barossa wine is made for long-term ageing. Check the producer’s guidance and consider storage conditions.
-
-END READER ARTICLE
