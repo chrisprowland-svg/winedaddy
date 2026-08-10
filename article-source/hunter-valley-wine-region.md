@@ -168,5 +168,3 @@ Suitable examples can age well, but not every bottle needs ageing and not every 
 - [What does oak do to wine?](/winemaking/oak.html)
 - [Explore grape varieties](/grapes/)
 
-END READER ARTICLE
-
