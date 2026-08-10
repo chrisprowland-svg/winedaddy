@@ -17,10 +17,17 @@ export default {
       );
     }
 
-    // Blocking QA belongs to the deterministic Department 7 build step, which
-    // validates all 20 generated files before deployment. The serving Worker
-    // enforces the boundary but must never turn valid reader pages into 500s
-    // because ordinary prose resembles an internal metadata label.
+    // Keep navigation consistent across legacy static pages and newly generated
+    // articles without requiring a paid content-stage rerun.
+    const primaryNav = '<div class="nav-links"><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a><a href="/about.html">About</a></div>';
+    html = html.replace(/<div class="nav-links">[\s\S]*?<\/div><\/nav>/i, `${primaryNav}</nav>`);
+    html = html.replace(
+      /<div><b>Explore<\/b>[\s\S]*?<\/div><div><b>WineDaddy<\/b>/i,
+      '<div><b>Explore</b><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a></div><div><b>WineDaddy</b>'
+    );
+
+    // Blocking QA belongs to the deterministic Department 7 build step. The
+    // serving Worker enforces the reader boundary and navigation only.
     const headers = new Headers(response.headers);
     headers.set('X-Robots-Tag', 'noindex, nofollow');
     headers.set('X-WineDaddy-QA', isArticle ? 'reader-boundary-enforced' : 'non-article-pass');
