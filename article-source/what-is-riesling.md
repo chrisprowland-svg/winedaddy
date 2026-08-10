@@ -1,9 +1,5 @@
 # What Is Riesling? A Beginner’s Guide to This Aromatic White Wine
 
-**Canonical route:** `/what-is-riesling/`  
-**Article type:** Educational Guide  
-**Last reviewed:** 9 August 2026
-
 ## Highlights
 
 - Riesling is a white grape variety, not a single sweetness level.
@@ -145,4 +141,3 @@ Some Rieslings age very well and can develop honeyed, nutty, toasty or lemon-cur
 For more foundational context, start with [what is wine?](/what-is-wine/) or explore the [grape varieties](/grapes/) index.
 
 END READER ARTICLE
-
