@@ -46,6 +46,9 @@ for (const [slug, title, description, articleSection = 'Wine fundamentals'] of a
   if (/^\*\*(?:Canonical (?:URL|route)|Article type|Last (?:reviewed|updated|researched)):\*\*/im.test(md)) {
     throw new Error(`${slug}: internal publication metadata reached the reader article`);
   }
+  if (/^(?:BEGIN|END) READER ARTICLE\s*$/im.test(md)) {
+    throw new Error(`${slug}: internal reader-article boundary marker reached the public source`);
+  }
   const firstHeading = sourceHeading && !/^Highlights$/i.test(sourceHeading)
     ? sourceHeading
     : title.replace(/\s+A Beginner(?:’s|'s) Guide.*$/i, '');
@@ -56,7 +59,7 @@ for (const [slug, title, description, articleSection = 'Wine fundamentals'] of a
   body = body.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>');
   body = body.replace(/<h2>Highlights<\/h2>([\s\S]*?<\/ul>)/, '<section class="highlights"><h2>Highlights</h2>$1</section>');
   body = body.replace(/<table>/g, '<table class="article-table">');
-  if (/<h[1-3][^>]*>\s*(?:References|Claim-to-Source Notes|Unresolved Flags)\s*<\/h[1-3]>|INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|IMPLEMENTATION NOTE|<(?:strong|b)>\s*(?:Canonical (?:URL|route)|Article type|Last (?:reviewed|updated|researched)):/i.test(body)) {
+  if (/<h[1-3][^>]*>\s*(?:References|Claim-to-Source Notes|Unresolved Flags)\s*<\/h[1-3]>|INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|IMPLEMENTATION NOTE|(?:BEGIN|END) READER ARTICLE|<(?:strong|b)>\s*(?:Canonical (?:URL|route)|Article type|Last (?:reviewed|updated|researched)):/i.test(body)) {
     throw new Error(`${slug}: internal evidence or QA material reached the public article`);
   }
   if (/<h1(?:\s|>)/i.test(body)) {
