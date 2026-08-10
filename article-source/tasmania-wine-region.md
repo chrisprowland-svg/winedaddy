@@ -1,9 +1,5 @@
 # Tasmania Wine Region: What It’s Like and What Wines It’s Known For
 
-**Canonical URL:** https://winedaddy.com.au/tasmania-wine-region/  
-**Article type:** Pillar Guide  
-**Last researched:** 10 August 2026
-
 ## Highlights
 - Tasmania is a recognised Australian wine Geographical Indication covering the island state.
 - It is a cool, maritime wine region with vineyards spread across northern, southern, eastern and north-western areas.
@@ -216,4 +212,3 @@ Cool growing conditions can help preserve the acidity and structure needed for s
 - [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
 
 END READER ARTICLE
-
