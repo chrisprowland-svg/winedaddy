@@ -182,5 +182,3 @@ If you want to explore the region’s best-known identity, start with a Yarra Va
 
 Wine is made to be explored rather than solved. The region name gives you useful context; the bottle’s variety, producer and vintage complete the picture.
 
-END READER ARTICLE
-
