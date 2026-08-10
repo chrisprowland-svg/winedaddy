@@ -159,5 +159,3 @@ It indicates geographic origin under Australia’s GI system. It does not guaran
 - [What is Shiraz?](/what-is-shiraz/)
 - [Explore grape varieties](/grapes/)
 
-END READER ARTICLE
-
