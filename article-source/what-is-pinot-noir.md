@@ -185,6 +185,5 @@ If you want deeper information about Pinot Noir’s history, taxonomy, clones, v
 - [What does oak do to wine?](/winemaking/oak.html)
 - [What is whole-bunch fermentation?](/winemaking/whole-bunch.html)
 
-**Implementation note:** The exact serving-temperature link should remain unlinked until `/wine-serving-temperature-explained/` is published. The current draft uses a temporary anchor placeholder that should be removed or replaced during implementation.
 
 ---
