@@ -154,5 +154,3 @@ If you are buying Adelaide Hills wine for the first time, compare two different 
 
 That is the real lesson of Adelaide Hills: its name points to a distinctive place, but the place contains more variation than a single tasting description can capture.
 
-END READER ARTICLE
-
