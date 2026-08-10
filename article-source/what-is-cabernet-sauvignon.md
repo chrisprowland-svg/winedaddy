@@ -1,9 +1,5 @@
 # What Is Cabernet Sauvignon?
 
-**Canonical URL:** https://winedaddy.com.au/what-is-cabernet-sauvignon/  
-**Article type:** Educational Guide  
-**Last updated:** 9 August 2026
-
 ## Highlights
 - Cabernet Sauvignon is a red wine grape variety. The name is also used for wines made mainly from that grape.
 - It commonly produces deeply coloured, medium- to full-bodied wines.
@@ -166,4 +162,3 @@ Some Cabernet Sauvignon can age for many years because of its acidity, tannin, c
 Think of it as a red grape that often combines **dark fruit, freshness and structure**. Once you know that, the region, oak and age help explain why one Cabernet Sauvignon may feel very different from another.
 
 END READER ARTICLE
-
