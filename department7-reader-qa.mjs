@@ -51,8 +51,44 @@ for (const slug of slugs) {
   }
 }
 
+const inventory = {
+  'fundamentals/index.html': [
+    'what-is-wine','how-wine-is-made','red-wine-vs-white-wine','what-is-rose','what-is-sparkling-wine','what-is-sweet-wine','what-is-fortified-wine','what-is-natural-wine','what-is-organic-wine','what-is-biodynamic-wine','how-to-taste-wine','wine-serving-temperature-explained','when-to-decant-wine','how-to-store-open-wine','how-to-cellar-wine','what-is-cork-taint','what-is-oxidation-in-wine','how-to-read-a-wine-label'
+  ],
+  'grapes/index.html': [
+    'what-is-pinot-noir','what-is-shiraz','what-is-chardonnay','what-is-pinot-gris-pinot-grigio','what-is-sauvignon-blanc','what-is-riesling','what-is-cabernet-sauvignon','what-is-merlot','what-is-grenache','what-is-sangiovese','what-is-nebbiolo','what-is-tempranillo'
+  ],
+  'regions/index.html': [
+    'tasmania-wine-region','mornington-peninsula-wine-region','yarra-valley-wine-region','adelaide-hills-wine-region','barossa-valley-wine-region','mclaren-vale-wine-region','margaret-river-wine-region','hunter-valley-wine-region'
+  ],
+  'winemaking/index.html': [
+    'what-is-fermentation','what-does-oak-do-to-wine','what-is-terroir','how-climate-affects-wine'
+  ],
+};
+
 const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
-for (const slug of slugs) if (!sitemap.includes(`https://winedaddy.com.au/${slug}/`)) errors.push(`${slug}: sitemap entry missing`);
+let canonicalCount = 0;
+for (const [hubFile, hubSlugs] of Object.entries(inventory)) {
+  if (!fs.existsSync(hubFile)) {
+    errors.push(`${hubFile}: hub missing`);
+    continue;
+  }
+  const hub = fs.readFileSync(hubFile, 'utf8');
+  for (const slug of hubSlugs) {
+    canonicalCount += 1;
+    if (!existsForRoute(`/${slug}/`)) errors.push(`${slug}: canonical article page missing`);
+    if (!hub.includes(`href="/${slug}/"`)) errors.push(`${slug}: not discoverable from ${hubFile}`);
+    if (!sitemap.includes(`https://winedaddy.com.au/${slug}/`)) errors.push(`${slug}: sitemap entry missing`);
+  }
+}
+if (canonicalCount !== 42) errors.push(`canonical inventory expected 42 articles; found ${canonicalCount}`);
+for (const hub of ['/fundamentals/','/grapes/','/regions/','/winemaking/']) {
+  if (!sitemap.includes(`https://winedaddy.com.au${hub}`)) errors.push(`${hub}: hub sitemap entry missing`);
+}
+const homepage = fs.readFileSync('index.html', 'utf8');
+for (const hub of ['/fundamentals/','/grapes/','/regions/','/winemaking/']) {
+  if (!homepage.includes(`href="${hub}"`)) errors.push(`${hub}: not linked from homepage`);
+}
 const headers = fs.readFileSync('_headers', 'utf8');
 if (!/X-Robots-Tag:\s*noindex,\s*nofollow/i.test(headers)) errors.push('preview noindex header missing');
 
@@ -60,4 +96,4 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Department 7 Deployment QA passed for ${slugs.length}/20 articles under WDOS runtime contract 1.6.`);
+console.log(`Department 7 Deployment QA passed: ${slugs.length}/20 current-batch reader pages plus 42/42 canonical articles discoverable through site hubs.`);
