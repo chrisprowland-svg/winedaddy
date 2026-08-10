@@ -8,6 +8,7 @@ on:
       - 'sanitize-reader-source.mjs'
       - 'department7-reader-qa.mjs'
       - '.github/workflows/rebuild-wd7-preview.yml'
+      - '.wd7-rebuild-trigger'
   workflow_dispatch:
 
 permissions:
