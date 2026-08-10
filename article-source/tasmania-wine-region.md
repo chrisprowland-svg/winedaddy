@@ -210,5 +210,3 @@ Cool growing conditions can help preserve the acidity and structure needed for s
 - [What is Pinot Gris / Pinot Grigio?](/what-is-pinot-gris-pinot-grigio/)
 - [Yarra Valley wine region](/regions/yarra-valley.html)
 - [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
-
-END READER ARTICLE
