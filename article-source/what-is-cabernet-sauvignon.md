@@ -160,5 +160,3 @@ Some Cabernet Sauvignon can age for many years because of its acidity, tannin, c
 ### What is the simplest way to understand Cabernet Sauvignon?
 
 Think of it as a red grape that often combines **dark fruit, freshness and structure**. Once you know that, the region, oak and age help explain why one Cabernet Sauvignon may feel very different from another.
-
-END READER ARTICLE
