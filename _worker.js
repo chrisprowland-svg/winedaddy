@@ -5,8 +5,20 @@ export default {
     if (!type.includes('text/html')) return response;
 
     let html = await response.text();
+    const articleMatchBefore = html.match(/<article\b[^>]*>[\s\S]*?<\/article>/i);
 
-    // PR #27 reader boundary: strip only internal material inside the article
+    // Non-article pages (homepage, hubs, about, contact, etc.) are outside the
+    // article reader-boundary contract. Preserve them unchanged apart from the
+    // protected preview headers.
+    if (!articleMatchBefore) {
+      const headers = new Headers(response.headers);
+      headers.set('X-Robots-Tag', 'noindex, nofollow');
+      headers.set('X-WineDaddy-QA', 'non-article-pass');
+      headers.delete('content-length');
+      return new Response(html, {status: response.status, statusText: response.statusText, headers});
+    }
+
+    // PR #27 reader boundary: strip only internal material inside an article
     // before the approved Highlights section. Keep the page hero and <head>
     // metadata intact.
     html = html.replace(
@@ -14,9 +26,6 @@ export default {
       '$1$2'
     );
 
-    // Runtime QA must inspect reader article content only. The page hero can
-    // legitimately repeat the public title/description and must not trigger a
-    // raw-metadata false positive.
     const articleMatch = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i);
     const articleHtml = articleMatch ? articleMatch[1] : '';
     const visibleArticle = articleHtml
@@ -29,7 +38,7 @@ export default {
       .replace(/\s+/g, ' ')
       .trim();
 
-    if (!/<section class="highlights">/i.test(html)) {
+    if (!/<section class="highlights">/i.test(articleHtml)) {
       return new Response('Department 7 reader-boundary QA blocked this preview page.', {
         status: 500,
         headers: {'content-type': 'text/plain; charset=utf-8', 'x-winedaddy-qa': 'reader-boundary-fail'}
