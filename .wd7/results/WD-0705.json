@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0705",
+  "slug": "wine-and-spicy-food-pairing",
+  "canonical": "https://winedaddy.com.au/wine-and-spicy-food-pairing/",
+  "title": "Wine and Spicy Food Pairing: How to Choose the Right Wine",
+  "description": "Learn how to pair wine with chilli-hot food by matching sweetness, acidity, alcohol, tannin, body and bubbles to the complete dish.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T11:32:35.221Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T11:32:35.256Z"
+}
