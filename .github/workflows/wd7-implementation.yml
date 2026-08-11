@@ -27,6 +27,9 @@ jobs:
         run: |
           for job in .wd7/jobs/*.json; do
             node wd7-implement.mjs "$job"
+          done
+          node wd7-finalize.mjs
+          for job in .wd7/jobs/*.json; do
             node wd7-qa.mjs "$job"
           done
           node build-search-index.mjs
@@ -36,8 +39,8 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add article-source .wd7/results sitemap.xml search-index.json fundamentals/index.html grapes/index.html regions/index.html winemaking/index.html
           for result in .wd7/results/*.json; do
-            slug=$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).slug")
-            git add "$slug/index.html"
+            output_path=$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).output_path || JSON.parse(require('fs').readFileSync('$result','utf8')).slug + '/index.html'")
+            git add "$output_path"
           done
           if git diff --cached --quiet; then
             echo 'No implementation changes to commit.'
