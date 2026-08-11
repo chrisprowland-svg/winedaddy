@@ -5,7 +5,7 @@ const inputPath = process.argv[2];
 const job = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 const resultPath = `.wd7/results/${job.job_id}.json`;
 const result = JSON.parse(fs.readFileSync(resultPath, 'utf8'));
-const {slug, canonical} = result;
+const {slug, canonical, section} = result;
 const html = fs.readFileSync(path.join(slug, 'index.html'), 'utf8');
 const source = fs.readFileSync(path.join('article-source', `${slug}.md`), 'utf8');
 const errors = [];
@@ -15,7 +15,7 @@ requireMatch(new RegExp(`<link rel="canonical" href="${canonical.replace(/[.*+?^
 requireMatch(/<script type="application\/ld\+json">/i, 'JSON-LD missing');
 requireMatch(/G-M281DG8YTP/i, 'Google Analytics missing');
 requireMatch(/1085436810811087/i, 'Meta Pixel missing');
-requireMatch(/<h2>Highlights<\/h2>/i, 'Highlights missing');
+requireMatch(/<h2>[^<]*Highlights<\/h2>/i, 'Highlights missing');
 if ((html.match(/<h1(?:\s|>)/gi)||[]).length !== 1) errors.push('expected exactly one H1');
 if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|Canonical URL:|## Front matter/i.test(html + source)) errors.push('internal workflow material leaked');
 for (const match of html.matchAll(/href="(\/[^"#?]+)[^\"]*"/g)) {
@@ -24,7 +24,8 @@ for (const match of html.matchAll(/href="(\/[^"#?]+)[^\"]*"/g)) {
   if (!exists) errors.push(`broken internal link ${route}`);
 }
 if (!fs.readFileSync('sitemap.xml','utf8').includes(`<loc>${canonical}</loc>`)) errors.push('sitemap entry missing');
-if (!fs.readFileSync('fundamentals/index.html','utf8').includes(`href="/${slug}/"`)) errors.push('fundamentals hub link missing');
+if (!['fundamentals','grapes','regions','winemaking'].includes(section)) errors.push('invalid website section');
+else if (!fs.readFileSync(`${section}/index.html`,'utf8').includes(`href="/${slug}/"`)) errors.push(`${section} hub link missing`);
 if (!/X-Robots-Tag:\s*noindex,\s*nofollow/i.test(fs.readFileSync('_headers','utf8'))) errors.push('preview noindex header missing');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 Object.assign(result,{qa_status:'passed',qa_checks:['build','reader-boundary','canonical','schema','analytics','internal-links','sitemap','hub-discoverability','preview-noindex'],qa_passed_at:new Date().toISOString()});
