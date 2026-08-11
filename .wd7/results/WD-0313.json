@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/clare-valley-wine-region/",
   "title": "Clare Valley wine region: Riesling, red wines and the landscape",
   "description": "Learn what Clare Valley is known for, from dry Riesling and structured red wines to its elevated landscape, cold nights and varied vineyard sites.",
+  "section": "regions",
   "qa_status": "passed",
-  "built_at": "2026-08-11T08:02:09.637Z",
+  "built_at": "2026-08-11T08:54:10.228Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T08:02:09.671Z"
+  "qa_passed_at": "2026-08-11T08:54:10.259Z"
 }
