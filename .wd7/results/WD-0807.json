@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0807",
+  "slug": "why-wine-prices-vary",
+  "canonical": "https://winedaddy.com.au/why-wine-prices-vary/",
+  "title": "Why Wine Prices Vary — And Whether Expensive Wine Is Better",
+  "description": "Wine prices reflect grapes, farming, winemaking, packaging, freight, taxes, reputation and demand. Learn how to judge wine value without assuming expensive means better.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T09:57:49.410Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T09:57:49.446Z"
+}
