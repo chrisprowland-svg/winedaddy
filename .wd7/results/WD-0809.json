@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0809",
+  "slug": "how-to-understand-wine-reviews",
+  "canonical": "https://winedaddy.com.au/how-to-understand-wine-reviews/",
+  "canonical_path": "/how-to-understand-wine-reviews/",
+  "output_path": "how-to-understand-wine-reviews/index.html",
+  "title": "How to Understand Wine Reviews",
+  "hub_title": "How to Understand Wine Reviews",
+  "description": "Learn how to read wine tasting notes and scores, understand common review language, and decide whether a wine’s style may suit your taste.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:13.769Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.960Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0214",
+  "slug": "pinot-gris-vs-pinot-grigio",
+  "canonical": "https://winedaddy.com.au/pinot-gris-vs-pinot-grigio/",
+  "canonical_path": "/pinot-gris-vs-pinot-grigio/",
+  "output_path": "pinot-gris-vs-pinot-grigio/index.html",
+  "title": "Pinot Gris vs Pinot Grigio: What’s the Difference?",
+  "hub_title": "Pinot Gris vs Pinot Grigio",
+  "description": "Pinot Gris and Pinot Grigio are names for the same grape. Learn how regional traditions can suggest different styles, why Australian examples overlap, and how to choose a bottle.",
+  "section": "grapes",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:10.543Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.140Z"
+}

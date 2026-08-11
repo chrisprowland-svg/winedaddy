@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0707",
+  "slug": "chardonnay-food-pairing",
+  "canonical": "https://winedaddy.com.au/chardonnay-food-pairing/",
+  "canonical_path": "/chardonnay-food-pairing/",
+  "output_path": "chardonnay-food-pairing/index.html",
+  "title": "Chardonnay Food Pairing: What to Eat with Every Style",
+  "hub_title": "Chardonnay Food Pairing: What to Eat with Every Style",
+  "description": "Learn what food pairs with fresh, unoaked, textured and oaked Chardonnay, from oysters and prawns to roast chicken, pork, salmon, creamy sauces and cheese.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:13.117Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.626Z"
+}

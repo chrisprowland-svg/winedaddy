@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0406",
+  "slug": "what-is-sweetness-in-wine",
+  "canonical": "https://winedaddy.com.au/what-is-sweetness-in-wine/",
+  "canonical_path": "/what-is-sweetness-in-wine/",
+  "output_path": "what-is-sweetness-in-wine/index.html",
+  "title": "What Is Sweetness in Wine?",
+  "hub_title": "What Is Sweetness in Wine?",
+  "description": "Learn what sweetness means in wine, how residual sugar affects the palate, and why a fruity wine can still be technically dry.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:11.392Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.620Z"
+}

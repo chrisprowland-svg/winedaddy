@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0213",
+  "slug": "syrah-vs-shiraz",
+  "canonical": "https://winedaddy.com.au/syrah-vs-shiraz/",
+  "canonical_path": "/syrah-vs-shiraz/",
+  "output_path": "syrah-vs-shiraz/index.html",
+  "title": "Syrah vs Shiraz: Are They the Same Grape?",
+  "hub_title": "Syrah vs Shiraz",
+  "description": "Syrah and Shiraz are generally names for the same grape. Learn why the names differ, what Australian labels mean and how climate and winemaking shape the style.",
+  "section": "grapes",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:10.456Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.089Z"
+}

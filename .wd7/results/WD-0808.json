@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0808",
+  "slug": "does-vintage-matter",
+  "canonical": "https://winedaddy.com.au/does-vintage-matter/",
+  "canonical_path": "/does-vintage-matter/",
+  "output_path": "does-vintage-matter/index.html",
+  "title": "Does Vintage Matter in Wine?",
+  "hub_title": "Does Vintage Matter in Wine?",
+  "description": "Learn what a wine vintage means, when weather and region make it important, and why an older or highly rated vintage is not automatically better.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:13.693Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.914Z"
+}

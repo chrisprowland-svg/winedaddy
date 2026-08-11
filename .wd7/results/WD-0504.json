@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0504",
+  "slug": "what-does-yeast-do-in-wine",
+  "canonical": "https://winedaddy.com.au/what-does-yeast-do-in-wine/",
+  "canonical_path": "/what-does-yeast-do-in-wine/",
+  "output_path": "what-does-yeast-do-in-wine/index.html",
+  "title": "What Does Yeast Do in Wine?",
+  "hub_title": "What Does Yeast Do in Wine?",
+  "description": "Yeast turns grape sugar into alcohol, carbon dioxide and heat during fermentation. Learn how yeast affects wine aroma, texture and style.",
+  "section": "winemaking",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:11.803Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.890Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0312",
+  "slug": "coonawarra-wine-region",
+  "canonical": "https://winedaddy.com.au/coonawarra-wine-region/",
+  "canonical_path": "/coonawarra-wine-region/",
+  "output_path": "coonawarra-wine-region/index.html",
+  "title": "Coonawarra Wine Region: What It Is Known For and What Its Wines Taste Like",
+  "hub_title": "Coonawarra",
+  "description": "Learn what Coonawarra is known for, from Cabernet Sauvignon and terra rossa soils to its cool maritime climate, regional wine styles and label meaning.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:10.871Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.321Z"
+}

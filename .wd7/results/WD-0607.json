@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0607",
+  "slug": "does-wine-improve-with-age",
+  "canonical": "https://winedaddy.com.au/does-wine-improve-with-age/",
+  "canonical_path": "/does-wine-improve-with-age/",
+  "output_path": "does-wine-improve-with-age/index.html",
+  "title": "Does Wine Improve With Age?",
+  "hub_title": "Does Wine Improve With Age?",
+  "description": "Some wine improves with age, but older does not automatically mean better. Learn what influences ageing potential, how storage affects maturity and how to assess an older bottle.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:12.462Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.205Z"
+}

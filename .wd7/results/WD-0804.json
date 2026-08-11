@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0804",
+  "slug": "what-is-brettanomyces",
+  "canonical": "https://winedaddy.com.au/what-is-brettanomyces/",
+  "canonical_path": "/what-is-brettanomyces/",
+  "output_path": "what-is-brettanomyces/index.html",
+  "title": "What Is Brettanomyces in Wine?",
+  "hub_title": "What Is Brettanomyces in Wine?",
+  "description": "Brettanomyces, or “Brett”, is a yeast that can change wine’s aroma and flavour. Learn what Brett smells like, when it is a fault and how it differs from other wine faults.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:13.398Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.769Z"
+}

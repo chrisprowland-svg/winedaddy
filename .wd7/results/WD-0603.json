@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0603",
+  "slug": "wine-glass-types-explained",
+  "canonical": "https://winedaddy.com.au/wine-glass-types-explained/",
+  "canonical_path": "/wine-glass-types-explained/",
+  "output_path": "wine-glass-types-explained/index.html",
+  "title": "Wine Glass Types Explained: Which Glass Should You Use?",
+  "hub_title": "Wine Glass Types Explained: Which Glass Should You Use?",
+  "description": "Learn how wine-glass shape affects aroma and drinking experience, and choose practical glassware for red, white, sparkling, sweet and fortified wine.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:12.308Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.113Z"
+}

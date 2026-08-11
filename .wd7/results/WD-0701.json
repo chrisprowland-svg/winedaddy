@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0701",
+  "slug": "how-wine-pairing-works",
+  "canonical": "https://winedaddy.com.au/how-wine-pairing-works/",
+  "canonical_path": "/how-wine-pairing-works/",
+  "output_path": "how-wine-pairing-works/index.html",
+  "title": "How Wine Pairing Works: A Simple Guide to Choosing Wine with Food",
+  "hub_title": "How Wine Pairing Works: A Simple Guide to Choosing Wine with Food",
+  "description": "Learn how wine pairing works by matching intensity, acidity, sweetness, tannin and texture with the food on your plate, plus a simple method for choosing wine.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:12.617Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.312Z"
+}
