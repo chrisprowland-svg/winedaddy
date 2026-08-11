@@ -11,7 +11,7 @@ const editorial = String(job.editorial_output || '');
 const reader = editorial.match(/BEGIN READER ARTICLE\s*([\s\S]*?)\s*END READER ARTICLE/i)?.[1]?.trim();
 if (!reader) throw new Error(`${job.job_id}: approved reader article boundary missing`);
 const metadata = editorial.match(/## Front matter and metadata\s*([\s\S]*?)\n## /i)?.[1] || '';
-const field = name => metadata.match(new RegExp(`- \\*\\*${name}:\\*\\*\\s*(.+)`, 'i'))?.[1]?.replace(/^`|`$/g, '').trim();
+const field = name => metadata.match(new RegExp(`^\\s*-\\s+(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+)$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
 const title = field('Title') || reader.match(/^#\s+(.+)$/m)?.[1];
 const description = field('Description');
 const slug = field('Slug');
