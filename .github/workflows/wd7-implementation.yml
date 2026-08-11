@@ -6,6 +6,7 @@ on:
       - 'agent/wd7-*'
     paths:
       - '.wd7/jobs/*.json'
+      - 'wd7-implement.mjs'
 
 permissions:
   contents: write
