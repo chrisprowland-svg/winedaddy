@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/what-is-volatile-acidity/",
   "title": "What Is Volatile Acidity in Wine?",
   "description": "Learn what volatile acidity means in wine, how acetic acid and ethyl acetate smell, when VA is acceptable or faulty, and how it differs from ordinary wine acidity.",
+  "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T08:02:51.485Z",
+  "built_at": "2026-08-11T08:55:20.859Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T08:02:51.522Z"
+  "qa_passed_at": "2026-08-11T08:55:20.890Z"
 }
