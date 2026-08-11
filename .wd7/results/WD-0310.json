@@ -1,0 +1,21 @@
+{
+  "job_id": "WD-0310",
+  "slug": "geelong-wine-region",
+  "canonical": "https://winedaddy.com.au/geelong-wine-region/",
+  "title": "Geelong wine region: what it is known for and what to expect",
+  "description": "Learn where the Geelong wine region is, what its cool maritime climate means, and why Pinot Noir, Shiraz and Chardonnay are central to its identity.",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T08:01:56.961Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T08:01:56.994Z"
+}
