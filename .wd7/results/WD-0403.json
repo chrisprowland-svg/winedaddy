@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/what-is-wine-body/",
   "title": "What Is Wine Body? A Beginner’s Guide to Light-, Medium- and Full-Bodied Wine",
   "description": "Wine body describes how heavy, full or textured wine feels in your mouth. Learn to recognise light-, medium- and full-bodied wine and avoid common misconceptions.",
+  "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T08:02:09.136Z",
+  "built_at": "2026-08-11T08:54:16.185Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T08:02:09.170Z"
+  "qa_passed_at": "2026-08-11T08:54:16.216Z"
 }
