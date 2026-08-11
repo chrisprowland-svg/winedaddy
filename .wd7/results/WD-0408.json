@@ -5,7 +5,7 @@
   "title": "What Is Balance in Wine? A Beginner’s Guide",
   "description": "Learn what balance means in wine, how acidity, sweetness, alcohol, tannin, fruit and texture work together, and how to recognise balance when tasting.",
   "qa_status": "passed",
-  "built_at": "2026-08-11T07:54:41.214Z",
+  "built_at": "2026-08-11T08:02:26.589Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +17,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T07:54:41.252Z"
+  "qa_passed_at": "2026-08-11T08:02:26.621Z"
 }
