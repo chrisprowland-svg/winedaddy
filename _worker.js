@@ -30,7 +30,7 @@ export default {
     );
     const subscribeBox = '<section class="subscribe"><div><p class="kicker">Stay curious</p><h2>Wine knowledge, occasionally.</h2><p>New guides and useful wine explanations. No noise.</p></div><form class="subscribe-form" action="/api/subscribe" method="post"><label for="subscribe-email">Email address</label><div class="subscribe-row"><input id="subscribe-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"><button type="submit">Subscribe</button></div><label class="consent"><input name="consent" type="checkbox" value="yes" required> I agree to receive WineDaddy emails and can unsubscribe at any time.</label><input class="subscribe-trap" name="company" type="text" tabindex="-1" autocomplete="off" aria-hidden="true"><input name="source" type="hidden" value="footer"><p class="subscribe-status" aria-live="polite"></p></form></section>';
     html = html.replace(/<footer class="footer">/i, `${subscribeBox}<footer class="footer">`);
-    if (url.pathname === '/privacy.html') {
+    if (url.pathname === '/privacy' || url.pathname === '/privacy.html') {
       html = html.replace('<h2>Your information</h2>', '<h2>Email subscriptions</h2><p>If you subscribe, WineDaddy stores your email address, consent date and the page or form used to subscribe. We use this information only to send WineDaddy updates you requested. You can unsubscribe at any time, and WineDaddy does not sell subscriber information.</p><h2>Your information</h2>');
     }
 
