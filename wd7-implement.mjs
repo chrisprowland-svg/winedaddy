@@ -30,11 +30,18 @@ body = body.replace(/<h2>([^<]*highlights)<\/h2>([\s\S]*?<\/ul>)/i, '<section cl
 body = body.replace(/<table>/g, '<table class="article-table">');
 
 const shortTitle = reader.match(/^#\s+(.+)$/m)?.[1] || title;
+const epic = job.job_id.slice(3, 5);
+const sections = {
+  '02': {slug:'grapes', name:'Grapes'},
+  '03': {slug:'regions', name:'Regions'},
+  '05': {slug:'winemaking', name:'Winemaking'}
+};
+const section = sections[epic] || {slug:'fundamentals', name:'Wine Fundamentals'};
 const nav = '<header class="site-header"><nav class="nav"><a class="logo" href="/">Wine<span>Daddy</span></a><button class="menu" aria-label="Toggle menu">Menu</button><div class="nav-links"><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a><a href="/about.html">About</a></div></nav></header>';
 const footer = '<footer class="footer"><div class="footer-inner"><div><a class="logo" href="/">Wine<span>Daddy</span></a><p class="small">Clear, useful wine knowledge without the theatre.</p></div><div><b>Explore</b><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a></div><div><b>WineDaddy</b><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a></div></div></footer>';
 const analytics = '<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-M281DG8YTP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag(\'js\',new Date());gtag(\'config\',\'G-M281DG8YTP\');</script><!-- Meta Pixel Code --><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=\'2.0\';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,\'script\',\'https://connect.facebook.net/en_US/fbevents.js\');fbq(\'init\',\'1085436810811087\');fbq(\'track\',\'PageView\');</script><!-- End Meta Pixel Code -->';
-const schema = JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'Article',headline:title,description,mainEntityOfPage:canonical,articleSection:'Wine fundamentals',inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://winedaddy.com.au/'},{'@type':'ListItem',position:2,name:shortTitle,item:canonical}]}]});
-const html = `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${analytics}<title>${escapeHtml(title)} | WineDaddy</title><meta name="description" content="${escapeHtml(description)}"><link rel="canonical" href="${canonical}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:type" content="article"><meta property="og:url" content="${canonical}"><meta property="og:site_name" content="WineDaddy"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">${schema}</script></head><body><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1085436810811087&amp;ev=PageView&amp;noscript=1" alt=""></noscript>${nav}<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / Wine Fundamentals</p><p class="eyebrow">Wine fundamentals</p><h1>${escapeHtml(shortTitle)}</h1><p class="lede">${escapeHtml(description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}</article></main>${footer}<script src="/assets/script.js"></script></body></html>`;
+const schema = JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'Article',headline:title,description,mainEntityOfPage:canonical,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://winedaddy.com.au/'},{'@type':'ListItem',position:2,name:section.name,item:`https://winedaddy.com.au/${section.slug}/`},{'@type':'ListItem',position:3,name:shortTitle,item:canonical}]}]});
+const html = `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${analytics}<title>${escapeHtml(title)} | WineDaddy</title><meta name="description" content="${escapeHtml(description)}"><link rel="canonical" href="${canonical}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:type" content="article"><meta property="og:url" content="${canonical}"><meta property="og:site_name" content="WineDaddy"><link rel="stylesheet" href="/assets/styles.css"><script type="application/ld+json">${schema}</script></head><body><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1085436810811087&amp;ev=PageView&amp;noscript=1" alt=""></noscript>${nav}<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${section.slug}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(shortTitle)}</h1><p class="lede">${escapeHtml(description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}</article></main>${footer}<script src="/assets/script.js"></script></body></html>`;
 
 fs.mkdirSync(path.join(slug), {recursive:true});
 fs.mkdirSync('article-source', {recursive:true});
@@ -46,16 +53,17 @@ let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 if (!sitemap.includes(`<loc>${canonical}</loc>`)) sitemap = sitemap.replace('</urlset>', `  <url><loc>${canonical}</loc></url>\n</urlset>`);
 fs.writeFileSync(sitemapPath, sitemap);
 
-const hubPath = 'fundamentals/index.html';
+const hubPath = `${section.slug}/index.html`;
 let hub = fs.readFileSync(hubPath, 'utf8');
 if (!hub.includes(`href="/${slug}/"`)) {
   const card = `<a class="card" href="/${slug}/"><div><h3>${escapeHtml(shortTitle)}</h3><p>${escapeHtml(description)}</p></div><b>Read guide →</b></a>`;
-  const anchor = '<a class="card" href="/wine-serving-temperature-explained/">';
-  if (!hub.includes(anchor)) throw new Error('fundamentals hub insertion anchor missing');
-  hub = hub.replace(anchor, `${card}${anchor}`);
+  const anchor = '</div></section></main>';
+  const position = hub.lastIndexOf(anchor);
+  if (position < 0) throw new Error(`${section.slug} hub insertion anchor missing`);
+  hub = `${hub.slice(0, position)}${card}${hub.slice(position)}`;
 }
 fs.writeFileSync(hubPath, hub);
 
 fs.mkdirSync('.wd7/results', {recursive:true});
-fs.writeFileSync(`.wd7/results/${job.job_id}.json`, JSON.stringify({job_id:job.job_id,slug,canonical,title,description,qa_status:'built',built_at:new Date().toISOString()}, null, 2));
+fs.writeFileSync(`.wd7/results/${job.job_id}.json`, JSON.stringify({job_id:job.job_id,slug,canonical,title,description,section:section.slug,qa_status:'built',built_at:new Date().toISOString()}, null, 2));
 console.log(`WD7 implementation built ${job.job_id} at /${slug}/`);
