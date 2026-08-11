@@ -29,7 +29,6 @@ export default {
     // Blocking QA belongs to the deterministic Department 7 build step. The
     // serving Worker enforces the reader boundary and navigation only.
     const headers = new Headers(response.headers);
-    headers.set('X-Robots-Tag', 'noindex, nofollow');
     headers.set('X-WineDaddy-QA', isArticle ? 'reader-boundary-enforced' : 'non-article-pass');
     headers.delete('content-length');
     return new Response(html, {status: response.status, statusText: response.statusText, headers});
