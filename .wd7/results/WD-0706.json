@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0706",
+  "slug": "pinot-noir-food-pairing",
+  "canonical": "https://winedaddy.com.au/pinot-noir-food-pairing/",
+  "canonical_path": "/pinot-noir-food-pairing/",
+  "output_path": "pinot-noir-food-pairing/index.html",
+  "title": "Pinot Noir Food Pairing: What to Eat with Pinot Noir",
+  "hub_title": "Pinot Noir Food Pairing: What to Eat with Pinot Noir",
+  "description": "Discover what food pairs with Pinot Noir, from roast chicken and duck to salmon, mushrooms and cheese, with simple guidance for matching the wine’s style to the dish.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:13.013Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.571Z"
+}

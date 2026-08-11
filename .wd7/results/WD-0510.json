@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0510",
+  "slug": "what-are-wine-grape-clones",
+  "canonical": "https://winedaddy.com.au/what-are-wine-grape-clones/",
+  "canonical_path": "/what-are-wine-grape-clones/",
+  "output_path": "what-are-wine-grape-clones/index.html",
+  "title": "What Are Wine Grape Clones?",
+  "hub_title": "What Are Wine Grape Clones?",
+  "description": "Wine grape clones are selected vine lines within a grape variety. Learn how clones differ from varieties and rootstocks, why growers use them and what they can—and cannot—tell you about wine style.",
+  "section": "winemaking",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:12.161Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.069Z"
+}

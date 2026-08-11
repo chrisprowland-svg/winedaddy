@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0702",
+  "slug": "wine-and-cheese-pairing",
+  "canonical": "https://winedaddy.com.au/wine-and-cheese-pairing/",
+  "canonical_path": "/wine-and-cheese-pairing/",
+  "output_path": "wine-and-cheese-pairing/index.html",
+  "title": "Wine and Cheese Pairing: How to Choose a Wine for Any Cheese Board",
+  "hub_title": "Wine and Cheese Pairing: How to Choose a Wine for Any Cheese Board",
+  "description": "Learn how to pair wine and cheese by matching salt, creaminess, texture, intensity and maturity with wine acidity, sweetness, tannin and body. Includes practical pairings for fresh, soft, washed-rind, hard, aged and blue cheeses.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:12.716Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:29.367Z"
+}

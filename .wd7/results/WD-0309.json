@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0309",
+  "slug": "macedon-ranges-wine-region",
+  "canonical": "https://winedaddy.com.au/macedon-ranges-wine-region/",
+  "canonical_path": "/macedon-ranges-wine-region/",
+  "output_path": "macedon-ranges-wine-region/index.html",
+  "title": "Macedon Ranges Wine Region: A Beginner’s Guide",
+  "hub_title": "Macedon Ranges",
+  "description": "Learn where the Macedon Ranges wine region is, why its elevated cool climate matters, and what to expect from its Pinot Noir, Chardonnay, Riesling, Shiraz and other wines.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T12:06:10.628Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T12:06:28.187Z"
+}
