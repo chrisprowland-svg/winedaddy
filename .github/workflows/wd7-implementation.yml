@@ -28,11 +28,12 @@ jobs:
             node wd7-implement.mjs "$job"
             node wd7-qa.mjs "$job"
           done
+          node build-search-index.mjs
       - name: Commit protected preview
         run: |
           git config user.name 'winedaddy-deployment-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add article-source .wd7/results sitemap.xml fundamentals/index.html
+          git add article-source .wd7/results sitemap.xml search-index.json fundamentals/index.html
           for result in .wd7/results/*.json; do
             slug=$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).slug")
             git add "$slug/index.html"
