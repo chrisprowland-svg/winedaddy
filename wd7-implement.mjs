@@ -8,10 +8,12 @@ const job = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 if (!/^WD-\d{4}$/.test(job.job_id || '')) throw new Error('invalid job_id');
 
 const editorial = String(job.editorial_output || '');
-const reader = editorial.match(/BEGIN READER ARTICLE\s*([\s\S]*?)\s*END READER ARTICLE/i)?.[1]?.trim();
+let reader = editorial.match(/BEGIN READER ARTICLE\s*([\s\S]*?)\s*END READER ARTICLE/i)?.[1]?.trim();
 if (!reader) throw new Error(`${job.job_id}: approved reader article boundary missing`);
+// Keep explicitly deferred routes as text until their target is actually present.
+reader = reader.replace(/\[([^\]]+)\]\(\/[^)]+\),\s*when available/gi, '$1, when available');
 const metadata = editorial.match(/## Front matter and metadata\s*([\s\S]*?)\n## /i)?.[1] || '';
-const field = name => metadata.match(new RegExp(`^\\s*-\\s+(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+)$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
+const field = name => metadata.match(new RegExp(`^\\s*(?:-\\s+)?(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+?)\\s*$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
 const title = field('Title') || reader.match(/^#\s+(.+)$/m)?.[1];
 const description = field('Description');
 const slug = field('Slug');
@@ -24,7 +26,7 @@ if (reader.includes('INTERNAL EDITORIAL APPENDIX') || /\*\*(?:Canonical|Audience
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 let body = marked.parse(reader).replace(/^<h1>.*?<\/h1>\s*/s, '');
 body = body.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>');
-body = body.replace(/<h2>Highlights<\/h2>([\s\S]*?<\/ul>)/, '<section class="highlights"><h2>Highlights</h2>$1</section>');
+body = body.replace(/<h2>([^<]*highlights)<\/h2>([\s\S]*?<\/ul>)/i, '<section class="highlights"><h2>$1</h2>$2</section>');
 body = body.replace(/<table>/g, '<table class="article-table">');
 
 const shortTitle = reader.match(/^#\s+(.+)$/m)?.[1] || title;
