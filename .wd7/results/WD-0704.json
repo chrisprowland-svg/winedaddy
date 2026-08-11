@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0704",
+  "slug": "wine-and-seafood-pairing",
+  "canonical": "https://winedaddy.com.au/wine-and-seafood-pairing/",
+  "title": "Wine and Seafood Pairing: What Wine Goes Best With Seafood?",
+  "description": "Learn how to pair wine with oysters, fish, prawns, shellfish, salmon, fried seafood and spicy seafood by considering preparation, sauce, richness and texture.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T11:31:41.876Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T11:31:41.906Z"
+}
