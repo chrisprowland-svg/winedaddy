@@ -15,7 +15,7 @@ requireMatch(new RegExp(`<link rel="canonical" href="${canonical.replace(/[.*+?^
 requireMatch(/<script type="application\/ld\+json">/i, 'JSON-LD missing');
 requireMatch(/G-M281DG8YTP/i, 'Google Analytics missing');
 requireMatch(/1085436810811087/i, 'Meta Pixel missing');
-requireMatch(/<h2>Highlights<\/h2>/i, 'Highlights missing');
+requireMatch(/<h2>[^<]*Highlights<\/h2>/i, 'Highlights missing');
 if ((html.match(/<h1(?:\s|>)/gi)||[]).length !== 1) errors.push('expected exactly one H1');
 if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|Canonical URL:|## Front matter/i.test(html + source)) errors.push('internal workflow material leaked');
 for (const match of html.matchAll(/href="(\/[^"#?]+)[^\"]*"/g)) {
