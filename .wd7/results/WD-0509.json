@@ -1,0 +1,21 @@
+{
+  "job_id": "WD-0509",
+  "slug": "what-is-cold-soak",
+  "canonical": "https://winedaddy.com.au/what-is-cold-soak/",
+  "title": "What Is Cold Soak in Winemaking?",
+  "description": "Cold soak is a cool, pre-fermentation period of skin contact used mainly in red-wine production. Learn how it may influence colour, aroma, flavour and tannin.",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T08:02:38.262Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T08:02:38.297Z"
+}
