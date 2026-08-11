@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0703",
+  "slug": "wine-and-steak-pairing",
+  "canonical": "https://winedaddy.com.au/wine-and-steak-pairing/",
+  "title": "Wine and Steak Pairing: What Wine Goes Best with Steak?",
+  "description": "Learn how to pair wine with steak by considering the cut, cooking method, char, sauce and richness. Includes Australian Shiraz, Cabernet Sauvignon, Pinot Noir and alternatives.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T11:30:42.575Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T11:30:42.612Z"
+}
