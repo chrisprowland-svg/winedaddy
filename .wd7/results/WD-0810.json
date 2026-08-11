@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/screw-cap-vs-cork/",
   "title": "Screw Cap vs Cork: Which Is Better for Wine?",
   "description": "Screw cap or cork—which is better for wine? Learn how closures affect oxygen, ageing, cork taint, faults, sustainability and buying decisions in Australia.",
+  "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T08:04:44.621Z",
+  "built_at": "2026-08-11T08:55:26.255Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T08:04:44.661Z"
+  "qa_passed_at": "2026-08-11T08:55:26.289Z"
 }
