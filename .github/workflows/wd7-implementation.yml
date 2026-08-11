@@ -1,0 +1,45 @@
+name: WD7 autonomous implementation
+
+on:
+  push:
+    branches:
+      - 'agent/wd7-*'
+    paths:
+      - '.wd7/jobs/*.json'
+
+permissions:
+  contents: write
+
+jobs:
+  implement-and-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install deterministic renderer
+        run: npm install --no-save --no-package-lock marked
+      - name: Implement approved publication package
+        run: |
+          for job in .wd7/jobs/*.json; do
+            node wd7-implement.mjs "$job"
+            node wd7-qa.mjs "$job"
+          done
+      - name: Commit protected preview
+        run: |
+          git config user.name 'winedaddy-deployment-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add article-source .wd7/results sitemap.xml fundamentals/index.html
+          for result in .wd7/results/*.json; do
+            slug=$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).slug")
+            git add "$slug/index.html"
+          done
+          if git diff --cached --quiet; then
+            echo 'No implementation changes to commit.'
+          else
+            git commit -m 'Implement WD7 protected preview'
+            git push origin HEAD
+          fi
