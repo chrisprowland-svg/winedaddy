@@ -5,7 +5,7 @@
   "title": "Clare Valley wine region: Riesling, red wines and the landscape",
   "description": "Learn what Clare Valley is known for, from dry Riesling and structured red wines to its elevated landscape, cold nights and varied vineyard sites.",
   "qa_status": "passed",
-  "built_at": "2026-08-11T07:49:54.755Z",
+  "built_at": "2026-08-11T08:02:09.637Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +17,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T07:49:54.794Z"
+  "qa_passed_at": "2026-08-11T08:02:09.671Z"
 }
