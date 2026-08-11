@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0502",
+  "slug": "what-is-malolactic-fermentation",
+  "canonical": "https://winedaddy.com.au/what-is-malolactic-fermentation/",
+  "title": "What Is Malolactic Fermentation?",
+  "description": "Malolactic fermentation is a bacterial conversion that changes malic acid into lactic acid. Learn how it affects acidity, texture and aroma, why winemakers manage it, and why it matters in Australian red wine and Chardonnay.",
+  "section": "winemaking",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T09:29:45.759Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T09:29:45.781Z"
+}
