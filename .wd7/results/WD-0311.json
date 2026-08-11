@@ -5,7 +5,7 @@
   "title": "Gippsland wine region: where it is and what it is known for",
   "description": "Learn where Gippsland is, how its Victorian Geographical Indication works, and why Chardonnay, Pinot Noir, Shiraz and aromatic whites are associated with this diverse cool-climate wine region.",
   "qa_status": "passed",
-  "built_at": "2026-08-11T07:47:51.667Z",
+  "built_at": "2026-08-11T08:02:05.995Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +17,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T07:47:51.701Z"
+  "qa_passed_at": "2026-08-11T08:02:06.028Z"
 }
