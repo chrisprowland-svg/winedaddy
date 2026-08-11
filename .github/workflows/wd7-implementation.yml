@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'agent/wd7-*'
+      - 'agent/b-*'
+      - 'agent/batch-*'
     paths:
       - '.wd7/jobs/*.json'
       - 'wd7-implement.mjs'
