@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/how-to-open-sparkling-wine-safely/",
   "title": "How to Open Sparkling Wine Safely",
   "description": "Learn how to open a standard sparkling-wine bottle safely, with simple steps for chilling, controlling the cork, loosening the wire cage and avoiding flying corks.",
+  "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T08:02:40.298Z",
+  "built_at": "2026-08-11T08:55:05.699Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T08:02:40.331Z"
+  "qa_passed_at": "2026-08-11T08:55:05.733Z"
 }
