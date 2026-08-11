@@ -1,0 +1,21 @@
+{
+  "job_id": "WD-0404",
+  "slug": "what-is-acidity-in-wine",
+  "canonical": "https://winedaddy.com.au/what-is-acidity-in-wine/",
+  "title": "What Is Acidity in Wine? How It Affects Taste",
+  "description": "Learn what acidity in wine tastes like, how it differs from pH, sweetness and tannin, and how variety, climate and winemaking shape freshness and balance.",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T07:51:41.263Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T07:51:41.299Z"
+}
