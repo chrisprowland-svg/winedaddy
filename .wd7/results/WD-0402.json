@@ -4,8 +4,9 @@
   "canonical": "https://winedaddy.com.au/what-is-wine-aroma/",
   "title": "What Is Wine Aroma? A Beginner’s Guide to Smelling Wine",
   "description": "Learn what wine aroma means, how smell contributes to flavour, where aromas come from and how to identify them with a simple tasting method.",
+  "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T03:51:26.054Z",
+  "built_at": "2026-08-11T11:36:36.638Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -17,5 +18,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T03:51:26.085Z"
+  "qa_passed_at": "2026-08-11T11:36:36.672Z"
 }

@@ -1,0 +1,22 @@
+{
+  "job_id": "WD-0608",
+  "slug": "how-to-cellar-pinot-noir",
+  "canonical": "https://winedaddy.com.au/how-to-cellar-pinot-noir/",
+  "title": "How to Cellar Pinot Noir",
+  "description": "Learn how to cellar Pinot Noir at home, choose a suitable storage location and judge whether a particular bottle may improve with age.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-11T11:36:36.735Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-11T11:36:36.768Z"
+}
