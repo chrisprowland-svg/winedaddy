@@ -1,6 +1,7 @@
 name: WD7 autonomous implementation
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'agent/wd7-*'
@@ -9,6 +10,10 @@ on:
     paths:
       - '.wd7/jobs/*.json'
       - 'wd7-implement.mjs'
+
+concurrency:
+  group: wd7-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
