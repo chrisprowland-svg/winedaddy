@@ -14,6 +14,9 @@ if (!reader) throw new Error(`${job.job_id}: approved reader article boundary mi
 reader = reader.replace(/\[([^\]]+)\]\(\/[^)]+\),\s*when available/gi, '$1, when available');
 // Visual registry markers are production instructions, never reader content.
 reader = reader.replace(/^\s*\[VIS-\d{3}\s*(?:[—–-]|:)\s*[^\]]+\]\s*$/gim, '');
+// Preserve the Reader Experience Standard when an approved article uses an
+// equivalent summary label instead of the canonical site heading.
+reader = reader.replace(/^##\s+(?:.+\s+in brief|at a glance|quick facts)\s*$/im, '## Highlights');
 const appendix = editorial.split(/END READER ARTICLE/i)[1] || '';
 const metadata = editorial.match(/## Front matter and metadata\s*([\s\S]*?)\n## /i)?.[1] || appendix;
 const field = name => metadata.match(new RegExp(`^\\s*(?:-\\s+)?(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+?)\\s*$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
