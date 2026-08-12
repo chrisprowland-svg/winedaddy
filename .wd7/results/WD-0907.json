@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0907",
+  "slug": "langhorne-creek-wine-region",
+  "canonical": "https://winedaddy.com.au/langhorne-creek-wine-region/",
+  "canonical_path": "/langhorne-creek-wine-region/",
+  "output_path": "langhorne-creek-wine-region/index.html",
+  "title": "Langhorne Creek wine region: what it is known for",
+  "hub_title": "Langhorne Creek wine region: what it is known for",
+  "description": "Learn what Langhorne Creek is known for, including its Fleurieu-zone hierarchy, floodplain setting, maritime climate, main grape varieties and regional wine styles.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:10:04.702Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:10:06.522Z"
+}

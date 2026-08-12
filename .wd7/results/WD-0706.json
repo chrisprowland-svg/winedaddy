@@ -9,7 +9,7 @@
   "description": "Discover what food pairs with Pinot Noir, from roast chicken and duck to salmon, mushrooms and cheese, with simple guidance for matching the wine’s style to the dish.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T12:06:13.013Z",
+  "built_at": "2026-08-12T00:10:03.758Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T12:06:29.571Z"
+  "qa_passed_at": "2026-08-12T00:10:06.042Z"
 }

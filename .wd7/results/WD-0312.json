@@ -9,7 +9,7 @@
   "description": "Learn what Coonawarra is known for, from Cabernet Sauvignon and terra rossa soils to its cool maritime climate, regional wine styles and label meaning.",
   "section": "regions",
   "qa_status": "passed",
-  "built_at": "2026-08-11T12:06:10.871Z",
+  "built_at": "2026-08-12T00:10:01.917Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T12:06:28.321Z"
+  "qa_passed_at": "2026-08-12T00:10:05.119Z"
 }

@@ -9,7 +9,7 @@
   "description": "Discover what food pairs well with Shiraz, from Australian barbecue and steak to mushrooms and mature cheese, with practical guidance for different Shiraz styles, sauces, smoke and chilli.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T12:06:13.202Z",
+  "built_at": "2026-08-12T00:10:03.900Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T12:06:29.680Z"
+  "qa_passed_at": "2026-08-12T00:10:06.118Z"
 }

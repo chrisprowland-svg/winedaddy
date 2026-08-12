@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0905",
+  "slug": "king-valley-wine-region",
+  "canonical": "https://winedaddy.com.au/king-valley-wine-region/",
+  "canonical_path": "/king-valley-wine-region/",
+  "output_path": "king-valley-wine-region/index.html",
+  "title": "King Valley wine region: what it is known for",
+  "hub_title": "King Valley wine region: what it is known for",
+  "description": "Learn what the King Valley wine region is known for, how its elevation and climate shape wine, and what “King Valley” means on an Australian wine label.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:10:04.564Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:10:06.448Z"
+}

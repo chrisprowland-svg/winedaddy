@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0909",
+  "slug": "alpine-valleys-wine-region",
+  "canonical": "https://winedaddy.com.au/alpine-valleys-wine-region/",
+  "canonical_path": "/alpine-valleys-wine-region/",
+  "output_path": "alpine-valleys-wine-region/index.html",
+  "title": "Alpine Valleys Wine Region: A Beginner’s Guide",
+  "hub_title": "Alpine Valleys Wine Region: A Beginner’s Guide",
+  "description": "Learn where Alpine Valleys is, how it fits within North East Victoria, and why its varied climate, elevation and sites produce styles from sparkling Chardonnay to full-flavoured Shiraz.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:10:04.776Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:10:06.558Z"
+}

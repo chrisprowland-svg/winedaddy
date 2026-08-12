@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0910",
+  "slug": "granite-belt-wine-region",
+  "canonical": "https://winedaddy.com.au/granite-belt-wine-region/",
+  "canonical_path": "/granite-belt-wine-region/",
+  "output_path": "granite-belt-wine-region/index.html",
+  "title": "Granite Belt wine region: Queensland’s high-elevation wine country",
+  "hub_title": "Granite Belt wine region: Queensland’s high-elevation wine country",
+  "description": "Learn what the Granite Belt wine region is, where it is in Queensland, which grapes it is known for and how elevation, climate and granite-derived soils shape its regional identity.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:10:04.851Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:10:06.594Z"
+}

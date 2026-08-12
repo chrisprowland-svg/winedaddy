@@ -9,7 +9,7 @@
   "description": "Whole-bunch fermentation retains some or all grape bunches, including stems, during red-wine fermentation. Learn how it works, how it differs from carbonic maceration, and how it can affect wine.",
   "section": "winemaking",
   "qa_status": "passed",
-  "built_at": "2026-08-11T12:06:12.005Z",
+  "built_at": "2026-08-12T00:10:02.886Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T12:06:28.980Z"
+  "qa_passed_at": "2026-08-12T00:10:05.606Z"
 }

@@ -9,7 +9,7 @@
   "description": "Learn how wine pairing works by matching intensity, acidity, sweetness, tannin and texture with the food on your plate, plus a simple method for choosing wine.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-11T12:06:12.617Z",
+  "built_at": "2026-08-12T00:10:03.399Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-11T12:06:29.312Z"
+  "qa_passed_at": "2026-08-12T00:10:05.862Z"
 }

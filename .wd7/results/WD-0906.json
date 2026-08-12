@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0906",
+  "slug": "eden-valley-wine-region",
+  "canonical": "https://winedaddy.com.au/eden-valley-wine-region/",
+  "canonical_path": "/eden-valley-wine-region/",
+  "output_path": "eden-valley-wine-region/index.html",
+  "title": "Eden Valley wine region: a beginner’s guide",
+  "hub_title": "Eden Valley wine region: a beginner’s guide",
+  "description": "Learn what Eden Valley is known for, how its hills and cooler growing conditions shape its wines, and why it is distinct from the Barossa Valley.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:10:04.636Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:10:06.485Z"
+}
