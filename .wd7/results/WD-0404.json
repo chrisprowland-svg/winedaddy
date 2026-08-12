@@ -9,7 +9,7 @@
   "description": "Learn what acidity in wine tastes like, how it differs from pH, sweetness and tannin, and how variety, climate and winemaking shape freshness and balance.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.209Z",
+  "built_at": "2026-08-12T00:12:41.830Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.270Z"
+  "qa_passed_at": "2026-08-12T00:12:44.808Z"
 }

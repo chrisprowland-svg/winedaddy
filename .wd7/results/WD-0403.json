@@ -9,7 +9,7 @@
   "description": "Wine body describes how heavy, full or textured wine feels in your mouth. Learn to recognise light-, medium- and full-bodied wine and avoid common misconceptions.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.136Z",
+  "built_at": "2026-08-12T00:12:41.760Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.230Z"
+  "qa_passed_at": "2026-08-12T00:12:44.774Z"
 }

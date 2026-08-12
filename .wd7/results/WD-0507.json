@@ -9,7 +9,7 @@
   "description": "Soil can influence wine through water availability, root growth, nutrients and vine development—but it does not simply transfer its flavour to grapes. Learn how soil, climate and winemaking interact.",
   "section": "winemaking",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.810Z",
+  "built_at": "2026-08-12T00:12:42.399Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.569Z"
+  "qa_passed_at": "2026-08-12T00:12:45.083Z"
 }

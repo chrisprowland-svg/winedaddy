@@ -9,7 +9,7 @@
   "description": "Learn what wine aroma means, how smell contributes to flavour, where aromas come from and how to identify them with a simple tasting method.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.063Z",
+  "built_at": "2026-08-12T00:12:41.689Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.194Z"
+  "qa_passed_at": "2026-08-12T00:12:44.738Z"
 }

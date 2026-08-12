@@ -9,7 +9,7 @@
   "description": "Reduction in wine can smell like struck match, rubber or rotten egg. Learn what it means, when it may be stylistic, and whether opening the bottle can help.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:03.968Z",
+  "built_at": "2026-08-12T00:12:43.507Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:06.153Z"
+  "qa_passed_at": "2026-08-12T00:12:45.628Z"
 }

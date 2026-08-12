@@ -9,7 +9,7 @@
   "description": "Learn how wine-glass shape affects aroma and drinking experience, and choose practical glassware for red, white, sparkling, sweet and fortified wine.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:03.109Z",
+  "built_at": "2026-08-12T00:12:42.680Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.714Z"
+  "qa_passed_at": "2026-08-12T00:12:45.219Z"
 }

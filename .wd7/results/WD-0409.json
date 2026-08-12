@@ -9,7 +9,7 @@
   "description": "Wine complexity explained in plain English: learn how to recognise layers, development and integration, and how complexity differs from intensity, oak, age and quality.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.582Z",
+  "built_at": "2026-08-12T00:12:42.187Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.456Z"
+  "qa_passed_at": "2026-08-12T00:12:44.981Z"
 }

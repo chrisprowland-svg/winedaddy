@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0908",
+  "slug": "great-southern-wine-region",
+  "canonical": "https://winedaddy.com.au/great-southern-wine-region/",
+  "canonical_path": "/great-southern-wine-region/",
+  "output_path": "great-southern-wine-region/index.html",
+  "title": "Great Southern Wine Region: What to Expect from Its Wines",
+  "hub_title": "Great Southern Wine Region: What to Expect from Its Wines",
+  "description": "Great Southern is a diverse Western Australian wine region known for Shiraz, Riesling, Cabernet Sauvignon, Chardonnay and Sauvignon Blanc. Learn how its coastal and inland sites shape its wines.",
+  "section": "fundamentals",
+  "qa_status": "passed",
+  "built_at": "2026-08-12T00:12:44.280Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-12T00:12:46.002Z"
+}

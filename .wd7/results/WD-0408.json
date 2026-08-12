@@ -9,7 +9,7 @@
   "description": "Learn what balance means in wine, how acidity, sweetness, alcohol, tannin, fruit and texture work together, and how to recognise balance when tasting.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:02.507Z",
+  "built_at": "2026-08-12T00:12:42.116Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:05.421Z"
+  "qa_passed_at": "2026-08-12T00:12:44.948Z"
 }

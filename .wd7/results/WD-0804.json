@@ -9,7 +9,7 @@
   "description": "Brettanomyces, or “Brett”, is a yeast that can change wine’s aroma and flavour. Learn what Brett smells like, when it is a fault and how it differs from other wine faults.",
   "section": "fundamentals",
   "qa_status": "passed",
-  "built_at": "2026-08-12T00:10:04.047Z",
+  "built_at": "2026-08-12T00:12:43.580Z",
   "qa_checks": [
     "build",
     "reader-boundary",
@@ -21,5 +21,5 @@
     "hub-discoverability",
     "preview-noindex"
   ],
-  "qa_passed_at": "2026-08-12T00:10:06.190Z"
+  "qa_passed_at": "2026-08-12T00:12:45.663Z"
 }
