@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { marked } from 'marked';
+import { publicationPaths, websiteSection } from './wd7-paths.mjs';
 
 const inputPath = process.argv[2];
 if (!inputPath) throw new Error('usage: node wd7-implement.mjs <job.json>');
@@ -22,15 +23,15 @@ const metadata = editorial.match(/## Front matter and metadata\s*([\s\S]*?)\n## 
 const field = name => metadata.match(new RegExp(`^\\s*(?:-\\s+)?(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+?)\\s*$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
 const title = field('Title') || reader.match(/^#\s+(.+)$/m)?.[1];
 const description = field('Description');
-const slug = field('Slug');
-const canonical = field('Canonical');
-if (!title || !description || !slug || !canonical) throw new Error(`${job.job_id}: required approved metadata missing`);
-if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) throw new Error(`${job.job_id}: invalid slug`);
-const canonicalUrl = new URL(canonical);
-if (canonicalUrl.origin !== 'https://winedaddy.com.au') throw new Error(`${job.job_id}: canonical origin mismatch`);
-const canonicalPath = canonicalUrl.pathname;
-const outputPath = canonicalPath.endsWith('.html') ? canonicalPath.slice(1) : path.join(canonicalPath.slice(1), 'index.html');
-if (!outputPath || outputPath.includes('..')) throw new Error(`${job.job_id}: invalid canonical path`);
+const rawSlug = field('Slug');
+const rawCanonical = field('Canonical');
+if (!title || !description || !rawSlug || !rawCanonical) throw new Error(`${job.job_id}: required approved metadata missing`);
+let slug, canonical, canonicalPath, outputPath;
+try {
+  ({slug, canonical, canonicalPath, outputPath} = publicationPaths(rawSlug, rawCanonical));
+} catch (error) {
+  throw new Error(`${job.job_id}: ${error.message}`);
+}
 if (reader.includes('INTERNAL EDITORIAL APPENDIX') || /\*\*(?:Canonical|Audience|Article type):\*\*/i.test(reader)) throw new Error(`${job.job_id}: internal content crossed reader boundary`);
 
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
@@ -41,13 +42,8 @@ body = body.replace(/<table>/g, '<table class="article-table">');
 
 const shortTitle = reader.match(/^#\s+(.+)$/m)?.[1] || title;
 const epic = job.job_id.slice(3, 5);
-const sections = {
-  '02': {slug:'grapes', name:'Grapes'},
-  '03': {slug:'regions', name:'Regions'},
-  '05': {slug:'winemaking', name:'Winemaking'}
-};
-const section = sections[epic] || {slug:'fundamentals', name:'Wine Fundamentals'};
-const hubTitle = epic === '03'
+const section = websiteSection(job.job_id, job.topic);
+const hubTitle = section.slug === 'regions'
   ? job.topic.replace(/\s+wine region\s*$/i, '').trim()
   : epic === '02'
     ? job.topic.replace(/^what is\s+/i, '').replace(/\?$/, '').trim()
