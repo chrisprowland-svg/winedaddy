@@ -2,6 +2,10 @@ name: WD7 autonomous implementation
 
 on:
   workflow_dispatch:
+    inputs:
+      job_id:
+        description: Canonical WD-0000 job to implement
+        required: true
   push:
     branches:
       - 'agent/wd7-*'
@@ -30,28 +34,66 @@ jobs:
           node-version: '22'
       - name: Install deterministic renderer
         run: npm install --no-save --no-package-lock marked
-      - name: Implement approved publication package
+      - name: Select this run's manifest
+        id: manifest
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+          DISPATCH_JOB_ID: ${{ inputs.job_id }}
         run: |
-          for job in .wd7/jobs/*.json; do
-            node wd7-implement.mjs "$job"
-          done
-          node wd7-finalize.mjs
-          for job in .wd7/jobs/*.json; do
-            node wd7-qa.mjs "$job"
-          done
-          node build-search-index.mjs
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            manifests=(".wd7/jobs/${DISPATCH_JOB_ID}.json")
+          else
+            mapfile -t manifests < <(git diff-tree --no-commit-id --name-only -r "$BEFORE_SHA" "$HEAD_SHA" -- '.wd7/jobs/*.json')
+          fi
+          if [ "${#manifests[@]}" -ne 1 ] || [ ! -f "${manifests[0]}" ]; then
+            echo "Expected exactly one changed WD7 manifest; found ${#manifests[@]}." >&2
+            exit 1
+          fi
+          echo "path=${manifests[0]}" >> "$GITHUB_OUTPUT"
+          echo "job_id=$(basename "${manifests[0]}" .json)" >> "$GITHUB_OUTPUT"
+      - name: Implement approved publication package
+        id: implementation
+        continue-on-error: true
+        env:
+          MANIFEST: ${{ steps.manifest.outputs.path }}
+        run: |
+          set -o pipefail
+          {
+            node --test test/wd7-paths.test.mjs
+            node wd7-implement.mjs "$MANIFEST"
+            node wd7-finalize.mjs "$(basename "$MANIFEST")"
+            node wd7-qa.mjs "$MANIFEST"
+            node build-search-index.mjs
+          } 2>&1 | tee /tmp/wd7-run.log
+      - name: Record deterministic failure
+        if: steps.implementation.outcome == 'failure'
+        env:
+          JOB_ID: ${{ steps.manifest.outputs.job_id }}
+        run: |
+          mkdir -p .wd7/results
+          node -e "const fs=require('fs'); const detail=fs.existsSync('/tmp/wd7-run.log')?fs.readFileSync('/tmp/wd7-run.log','utf8').trim().split('\\n').slice(-12).join('\\n'):'No runner log captured'; fs.writeFileSync('.wd7/results/' + process.env.JOB_ID + '.json', JSON.stringify({job_id:process.env.JOB_ID,qa_status:'failed',error:'Department 7 deterministic implementation or QA failed',detail,failed_at:new Date().toISOString()},null,2))"
       - name: Commit protected preview
+        if: always() && steps.manifest.outcome == 'success'
+        env:
+          JOB_ID: ${{ steps.manifest.outputs.job_id }}
         run: |
           git config user.name 'winedaddy-deployment-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add article-source .wd7/results sitemap.xml search-index.json fundamentals/index.html grapes/index.html regions/index.html winemaking/index.html
-          for result in .wd7/results/*.json; do
+          git add ".wd7/results/${JOB_ID}.json"
+          result=".wd7/results/${JOB_ID}.json"
+          if [ "$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).qa_status")" = "passed" ]; then
+            git add article-source sitemap.xml search-index.json fundamentals/index.html grapes/index.html regions/index.html winemaking/index.html
             output_path=$(node -p "JSON.parse(require('fs').readFileSync('$result','utf8')).output_path || JSON.parse(require('fs').readFileSync('$result','utf8')).slug + '/index.html'")
             git add "$output_path"
-          done
+          fi
           if git diff --cached --quiet; then
             echo 'No implementation changes to commit.'
           else
             git commit -m 'Implement WD7 protected preview'
             git push origin HEAD
           fi
+      - name: Fail run after recording evidence
+        if: steps.implementation.outcome == 'failure'
+        run: exit 1
