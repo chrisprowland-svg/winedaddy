@@ -1,6 +1,11 @@
 name: WD7 autonomous implementation
 
 on:
+  pull_request:
+    paths:
+      - '.github/workflows/wd7-implementation.yml'
+      - 'wd7-*.mjs'
+      - 'test/wd7-*.test.mjs'
   workflow_dispatch:
     inputs:
       job_id:
@@ -23,7 +28,17 @@ permissions:
   contents: write
 
 jobs:
+  regression-tests:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test test/wd7-paths.test.mjs
   implement-and-qa:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
