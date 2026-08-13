@@ -7,7 +7,9 @@ const exists = route => route === '/'
     ? fs.existsSync(route.slice(1))
     : fs.existsSync(path.join(route.slice(1), 'index.html'));
 
-for (const file of fs.readdirSync('.wd7/results').filter(name => name.endsWith('.json'))) {
+const requested = process.argv.slice(2).map(file => path.basename(file));
+const files = requested.length ? requested : fs.readdirSync('.wd7/results').filter(name => name.endsWith('.json'));
+for (const file of files) {
   const result = JSON.parse(fs.readFileSync(path.join('.wd7/results', file), 'utf8'));
   const outputPath = result.output_path || path.join(result.slug, 'index.html');
   if (!fs.existsSync(outputPath)) continue;
