@@ -1,9 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {cardTitle, escapeHtml} from '../site/site.mjs';
+import {cardTitle, escapeHtml, siteHeader} from '../site/site.mjs';
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const errors = [];
+const header = siteHeader();
+for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
+if (header.includes('href="/about.html"')) errors.push('About must remain footer-only');
+for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const html = fs.readFileSync(path.join(root, file), 'utf8'); if (!html.includes(header)) errors.push(`${file}: shared header is stale`); }
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 for (const article of manifest.articles) {

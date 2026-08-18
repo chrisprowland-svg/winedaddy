@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {marked} from 'marked';
-import {SITE_URL, cardTitle, escapeHtml, pageDocument, sections} from '../site/site.mjs';
+import {SITE_URL, cardTitle, escapeHtml, pageDocument, sections, siteHeader} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
@@ -26,6 +26,7 @@ for (const article of manifest.articles) {
   searchEntries.push({title: article.title, description: article.description, url: canonicalPath, text: visibleText(body).slice(0, 1200)});
 }
 for (const [key, section] of Object.entries(sections)) buildHub(key, section, manifest.articles.filter(article => article.section === key));
+refreshStaticHeaders();
 searchEntries.sort((a, b) => a.title.localeCompare(b.title));
 fs.writeFileSync(path.join(root, 'search-index.json'), `${JSON.stringify(searchEntries)}\n`);
 buildSitemap(manifest.articles);
@@ -38,4 +39,5 @@ function normaliseReaderSource(source) { return source.replace(/^##\s+(?:.+\s+)?
 function renderMarkdown(source) { let html = marked.parse(source).replace(/^<h1>.*?<\/h1>\s*/s, ''); html = html.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>'); html = html.replace(/<h2>Highlights<\/h2>([\s\S]*?<\/ul>)/i, '<section class="highlights"><h2>Highlights</h2>$1</section>'); return html.replace(/<table>/g, '<div class="table-scroll" tabindex="0"><table class="article-table">').replace(/<\/table>/g, '</table></div>'); }
 function buildHub(key, section, articles) { const cards = articles.sort((a,b) => cardTitle(a).localeCompare(cardTitle(b))).map(article => `<a class="card guide-card" href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join(''); const body = `<main><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">${section.description}</p><p class="article-count">${articles.length} guides</p></div></section><section class="section"><label class="guide-filter">Filter ${section.name.toLowerCase()} guides<input type="search" data-guide-filter placeholder="Search ${section.name.toLowerCase()}…"></label><div class="grid guide-grid" data-guide-grid>${cards}</div><p class="empty-state" data-empty-state hidden>No matching guides found.</p></section></main>`; const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/${key}/`,description:section.description}; fs.mkdirSync(path.join(root, key), {recursive: true}); fs.writeFileSync(path.join(root, key, 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:`/${key}/`, schema, body})); }
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
+function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); const html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); fs.writeFileSync(target, html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader())); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }

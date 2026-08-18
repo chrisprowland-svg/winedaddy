@@ -1,4 +1,4 @@
-document.querySelector('.menu')?.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.toggle('open'));
+document.querySelector('.menu')?.addEventListener('click',event=>{const links=document.querySelector('.nav-links');links?.classList.toggle('open');event.currentTarget.setAttribute('aria-expanded',String(links?.classList.contains('open')))});
 
 document.querySelectorAll('.subscribe-form').forEach(form => form.addEventListener('submit', async event => {
   event.preventDefault();
