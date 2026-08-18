@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0926",
+  "slug": "henty-wine-region",
+  "canonical": "https://winedaddy.com.au/henty-wine-region/",
+  "canonical_path": "/henty-wine-region/",
+  "output_path": "henty-wine-region/index.html",
+  "title": "Henty wine region: a beginner’s guide",
+  "hub_title": "Henty",
+  "description": "Discover where Henty is, how it fits within Western Victoria, and why its cool climate is associated with Riesling, Cabernet Sauvignon and other varied wine styles.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.466Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.272Z"
+}

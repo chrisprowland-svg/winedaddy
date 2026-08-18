@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0949",
+  "slug": "great-western-wine-region",
+  "canonical": "https://winedaddy.com.au/great-western-wine-region/",
+  "canonical_path": "/great-western-wine-region/",
+  "output_path": "great-western-wine-region/index.html",
+  "title": "Great Western wine region: a guide to its place, grapes and styles",
+  "hub_title": "Great Western",
+  "description": "Learn where the Great Western wine region is, how its GI relates to Grampians and Western Victoria, and why it is known for Shiraz, Cabernet Sauvignon and sparkling wine.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:46.269Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.391Z"
+}

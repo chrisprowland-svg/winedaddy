@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0947",
+  "slug": "peel-wine-region",
+  "canonical": "https://winedaddy.com.au/peel-wine-region/",
+  "canonical_path": "/peel-wine-region/",
+  "output_path": "peel-wine-region/index.html",
+  "title": "Peel wine region: a beginner’s guide to Western Australia’s coastal and inland vineyards",
+  "hub_title": "Peel",
+  "description": "Understand where the Peel wine region is, its formal GI status, climate and landscape, key grape varieties, wine styles and what “Peel” means on an Australian wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:46.120Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.298Z"
+}

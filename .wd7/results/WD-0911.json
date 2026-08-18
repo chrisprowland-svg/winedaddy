@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0911",
+  "slug": "mudgee-wine-region",
+  "canonical": "https://www.winedaddy.com.au/mudgee-wine-region/",
+  "canonical_path": "/mudgee-wine-region/",
+  "output_path": "mudgee-wine-region/index.html",
+  "title": "Mudgee Wine Region: Where It Is and What Wines It Is Known For",
+  "hub_title": "Mudgee",
+  "description": "Learn where the Mudgee wine region is, what its Australian GI means, how elevation and climate shape its wines, and why Shiraz, Cabernet Sauvignon, Chardonnay and other varieties matter.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-17T23:58:12.028Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-17T23:58:12.323Z"
+}

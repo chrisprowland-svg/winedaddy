@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0936",
+  "slug": "kangaroo-island-wine-region",
+  "canonical": "https://winedaddy.com.au/kangaroo-island-wine-region/",
+  "canonical_path": "/kangaroo-island-wine-region/",
+  "output_path": "kangaroo-island-wine-region/index.html",
+  "title": "Kangaroo Island Wine Region: Location, Climate and Wine Styles",
+  "hub_title": "Kangaroo Island",
+  "description": "Understand the Kangaroo Island wine region: its Fleurieu GI hierarchy, island location, maritime growing conditions, principal grape varieties and what the regional label means.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.262Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.766Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0924",
+  "slug": "goulburn-valley-wine-region",
+  "canonical": "https://winedaddy.com.au/goulburn-valley-wine-region/",
+  "canonical_path": "/goulburn-valley-wine-region/",
+  "output_path": "goulburn-valley-wine-region/index.html",
+  "title": "Goulburn Valley wine region: where it is and what it produces",
+  "hub_title": "Goulburn Valley",
+  "description": "Understand where the Goulburn Valley wine region is, how its GI works, and why it is known for Shiraz, Marsanne, Cabernet Sauvignon, Chardonnay and Riesling.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.303Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.179Z"
+}

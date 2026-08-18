@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0930",
+  "slug": "swan-hill-wine-region",
+  "canonical": "https://winedaddy.com.au/swan-hill-wine-region/",
+  "canonical_path": "/swan-hill-wine-region/",
+  "output_path": "swan-hill-wine-region/index.html",
+  "title": "Swan Hill wine region: location, wines and what to expect",
+  "hub_title": "Swan Hill",
+  "description": "Learn where the Swan Hill wine region is, how its cross-border GI differs from Murray terminology, and what to expect from its Chardonnay, Shiraz and Cabernet Sauvignon.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.805Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.464Z"
+}

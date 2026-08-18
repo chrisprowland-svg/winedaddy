@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0923",
+  "slug": "bendigo-wine-region",
+  "canonical": "https://winedaddy.com.au/bendigo-wine-region/",
+  "canonical_path": "/bendigo-wine-region/",
+  "output_path": "bendigo-wine-region/index.html",
+  "title": "Bendigo wine region: a beginner’s guide",
+  "hub_title": "Bendigo",
+  "description": "Understand where the Bendigo wine region is, what its GI means and why Shiraz, Cabernet Sauvignon and Chardonnay are central to its regional identity.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.227Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.134Z"
+}

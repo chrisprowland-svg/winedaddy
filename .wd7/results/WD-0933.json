@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0933",
+  "slug": "wrattonbully-wine-region",
+  "canonical": "https://winedaddy.com.au/wrattonbully-wine-region/",
+  "canonical_path": "/wrattonbully-wine-region/",
+  "output_path": "wrattonbully-wine-region/index.html",
+  "title": "Wrattonbully wine region: a guide to the Limestone Coast GI",
+  "hub_title": "Wrattonbully",
+  "description": "Understand Wrattonbully wine region, its South Australian GI identity, Limestone Coast location, climate, soils, key grape varieties and differences from Coonawarra and Padthaway.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.027Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.630Z"
+}

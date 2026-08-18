@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0950",
+  "slug": "mount-gambier-wine-region",
+  "canonical": "https://winedaddy.com.au/mount-gambier-wine-region/",
+  "canonical_path": "/mount-gambier-wine-region/",
+  "output_path": "mount-gambier-wine-region/index.html",
+  "title": "Mount Gambier Wine Region: Climate, Grapes and Wine Styles",
+  "hub_title": "Mount Gambier",
+  "description": "Discover what makes the Mount Gambier wine region distinctive, from its Limestone Coast GI and cool maritime climate to Chardonnay, Sauvignon Blanc, Pinot Noir, volcanic soils and label meaning.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:46.345Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.443Z"
+}

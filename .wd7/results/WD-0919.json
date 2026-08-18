@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0919",
+  "slug": "hastings-river-wine-region",
+  "canonical": "https://winedaddy.com.au/hastings-river-wine-region/",
+  "canonical_path": "/hastings-river-wine-region/",
+  "output_path": "hastings-river-wine-region/index.html",
+  "title": "Hastings River wine region: a beginner’s guide",
+  "hub_title": "Hastings River",
+  "description": "Understand where the Hastings River wine region is, how its GI works, and how climate, soils, grape varieties and site variation shape its wines.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.889Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.949Z"
+}

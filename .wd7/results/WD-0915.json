@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0915",
+  "slug": "cowra-wine-region",
+  "canonical": "https://winedaddy.com.au/cowra-wine-region/",
+  "canonical_path": "/cowra-wine-region/",
+  "output_path": "cowra-wine-region/index.html",
+  "title": "Cowra wine region: a beginner’s guide",
+  "hub_title": "Cowra",
+  "description": "Understand the Cowra wine region in New South Wales, its Central Ranges GI status, location, climate, key grape varieties and what “Cowra” means on a wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.560Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.760Z"
+}

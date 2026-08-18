@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0920",
+  "slug": "rutherglen-wine-region",
+  "canonical": "https://winedaddy.com.au/rutherglen-wine-region/",
+  "canonical_path": "/rutherglen-wine-region/",
+  "output_path": "rutherglen-wine-region/index.html",
+  "title": "Rutherglen wine region: Muscat, fortified wines and full-bodied reds",
+  "hub_title": "Rutherglen",
+  "description": "Discover where Rutherglen is, why Victoria’s north-east region is famous for Rutherglen Muscat and Topaque, and what to expect from its Durif, Shiraz and Cabernet Sauvignon.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.968Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.995Z"
+}

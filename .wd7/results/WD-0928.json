@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0928",
+  "slug": "sunbury-wine-region",
+  "canonical": "https://winedaddy.com.au/sunbury-wine-region/",
+  "canonical_path": "/sunbury-wine-region/",
+  "output_path": "sunbury-wine-region/index.html",
+  "title": "Sunbury wine region: a guide to its place, wines and style",
+  "hub_title": "Sunbury",
+  "description": "Understand the Sunbury wine region in Victoria: its Port Phillip GI status, location north-west of Melbourne, climate, history, grape varieties and likely wine styles.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.645Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.377Z"
+}

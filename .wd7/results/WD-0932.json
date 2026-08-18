@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0932",
+  "slug": "padthaway-wine-region",
+  "canonical": "https://winedaddy.com.au/padthaway-wine-region/",
+  "canonical_path": "/padthaway-wine-region/",
+  "output_path": "padthaway-wine-region/index.html",
+  "title": "Padthaway Wine Region: Location, Wines and GI Explained",
+  "hub_title": "Padthaway",
+  "description": "Understand where Padthaway is, how it fits within South Australia’s Limestone Coast, what its GI means and why Chardonnay, Cabernet Sauvignon and Shiraz are associated with the region.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.955Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.582Z"
+}

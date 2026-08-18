@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0913",
+  "slug": "new-england-australia-wine-region",
+  "canonical": "https://winedaddy.com.au/new-england-australia-wine-region/",
+  "canonical_path": "/new-england-australia-wine-region/",
+  "output_path": "new-england-australia-wine-region/index.html",
+  "title": "New England Australia wine region: what to know",
+  "hub_title": "New England Australia",
+  "description": "Discover where New England Australia is, how its elevation and frost-prone climate shape viticulture, and what to expect from its Chardonnay, Riesling, Shiraz and alternative varieties.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.401Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.674Z"
+}

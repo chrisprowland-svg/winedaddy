@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0938",
+  "slug": "riverland-wine-region",
+  "canonical": "https://winedaddy.com.au/riverland-wine-region/",
+  "canonical_path": "/riverland-wine-region/",
+  "output_path": "riverland-wine-region/index.html",
+  "title": "Riverland Wine Region: Location, Climate, Grapes and Wine Styles",
+  "hub_title": "Riverland",
+  "description": "Understand the Riverland wine region in South Australia: its Murray River location, Lower Murray GI status, hot dry climate, irrigation, key grape varieties and label meaning.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.426Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.858Z"
+}

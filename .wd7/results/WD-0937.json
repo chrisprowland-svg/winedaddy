@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0937",
+  "slug": "mount-benson-wine-region",
+  "canonical": "https://winedaddy.com.au/mount-benson-wine-region/",
+  "canonical_path": "/mount-benson-wine-region/",
+  "output_path": "mount-benson-wine-region/index.html",
+  "title": "Mount Benson Wine Region: Location, Wines and GI Guide",
+  "hub_title": "Mount Benson",
+  "description": "Learn where Mount Benson is, how it fits within South Australia’s Limestone Coast, and what to expect from its Shiraz, Cabernet Sauvignon, Sauvignon Blanc, Chardonnay and Merlot.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.342Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.814Z"
+}

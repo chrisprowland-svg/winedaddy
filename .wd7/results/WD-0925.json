@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0925",
+  "slug": "strathbogie-ranges-wine-region",
+  "canonical": "https://winedaddy.com.au/strathbogie-ranges-wine-region/",
+  "canonical_path": "/strathbogie-ranges-wine-region/",
+  "output_path": "strathbogie-ranges-wine-region/index.html",
+  "title": "Strathbogie Ranges wine region: a beginner’s guide",
+  "hub_title": "Strathbogie Ranges",
+  "description": "Understand where the Strathbogie Ranges wine region is, how its elevation and climate shape wine, and what to expect from Chardonnay, Pinot Noir, Sauvignon Blanc and Shiraz.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.382Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.224Z"
+}

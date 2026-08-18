@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0931",
+  "slug": "upper-goulburn-wine-region",
+  "canonical": "https://winedaddy.com.au/upper-goulburn-wine-region/",
+  "canonical_path": "/upper-goulburn-wine-region/",
+  "output_path": "upper-goulburn-wine-region/index.html",
+  "title": "Upper Goulburn Wine Region: A Beginner’s Guide",
+  "hub_title": "Upper Goulburn",
+  "description": "Discover where Upper Goulburn is, how its elevation and terrain shape the region, and what to expect from its Chardonnay, Riesling and Sauvignon Blanc.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.880Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.529Z"
+}

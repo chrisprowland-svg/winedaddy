@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0927",
+  "slug": "grampians-wine-region",
+  "canonical": "https://winedaddy.com.au/grampians-wine-region/",
+  "canonical_path": "/grampians-wine-region/",
+  "output_path": "grampians-wine-region/index.html",
+  "title": "Grampians wine region: what to know about its wines and climate",
+  "hub_title": "Grampians",
+  "description": "Understand where the Grampians wine region is, how its GI works, and why Shiraz, Cabernet Sauvignon and Riesling are associated with its cool nights, varied terrain and western Victorian landscape.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.553Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.315Z"
+}
