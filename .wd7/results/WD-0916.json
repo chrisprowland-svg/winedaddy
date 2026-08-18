@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0916",
+  "slug": "hilltops-wine-region",
+  "canonical": "https://winedaddy.com.au/hilltops-wine-region/",
+  "canonical_path": "/hilltops-wine-region/",
+  "output_path": "hilltops-wine-region/index.html",
+  "title": "Hilltops wine region: location, grapes and wine styles",
+  "hub_title": "Hilltops",
+  "description": "Understand the Hilltops wine region in southern New South Wales, including its GI status, location, climate, key grape varieties and what “Hilltops” means on an Australian wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.638Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.808Z"
+}

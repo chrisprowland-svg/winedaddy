@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0935",
+  "slug": "currency-creek-wine-region",
+  "canonical": "https://winedaddy.com.au/currency-creek-wine-region/",
+  "canonical_path": "/currency-creek-wine-region/",
+  "output_path": "currency-creek-wine-region/index.html",
+  "title": "Currency Creek wine region: a beginner’s guide",
+  "hub_title": "Currency Creek",
+  "description": "Understand the Currency Creek wine region in South Australia: its Fleurieu GI identity, location, maritime climate, key varieties, wine styles and label meaning.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.188Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.720Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0939",
+  "slug": "southern-fleurieu-wine-region",
+  "canonical": "https://winedaddy.com.au/southern-fleurieu-wine-region/",
+  "canonical_path": "/southern-fleurieu-wine-region/",
+  "output_path": "southern-fleurieu-wine-region/index.html",
+  "title": "Southern Fleurieu Wine Region: Where It Is and What It’s Known For",
+  "hub_title": "Southern Fleurieu",
+  "description": "Understand where the Southern Fleurieu wine region is, how it fits within South Australia’s GI system, and why its maritime conditions support Cabernet Sauvignon, Merlot, Riesling and more.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.498Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.907Z"
+}

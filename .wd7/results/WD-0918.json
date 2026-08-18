@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0918",
+  "slug": "southern-highlands-wine-region",
+  "canonical": "https://winedaddy.com.au/southern-highlands-wine-region/",
+  "canonical_path": "/southern-highlands-wine-region/",
+  "output_path": "southern-highlands-wine-region/index.html",
+  "title": "Southern Highlands wine region: a guide to its wines, climate and place",
+  "hub_title": "Southern Highlands",
+  "description": "Learn where the Southern Highlands wine region is, how its cool elevated climate shapes wine, and what to expect from Chardonnay, Riesling, Sauvignon Blanc and Cabernet Sauvignon.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.802Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.900Z"
+}

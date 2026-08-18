@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0943",
+  "slug": "pemberton-wine-region",
+  "canonical": "https://winedaddy.com.au/pemberton-wine-region/",
+  "canonical_path": "/pemberton-wine-region/",
+  "output_path": "pemberton-wine-region/index.html",
+  "title": "Pemberton wine region: a beginner’s guide",
+  "hub_title": "Pemberton",
+  "description": "Discover where the Pemberton wine region is, how its cool southern-Western Australian climate shapes viticulture, and why Chardonnay, Merlot and Pinot Noir are associated with the region.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.812Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.096Z"
+}

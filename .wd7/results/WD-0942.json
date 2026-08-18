@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0942",
+  "slug": "geographe-wine-region",
+  "canonical": "https://winedaddy.com.au/geographe-wine-region/",
+  "canonical_path": "/geographe-wine-region/",
+  "output_path": "geographe-wine-region/index.html",
+  "title": "Geographe Wine Region: Where It Is and What It Is Known For",
+  "hub_title": "Geographe",
+  "description": "Understand the Geographe wine region in Western Australia, its GI status, location, climate, key varieties and the meaning of “Geographe” on a wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.742Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.049Z"
+}

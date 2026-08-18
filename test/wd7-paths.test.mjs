@@ -7,7 +7,7 @@ test('accepts the approved route-style slug used by Mudgee', () => {
     publicationPaths('/mudgee-wine-region/', 'https://www.winedaddy.com.au/mudgee-wine-region/'),
     {
       slug: 'mudgee-wine-region',
-      canonical: 'https://www.winedaddy.com.au/mudgee-wine-region/',
+      canonical: 'https://winedaddy.com.au/mudgee-wine-region/',
       canonicalPath: '/mudgee-wine-region/',
       outputPath: 'mudgee-wine-region/index.html',
     },
@@ -16,6 +16,15 @@ test('accepts the approved route-style slug used by Mudgee', () => {
 
 test('accepts a bare slug with the canonical production host', () => {
   assert.equal(publicationPaths('mudgee-wine-region', 'https://winedaddy.com.au/mudgee-wine-region/').slug, 'mudgee-wine-region');
+});
+
+test('normalises an approved root-relative canonical', () => {
+  assert.deepEqual(publicationPaths('tumbarumba-wine-region', '/tumbarumba-wine-region/'), {
+    slug: 'tumbarumba-wine-region',
+    canonical: 'https://winedaddy.com.au/tumbarumba-wine-region/',
+    canonicalPath: '/tumbarumba-wine-region/',
+    outputPath: 'tumbarumba-wine-region/index.html',
+  });
 });
 
 test('rejects a route disagreement', () => {

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0929",
+  "slug": "murray-darling-wine-region",
+  "canonical": "https://winedaddy.com.au/murray-darling-wine-region/",
+  "canonical_path": "/murray-darling-wine-region/",
+  "output_path": "murray-darling-wine-region/index.html",
+  "title": "Murray–Darling wine region: where it is and what its wines are like",
+  "hub_title": "Murray Darling",
+  "description": "Understand the Murray Darling wine region, its cross-border GI, hot dry climate, irrigation context, key grape varieties and what the name means on a wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.723Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.420Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0922",
+  "slug": "pyrenees-wine-region",
+  "canonical": "https://winedaddy.com.au/pyrenees-wine-region/",
+  "canonical_path": "/pyrenees-wine-region/",
+  "output_path": "pyrenees-wine-region/index.html",
+  "title": "Pyrenees wine region: a beginner’s guide",
+  "hub_title": "Pyrenees",
+  "description": "Learn where Victoria’s Pyrenees wine region is, why it is known for Shiraz and Cabernet Sauvignon, and how climate, elevation and the GI label shape what you can expect.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.128Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.089Z"
+}

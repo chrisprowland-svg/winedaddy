@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0914",
+  "slug": "gundagai-wine-region",
+  "canonical": "https://winedaddy.com.au/gundagai-wine-region/",
+  "canonical_path": "/gundagai-wine-region/",
+  "output_path": "gundagai-wine-region/index.html",
+  "title": "Gundagai wine region: where it is and what its wines are like",
+  "hub_title": "Gundagai",
+  "description": "Understand the Gundagai wine region, its Southern New South Wales location, climate, principal grape varieties and what “Gundagai” means on an Australian wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.481Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.718Z"
+}

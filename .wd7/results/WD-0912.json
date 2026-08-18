@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0912",
+  "slug": "tumbarumba-wine-region",
+  "canonical": "https://winedaddy.com.au/tumbarumba-wine-region/",
+  "canonical_path": "/tumbarumba-wine-region/",
+  "output_path": "tumbarumba-wine-region/index.html",
+  "title": "Tumbarumba Wine Region: A Guide to Its Place, Climate and Wines",
+  "hub_title": "Tumbarumba",
+  "description": "Understand the Tumbarumba wine region in southern New South Wales, including its GI, high-country climate, principal varieties and sparkling and still wine styles.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.322Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.630Z"
+}

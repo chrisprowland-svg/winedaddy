@@ -1,5 +1,8 @@
 export function publicationPaths(rawSlug, rawCanonical) {
-  const canonical = String(rawCanonical || '').trim();
+  const suppliedCanonical = String(rawCanonical || '').trim();
+  const canonical = suppliedCanonical.startsWith('/')
+    ? `https://winedaddy.com.au${suppliedCanonical}`
+    : suppliedCanonical;
   const canonicalUrl = new URL(canonical);
   if (!['winedaddy.com.au', 'www.winedaddy.com.au'].includes(canonicalUrl.hostname)) {
     throw new Error('canonical origin mismatch');
@@ -11,7 +14,7 @@ export function publicationPaths(rawSlug, rawCanonical) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) throw new Error('invalid slug');
   if (canonicalPath !== `/${slug}/`) throw new Error('slug and canonical path mismatch');
 
-  return { slug, canonical, canonicalPath, outputPath: `${slug}/index.html` };
+  return { slug, canonical: `https://winedaddy.com.au${canonicalPath}`, canonicalPath, outputPath: `${slug}/index.html` };
 }
 
 export function websiteSection(jobId, topic) {

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0921",
+  "slug": "beechworth-wine-region",
+  "canonical": "https://winedaddy.com.au/beechworth-wine-region/",
+  "canonical_path": "/beechworth-wine-region/",
+  "output_path": "beechworth-wine-region/index.html",
+  "title": "Beechworth wine region: where it is and what its wines are like",
+  "hub_title": "Beechworth",
+  "description": "Discover where the Beechworth wine region is, what its GI means, and why elevation, site variation and climate shape its Chardonnay, Pinot Noir and Shiraz.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:44.046Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.042Z"
+}

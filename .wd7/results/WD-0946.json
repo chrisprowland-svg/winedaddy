@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0946",
+  "slug": "perth-hills-wine-region",
+  "canonical": "https://winedaddy.com.au/perth-hills-wine-region/",
+  "canonical_path": "/perth-hills-wine-region/",
+  "output_path": "perth-hills-wine-region/index.html",
+  "title": "Perth Hills wine region: a beginner’s guide",
+  "hub_title": "Perth Hills",
+  "description": "Learn where the Perth Hills wine region is, how its elevation and terrain shape growing conditions, which varieties it is known for, and what “Perth Hills” means on an Australian wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:46.049Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.254Z"
+}

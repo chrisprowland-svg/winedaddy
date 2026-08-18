@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0948",
+  "slug": "nagambie-lakes-wine-region",
+  "canonical": "https://winedaddy.com.au/nagambie-lakes-wine-region/",
+  "canonical_path": "/nagambie-lakes-wine-region/",
+  "output_path": "nagambie-lakes-wine-region/index.html",
+  "title": "Nagambie Lakes wine region: location, climate and wines",
+  "hub_title": "Nagambie Lakes",
+  "description": "Understand the Nagambie Lakes wine region in central Victoria, including its GI hierarchy, location, climate, soils, history and best-known grape varieties.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:46.192Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.344Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0941",
+  "slug": "swan-district-wine-region",
+  "canonical": "https://winedaddy.com.au/swan-district-wine-region/",
+  "canonical_path": "/swan-district-wine-region/",
+  "output_path": "swan-district-wine-region/index.html",
+  "title": "Swan District wine region: where it is, grapes and wine styles",
+  "hub_title": "Swan District",
+  "description": "Learn where the Swan District wine region is, how it relates to Swan Valley and Greater Perth, and what to expect from its climate, grapes and wine styles.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.670Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.998Z"
+}

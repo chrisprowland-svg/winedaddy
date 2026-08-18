@@ -17,7 +17,7 @@ reader = reader.replace(/\[([^\]]+)\]\(\/[^)]+\),\s*when available/gi, '$1, when
 reader = reader.replace(/^\s*\[VIS-\d{3}\s*(?:[—–-]|:)\s*[^\]]+\]\s*$/gim, '');
 // Preserve the Reader Experience Standard when an approved article uses an
 // equivalent summary label instead of the canonical site heading.
-reader = reader.replace(/^##\s+(?:.+\s+in brief|at a glance|quick facts)\s*$/im, '## Highlights');
+reader = reader.replace(/^##\s+(?:.+\s+)?(?:highlights?|(?:the\s+)?quick highlights|at a glance|quick facts|in brief|in short|in a nutshell)\s*$/im, '## Highlights');
 const appendix = editorial.split(/END READER ARTICLE/i)[1] || '';
 const metadata = editorial.match(/## Front matter and metadata\s*([\s\S]*?)\n## /i)?.[1] || appendix;
 const field = name => metadata.match(new RegExp(`^\\s*(?:-\\s+)?(?:\\*\\*)?${name}:(?:\\*\\*)?\\s*(.+?)\\s*$`, 'im'))?.[1]?.replace(/^`|`$/g, '').trim();
@@ -61,6 +61,13 @@ fs.writeFileSync(outputPath, html);
 
 const sitemapPath = 'sitemap.xml';
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+sitemap = sitemap.replaceAll('https://www.winedaddy.com.au', 'https://winedaddy.com.au');
+const seenSitemapUrls = new Set();
+sitemap = sitemap.replace(/\s*<url>\s*<loc>([^<]+)<\/loc>\s*<\/url>/g, (block, url) => {
+  if (seenSitemapUrls.has(url)) return '';
+  seenSitemapUrls.add(url);
+  return block;
+});
 if (!sitemap.includes(`<loc>${canonical}</loc>`)) sitemap = sitemap.replace('</urlset>', `  <url><loc>${canonical}</loc></url>\n</urlset>`);
 fs.writeFileSync(sitemapPath, sitemap);
 

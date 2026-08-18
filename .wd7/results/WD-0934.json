@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0934",
+  "slug": "adelaide-plains-wine-region",
+  "canonical": "https://winedaddy.com.au/adelaide-plains-wine-region/",
+  "canonical_path": "/adelaide-plains-wine-region/",
+  "output_path": "adelaide-plains-wine-region/index.html",
+  "title": "Adelaide Plains Wine Region: Where It Is and What It’s Known For",
+  "hub_title": "Adelaide Plains",
+  "description": "Learn where the Adelaide Plains wine region is, how its protected GI fits into South Australia’s wine hierarchy, and which grapes and styles it is known for.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.110Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.675Z"
+}

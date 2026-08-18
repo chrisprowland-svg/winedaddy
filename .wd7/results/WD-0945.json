@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0945",
+  "slug": "blackwood-valley-wine-region",
+  "canonical": "https://winedaddy.com.au/blackwood-valley-wine-region/",
+  "canonical_path": "/blackwood-valley-wine-region/",
+  "output_path": "blackwood-valley-wine-region/index.html",
+  "title": "Blackwood Valley wine region: wines, place and climate explained",
+  "hub_title": "Blackwood Valley",
+  "description": "Learn where Blackwood Valley is, how its Western Australian climate shapes wine, which varieties lead the region and what the GI name means on a label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.961Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:48.204Z"
+}

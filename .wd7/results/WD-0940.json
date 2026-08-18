@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0940",
+  "slug": "robe-wine-region",
+  "canonical": "https://winedaddy.com.au/robe-wine-region/",
+  "canonical_path": "/robe-wine-region/",
+  "output_path": "robe-wine-region/index.html",
+  "title": "Robe Wine Region: A Beginner’s Guide to Its Climate, Soils and Wines",
+  "hub_title": "Robe",
+  "description": "Understand the Robe wine region in South Australia: its Limestone Coast location, maritime climate, varied soils, principal grape varieties and what “Robe” means on a wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:45.567Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:47.952Z"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "WD-0917",
+  "slug": "shoalhaven-coast-wine-region",
+  "canonical": "https://winedaddy.com.au/shoalhaven-coast-wine-region/",
+  "canonical_path": "/shoalhaven-coast-wine-region/",
+  "output_path": "shoalhaven-coast-wine-region/index.html",
+  "title": "Shoalhaven Coast Wine Region: Place, Climate and Wine Styles",
+  "hub_title": "Shoalhaven Coast",
+  "description": "Understand the Shoalhaven Coast wine region: its NSW location, South Coast GI hierarchy, maritime climate, key varieties, regional styles and what the name means on a wine label.",
+  "section": "regions",
+  "qa_status": "passed",
+  "built_at": "2026-08-18T05:42:43.719Z",
+  "qa_checks": [
+    "build",
+    "reader-boundary",
+    "canonical",
+    "schema",
+    "analytics",
+    "internal-links",
+    "sitemap",
+    "hub-discoverability",
+    "preview-noindex"
+  ],
+  "qa_passed_at": "2026-08-18T05:42:46.852Z"
+}
