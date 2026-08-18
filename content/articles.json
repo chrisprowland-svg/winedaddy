@@ -18,6 +18,14 @@
       "source": "article-source/adelaide-plains-wine-region.md"
     },
     {
+      "slug": "alpine-valleys-wine-region",
+      "route": "/alpine-valleys-wine-region/",
+      "title": "Alpine Valleys wine region: grapes, styles and a beginner’s guide",
+      "description": "Learn where Alpine Valleys is, how its protected GI fits within North East Victoria, and why its varied elevation and climate support Prosecco, Chardonnay, Pinot Noir and diverse red-wine styles.",
+      "section": "regions",
+      "source": "article-source/alpine-valleys-wine-region.md"
+    },
+    {
       "slug": "barossa-valley-wine-region",
       "route": "/barossa-valley-wine-region/",
       "title": "Barossa Valley Wine Region: Shiraz, Old Vines and More",
@@ -48,6 +56,14 @@
       "description": "Learn where Blackwood Valley is, how its Western Australian climate shapes wine, which varieties lead the region and what the GI name means on a label.",
       "section": "regions",
       "source": "article-source/blackwood-valley-wine-region.md"
+    },
+    {
+      "slug": "canberra-district-wine-region",
+      "route": "/canberra-district-wine-region/",
+      "title": "Canberra District wine region: where it is, grapes and wine styles",
+      "description": "Understand where Canberra District is, how its ACT–NSW GI works, and the Shiraz, Riesling, Cabernet Sauvignon and other wines associated with the region.",
+      "section": "regions",
+      "source": "article-source/canberra-district-wine-region.md"
     },
     {
       "slug": "chardonnay-food-pairing",
@@ -106,6 +122,14 @@
       "source": "article-source/does-wine-improve-with-age.md"
     },
     {
+      "slug": "eden-valley-wine-region",
+      "route": "/eden-valley-wine-region/",
+      "title": "Eden Valley wine region: a clear guide to its wines and landscape",
+      "description": "Learn where Eden Valley is, how it fits within South Australia’s Barossa zone, and why elevation, climate and site shape its Riesling, Shiraz and other wines.",
+      "section": "regions",
+      "source": "article-source/eden-valley-wine-region.md"
+    },
+    {
       "slug": "geelong-wine-region",
       "route": "/geelong-wine-region/",
       "title": "Geelong wine region: what it is known for and what to expect",
@@ -146,6 +170,22 @@
       "source": "article-source/grampians-wine-region.md"
     },
     {
+      "slug": "granite-belt-wine-region",
+      "route": "/granite-belt-wine-region/",
+      "title": "Granite Belt wine region: where it is and what its wines are like",
+      "description": "Learn where Queensland’s Granite Belt wine region is, how its high-elevation climate shapes growing conditions, which grapes it is known for and what the GI means on a wine label.",
+      "section": "regions",
+      "source": "article-source/granite-belt-wine-region.md"
+    },
+    {
+      "slug": "great-southern-wine-region",
+      "route": "/great-southern-wine-region/",
+      "title": "Great Southern wine region: what is it known for?",
+      "description": "Great Southern is a large Western Australian wine GI known for Riesling, Shiraz and regional diversity. Learn where it is, how its climate varies and what to expect from its wines.",
+      "section": "regions",
+      "source": "article-source/great-southern-wine-region.md"
+    },
+    {
       "slug": "great-western-wine-region",
       "route": "/great-western-wine-region/",
       "title": "Great Western wine region: a guide to its place, grapes and styles",
@@ -168,6 +208,14 @@
       "description": "Understand where the Hastings River wine region is, how its GI works, and how climate, soils, grape varieties and site variation shape its wines.",
       "section": "regions",
       "source": "article-source/hastings-river-wine-region.md"
+    },
+    {
+      "slug": "heathcote-wine-region",
+      "route": "/heathcote-wine-region/",
+      "title": "Heathcote Wine Region: A Guide to Its Wines, Place and Character",
+      "description": "Learn what makes the Heathcote wine region distinctive, from its Victorian GI status and Central Victoria location to Shiraz, climate, Cambrian greenstone soils and label meaning.",
+      "section": "regions",
+      "source": "article-source/heathcote-wine-region.md"
     },
     {
       "slug": "henty-wine-region",
@@ -290,6 +338,22 @@
       "source": "article-source/kangaroo-island-wine-region.md"
     },
     {
+      "slug": "king-valley-wine-region",
+      "route": "/king-valley-wine-region/",
+      "title": "King Valley wine region: what it is known for",
+      "description": "Understand King Valley’s official GI hierarchy, location, changing elevation and climate, key grape varieties and what the regional name means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/king-valley-wine-region.md"
+    },
+    {
+      "slug": "langhorne-creek-wine-region",
+      "route": "/langhorne-creek-wine-region/",
+      "title": "Langhorne Creek wine region: what it is known for",
+      "description": "Understand where Langhorne Creek sits in South Australia’s Fleurieu zone, the conditions shaping its wines, its principal grapes and what the GI name means on a bottle.",
+      "section": "regions",
+      "source": "article-source/langhorne-creek-wine-region.md"
+    },
+    {
       "slug": "macedon-ranges-wine-region",
       "route": "/macedon-ranges-wine-region/",
       "title": "Macedon Ranges Wine Region: A Beginner’s Guide",
@@ -378,6 +442,14 @@
       "source": "article-source/new-england-australia-wine-region.md"
     },
     {
+      "slug": "orange-wine-region",
+      "route": "/orange-wine-region/",
+      "title": "Orange wine region: a beginner’s guide to Orange, NSW",
+      "description": "Understand Orange, NSW: its Central Ranges GI, elevation, climate, soils, grapes, wine styles and what “Orange” means on a wine label.",
+      "section": "regions",
+      "source": "article-source/orange-wine-region.md"
+    },
+    {
       "slug": "padthaway-wine-region",
       "route": "/padthaway-wine-region/",
       "title": "Padthaway Wine Region: Location, Wines and GI Explained",
@@ -440,6 +512,14 @@
       "description": "Understand how red and white wine are made, how they usually taste, and how to choose between them with confidence.",
       "section": "fundamentals",
       "source": "article-source/red-wine-vs-white-wine.md"
+    },
+    {
+      "slug": "riverina-wine-region",
+      "route": "/riverina-wine-region/",
+      "title": "Riverina Wine Region: A Beginner’s Guide",
+      "description": "Understand the Riverina wine region in New South Wales, its Big Rivers GI hierarchy, inland climate, irrigation, key grapes and distinctive sweet Semillon association.",
+      "section": "regions",
+      "source": "article-source/riverina-wine-region.md"
     },
     {
       "slug": "riverland-wine-region",

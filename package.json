@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "content:migrate": "node scripts/migrate-content-manifest.mjs",
+    "content:import": "node scripts/import-wdos-batch.mjs",
     "build": "node scripts/build-site.mjs",
     "check": "npm run build && node scripts/qa-site.mjs",
     "test": "node --test workers/page-qa/test/*.test.mjs",
