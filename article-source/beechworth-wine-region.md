@@ -117,7 +117,7 @@ Beechworth is one of several separate GIs within the North East Victoria wine zo
 
 These regions may be close on a map, but “North East Victoria” is the broader zone, not a synonym for Beechworth. Beechworth is particularly associated with elevated and geologically varied country around the Beechworth–Stanley area.
 
-For comparison, you can explore [King Valley](/king-valley-wine-region/), [Alpine Valleys](/alpine-valleys-wine-region/) and [Rutherglen](/rutherglen-wine-region/) as separate regional entities.
+For comparison, King Valley and Alpine Valleys are separate regional entities, while our [Rutherglen guide](/rutherglen-wine-region/) covers another nearby Victorian wine region.
 
 ## How to approach a bottle of Beechworth wine
 

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "winedaddy-page-qa",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-18",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {"enabled": true, "head_sampling_rate": 1},
+  "vars": {"MAX_PATHS": "40"}
+}

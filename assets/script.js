@@ -1,4 +1,4 @@
-document.querySelector('.menu')?.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.toggle('open'));
+document.querySelector('.menu')?.addEventListener('click',event=>{const links=document.querySelector('.nav-links');links?.classList.toggle('open');event.currentTarget.setAttribute('aria-expanded',String(links?.classList.contains('open')))});
 
 document.querySelectorAll('.subscribe-form').forEach(form => form.addEventListener('submit', async event => {
   event.preventDefault();
@@ -40,3 +40,19 @@ if (searchForm) {
 }
 
 function escapeHtml(value) { return value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+
+const guideFilter = document.querySelector('[data-guide-filter]');
+if (guideFilter) {
+  const cards = [...document.querySelectorAll('[data-guide-grid] .guide-card')];
+  const empty = document.querySelector('[data-empty-state]');
+  guideFilter.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const show = !query || card.textContent.toLowerCase().includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    }
+    if (empty) empty.hidden = visible !== 0;
+  });
+}

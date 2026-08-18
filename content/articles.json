@@ -1,0 +1,981 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "slug": "adelaide-hills-wine-region",
+      "route": "/adelaide-hills-wine-region/",
+      "title": "Adelaide Hills Wine Region: A Beginner’s Guide",
+      "description": "Learn how elevation, local variation and a cool-climate reputation shape Adelaide Hills Chardonnay, Sauvignon Blanc, Pinot Noir and Shiraz.",
+      "section": "regions",
+      "source": "article-source/adelaide-hills-wine-region.md"
+    },
+    {
+      "slug": "adelaide-plains-wine-region",
+      "route": "/adelaide-plains-wine-region/",
+      "title": "Adelaide Plains Wine Region: Where It Is and What It’s Known For",
+      "description": "Learn where the Adelaide Plains wine region is, how its protected GI fits into South Australia’s wine hierarchy, and which grapes and styles it is known for.",
+      "section": "regions",
+      "source": "article-source/adelaide-plains-wine-region.md"
+    },
+    {
+      "slug": "barossa-valley-wine-region",
+      "route": "/barossa-valley-wine-region/",
+      "title": "Barossa Valley Wine Region: Shiraz, Old Vines and More",
+      "description": "Explore Barossa Valley Shiraz, Grenache, old vines, climate and history, plus what the regional name can and cannot tell you about a wine.",
+      "section": "regions",
+      "source": "article-source/barossa-valley-wine-region.md"
+    },
+    {
+      "slug": "beechworth-wine-region",
+      "route": "/beechworth-wine-region/",
+      "title": "Beechworth wine region: where it is and what its wines are like",
+      "description": "Discover where the Beechworth wine region is, what its GI means, and why elevation, site variation and climate shape its Chardonnay, Pinot Noir and Shiraz.",
+      "section": "regions",
+      "source": "article-source/beechworth-wine-region.md"
+    },
+    {
+      "slug": "bendigo-wine-region",
+      "route": "/bendigo-wine-region/",
+      "title": "Bendigo wine region: a beginner’s guide",
+      "description": "Understand where the Bendigo wine region is, what its GI means and why Shiraz, Cabernet Sauvignon and Chardonnay are central to its regional identity.",
+      "section": "regions",
+      "source": "article-source/bendigo-wine-region.md"
+    },
+    {
+      "slug": "blackwood-valley-wine-region",
+      "route": "/blackwood-valley-wine-region/",
+      "title": "Blackwood Valley wine region: wines, place and climate explained",
+      "description": "Learn where Blackwood Valley is, how its Western Australian climate shapes wine, which varieties lead the region and what the GI name means on a label.",
+      "section": "regions",
+      "source": "article-source/blackwood-valley-wine-region.md"
+    },
+    {
+      "slug": "chardonnay-food-pairing",
+      "route": "/chardonnay-food-pairing/",
+      "title": "Chardonnay Food Pairing: What to Eat with Every Style",
+      "description": "Learn what food pairs with fresh, unoaked, textured and oaked Chardonnay, from oysters and prawns to roast chicken, pork, salmon, creamy sauces and cheese.",
+      "section": "fundamentals",
+      "source": "article-source/chardonnay-food-pairing.md"
+    },
+    {
+      "slug": "clare-valley-wine-region",
+      "route": "/clare-valley-wine-region/",
+      "title": "Clare Valley wine region: Riesling, red wines and the landscape",
+      "description": "Learn what Clare Valley is known for, from dry Riesling and structured red wines to its elevated landscape, cold nights and varied vineyard sites.",
+      "section": "regions",
+      "source": "article-source/clare-valley-wine-region.md"
+    },
+    {
+      "slug": "coonawarra-wine-region",
+      "route": "/coonawarra-wine-region/",
+      "title": "Coonawarra Wine Region: What It Is Known For and What Its Wines Taste Like",
+      "description": "Learn what Coonawarra is known for, from Cabernet Sauvignon and terra rossa soils to its cool maritime climate, regional wine styles and label meaning.",
+      "section": "regions",
+      "source": "article-source/coonawarra-wine-region.md"
+    },
+    {
+      "slug": "cowra-wine-region",
+      "route": "/cowra-wine-region/",
+      "title": "Cowra wine region: a beginner’s guide",
+      "description": "Understand the Cowra wine region in New South Wales, its Central Ranges GI status, location, climate, key grape varieties and what “Cowra” means on a wine label.",
+      "section": "regions",
+      "source": "article-source/cowra-wine-region.md"
+    },
+    {
+      "slug": "currency-creek-wine-region",
+      "route": "/currency-creek-wine-region/",
+      "title": "Currency Creek wine region: a beginner’s guide",
+      "description": "Understand the Currency Creek wine region in South Australia: its Fleurieu GI identity, location, maritime climate, key varieties, wine styles and label meaning.",
+      "section": "regions",
+      "source": "article-source/currency-creek-wine-region.md"
+    },
+    {
+      "slug": "does-vintage-matter",
+      "route": "/does-vintage-matter/",
+      "title": "Does Vintage Matter in Wine?",
+      "description": "Learn what a wine vintage means, when weather and region make it important, and why an older or highly rated vintage is not automatically better.",
+      "section": "fundamentals",
+      "source": "article-source/does-vintage-matter.md"
+    },
+    {
+      "slug": "does-wine-improve-with-age",
+      "route": "/does-wine-improve-with-age/",
+      "title": "Does Wine Improve With Age?",
+      "description": "Some wine improves with age, but older does not automatically mean better. Learn what influences ageing potential, how storage affects maturity and how to assess an older bottle.",
+      "section": "fundamentals",
+      "source": "article-source/does-wine-improve-with-age.md"
+    },
+    {
+      "slug": "geelong-wine-region",
+      "route": "/geelong-wine-region/",
+      "title": "Geelong wine region: what it is known for and what to expect",
+      "description": "Learn where the Geelong wine region is, what its cool maritime climate means, and why Pinot Noir, Shiraz and Chardonnay are central to its identity.",
+      "section": "regions",
+      "source": "article-source/geelong-wine-region.md"
+    },
+    {
+      "slug": "geographe-wine-region",
+      "route": "/geographe-wine-region/",
+      "title": "Geographe Wine Region: Where It Is and What It Is Known For",
+      "description": "Understand the Geographe wine region in Western Australia, its GI status, location, climate, key varieties and the meaning of “Geographe” on a wine label.",
+      "section": "regions",
+      "source": "article-source/geographe-wine-region.md"
+    },
+    {
+      "slug": "gippsland-wine-region",
+      "route": "/gippsland-wine-region/",
+      "title": "Gippsland wine region: where it is and what it is known for",
+      "description": "Learn where Gippsland is, how its Victorian Geographical Indication works, and why Chardonnay, Pinot Noir, Shiraz and aromatic whites are associated with this diverse cool-climate wine region.",
+      "section": "regions",
+      "source": "article-source/gippsland-wine-region.md"
+    },
+    {
+      "slug": "goulburn-valley-wine-region",
+      "route": "/goulburn-valley-wine-region/",
+      "title": "Goulburn Valley wine region: where it is and what it produces",
+      "description": "Understand where the Goulburn Valley wine region is, how its GI works, and why it is known for Shiraz, Marsanne, Cabernet Sauvignon, Chardonnay and Riesling.",
+      "section": "regions",
+      "source": "article-source/goulburn-valley-wine-region.md"
+    },
+    {
+      "slug": "grampians-wine-region",
+      "route": "/grampians-wine-region/",
+      "title": "Grampians wine region: what to know about its wines and climate",
+      "description": "Understand where the Grampians wine region is, how its GI works, and why Shiraz, Cabernet Sauvignon and Riesling are associated with its cool nights, varied terrain and western Victorian landscape.",
+      "section": "regions",
+      "source": "article-source/grampians-wine-region.md"
+    },
+    {
+      "slug": "great-western-wine-region",
+      "route": "/great-western-wine-region/",
+      "title": "Great Western wine region: a guide to its place, grapes and styles",
+      "description": "Learn where the Great Western wine region is, how its GI relates to Grampians and Western Victoria, and why it is known for Shiraz, Cabernet Sauvignon and sparkling wine.",
+      "section": "regions",
+      "source": "article-source/great-western-wine-region.md"
+    },
+    {
+      "slug": "gundagai-wine-region",
+      "route": "/gundagai-wine-region/",
+      "title": "Gundagai wine region: where it is and what its wines are like",
+      "description": "Understand the Gundagai wine region, its Southern New South Wales location, climate, principal grape varieties and what “Gundagai” means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/gundagai-wine-region.md"
+    },
+    {
+      "slug": "hastings-river-wine-region",
+      "route": "/hastings-river-wine-region/",
+      "title": "Hastings River wine region: a beginner’s guide",
+      "description": "Understand where the Hastings River wine region is, how its GI works, and how climate, soils, grape varieties and site variation shape its wines.",
+      "section": "regions",
+      "source": "article-source/hastings-river-wine-region.md"
+    },
+    {
+      "slug": "henty-wine-region",
+      "route": "/henty-wine-region/",
+      "title": "Henty wine region: a beginner’s guide",
+      "description": "Discover where Henty is, how it fits within Western Victoria, and why its cool climate is associated with Riesling, Cabernet Sauvignon and other varied wine styles.",
+      "section": "regions",
+      "source": "article-source/henty-wine-region.md"
+    },
+    {
+      "slug": "hilltops-wine-region",
+      "route": "/hilltops-wine-region/",
+      "title": "Hilltops wine region: location, grapes and wine styles",
+      "description": "Understand the Hilltops wine region in southern New South Wales, including its GI status, location, climate, key grape varieties and what “Hilltops” means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/hilltops-wine-region.md"
+    },
+    {
+      "slug": "how-climate-affects-wine",
+      "route": "/how-climate-affects-wine/",
+      "title": "How Climate Affects Wine",
+      "description": "Learn how temperature, sunlight, rainfall and seasonal conditions influence grape ripeness, acidity, flavour and wine style.",
+      "section": "winemaking",
+      "source": "article-source/how-climate-affects-wine.md"
+    },
+    {
+      "slug": "how-soil-affects-wine",
+      "route": "/how-soil-affects-wine/",
+      "title": "How Soil Affects Wine",
+      "description": "Soil can influence wine through water availability, root growth, nutrients and vine development—but it does not simply transfer its flavour to grapes. Learn how soil, climate and winemaking interact.",
+      "section": "winemaking",
+      "source": "article-source/how-soil-affects-wine.md"
+    },
+    {
+      "slug": "how-to-cellar-pinot-noir",
+      "route": "/how-to-cellar-pinot-noir/",
+      "title": "How to Cellar Pinot Noir",
+      "description": "Learn how to cellar Pinot Noir at home, choose a suitable storage location and judge whether a particular bottle may improve with age.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-cellar-pinot-noir.md"
+    },
+    {
+      "slug": "how-to-cellar-wine",
+      "route": "/how-to-cellar-wine/",
+      "title": "How to Cellar Wine",
+      "description": "A practical guide to temperature, light, humidity, vibration and bottle position for storing wine safely at home.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-cellar-wine.md"
+    },
+    {
+      "slug": "how-to-open-sparkling-wine-safely",
+      "route": "/how-to-open-sparkling-wine-safely/",
+      "title": "How to Open Sparkling Wine Safely",
+      "description": "Learn how to open a standard sparkling-wine bottle safely, with simple steps for chilling, controlling the cork, loosening the wire cage and avoiding flying corks.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-open-sparkling-wine-safely.md"
+    },
+    {
+      "slug": "how-to-read-a-wine-label",
+      "route": "/how-to-read-a-wine-label/",
+      "title": "How to Read a Wine Label",
+      "description": "Learn how to find the producer, region, grape, vintage, alcohol and other useful clues on an Australian wine label.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-read-a-wine-label.md"
+    },
+    {
+      "slug": "how-to-store-open-wine",
+      "route": "/how-to-store-open-wine/",
+      "title": "How to Store an Open Bottle of Wine",
+      "description": "Learn how refrigeration, resealing and reduced oxygen exposure can keep an opened bottle tasting fresh for longer.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-store-open-wine.md"
+    },
+    {
+      "slug": "how-to-taste-wine",
+      "route": "/how-to-taste-wine/",
+      "title": "How to Taste Wine",
+      "description": "A practical step-by-step guide to looking, smelling and tasting wine without the theatre.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-taste-wine.md"
+    },
+    {
+      "slug": "how-to-understand-wine-reviews",
+      "route": "/how-to-understand-wine-reviews/",
+      "title": "How to Understand Wine Reviews",
+      "description": "Learn how to read wine tasting notes and scores, understand common review language, and decide whether a wine’s style may suit your taste.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-understand-wine-reviews.md"
+    },
+    {
+      "slug": "how-wine-is-made",
+      "route": "/how-wine-is-made/",
+      "title": "How Wine Is Made: From Grapes to the Finished Bottle",
+      "description": "Discover how grapes become wine through harvesting, fermentation, skin contact, maturation, blending and bottling—and why wine styles differ.",
+      "section": "fundamentals",
+      "source": "article-source/how-wine-is-made.html"
+    },
+    {
+      "slug": "how-wine-pairing-works",
+      "route": "/how-wine-pairing-works/",
+      "title": "How Wine Pairing Works: A Simple Guide to Choosing Wine with Food",
+      "description": "Learn how wine pairing works by matching intensity, acidity, sweetness, tannin and texture with the food on your plate, plus a simple method for choosing wine.",
+      "section": "fundamentals",
+      "source": "article-source/how-wine-pairing-works.md"
+    },
+    {
+      "slug": "hunter-valley-wine-region",
+      "route": "/hunter-valley-wine-region/",
+      "title": "Hunter Valley Wine Region: What It Is and What It Is Known For",
+      "description": "Learn why the Hunter Valley is known for distinctive Semillon and Shiraz, and how its warm, humid conditions shape the region’s wines.",
+      "section": "regions",
+      "source": "article-source/hunter-valley-wine-region.md"
+    },
+    {
+      "slug": "kangaroo-island-wine-region",
+      "route": "/kangaroo-island-wine-region/",
+      "title": "Kangaroo Island Wine Region: Location, Climate and Wine Styles",
+      "description": "Understand the Kangaroo Island wine region: its Fleurieu GI hierarchy, island location, maritime growing conditions, principal grape varieties and what the regional label means.",
+      "section": "regions",
+      "source": "article-source/kangaroo-island-wine-region.md"
+    },
+    {
+      "slug": "macedon-ranges-wine-region",
+      "route": "/macedon-ranges-wine-region/",
+      "title": "Macedon Ranges Wine Region: A Beginner’s Guide",
+      "description": "Learn where the Macedon Ranges wine region is, why its elevated cool climate matters, and what to expect from its Pinot Noir, Chardonnay, Riesling, Shiraz and other wines.",
+      "section": "regions",
+      "source": "article-source/macedon-ranges-wine-region.md"
+    },
+    {
+      "slug": "manjimup-wine-region",
+      "route": "/manjimup-wine-region/",
+      "title": "Manjimup wine region: a beginner’s guide",
+      "description": "Discover where the Manjimup wine region is, how it fits into Western Australia’s GI system, and the Cabernet Sauvignon, Merlot, Chardonnay and Verdelho styles associated with it.",
+      "section": "regions",
+      "source": "article-source/manjimup-wine-region.md"
+    },
+    {
+      "slug": "margaret-river-wine-region",
+      "route": "/margaret-river-wine-region/",
+      "title": "Margaret River Wine Region: What It Is Known For",
+      "description": "Explore Margaret River’s maritime climate and its reputation for Cabernet Sauvignon, Chardonnay and Sauvignon Blanc–Semillon blends.",
+      "section": "regions",
+      "source": "article-source/margaret-river-wine-region.md"
+    },
+    {
+      "slug": "mclaren-vale-wine-region",
+      "route": "/mclaren-vale-wine-region/",
+      "title": "McLaren Vale Wine Region: Shiraz, Grenache and Coastal South Australia",
+      "description": "Learn about McLaren Vale’s Mediterranean climate, local variation and its best-known grapes, including Shiraz, Grenache and Cabernet Sauvignon.",
+      "section": "regions",
+      "source": "article-source/mclaren-vale-wine-region.md"
+    },
+    {
+      "slug": "mornington-peninsula-wine-region",
+      "route": "/mornington-peninsula-wine-region/",
+      "title": "Mornington Peninsula Wine Region: Pinot Noir, Chardonnay and Maritime Climate",
+      "description": "Learn why Mornington Peninsula’s maritime setting, varied sites, Pinot Noir and Chardonnay make it one of Victoria’s distinctive wine regions.",
+      "section": "regions",
+      "source": "article-source/mornington-peninsula-wine-region.md"
+    },
+    {
+      "slug": "mount-benson-wine-region",
+      "route": "/mount-benson-wine-region/",
+      "title": "Mount Benson Wine Region: Location, Wines and GI Guide",
+      "description": "Learn where Mount Benson is, how it fits within South Australia’s Limestone Coast, and what to expect from its Shiraz, Cabernet Sauvignon, Sauvignon Blanc, Chardonnay and Merlot.",
+      "section": "regions",
+      "source": "article-source/mount-benson-wine-region.md"
+    },
+    {
+      "slug": "mount-gambier-wine-region",
+      "route": "/mount-gambier-wine-region/",
+      "title": "Mount Gambier Wine Region: Climate, Grapes and Wine Styles",
+      "description": "Discover what makes the Mount Gambier wine region distinctive, from its Limestone Coast GI and cool maritime climate to Chardonnay, Sauvignon Blanc, Pinot Noir, volcanic soils and label meaning.",
+      "section": "regions",
+      "source": "article-source/mount-gambier-wine-region.md"
+    },
+    {
+      "slug": "mudgee-wine-region",
+      "route": "/mudgee-wine-region/",
+      "title": "Mudgee Wine Region: Where It Is and What Wines It Is Known For",
+      "description": "Learn where the Mudgee wine region is, what its Australian GI means, how elevation and climate shape its wines, and why Shiraz, Cabernet Sauvignon, Chardonnay and other varieties matter.",
+      "section": "regions",
+      "source": "article-source/mudgee-wine-region.md"
+    },
+    {
+      "slug": "murray-darling-wine-region",
+      "route": "/murray-darling-wine-region/",
+      "title": "Murray–Darling wine region: where it is and what its wines are like",
+      "description": "Understand the Murray Darling wine region, its cross-border GI, hot dry climate, irrigation context, key grape varieties and what the name means on a wine label.",
+      "section": "regions",
+      "source": "article-source/murray-darling-wine-region.md"
+    },
+    {
+      "slug": "nagambie-lakes-wine-region",
+      "route": "/nagambie-lakes-wine-region/",
+      "title": "Nagambie Lakes wine region: location, climate and wines",
+      "description": "Understand the Nagambie Lakes wine region in central Victoria, including its GI hierarchy, location, climate, soils, history and best-known grape varieties.",
+      "section": "regions",
+      "source": "article-source/nagambie-lakes-wine-region.md"
+    },
+    {
+      "slug": "new-england-australia-wine-region",
+      "route": "/new-england-australia-wine-region/",
+      "title": "New England Australia wine region: what to know",
+      "description": "Discover where New England Australia is, how its elevation and frost-prone climate shape viticulture, and what to expect from its Chardonnay, Riesling, Shiraz and alternative varieties.",
+      "section": "regions",
+      "source": "article-source/new-england-australia-wine-region.md"
+    },
+    {
+      "slug": "padthaway-wine-region",
+      "route": "/padthaway-wine-region/",
+      "title": "Padthaway Wine Region: Location, Wines and GI Explained",
+      "description": "Understand where Padthaway is, how it fits within South Australia’s Limestone Coast, what its GI means and why Chardonnay, Cabernet Sauvignon and Shiraz are associated with the region.",
+      "section": "regions",
+      "source": "article-source/padthaway-wine-region.md"
+    },
+    {
+      "slug": "peel-wine-region",
+      "route": "/peel-wine-region/",
+      "title": "Peel wine region: a beginner’s guide to Western Australia’s coastal and inland vineyards",
+      "description": "Understand where the Peel wine region is, its formal GI status, climate and landscape, key grape varieties, wine styles and what “Peel” means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/peel-wine-region.md"
+    },
+    {
+      "slug": "pemberton-wine-region",
+      "route": "/pemberton-wine-region/",
+      "title": "Pemberton wine region: a beginner’s guide",
+      "description": "Discover where the Pemberton wine region is, how its cool southern-Western Australian climate shapes viticulture, and why Chardonnay, Merlot and Pinot Noir are associated with the region.",
+      "section": "regions",
+      "source": "article-source/pemberton-wine-region.md"
+    },
+    {
+      "slug": "perth-hills-wine-region",
+      "route": "/perth-hills-wine-region/",
+      "title": "Perth Hills wine region: a beginner’s guide",
+      "description": "Learn where the Perth Hills wine region is, how its elevation and terrain shape growing conditions, which varieties it is known for, and what “Perth Hills” means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/perth-hills-wine-region.md"
+    },
+    {
+      "slug": "pinot-gris-vs-pinot-grigio",
+      "route": "/pinot-gris-vs-pinot-grigio/",
+      "title": "Pinot Gris vs Pinot Grigio: What’s the Difference?",
+      "description": "Pinot Gris and Pinot Grigio are names for the same grape. Learn how regional traditions can suggest different styles, why Australian examples overlap, and how to choose a bottle.",
+      "section": "grapes",
+      "source": "article-source/pinot-gris-vs-pinot-grigio.md"
+    },
+    {
+      "slug": "pinot-noir-food-pairing",
+      "route": "/pinot-noir-food-pairing/",
+      "title": "Pinot Noir Food Pairing: What to Eat with Pinot Noir",
+      "description": "Discover what food pairs with Pinot Noir, from roast chicken and duck to salmon, mushrooms and cheese, with simple guidance for matching the wine’s style to the dish.",
+      "section": "fundamentals",
+      "source": "article-source/pinot-noir-food-pairing.md"
+    },
+    {
+      "slug": "pyrenees-wine-region",
+      "route": "/pyrenees-wine-region/",
+      "title": "Pyrenees wine region: a beginner’s guide",
+      "description": "Learn where Victoria’s Pyrenees wine region is, why it is known for Shiraz and Cabernet Sauvignon, and how climate, elevation and the GI label shape what you can expect.",
+      "section": "regions",
+      "source": "article-source/pyrenees-wine-region.md"
+    },
+    {
+      "slug": "red-wine-vs-white-wine",
+      "route": "/red-wine-vs-white-wine/",
+      "title": "Red Wine vs White Wine: What’s the Difference?",
+      "description": "Understand how red and white wine are made, how they usually taste, and how to choose between them with confidence.",
+      "section": "fundamentals",
+      "source": "article-source/red-wine-vs-white-wine.md"
+    },
+    {
+      "slug": "riverland-wine-region",
+      "route": "/riverland-wine-region/",
+      "title": "Riverland Wine Region: Location, Climate, Grapes and Wine Styles",
+      "description": "Understand the Riverland wine region in South Australia: its Murray River location, Lower Murray GI status, hot dry climate, irrigation, key grape varieties and label meaning.",
+      "section": "regions",
+      "source": "article-source/riverland-wine-region.md"
+    },
+    {
+      "slug": "robe-wine-region",
+      "route": "/robe-wine-region/",
+      "title": "Robe Wine Region: A Beginner’s Guide to Its Climate, Soils and Wines",
+      "description": "Understand the Robe wine region in South Australia: its Limestone Coast location, maritime climate, varied soils, principal grape varieties and what “Robe” means on a wine label.",
+      "section": "regions",
+      "source": "article-source/robe-wine-region.md"
+    },
+    {
+      "slug": "rutherglen-wine-region",
+      "route": "/rutherglen-wine-region/",
+      "title": "Rutherglen wine region: Muscat, fortified wines and full-bodied reds",
+      "description": "Discover where Rutherglen is, why Victoria’s north-east region is famous for Rutherglen Muscat and Topaque, and what to expect from its Durif, Shiraz and Cabernet Sauvignon.",
+      "section": "regions",
+      "source": "article-source/rutherglen-wine-region.md"
+    },
+    {
+      "slug": "screw-cap-vs-cork",
+      "route": "/screw-cap-vs-cork/",
+      "title": "Screw Cap vs Cork: Which Is Better for Wine?",
+      "description": "Screw cap or cork—which is better for wine? Learn how closures affect oxygen, ageing, cork taint, faults, sustainability and buying decisions in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/screw-cap-vs-cork.md"
+    },
+    {
+      "slug": "shiraz-food-pairing",
+      "route": "/shiraz-food-pairing/",
+      "title": "Shiraz Food Pairing: What to Eat with Shiraz",
+      "description": "Discover what food pairs well with Shiraz, from Australian barbecue and steak to mushrooms and mature cheese, with practical guidance for different Shiraz styles, sauces, smoke and chilli.",
+      "section": "fundamentals",
+      "source": "article-source/shiraz-food-pairing.md"
+    },
+    {
+      "slug": "shoalhaven-coast-wine-region",
+      "route": "/shoalhaven-coast-wine-region/",
+      "title": "Shoalhaven Coast Wine Region: Place, Climate and Wine Styles",
+      "description": "Understand the Shoalhaven Coast wine region: its NSW location, South Coast GI hierarchy, maritime climate, key varieties, regional styles and what the name means on a wine label.",
+      "section": "regions",
+      "source": "article-source/shoalhaven-coast-wine-region.md"
+    },
+    {
+      "slug": "southern-fleurieu-wine-region",
+      "route": "/southern-fleurieu-wine-region/",
+      "title": "Southern Fleurieu Wine Region: Where It Is and What It’s Known For",
+      "description": "Understand where the Southern Fleurieu wine region is, how it fits within South Australia’s GI system, and why its maritime conditions support Cabernet Sauvignon, Merlot, Riesling and more.",
+      "section": "regions",
+      "source": "article-source/southern-fleurieu-wine-region.md"
+    },
+    {
+      "slug": "southern-highlands-wine-region",
+      "route": "/southern-highlands-wine-region/",
+      "title": "Southern Highlands wine region: a guide to its wines, climate and place",
+      "description": "Learn where the Southern Highlands wine region is, how its cool elevated climate shapes wine, and what to expect from Chardonnay, Riesling, Sauvignon Blanc and Cabernet Sauvignon.",
+      "section": "regions",
+      "source": "article-source/southern-highlands-wine-region.md"
+    },
+    {
+      "slug": "strathbogie-ranges-wine-region",
+      "route": "/strathbogie-ranges-wine-region/",
+      "title": "Strathbogie Ranges wine region: a beginner’s guide",
+      "description": "Understand where the Strathbogie Ranges wine region is, how its elevation and climate shape wine, and what to expect from Chardonnay, Pinot Noir, Sauvignon Blanc and Shiraz.",
+      "section": "regions",
+      "source": "article-source/strathbogie-ranges-wine-region.md"
+    },
+    {
+      "slug": "sunbury-wine-region",
+      "route": "/sunbury-wine-region/",
+      "title": "Sunbury wine region: a guide to its place, wines and style",
+      "description": "Understand the Sunbury wine region in Victoria: its Port Phillip GI status, location north-west of Melbourne, climate, history, grape varieties and likely wine styles.",
+      "section": "regions",
+      "source": "article-source/sunbury-wine-region.md"
+    },
+    {
+      "slug": "swan-district-wine-region",
+      "route": "/swan-district-wine-region/",
+      "title": "Swan District wine region: where it is, grapes and wine styles",
+      "description": "Learn where the Swan District wine region is, how it relates to Swan Valley and Greater Perth, and what to expect from its climate, grapes and wine styles.",
+      "section": "regions",
+      "source": "article-source/swan-district-wine-region.md"
+    },
+    {
+      "slug": "swan-hill-wine-region",
+      "route": "/swan-hill-wine-region/",
+      "title": "Swan Hill wine region: location, wines and what to expect",
+      "description": "Learn where the Swan Hill wine region is, how its cross-border GI differs from Murray terminology, and what to expect from its Chardonnay, Shiraz and Cabernet Sauvignon.",
+      "section": "regions",
+      "source": "article-source/swan-hill-wine-region.md"
+    },
+    {
+      "slug": "syrah-vs-shiraz",
+      "route": "/syrah-vs-shiraz/",
+      "title": "Syrah vs Shiraz: Are They the Same Grape?",
+      "description": "Syrah and Shiraz are generally names for the same grape. Learn why the names differ, what Australian labels mean and how climate and winemaking shape the style.",
+      "section": "grapes",
+      "source": "article-source/syrah-vs-shiraz.md"
+    },
+    {
+      "slug": "tasmania-wine-region",
+      "route": "/tasmania-wine-region/",
+      "title": "Tasmania Wine Region: What It’s Like and What Wines It’s Known For",
+      "description": "Explore Tasmania’s cool maritime wine region, its growing areas and the sparkling wine, Pinot Noir, Chardonnay and Riesling it is known for.",
+      "section": "regions",
+      "source": "article-source/tasmania-wine-region.md"
+    },
+    {
+      "slug": "tumbarumba-wine-region",
+      "route": "/tumbarumba-wine-region/",
+      "title": "Tumbarumba Wine Region: A Guide to Its Place, Climate and Wines",
+      "description": "Understand the Tumbarumba wine region in southern New South Wales, including its GI, high-country climate, principal varieties and sparkling and still wine styles.",
+      "section": "regions",
+      "source": "article-source/tumbarumba-wine-region.md"
+    },
+    {
+      "slug": "upper-goulburn-wine-region",
+      "route": "/upper-goulburn-wine-region/",
+      "title": "Upper Goulburn Wine Region: A Beginner’s Guide",
+      "description": "Discover where Upper Goulburn is, how its elevation and terrain shape the region, and what to expect from its Chardonnay, Riesling and Sauvignon Blanc.",
+      "section": "regions",
+      "source": "article-source/upper-goulburn-wine-region.md"
+    },
+    {
+      "slug": "what-are-tannins",
+      "route": "/what-are-tannins/",
+      "title": "What Are Tannins in Wine?",
+      "description": "Tannins are natural wine compounds that create grip and drying texture. Learn where they come from, how they feel and how they differ from acidity, sweetness and bitterness.",
+      "section": "fundamentals",
+      "source": "article-source/what-are-tannins.md"
+    },
+    {
+      "slug": "what-are-wine-grape-clones",
+      "route": "/what-are-wine-grape-clones/",
+      "title": "What Are Wine Grape Clones?",
+      "description": "Wine grape clones are selected vine lines within a grape variety. Learn how clones differ from varieties and rootstocks, why growers use them and what they can—and cannot—tell you about wine style.",
+      "section": "winemaking",
+      "source": "article-source/what-are-wine-grape-clones.md"
+    },
+    {
+      "slug": "what-does-oak-do-to-wine",
+      "route": "/what-does-oak-do-to-wine/",
+      "title": "What Does Oak Do to Wine?",
+      "description": "Learn how oak can influence wine flavour, aroma, texture and ageing, and why not every oaked wine tastes the same.",
+      "section": "winemaking",
+      "source": "article-source/what-does-oak-do-to-wine.md"
+    },
+    {
+      "slug": "what-does-yeast-do-in-wine",
+      "route": "/what-does-yeast-do-in-wine/",
+      "title": "What Does Yeast Do in Wine?",
+      "description": "Yeast turns grape sugar into alcohol, carbon dioxide and heat during fermentation. Learn how yeast affects wine aroma, texture and style.",
+      "section": "winemaking",
+      "source": "article-source/what-does-yeast-do-in-wine.md"
+    },
+    {
+      "slug": "what-is-acidity-in-wine",
+      "route": "/what-is-acidity-in-wine/",
+      "title": "What Is Acidity in Wine? How It Affects Taste",
+      "description": "Learn what acidity in wine tastes like, how it differs from pH, sweetness and tannin, and how variety, climate and winemaking shape freshness and balance.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-acidity-in-wine.md"
+    },
+    {
+      "slug": "what-is-balance-in-wine",
+      "route": "/what-is-balance-in-wine/",
+      "title": "What Is Balance in Wine? A Beginner’s Guide",
+      "description": "Learn what balance means in wine, how acidity, sweetness, alcohol, tannin, fruit and texture work together, and how to recognise balance when tasting.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-balance-in-wine.md"
+    },
+    {
+      "slug": "what-is-biodynamic-wine",
+      "route": "/what-is-biodynamic-wine/",
+      "title": "What Is Biodynamic Wine?",
+      "description": "Learn how biodynamic wine relates to organic farming, certification and cellar practices, and what the label can and cannot tell you.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-biodynamic-wine.md"
+    },
+    {
+      "slug": "what-is-brettanomyces",
+      "route": "/what-is-brettanomyces/",
+      "title": "What Is Brettanomyces in Wine?",
+      "description": "Brettanomyces, or “Brett”, is a yeast that can change wine’s aroma and flavour. Learn what Brett smells like, when it is a fault and how it differs from other wine faults.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-brettanomyces.md"
+    },
+    {
+      "slug": "what-is-cabernet-sauvignon",
+      "route": "/what-is-cabernet-sauvignon/",
+      "title": "What Is Cabernet Sauvignon?",
+      "description": "Cabernet Sauvignon is a structured red grape known for dark fruit, acidity and firm tannin. Learn how its style varies and where it thrives in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-cabernet-sauvignon.md"
+    },
+    {
+      "slug": "what-is-chardonnay",
+      "route": "/what-is-chardonnay/",
+      "title": "What Is Chardonnay? A Beginner’s Guide to Its Flavours and Styles",
+      "description": "Chardonnay is a versatile white wine grape that can make fresh, citrusy, oaky, creamy, still or sparkling wines. Learn what it tastes like and why styles vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-chardonnay.md"
+    },
+    {
+      "slug": "what-is-cold-soak",
+      "route": "/what-is-cold-soak/",
+      "title": "What Is Cold Soak in Winemaking?",
+      "description": "Cold soak is a cool, pre-fermentation period of skin contact used mainly in red-wine production. Learn how it may influence colour, aroma, flavour and tannin.",
+      "section": "winemaking",
+      "source": "article-source/what-is-cold-soak.md"
+    },
+    {
+      "slug": "what-is-complexity-in-wine",
+      "route": "/what-is-complexity-in-wine/",
+      "title": "What Is Complexity in Wine?",
+      "description": "Wine complexity explained in plain English: learn how to recognise layers, development and integration, and how complexity differs from intensity, oak, age and quality.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-complexity-in-wine.md"
+    },
+    {
+      "slug": "what-is-cork-taint",
+      "route": "/what-is-cork-taint/",
+      "title": "What Is Cork Taint?",
+      "description": "Cork taint can mute fruit and create musty aromas. Learn how to recognise it, what causes it and what to do with an affected bottle.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-cork-taint.md"
+    },
+    {
+      "slug": "what-is-fermentation",
+      "route": "/what-is-fermentation/",
+      "title": "What Is Fermentation in Wine?",
+      "description": "Fermentation is the process in which yeast converts grape sugar into alcohol, carbon dioxide and flavour compounds. Learn how it shapes wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-fermentation.md"
+    },
+    {
+      "slug": "what-is-fortified-wine",
+      "route": "/what-is-fortified-wine/",
+      "title": "What Is Fortified Wine? A Beginner’s Guide",
+      "description": "Fortified wine is wine with distilled spirit added. Learn why some styles are sweet, others dry and what Australian fortified terms mean.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-fortified-wine.md"
+    },
+    {
+      "slug": "what-is-grenache",
+      "route": "/what-is-grenache/",
+      "title": "What Is Grenache?",
+      "description": "Grenache is a versatile red grape known for red fruit, spice and warmth. Learn about its Australian styles, blends and growing regions.",
+      "section": "grapes",
+      "source": "article-source/what-is-grenache.md"
+    },
+    {
+      "slug": "what-is-malolactic-fermentation",
+      "route": "/what-is-malolactic-fermentation/",
+      "title": "What Is Malolactic Fermentation?",
+      "description": "Malolactic fermentation is a bacterial conversion that changes malic acid into lactic acid. Learn how it affects acidity, texture and aroma, why winemakers manage it, and why it matters in Australian red wine and Chardonnay.",
+      "section": "winemaking",
+      "source": "article-source/what-is-malolactic-fermentation.md"
+    },
+    {
+      "slug": "what-is-merlot",
+      "route": "/what-is-merlot/",
+      "title": "What Is Merlot?",
+      "description": "Merlot is a red grape known for plum and dark-fruit flavours, moderate tannin and a smooth texture. Learn how its styles vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-merlot.md"
+    },
+    {
+      "slug": "what-is-natural-wine",
+      "route": "/what-is-natural-wine/",
+      "title": "What Is Natural Wine?",
+      "description": "Natural wine usually means a low-intervention approach, but there is no single universal definition. Learn what the term does and does not tell you.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-natural-wine.md"
+    },
+    {
+      "slug": "what-is-nebbiolo",
+      "route": "/what-is-nebbiolo/",
+      "title": "What Is Nebbiolo?",
+      "description": "Nebbiolo is a pale-coloured but structured red grape known for high acidity, firm tannin and complex aromas. Learn how to approach it.",
+      "section": "grapes",
+      "source": "article-source/what-is-nebbiolo.md"
+    },
+    {
+      "slug": "what-is-organic-wine",
+      "route": "/what-is-organic-wine/",
+      "title": "What Is Organic Wine?",
+      "description": "Learn what organic wine means in Australia, how certification works and why organic does not automatically mean natural, vegan or preservative-free.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-organic-wine.md"
+    },
+    {
+      "slug": "what-is-oxidation-in-wine",
+      "route": "/what-is-oxidation-in-wine/",
+      "title": "What Is Oxidation in Wine?",
+      "description": "Learn how oxygen can help or harm wine, how oxidation tastes and smells, and when oxidative character is intentional rather than a fault.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-oxidation-in-wine.md"
+    },
+    {
+      "slug": "what-is-pinot-gris-pinot-grigio",
+      "route": "/what-is-pinot-gris-pinot-grigio/",
+      "title": "What Is Pinot Gris / Pinot Grigio? A Beginner’s Guide",
+      "description": "Pinot Gris and Pinot Grigio are names for the same grape. Learn why both appear on labels, how the styles can differ and what Australian drinkers should look for.",
+      "section": "grapes",
+      "source": "article-source/what-is-pinot-gris-pinot-grigio.md"
+    },
+    {
+      "slug": "what-is-pinot-noir",
+      "route": "/what-is-pinot-noir/",
+      "title": "What Is Pinot Noir? A Beginner’s Guide to the Red Wine",
+      "description": "Pinot Noir is a red grape variety known for fresh acidity, red-fruit flavours and often lighter to medium-bodied wines. Learn what it tastes like, whether it is sweet and where it is grown in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-pinot-noir.md"
+    },
+    {
+      "slug": "what-is-reduction-in-wine",
+      "route": "/what-is-reduction-in-wine/",
+      "title": "What Is Reduction in Wine? Smells, Causes and Whether Air Helps",
+      "description": "Reduction in wine can smell like struck match, rubber or rotten egg. Learn what it means, when it may be stylistic, and whether opening the bottle can help.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-reduction-in-wine.md"
+    },
+    {
+      "slug": "what-is-riesling",
+      "route": "/what-is-riesling/",
+      "title": "What Is Riesling? A Beginner’s Guide to This Aromatic White Wine",
+      "description": "Riesling is an aromatic white grape that can make dry, off-dry and sweet wines. Learn how acidity, fruitiness and Australian regions shape its style.",
+      "section": "grapes",
+      "source": "article-source/what-is-riesling.md"
+    },
+    {
+      "slug": "what-is-rose",
+      "route": "/what-is-rose/",
+      "title": "What Is Rosé? A Beginner’s Guide to Pink Wine",
+      "description": "Rosé is a wine style, not a single grape or sweetness level. Learn how it gets its colour and how to choose, serve and enjoy it.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-rose.md"
+    },
+    {
+      "slug": "what-is-sangiovese",
+      "route": "/what-is-sangiovese/",
+      "title": "What Is Sangiovese?",
+      "description": "Sangiovese is an Italian red grape known for bright acidity, savoury character and red-fruit flavours. Learn what to expect in Australian examples.",
+      "section": "grapes",
+      "source": "article-source/what-is-sangiovese.md"
+    },
+    {
+      "slug": "what-is-sauvignon-blanc",
+      "route": "/what-is-sauvignon-blanc/",
+      "title": "What Is Sauvignon Blanc? A Beginner’s Guide to Its Flavour and Style",
+      "description": "Sauvignon Blanc is a fresh, aromatic white wine grape variety. Learn what it tastes like, whether it is sweet and how Australian styles vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-sauvignon-blanc.md"
+    },
+    {
+      "slug": "what-is-shiraz",
+      "route": "/what-is-shiraz/",
+      "title": "What Is Shiraz? A Beginner’s Guide to Australia’s Favourite Red Grape",
+      "description": "Shiraz is a versatile red wine grape known as Syrah internationally. Learn what Shiraz tastes like, whether it is sweet and how Australian regions shape its style.",
+      "section": "grapes",
+      "source": "article-source/what-is-shiraz.md"
+    },
+    {
+      "slug": "what-is-sparkling-wine",
+      "route": "/what-is-sparkling-wine/",
+      "title": "What Is Sparkling Wine? A Beginner’s Guide",
+      "description": "Learn what creates the bubbles, how sparkling wine is made and why Champagne is one protected regional style.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-sparkling-wine.md"
+    },
+    {
+      "slug": "what-is-sweet-wine",
+      "route": "/what-is-sweet-wine/",
+      "title": "What Is Sweet Wine? A Beginner’s Guide",
+      "description": "Learn what makes wine taste sweet, how residual sugar works and why fruity does not necessarily mean sweet.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-sweet-wine.md"
+    },
+    {
+      "slug": "what-is-sweetness-in-wine",
+      "route": "/what-is-sweetness-in-wine/",
+      "title": "What Is Sweetness in Wine?",
+      "description": "Learn what sweetness means in wine, how residual sugar affects the palate, and why a fruity wine can still be technically dry.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-sweetness-in-wine.md"
+    },
+    {
+      "slug": "what-is-tempranillo",
+      "route": "/what-is-tempranillo/",
+      "title": "What Is Tempranillo?",
+      "description": "Tempranillo is a Spanish red grape that can make juicy young wines or complex oak-aged styles. Learn what Australian drinkers should expect.",
+      "section": "grapes",
+      "source": "article-source/what-is-tempranillo.md"
+    },
+    {
+      "slug": "what-is-terroir",
+      "route": "/what-is-terroir/",
+      "title": "What Is Terroir?",
+      "description": "Terroir describes how place, climate, site, soil, vine and people interact to shape wine. Learn what the term usefully means.",
+      "section": "winemaking",
+      "source": "article-source/what-is-terroir.md"
+    },
+    {
+      "slug": "what-is-volatile-acidity",
+      "route": "/what-is-volatile-acidity/",
+      "title": "What Is Volatile Acidity in Wine?",
+      "description": "Learn what volatile acidity means in wine, how acetic acid and ethyl acetate smell, when VA is acceptable or faulty, and how it differs from ordinary wine acidity.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-volatile-acidity.md"
+    },
+    {
+      "slug": "what-is-wine",
+      "route": "/what-is-wine/",
+      "title": "What Is Wine? A Beginner’s Guide to How Wine Is Made",
+      "description": "Wine is fermented grape juice, but grapes, vineyard conditions, fermentation and winemaking choices create an enormous range of colours, flavours and styles.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-wine.html"
+    },
+    {
+      "slug": "what-is-wine-aroma",
+      "route": "/what-is-wine-aroma/",
+      "title": "What Is Wine Aroma? A Beginner’s Guide to Smelling Wine",
+      "description": "Learn what wine aroma means, how smell contributes to flavour, where aromas come from and how to identify them with a simple tasting method.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-wine-aroma.md"
+    },
+    {
+      "slug": "what-is-wine-body",
+      "route": "/what-is-wine-body/",
+      "title": "What Is Wine Body? A Beginner’s Guide to Light-, Medium- and Full-Bodied Wine",
+      "description": "Wine body describes how heavy, full or textured wine feels in your mouth. Learn to recognise light-, medium- and full-bodied wine and avoid common misconceptions.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-wine-body.md"
+    },
+    {
+      "slug": "what-is-wine-finish",
+      "route": "/what-is-wine-finish/",
+      "title": "What Is Wine Finish? A Beginner’s Guide to Length and Persistence",
+      "description": "Wine finish is what remains after you swallow or spit. Learn how to recognise short, medium and long finishes, describe their character and understand why longer is not always better.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-wine-finish.md"
+    },
+    {
+      "slug": "when-to-decant-wine",
+      "route": "/when-to-decant-wine/",
+      "title": "When Should Wine Be Decanted?",
+      "description": "Learn when decanting can help wine, when it may do little, and how to decant young, old and sediment-bearing bottles safely.",
+      "section": "fundamentals",
+      "source": "article-source/when-to-decant-wine.md"
+    },
+    {
+      "slug": "whole-bunch",
+      "route": "/winemaking/whole-bunch.html",
+      "title": "What Is Whole-Bunch Fermentation?",
+      "description": "Whole-bunch fermentation retains some or all grape bunches, including stems, during red-wine fermentation. Learn how it works, how it differs from carbonic maceration, and how it can affect wine.",
+      "section": "winemaking",
+      "source": "article-source/whole-bunch.md"
+    },
+    {
+      "slug": "why-wine-prices-vary",
+      "route": "/why-wine-prices-vary/",
+      "title": "Why Wine Prices Vary — And Whether Expensive Wine Is Better",
+      "description": "Wine prices reflect grapes, farming, winemaking, packaging, freight, taxes, reputation and demand. Learn how to judge wine value without assuming expensive means better.",
+      "section": "fundamentals",
+      "source": "article-source/why-wine-prices-vary.md"
+    },
+    {
+      "slug": "wine-and-cheese-pairing",
+      "route": "/wine-and-cheese-pairing/",
+      "title": "Wine and Cheese Pairing: How to Choose a Wine for Any Cheese Board",
+      "description": "Learn how to pair wine and cheese by matching salt, creaminess, texture, intensity and maturity with wine acidity, sweetness, tannin and body. Includes practical pairings for fresh, soft, washed-rind, hard, aged and blue cheeses.",
+      "section": "fundamentals",
+      "source": "article-source/wine-and-cheese-pairing.md"
+    },
+    {
+      "slug": "wine-and-seafood-pairing",
+      "route": "/wine-and-seafood-pairing/",
+      "title": "Wine and Seafood Pairing: What Wine Goes Best With Seafood?",
+      "description": "Learn how to pair wine with oysters, fish, prawns, shellfish, salmon, fried seafood and spicy seafood by considering preparation, sauce, richness and texture.",
+      "section": "fundamentals",
+      "source": "article-source/wine-and-seafood-pairing.md"
+    },
+    {
+      "slug": "wine-and-spicy-food-pairing",
+      "route": "/wine-and-spicy-food-pairing/",
+      "title": "Wine and Spicy Food Pairing: How to Choose the Right Wine",
+      "description": "Learn how to pair wine with chilli-hot food by matching sweetness, acidity, alcohol, tannin, body and bubbles to the complete dish.",
+      "section": "fundamentals",
+      "source": "article-source/wine-and-spicy-food-pairing.md"
+    },
+    {
+      "slug": "wine-and-steak-pairing",
+      "route": "/wine-and-steak-pairing/",
+      "title": "Wine and Steak Pairing: What Wine Goes Best with Steak?",
+      "description": "Learn how to pair wine with steak by considering the cut, cooking method, char, sauce and richness. Includes Australian Shiraz, Cabernet Sauvignon, Pinot Noir and alternatives.",
+      "section": "fundamentals",
+      "source": "article-source/wine-and-steak-pairing.md"
+    },
+    {
+      "slug": "wine-glass-types-explained",
+      "route": "/wine-glass-types-explained/",
+      "title": "Wine Glass Types Explained: Which Glass Should You Use?",
+      "description": "Learn how wine-glass shape affects aroma and drinking experience, and choose practical glassware for red, white, sparkling, sweet and fortified wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-glass-types-explained.md"
+    },
+    {
+      "slug": "wine-serving-temperature-explained",
+      "route": "/wine-serving-temperature-explained/",
+      "title": "Wine Serving Temperature Explained",
+      "description": "Learn practical serving temperatures for red, white, sparkling and fortified wine, and how temperature changes aroma, flavour and texture.",
+      "section": "fundamentals",
+      "source": "article-source/wine-serving-temperature-explained.md"
+    },
+    {
+      "slug": "wrattonbully-wine-region",
+      "route": "/wrattonbully-wine-region/",
+      "title": "Wrattonbully wine region: a guide to the Limestone Coast GI",
+      "description": "Understand Wrattonbully wine region, its South Australian GI identity, Limestone Coast location, climate, soils, key grape varieties and differences from Coonawarra and Padthaway.",
+      "section": "regions",
+      "source": "article-source/wrattonbully-wine-region.md"
+    },
+    {
+      "slug": "yarra-valley-wine-region",
+      "route": "/yarra-valley-wine-region/",
+      "title": "Yarra Valley Wine Region: Wines, Climate and What to Expect",
+      "description": "Explore the Yarra Valley’s varied climate, elevations and key wines, including Pinot Noir, Chardonnay, Cabernet Sauvignon and sparkling wine.",
+      "section": "regions",
+      "source": "article-source/yarra-valley-wine-region.md"
+    }
+  ]
+}
