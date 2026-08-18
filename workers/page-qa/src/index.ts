@@ -13,7 +13,7 @@ export default {
     if (!base) return json({error: 'baseUrl must be winedaddy.com.au or a winedaddy.pages.dev deployment.'}, 400);
     const maxPaths = Math.min(Number(env.MAX_PATHS || 40), 40);
     const paths = Array.isArray(body.paths) && body.paths.every(path => typeof path === 'string') ? [...new Set(body.paths)] : [];
-    if (!paths.length || paths.length > maxPaths || paths.some(path => !/^\/[a-z0-9/-]+\/$/.test(path))) return json({error: `Provide 1-${maxPaths} safe article paths.`}, 400);
+    if (!paths.length || paths.length > maxPaths || paths.some(path => !/^\/(?:[a-z0-9-]+\/)*(?:[a-z0-9-]+\/|[a-z0-9-]+\.html)$/.test(path))) return json({error: `Provide 1-${maxPaths} safe article paths.`}, 400);
     const results: CheckResult[] = [];
     for (let index = 0; index < paths.length; index += 6) results.push(...await Promise.all(paths.slice(index, index + 6).map(path => checkPage(base, path))));
     const failed = results.filter(result => !result.passed);
