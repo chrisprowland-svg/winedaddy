@@ -22,7 +22,7 @@ export default {
 
     // Keep navigation consistent across legacy static pages and newly generated
     // articles without requiring a paid content-stage rerun.
-    const primaryNav = '<div class="nav-links"><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a><a href="/about.html">About</a><a href="/search.html">Search</a></div>';
+    const primaryNav = '<div class="nav-links"><a href="/fundamentals/">Wine Fundamentals</a><a href="/grapes/">Grapes</a><a href="/regions/">Regions</a><a href="/winemaking/">Winemaking</a><a href="/search.html">Search</a></div>';
     html = html.replace(/<div class="nav-links">[\s\S]*?<\/div><\/nav>/i, `${primaryNav}</nav>`);
     html = html.replace(
       /<div><b>Explore<\/b>[\s\S]*?<\/div><div><b>WineDaddy<\/b>/i,
