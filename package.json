@@ -1,0 +1,15 @@
+{
+  "name": "winedaddy-site",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "content:migrate": "node scripts/migrate-content-manifest.mjs",
+    "build": "node scripts/build-site.mjs",
+    "check": "npm run build && node scripts/qa-site.mjs",
+    "test": "node --test workers/page-qa/test/*.test.mjs",
+    "worker:check": "tsc -p workers/page-qa/tsconfig.json && wrangler deploy --dry-run --config workers/page-qa/wrangler.jsonc"
+  },
+  "dependencies": {"marked": "^16.3.0"},
+  "devDependencies": {"@cloudflare/workers-types": "^5.20260818.1", "typescript": "^5.9.2", "wrangler": "^4.123.0"}
+}

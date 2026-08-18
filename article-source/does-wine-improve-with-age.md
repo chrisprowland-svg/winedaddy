@@ -121,7 +121,7 @@ Finally, taste the wine. A mature bottle may show:
 
 A bottle may be past its best when it tastes flat, hollow or tired, with faded fruit and excessive oxidation. Bruised-apple, cooked or vinegar-like characters may indicate deterioration, while mustiness can suggest cork taint. These signs can have causes other than age, so one clue should not be treated as a complete diagnosis.
 
-An older wine may also contain sediment. Sediment is not automatically a fault, although mature bottles may need careful handling when opened. For serving questions, see our guide to [when wine should be decanted](/when-should-wine-be-decanted/) if that page is available.
+An older wine may also contain sediment. Sediment is not automatically a fault, although mature bottles may need careful handling when opened. For serving questions, see our guide to [when wine should be decanted](/when-to-decant-wine/).
 
 ## Ageing is not the same as oxidation
 

@@ -1,33 +1,34 @@
-# WineDaddy Stage 1
+# WineDaddy website
 
-Static Cloudflare Pages site.
+WineDaddy is a static Cloudflare Pages site generated from one content manifest and one shared design shell.
 
-## Deploy
-Upload the contents of this folder to the root of the `winedaddy` GitHub repository. Cloudflare Pages will deploy automatically.
+## Architecture
 
-## Analytics requirement
-Every public HTML page must include Google Analytics property `G-M281DG8YTP` and Meta Pixel `1085436810811087`. New generated articles include both automatically through `build-article.mjs`.
+- `content/articles.json` is the article catalogue and routing authority.
+- `article-source/` contains reader-facing source content.
+- `site/site.mjs` owns shared navigation, footer, metadata, analytics, and page chrome.
+- `scripts/build-site.mjs` generates every article, hub, search index, sitemap, and QA manifest.
+- `scripts/qa-site.mjs` checks every generated route, canonical, link, heading, analytics tag, schema block, hub entry, search entry, and sitemap entry.
+- `workers/page-qa/` contains the deployed remote QA Worker used against protected branch previews before human review.
 
-Before preview or deployment, run:
+Retired Department 7 renderers and workflows have been removed. Departments 1–6 produce approved article content; implementation is now deterministic.
+
+## Local verification
 
 ```sh
-node analytics.mjs
-node analytics.mjs --check
+npm ci
+npm run check
+npm test
+npm run worker:check
 ```
 
-The first command adds the tags to newly created HTML pages. The second fails if either tag is missing or duplicated on any page.
+GitHub Actions runs the same gates for every pull request. A branch preview is the review artefact; production is promoted only after explicit human approval.
 
-## Current scope
-- Homepage
-- Grapes hub and 3 guides
-- Regions hub and 3 guides
-- Winemaking hub and 3 guides
-- About, contact, privacy
-- Schema.org JSON-LD
-- robots.txt and sitemap.xml
+## Adding an article
 
-## Before public launch
-- Add a real email mailbox or alias for hello@winedaddy.com.au
-- Keep the privacy notice current when analytics or advertising technology changes
-- Review all educational copy and source links
-- Add favicon and social preview artwork
+1. Add the reader article to `article-source/`.
+2. Add its title, description, section, route, and source path to `content/articles.json`.
+3. Run `npm run check` and `npm test`.
+4. Push a branch and review the Cloudflare Pages preview plus the QA Worker report.
+
+Every generated page receives the canonical URL, JSON-LD, Google Analytics `G-M281DG8YTP`, and Meta Pixel `1085436810811087` from the shared shell.
