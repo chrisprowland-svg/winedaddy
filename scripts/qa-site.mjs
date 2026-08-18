@@ -34,6 +34,8 @@ if (new Set(sitemapUrls).size !== sitemapUrls.length) errors.push('sitemap conta
 for (const route of expectedRoutes) if (!sitemapUrls.includes(route)) errors.push(`sitemap missing ${route}`);
 const search = JSON.parse(fs.readFileSync(path.join(root, 'search-index.json'), 'utf8'));
 if (search.length !== manifest.articles.length) errors.push(`search index expected ${manifest.articles.length}; found ${search.length}`);
+for (const query of ['gris', 'chardonnay', 'mudgee', 'fermentation']) if (!search.some(item => `${item.title} ${item.description} ${item.text}`.toLowerCase().includes(query))) errors.push(`search index cannot find ${query}`);
+if (Buffer.byteLength(JSON.stringify(search)) > 100_000) errors.push('search index exceeds its 100 KB delivery budget');
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 console.log(`Site QA passed: ${manifest.articles.length} articles, 4 hubs, ${sitemapUrls.length} unique sitemap URLs.`);
 function routeExists(route) { if (expectedRoutes.has(route)) return true; return route.endsWith('/') ? fs.existsSync(path.join(root, route.slice(1), 'index.html')) : fs.existsSync(path.join(root, route.slice(1))); }
