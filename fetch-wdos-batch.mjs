@@ -28,7 +28,17 @@ for (let number = from; number <= to; number += 1) {
     job_id: job.id,
     topic: job.topic,
     editorial_output: editorial,
+    metadata: {
+      title: lastMetadata(workPackage, 'Title'),
+      description: lastMetadata(workPackage, 'Description'),
+      slug: lastMetadata(workPackage, 'Slug'),
+    },
   };
   fs.writeFileSync(`.wd7/jobs/${jobId}.json`, `${JSON.stringify(payload, null, 2)}\n`);
   console.log(`Fetched ${jobId}: ${job.topic}`);
+}
+
+function lastMetadata(output, name) {
+  const values = [...output.matchAll(new RegExp(`^- \\*\\*${name}:\\*\\*\\s*(.+)$`, 'gmi'))].map(match => match[1].trim().replace(/^`|`$/g, ''));
+  return values.at(-1) || null;
 }
