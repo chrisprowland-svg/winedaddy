@@ -23,7 +23,7 @@ for (const article of manifest.articles) {
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
-  searchEntries.push({title: article.title, description: article.description, url: canonicalPath, text: visibleText(body).slice(0, 300)});
+  searchEntries.push({title: article.title, description: article.description, url: canonicalPath, text: visibleText(body).slice(0, 100)});
 }
 for (const [key, section] of Object.entries(sections)) buildHub(key, section, manifest.articles.filter(article => article.section === key));
 refreshStaticHeaders();

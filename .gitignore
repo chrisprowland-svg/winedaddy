@@ -3,3 +3,5 @@ node_modules/
 .dev.vars
 .env
 npm-debug.log*
+.wd7/current-batch.json
+.wd7/jobs/

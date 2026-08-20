@@ -18,12 +18,116 @@
       "source": "article-source/adelaide-plains-wine-region.md"
     },
     {
+      "slug": "albarino",
+      "route": "/albarino/",
+      "title": "What is Albariño?",
+      "description": "Albariño is a white grape variety known for fresh, aromatic wines with noticeable acidity. Learn about its names, origins, Australian context, taste and food pairings.",
+      "section": "grapes",
+      "source": "article-source/albarino.md"
+    },
+    {
+      "slug": "alcohol-in-wine",
+      "route": "/alcohol-in-wine/",
+      "title": "Alcohol in wine: what you need to know",
+      "description": "Understand ethanol, ABV, standard drinks and how alcohol affects wine’s warmth, body and balance, with practical Australian label guidance.",
+      "section": "fundamentals",
+      "source": "article-source/alcohol-in-wine.md"
+    },
+    {
+      "slug": "alcoholic-fermentation",
+      "route": "/alcoholic-fermentation/",
+      "title": "Alcoholic fermentation in wine",
+      "description": "Learn how yeast converts grape sugars into alcohol and carbon dioxide, how winemakers manage fermentation, and why the process affects wine style.",
+      "section": "winemaking",
+      "source": "article-source/alcoholic-fermentation.md"
+    },
+    {
+      "slug": "aligote",
+      "route": "/aligote/",
+      "title": "What Is Aligoté? A Beginner’s Guide",
+      "description": "Learn what Aligoté is, where it is grown, what it tastes like and how it differs from Chardonnay, including useful context for Australian wine learners.",
+      "section": "grapes",
+      "source": "article-source/aligote.md"
+    },
+    {
       "slug": "alpine-valleys-wine-region",
       "route": "/alpine-valleys-wine-region/",
       "title": "Alpine Valleys wine region: grapes, styles and a beginner’s guide",
       "description": "Learn where Alpine Valleys is, how its protected GI fits within North East Victoria, and why its varied elevation and climate support Prosecco, Chardonnay, Pinot Noir and diverse red-wine styles.",
       "section": "regions",
       "source": "article-source/alpine-valleys-wine-region.md"
+    },
+    {
+      "slug": "amphora-and-clay-vessels",
+      "route": "/amphora-and-clay-vessels/",
+      "title": "What Is Amphora and Clay Vessels? A Beginner’s Guide",
+      "description": "Learn what amphora and clay vessels are, how winemakers use them, how they may affect wine and why amphora does not automatically mean natural or better wine.",
+      "section": "winemaking",
+      "source": "article-source/amphora-and-clay-vessels.md"
+    },
+    {
+      "slug": "arneis",
+      "route": "/arneis/",
+      "title": "What Is Arneis? A Beginner’s Guide",
+      "description": "Arneis is a dry, fragrant white grape from Piedmont. Learn its typical flavours, Roero connection, Australian presence and label meaning.",
+      "section": "grapes",
+      "source": "article-source/arneis.md"
+    },
+    {
+      "slug": "assyrtiko",
+      "route": "/assyrtiko/",
+      "title": "What Is Assyrtiko? A Beginner’s Guide",
+      "description": "Learn what Assyrtiko is, where it comes from, how its dry white wines taste and why Australian drinkers may encounter this Greek grape.",
+      "section": "grapes",
+      "source": "article-source/assyrtiko.md"
+    },
+    {
+      "slug": "astringency-in-wine",
+      "route": "/astringency-in-wine/",
+      "title": "Astringency in Wine: What It Means and How to Recognise It",
+      "description": "Learn what astringency in wine feels like, how it differs from tannin, bitterness, acidity and dry wine, and how to recognise it when tasting.",
+      "section": "fundamentals",
+      "source": "article-source/astringency-in-wine.md"
+    },
+    {
+      "slug": "australian-capital-territory-wine-regions",
+      "route": "/australian-capital-territory-wine-regions/",
+      "title": "Australian Capital Territory wine regions: understanding the ACT and Canberra District",
+      "description": "Understand the Australian Capital Territory’s wine geography, including its relationship with the cross-border Canberra District GI, key varieties and label terminology.",
+      "section": "regions",
+      "source": "article-source/australian-capital-territory-wine-regions.md"
+    },
+    {
+      "slug": "australian-warm-climate-wine-regions",
+      "route": "/australian-warm-climate-wine-regions/",
+      "title": "Australian Warm-Climate Wine Regions: What Warmth Means in the Glass",
+      "description": "Understand what warm climate means in Australian wine, how it can affect ripening and wine style, and why GI, site, vintage and variety still matter.",
+      "section": "regions",
+      "source": "article-source/australian-warm-climate-wine-regions.md"
+    },
+    {
+      "slug": "australian-wine-regions",
+      "route": "/australian-wine-regions/",
+      "title": "Australian wine regions explained",
+      "description": "Understand Australia’s wine-region map, GI hierarchy, major regional associations and the difference between geographic origin and wine style.",
+      "section": "regions",
+      "source": "article-source/australian-wine-regions.md"
+    },
+    {
+      "slug": "australian-wine-regions-by-climate",
+      "route": "/australian-wine-regions-by-climate/",
+      "title": "Australian wine regions by climate",
+      "description": "Understand Australian wine regions through broad climate patterns, from cool maritime and elevated sites to warm coastal and hot inland regions.",
+      "section": "regions",
+      "source": "article-source/australian-wine-regions-by-climate.md"
+    },
+    {
+      "slug": "barbera",
+      "route": "/barbera/",
+      "title": "What Is Barbera? A Beginner’s Guide",
+      "description": "Learn what Barbera is, what its wines taste like, why acidity defines the grape, how it differs from Nebbiolo and where it is grown in Australia.",
+      "section": "grapes",
+      "source": "article-source/barbera.md"
     },
     {
       "slug": "barossa-valley-wine-region",
@@ -58,12 +162,68 @@
       "source": "article-source/blackwood-valley-wine-region.md"
     },
     {
+      "slug": "cabernet-franc",
+      "route": "/cabernet-franc/",
+      "title": "What is Cabernet Franc?",
+      "description": "Cabernet Franc is a red wine grape known for red fruit, freshness and herbal or floral character. Learn how it differs from Cabernet Sauvignon and is used in Australian wine.",
+      "section": "grapes",
+      "source": "article-source/cabernet-franc.md"
+    },
+    {
       "slug": "canberra-district-wine-region",
       "route": "/canberra-district-wine-region/",
       "title": "Canberra District wine region: where it is, grapes and wine styles",
       "description": "Understand where Canberra District is, how its ACT–NSW GI works, and the Shiraz, Riesling, Cabernet Sauvignon and other wines associated with the region.",
       "section": "regions",
       "source": "article-source/canberra-district-wine-region.md"
+    },
+    {
+      "slug": "cap-management",
+      "route": "/cap-management/",
+      "title": "What Is Cap Management? A Beginner’s Guide",
+      "description": "Cap management is the handling of grape skins, seeds and other solids that rise during red-wine fermentation. Learn how punch-downs and pump-overs influence contact, extraction, colour, tannin and temperature.",
+      "section": "winemaking",
+      "source": "article-source/cap-management.md"
+    },
+    {
+      "slug": "carbonic-maceration",
+      "route": "/carbonic-maceration/",
+      "title": "Carbonic maceration: what it means in winemaking",
+      "description": "Carbonic maceration uses intact grapes in a carbon-dioxide-rich, oxygen-limited environment. Learn how it differs from semi-carbonic and whole-bunch fermentation, and what it may contribute to Australian wine.",
+      "section": "winemaking",
+      "source": "article-source/carbonic-maceration.md"
+    },
+    {
+      "slug": "carignan",
+      "route": "/carignan/",
+      "title": "What Is Carignan? A Beginner’s Guide",
+      "description": "Learn what Carignan is, where it comes from, what it tastes like, how it is grown and where Australian drinkers may encounter this Mediterranean red grape.",
+      "section": "grapes",
+      "source": "article-source/carignan.md"
+    },
+    {
+      "slug": "carmenere",
+      "route": "/carmenere/",
+      "title": "What Is Carménère? A Beginner’s Guide",
+      "description": "Learn what Carménère is, why it is associated with Chile, how its wines can taste and what Australian wine learners should know about this distinctive red grape.",
+      "section": "grapes",
+      "source": "article-source/carmenere.md"
+    },
+    {
+      "slug": "central-victoria-zone",
+      "route": "/central-victoria-zone/",
+      "title": "Central Victoria zone: an Australian wine learner’s guide",
+      "description": "Understand Central Victoria as an official Victorian wine zone: its GI hierarchy, regions, geographic variation, label meaning and important grape varieties.",
+      "section": "regions",
+      "source": "article-source/central-victoria-zone.md"
+    },
+    {
+      "slug": "chablis-and-chardonnay-what-is-the-relationship",
+      "route": "/chablis-and-chardonnay-what-is-the-relationship/",
+      "title": "Chablis and Chardonnay: what is the relationship?",
+      "description": "Chablis is made from Chardonnay, but it is not another name for the grape. Learn how place, appellation, label wording and wine style fit together.",
+      "section": "grapes",
+      "source": "article-source/chablis-and-chardonnay-what-is-the-relationship.md"
     },
     {
       "slug": "chardonnay-food-pairing",
@@ -74,12 +234,52 @@
       "source": "article-source/chardonnay-food-pairing.md"
     },
     {
+      "slug": "chardonnay-in-australia",
+      "route": "/chardonnay-in-australia/",
+      "title": "Chardonnay in Australia: How Place and Winemaking Shape the Style",
+      "description": "Understand why Australian Chardonnay varies across regions and styles, and how climate, site, harvest timing, oak and malolactic fermentation shape the wine.",
+      "section": "regions",
+      "source": "article-source/chardonnay-in-australia.md"
+    },
+    {
+      "slug": "chenin-blanc",
+      "route": "/chenin-blanc/",
+      "title": "What is Chenin Blanc?",
+      "description": "Chenin Blanc is a versatile white wine grape that can produce dry, off-dry, sweet and sparkling wines. Learn its flavours, acidity, Australian context and food-pairing styles.",
+      "section": "grapes",
+      "source": "article-source/chenin-blanc.md"
+    },
+    {
+      "slug": "cinsault",
+      "route": "/cinsault/",
+      "title": "What Is Cinsault? A Beginner’s Guide",
+      "description": "Cinsault, also written Cinsaut, is a soft, fruity red wine grape used for red wines, blends and rosé. Learn its taste, origins and Australian context.",
+      "section": "grapes",
+      "source": "article-source/cinsault.md"
+    },
+    {
       "slug": "clare-valley-wine-region",
       "route": "/clare-valley-wine-region/",
       "title": "Clare Valley wine region: Riesling, red wines and the landscape",
       "description": "Learn what Clare Valley is known for, from dry Riesling and structured red wines to its elevated landscape, cold nights and varied vineyard sites.",
       "section": "regions",
       "source": "article-source/clare-valley-wine-region.md"
+    },
+    {
+      "slug": "concentration-in-wine",
+      "route": "/concentration-in-wine/",
+      "title": "Concentration in wine explained",
+      "description": "Learn what concentration means in wine, how to recognise flavour depth and persistence, and why it is not the same as body, alcohol, sweetness or quality.",
+      "section": "fundamentals",
+      "source": "article-source/concentration-in-wine.md"
+    },
+    {
+      "slug": "concrete-eggs-and-tanks",
+      "route": "/concrete-eggs-and-tanks/",
+      "title": "What Are Concrete Eggs and Tanks? A Beginner’s Guide",
+      "description": "Learn what concrete eggs and tanks do in winemaking, how they differ from stainless steel, oak and clay, and what “made in concrete” really tells you.",
+      "section": "winemaking",
+      "source": "article-source/concrete-eggs-and-tanks.md"
     },
     {
       "slug": "coonawarra-wine-region",
@@ -90,6 +290,14 @@
       "source": "article-source/coonawarra-wine-region.md"
     },
     {
+      "slug": "corvina",
+      "route": "/corvina/",
+      "title": "What Is Corvina? A Beginner’s Guide",
+      "description": "Corvina is an Italian red wine grape associated with Veneto, Verona and Valpolicella. Learn its flavour profile, Australian context and relationship to Amarone and Recioto.",
+      "section": "grapes",
+      "source": "article-source/corvina.md"
+    },
+    {
       "slug": "cowra-wine-region",
       "route": "/cowra-wine-region/",
       "title": "Cowra wine region: a beginner’s guide",
@@ -98,12 +306,28 @@
       "source": "article-source/cowra-wine-region.md"
     },
     {
+      "slug": "cultured-yeast-fermentation",
+      "route": "/cultured-yeast-fermentation/",
+      "title": "What Is Cultured Yeast Fermentation? A Beginner’s Guide",
+      "description": "Cultured yeast fermentation explained simply: how deliberate yeast inoculation works, why winemakers use it and how it differs from native fermentation.",
+      "section": "winemaking",
+      "source": "article-source/cultured-yeast-fermentation.md"
+    },
+    {
       "slug": "currency-creek-wine-region",
       "route": "/currency-creek-wine-region/",
       "title": "Currency Creek wine region: a beginner’s guide",
       "description": "Understand the Currency Creek wine region in South Australia: its Fleurieu GI identity, location, maritime climate, key varieties, wine styles and label meaning.",
       "section": "regions",
       "source": "article-source/currency-creek-wine-region.md"
+    },
+    {
+      "slug": "destemming-and-crushing",
+      "route": "/destemming-and-crushing/",
+      "title": "Destemming and crushing in winemaking",
+      "description": "Destemming removes grape stems; crushing breaks berries to release juice. Learn how these related operations shape must, solids, tannin, extraction and fermentation choices in Australian winemaking.",
+      "section": "winemaking",
+      "source": "article-source/destemming-and-crushing.md"
     },
     {
       "slug": "does-vintage-matter",
@@ -122,12 +346,148 @@
       "source": "article-source/does-wine-improve-with-age.md"
     },
     {
+      "slug": "dolcetto",
+      "route": "/dolcetto/",
+      "title": "What Is Dolcetto? A Beginner’s Guide",
+      "description": "Learn what Dolcetto is, where it comes from, how its dry, fruity and bitter-almond style tastes, and what Australian drinkers should know.",
+      "section": "grapes",
+      "source": "article-source/dolcetto.md"
+    },
+    {
+      "slug": "dry-wine-meaning",
+      "route": "/dry-wine-meaning/",
+      "title": "What does dry wine mean?",
+      "description": "Dry wine generally means little perceptible sweetness, not a lack of flavour. Learn how residual sugar, fruitiness, acidity, tannin and body affect the way wine tastes.",
+      "section": "fundamentals",
+      "source": "article-source/dry-wine-meaning.md"
+    },
+    {
+      "slug": "durif",
+      "route": "/durif/",
+      "title": "What Is Durif? A Beginner’s Guide",
+      "description": "Durif is a dark-skinned red Vitis vinifera grape variety. It originated in France and is documented as the offspring of Syrah and Peloursin.",
+      "section": "grapes",
+      "source": "article-source/durif.md"
+    },
+    {
       "slug": "eden-valley-wine-region",
       "route": "/eden-valley-wine-region/",
       "title": "Eden Valley wine region: a clear guide to its wines and landscape",
       "description": "Learn where Eden Valley is, how it fits within South Australia’s Barossa zone, and why elevation, climate and site shape its Riesling, Shiraz and other wines.",
       "section": "regions",
       "source": "article-source/eden-valley-wine-region.md"
+    },
+    {
+      "slug": "extended-maceration",
+      "route": "/extended-maceration/",
+      "title": "What Is Extended Maceration? A Beginner’s Guide",
+      "description": "Extended maceration means prolonged contact between red wine and grape solids. Learn how it can affect tannin, colour, texture and structure, and how it differs from cold soak and carbonic maceration.",
+      "section": "winemaking",
+      "source": "article-source/extended-maceration.md"
+    },
+    {
+      "slug": "fermentation-temperature",
+      "route": "/fermentation-temperature/",
+      "title": "What Is Fermentation Temperature? A Beginner’s Guide",
+      "description": "Fermentation temperature affects yeast activity, fermentation speed, aroma, colour and extraction. Learn why red, white and rosé wines may use different strategies.",
+      "section": "winemaking",
+      "source": "article-source/fermentation-temperature.md"
+    },
+    {
+      "slug": "fiano",
+      "route": "/fiano/",
+      "title": "What is Fiano?",
+      "description": "Fiano is a white wine grape that can make fresh, citrus-led or fuller, textural wines. Learn what Fiano tastes like, where it is grown in Australia and how to read it on a label.",
+      "section": "grapes",
+      "source": "article-source/fiano.md"
+    },
+    {
+      "slug": "filtering-wine",
+      "route": "/filtering-wine/",
+      "title": "What Is Filtering Wine? A Beginner’s Guide",
+      "description": "Learn what wine filtration is, why winemakers use it, how depth, cross-flow and membrane filtration differ, and what “filtered” and “unfiltered” mean in Australia.",
+      "section": "winemaking",
+      "source": "article-source/filtering-wine.md"
+    },
+    {
+      "slug": "fining-wine",
+      "route": "/fining-wine/",
+      "title": "What Is Fining Wine? A Beginner’s Guide",
+      "description": "Fining is a winemaking treatment used to clarify wine and adjust selected compounds. Learn how it differs from filtering, what “unfined” means and how fining relates to vegan wine in Australia.",
+      "section": "winemaking",
+      "source": "article-source/fining-wine.md"
+    },
+    {
+      "slug": "fleurieu-zone",
+      "route": "/fleurieu-zone/",
+      "title": "Fleurieu zone: South Australia’s coastal and inland wine landscape explained",
+      "description": "Understand Fleurieu as a South Australian GI zone, its five constituent regions, its varied climate and how Fleurieu differs from Southern Fleurieu and Adelaide Hills.",
+      "section": "regions",
+      "source": "article-source/fleurieu-zone.md"
+    },
+    {
+      "slug": "floral-aromas-in-wine",
+      "route": "/floral-aromas-in-wine/",
+      "title": "Floral aromas in wine",
+      "description": "Learn what floral aromas in wine mean, how they differ from sweetness, and why varieties such as Muscat, Riesling, Gewürztraminer and Viognier may show flower-like notes.",
+      "section": "fundamentals",
+      "source": "article-source/floral-aromas-in-wine.md"
+    },
+    {
+      "slug": "france",
+      "route": "/france/",
+      "title": "France",
+      "description": "A beginner-friendly guide to French wine regions, appellations, place-led labels and the key ideas Australian wine learners need to understand France.",
+      "section": "regions",
+      "source": "article-source/france.md"
+    },
+    {
+      "slug": "freshness-in-wine",
+      "route": "/freshness-in-wine/",
+      "title": "Freshness in wine",
+      "description": "Learn what freshness means in wine, how it relates to acidity, fruit, texture and balance, and how to recognise it in Australian wines.",
+      "section": "fundamentals",
+      "source": "article-source/freshness-in-wine.md"
+    },
+    {
+      "slug": "fruit-flavours-in-wine",
+      "route": "/fruit-flavours-in-wine/",
+      "title": "Fruit flavours in wine: what do they mean?",
+      "description": "Learn what fruit flavours in wine mean, how descriptors such as cherry, citrus and peach are used, and why fruity does not necessarily mean sweet.",
+      "section": "fundamentals",
+      "source": "article-source/fruit-flavours-in-wine.md"
+    },
+    {
+      "slug": "fruitiness-vs-sweetness",
+      "route": "/fruitiness-vs-sweetness/",
+      "title": "Fruitiness vs sweetness in wine: what’s the difference?",
+      "description": "Learn why fruity and sweet are not synonyms, how acidity and tannin affect perception, and why a dry Australian wine can still be full of fruit character.",
+      "section": "fundamentals",
+      "source": "article-source/fruitiness-vs-sweetness.md"
+    },
+    {
+      "slug": "furmint",
+      "route": "/furmint/",
+      "title": "What Is Furmint? A Beginner’s Guide",
+      "description": "Furmint is a Hungarian white wine grape that can make both dry and sweet wines. Learn how Tokaj, harvest timing, botrytis and residual sugar shape its style.",
+      "section": "grapes",
+      "source": "article-source/furmint.md"
+    },
+    {
+      "slug": "gamay",
+      "route": "/gamay/",
+      "title": "What is Gamay?",
+      "description": "Gamay is a red wine grape best known from Beaujolais. Learn its typical flavours, structure, Australian context, serving guidance and the role of carbonic maceration.",
+      "section": "grapes",
+      "source": "article-source/gamay.md"
+    },
+    {
+      "slug": "garganega",
+      "route": "/garganega/",
+      "title": "What Is Garganega? A Beginner’s Guide",
+      "description": "Learn what Garganega is, where it comes from, how it relates to Soave and what its wines can taste like—including useful context for Australian wine learners.",
+      "section": "grapes",
+      "source": "article-source/garganega.md"
     },
     {
       "slug": "geelong-wine-region",
@@ -146,12 +506,28 @@
       "source": "article-source/geographe-wine-region.md"
     },
     {
+      "slug": "gewurztraminer",
+      "route": "/gewurztraminer/",
+      "title": "What Is Gewürztraminer? A Beginner’s Guide",
+      "description": "Learn what Gewürztraminer is, how its floral and lychee aromas differ from sweetness, where it is grown in Australia and how to serve and pair it.",
+      "section": "grapes",
+      "source": "article-source/gewurztraminer.md"
+    },
+    {
       "slug": "gippsland-wine-region",
       "route": "/gippsland-wine-region/",
       "title": "Gippsland wine region: where it is and what it is known for",
       "description": "Learn where Gippsland is, how its Victorian Geographical Indication works, and why Chardonnay, Pinot Noir, Shiraz and aromatic whites are associated with this diverse cool-climate wine region.",
       "section": "regions",
       "source": "article-source/gippsland-wine-region.md"
+    },
+    {
+      "slug": "glera",
+      "route": "/glera/",
+      "title": "What Is Glera? A Beginner’s Guide",
+      "description": "Learn what Glera is, why it is associated with Prosecco, how Glera wines typically taste, and what Australian drinkers should understand about the label.",
+      "section": "grapes",
+      "source": "article-source/glera.md"
     },
     {
       "slug": "goulburn-valley-wine-region",
@@ -194,6 +570,14 @@
       "source": "article-source/great-western-wine-region.md"
     },
     {
+      "slug": "gruner-veltliner",
+      "route": "/gruner-veltliner/",
+      "title": "What Is Grüner Veltliner? A Beginner’s Guide",
+      "description": "Learn what Grüner Veltliner is, where it comes from, how its dry, fresh and peppery styles taste, and what Australian wine drinkers should know.",
+      "section": "grapes",
+      "source": "article-source/gruner-veltliner.md"
+    },
+    {
       "slug": "gundagai-wine-region",
       "route": "/gundagai-wine-region/",
       "title": "Gundagai wine region: where it is and what its wines are like",
@@ -224,6 +608,14 @@
       "description": "Discover where Henty is, how it fits within Western Victoria, and why its cool climate is associated with Riesling, Cabernet Sauvignon and other varied wine styles.",
       "section": "regions",
       "source": "article-source/henty-wine-region.md"
+    },
+    {
+      "slug": "herbal-aromas-in-wine",
+      "route": "/herbal-aromas-in-wine/",
+      "title": "Herbal aromas in wine: what they mean and how to recognise them",
+      "description": "Learn what herbal aromas in wine mean, from mint and eucalyptus to leafy and capsicum notes, and how to tell character from excessive green aromas.",
+      "section": "fundamentals",
+      "source": "article-source/herbal-aromas-in-wine.md"
     },
     {
       "slug": "hilltops-wine-region",
@@ -309,9 +701,9 @@
       "slug": "how-wine-is-made",
       "route": "/how-wine-is-made/",
       "title": "How Wine Is Made: From Grapes to the Finished Bottle",
-      "description": "Discover how grapes become wine through harvesting, fermentation, skin contact, maturation, blending and bottling—and why wine styles differ.",
-      "section": "fundamentals",
-      "source": "article-source/how-wine-is-made.html"
+      "description": "How wine is made, from grape harvest and fermentation to maturation, blending and bottling. Learn how red, white, rosé, sparkling and fortified wines take different paths, and how yeast, skins, oak, lees and other winemaking choices influence the finished style.",
+      "section": "winemaking",
+      "source": "article-source/how-wine-is-made.md"
     },
     {
       "slug": "how-wine-pairing-works",
@@ -330,6 +722,14 @@
       "source": "article-source/hunter-valley-wine-region.md"
     },
     {
+      "slug": "italy",
+      "route": "/italy/",
+      "title": "Italy: A Beginner’s Guide to Italian Wine",
+      "description": "Understand Italian wine through geography, grapes, regions, classifications and labels, with practical guidance for Australian wine learners.",
+      "section": "regions",
+      "source": "article-source/italy.md"
+    },
+    {
       "slug": "kangaroo-island-wine-region",
       "route": "/kangaroo-island-wine-region/",
       "title": "Kangaroo Island Wine Region: Location, Climate and Wine Styles",
@@ -346,6 +746,14 @@
       "source": "article-source/king-valley-wine-region.md"
     },
     {
+      "slug": "lagrein",
+      "route": "/lagrein/",
+      "title": "What Is Lagrein? A Beginner’s Guide",
+      "description": "Learn what Lagrein is, where it comes from, how red and rosé expressions differ, what it may taste like and what Australian wine learners should expect from the label.",
+      "section": "grapes",
+      "source": "article-source/lagrein.md"
+    },
+    {
       "slug": "langhorne-creek-wine-region",
       "route": "/langhorne-creek-wine-region/",
       "title": "Langhorne Creek wine region: what it is known for",
@@ -354,12 +762,36 @@
       "source": "article-source/langhorne-creek-wine-region.md"
     },
     {
+      "slug": "lees-stirring",
+      "route": "/lees-stirring/",
+      "title": "What Is Lees Stirring? A Beginner’s Guide",
+      "description": "Lees stirring, also called bâtonnage, is the deliberate resuspension of wine sediment. Learn how it differs from lees ageing and how it may affect texture, integration and oxygen exposure.",
+      "section": "winemaking",
+      "source": "article-source/lees-stirring.md"
+    },
+    {
+      "slug": "lower-murray-zone",
+      "route": "/lower-murray-zone/",
+      "title": "Lower Murray zone: South Australia’s inland wine geography explained",
+      "description": "Learn what Lower Murray means on an Australian wine label, where the official South Australian zone sits, how it relates to Riverland, Murray Darling and Swan Hill, and which grape varieties are associated with it.",
+      "section": "regions",
+      "source": "article-source/lower-murray-zone.md"
+    },
+    {
       "slug": "macedon-ranges-wine-region",
       "route": "/macedon-ranges-wine-region/",
       "title": "Macedon Ranges Wine Region: A Beginner’s Guide",
       "description": "Learn where the Macedon Ranges wine region is, why its elevated cool climate matters, and what to expect from its Pinot Noir, Chardonnay, Riesling, Shiraz and other wines.",
       "section": "regions",
       "source": "article-source/macedon-ranges-wine-region.md"
+    },
+    {
+      "slug": "malbec",
+      "route": "/malbec/",
+      "title": "What is Malbec?",
+      "description": "Malbec is a red wine grape known for deeply coloured, dry reds with dark-fruit and violet flavours. Learn how Argentina, Cahors and Australia shape its style.",
+      "section": "grapes",
+      "source": "article-source/malbec.md"
     },
     {
       "slug": "manjimup-wine-region",
@@ -378,6 +810,22 @@
       "source": "article-source/margaret-river-wine-region.md"
     },
     {
+      "slug": "marsanne",
+      "route": "/marsanne/",
+      "title": "What Is Marsanne? A Beginner’s Guide",
+      "description": "Marsanne is a northern Rhône white grape that makes dry, textured wines and has a small but established Australian history. Learn its flavours, styles and difference from Roussanne.",
+      "section": "grapes",
+      "source": "article-source/marsanne.md"
+    },
+    {
+      "slug": "mataro-mourvedre",
+      "route": "/mataro-mourvedre/",
+      "title": "What is Mataro / Mourvèdre?",
+      "description": "Mataro, Mourvèdre and Monastrell are names for the same red wine grape. Learn how the grape tastes, why it matters in Australian wine and how to read its name on a label.",
+      "section": "grapes",
+      "source": "article-source/mataro-mourvedre.md"
+    },
+    {
       "slug": "mclaren-vale-wine-region",
       "route": "/mclaren-vale-wine-region/",
       "title": "McLaren Vale Wine Region: Shiraz, Grenache and Coastal South Australia",
@@ -386,12 +834,60 @@
       "source": "article-source/mclaren-vale-wine-region.md"
     },
     {
+      "slug": "melon-de-bourgogne",
+      "route": "/melon-de-bourgogne/",
+      "title": "What Is Melon de Bourgogne? A Beginner’s Guide",
+      "description": "Learn what Melon de Bourgogne is, how it relates to Muscadet, what its wines typically taste like, what “sur lie” means and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/melon-de-bourgogne.md"
+    },
+    {
+      "slug": "mencia",
+      "route": "/mencia/",
+      "title": "What Is Mencía? A Beginner’s Guide",
+      "description": "Mencía is a red grape from north-western Spain. Learn where it is grown, what Mencía wine tastes like and how its style varies, including its emerging Australian context.",
+      "section": "grapes",
+      "source": "article-source/mencia.md"
+    },
+    {
+      "slug": "minerality-in-wine",
+      "route": "/minerality-in-wine/",
+      "title": "Minerality in wine: what does it mean?",
+      "description": "Learn what “minerality” means in wine tasting, how it differs from acidity and dryness, and why soil does not simply transfer a rock flavour into wine.",
+      "section": "fundamentals",
+      "source": "article-source/minerality-in-wine.md"
+    },
+    {
+      "slug": "montepulciano",
+      "route": "/montepulciano/",
+      "title": "What Is Montepulciano? A Beginner’s Guide",
+      "description": "Learn what Montepulciano is, how it differs from Montepulciano d’Abruzzo and Vino Nobile di Montepulciano, what its wines can taste like, and how Australian drinkers may encounter the grape.",
+      "section": "grapes",
+      "source": "article-source/montepulciano.md"
+    },
+    {
       "slug": "mornington-peninsula-wine-region",
       "route": "/mornington-peninsula-wine-region/",
       "title": "Mornington Peninsula Wine Region: Pinot Noir, Chardonnay and Maritime Climate",
       "description": "Learn why Mornington Peninsula’s maritime setting, varied sites, Pinot Noir and Chardonnay make it one of Victoria’s distinctive wine regions.",
       "section": "regions",
       "source": "article-source/mornington-peninsula-wine-region.md"
+    },
+    {
+      "slug": "moscato-muscat",
+      "route": "/moscato-muscat/",
+      "title": "What is Moscato / Muscat?",
+      "description": "Learn what Moscato and Muscat mean, how the names differ, and why these aromatic grapes can produce dry, sweet, still, sparkling and fortified wines in Australia.",
+      "section": "grapes",
+      "source": "article-source/moscato-muscat.md"
+    },
+    {
+      "slug": "moscato-vs-riesling",
+      "route": "/moscato-vs-riesling/",
+      "title": "Moscato vs Riesling: what is the difference?",
+      "description": "Understand the difference between Moscato and Riesling, including sweetness, acidity, aroma, Australian styles, label clues and food-pairing starting points.",
+      "section": "grapes",
+      "source": "article-source/moscato-vs-riesling.md"
     },
     {
       "slug": "mount-benson-wine-region",
@@ -408,6 +904,14 @@
       "description": "Discover what makes the Mount Gambier wine region distinctive, from its Limestone Coast GI and cool maritime climate to Chardonnay, Sauvignon Blanc, Pinot Noir, volcanic soils and label meaning.",
       "section": "regions",
       "source": "article-source/mount-gambier-wine-region.md"
+    },
+    {
+      "slug": "mount-lofty-ranges-zone",
+      "route": "/mount-lofty-ranges-zone/",
+      "title": "Mount Lofty Ranges zone: an Australian wine learner’s guide",
+      "description": "Understand Mount Lofty Ranges as a South Australian wine zone, including its GI hierarchy, constituent regions, landscape variation, associated grapes and what the name can—and cannot—tell you on a wine label.",
+      "section": "regions",
+      "source": "article-source/mount-lofty-ranges-zone.md"
     },
     {
       "slug": "mudgee-wine-region",
@@ -434,12 +938,60 @@
       "source": "article-source/nagambie-lakes-wine-region.md"
     },
     {
+      "slug": "native-yeast-fermentation",
+      "route": "/native-yeast-fermentation/",
+      "title": "What Is Native Yeast Fermentation? A Beginner’s Guide",
+      "description": "Native yeast fermentation explained: how it differs from cultured yeast, what “wild” and “spontaneous” mean, possible benefits and risks, and what Australian wine drinkers should know.",
+      "section": "winemaking",
+      "source": "article-source/native-yeast-fermentation.md"
+    },
+    {
+      "slug": "nero-davola",
+      "route": "/nero-davola/",
+      "title": "What Is Nero d’Avola? A Beginner’s Guide",
+      "description": "Nero d’Avola is a Sicilian red wine grape that can make fresh, fruity or fuller, structured dry wines. Learn its taste, structure, Australian context and serving ideas.",
+      "section": "grapes",
+      "source": "article-source/nero-davola.md"
+    },
+    {
       "slug": "new-england-australia-wine-region",
       "route": "/new-england-australia-wine-region/",
       "title": "New England Australia wine region: what to know",
       "description": "Discover where New England Australia is, how its elevation and frost-prone climate shape viticulture, and what to expect from its Chardonnay, Riesling, Shiraz and alternative varieties.",
       "section": "regions",
       "source": "article-source/new-england-australia-wine-region.md"
+    },
+    {
+      "slug": "new-south-wales-wine-regions",
+      "route": "/new-south-wales-wine-regions/",
+      "title": "New South Wales wine regions: a beginner’s guide",
+      "description": "Understand New South Wales wine regions, from the Hunter Valley and Riverina to Orange, Canberra District and the NSW coast, with GI hierarchy and regional context explained.",
+      "section": "regions",
+      "source": "article-source/new-south-wales-wine-regions.md"
+    },
+    {
+      "slug": "north-east-victoria-zone",
+      "route": "/north-east-victoria-zone/",
+      "title": "North East Victoria wine zone: a beginner’s guide",
+      "description": "Understand North East Victoria as an official Victorian wine zone, its five constituent regional GIs, varied elevation and climate, associated grapes and styles, and what the geographic name does—and does not—tell you on a wine label.",
+      "section": "regions",
+      "source": "article-source/north-east-victoria-zone.md"
+    },
+    {
+      "slug": "off-dry-wine-meaning",
+      "route": "/off-dry-wine-meaning/",
+      "title": "Off-dry wine meaning: what does off-dry wine taste like?",
+      "description": "Off-dry wine contains noticeable but restrained residual sugar. Learn how it differs from dry, sweet and fruity wine, and how Australian shoppers may encounter the term.",
+      "section": "fundamentals",
+      "source": "article-source/off-dry-wine-meaning.md"
+    },
+    {
+      "slug": "old-world-vs-new-world-wine",
+      "route": "/old-world-vs-new-world-wine/",
+      "title": "Old World vs New World wine: what’s the difference?",
+      "description": "Understand Old World and New World wine terminology, how labels and climate can influence style, and why Australia does not fit a single wine stereotype.",
+      "section": "fundamentals",
+      "source": "article-source/old-world-vs-new-world-wine.md"
     },
     {
       "slug": "orange-wine-region",
@@ -482,12 +1034,60 @@
       "source": "article-source/perth-hills-wine-region.md"
     },
     {
+      "slug": "petit-verdot",
+      "route": "/petit-verdot/",
+      "title": "What Is Petit Verdot? A Beginner’s Guide",
+      "description": "Learn what Petit Verdot is, how it tastes, why it is used in blends, how it differs from Petite Sirah and where it fits in Australian wine.",
+      "section": "grapes",
+      "source": "article-source/petit-verdot.md"
+    },
+    {
+      "slug": "petite-sirah",
+      "route": "/petite-sirah/",
+      "title": "What Is Petite Sirah? A Beginner’s Guide",
+      "description": "Learn what Petite Sirah is, how it relates to Durif, what the wine commonly tastes like, and why Australian labels usually use the name Durif.",
+      "section": "grapes",
+      "source": "article-source/petite-sirah.md"
+    },
+    {
+      "slug": "ph-in-wine",
+      "route": "/ph-in-wine/",
+      "title": "pH in wine: what it means and why it matters",
+      "description": "Understand what pH measures in wine, how it differs from acidity and sourness, and why it matters for stability, colour, sulphur dioxide and Australian winemaking.",
+      "section": "fundamentals",
+      "source": "article-source/ph-in-wine.md"
+    },
+    {
+      "slug": "picpoul",
+      "route": "/picpoul/",
+      "title": "What Is Picpoul? A Beginner’s Guide",
+      "description": "Picpoul is a fresh, high-acid white grape best known in southern France. Learn its names, flavours, Picpoul de Pinet connection and Australian context.",
+      "section": "grapes",
+      "source": "article-source/picpoul.md"
+    },
+    {
+      "slug": "pinot-gris-in-australia",
+      "route": "/pinot-gris-in-australia/",
+      "title": "Pinot Gris in Australia: a guide to the grape and its styles",
+      "description": "Understand Pinot Gris in Australia, including the difference between Pinot Gris and Pinot Grigio, Australian style variation, regional influences and label-reading tips.",
+      "section": "regions",
+      "source": "article-source/pinot-gris-in-australia.md"
+    },
+    {
       "slug": "pinot-gris-vs-pinot-grigio",
       "route": "/pinot-gris-vs-pinot-grigio/",
       "title": "Pinot Gris vs Pinot Grigio: What’s the Difference?",
       "description": "Pinot Gris and Pinot Grigio are names for the same grape. Learn how regional traditions can suggest different styles, why Australian examples overlap, and how to choose a bottle.",
       "section": "grapes",
       "source": "article-source/pinot-gris-vs-pinot-grigio.md"
+    },
+    {
+      "slug": "pinot-meunier",
+      "route": "/pinot-meunier/",
+      "title": "What Is Pinot Meunier? A Beginner’s Guide",
+      "description": "Pinot Meunier is a distinct grape closely related to Pinot Noir and best known for its role in traditional-method sparkling wine. Learn what it tastes like, how it is used and what Australian labels may call it.",
+      "section": "grapes",
+      "source": "article-source/pinot-meunier.md"
     },
     {
       "slug": "pinot-noir-food-pairing",
@@ -498,6 +1098,46 @@
       "source": "article-source/pinot-noir-food-pairing.md"
     },
     {
+      "slug": "pinot-noir-in-australia",
+      "route": "/pinot-noir-in-australia/",
+      "title": "Pinot Noir in Australia: Regions, Styles and What to Look For",
+      "description": "Understand Pinot Noir in Australia through its major regions, GI labels, climate and site variation, inland production and practical tasting clues.",
+      "section": "regions",
+      "source": "article-source/pinot-noir-in-australia.md"
+    },
+    {
+      "slug": "port-phillip-zone",
+      "route": "/port-phillip-zone/",
+      "title": "Port Phillip zone: understanding Victoria’s broad wine GI",
+      "description": "Understand Port Phillip as a Victorian wine zone, its five registered regions, its varied geography and what the name means on an Australian wine label.",
+      "section": "regions",
+      "source": "article-source/port-phillip-zone.md"
+    },
+    {
+      "slug": "pressing-wine-grapes",
+      "route": "/pressing-wine-grapes/",
+      "title": "Pressing wine grapes: what it does and why it matters",
+      "description": "Pressing separates juice or wine from grape solids. Learn how it differs from crushing, when it occurs in white, rosé and red winemaking, and how pressure affects wine style.",
+      "section": "winemaking",
+      "source": "article-source/pressing-wine-grapes.md"
+    },
+    {
+      "slug": "primary-aromas-in-wine",
+      "route": "/primary-aromas-in-wine/",
+      "title": "Primary aromas in wine: what they mean",
+      "description": "Learn what primary aromas in wine are, how grape variety and vineyard conditions influence them, and how they differ from secondary aromas, tertiary aromas, flavour and sweetness.",
+      "section": "fundamentals",
+      "source": "article-source/primary-aromas-in-wine.md"
+    },
+    {
+      "slug": "punch-downs-and-pump-overs",
+      "route": "/punch-downs-and-pump-overs/",
+      "title": "What Are Punch-downs and Pump-overs? A Beginner’s Guide",
+      "description": "Learn how punch-downs and pump-overs manage the cap during red-wine fermentation, and how each technique can influence extraction, temperature, oxygen exposure and wine texture.",
+      "section": "winemaking",
+      "source": "article-source/punch-downs-and-pump-overs.md"
+    },
+    {
       "slug": "pyrenees-wine-region",
       "route": "/pyrenees-wine-region/",
       "title": "Pyrenees wine region: a beginner’s guide",
@@ -506,12 +1146,52 @@
       "source": "article-source/pyrenees-wine-region.md"
     },
     {
+      "slug": "queensland-wine-regions",
+      "route": "/queensland-wine-regions/",
+      "title": "Queensland wine regions: a beginner’s guide",
+      "description": "Understand Queensland’s two recognised wine GIs, Granite Belt and South Burnett, their climates, grapes, labels and broader emerging wine areas.",
+      "section": "regions",
+      "source": "article-source/queensland-wine-regions.md"
+    },
+    {
+      "slug": "racking-wine",
+      "route": "/racking-wine/",
+      "title": "What Is Racking Wine? A Beginner’s Guide",
+      "description": "Learn what racking wine means, why winemakers rack wine off the lees, how it relates to clarification and oxygen exposure, and why it differs from filtering, fining and decanting.",
+      "section": "winemaking",
+      "source": "article-source/racking-wine.md"
+    },
+    {
       "slug": "red-wine-vs-white-wine",
       "route": "/red-wine-vs-white-wine/",
       "title": "Red Wine vs White Wine: What’s the Difference?",
       "description": "Understand how red and white wine are made, how they usually taste, and how to choose between them with confidence.",
       "section": "fundamentals",
       "source": "article-source/red-wine-vs-white-wine.md"
+    },
+    {
+      "slug": "riesling-in-australia",
+      "route": "/riesling-in-australia/",
+      "title": "Riesling in Australia: A Guide to Style, Place and Ageing",
+      "description": "Understand Australian Riesling through its regions, climate, styles, acidity, sweetness, ageing potential, serving and food pairing.",
+      "section": "regions",
+      "source": "article-source/riesling-in-australia.md"
+    },
+    {
+      "slug": "riesling-vs-gewurztraminer",
+      "route": "/riesling-vs-gewurztraminer/",
+      "title": "Riesling vs Gewürztraminer: what’s the difference?",
+      "description": "Riesling and Gewürztraminer are different aromatic white grapes. Learn how they differ in aroma, acidity, body and sweetness, with Australian context.",
+      "section": "grapes",
+      "source": "article-source/riesling-vs-gewurztraminer.md"
+    },
+    {
+      "slug": "ripeness-in-wine",
+      "route": "/ripeness-in-wine/",
+      "title": "Ripeness in wine",
+      "description": "Understand ripeness in wine: how sugar, acidity, flavour and tannins develop, why they can differ, and how Australian wine learners can interpret “ripe” in the glass.",
+      "section": "fundamentals",
+      "source": "article-source/ripeness-in-wine.md"
     },
     {
       "slug": "riverina-wine-region",
@@ -538,12 +1218,52 @@
       "source": "article-source/robe-wine-region.md"
     },
     {
+      "slug": "roussanne",
+      "route": "/roussanne/",
+      "title": "What Is Roussanne? A Beginner’s Guide",
+      "description": "Roussanne is a Rhône white grape that can make floral, textured and complex wines. Learn how it differs from Marsanne and where Australians may encounter it.",
+      "section": "grapes",
+      "source": "article-source/roussanne.md"
+    },
+    {
       "slug": "rutherglen-wine-region",
       "route": "/rutherglen-wine-region/",
       "title": "Rutherglen wine region: Muscat, fortified wines and full-bodied reds",
       "description": "Discover where Rutherglen is, why Victoria’s north-east region is famous for Rutherglen Muscat and Topaque, and what to expect from its Durif, Shiraz and Cabernet Sauvignon.",
       "section": "regions",
       "source": "article-source/rutherglen-wine-region.md"
+    },
+    {
+      "slug": "sagrantino",
+      "route": "/sagrantino/",
+      "title": "What Is Sagrantino? A Beginner’s Guide",
+      "description": "Sagrantino is an Italian red grape known for deep colour, firm tannin and fresh structure. Learn the difference between dry Secco and sweet Passito, plus what Australian drinkers can expect.",
+      "section": "grapes",
+      "source": "article-source/sagrantino.md"
+    },
+    {
+      "slug": "sangiovese-in-australia",
+      "route": "/sangiovese-in-australia/",
+      "title": "Sangiovese in Australia",
+      "description": "Understand Sangiovese’s small but established Australian presence, associated regions, changing styles and what to look for when tasting or reading a label.",
+      "section": "regions",
+      "source": "article-source/sangiovese-in-australia.md"
+    },
+    {
+      "slug": "sauvignon-blanc-vs-semillon",
+      "route": "/sauvignon-blanc-vs-semillon/",
+      "title": "Sauvignon Blanc vs Sémillon: What’s the Difference?",
+      "description": "Understand the difference between Sauvignon Blanc and Sémillon, including aroma, acidity, texture, ageing, Hunter Valley Sémillon and Australian blends.",
+      "section": "grapes",
+      "source": "article-source/sauvignon-blanc-vs-semillon.md"
+    },
+    {
+      "slug": "savagnin",
+      "route": "/savagnin/",
+      "title": "What Is Savagnin? A Beginner’s Guide",
+      "description": "Learn what Savagnin is, how it differs from Sauvignon Blanc and Albariño, why it is associated with Jura, and what its Australian history means for wine drinkers.",
+      "section": "grapes",
+      "source": "article-source/savagnin.md"
     },
     {
       "slug": "screw-cap-vs-cork",
@@ -554,6 +1274,22 @@
       "source": "article-source/screw-cap-vs-cork.md"
     },
     {
+      "slug": "secondary-aromas-in-wine",
+      "route": "/secondary-aromas-in-wine/",
+      "title": "Secondary aromas in wine: what are they?",
+      "description": "Learn what secondary aromas are, how fermentation, yeast, malolactic fermentation and lees can shape wine aroma, and why these characters are not always faults or signs of quality.",
+      "section": "fundamentals",
+      "source": "article-source/secondary-aromas-in-wine.md"
+    },
+    {
+      "slug": "semi-carbonic-maceration",
+      "route": "/semi-carbonic-maceration/",
+      "title": "What Is Semi-carbonic Maceration? A Beginner’s Guide",
+      "description": "Learn what semi-carbonic maceration means, how intact grapes and yeast fermentation work together, and how the process differs from carbonic maceration and whole-bunch fermentation.",
+      "section": "winemaking",
+      "source": "article-source/semi-carbonic-maceration.md"
+    },
+    {
       "slug": "shiraz-food-pairing",
       "route": "/shiraz-food-pairing/",
       "title": "Shiraz Food Pairing: What to Eat with Shiraz",
@@ -562,12 +1298,44 @@
       "source": "article-source/shiraz-food-pairing.md"
     },
     {
+      "slug": "shiraz-in-australia",
+      "route": "/shiraz-in-australia/",
+      "title": "Shiraz in Australia",
+      "description": "Understand why Australian Shiraz varies across regions, and how climate, site, vintage, winemaking and GI labels shape what you taste.",
+      "section": "regions",
+      "source": "article-source/shiraz-in-australia.md"
+    },
+    {
       "slug": "shoalhaven-coast-wine-region",
       "route": "/shoalhaven-coast-wine-region/",
       "title": "Shoalhaven Coast Wine Region: Place, Climate and Wine Styles",
       "description": "Understand the Shoalhaven Coast wine region: its NSW location, South Coast GI hierarchy, maritime climate, key varieties, regional styles and what the name means on a wine label.",
       "section": "regions",
       "source": "article-source/shoalhaven-coast-wine-region.md"
+    },
+    {
+      "slug": "skin-contact-in-white-wine",
+      "route": "/skin-contact-in-white-wine/",
+      "title": "What Is Skin Contact in White Wine? A Beginner’s Guide",
+      "description": "Skin contact in white wine explained simply: how it works, when it happens, what it can do to colour and texture, and how it relates to orange wine in Australia.",
+      "section": "winemaking",
+      "source": "article-source/skin-contact-in-white-wine.md"
+    },
+    {
+      "slug": "south-australian-wine-regions",
+      "route": "/south-australian-wine-regions/",
+      "title": "South Australian wine regions: a beginner’s guide",
+      "description": "Understand South Australia’s wine GI hierarchy, major zones and regions, and the broad climate and grape associations that help explain its diverse wines.",
+      "section": "regions",
+      "source": "article-source/south-australian-wine-regions.md"
+    },
+    {
+      "slug": "south-east-australia-zone",
+      "route": "/south-east-australia-zone/",
+      "title": "South East Australia zone: understanding the broad wine GI",
+      "description": "Learn what South Eastern Australia means on an Australian wine label, where the zone extends, how it fits into the GI hierarchy and why it does not describe one uniform wine style.",
+      "section": "regions",
+      "source": "article-source/south-east-australia-zone.md"
     },
     {
       "slug": "southern-fleurieu-wine-region",
@@ -584,6 +1352,22 @@
       "description": "Learn where the Southern Highlands wine region is, how its cool elevated climate shapes wine, and what to expect from Chardonnay, Riesling, Sauvignon Blanc and Cabernet Sauvignon.",
       "section": "regions",
       "source": "article-source/southern-highlands-wine-region.md"
+    },
+    {
+      "slug": "spice-aromas-in-wine",
+      "route": "/spice-aromas-in-wine/",
+      "title": "Spice aromas in wine: what pepper, clove and liquorice mean",
+      "description": "Learn what spice aromas in wine mean, from pepper and clove to liquorice and baking spice, and how grape variety, fermentation, oak and maturation can shape them.",
+      "section": "fundamentals",
+      "source": "article-source/spice-aromas-in-wine.md"
+    },
+    {
+      "slug": "stainless-steel-winemaking",
+      "route": "/stainless-steel-winemaking/",
+      "title": "What Is Stainless-Steel Winemaking? A Beginner’s Guide",
+      "description": "Learn what stainless-steel winemaking means, why tanks are used for fermentation and storage, how steel affects oxygen and temperature management, and why “unoaked” does not always mean stainless steel.",
+      "section": "winemaking",
+      "source": "article-source/stainless-steel-winemaking.md"
     },
     {
       "slug": "strathbogie-ranges-wine-region",
@@ -634,6 +1418,46 @@
       "source": "article-source/tasmania-wine-region.md"
     },
     {
+      "slug": "tempranillo-in-australia",
+      "route": "/tempranillo-in-australia/",
+      "title": "Tempranillo in Australia: What to Expect from Australian Examples",
+      "description": "Learn where Tempranillo is grown in Australia, how climate and site affect its style, and what to look for when tasting or reading a label.",
+      "section": "regions",
+      "source": "article-source/tempranillo-in-australia.md"
+    },
+    {
+      "slug": "tertiary-aromas-in-wine",
+      "route": "/tertiary-aromas-in-wine/",
+      "title": "Tertiary aromas in wine",
+      "description": "Learn what tertiary aromas are, how they differ from primary and secondary aromas, how ageing and storage shape them, and how to distinguish sound development from wine faults.",
+      "section": "fundamentals",
+      "source": "article-source/tertiary-aromas-in-wine.md"
+    },
+    {
+      "slug": "texture-in-wine",
+      "route": "/texture-in-wine/",
+      "title": "Texture in wine: what does it mean?",
+      "description": "Learn what texture means in wine, how it differs from body, tannin, acidity and astringency, and how to recognise mouthfeel while tasting.",
+      "section": "fundamentals",
+      "source": "article-source/texture-in-wine.md"
+    },
+    {
+      "slug": "touriga-nacional",
+      "route": "/touriga-nacional/",
+      "title": "What Is Touriga Nacional? A Beginner’s Guide",
+      "description": "Learn what Touriga Nacional is, how it differs from Port, what it can taste like, and where Australian drinkers may encounter this Portuguese grape variety.",
+      "section": "grapes",
+      "source": "article-source/touriga-nacional.md"
+    },
+    {
+      "slug": "trebbiano",
+      "route": "/trebbiano/",
+      "title": "What Is Trebbiano? A Beginner’s Guide",
+      "description": "Trebbiano is a family of white grape names, not always one single variety. Learn how Trebbiano Toscano relates to Ugni Blanc, why Trebbiano wines vary and how Australian drinkers may encounter the name.",
+      "section": "grapes",
+      "source": "article-source/trebbiano.md"
+    },
+    {
       "slug": "tumbarumba-wine-region",
       "route": "/tumbarumba-wine-region/",
       "title": "Tumbarumba Wine Region: A Guide to Its Place, Climate and Wines",
@@ -642,12 +1466,60 @@
       "source": "article-source/tumbarumba-wine-region.md"
     },
     {
+      "slug": "typicity-in-wine",
+      "route": "/typicity-in-wine/",
+      "title": "Typicity in wine: what does “typical” mean?",
+      "description": "Learn what typicity means in wine, how “typical” differs from quality and terroir, and how to interpret the term in Australian wine reviews.",
+      "section": "fundamentals",
+      "source": "article-source/typicity-in-wine.md"
+    },
+    {
       "slug": "upper-goulburn-wine-region",
       "route": "/upper-goulburn-wine-region/",
       "title": "Upper Goulburn Wine Region: A Beginner’s Guide",
       "description": "Discover where Upper Goulburn is, how its elevation and terrain shape the region, and what to expect from its Chardonnay, Riesling and Sauvignon Blanc.",
       "section": "regions",
       "source": "article-source/upper-goulburn-wine-region.md"
+    },
+    {
+      "slug": "verdelho",
+      "route": "/verdelho/",
+      "title": "What Is Verdelho? A Beginner’s Guide",
+      "description": "Learn what Verdelho is, how it tastes, whether it is sweet or dry, and why this Portuguese-associated white grape matters in Australian wine.",
+      "section": "grapes",
+      "source": "article-source/verdelho.md"
+    },
+    {
+      "slug": "verdicchio",
+      "route": "/verdicchio/",
+      "title": "What Is Verdicchio? A Beginner’s Guide",
+      "description": "Learn what Verdicchio is, where it comes from, how it tastes and how to read Verdicchio labels in Australia.",
+      "section": "grapes",
+      "source": "article-source/verdicchio.md"
+    },
+    {
+      "slug": "victorian-wine-regions",
+      "route": "/victorian-wine-regions/",
+      "title": "Victorian wine regions: a beginner’s guide to Victoria’s wine country",
+      "description": "Understand Victoria’s wine geography, official zones, regions and subregions, plus the broad wine styles associated with places from Yarra Valley and Mornington Peninsula to Rutherglen and the Murray country.",
+      "section": "regions",
+      "source": "article-source/victorian-wine-regions.md"
+    },
+    {
+      "slug": "western-australian-wine-regions",
+      "route": "/western-australian-wine-regions/",
+      "title": "Western Australian Wine Regions: A Beginner’s Guide",
+      "description": "Understand Western Australia’s nine recognised wine regions, their GI hierarchy, broad climates, principal varieties and relationship to Perth.",
+      "section": "regions",
+      "source": "article-source/western-australian-wine-regions.md"
+    },
+    {
+      "slug": "western-victoria-zone",
+      "route": "/western-victoria-zone/",
+      "title": "Western Victoria wine zone: a beginner’s guide to its place and wines",
+      "description": "Understand Western Victoria as an official Victorian wine GI zone, how it relates to Grampians, Great Western, Pyrenees and Henty, and why its wines are diverse.",
+      "section": "regions",
+      "source": "article-source/western-victoria-zone.md"
     },
     {
       "slug": "what-are-tannins",
@@ -978,12 +1850,36 @@
       "source": "article-source/when-to-decant-wine.md"
     },
     {
+      "slug": "whole-berry-fermentation",
+      "route": "/whole-berry-fermentation/",
+      "title": "What Is Whole-Berry Fermentation? A Beginner’s Guide",
+      "description": "Learn what whole-berry fermentation means, how it differs from whole-bunch and carbonic maceration, and how intact berries can influence wine’s texture, aroma and extraction.",
+      "section": "winemaking",
+      "source": "article-source/whole-berry-fermentation.md"
+    },
+    {
       "slug": "whole-bunch",
       "route": "/winemaking/whole-bunch.html",
       "title": "What Is Whole-Bunch Fermentation?",
       "description": "Whole-bunch fermentation retains some or all grape bunches, including stems, during red-wine fermentation. Learn how it works, how it differs from carbonic maceration, and how it can affect wine.",
       "section": "winemaking",
       "source": "article-source/whole-bunch.md"
+    },
+    {
+      "slug": "why-red-wine-is-red",
+      "route": "/why-red-wine-is-red/",
+      "title": "Why red wine is red",
+      "description": "Red wine gets its colour mainly from anthocyanin pigments in dark grape skins. Learn how skin contact, maceration, fermentation and ageing shape its colour.",
+      "section": "fundamentals",
+      "source": "article-source/why-red-wine-is-red.md"
+    },
+    {
+      "slug": "why-white-wine-can-be-made-from-red-grapes",
+      "route": "/why-white-wine-can-be-made-from-red-grapes/",
+      "title": "Why white wine can be made from red grapes",
+      "description": "Discover how red-skinned grapes can produce pale or white wine, why grape juice colour differs from skin colour, and how pressing and skin contact shape the final result.",
+      "section": "fundamentals",
+      "source": "article-source/why-white-wine-can-be-made-from-red-grapes.md"
     },
     {
       "slug": "why-wine-prices-vary",
@@ -1026,12 +1922,52 @@
       "source": "article-source/wine-and-steak-pairing.md"
     },
     {
+      "slug": "wine-colour-explained",
+      "route": "/wine-colour-explained/",
+      "title": "Wine colour explained",
+      "description": "Learn what causes wine colour, how skin contact shapes red, white and rosé wines, and why colour can offer clues without proving quality, sweetness or body.",
+      "section": "fundamentals",
+      "source": "article-source/wine-colour-explained.md"
+    },
+    {
+      "slug": "wine-elegance",
+      "route": "/wine-elegance/",
+      "title": "Wine elegance: what does “elegant” mean in wine?",
+      "description": "Wine elegance is a subjective impression of harmony, proportion and integration. Learn how it differs from balance, complexity, power, lightness and quality.",
+      "section": "fundamentals",
+      "source": "article-source/wine-elegance.md"
+    },
+    {
+      "slug": "wine-flavour-vs-wine-aroma",
+      "route": "/wine-flavour-vs-wine-aroma/",
+      "title": "Wine flavour vs wine aroma: what’s the difference?",
+      "description": "Wine aroma is smell, while flavour combines aroma, taste and mouthfeel. Learn about orthonasal and retronasal aroma, fruitiness versus sweetness and tasting-note language.",
+      "section": "fundamentals",
+      "source": "article-source/wine-flavour-vs-wine-aroma.md"
+    },
+    {
       "slug": "wine-glass-types-explained",
       "route": "/wine-glass-types-explained/",
       "title": "Wine Glass Types Explained: Which Glass Should You Use?",
       "description": "Learn how wine-glass shape affects aroma and drinking experience, and choose practical glassware for red, white, sparkling, sweet and fortified wine.",
       "section": "fundamentals",
       "source": "article-source/wine-glass-types-explained.md"
+    },
+    {
+      "slug": "wine-legs-and-tears",
+      "route": "/wine-legs-and-tears/",
+      "title": "Wine legs and tears: what do they mean?",
+      "description": "Wine legs and tears explained: how alcohol evaporation and surface tension create the trails in a glass, and why they do not prove quality, sweetness or age.",
+      "section": "fundamentals",
+      "source": "article-source/wine-legs-and-tears.md"
+    },
+    {
+      "slug": "wine-quality-explained",
+      "route": "/wine-quality-explained/",
+      "title": "Wine quality explained: what makes a wine good?",
+      "description": "Learn how to assess wine quality through soundness, balance, structure, complexity, finish and style—without confusing quality with price or personal preference.",
+      "section": "fundamentals",
+      "source": "article-source/wine-quality-explained.md"
     },
     {
       "slug": "wine-serving-temperature-explained",
@@ -1042,6 +1978,14 @@
       "source": "article-source/wine-serving-temperature-explained.md"
     },
     {
+      "slug": "wine-structure",
+      "route": "/wine-structure/",
+      "title": "Wine structure: how a wine gets shape, weight and tension",
+      "description": "Learn what wine structure means, how acidity, tannin, alcohol, sweetness, body and texture interact, and how to assess structure in an Australian wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-structure.md"
+    },
+    {
       "slug": "wrattonbully-wine-region",
       "route": "/wrattonbully-wine-region/",
       "title": "Wrattonbully wine region: a guide to the Limestone Coast GI",
@@ -1050,12 +1994,28 @@
       "source": "article-source/wrattonbully-wine-region.md"
     },
     {
+      "slug": "xinomavro",
+      "route": "/xinomavro/",
+      "title": "What Is Xinomavro? A Beginner’s Guide",
+      "description": "Learn what Xinomavro is, where it comes from, how its wines taste and why northern Greece is central to this distinctive, high-acid red grape.",
+      "section": "grapes",
+      "source": "article-source/xinomavro.md"
+    },
+    {
       "slug": "yarra-valley-wine-region",
       "route": "/yarra-valley-wine-region/",
       "title": "Yarra Valley Wine Region: Wines, Climate and What to Expect",
       "description": "Explore the Yarra Valley’s varied climate, elevations and key wines, including Pinot Noir, Chardonnay, Cabernet Sauvignon and sparkling wine.",
       "section": "regions",
       "source": "article-source/yarra-valley-wine-region.md"
+    },
+    {
+      "slug": "zweigelt",
+      "route": "/zweigelt/",
+      "title": "What Is Zweigelt? A Beginner’s Guide",
+      "description": "Learn what Zweigelt is, where it comes from, how it tastes, where it is grown—including Australia—and what food to serve with it.",
+      "section": "grapes",
+      "source": "article-source/zweigelt.md"
     }
   ]
 }
