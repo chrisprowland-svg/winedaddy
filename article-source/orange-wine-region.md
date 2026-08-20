@@ -4,7 +4,7 @@ If you see **Orange** on an Australian wine label, it refers to a wine region in
 
 Orange is a registered Australian wine geographical indication (GI) within the **Central Ranges zone**. Its identity is closely tied to elevation: the GI covers qualifying land above 600 metres across parts of the City of Orange and the former Shires of Cabonne and Blayney. Higher, cooler sites and varied terrain help explain why Orange can produce both fresh, aromatic wines and more structured styles.
 
-## Orange wine region highlights
+## Highlights
 
 - Orange is a protected wine GI in New South Wales.
 - Its hierarchy is **Australia → New South Wales → Central Ranges zone → Orange region**.

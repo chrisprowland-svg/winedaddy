@@ -1,13 +1,5 @@
 # What Is Xinomavro? A Beginner’s Guide
 
-## Xinomavro in brief
-
-Xinomavro is a red wine grape from Greece, principally associated with northern Greece and especially the wine regions of Naoussa and Amyndeon.
-
-Its classic red wines are often bright or relatively pale in colour, high in acidity and firm in tannin. They may show red fruit, flowers, tomato, olives, tobacco, dried fruit, nuts and spice. That combination can make Xinomavro feel fresh and savoury rather than simply rich or dark.
-
-The important point is that Xinomavro is not one fixed flavour profile. Its character changes with region, vineyard site, ripeness, ageing and winemaking.
-
 ## Highlights
 
 - Xinomavro is a Greek red grape, not the name of a single wine style.
@@ -18,6 +10,14 @@ The important point is that Xinomavro is not one fixed flavour profile. Its char
 - Xinomavro can also be made as rosé, sparkling, light red, sweet and blended wine.
 - It can be excellent with savoury, protein-rich food.
 - Comparisons with Nebbiolo or Pinot Noir are only rough signposts—not identities.
+
+## Xinomavro in brief
+
+Xinomavro is a red wine grape from Greece, principally associated with northern Greece and especially the wine regions of Naoussa and Amyndeon.
+
+Its classic red wines are often bright or relatively pale in colour, high in acidity and firm in tannin. They may show red fruit, flowers, tomato, olives, tobacco, dried fruit, nuts and spice. That combination can make Xinomavro feel fresh and savoury rather than simply rich or dark.
+
+The important point is that Xinomavro is not one fixed flavour profile. Its character changes with region, vineyard site, ripeness, ageing and winemaking.
 
 ## Where does Xinomavro come from?
 

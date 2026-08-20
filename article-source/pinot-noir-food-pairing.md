@@ -4,7 +4,7 @@ Pinot Noir is one of the more versatile red wines to serve with food. It commonl
 
 The reason is its usual balance of **bright acidity, light-to-medium body and relatively restrained tannin**. Pinot Noir can bring red-fruit and savoury flavours without overwhelming many dishes. But the best pairing depends on the whole preparation—not just the main ingredient. A roast chicken with herbs is a different match from chicken in a rich, spicy sauce.
 
-## Pinot Noir food pairing highlights
+## Highlights
 
 - Roast chicken, duck and pork are dependable starting points.
 - Salmon and trout can work, especially when roasted, grilled, smoked or served with substantial accompaniments.

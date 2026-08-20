@@ -1,9 +1,3 @@
-## Front matter
-
-**Title:** How to Read a Wine Label  
-**Audience:** Australian beginners and casual wine buyers  
-**Primary question:** How do you read and understand the information on a wine label?
-
 # How to Read a Wine Label
 
 ## Highlights

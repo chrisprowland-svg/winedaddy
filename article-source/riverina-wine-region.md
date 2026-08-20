@@ -1,6 +1,6 @@
 # Riverina Wine Region: A Beginner’s Guide
 
-## Riverina wine region highlights
+## Highlights
 
 - Riverina is a registered Australian wine geographical indication (GI) in New South Wales.
 - It sits within the broader Big Rivers zone.

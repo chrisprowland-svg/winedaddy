@@ -1,6 +1,6 @@
 # Shiraz Food Pairing: What to Eat with Shiraz
 
-## Shiraz food pairing highlights
+## Highlights
 
 - Shiraz often works well with grilled and roasted meats, barbecue, sausages, burgers, stews, mushrooms and mature cheeses.
 - The best match depends on the whole dish—not just whether it contains beef, lamb or vegetables.

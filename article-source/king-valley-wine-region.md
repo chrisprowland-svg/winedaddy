@@ -4,7 +4,7 @@ King Valley is a registered Australian wine Geographical Indication (GI) in nort
 
 That variety reflects the region’s geography. King Valley rises from warmer, lower northern areas towards cooler, wetter and later-ripening country at higher elevations in the south. Rather than producing one uniform style, this internal variation helps explain why King Valley can make sparkling, white, red and Mediterranean-variety wines.
 
-## King Valley at a glance
+## Highlights
 
 - King Valley is a protected wine GI in Victoria, Australia.
 - Its formal hierarchy is **Australia → Victoria → North East Victoria zone → King Valley region**.

@@ -4,7 +4,7 @@ There is no single best wine for every steak. The most reliable approach is to m
 
 As a starting point, rich or heavily grilled steaks can suit structured reds such as Australian Shiraz or Cabernet Sauvignon. Leaner, more delicately flavoured cuts may be better with a fresher, softer red such as Pinot Noir. But sauce and seasoning can change the answer just as much as the steak itself.
 
-## Wine and steak pairing highlights
+## Highlights
 
 - Rich, fatty steak can work well with a wine that has body, acidity and tannin.
 - Tannin is the drying, grippy sensation found in many red wines.

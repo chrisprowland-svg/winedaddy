@@ -4,7 +4,7 @@ Great Southern is a large, diverse wine region in southern Western Australia. It
 
 It is particularly associated with **Riesling and Shiraz**, while Cabernet Sauvignon, Chardonnay and Sauvignon Blanc are also important. The main thing to understand, though, is that Great Southern does not have one single climate or wine style. Coastal, inland and elevated growing areas can produce noticeably different wines.
 
-## Great Southern at a glance
+## Highlights
 
 - Great Southern is a protected Australian wine GI in Western Australia.
 - It sits within the broader **South West Australia** GI.

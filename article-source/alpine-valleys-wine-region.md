@@ -1,6 +1,6 @@
 # Alpine Valleys wine region: grapes, styles and a beginner’s guide
 
-## Alpine Valleys in brief
+## Highlights
 
 - **Alpine Valleys is a protected Australian wine geographical indication (GI)** in north-east Victoria.
 - Its official hierarchy is **Australia → Victoria → North East Victoria zone → Alpine Valleys region**.

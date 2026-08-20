@@ -1,9 +1,3 @@
-## Front matter
-
-- **Title:** Wine Serving Temperature Explained: The Right Temperature for Every Style
-- **Primary entity:** Wine serving temperature
-- **Audience:** Australian wine drinkers, hosts and beginners
-
 # Wine Serving Temperature Explained: The Right Temperature for Every Style
 
 ## Highlights

@@ -1813,9 +1813,9 @@
       "slug": "what-is-wine",
       "route": "/what-is-wine/",
       "title": "What Is Wine? A Beginner’s Guide to How Wine Is Made",
-      "description": "Wine is fermented grape juice, but grapes, vineyard conditions, fermentation and winemaking choices create an enormous range of colours, flavours and styles.",
+      "description": "Wine is fermented grape juice, but the story does not end there. Learn how grapes become wine, how major styles differ and what Australian labels mean.",
       "section": "fundamentals",
-      "source": "article-source/what-is-wine.html"
+      "source": "article-source/what-is-wine.md"
     },
     {
       "slug": "what-is-wine-aroma",

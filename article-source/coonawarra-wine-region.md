@@ -1,6 +1,6 @@
 # Coonawarra Wine Region: What It Is Known For and What Its Wines Taste Like
 
-## Coonawarra wine region highlights
+## Highlights
 
 - Coonawarra is a South Australian wine region and Geographical Indication on the Limestone Coast.
 - It is best known for Cabernet Sauvignon, particularly structured reds with dark fruit, freshness and tannin.

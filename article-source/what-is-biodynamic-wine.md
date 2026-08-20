@@ -1,10 +1,3 @@
-## Front matter
-
-- **Title:** What Is Biodynamic Wine?
-- **Primary topic:** Biodynamic wine and biodynamic viticulture
-- **Suggested description:** Biodynamic wine comes from grapes grown using a farming system that builds on organic principles. Learn what biodynamic means, how it differs from organic and natural wine, and how to interpret the claim on an Australian wine label.
-- **Related live pages:** [What is wine?](/what-is-wine/), [How wine is made](/how-wine-is-made/), [Winemaking](/winemaking/)
-
 # What Is Biodynamic Wine?
 
 ## Highlights

@@ -1,11 +1,5 @@
 # Adelaide Hills Wine Region: A Beginner’s Guide
 
-## Adelaide Hills wine region in a nutshell
-
-Adelaide Hills is a recognised South Australian wine region in the Mount Lofty Ranges, just east and south-east of Adelaide. Its vineyards occupy a hilly, elevated and varied landscape, helping the region produce fresh whites, aromatic wines, Pinot Noir, Chardonnay, sparkling wine and distinctive Shiraz.
-
-The important thing to remember is that Adelaide Hills is not one uniform vineyard. Elevation, valleys, aspect, rainfall, soils and local climate all vary across the region. That is why two wines carrying the same Adelaide Hills name can still taste quite different.
-
 ## Highlights
 
 - Adelaide Hills is a wine region and Geographical Indication (GI) in South Australia’s Mount Lofty Ranges zone.
@@ -15,6 +9,12 @@ The important thing to remember is that Adelaide Hills is not one uniform vineya
 - Adelaide Hills wines are often associated with freshness, aromatic detail and defined structure, but these are tendencies rather than guarantees.
 - The region includes the recognised subregions of Lenswood and Piccadilly Valley.
 - “Adelaide Hills” on a label tells you about geographic origin. It does not guarantee a particular grape, flavour, quality level or winemaking method.
+
+## Adelaide Hills wine region in a nutshell
+
+Adelaide Hills is a recognised South Australian wine region in the Mount Lofty Ranges, just east and south-east of Adelaide. Its vineyards occupy a hilly, elevated and varied landscape, helping the region produce fresh whites, aromatic wines, Pinot Noir, Chardonnay, sparkling wine and distinctive Shiraz.
+
+The important thing to remember is that Adelaide Hills is not one uniform vineyard. Elevation, valleys, aspect, rainfall, soils and local climate all vary across the region. That is why two wines carrying the same Adelaide Hills name can still taste quite different.
 
 ## What is the Adelaide Hills wine region?
 
@@ -153,4 +153,3 @@ Look for freshness, aromatic character and defined structure as possible regiona
 If you are buying Adelaide Hills wine for the first time, compare two different varieties rather than trying to identify one “typical” regional flavour. A Sauvignon Blanc can show the region’s aromatic freshness, while Chardonnay or Pinot Noir can reveal how the same broad landscape supports a different balance of texture, acidity and fruit.
 
 That is the real lesson of Adelaide Hills: its name points to a distinctive place, but the place contains more variation than a single tasting description can capture.
-

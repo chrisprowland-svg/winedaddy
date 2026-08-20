@@ -1,13 +1,5 @@
 # What Is Gewürztraminer? A Beginner’s Guide
 
-## Gewürztraminer in a nutshell
-
-Gewürztraminer is an aromatic white wine-grape variety. Its wines are known for pronounced perfume, often showing rose, lychee, ripe fruit and spice.
-
-The important thing to remember is that **aromatic does not mean sweet**. Gewürztraminer can make dry, off-dry or sweet wines, depending on how the wine is made and how much residual sugar remains after fermentation.
-
-In Australia, Wine Australia’s register uses **Gewurztraminer** as the prime name and lists **Gewürztraminer** as a synonym. You may therefore see the name written with or without the umlaut.
-
 ## Highlights
 
 - Gewürztraminer is a grape variety, not a synonym for sweet white wine.
@@ -17,6 +9,14 @@ In Australia, Wine Australia’s register uses **Gewurztraminer** as the prime n
 - Fruit aromas can make a dry wine seem sweet, even when it contains little residual sugar.
 - Gewürztraminer is especially associated with Alsace in France and is also grown in Australia.
 - It is a different grape from Riesling, although both are aromatic white varieties.
+
+## Gewürztraminer in a nutshell
+
+Gewürztraminer is an aromatic white wine-grape variety. Its wines are known for pronounced perfume, often showing rose, lychee, ripe fruit and spice.
+
+The important thing to remember is that **aromatic does not mean sweet**. Gewürztraminer can make dry, off-dry or sweet wines, depending on how the wine is made and how much residual sugar remains after fermentation.
+
+In Australia, Wine Australia’s register uses **Gewurztraminer** as the prime name and lists **Gewürztraminer** as a synonym. You may therefore see the name written with or without the umlaut.
 
 ## What does Gewürztraminer taste like?
 

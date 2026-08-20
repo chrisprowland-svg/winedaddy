@@ -4,7 +4,7 @@ Langhorne Creek is a protected Australian wine geographical indication (GI) in S
 
 That description is a useful starting point—not a rule. A Langhorne Creek label does not guarantee a particular grape, flavour or quality level. The wine can vary with variety, vineyard site, vintage and winemaking choices.
 
-## Langhorne Creek at a glance
+## Highlights
 
 - Langhorne Creek is a registered wine region, or GI, in South Australia.
 - Its formal hierarchy is **Australia → South Australia → Fleurieu zone → Langhorne Creek**.

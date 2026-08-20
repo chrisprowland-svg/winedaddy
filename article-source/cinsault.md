@@ -1,11 +1,5 @@
 # What Is Cinsault? A Beginner’s Guide
 
-## Cinsault in brief
-
-Cinsault is a red wine-grape variety. It is a black-skinned *Vitis vinifera* grape that can produce soft, fruity and aromatic red wines, as well as rosé. It is often relatively low in tannin, but that does not mean every Cinsault is light-bodied or simple.
-
-The variety is also written **Cinsaut**. In Australia, Wine Australia’s January 2024 OIV-derived list uses **Cinsaut** as the prime name and lists **Oeillade** and **Blue Imperial** as synonyms. **Cinsault** is the familiar French and international spelling. These names refer to the same grape variety rather than separate wine styles.
-
 ## Highlights
 
 - Cinsault is a red grape variety, not a region or a wine style.
@@ -16,6 +10,12 @@ The variety is also written **Cinsaut**. In Australia, Wine Australia’s Januar
 - Yield, site, vine age and winemaking can make the wine lighter and delicate or more balanced and concentrated.
 - Cinsaut is used for red wines, blends and rosé.
 - A wine can smell of strawberries or cherries and still be dry.
+
+## Cinsault in brief
+
+Cinsault is a red wine-grape variety. It is a black-skinned *Vitis vinifera* grape that can produce soft, fruity and aromatic red wines, as well as rosé. It is often relatively low in tannin, but that does not mean every Cinsault is light-bodied or simple.
+
+The variety is also written **Cinsaut**. In Australia, Wine Australia’s January 2024 OIV-derived list uses **Cinsaut** as the prime name and lists **Oeillade** and **Blue Imperial** as synonyms. **Cinsault** is the familiar French and international spelling. These names refer to the same grape variety rather than separate wine styles.
 
 ## What does Cinsault taste like?
 

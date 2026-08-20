@@ -1,6 +1,6 @@
 # Heathcote wine region: a guide to its place, wines and character
 
-## Heathcote in a nutshell
+## Highlights
 
 - Heathcote is a registered Australian wine geographical indication (GI) in Victoria.
 - Its official hierarchy is **Australia → Victoria → Central Victoria zone → Heathcote**.
