@@ -54,7 +54,7 @@ for (const jobId of jobIds) {
 fs.writeFileSync('.wd7/current-batch.json', `${JSON.stringify({job_ids: jobIds}, null, 2)}\n`);
 
 function readerArticle(output) {
-  return output.match(/BEGIN READER ARTICLE\s*([\s\S]*?)(?:\s*END READER ARTICLE|\s*BEGIN INTERNAL EDITORIAL APPENDIX)/i)?.[1]?.trim() || null;
+  return output.match(/BEGIN READER ARTICLE\s*([\s\S]*?)(?:\s*END READER ARTICLE|\s*BEGIN READER ARTICLE|\s*BEGIN INTERNAL EDITORIAL APPENDIX)/i)?.[1]?.trim() || null;
 }
 
 function expandToken(token) {
