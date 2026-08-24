@@ -1,0 +1,153 @@
+# Sauvignon Blanc in Australia
+
+## Highlights
+
+- Australian Sauvignon Blanc is not one fixed style. It can be fresh and citrusy, herbal and aromatic, tropical and ripe, or fuller and more textural.
+- The grape is grown in warm inland areas as well as cool, elevated, maritime and Tasmanian sites.
+- Adelaide Hills, Margaret River and Tasmania are useful reference points, but no region guarantees a particular flavour.
+- Riverland, Riverina and Murray–Darling/Swan Hill are important production areas by volume.
+- Margaret River is especially associated with Sauvignon Blanc–Sémillon blends.
+- Stainless-steel fermentation usually supports a fresh style, while barrel treatment, blending or lees contact can add weight and texture.
+- A geographic indication, or GI, tells you where qualifying grapes or wine come from. It does not promise a fixed taste.
+
+## Quick answer
+
+Sauvignon Blanc in Australia is best understood as a grape variety expressed through many different places and winemaking choices.
+
+It is grown from warm inland regions such as the Riverland and Riverina to cooler areas including the Adelaide Hills and Tasmania, as well as maritime Margaret River in Western Australia. Wine Australia’s 2024 variety snapshot recorded 6,097 hectares planted in 2020 and 89,120 tonnes crushed in 2024. The Riverland, Riverina, Margaret River and Murray–Darling/Swan Hill were among the largest contributors to that crush.
+
+The style can change with latitude, elevation, ocean influence, water availability, crop level, canopy management, harvest timing and ripeness. Cooler or earlier-picked fruit may retain lively acidity and citrus or herbal characters. Riper fruit can show more tropical, melon or guava-like flavours. Winemaking matters too: stainless steel tends to preserve freshness, while barrel fermentation, oak maturation, blending and lees contact can create a broader, richer or more textural wine.
+
+So, rather than asking what Australian Sauvignon Blanc always tastes like, ask: where is it from, how ripe does it seem, and what does the label suggest about the winemaking?
+
+## Where is Sauvignon Blanc grown in Australia?
+
+Sauvignon Blanc is an established Australian white wine grape with a broad geographic spread.
+
+The Riverland and Riverina are important production areas by volume. The 2024 Wine Australia snapshot listed the Riverland as the largest contributor, followed by the Riverina, Margaret River and Murray–Darling/Swan Hill. These figures describe production significance, not a ranking of quality or a promise of a particular style.
+
+Adelaide Hills is a major cool-climate reference point. Its elevation and varied terrain create different vineyard conditions across the region. The region is commonly associated with fresh, aromatic wines with crisp acidity and citrus, grapefruit or tropical notes.
+
+Margaret River has a maritime setting and a distinctive relationship between Sauvignon Blanc and Sémillon. Its examples can range from light, lemony and herbal wines to fuller, more tropical or barrel-influenced styles.
+
+Tasmania provides another cool-climate context. It is relevant to Australian Sauvignon Blanc, although the available evidence supports describing its cool growing conditions more confidently than assigning one definitive Tasmanian flavour profile.
+
+Other regions, including Geographe, show why broad regional labels are only a starting point. Wine Australia describes cooler Geographe sites as tending towards citrus and grass, while warmer sites may show melon and guava. That is a useful illustration of variation within a GI, not a rule for every bottle.
+
+For a broader map of Australian wine geography, see [Australian wine regions](/australian-wine-regions/).
+
+## Why can the same grape taste so different?
+
+### Climate and growing conditions
+
+Sauvignon Blanc generally performs well in cool but sunny conditions. Cooling may come from elevation, ocean breezes or maritime influence. These conditions can help preserve acidity and aromatic definition, but climate does not work alone.
+
+A vineyard’s water availability, soil, crop level, canopy and fruit exposure also influence how grapes ripen. Sauvignon Blanc can produce vigorous foliage, so canopy management is important. The amount of leaf growth and light reaching the fruit can affect ripening and the balance between fresh fruit and greener, herbaceous characters.
+
+Ripeness is particularly important. Earlier-picked or less ripe fruit may emphasise citrus, grass or herbal notes. As fruit ripens, flavours may move towards passionfruit, tropical fruit, melon or guava. The aim is not necessarily to eliminate green character or maximise ripeness, but to create balance.
+
+Harvest timing can therefore change the character of a wine even within one vineyard. Blending fruit from different picking dates is one way winemakers can balance freshness, aromatic intensity and ripeness.
+
+### Site variation
+
+A region is not a single vineyard. Elevation, slope, aspect, rainfall, wind and proximity to the ocean can create different growing conditions within the same GI.
+
+This is especially useful to remember when tasting Adelaide Hills Sauvignon Blanc. The name gives you geographic context, but it does not tell you exactly how high the vineyard sits, how ripe the fruit was when picked or whether the wine was made in stainless steel or barrel.
+
+The registered visual **VIS-005**, *Adelaide Hills site variation*, may help explain this relationship between elevation, terrain and local growing conditions.
+
+## Three Australian reference points
+
+### Adelaide Hills
+
+Adelaide Hills is commonly treated as one of Australia’s leading Sauvignon Blanc reference regions. Wine Australia describes its wines as vibrant, aromatic, fresh and capable of showing complexity and texture.
+
+A bottle from the region may show citrus or grapefruit characters, tropical fruit and crisp acidity. Those descriptions are tendencies rather than a checklist. Site, vintage, harvest timing and winemaking can all move the wine in a different direction.
+
+### Margaret River
+
+Margaret River is particularly important for the Australian Sauvignon Blanc–Sémillon relationship. The two varieties may be blended to create a wine with Sauvignon Blanc’s aromatic lift and acidity alongside greater weight or texture from the blend.
+
+Margaret River styles can range from light, crisp, lemony and herbal to fuller, more tropical and barrel-influenced. Not every Margaret River wine is blended, and not every blend is made in the same way.
+
+For the fuller comparison, see [Sauvignon Blanc vs Sémillon](/sauvignon-blanc-vs-semillon/). For geographic context, see the [Margaret River wine region guide](/margaret-river-wine-region/).
+
+### Tasmania
+
+Tasmania is a relevant cool-climate setting for Sauvignon Blanc. Cooler growing conditions can help retain freshness and acidity, while local site and season still determine the final result.
+
+It is better to use Tasmania as a context clue than as a promise. A Tasmanian label tells you about origin; it does not guarantee that the wine will be more aromatic, more acidic or more elegant than every example from elsewhere.
+
+## How winemaking changes the style
+
+Many Australian Sauvignon Blanc wines are fermented in stainless steel with temperature control and bottled relatively soon after fermentation. This approach is commonly associated with preserving fresh fruit, lively acidity and primary aromas.
+
+Stainless steel is not a flavour guarantee. Yeast, fermentation temperature, oxygen management, time on solids and the condition of the fruit all matter as well.
+
+Oak and barrel treatment create another pathway. Oaked or barrel-fermented Sauvignon Blanc can be broader, richer or more textural than a straightforward unoaked style. Oak may contribute texture and integration as well as obvious oak aromas.
+
+Lees contact can also contribute to texture, although it should not be assumed that every textured wine has spent time ageing on lees. Similarly, skin fermentation, wild yeast, ceramic eggs, amphorae and low-sulphur approaches have been documented in Australian experimentation, but they are alternatives rather than the national default.
+
+The word “dry” also does not mean “flavourless”. A dry Sauvignon Blanc can still smell strongly of passionfruit, citrus, grass or tropical fruit. Fruitiness and sweetness are different things. See [dry wine meaning](/dry-wine-meaning/) for the distinction.
+
+## How to read an Australian Sauvignon Blanc label
+
+A label can provide several different kinds of information:
+
+- **Sauvignon Blanc** identifies the grape variety.
+- **A GI** identifies geographic origin under Australian rules.
+- **A state, zone, region or subregion** describes different levels of geographic detail.
+- **Sémillon or another variety** may indicate a blend, particularly in Margaret River.
+- **Oak or barrel wording** may suggest a richer or more textural winemaking approach, although the exact result varies.
+
+Wine Australia’s protected GI register distinguishes Australian geographic levels and states that the legal textual description takes precedence if it differs from a map. A town name may help you understand where a vineyard is located, but it is not automatically the legal GI on a bottle.
+
+The most important lesson is simple: a GI tells you where the wine comes from, not exactly what it will taste like. The registered visual **VIS-006**, *Adelaide Hills varieties and label meaning*, may be reusable for this distinction between regional tendency and label guarantee.
+
+For more on reading bottles, see [How to Read a Wine Label](/how-to-read-a-wine-label/).
+
+## How to taste Australian Sauvignon Blanc
+
+When you open a bottle, try this simple sequence:
+
+1. **Start with the place.** Is it from an inland, elevated, maritime or Tasmanian context?
+2. **Look for blend information.** Is it labelled as Sauvignon Blanc alone, or with Sémillon?
+3. **Notice the texture.** Does it feel light and brisk, or broader and more rounded?
+4. **Separate aroma from sweetness.** Strong fruit aromas do not prove that the wine is sweet.
+5. **Treat regional expectations as clues.** Your glass is the evidence in front of you.
+
+Sauvignon Blanc can work with oysters, shellfish, white fish, salads, goat’s cheese, chicken and other lighter dishes. Fresh, high-acid styles may suit simply prepared seafood, while fuller examples can cope with richer fish or poultry dishes.
+
+## In short
+
+Australian Sauvignon Blanc is a story of variety rather than uniformity. Warm inland regions contribute substantial volume, while Adelaide Hills, Margaret River and Tasmania show how elevation, maritime influence and cool conditions can shape different expressions. Ripeness, harvest timing and vineyard management matter, and winemaking can shift the wine from crisp and aromatic to richer and more textural.
+
+When choosing or tasting a bottle, use the region as context—not a guarantee—and then pay attention to the wine itself.
+
+## Related learning
+
+- [What Is Sauvignon Blanc?](/what-is-sauvignon-blanc/)
+- [Australian wine regions by climate](/australian-wine-regions-by-climate/)
+- [Adelaide Hills wine region](/adelaide-hills-wine-region/)
+- [Tasmania wine region](/tasmania-wine-region/)
+- [Sémillon in Australia](/semillon-in-australia/)
+- [Riesling in Australia](/riesling-in-australia/)
+- [Chardonnay in Australia](/chardonnay-in-australia/)
+
+## Suggested FAQs
+
+### Is Australian Sauvignon Blanc always crisp and grassy?
+
+No. Fresh citrus and herbal characters are common possibilities, but riper fruit, site conditions and winemaking can produce tropical, melon, guava, richer or more textural wines.
+
+### Is Margaret River Sauvignon Blanc always blended with Sémillon?
+
+No. The blend is strongly associated with Margaret River, but it should not be assumed for every bottle.
+
+### Does a cooler region always produce better Sauvignon Blanc?
+
+No. Cooler conditions can help preserve acidity and freshness, but quality and style also depend on site, ripeness, vineyard decisions and winemaking.
+
+### What does a GI tell me about Sauvignon Blanc?
+
+A GI tells you about geographic origin under Australian rules. It does not guarantee a particular aroma, body, sweetness level or winemaking method.
