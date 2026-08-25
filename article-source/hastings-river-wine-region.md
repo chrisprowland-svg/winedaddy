@@ -22,6 +22,8 @@ The region takes its name from the Hastings River, but the river, the surroundin
 
 ## Where is Hastings River?
 
+<!-- VISUAL:VIS-015 -->
+
 Hastings River is in coastal and hinterland New South Wales, between the Pacific Ocean and inland ranges. Port Macquarie is the most recognisable regional centre, while Wauchope provides a useful inland reference point. Wauchope lies roughly 19–20 kilometres west of Port Macquarie.
 
 From Sydney, Port Macquarie is broadly just over four hours’ drive north along the New South Wales coast. Treat that as orientation rather than a precise travel promise: the time depends on your starting point, route, traffic and final destination.
