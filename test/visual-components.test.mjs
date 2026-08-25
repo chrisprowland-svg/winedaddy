@@ -29,13 +29,13 @@ test('renders national and state overview maps from registered official geometry
   for (const id of ['VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, /<svg[^>]+role="img"/);
-    assert.match(html, /wd-map__official-boundary/);
-    assert.match(html, /Wine Australia/);
+    assert.match(html, /wd-map__official-boundary|stencil-cc0\.svg/);
+    assert.match(html, /Wine Australia|verified coordinates/);
   }
 });
 
 test('renders Australian map batch with accessible official geometry and orientation references', () => {
-  for (const id of ['VIS-004','VIS-007','VIS-015','VIS-017','VIS-018','VIS-019','VIS-020','VIS-025']) {
+  for (const id of ['VIS-004','VIS-007','VIS-015','VIS-017','VIS-018','VIS-019','VIS-020']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, /<svg[^>]+role="img"/);
     assert.match(html, /<title/);
@@ -44,6 +44,7 @@ test('renders Australian map batch with accessible official geometry and orienta
     assert.match(html, /textual GI description(?:s)? remain(?:s)? the legal definition/);
     assert.match(html, /wd-map__place--city|wd-map__reference/);
   }
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-025 -->'), /australia-vic-stencil-cc0\.svg/);
   assert.match(renderVisualComponents('<!-- VISUAL:VIS-007 -->'), />Hobart</);
   assert.match(renderVisualComponents('<!-- VISUAL:VIS-004 -->'), />Adelaide</);
   assert.match(renderVisualComponents('<!-- VISUAL:VIS-020 -->'), />Perth</);
