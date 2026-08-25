@@ -19,21 +19,20 @@ test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-999'), false);
 });
 
-test('renders Australian map batch with accessible SVG and appropriate boundary disclosure', () => {
+test('renders Australian map batch with accessible official geometry and orientation references', () => {
   for (const id of ['VIS-004','VIS-007','VIS-015','VIS-017','VIS-018','VIS-019','VIS-020','VIS-025']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, /<svg[^>]+role="img"/);
     assert.match(html, /<title/);
     assert.match(html, /<desc/);
-    if (id === 'VIS-007') {
-      assert.match(html, /Wine Australia’s spatial translation/);
-      assert.match(html, /textual GI description remains the legal definition/);
-      assert.match(html, /wd-map__place--city/);
-      assert.match(html, />Hobart</);
-    } else {
-      assert.match(html, /not a legal boundary map/i);
-    }
+    assert.match(html, /Wine Australia(?:’s)? spatial translation/);
+    assert.match(html, /textual GI description(?:s)? remain(?:s)? the legal definition/);
+    assert.match(html, /wd-map__place--city|wd-map__reference/);
   }
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-007 -->'), />Hobart</);
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-004 -->'), />Adelaide</);
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-020 -->'), />Perth</);
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-025 -->'), />Melbourne</);
 });
 
 test('renders every third-batch component as accessible semantic HTML', () => {
