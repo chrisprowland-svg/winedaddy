@@ -89,8 +89,6 @@ When you see Reserve in a bottle shop or restaurant, use it as one piece of info
 
 A useful mental shortcut is: **Reserve may tell you that the producer wants distinction; the rest of the label should tell you what that distinction is.**
 
-[Visual: VIS-009 — Generic annotated wine-label callout. Show “Reserve” separately from vintage, variety, GI or region, alcohol and producer information. Add the caution: “Meaning varies by producer and country.”]
-
 ## Reserve and other wine terms
 
 - **Vintage:** the harvest year, subject to applicable rules.

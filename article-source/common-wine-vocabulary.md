@@ -132,7 +132,7 @@ These terms answer different questions:
 
 Australian GIs include a hierarchy of zones, regions and sub-regions. Wine Australia maintains the protected register, and GI boundaries are defined through Australian rules. Vintage, variety and GI claims are voluntary, but claims made on Australian labels must be supported by appropriate records under the Label Integrity Program.
 
-A European label may foreground an appellation or protected place name, with the grape variety less prominent or absent. **Appellation**, **GI** and **region** are related ideas, but they are not exact synonyms in every country. [How to read a wine label](/how-to-read-a-wine-label/) and [protected wine names](/protected-wine-names/) provide more context. The registered visual **VIS-009, Generic annotated wine-label callout**, is also suited to this section.
+A European label may foreground an appellation or protected place name, with the grape variety less prominent or absent. **Appellation**, **GI** and **region** are related ideas, but they are not exact synonyms in every country. [How to read a wine label](/how-to-read-a-wine-label/) and [protected wine names](/protected-wine-names/) provide more context.
 
 ### Terms that need caution
 

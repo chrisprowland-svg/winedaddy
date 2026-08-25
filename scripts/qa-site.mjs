@@ -24,7 +24,7 @@ for (const article of manifest.articles) {
   check(html, /G-M281DG8YTP/i, article.slug, 'GA missing'); check(html, /1085436810811087/i, article.slug, 'Meta Pixel missing');
   check(html, /<section class="highlights"><h2>Highlights<\/h2>/i, article.slug, 'Highlights component missing');
   if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) errors.push(`${article.slug}: expected one H1`);
-  if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|IMPLEMENTATION NOTE/i.test(html)) errors.push(`${article.slug}: internal content leaked`);
+  if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|IMPLEMENTATION NOTE|\[Visual:\s*VIS-/i.test(html)) errors.push(`${article.slug}: internal content leaked`);
   for (const match of html.matchAll(/href="(\/[^"#?]+)[^"]*"/g)) if (!routeExists(match[1])) errors.push(`${article.slug}: broken internal link ${match[1]}`);
 }
 const groups = new Map();
