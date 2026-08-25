@@ -75,8 +75,10 @@ function officialRegionMap({id, title, intro, hierarchy, summary, source, refere
 }
 
 function nationalWineMap({id, title, intro, hierarchy, summary}) {
-  const cities = [{label:'Perth',x:81,y:232,tx:50,ty:224},{label:'Adelaide',x:307,y:274,tx:250,ty:291},{label:'Melbourne',x:350,y:283,tx:343,ty:305},{label:'Sydney',x:393,y:244,tx:405,ty:254},{label:'Brisbane',x:412,y:182,tx:420,ty:174},{label:'Hobart',x:361,y:322,tx:372,ty:333}];
-  const regions = [{label:'Margaret River',x:77,y:248,tx:47,ty:266},{label:'Barossa Valley',x:303,y:260,tx:238,ty:247},{label:'Yarra Valley',x:361,y:275,tx:370,ty:291},{label:'Hunter',x:397,y:228,tx:410,ty:224},{label:'Granite Belt',x:397,y:193,tx:335,ty:188}];
+  // Coordinates are georeferenced to the stencil using the 129°E, 138°E and
+  // 141°E state borders plus the 26°S and 29°S boundaries—not hand-placed.
+  const cities = [{label:'Perth',x:102.8,y:216.1,tx:70,ty:205},{label:'Adelaide',x:306.2,y:246.1,tx:255,ty:263},{label:'Melbourne',x:363.1,y:275.2,tx:326,ty:296},{label:'Sydney',x:419,y:235.4,tx:433,ty:247},{label:'Brisbane',x:435.2,y:170.9,tx:446,ty:162},{label:'Hobart',x:384.2,y:326.3,tx:396,ty:338}];
+  const regions = [{label:'Margaret River',x:95.5,y:236.2,tx:45,ty:251},{label:'Barossa Valley',x:309.4,y:242.1,tx:242,ty:226},{label:'Yarra Valley',x:367.5,y:273.5,tx:380,ty:283},{label:'Hunter',x:418,y:224.6,tx:431,ty:219},{label:'Granite Belt',x:424.7,y:182.3,tx:350,ty:180}];
   const marker = (place, klass) => `<g class="${klass}"><path class="wd-map__callout" d="M${place.x} ${place.y} L${place.tx} ${place.ty - 4}"/><circle cx="${place.x}" cy="${place.y}" r="${klass.includes('wine') ? 5 : 4}"/><text x="${place.tx}" y="${place.ty}">${esc(place.label)}</text></g>`;
   const cityHtml = cities.map(place => marker(place,'wd-map__city-marker')).join('');
   const wineHtml = regions.map(place => marker(place,'wd-map__wine-marker')).join('');
