@@ -12,6 +12,8 @@
 
 ## Quick answer: what should an Australian wine learner understand about England?
 
+<!-- VISUAL:VIS-041 -->
+
 England is a wine-producing country in the southern part of the United Kingdom. Its vineyards are concentrated particularly in southern and south-eastern England, although vines are grown more widely.
 
 The country’s cool, maritime conditions are central to understanding its wine. The surrounding seas moderate temperatures, but they do not remove the risks of spring frost, rainfall or a cool, variable growing season. Ripening can therefore be more marginal than in many Australian wine regions, and vintage conditions can have a noticeable influence.
