@@ -58,6 +58,8 @@ A young, concentrated Cabernet can feel quite firm. A softer style, a blended wi
 
 ## Why does Cabernet Sauvignon vary so much?
 
+<!-- VISUAL:VIS-003 -->
+
 The grape is only one part of the finished wine. Its style is shaped by several decisions and conditions.
 
 ### Climate and site
