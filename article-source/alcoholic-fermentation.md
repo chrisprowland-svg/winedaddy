@@ -12,6 +12,8 @@
 
 ## Quick answer: what is alcoholic fermentation?
 
+<!-- VISUAL:VIS-021 -->
+
 Alcoholic fermentation is the yeast-driven process that changes grape juice or must into wine. Yeast consumes fermentable grape sugars—mainly glucose and fructose—and produces ethanol, carbon dioxide and heat.
 
 In simplified form:

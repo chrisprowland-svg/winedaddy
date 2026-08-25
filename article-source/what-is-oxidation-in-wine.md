@@ -25,6 +25,8 @@ You cannot diagnose oxidation with certainty from one smell, one flavour or colo
 
 ## What Does Oxidation Change?
 
+<!-- VISUAL:VIS-008 -->
+
 Wine contains many compounds that can react with oxygen. These reactions may alter:
 
 - **Aroma:** Fresh fruit and floral notes may fade, replaced by more developed, nutty or stale characters.
@@ -151,4 +153,3 @@ No. Decanting increases the wine’s contact with air. It may help some young or
 - [How wine is made](/how-wine-is-made/)
 - [What is fortified wine?](/what-is-fortified-wine/)
 - [Winemaking](/winemaking/)
-

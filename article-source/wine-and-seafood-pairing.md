@@ -12,6 +12,8 @@
 
 ## Quick answer
 
+<!-- VISUAL:VIS-013 -->
+
 The best wine for seafood depends on how the seafood is prepared.
 
 For raw oysters, delicate white fish and lightly seasoned shellfish, start with a fresh, high-acid wine such as Riesling, Sauvignon Blanc, Pinot Gris or sparkling wine. Fried seafood often works with sparkling wine or a crisp white because freshness and bubbles provide contrast to oil, salt and crunch.

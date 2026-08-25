@@ -36,6 +36,8 @@ This proximity to Adelaide also gives the region a useful identity for visitors:
 
 ## Why is Adelaide Hills considered a cool-climate region?
 
+<!-- VISUAL:VIS-005 -->
+
 “Cool climate” is a useful descriptive term in wine, not a legal category with one universal temperature threshold.
 
 In Adelaide Hills, elevation and terrain generally contribute to cooler growing conditions than those found in many warmer inland areas of South Australia. Cooler conditions can slow grape ripening and help grapes retain natural acidity while flavours develop. That can support wines with freshness, aromatic lift and a firm or clearly defined structure.
@@ -113,6 +115,8 @@ As a broad orientation, Adelaide Hills is generally more elevated and cooler tha
 This is not a quality ranking. Barossa Valley, McLaren Vale and Adelaide Hills each contain different sites, varieties and wine styles. The comparison simply helps explain why a South Australian wine labelled Adelaide Hills may offer a different experience from one labelled Barossa Valley.
 
 ## What does Adelaide Hills on a wine label mean?
+
+<!-- VISUAL:VIS-006 -->
 
 When “Adelaide Hills” appears as the geographic indication on a wine label, it communicates that the wine’s grapes meet Australian geographic-origin rules for that region.
 

@@ -11,6 +11,8 @@
 
 ## Quick answer
 
+<!-- VISUAL:VIS-014 -->
+
 Whole-bunch fermentation is a red-winemaking technique in which intact grape bunches—including the berries, stems and central stalk—are placed in the fermenter. Instead of separating every grape from its stem, the winemaker might retain a small proportion of whole bunches, use a substantial portion, or ferment nearly all the fruit intact.
 
 The stems can contribute tannin and alter the wine’s texture. They may also bring herbal, spicy, savoury or floral notes, although these effects are not guaranteed. If the stems are unsuitable or extracted too aggressively, the wine may instead seem green, bitter, coarse or overly drying.

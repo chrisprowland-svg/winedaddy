@@ -12,6 +12,8 @@
 
 ## Quick answer: what is wine aroma?
 
+<!-- VISUAL:VIS-023 -->
+
 Wine aroma is the smell perceived from wine. You notice it when you smell wine in the glass, and also when you drink it. During drinking, volatile aroma compounds can travel from the mouth towards the nose, contributing to the experience people usually call flavour.
 
 This is why a wine can smell one way in the glass and seem different once you taste it.
