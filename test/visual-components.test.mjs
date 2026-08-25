@@ -28,6 +28,8 @@ test('renders Australian map batch with accessible SVG and appropriate boundary 
     if (id === 'VIS-007') {
       assert.match(html, /Wine Australia’s spatial translation/);
       assert.match(html, /textual GI description remains the legal definition/);
+      assert.match(html, /wd-map__place--city/);
+      assert.match(html, />Hobart</);
     } else {
       assert.match(html, /not a legal boundary map/i);
     }
