@@ -85,6 +85,8 @@ Acidity, alcohol and serving temperature also influence how sweet or fresh a win
 
 Likewise, a label without the word trocken should not automatically be assumed to describe a sweet wine. The most reliable interpretation comes from reading the label and available technical information together.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read a German label in Australia
 
 When buying an imported German wine at an Australian retailer or ordering one at a restaurant, consider these details together:

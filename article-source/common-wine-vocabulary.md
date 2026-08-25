@@ -117,6 +117,8 @@ You do not need to understand every production decision to enjoy wine, but a few
 
 For deeper explanations, visit [what fermentation is](/what-is-fermentation/), [what oak does to wine](/what-does-oak-do-to-wine/) and [does wine improve with age?](/does-wine-improve-with-age/).
 
+<!-- VISUAL:VIS-009 -->
+
 ## Reading Australian wine labels
 
 Australian wine labels commonly place a grape variety and place name together. You might see **Shiraz**, **Chardonnay** or **Riesling** alongside an Australian place name.

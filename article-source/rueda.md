@@ -74,6 +74,8 @@ Rueda is a separate designation from other well-known Spanish wine regions.
 
 Rueda can produce quality sparkling wine, but it is not the same designation as **Cava**. A bottle’s protected name matters: similar broad styles do not make different regions interchangeable.
 
+<!-- VISUAL:VIS-009 -->
+
 ## What should an Australian learner look for?
 
 If you want a straightforward introduction to Rueda, a white wine with Verdejo clearly identified on the label is a sensible place to begin. Expect freshness and aromatic character, while remembering that individual wines can vary.

@@ -67,6 +67,8 @@ The difference is primarily about the designation’s national and European cont
 
 The same caution applies to famous appellation names. A protected name confirms that the wine complies with its specification. It does not guarantee a particular flavour, a particular level of enjoyment or a better match for your dinner.
 
+<!-- VISUAL:VIS-009 -->
+
 ## What does this mean for Australian wine drinkers?
 
 When buying French wine in an Australian bottle shop or choosing from a restaurant list, read AOC or AOP as **designation information**, not as a quality grade.

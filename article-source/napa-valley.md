@@ -79,6 +79,8 @@ Chardonnay and Sauvignon Blanc are important white varieties in the region. Cool
 
 Pinot Noir is also associated with cooler areas, particularly around southern parts of the broader Napa Valley area and Carneros. As with all regional descriptions, “can show” is more accurate than “always tastes like”.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read a Napa Valley label
 
 A Napa Valley label may include several different kinds of information:
