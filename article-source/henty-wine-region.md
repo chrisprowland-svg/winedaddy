@@ -9,6 +9,8 @@ Henty’s cool conditions allow grapes to ripen slowly, helping wines retain fre
 
 ## Where is Henty?
 
+<!-- VISUAL:VIS-017 -->
+
 Henty is in **Victoria**, within the **Western Victoria wine zone**:
 
 **Australia → Victoria → Western Victoria wine zone → Henty region**
