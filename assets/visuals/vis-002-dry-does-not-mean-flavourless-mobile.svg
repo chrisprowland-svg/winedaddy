@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1100" viewBox="0 0 750 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Dry does not mean flavourless</title>
+  <desc id="desc">Two independent scales show that dryness describes perceived sweetness, while fruit flavour can range from subtle to intense. A wine can therefore be dry and intensely fruity at the same time.</desc>
+  <rect width="750" height="1100" rx="32" fill="#fffdf8"/>
+  <rect x="2" y="2" width="746" height="1096" rx="30" fill="none" stroke="#171713" stroke-opacity=".16" stroke-width="4"/>
+
+  <text x="48" y="70" fill="#6d1831" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="3">WINEDADDY QUICK EXPLAINER</text>
+  <text x="48" y="140" fill="#171713" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="-2">Dry does not mean</text>
+  <text x="48" y="202" fill="#171713" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="-2">flavourless.</text>
+  <text x="48" y="253" fill="#66665e" font-family="Arial, Helvetica, sans-serif" font-size="31">Dryness and fruit flavour describe</text>
+  <text x="48" y="291" fill="#66665e" font-family="Arial, Helvetica, sans-serif" font-size="31">different parts of wine.</text>
+
+  <rect x="48" y="337" width="654" height="276" rx="24" fill="#f6f0e5"/>
+  <text x="84" y="391" fill="#171713" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">Dryness</text>
+  <text x="84" y="432" fill="#66665e" font-family="Arial, Helvetica, sans-serif" font-size="28">How much sweetness do you perceive?</text>
+  <line x1="98" y1="504" x2="652" y2="504" stroke="#6d1831" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="164" cy="504" r="28" fill="#fffdf8" stroke="#6d1831" stroke-width="10"/>
+  <text x="84" y="566" fill="#6d1831" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">DRY</text>
+  <text x="568" y="566" fill="#171713" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SWEET</text>
+
+  <rect x="48" y="645" width="654" height="276" rx="24" fill="#171713"/>
+  <text x="84" y="699" fill="#fffdf8" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">Fruit flavour</text>
+  <text x="84" y="740" fill="#d8d6cc" font-family="Arial, Helvetica, sans-serif" font-size="28">How strongly do fruit flavours show?</text>
+  <line x1="98" y1="812" x2="652" y2="812" stroke="#c49348" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="586" cy="812" r="28" fill="#171713" stroke="#c49348" stroke-width="10"/>
+  <text x="84" y="874" fill="#fffdf8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SUBTLE</text>
+  <text x="536" y="874" fill="#c49348" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">INTENSE</text>
+
+  <rect x="48" y="957" width="654" height="101" rx="50" fill="#6d1831"/>
+  <text x="375" y="996" text-anchor="middle" fill="#fffdf8" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="1">BOTH CAN BE TRUE</text>
+  <text x="375" y="1035" text-anchor="middle" fill="#fffdf8" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700">Dry and intensely fruity.</text>
+</svg>
