@@ -21,6 +21,8 @@ As a rough orientation, Adelaide Hills is about 20–40 minutes east or south-ea
 
 The nearest town on a label is not necessarily the name of the wine region. A town, tourism area or mountain range may overlap with a GI, sit near one or help you find it, but the official wine-geographic boundary is what determines whether a regional name can be used as a protected wine indication.
 
+<!-- VISUAL:VIS-050 -->
+
 ## How the South Australian GI system works
 
 A **geographical indication**, or GI, is a protected geographic name that identifies where the grapes used for a wine were grown, subject to Australia’s labelling rules. It is not a quality rating and it does not guarantee a particular grape variety, flavour, sweetness or price.
