@@ -99,6 +99,8 @@ The 1855 Classification covers particular red wines, principally from the Médoc
 
 The Saint-Émilion classification is separate from the Saint-Émilion and Saint-Émilion Grand Cru appellations, and its system is periodically revised. This is why terms such as “Grand Cru” or “Grand Cru Classé” should always be read in context. They are not a universal Bordeaux grading ladder.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read a Bordeaux label in Australia
 
 When looking at a Bordeaux label, try this order:

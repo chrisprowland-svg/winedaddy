@@ -103,6 +103,8 @@ They are different ideas: one concerns a vineyard and its harvesting relationshi
 
 If a year is important to you, look for an explicit vintage statement rather than inferring one from the word *cuvée*. You can read more in [vintage wine versus non-vintage wine](/vintage-wine-vs-non-vintage-wine/).
 
+<!-- VISUAL:VIS-009 -->
+
 ## How should Australians read cuvée on a label?
 
 An Australian wine drinker may encounter *cuvée* on:

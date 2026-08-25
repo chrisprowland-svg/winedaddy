@@ -85,6 +85,8 @@ For a beginner, the relationship can be summarised like this:
 
 This is not a simple ranking of taste or value. The categories describe different legal relationships between wine, place and production.
 
+<!-- VISUAL:VIS-009 -->
+
 ## What should you look for on an Australian wine label?
 
 An Australian shopper may encounter several forms of the terminology:

@@ -56,8 +56,6 @@ The useful beginner’s distinction is:
 
 A wine that has been racked has not necessarily been damaged. Nor does racking guarantee freshness or prevent oxidation. The result depends on the wine and the conditions of the transfer.
 
-[Visual: VIS-008 — How oxidation can develop in wine, only if its framing clearly separates oxygen exposure from oxidation and does not imply that all racking is oxidative.]
-
 ## Is racking used for every wine?
 
 No. Racking is not a universal rule with one required schedule.

@@ -100,6 +100,8 @@ Blending wines from different years can help establish a consistent non-vintage 
 
 For the full production sequence, see [traditional-method sparkling wine](/traditional-method-sparkling-wine/) and [traditional-method sparkling wine production](/traditional-method-sparkling-wine-production/). This article uses those terms only as context rather than repeating the production process.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read a Champagne label
 
 Try this sequence:

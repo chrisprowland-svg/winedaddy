@@ -74,6 +74,8 @@ The legal definitions, category structure, production specifications, terminolog
 
 For Australian consumers, the safest interpretation is: DOC or DOCG tells you that an imported Italian wine belongs to a named, regulated origin designation. It does not tell you that the wine follows Australian GI rules or provide advice about Australian labelling compliance.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read an Italian DOC or DOCG label
 
 When you see DOC or DOCG in a bottle shop or restaurant, use it as one piece of information.

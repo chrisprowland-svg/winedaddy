@@ -98,6 +98,8 @@ Its sweetness and fragrance make it a natural partner for fruit desserts and oth
 
 There is no need to treat it as a wine reserved only for the end of a meal. It can be a relaxed aperitif-style choice when you want something fragrant, sweet and lightly sparkling.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read a Moscato d’Asti label in Australia
 
 Look for:

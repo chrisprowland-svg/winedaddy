@@ -73,6 +73,8 @@ It also does not identify where the grapes were grown. A geographical indication
 
 Nor is Reserve the same as vintage. A vintage identifies the harvest year when the relevant rules are met. Reserve may appear alongside a vintage, but it does not replace one.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read Reserve on an Australian bottle
 
 When you see Reserve in a bottle shop or restaurant, use it as one piece of information:
@@ -86,8 +88,6 @@ When you see Reserve in a bottle shop or restaurant, use it as one piece of info
 7. **Seek the producer’s explanation.** Treat it as a specific claim, not as a meaning supplied by the word alone.
 
 A useful mental shortcut is: **Reserve may tell you that the producer wants distinction; the rest of the label should tell you what that distinction is.**
-
-[Visual: VIS-009 — Generic annotated wine-label callout. Show “Reserve” separately from vintage, variety, GI or region, alcohol and producer information. Add the caution: “Meaning varies by producer and country.”]
 
 ## Reserve and other wine terms
 

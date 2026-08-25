@@ -80,6 +80,8 @@ So, “Douro” does not mean “Port”, and not every wine from the Douro regi
 
 For a broader explanation of the category, see [what fortified wine means](/what-is-fortified-wine/) and [how fortification works](/fortification/). For the fuller story of Port, read [what Port is](/port/).
 
+<!-- VISUAL:VIS-009 -->
+
 ## What should Australians look for on a label?
 
 Australian readers may encounter Douro in two related but distinct ways:

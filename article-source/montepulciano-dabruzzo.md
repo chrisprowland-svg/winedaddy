@@ -74,6 +74,8 @@ That means a bottle labelled Montepulciano d’Abruzzo is not necessarily made f
 
 This is different from the Tuscan town of Montepulciano. Vino Nobile di Montepulciano and Rosso di Montepulciano are separate Tuscan designations, associated principally with Sangiovese under local naming conventions. They are not Montepulciano d’Abruzzo.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How should Australians read the label?
 
 Imported Italian labels may use terms that are less familiar than Australian regional labelling. Start with the full name:

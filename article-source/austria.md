@@ -124,6 +124,8 @@ For a broader introduction, see [what sweet wine means](/what-is-sweet-wine/).
 
 Austria also produces regulated sparkling wine under the **Sekt Austria** framework. This is another reminder that the country’s wine identity extends beyond still Grüner Veltliner and Riesling.
 
+<!-- VISUAL:VIS-009 -->
+
 ## How to read an Austrian wine label
 
 Austrian labels may combine grape variety, place of origin, quality category and regional designation. The most useful terms to recognise are:
