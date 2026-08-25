@@ -21,6 +21,8 @@ That description is a starting point, not a promise. A regional label cannot tel
 
 ## Where is the Murray–Darling wine region?
 
+<!-- VISUAL:VIS-018 -->
+
 The Murray Darling GI follows the Murray River landscape across the Victorian–New South Wales border. Mildura is the main regional centre and the easiest place for many readers to locate the region mentally. Merbein, Red Cliffs, Irymple, Wentworth, Buronga, Dareton, Robinvale, Euston and Balranald are useful orientation points around the broader wine-growing area.
 
 These towns help explain where the region is, but they should not be treated as interchangeable with the legal GI. The protected boundary is defined by Wine Australia’s official textual description. It is not simply a list of towns, the visible river corridor or the entire Murray–Darling Basin.
