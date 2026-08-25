@@ -33,6 +33,14 @@ For example, Australian wine education describes dry Riesling as capable of havi
 
 This is why **fruitiness and sweetness are different things**. A wine may smell intensely fruity but taste dry on the palate.
 
+<figure class="learning-visual" id="vis-002">
+  <picture>
+    <source media="(max-width: 600px)" srcset="/assets/visuals/vis-002-dry-does-not-mean-flavourless-mobile.svg">
+    <img src="/assets/visuals/vis-002-dry-does-not-mean-flavourless.svg" alt="Two independent scales show that a wine can have little perceptible sweetness while still having intense fruit aromas and flavours.">
+  </picture>
+  <figcaption><strong>Dryness describes perceived sweetness; fruitiness describes aroma and flavour.</strong> A wine can be dry and intensely fruity at the same time.</figcaption>
+</figure>
+
 ## Dry is not the same as acidic, tannic or full-bodied
 
 These terms describe different parts of the wine experience:
