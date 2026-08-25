@@ -7,8 +7,9 @@ Scope: 47 live WDOS visual concepts and 452 published Learn pages
 
 - 47 active visual concepts are registered in WDOS.
 - VIS-002 and VIS-009 were already implemented as semantic HTML/CSS on the website.
-- This branch implements eight further reusable HTML/CSS components: VIS-003, VIS-005, VIS-006, VIS-008, VIS-013, VIS-014, VIS-021 and VIS-023.
-- After this batch, 10 concepts have website implementations and 37 remain.
+- The first batch implemented eight further reusable HTML/CSS components: VIS-003, VIS-005, VIS-006, VIS-008, VIS-013, VIS-014, VIS-021 and VIS-023.
+- The second batch implements VIS-022, VIS-028, VIS-029, VIS-030, VIS-032, VIS-033, VIS-042 and VIS-044.
+- After the second batch, 18 concepts have website implementations and 29 remain.
 - The eight-component batch represents 98 registered article requests before deduplication.
 - No raster image is required for these components. Their text remains indexable, selectable, responsive and accessible.
 
@@ -29,9 +30,13 @@ Scope: 47 live WDOS visual concepts and 452 published Learn pages
 
 The first placement is the design and factual canary. Reuse across other registered pages should follow after preview approval, using contextual placement rather than blind bulk insertion.
 
-### Semantic HTML/CSS — remaining 20
+### Semantic HTML/CSS — implemented in batch 2
 
-VIS-001, VIS-010, VIS-011, VIS-012, VIS-016, VIS-022, VIS-026, VIS-027, VIS-028, VIS-029, VIS-030, VIS-032, VIS-033, VIS-035, VIS-036, VIS-037, VIS-039, VIS-041, VIS-042 and VIS-044.
+VIS-022, VIS-028, VIS-029, VIS-030, VIS-032, VIS-033, VIS-042 and VIS-044.
+
+### Semantic HTML/CSS — remaining 12
+
+VIS-001, VIS-010, VIS-011, VIS-012, VIS-016, VIS-026, VIS-027, VIS-035, VIS-036, VIS-037, VIS-039 and VIS-041.
 
 These collapse into shared component families: profile/spectrum, comparison, process flow, anatomy, relationship hierarchy and production pathway.
 
@@ -53,6 +58,6 @@ The WDOS registry should be reconciled after the website preview is approved so 
 
 1. Review these eight components together on desktop and mobile.
 2. Roll approved components into their contextually suitable registered pages.
-3. Produce the remaining high-value semantic families, led by VIS-022, VIS-033, VIS-028/029 and VIS-042.
+3. Produce the remaining semantic families, led by VIS-001, VIS-011/012, VIS-026 and VIS-035/036.
 4. Build the governed base-map system, then produce the 17 maps from verified geographic sources.
 5. Retire or merge a concept only after confirming that its learning objective is fully covered by another canonical component.
