@@ -21,6 +21,8 @@ The important distinction is **flavour contribution versus maturation function**
 
 ## What do first-fill and second-fill mean?
 
+<!-- VISUAL:VIS-029 -->
+
 **First-fill** usually means the first wine use of a new barrel. It is another practical way of referring to new oak in many cellar discussions.
 
 **Second-fill** means the barrel is being used for wine for the second time. It will normally have less readily extractable oak flavour than a new barrel, but it is not necessarily neutral.
