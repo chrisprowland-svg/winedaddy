@@ -20,6 +20,8 @@ The name is descriptive, not a guarantee of one recipe. Orange wines can be dry 
 
 ## How is orange wine made?
 
+<!-- VISUAL:VIS-032 -->
+
 The process begins with white grapes. They may be crushed, destemmed, left partly or wholly in bunches, or pressed before fermentation.
 
 For a conventional white wine, the juice is usually separated from the skins early. With orange wine, some or all of the grape solids remain in contact with the juice for longer. Fermentation may occur on the skins, with seeds and sometimes stems present. The wine may then be pressed during fermentation, once fermentation is complete, or after a longer period of maceration.
