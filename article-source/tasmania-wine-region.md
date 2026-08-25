@@ -21,6 +21,8 @@ If you are choosing a bottle, start with the variety and style, then consider th
 
 ## Tasmania is one wine GI with several growing areas
 
+<!-- VISUAL:VIS-007 -->
+
 Tasmania is an Australian wine Geographical Indication, or GI. Wine Australia entered the Tasmania GI in the Register of Protected Names on 26 January 1994.
 
 A GI identifies geographic origin under Australian wine-labelling rules. It does not guarantee one grape variety, flavour profile, sweetness level, quality level or winemaking method.
