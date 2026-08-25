@@ -12,6 +12,8 @@
 
 ## Quick answer: are Zinfandel and Primitivo the same grape?
 
+<!-- VISUAL:VIS-010 -->
+
 Yes. **Zinfandel and Primitivo are regional names for the same dark-skinned wine grape, a variety of *Vitis vinifera*.** Genetic research also connects the variety with Croatian names including Crljenak kaštelanski and Tribidrag.
 
 The different names reflect wine history and regional convention. California commonly uses **Zinfandel**, while southern Italy—especially Puglia—commonly uses **Primitivo**. That does not mean the wines are identical. Climate, vineyard site, vine selection, ripeness, yield and winemaking can all change the finished wine.

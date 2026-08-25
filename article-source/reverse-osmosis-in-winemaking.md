@@ -19,6 +19,8 @@ The important point is that reverse osmosis is not simply “extra-fine filtrati
 
 ## How does the process work?
 
+<!-- VISUAL:VIS-036 -->
+
 A wine or must stream enters a membrane-treatment system. Pressure is applied so that part of the liquid moves across the membrane.
 
 A **semi-permeable membrane** is a selective barrier. Some molecules or components pass through it more readily than others. The liquid that crosses is the permeate; the liquid left behind is the retentate, which is often more concentrated in the components the membrane has retained.

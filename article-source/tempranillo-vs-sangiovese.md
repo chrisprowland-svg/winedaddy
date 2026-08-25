@@ -43,6 +43,8 @@ Floral and savoury notes may include violet, dried herbs, earth, tea, tobacco an
 
 ## Side-by-side comparison
 
+<!-- VISUAL:VIS-027 -->
+
 | Feature | Tempranillo | Sangiovese |
 |---|---|---|
 | Classic association | Spain, including Rioja and Ribera del Duero | Central Italy, especially Tuscany |

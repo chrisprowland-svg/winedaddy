@@ -41,6 +41,8 @@ These are broad orientations rather than substitutes for individual regional gui
 
 ## How do the Andes, ocean and climate affect Chilean wine?
 
+<!-- VISUAL:VIS-037 -->
+
 Central Chile commonly has a Mediterranean-type climate, with much of its rainfall concentrated in winter and relatively dry summers. This helps explain why water management and irrigation can be important, but “dry summer” does not mean every vineyard is dry-farmed or experiences the same conditions.
 
 The Andes influence elevation, temperature, snow-fed water systems and the shape of inland valleys. Higher sites may be cooler, but elevation alone does not determine a wine’s flavour. Slope, aspect, wind and vineyard management matter too.

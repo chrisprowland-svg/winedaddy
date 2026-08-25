@@ -30,6 +30,8 @@ For a beginner-friendly introduction to grape varieties, visit the [WineDaddy gr
 
 ## What does Cabernet Sauvignon taste like?
 
+<!-- VISUAL:VIS-001 -->
+
 Cabernet Sauvignon commonly has a combination of dark fruit, structure and freshness.
 
 ### Fruit and aroma

@@ -29,6 +29,8 @@ A clone is one part of that equation, not the whole answer.
 
 ## Clone, Variety and Rootstock: What’s the Difference?
 
+<!-- VISUAL:VIS-011 -->
+
 These terms describe different parts of a grapevine.
 
 | Term | Meaning |

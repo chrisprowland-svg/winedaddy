@@ -12,6 +12,8 @@
 
 ## Quick answer: how is Icewine made?
 
+<!-- VISUAL:VIS-039 -->
+
 Icewine production begins when grapes are deliberately left on the vine beyond the normal harvest period. The aim is to wait for a suitable natural freeze while keeping enough fruit healthy for winemaking.
 
 When the grapes freeze naturally, they are harvested and pressed while frozen. Ice crystals retain much of the berry’s water, while the remaining liquid juice contains a higher concentration of dissolved sugar and other grape compounds. The result is a smaller volume of concentrated juice.

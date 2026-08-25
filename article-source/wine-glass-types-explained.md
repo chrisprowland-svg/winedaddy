@@ -21,6 +21,8 @@ The right glass is the one that suits your wine, your home and the way you actua
 
 ## What are the parts of a wine glass?
 
+<!-- VISUAL:VIS-012 -->
+
 A wine glass has four useful parts:
 
 - **Bowl:** Holds the wine. Its size and shape affect swirling and the air space above the wine.
