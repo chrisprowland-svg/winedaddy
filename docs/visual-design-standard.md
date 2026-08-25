@@ -6,12 +6,14 @@ Version 1.0 — educational diagram canary
 
 WineDaddy visuals exist to make wine easier to understand. They are learning components, not decoration, advertising or social-media filler.
 
-## Canonical canvas
+## Canonical format
 
-- Master website canvas: 1200 × 675 px (16:9).
-- Mobile display: use a dedicated stacked composition when scaling the desktop master would make any text smaller than the equivalent of 16 CSS px.
-- Safe area: 64 px on desktop; 48 px minimum around core content.
-- Export: SVG for the website. PNG may be generated at 1200 × 675 and 2400 × 1350 for platforms that cannot use SVG.
+- Comparisons, spectra, tables, timelines and simple processes are semantic HTML/CSS components on the website.
+- Maps and complex technical illustrations use accessible SVG when HTML would not express the relationships cleanly.
+- Photography uses an appropriately compressed modern raster format.
+- Every reusable component may have a 1200 × 675 SVG or PNG derivative for Canva, social sharing and image discovery; the derivative is not the canonical article content.
+- Components must reflow responsively. Do not shrink desktop text below 16 CSS px on mobile.
+- Export derivatives use a 64 px desktop safe area and retain equivalent captions or alt text.
 
 ## Layout
 
@@ -48,7 +50,7 @@ Colour must never be the only carrier of meaning. Every coloured state requires 
 ## Accessibility
 
 - Meet WCAG AA contrast for text and essential graphics.
-- Keep essential explanatory text in the article HTML as well as the SVG.
+- Keep essential explanatory information in semantic article HTML. Image derivatives must not be the only source of that information.
 - Every visual requires concise alt text and an optional longer caption.
 - The image must remain understandable when printed in greyscale.
 - Do not encode meaning using red/green contrast.
