@@ -19,13 +19,18 @@ test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-999'), false);
 });
 
-test('renders Australian map batch with accessible SVG and boundary disclaimer', () => {
+test('renders Australian map batch with accessible SVG and appropriate boundary disclosure', () => {
   for (const id of ['VIS-004','VIS-007','VIS-015','VIS-017','VIS-018','VIS-019','VIS-020','VIS-025']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, /<svg[^>]+role="img"/);
     assert.match(html, /<title/);
     assert.match(html, /<desc/);
-    assert.match(html, /not a legal boundary map/i);
+    if (id === 'VIS-007') {
+      assert.match(html, /Wine Australia’s spatial translation/);
+      assert.match(html, /textual GI description remains the legal definition/);
+    } else {
+      assert.match(html, /not a legal boundary map/i);
+    }
   }
 });
 
