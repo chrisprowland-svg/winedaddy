@@ -21,6 +21,8 @@ Shiraz has the strongest regional association, while Chardonnay, Chenin Blanc an
 
 ## Where is Peel in Western Australia?
 
+<!-- VISUAL:VIS-020 -->
+
 Peel is south of Perth, between several better-known Western Australian wine regions. It adjoins or sits near the separate GIs of Perth Hills and Swan District to the north and Geographe to the south. Margaret River is farther south-west and is also a separate GI.
 
 For a simple mental map, think of Peel as a broad area running from the coast near Port Kennedy and Preston Beach into the inland country around the Darling Range and towards Boddington and Williams. Byford, Pinjarra, Waroona, Dwellingup and Boddington can help with general orientation, but they should not be treated as defining the whole GI.
