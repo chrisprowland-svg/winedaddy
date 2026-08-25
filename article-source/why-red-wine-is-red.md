@@ -27,6 +27,8 @@ This is why a red grape does not automatically produce red wine. If its juice is
 
 ## How colour moves into the wine
 
+<!-- VISUAL:VIS-022 -->
+
 The process begins when grapes are crushed. Crushing releases juice and breaks some of the grape structure, allowing the liquid to come into contact with skins, seeds and sometimes stems.
 
 The next stage is often called **maceration**. This is the contact between juice or fermenting wine and grape solids. During maceration, compounds move from the skins and seeds into the liquid. This movement is called **extraction**.

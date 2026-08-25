@@ -26,6 +26,8 @@ For the usual starting point, see [how wine is made](/how-wine-is-made/), [what 
 
 ## The main stages of dealcoholised wine production
 
+<!-- VISUAL:VIS-044 -->
+
 ### 1. Making a fermented wine base
 
 Grapes are harvested and processed into must or juice. Yeast then converts grape sugars into ethanol and carbon dioxide, creating a fermented wine base.

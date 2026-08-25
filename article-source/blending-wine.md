@@ -84,6 +84,8 @@ Blending does not always happen immediately before bottling, and it does not alw
 
 ## Blending is not the same as co-fermentation or a field blend
 
+<!-- VISUAL:VIS-042 -->
+
 These terms describe different points at which components come together.
 
 - **Blending:** separately made or matured wine components are combined.

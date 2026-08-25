@@ -40,6 +40,8 @@ This does not mean American oak is automatically heavy or powerful. Its effect d
 
 ## French oak vs American oak: a practical comparison
 
+<!-- VISUAL:VIS-028 -->
+
 | | French oak | American oak |
 |---|---|---|
 | Common species | *Quercus petraea* and *Quercus robur* | Principally *Quercus alba* |

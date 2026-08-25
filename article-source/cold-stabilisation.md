@@ -28,6 +28,8 @@ The process is similar to dissolved sugar forming crystals when a solution can n
 
 ## How does cold stabilisation work?
 
+<!-- VISUAL:VIS-030 -->
+
 The broad process has four stages:
 
 1. **Cooling:** the bulk wine is chilled to encourage unstable tartrate compounds to come out of solution.

@@ -15,8 +15,18 @@ test('rejects an unregistered visual reference', () => {
 
 test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-009'), true);
-  for (const id of ['VIS-003','VIS-005','VIS-006','VIS-008','VIS-013','VIS-014','VIS-021','VIS-023']) assert.equal(hasVisualComponent(id), true);
+  for (const id of ['VIS-003','VIS-005','VIS-006','VIS-008','VIS-013','VIS-014','VIS-021','VIS-022','VIS-023','VIS-028','VIS-029','VIS-030','VIS-032','VIS-033','VIS-042','VIS-044']) assert.equal(hasVisualComponent(id), true);
   assert.equal(hasVisualComponent('VIS-999'), false);
+});
+
+test('renders every second-batch component as accessible semantic HTML', () => {
+  for (const id of ['VIS-022','VIS-028','VIS-029','VIS-030','VIS-032','VIS-033','VIS-042','VIS-044']) {
+    const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
+    assert.match(html, new RegExp(`id="${id.toLowerCase()}"`));
+    assert.match(html, /aria-labelledby=/);
+    assert.match(html, /<figcaption>/);
+    assert.doesNotMatch(html, /<img\b/);
+  }
 });
 
 test('renders every first-batch component as accessible semantic HTML', () => {

@@ -24,6 +24,8 @@ That bottle-based second fermentation is the defining idea. The rest of the proc
 
 ## How the traditional method works
 
+<!-- VISUAL:VIS-033 -->
+
 ### 1. A still base wine is made
 
 Grapes are pressed and the juice is fermented into a still wine. This base wine is often made with freshness and balance in mind, because it will later undergo another fermentation.
