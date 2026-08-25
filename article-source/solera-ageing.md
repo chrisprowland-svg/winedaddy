@@ -24,6 +24,8 @@ That is the central idea: **solera ageing is about an ongoing movement of wine t
 
 ## How does a solera system work?
 
+<!-- VISUAL:VIS-035 -->
+
 The younger tiers are commonly called *criaderas*. The oldest or final tier is called the *solera*. Some sources use “solera” narrowly for this oldest tier; others use it more broadly for the whole arrangement. “Solera system” is the clearest term when referring to the complete process.
 
 Imagine four rows of vessels:
