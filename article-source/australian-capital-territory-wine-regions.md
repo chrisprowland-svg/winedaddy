@@ -22,6 +22,8 @@ The regional wine styles most strongly associated with Canberra District include
 
 For the detailed boundary and regional history, read the [detailed Canberra District wine-region guide](/canberra-district-wine-region/). This page explains the broader ACT relationship.
 
+<!-- VISUAL:VIS-053 -->
+
 ## Where is the ACT wine area?
 
 The Australian Capital Territory is a small, landlocked territory in southeastern Australia, surrounded by New South Wales. Canberra is both the territory’s principal city and the most useful regional centre for understanding its wine geography.
