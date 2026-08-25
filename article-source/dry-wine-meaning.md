@@ -34,10 +34,28 @@ For example, Australian wine education describes dry Riesling as capable of havi
 This is why **fruitiness and sweetness are different things**. A wine may smell intensely fruity but taste dry on the palate.
 
 <figure class="learning-visual" id="vis-002">
-  <picture>
-    <source media="(max-width: 600px)" srcset="/assets/visuals/vis-002-dry-does-not-mean-flavourless-mobile.svg">
-    <img src="/assets/visuals/vis-002-dry-does-not-mean-flavourless.svg" alt="Two independent scales show that a wine can have little perceptible sweetness while still having intense fruit aromas and flavours.">
-  </picture>
+  <div class="wd-explainer" role="group" aria-labelledby="vis-002-title" aria-describedby="vis-002-summary">
+    <p class="wd-explainer__eyebrow">WineDaddy quick explainer</p>
+    <p class="wd-explainer__title" id="vis-002-title">Dry does not mean flavourless.</p>
+    <p class="wd-explainer__intro">Dryness and fruit flavour describe different parts of the wine experience.</p>
+    <div class="wd-explainer__scales">
+      <section class="wd-scale wd-scale--dryness" aria-labelledby="vis-002-dryness">
+        <p class="wd-scale__title" id="vis-002-dryness">Dryness</p>
+        <p class="wd-scale__question">How much sweetness do you perceive?</p>
+        <div class="wd-scale__track" aria-hidden="true"><span class="wd-scale__marker"></span></div>
+        <div class="wd-scale__ends"><strong>Dry</strong><strong>Sweet</strong></div>
+        <p class="wd-scale__reading">Little perceptible sweetness</p>
+      </section>
+      <section class="wd-scale wd-scale--fruit" aria-labelledby="vis-002-fruit">
+        <p class="wd-scale__title" id="vis-002-fruit">Fruit flavour</p>
+        <p class="wd-scale__question">How strongly do fruit aromas and flavours show?</p>
+        <div class="wd-scale__track" aria-hidden="true"><span class="wd-scale__marker"></span></div>
+        <div class="wd-scale__ends"><strong>Subtle</strong><strong>Intense</strong></div>
+        <p class="wd-scale__reading">Pronounced fruit character</p>
+      </section>
+    </div>
+    <p class="wd-explainer__summary" id="vis-002-summary"><span>Both can be true</span><strong>A wine can be dry and intensely fruity.</strong></p>
+  </div>
   <figcaption><strong>Dryness describes perceived sweetness; fruitiness describes aroma and flavour.</strong> A wine can be dry and intensely fruity at the same time.</figcaption>
 </figure>
 
