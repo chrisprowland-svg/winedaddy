@@ -20,7 +20,12 @@ test('reports registered visual components', () => {
 });
 
 test('renders national and state overview maps from registered official geometry', () => {
-  for (const id of ['VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) {
+  const national = renderVisualComponents('<!-- VISUAL:VIS-048 -->');
+  assert.match(national, /wd-map__state-boundary/);
+  assert.match(national, /wd-map__wine-region/);
+  assert.match(national, />NT</);
+  assert.match(national, />ACT</);
+  for (const id of ['VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, /<svg[^>]+role="img"/);
     assert.match(html, /wd-map__official-boundary/);
