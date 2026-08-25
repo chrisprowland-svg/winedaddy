@@ -20,6 +20,8 @@ Lees stirring is often used during **lees ageing**, particularly in white-wine p
 
 ## How does lees stirring work?
 
+<!-- VISUAL:VIS-026 -->
+
 Once sediment has settled, the winemaker gently resuspends it in the wine. This might involve stirring a barrel with a suitable tool, rolling the barrel, or using an appropriate mixing method in a tank.
 
 The lees then circulate through the wine before settling again. The action may be repeated, stopped or combined with other lees-management decisions. There is no universal schedule that applies to every wine. The choice depends on the wine’s condition, the amount and type of lees, the vessel, the intended style and the winemaker’s management of oxygen.
