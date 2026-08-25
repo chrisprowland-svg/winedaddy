@@ -22,6 +22,8 @@ That does not mean Queensland wine activity exists only in those two areas. Wine
 
 Granite Belt and South Burnett also differ markedly. Granite Belt sits high on the Great Dividing Range near Stanthorpe, while South Burnett has a warmer subtropical setting north-west of Brisbane. Those differences help explain why Queensland wines do not share one single style.
 
+<!-- VISUAL:VIS-052 -->
+
 ## Where are Queensland’s wine regions?
 
 Queensland is the state-level wine geography. Brisbane is the most useful major-city reference point for visitors, although the state’s wine areas are spread across south-eastern Queensland rather than gathered around one city.
