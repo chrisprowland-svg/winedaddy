@@ -22,7 +22,8 @@ test('reports registered visual components', () => {
 test('renders national and state overview maps from registered official geometry', () => {
   const national = renderVisualComponents('<!-- VISUAL:VIS-048 -->');
   assert.match(national, /wd-map__state-boundary/);
-  assert.match(national, /wd-map__wine-region/);
+  assert.match(national, /wd-map__wine-marker/);
+  assert.match(national, /wd-map__city-marker/);
   assert.match(national, />NT</);
   assert.match(national, />ACT</);
   for (const id of ['VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) {
