@@ -23,6 +23,8 @@ Wine Australia’s GI register places NSW wine areas into larger geographic grou
 
 The practical lesson is simple: do not ask what “NSW wine” tastes like as though the state were a single vineyard. Instead, ask which NSW region the wine comes from and what that place suggests about its growing conditions.
 
+<!-- VISUAL:VIS-051 -->
+
 ## Where are New South Wales wine regions?
 
 New South Wales sits on Australia’s east coast. Its wine geography follows several broad patterns:
