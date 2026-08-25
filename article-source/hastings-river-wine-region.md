@@ -48,6 +48,8 @@ Wine Australia notes that drier vintages tend to be more favourable, particularl
 
 ## Elevation, soils and site variation
 
+<!-- VISUAL:VIS-016 -->
+
 Hastings River is not one uniform vineyard site. Its elevation range, gently hilly terrain and coastal-to-inland geography create meaningful differences between locations.
 
 Wine Australia documents a wide mix of soils, including:
