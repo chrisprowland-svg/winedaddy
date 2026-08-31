@@ -145,7 +145,10 @@ function internationalOrientationMap({id,country,title,intro,hierarchy,summary,p
   const data=internationalMapData[country];
   if(!data) throw new Error(`Missing international map data: ${country}`);
   const [minLon,minLat,maxLon,maxLat]=data.bbox;
-  const project=(lon,lat)=>[40+((lon-minLon)/(maxLon-minLon))*440,20+((maxLat-lat)/(maxLat-minLat))*320];
+  const mapWidth=440,mapHeight=320,mapPad=12;
+  const mapScale=Math.min((mapWidth-mapPad*2)/(maxLon-minLon),(mapHeight-mapPad*2)/(maxLat-minLat));
+  const mapOriginX=(mapWidth-(maxLon-minLon)*mapScale)/2,mapOriginY=(mapHeight-(maxLat-minLat)*mapScale)/2;
+  const project=(lon,lat)=>[40+mapOriginX+(lon-minLon)*mapScale,20+mapOriginY+(maxLat-lat)*mapScale];
   const countryPaths=data.paths.map(path=>`<path class="wd-map__country-stencil" d="${path}" transform="translate(40 20)"/>`).join('');
   const highlightPaths=(data.highlightPaths||[]).map(path=>`<path class="wd-map__country-highlight" d="${path}" transform="translate(40 20)"/>`).join('');
   const linkHtml=links.map(link=>{
