@@ -22,6 +22,8 @@ That does not mean every New Zealand wine tastes the same. A Sauvignon Blanc fro
 
 ## Where is New Zealand wine made?
 
+<!-- VISUAL:VIS-038 -->
+
 New Zealand’s two main islands run broadly north-east to south-west in the South Pacific. The South Island is more mountainous, with the Southern Alps running along much of its length. These ranges help divide wetter western areas from drier eastern areas.
 
 New Zealand Wine identifies ten main wine-growing regions:

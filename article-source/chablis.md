@@ -22,6 +22,8 @@ The Chablis appellation has four recognised levels: Petit Chablis, Chablis, Chab
 
 ## Where is Chablis?
 
+<!-- VISUAL:VIS-045 -->
+
 Chablis is in France, within the wider wine region of Burgundy. More specifically, it is in northern Burgundy’s Yonne department, centred on the town of Chablis and near the regional centre of Auxerre.
 
 For a simple mental map, think:

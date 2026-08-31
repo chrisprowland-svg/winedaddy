@@ -22,6 +22,8 @@ For an Australian drinker, the simplest starting point is this: learn Tuscany th
 
 ## Where is Tuscany?
 
+<!-- VISUAL:VIS-024 -->
+
 Tuscany is an administrative region of central Italy on the country’s western side. It includes inland hills and valleys, northern areas influenced by the Apennines, central hill districts and the coastal Maremma.
 
 Florence is a useful general reference point, while Siena helps orientate the central and southern wine areas. San Gimignano is associated with Vernaccia di San Gimignano; Montalcino with Brunello di Montalcino; and Montepulciano with Vino Nobile di Montepulciano.

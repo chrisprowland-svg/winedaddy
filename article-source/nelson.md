@@ -16,6 +16,8 @@ For Australian wine learners, the key point is simple: **Nelson is in New Zealan
 
 ## Where is Nelson?
 
+<!-- VISUAL:VIS-038 -->
+
 Nelson is at the top of New Zealand’s South Island, west of Marlborough and across Cook Strait from Wellington. Nelson City is the most recognisable nearby centre, while Richmond and the wider Waimea area are useful reference points for the eastern side of the region. Moutere and Upper Moutere help orientate the western growing areas.
 
 For an Australian comparison, Wellington is the most useful major-city reference. Reaching Nelson from Wellington involves the Cook Strait ferry and road travel from Picton; the journey is roughly five to six hours before allowing for ferry check-in, sailing conditions, traffic or delays. That is an orientation estimate, not a promise of travel time.

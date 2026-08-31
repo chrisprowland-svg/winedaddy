@@ -26,6 +26,8 @@ A Portuguese label may show a regional name, a grape variety, a traditional styl
 
 ## Portugal’s wine geography
 
+<!-- VISUAL:VIS-046 -->
+
 Portugal’s broad wine geography can be understood in four parts.
 
 The **northwest** is strongly influenced by the Atlantic and includes Vinho Verde. This area is generally associated with fresh, high-acid wines.

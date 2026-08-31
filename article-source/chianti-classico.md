@@ -21,6 +21,8 @@ The wines are centred on Sangiovese, Italy’s important red grape. In the glass
 
 ## Where is Chianti Classico?
 
+<!-- VISUAL:VIS-024 -->
+
 Chianti Classico is in Tuscany, within Italy. Florence is the most useful major-city reference point for many Australian readers, while Siena is an important reference for the southern part of the appellation. The area generally lies south of Florence and north of Siena.
 
 Familiar localities associated with the defined area include Greve in Chianti, San Casciano in Val di Pesa, Barberino Tavarnelle, Castellina in Chianti, Radda in Chianti, Gaiole in Chianti and Castelnuovo Berardenga. Relevant parts of Poggibonsi are also included.

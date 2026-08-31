@@ -21,6 +21,8 @@ For an Australian drinker, the practical approach is simple: read the combinatio
 
 ## Where is Puglia?
 
+<!-- VISUAL:VIS-024 -->
+
 Puglia is Italy’s south-eastern region and forms much of the country’s familiar heel shape. It borders Molise to the north, Campania to the west and Basilicata to the south-west. The Adriatic lies to the east, while the Ionian Sea influences the southern and south-western coastline.
 
 Bari is the region’s capital and the most useful single orientation point for a general introduction. Foggia helps orient the north; Taranto is useful for the Ionian side; Brindisi and Lecce are important southern reference cities. Manduria is associated with Primitivo di Manduria, while Gioia del Colle, Locorotondo and Martina Franca help locate central inland wine areas. These towns are useful geographic markers, but a town name is not automatically the same thing as a wine denomination.

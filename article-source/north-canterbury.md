@@ -16,6 +16,8 @@ For an Australian wine learner, the key idea is simple: **North Canterbury on a 
 
 ## Where is North Canterbury?
 
+<!-- VISUAL:VIS-038 -->
+
 North Canterbury is in the eastern part of New Zealand’s South Island. The region lies between the Southern Alps and the Pacific Ocean, with wine areas associated with the Canterbury Plains, Waipara and Omihi valleys, Waikari, Weka Pass, Banks Peninsula and areas around Cheviot.
 
 Christchurch is the nearest major city and the most useful starting point for orientation. Waipara is approximately one hour’s drive north of Christchurch, although the exact time depends on the route, traffic, road conditions and starting point. Amberley and Cheviot are familiar towns in the wider area, but neither town is itself the name of the North Canterbury wine GI.

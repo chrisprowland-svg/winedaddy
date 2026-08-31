@@ -22,6 +22,8 @@ The most useful idea to remember is this: **Jerez explains where the wine comes 
 
 ## Where is Jerez?
 
+<!-- VISUAL:VIS-043 -->
+
 Jerez is in Andalusia, in the province of Cádiz, in southern Spain. The production zone includes:
 
 - Jerez de la Frontera

@@ -27,6 +27,8 @@ Montalcino’s principal protected wine names include Brunello di Montalcino DOC
 
 ## Where is Montalcino?
 
+<!-- VISUAL:VIS-024 -->
+
 Montalcino is in **Italy → Tuscany → Province of Siena**. Its main wine-producing territory is closely associated with the historic municipal boundary of Montalcino, rather than with every vineyard or wine in the wider Tuscan landscape.
 
 For a broad visual orientation, Montalcino is in southern Tuscany, south of Siena. It is also associated with the Val d’Orcia landscape, and with the valleys of the Orcia, Asso and Ombrone rivers. Val d’Orcia is useful geographical context, but it should not be treated as another name for the Montalcino wine denomination. A wine from the wider Val d’Orcia area does not automatically qualify to use a Montalcino protected name.

@@ -16,6 +16,8 @@ Lambrusco is strongly associated with western and central Emilia. Romagna is esp
 
 ## Where is Emilia-Romagna?
 
+<!-- VISUAL:VIS-024 -->
+
 Emilia-Romagna sits in northern Italy, between the Po River to the north, the Apennines to the south and the Adriatic Sea to the east. It borders Lombardy, Veneto, Piedmont, Liguria, Tuscany and Marche. San Marino adjoins its southeastern side.
 
 Bologna is roughly central to the region and is the most useful orientation point for an Australian reader. Modena lies to its west, while Ravenna, Forlì, Cesena and Rimini extend the region towards the Adriatic. From Bologna, the central Lambrusco areas around Modena are roughly a 40–60-minute drive, while Rimini is approximately 1 hour 20 minutes to 1 hour 45 minutes away, depending on the route and traffic. Treat these as broad orientation estimates, not fixed travel promises.

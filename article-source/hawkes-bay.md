@@ -16,6 +16,8 @@ Its regional identity comes from variety rather than one fixed style. Chardonnay
 
 ## Where is Hawke’s Bay?
 
+<!-- VISUAL:VIS-038 -->
+
 Hawke’s Bay sits on the eastern side of New Zealand’s North Island, roughly north-east of Wellington. Napier is the main coastal city and a useful regional centre; Hastings lies inland near the Heretaunga Plains and the largest concentration of vineyards. Havelock North is a nearby wine-country locality.
 
 These towns help you understand the map, but they are not interchangeable with the Hawke’s Bay wine GI. The wider Hawke’s Bay area also includes places such as Wairoa and Central Hawke’s Bay, so the administrative region and the wine region should not be treated as exactly the same thing.

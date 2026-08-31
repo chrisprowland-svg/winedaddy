@@ -26,6 +26,8 @@ Veneto also helps explain an important Italian wine idea: one appellation can co
 
 ## Where is Veneto?
 
+<!-- VISUAL:VIS-024 -->
+
 Veneto is an administrative region of Italy in the country’s north-east. Venice is its regional capital and the most familiar broad orientation point for many Australian readers. Verona is a useful wine-centre reference, particularly for Soave and Valpolicella. Treviso is another useful name when thinking about eastern Veneto and Prosecco.
 
 Veneto is approximately 120–130 kilometres west of Venice, with a drive commonly taking around 1¼–1¾ hours to Verona, depending on the route, traffic and starting point. Treat that as general orientation, not a precise travel promise. Veneto is large enough that the same journey does not represent its Alpine, eastern or coastal wine areas.

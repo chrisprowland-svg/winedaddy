@@ -24,6 +24,8 @@ For an Australian learner, the most important connection is simple: **Syrah and 
 
 ## Where is Northern Rhône?
 
+<!-- VISUAL:VIS-040 -->
+
 Northern Rhône is in southeastern France. Lyon is the most useful major-city reference point, while Valence is a useful regional centre for the southern part of the area. Vienne, Condrieu, Ampuis, Tain-l’Hermitage and Tournon-sur-Rhône are helpful orientation points, although a town name is not automatically the legal name on a bottle.
 
 From Lyon to Valence is approximately 1 hour 15 minutes by the A7 in favourable conditions. Treat that as broad travel orientation, not a promise: traffic, route and starting point can change the journey.

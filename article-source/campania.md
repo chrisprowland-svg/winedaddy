@@ -22,6 +22,8 @@ For an Australian learner, the simplest mental model is: Campania is the large g
 
 ## Where is Campania?
 
+<!-- VISUAL:VIS-024 -->
+
 Campania is in south-western Italy, around Naples and the Gulf of Naples. It faces the Tyrrhenian Sea and includes the administrative areas of Naples, Avellino, Benevento, Caserta and Salerno.
 
 Naples is the most useful broad orientation point. Avellino is a useful inland reference for Irpinia, while Benevento helps orient readers to Sannio. Familiar localities and landmarks include Mount Vesuvius, Campi Flegrei, Tufo and Taurasi. A town appearing in a wine name does not, by itself, define the whole Campania region or explain the full boundary of an appellation.

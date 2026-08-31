@@ -17,6 +17,8 @@ It is especially associated with red wines made from Pinot Noir, but “Côte de
 
 ## Where is Côte de Nuits?
 
+<!-- VISUAL:VIS-034 -->
+
 The Côte de Nuits forms the northern section of Burgundy’s Côte-d’Or wine landscape. It begins close to Dijon and extends south towards Nuits-Saint-Georges, with Beaune beyond it.
 
 As a practical orientation, the northern Côte de Nuits is around 20–30 minutes’ drive south of central Dijon, while Nuits-Saint-Georges is roughly 35–45 minutes away. These are broad orientation estimates only: the distance changes depending on the village, route and traffic.
