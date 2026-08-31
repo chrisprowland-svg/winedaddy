@@ -26,6 +26,8 @@ That is a regional tendency, not a rule. Site, elevation, soil, variety, vintage
 
 ## Where is Canberra District?
 
+<!-- VISUAL:VIS-053 -->
+
 Canberra District surrounds Canberra and extends mainly north, north-west and east of the capital into adjoining New South Wales. Canberra is the nearest useful regional centre and the most practical starting point for understanding the region’s geography.
 
 For orientation only, Hall and ACT wine areas may be around 10 minutes by road from Canberra city centre. Murrumbateman is roughly 30 minutes north along the Barton Highway, while much of the wider district is within about an hour’s drive. These are approximate indications, not precise travel promises: the route, traffic, destination and starting point all matter.

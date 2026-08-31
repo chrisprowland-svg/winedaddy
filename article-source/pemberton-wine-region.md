@@ -21,6 +21,8 @@ The important qualification is that a regional tendency is not a rule. A bottle 
 
 ## Where is the Pemberton wine region?
 
+<!-- VISUAL:VIS-019 -->
+
 Pemberton is in south-west Western Australia, inland from the southern coast and within the state’s southern-forest landscape. The town of Pemberton is the most familiar reference point, while Manjimup is the nearest useful regional centre for many travellers.
 
 From Perth, Pemberton is roughly a **3 hour 45 minute to 4 hour drive by road**, depending on your starting point, route, traffic, stops and final destination. This is an orientation rather than a precise travel promise. Tourism Western Australia describes the journey from Perth to Manjimup as just under three and a half hours, with Pemberton approximately a further 25 minutes south.

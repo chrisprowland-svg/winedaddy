@@ -1,7 +1,7 @@
 # WineDaddy visual backlog audit
 
 Audit date: 25 August 2026  
-Scope: 47 live WDOS visual concepts and 452 published Learn pages
+Scope: 47 live WDOS visual concepts, six proposed hierarchy-map additions and 452 published Learn pages
 
 ## Current position
 
@@ -10,7 +10,10 @@ Scope: 47 live WDOS visual concepts and 452 published Learn pages
 - The first batch implemented eight further reusable HTML/CSS components: VIS-003, VIS-005, VIS-006, VIS-008, VIS-013, VIS-014, VIS-021 and VIS-023.
 - The second batch implements VIS-022, VIS-028, VIS-029, VIS-030, VIS-032, VIS-033, VIS-042 and VIS-044.
 - The third batch implements all 12 remaining semantic concepts: VIS-001, VIS-010, VIS-011, VIS-012, VIS-016, VIS-026, VIS-027, VIS-035, VIS-036, VIS-037, VIS-039 and VIS-041.
-- After the third batch, 30 concepts have website implementations and only 17 authoritative maps remain.
+- Map batch 1 implements eight Australian maps from Wine Australia GIS geometry: VIS-004, VIS-007, VIS-015, VIS-017, VIS-018, VIS-019, VIS-020 and VIS-025.
+- The hierarchy extension adds six governed overview maps: VIS-048 Australia, VIS-049 Western Australia, VIS-050 South Australia, VIS-051 New South Wales, VIS-052 Queensland and VIS-053 ACT/Canberra District.
+- The hierarchy now supports the learning path Australia → state or territory → regional GI.
+- After this extension, 44 concepts have website implementations and nine authoritative international maps remain.
 - The eight-component batch represents 98 registered article requests before deduplication.
 - No raster image is required for these components. Their text remains indexable, selectable, responsive and accessible.
 
@@ -41,9 +44,21 @@ VIS-001, VIS-010, VIS-011, VIS-012, VIS-016, VIS-026, VIS-027, VIS-035, VIS-036,
 
 These collapse into shared component families: profile/spectrum, comparison, process flow, anatomy, relationship hierarchy and production pathway.
 
-### Authoritative maps — remaining 17
+### Australian orientation maps — implemented in map batch 1
 
-VIS-004, VIS-007, VIS-015, VIS-017, VIS-018, VIS-019, VIS-020, VIS-024, VIS-025, VIS-031, VIS-034, VIS-038, VIS-040, VIS-043, VIS-045, VIS-046 and VIS-047.
+VIS-004, VIS-007, VIS-015, VIS-017, VIS-018, VIS-019, VIS-020 and VIS-025.
+
+These are responsive SVG maps generated from Wine Australia Open Data Hub geometry, with textual-GI legal-definition disclosures and distinct city/local reference markers.
+
+### Australian hierarchy maps — implemented in the hierarchy extension
+
+VIS-048, VIS-049, VIS-050, VIS-051, VIS-052 and VIS-053.
+
+These components are placed on existing overview articles; no article-generation rerun is required. Tasmania already serves as both a state overview and a single regional GI, while VIS-025 serves the Victorian overview.
+
+### Authoritative maps — remaining 9
+
+VIS-024, VIS-031, VIS-034, VIS-038, VIS-040, VIS-043, VIS-045, VIS-046 and VIS-047.
 
 Maps remain separate because they require verified geographic data, source attribution and an explicit boundary/orientation treatment. They must not be generated from prose or AI artwork.
 
@@ -53,11 +68,11 @@ Maps remain separate because they require verified geographic data, source attri
 - WDOS registry: VIS-009 has a published component specification; VIS-002 is still recorded only as a proposed asset.
 - Both legacy assets still have incomplete registry metadata such as canonical alt text and file/component locations.
 
-The WDOS registry should be reconciled after the website preview is approved so its status reflects all 10 implemented components. This is a metadata update only; it must not be used to imply that all registered reuse placements have already been reviewed.
+The WDOS registry should be reconciled after the website preview is approved so its status reflects all implemented components and maps. This is a metadata update only; it must not be used to imply that all registered reuse placements have already been reviewed.
 
 ## Production order after this batch
 
-1. Review these eight components together on desktop and mobile.
+1. Review the national, state and regional Australian map hierarchy on desktop and mobile.
 2. Roll approved components into their contextually suitable registered pages.
-3. Build the governed base-map system, then produce the 17 maps from verified geographic sources.
-5. Retire or merge a concept only after confirming that its learning objective is fully covered by another canonical component.
+3. Produce the nine remaining international maps from authoritative geographic sources.
+4. Retire or merge a concept only after confirming that its learning objective is fully covered by another canonical component.

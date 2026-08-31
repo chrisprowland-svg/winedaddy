@@ -28,6 +28,8 @@ For a wider view of Australian wine regions, see WineDaddy’s [Australian wine 
 
 ## Where is Adelaide Hills?
 
+<!-- VISUAL:VIS-004 -->
+
 Adelaide Hills lies in the Mount Lofty Ranges, east and south-east of Adelaide. Localities associated with the region include Crafers, Summertown, Piccadilly, Carey Gully, Lenswood, Balhannah, Woodside and Macclesfield.
 
 The landscape is notably hilly, with valleys and smaller valleys creating different local growing conditions. Wine Australia reports an elevation range of approximately 149 to 714 metres across the GI. That is the elevation range of the defined region as a whole—not a claim that every vineyard sits at both extremes, or that all vines occupy the entire range.

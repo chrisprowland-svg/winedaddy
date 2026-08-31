@@ -18,6 +18,8 @@ These are broad patterns, not rules. A region’s wines are also shaped by eleva
 
 ## Where are Victoria’s wine regions?
 
+<!-- VISUAL:VIS-025 -->
+
 Victoria is in south-eastern Australia, with Melbourne the most useful major-city reference point. Its wine regions spread east, west, north and south of the city, reaching the Murray country in the north-west and the Alpine districts in the north-east.
 
 There is no single useful driving time for “Victoria’s wine regions”. A trip from Melbourne to the Yarra Valley is a different journey from a trip to Rutherglen, the Grampians or Swan Hill. Driving times are best considered on individual regional pages, where the destination and route can be defined more clearly.

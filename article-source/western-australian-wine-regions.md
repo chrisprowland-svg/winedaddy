@@ -24,6 +24,8 @@ Margaret River is strongly associated with Cabernet Sauvignon, Chardonnay and Se
 
 The useful lesson is not to memorise a “signature wine” for every place. Instead, use the region as a starting point, then look at the grape, vintage and producer on the label.
 
+<!-- VISUAL:VIS-049 -->
+
 ## Where are Western Australia’s wine regions?
 
 Perth is the most useful major-city reference point. Swan District is north of Perth, while Perth Hills lies east of the city around the Darling Scarp. Peel is south of Perth, around the Mandurah and Peel area.

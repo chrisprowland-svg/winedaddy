@@ -22,6 +22,8 @@ This is a helpful explanation rather than a perfect political hierarchy. A state
 
 The national map is a useful orientation tool, but Wine Australia says the written GI boundary description—not the map itself—is legally controlling. Wine Australia’s sector information refers to approximately 65 winegrowing regions, although counts and boundaries can change. It is better to treat that number as a dated guide than a permanent total.
 
+<!-- VISUAL:VIS-048 -->
+
 ## Where are Australian wine regions located?
 
 Most established Australian wine regions are in the south and south-east, where a wide range of climates, elevations and coastal influences create varied growing conditions. The national wine map also includes regions in Western Australia and Queensland.
