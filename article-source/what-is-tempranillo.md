@@ -20,6 +20,8 @@ article_type: "Educational Guide"
 
 Tempranillo is a red grape variety from the Iberian Peninsula, best known through Spanish wines. It commonly produces dry red wines with flavours of cherry, plum, blackberry and other red or dark fruits. Fresh acidity gives the wine lift, while tannin can add a drying or grippy sensation.
 
+<!-- VISUAL:VIS-002 -->
+
 The style can change considerably. A fresher example may be medium-bodied, bright and red-fruited. A riper, more extracted or oak-matured wine may be fuller, darker, firmer and more savoury. That is why “Tempranillo” tells you the grape, but not exactly how every bottle will taste.
 
 Tempranillo is also grown and made in Australia. Australian examples may show the same broad grape identity while reflecting their region, climate, vintage and winemaking choices.
@@ -119,4 +121,3 @@ Wine Australia’s 2025 snapshot identifies production contexts including the Ri
 - [Australian wine regions](/regions/)
 - [What is Shiraz?](/what-is-shiraz/)
 - [What is Cabernet Sauvignon?](/what-is-cabernet-sauvignon/)
-

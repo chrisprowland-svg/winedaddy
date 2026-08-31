@@ -21,6 +21,8 @@ Fruitiness is therefore not the same as sweetness. A dry wine can have a strong 
 
 **Fruit character** is the fruit-like smell, flavour or lingering impression a taster notices in wine and communicates through familiar comparisons.
 
+<!-- VISUAL:VIS-002 -->
+
 Tasting notes use these comparisons because they give people a shared starting point. “Red cherry” is more useful than simply saying “nice fruit”, even though no two people will necessarily imagine exactly the same cherry.
 
 These descriptions are not always precise labels. One person may find raspberry in a wine while another finds redcurrant or strawberry. That difference does not automatically mean one taster is wrong. Sensory memories, tasting conditions and personal associations all influence the words we choose.

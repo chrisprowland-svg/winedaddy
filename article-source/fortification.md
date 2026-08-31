@@ -14,6 +14,8 @@
 
 Fortification is the process of adding distilled alcohol to wine, grape must or fermenting grape juice. The added alcohol is usually a grape spirit, brandy or another permitted alcohol source, depending on the country and product.
 
+<!-- VISUAL:VIS-021 -->
+
 The timing is crucial. If spirit is added before fermentation, it can prevent fermentation from starting. If it is added during fermentation, it can stop fermentation while some grape sugar remains. If it is added after fermentation, most of the sugar may already have been converted into alcohol, so the finished wine can be dry.
 
 That is why fortified wine is not automatically sweet. Fortification tells you that alcohol has been added; it does not, by itself, tell you how much sugar the wine contains or what colour it is.

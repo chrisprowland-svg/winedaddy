@@ -31,7 +31,7 @@ These towns help you picture the region, but a town name is not automatically in
 
 From central Florence, northern and central parts of Chianti Classico are often roughly 30–60 minutes by car. From Siena, many southern and central areas may be around 20–45 minutes. Treat those figures as broad orientation only: the exact locality, route, traffic and starting point make a difference.
 
-A registered map such as VIS-024 may help show the relationship between Italy, Tuscany, Florence, Siena and the approximate appellation area. It should be treated as an orientation map rather than a substitute for the legal boundary.
+It should be treated as an orientation map rather than a substitute for the legal boundary.
 
 ## Chianti versus Chianti Classico
 

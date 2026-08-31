@@ -32,6 +32,8 @@ A gently bitter or phenolic note may also appear towards the finish. That can be
 
 Not necessarily. Gewürztraminer may be:
 
+<!-- VISUAL:VIS-002 -->
+
 - **Dry:** little perceptible sweetness from residual sugar.
 - **Off-dry:** some noticeable sweetness, but not necessarily dessert-sweet.
 - **Sweet:** a clearly sweet style with more residual sugar.
@@ -41,8 +43,6 @@ A dry Gewürztraminer can still smell intensely of lychee, ripe pear, flowers or
 This is a useful distinction when choosing wine: **fruitiness describes aroma and flavour, while sweetness describes the wine’s sugar and its perception on the palate**. Acidity, alcohol, bitterness, temperature and texture also affect how sweet a wine seems.
 
 If you want to know whether a particular bottle is dry or sweet, look for a sweetness description on the label or ask whoever is serving it. The grape name alone cannot answer that question.
-
-> **Visual opportunity:** VIS-002, “Dry does not mean flavourless”, could support this distinction between aromatic intensity, fruitiness and residual sugar.
 
 ## Why is Gewürztraminer associated with Alsace?
 

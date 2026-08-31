@@ -38,6 +38,8 @@ The distinction is useful when reading a label or ordering at a restaurant: **fr
 
 Usually, Viognier is made as a dry wine. Dry means the wine has little or no perceptible residual sugar.
 
+<!-- VISUAL:VIS-002 -->
+
 The confusion is understandable. Peach, apricot and honeysuckle sound sweet, and a ripe, full-feeling wine may seem generous on the palate. Alcohol, fruit concentration and texture can also make a wine feel rich. None of those features proves that the wine contains much sugar.
 
 Condrieu, Viognier’s best-known traditional expression, is generally dry, although natural conditions can sometimes produce softer or sweeter wines. As with any grape, the style of the individual wine matters.

@@ -23,6 +23,8 @@ These features may contribute to regional tendencies, but they do not make every
 
 Heathcote is in **Victoria**, within the **Central Victoria zone**. In the Australian GI hierarchy, that places it here:
 
+<!-- VISUAL:VIS-005 -->
+
 > Australia → Victoria → Central Victoria zone → Heathcote
 
 The town of Heathcote is the most useful regional centre for orientation. From Melbourne, Heathcote is roughly 120–125 kilometres north, or around a 90-minute drive in ordinary conditions. That is an approximate guide only: the route, traffic and starting point can change the journey.

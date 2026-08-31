@@ -13,6 +13,10 @@
 
 Alpine Valleys is a registered Australian wine GI in Victoria’s North East Victoria wine zone. Wine Australia records the GI’s entry on the Register of Protected Names on 29 November 1999.
 
+<!-- VISUAL:VIS-006 -->
+
+<!-- VISUAL:VIS-005 -->
+
 The hierarchy is:
 
 **Australia → Victoria → North East Victoria zone → Alpine Valleys region**

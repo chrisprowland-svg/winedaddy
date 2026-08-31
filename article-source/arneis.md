@@ -51,6 +51,8 @@ One important beginner lesson is that **fruitiness is not sweetness**. A dry win
 
 Arneis is not a fixed flavour recipe. Climate and harvest decisions influence its balance between freshness, fruit and body. Site can also affect the wine, while fermentation and maturation choices can change its texture and aroma.
 
+<!-- VISUAL:VIS-002 -->
+
 A fresh style may be fermented in temperature-controlled conditions and matured in stainless steel to preserve its fragrance. Lees contact—the time wine spends resting on yeast sediment—can contribute a rounder, fuller texture. Oak can also broaden the impression of a wine, although not every Arneis is oaked.
 
 The grape can bud relatively early, meaning spring-frost risk matters in some vineyard sites. Its ripening and final character still depend on climate, season, crop level and location, so this should not be treated as a rule for every Arneis vineyard.

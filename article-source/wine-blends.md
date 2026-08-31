@@ -14,6 +14,8 @@
 
 A wine blend is made by combining two or more wine components. Most commonly, those components come from different grape varieties, such as Shiraz and Cabernet Sauvignon. But winemakers can also blend wines from separate vineyard sites, parcels, batches, vessels or vintages.
 
+<!-- VISUAL:VIS-042 -->
+
 The wines may have been fermented or matured separately before being combined. This is different from a **field blend**, where different grape varieties are planted together in the same vineyard block and may traditionally be harvested and fermented together.
 
 Blending is a way to shape the finished wine. It can help balance acidity, tannin, alcohol, colour, aroma, flavour, texture and structure. It may also add complexity, maintain consistency between vintages or help create a recognisable house style.

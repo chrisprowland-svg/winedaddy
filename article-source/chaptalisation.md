@@ -13,6 +13,8 @@
 
 Chaptalisation is a winemaking adjustment in which fermentable sugar is added to grape must—the freshly crushed grape material before or during fermentation. Yeast converts the available sugar into alcohol, carbon dioxide and other fermentation products.
 
+<!-- VISUAL:VIS-021 -->
+
 The purpose is usually to increase the wine’s potential alcohol, rather than to make the finished wine taste sweet. If the added sugar ferments completely, little or none of it remains as residual sugar. Residual sugar is the sugar left in wine after fermentation, and it is one of the things that can contribute to sweetness.
 
 The word is also spelled **chaptalization**, particularly in American English. In Australia, **chaptalisation** is the usual spelling.

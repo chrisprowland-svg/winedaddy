@@ -14,6 +14,8 @@
 
 Reduction in wine is a sensory and chemical condition associated mainly with volatile sulphur compounds and low-oxygen or “reductive” conditions during winemaking or storage.
 
+<!-- VISUAL:VIS-008 -->
+
 Depending on the compounds involved, concentration and wine style, reduction may smell of struck match, struck flint, rubber, cabbage, onion, sewage or rotten egg. Some sulphur-related aromas can add complexity or be tolerated in small amounts. Strong or persistent character, however, can overwhelm the wine’s fruit and make it unpleasant.
 
 Can air improve it? Sometimes. Opening the bottle, swirling the wine or pouring it into a glass may allow some volatile aromas to escape or change. If the smell fades and the fruit returns, the wine may have had temporary reductive character. Aeration is not a guaranteed cure, though. More persistent sulphur compounds may remain even after the wine has had contact with air.

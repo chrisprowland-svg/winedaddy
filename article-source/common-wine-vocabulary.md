@@ -22,6 +22,8 @@ This vocabulary helps you understand a wine list, read a label, follow a review 
 
 **Red wine** is generally made with meaningful contact between juice and dark grape skins, which can contribute colour, tannin and flavour. **White wine** is usually pale and is commonly made without extended contact with dark skins. White wine can, however, be made from red grapes if the juice is separated from the skins.
 
+<!-- VISUAL:VIS-002 -->
+
 **Rosé** is pink wine made using methods that limit colour extraction from red grapes, or other permitted methods. It is not defined by one production technique.
 
 **Sparkling wine** contains dissolved carbon dioxide, producing bubbles or effervescence. **Fortified wine** has grape spirit or brandy added under relevant production rules. Neither term automatically means sweet, strong-tasting or old.
@@ -78,6 +80,8 @@ Explore [wine body](/what-is-wine-body/), [wine mouthfeel](/wine-mouthfeel/), [w
 
 **Aroma** is the smell of the wine, especially what you notice through your nose before and during tasting. **Flavour** is the combined experience of aroma, taste and mouthfeel.
 
+<!-- VISUAL:VIS-023 -->
+
 This is why wine can seem to “taste” of lemon even though no lemon has been added. Descriptors are comparisons that help communicate an impression; they are not necessarily ingredients.
 
 Common aroma and flavour families include:
@@ -99,7 +103,7 @@ Wine education often groups aromas into three broad origins:
 - **Secondary aromas** are associated with winemaking, such as fermentation, lees contact, malolactic fermentation or oak.
 - **Tertiary aromas** develop through maturation and ageing, including some dried-fruit, savoury, earthy and nutty characters.
 
-This is a useful learning framework, not an absolute chemical classification. Categories can overlap, and wines do not all develop in the same way. The registered visual **VIS-023, Aroma origin framework**, can help show this relationship.
+This is a useful learning framework, not an absolute chemical classification. Categories can overlap, and wines do not all develop in the same way.
 
 ## A little winemaking vocabulary
 

@@ -45,7 +45,9 @@ A young, lighter example may smell fresh and feel brisk, with citrus and green-f
 
 No. Grüner Veltliner is predominantly associated with dry wines, but dryness is not universal.
 
-“Dry” describes the wine’s level of perceptible sweetness. It does not mean that the wine has no fruit flavour. A dry Grüner Veltliner can still taste of pear, citrus, apple or tropical fruit. The reusable visual concept **VIS-002 — “Dry does not mean flavourless”** is suitable here because it helps separate sweetness from flavour intensity.
+<!-- VISUAL:VIS-002 -->
+
+“Dry” describes the wine’s level of perceptible sweetness. It does not mean that the wine has no fruit flavour. A dry Grüner Veltliner can still taste of pear, citrus, apple or tropical fruit.
 
 For a fuller explanation, see [what sweetness means in wine](/what-is-sweetness-in-wine/). A wine can be dry and highly flavoured at the same time.
 

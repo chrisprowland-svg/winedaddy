@@ -38,6 +38,8 @@ These terms are analogies. Your rose may not be someone else’s rose, especiall
 
 This distinction makes tasting notes easier to understand:
 
+<!-- VISUAL:VIS-023 -->
+
 - **Aroma** is smell, including aromas sensed through the nose while drinking.
 - **Taste** includes sensations such as sweetness, acidity and bitterness.
 - **Flavour** is the broader experience created by aroma, taste and mouthfeel together.

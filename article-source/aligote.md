@@ -14,6 +14,8 @@
 
 Aligoté is a white wine-grape variety, best known for producing fresh, high-acid white wines. It is strongly associated with Burgundy in France, where it is used for Bourgogne Aligoté and the Bouzeron appellation. It is also grown in countries including Moldova, Ukraine, Romania and Russia, as well as in small Australian plantings.
 
+<!-- VISUAL:VIS-002 -->
+
 In the glass, Aligoté often feels lively and refreshing rather than broad or heavy. Commonly reported flavours include lemon, apple, green pear, white flowers and herbs. However, these are useful starting points, not a fixed recipe: climate, ripeness, site and winemaking can all change the result.
 
 You may encounter Aligoté as a dry still white wine, a sparkling wine or part of a blend. Its acidity is one reason it works well in sparkling production and can add freshness to a blend.

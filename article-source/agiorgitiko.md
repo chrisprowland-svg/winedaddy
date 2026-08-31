@@ -47,7 +47,7 @@ There is no single Agiorgitiko taste. It is more useful to think of the wines as
 
 Young, fresh examples may show red-fruit aromas, moderate freshness and soft tannins. They can feel relatively easy-drinking and medium-bodied, with a smooth rather than strongly drying texture.
 
-Aroma terms such as red fruit describe what you smell and taste as fruit character. They do not necessarily mean the wine contains sugar. A wine can smell fruity while still being dry. The proposed visual **VIS-002 — Dry does not mean flavourless** may help explain this distinction where the page design supports it.
+Aroma terms such as red fruit describe what you smell and taste as fruit character. They do not necessarily mean the wine contains sugar. A wine can smell fruity while still being dry.
 
 ### Fuller and more structured Agiorgitiko
 
@@ -68,6 +68,8 @@ This is why it is safer to say Agiorgitiko **can show** fresh red fruit, soft ta
 ## Is Agiorgitiko a sweet wine?
 
 Usually, the dry red Agiorgitiko wines a beginner encounters are not sweet. However, Agiorgitiko is the name of a grape, not a guarantee about residual sugar.
+
+<!-- VISUAL:VIS-002 -->
 
 A wine may have ripe, fruity aromas and still taste dry. If sweetness matters to you, check the individual bottle’s description or technical information rather than relying on the grape name alone. [What Does Dry Wine Mean?](/dry-wine-meaning/) explains the difference between dryness, fruitiness and sweetness.
 

@@ -13,6 +13,10 @@
 
 A warm-climate wine region is a wine-growing area where growing-season warmth generally allows grapes to ripen relatively readily, often with substantial sugar and flavour development. In the bottle, this may mean riper fruit, fuller texture, deeper colour or higher potential alcohol—particularly in red wines.
 
+<!-- VISUAL:VIS-006 -->
+
+<!-- VISUAL:VIS-005 -->
+
 Those are tendencies, not guarantees. Warmth can also increase water demand and heat stress, while acidity may decline more quickly as grapes ripen. Cooler nights, elevation, coastal breezes, variety choice, irrigation, vineyard management, harvest timing and winemaking can preserve freshness or change the wine’s shape considerably.
 
 In Australia, “warm climate” is an educational description rather than a registered GI. Official Australian wine geography uses protected place names such as regions and zones. Wine Australia’s GI register lists names including Barossa Valley, McLaren Vale, Riverland, Murray–Darling and Hunter, but “warm climate” is not a comparable legal place name.

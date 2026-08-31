@@ -14,6 +14,8 @@
 
 Sweetness in wine is the perception of sugar on your palate. It mainly comes from **residual sugar**, which is grape sugar left in the wine after fermentation.
 
+<!-- VISUAL:VIS-002 -->
+
 During fermentation, yeast converts grape sugar into alcohol and carbon dioxide. When most of the sugar is fermented, the wine will generally taste dry. When a noticeable amount remains, the wine may taste off-dry, medium-sweet or sweet.
 
 But sweetness is not simply a sugar reading. Acidity can make a wine feel fresher and less heavy, while tannin or bitterness can make it seem drier. Alcohol may add warmth or roundness, and fruit aromas can make a wine smell sweet even when it contains little perceptible sugar.

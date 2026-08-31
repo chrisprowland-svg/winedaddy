@@ -27,6 +27,8 @@ These are useful tendencies, not guarantees. Climate, ripeness, residual sugar, 
 
 Riesling is often described through its acidity. In Australian examples, that acidity commonly gives the wine a bright, energetic quality, even when the wine contains some residual sugar.
 
+<!-- VISUAL:VIS-002 -->
+
 Gewürztraminer is usually recognised first by its aroma. Rose, lychee, ripe stone fruit, tropical fruit and spice can make it seem sweet, even when the wine itself is dry. Its palate may feel broader and more textured than a lean Riesling.
 
 That is why “Riesling is dry” and “Gewürztraminer is sweet” are both unreliable shortcuts. They confuse a grape’s typical aroma or structure with the sweetness of a particular wine.

@@ -62,6 +62,8 @@ That is the practical meaning of “place” in wine: geography helps set the co
 
 Australian drinkers are used to seeing a grape variety prominently displayed—Chardonnay, Shiraz or Riesling, for example. French AOP labels may instead lead with the protected place name.
 
+<!-- VISUAL:VIS-009 -->
+
 You might see **Mâcon**, **Mâcon Villages**, **Pouilly-Fuissé**, **Saint-Véran** or **Viré-Clessé** before seeing an obvious grape reference. The place name identifies origin and the production rules that apply. Chardonnay may be the principal variety even when it is not the main name on the front label.
 
 A simple way to approach the label is:

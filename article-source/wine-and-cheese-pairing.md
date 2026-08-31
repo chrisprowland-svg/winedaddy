@@ -24,6 +24,8 @@ The important point is that grape variety alone does not decide the pairing. A f
 
 ### Fresh cheese
 
+<!-- VISUAL:VIS-002 -->
+
 Fresh cheeses are usually soft, moist and mild, with a lactic or tangy character. Think of ricotta, cream cheese, fromage blanc or fresh chèvre.
 
 Try these with:
@@ -114,8 +116,6 @@ Sweetness can balance the salt and intensity of blue cheese, particularly when t
 A dry wine can smell and taste strongly of fruit. “Dry” refers mainly to perceived sweetness; it does not mean that the wine lacks apple, citrus, stone-fruit or berry character.
 
 This distinction matters on a cheese board. A fruity dry Riesling may provide flavour without adding sweetness, while a sweet Riesling adds both fruit character and noticeable sweetness. The latter may be a better choice for salty blue cheese or a board with intense savoury flavours.
-
-The reusable visual **VIS-002 — “Dry does not mean flavourless”** can help illustrate this distinction.
 
 ## How to build a mixed cheese board
 

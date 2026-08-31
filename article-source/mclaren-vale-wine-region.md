@@ -146,4 +146,3 @@ It tells you about geographic origin under Australia’s GI system. It does not 
 - [Grapes](/grapes/)
 - [Yarra Valley wine region](/regions/yarra-valley.html)
 - [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
-

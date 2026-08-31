@@ -47,6 +47,8 @@ Muscat aroma is partly linked to naturally occurring compounds called **terpenes
 
 No. Moscato is not automatically sweet, although sweet Moscato is the style many Australian drinkers first encounter.
 
+<!-- VISUAL:VIS-002 -->
+
 A wine’s sweetness depends largely on how much sugar remains after fermentation and how that sugar balances with acidity, alcohol and other structural elements. A dry Muscat can still smell grapey, floral and fruity. In the same way, a sweet Moscato can taste refreshing if acidity and gentle bubbles keep it lively.
 
 This is the key distinction:

@@ -71,6 +71,8 @@ If you want to unpack terms such as terroir, tannin or wine structure, the best 
 
 The 1855 classification is historical classification language attached to selected estates. It is not the same as an appellation.
 
+<!-- VISUAL:VIS-006 -->
+
 For red wines, the classification covers 60 estates in Médoc and one estate from Graves/Pessac-Léognan. Its five levels are commonly translated as First Growth through Fifth Growth. A reference to “Grand Cru Classé en 1855” therefore indicates inclusion of a particular estate in that historical system.
 
 It does **not** mean:

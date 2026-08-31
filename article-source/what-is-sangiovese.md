@@ -133,4 +133,3 @@ It can be, but not every example is. Many Sangiovese wines are medium-bodied and
 ### Is Sangiovese a good food wine?
 
 Often, yes. Its acidity and tannin can work well with tomato-based dishes, grilled food, roasted vegetables and savoury meats.
-

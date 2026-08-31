@@ -14,6 +14,8 @@
 
 Sherry is a family of fortified wines made under the protected Jerez-Xérès-Sherry designation in and around Jerez, in Andalusia, southern Spain. The related Manzanilla-Sanlúcar de Barrameda designation covers Manzanilla from the Sanlúcar area.
 
+<!-- VISUAL:VIS-035 -->
+
 “Fortified” means grape spirit is added to wine to increase its alcohol. But fortification is only part of the story. Sherry’s distinctive character also comes from how the wine matures: under flor, with controlled exposure to oxygen, or through a fractional blending system known as solera.
 
 That is why Sherry can taste so different from one style to another. A Fino can be pale, dry and delicate, while an Oloroso can be darker, fuller and more intensely developed. Pedro Ximénez, often shortened to PX, is rich and intensely sweet. None of these styles represents Sherry as a whole.
@@ -40,6 +42,8 @@ You can learn more about the general process in [What Is Fortification?](/fortif
 
 Flor is a living film of characteristic yeast that develops on the surface of wine in partly filled casks. It consumes oxygen and interacts with the wine, influencing its aroma, flavour and texture.
 
+<!-- VISUAL:VIS-008 -->
+
 Flor is central to the character of Fino and Manzanilla. It helps protect the wine from direct oxygen exposure while also giving the wine its own biological-ageing character.
 
 Flor is not mould or contamination. It is a managed part of the winemaking process. The separate guide to [Flor ageing](/flor-ageing/) explores the idea in more detail.
@@ -63,6 +67,8 @@ The protected rules also recognise vintage-aged Sherries, so it is not accurate 
 ## The main Sherry styles
 
 ### Fino
+
+<!-- VISUAL:VIS-002 -->
 
 Fino is a dry, pale style associated with biological ageing under flor. It is often delicate and fresh, with savoury, nutty or saline impressions rather than obvious sweetness.
 

@@ -30,6 +30,8 @@ Wine Australia records Great Southern as a protected GI, entered on the Register
 
 Great Southern covers approximately 20,440 square kilometres. Its elevation ranges from approximately sea level to 1,083 metres. That is the range of the entire GI, not the elevation of every vineyard: a bottle labelled Great Southern does not necessarily come from a high-elevation site.
 
+<!-- VISUAL:VIS-005 -->
+
 The region includes coastal country, rolling agricultural land, inland districts, ranges and elevated areas. Distance from the ocean, elevation, slope, aspect and local terrain can all influence the conditions in which grapes grow.
 
 This is why describing Great Southern as though it were one vineyard district can be misleading. The region’s size is not just a map detail; it helps explain why wines from different parts of the GI may feel quite different.

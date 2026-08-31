@@ -13,6 +13,8 @@
 
 A red wine style is a practical way of describing how a wine looks, smells, tastes and feels. It brings together its structure, texture, aromas, flavours and winemaking influence.
 
+<!-- VISUAL:VIS-002 -->
+
 You might describe a red as **light-bodied, fresh and bright**, or **full-bodied, rich and tannic**. You might also call it **dry, fruit-driven, savoury, spicy or oaky**. These words describe different parts of the wine’s character rather than placing it into one official category.
 
 That distinction matters. **Shiraz is a grape variety; Barossa is a region; full-bodied is a style description.** One grape can produce several styles, and the same region can make wines that feel quite different depending on climate, vineyard site, vintage and winemaking.
@@ -57,7 +59,7 @@ In wine, **dry** usually means the wine is not perceived as sweet. It does not m
 
 A dry red can smell and taste strongly of cherries, strawberries, plums or blackberries. That is **fruitiness**, which describes aroma and flavour. **Sweetness** describes the perception of sugar. These are separate ideas.
 
-This is one of the most useful beginner discoveries: a wine can be **dry and fruit-driven** at the same time. A full-bodied wine can also be dry. [VIS-002, “Dry does not mean flavourless”, is suitable for reuse here.]
+This is one of the most useful beginner discoveries: a wine can be **dry and fruit-driven** at the same time. A full-bodied wine can also be dry.
 
 ### Fruit, savoury and spicy character
 
@@ -93,7 +95,7 @@ Some useful Australian starting points are:
 - **Shiraz:** can range from medium- to full-bodied depending on region, fruit ripeness and winemaking.
 - **Cabernet Sauvignon:** often contributes structure and tannin, but its style changes across Australian regions and between varietal and blended wines.
 
-These descriptions are not guarantees. Region, vineyard site, vintage, harvest decisions, blending, extraction, oak and techniques such as whole-bunch fermentation can all change the final wine. [VIS-003, “Why Cabernet varies”, is suitable for reuse beside this explanation.]
+These descriptions are not guarantees. Region, vineyard site, vintage, harvest decisions, blending, extraction, oak and techniques such as whole-bunch fermentation can all change the final wine.
 
 ## How to choose a red wine style
 

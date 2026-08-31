@@ -14,6 +14,8 @@
 
 Picpoul is a white wine grape, usually referring to **Piquepoul blanc**. It is a French variety particularly associated with the Languedoc and the wines of **Picpoul de Pinet**.
 
+<!-- VISUAL:VIS-002 -->
+
 A typical Picpoul is dry, light to medium bodied and notably fresh, with pronounced acidity. It may taste of lemon, grapefruit, citrus, white flowers and, in some examples, a saline or maritime note. These are tendencies rather than rules: climate, ripeness, harvest timing, site and winemaking can all change the final wine.
 
 For an Australian wine learner, the simplest way to remember Picpoul is this: **it is a bright, refreshing white grape that often brings plenty of citrus-like freshness to the glass**.

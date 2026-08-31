@@ -13,6 +13,8 @@
 
 Typicity is a judgement about how recognisably a wine expresses the expected characteristics of a relevant reference group.
 
+<!-- VISUAL:VIS-006 -->
+
 That group might be a grape variety, such as Shiraz; a place or geographical indication; a wine style; or a broader category. A taster describing a wine as “typical” is saying that it fits recognisable expectations. An “atypical” wine differs from those expectations.
 
 The word is comparative rather than absolute. There is no single universal flavour formula that every wine must follow, and typicity is not an objective score of a wine’s overall worth. The International Organisation of Vine and Wine (OIV) uses typicity as a formal evaluation descriptor, including separate assessments for odour and taste. Even in that framework, typicity is a distinct consideration rather than a replacement for every other judgement about a wine.

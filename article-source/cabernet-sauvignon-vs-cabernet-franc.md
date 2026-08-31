@@ -36,6 +36,8 @@ For a concise introduction to each grape, see [What Is Cabernet Sauvignon?](/wha
 | Colour | Often medium-deep to deep | Often lighter, though ripe examples can be deeply coloured |
 | Blending role | Colour, dark fruit, tannin and structure | Fragrance, red fruit, freshness and herbal or floral complexity |
 
+<!-- VISUAL:VIS-001 -->
+
 Tannin is the drying, slightly grippy sensation that can make your mouth feel firmer after a sip. You can learn more in [What Are Tannins in Wine?](/what-are-tannins/).
 
 ## Why the same grape can taste different

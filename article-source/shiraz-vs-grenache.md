@@ -13,6 +13,8 @@
 
 Shiraz and Grenache are separate grape varieties that can both make rich, satisfying red wine.
 
+<!-- VISUAL:VIS-002 -->
+
 As a starting point, Shiraz usually offers darker fruit such as blackberry, blueberry and plum, along with more colour, body and noticeable structure. Grenache often shows red berry and strawberry flavours, fragrance, spice and a warmer, rounder or more supple texture. Grenache can be lighter in colour without being light in flavour.
 
 That comparison is useful, but it is not a guarantee. A cool-site Shiraz may be fresh and savoury rather than heavy, while a ripe Grenache can be full-bodied and powerful. The final wine reflects the interaction between grape variety, climate, vineyard site, harvest decisions and winemaking.
@@ -88,7 +90,7 @@ Consider Grenache if you usually enjoy:
 
 These are style clues rather than quality judgements. A lighter-coloured wine is not automatically lighter-bodied, and a fruit-forward wine is not automatically sweet.
 
-A dry wine can smell and taste strongly of ripe fruit. “Dry” refers to the absence or low level of perceptible residual sugar; it does not mean flavourless. If this distinction is new, [VIS-002 — Dry does not mean flavourless] can help make it clear.
+A dry wine can smell and taste strongly of ripe fruit. “Dry” refers to the absence or low level of perceptible residual sugar; it does not mean flavourless. If this distinction is new, can help make it clear.
 
 For food, start with the dish rather than following a rigid rule. Shiraz can suit grilled or roasted meats and strongly flavoured dishes, while Grenache can work well with roast vegetables, lamb, barbecue and spiced foods. Preparation, sauce and seasoning matter as much as the main ingredient.
 

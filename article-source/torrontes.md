@@ -44,7 +44,7 @@ This is one of the most useful things to understand about the grape: **intense a
 
 Torrontés often smells sweeter than it tastes. That contrast is part of its appeal.
 
-Read more about [fruitiness versus sweetness](/fruitiness-vs-sweetness/) and [what sweetness means in wine](/what-is-sweetness-in-wine/). The reusable WineDaddy visual **“Dry does not mean flavourless” (VIS-002)** is particularly helpful here.
+Read more about [fruitiness versus sweetness](/fruitiness-vs-sweetness/) and [what sweetness means in wine](/what-is-sweetness-in-wine/).
 
 ## Why are there different Torrontés varieties?
 

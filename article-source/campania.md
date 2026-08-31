@@ -32,7 +32,7 @@ From Naples, Avellino is roughly a 45–60 minute drive and Benevento roughly 1 
 
 Campania borders Lazio and Molise to the north, and Puglia and Basilicata towards the east and south-east. Those are separate Italian regions, not parts of Campania.
 
-*A broad map of Italy can help place Campania between the Tyrrhenian coast and the inland Apennine areas. The registered visual asset VIS-024 is suitable for this orientation.*
+*A broad map of Italy can help place Campania between the Tyrrhenian coast and the inland Apennine areas. *
 
 ## Why Campania does not have one single style
 

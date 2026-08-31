@@ -73,6 +73,8 @@ You may see shorthand such as **SSB** for Sémillon Sauvignon Blanc or **SBS** f
 
 A few wine terms are easy to mix up:
 
+<!-- VISUAL:VIS-002 -->
+
 - **Dry** means little perceptible residual sugar. It does not mean neutral or low-flavour.
 - **Fruity** describes fruit-like aromas or flavours. It does not mean sweet.
 - **Aromatic** describes noticeable aroma. It does not tell you how full-bodied or sweet the wine is.

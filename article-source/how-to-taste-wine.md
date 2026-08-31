@@ -142,4 +142,3 @@ Not by itself. A lingering finish can be worth noting, but quality, balance and 
 ### Should I swallow wine when tasting?
 
 Not necessarily. You can swallow or spit, depending on the setting and how much alcohol you want to consume. Spitting is common at organised tastings.
-

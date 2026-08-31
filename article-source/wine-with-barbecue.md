@@ -70,6 +70,8 @@ You can explore the subject further in [Wine with Spicy Food](/wine-and-spicy-fo
 
 ### Steak
 
+<!-- VISUAL:VIS-002 -->
+
 Simply seasoned, charred steak can support a medium- to full-bodied red with fruit, acidity and moderate to firm tannin. Rich sauces, fatty cuts and intense char can support more structure. Lemon, vinegar or delicate sides may call for something fresher.
 
 ### Sausages

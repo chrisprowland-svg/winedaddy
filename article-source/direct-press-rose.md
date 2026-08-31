@@ -13,6 +13,8 @@
 
 Direct-press rosé is made by pressing red or dark-skinned grapes soon after harvest, with little or very short skin contact, then fermenting the separated juice as rosé.
 
+<!-- VISUAL:VIS-022 -->
+
 The colour comes mainly from pigments in the grape skins. By separating the juice from the skins early, a winemaker can limit colour and phenolic extraction. This can result in a pale, fresh-looking style, but the outcome depends on the grape, fruit condition, pressing decisions and the rest of the winemaking.
 
 Direct pressing is not the same as making rosé by removing juice from a red-wine ferment. That method is called **saignée**. In direct-press rosé, the grapes are processed for rosé from the beginning.

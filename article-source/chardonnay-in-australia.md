@@ -14,6 +14,8 @@
 
 Australian Chardonnay is best understood as a meeting point between **place and winemaking**.
 
+<!-- VISUAL:VIS-005 -->
+
 The grape grows successfully in cool, elevated, maritime, warmer and more humid parts of Australia. Climate and site influence the pace of ripening, the development of fruit flavour and the retention of acidity. But they do not decide the finished wine on their own. Harvest timing, vintage conditions, fermentation, oak, malolactic fermentation, lees contact and vessel choice also matter.
 
 That is why Australian Chardonnay can be fresh and citrus-led, medium-bodied and textural, or richer and more oak-influenced. These are useful descriptions, not official categories. Nor are they guarantees attached to particular regions.
@@ -109,6 +111,8 @@ These choices overlap. A producer can make a fresh Chardonnay from a relatively 
 ## Three useful Australian Chardonnay styles
 
 These are learner-friendly groupings, not official classifications.
+
+<!-- VISUAL:VIS-002 -->
 
 ### Fresher and leaner
 

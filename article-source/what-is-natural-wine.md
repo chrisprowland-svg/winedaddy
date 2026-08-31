@@ -121,4 +121,3 @@ No—but it is not automatically a virtue either. Some natural wines show unusua
 ## The simple takeaway
 
 Natural wine usually means a low-intervention approach, but it is not a guarantee of a particular ingredient list, farming method, appearance or flavour. In Australia, the most confident way to read the term is to treat it as a starting point, then check the producer’s specific information about farming, fermentation, filtration, fining and sulphur.
-

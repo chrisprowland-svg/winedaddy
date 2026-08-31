@@ -14,6 +14,8 @@
 
 Whole-berry fermentation is a winemaking process in which grape berries are kept intact and uncrushed during the beginning of fermentation, rather than being fully crushed before entering the fermenter.
 
+<!-- VISUAL:VIS-014 -->
+
 The berries may be destemmed first. In that case, the stems are removed but the berries remain whole. Juice is released from berries that are damaged, pressed by the weight of fruit or gradually split during fermentation. Yeast then ferments that juice, while the remaining intact berries soften and become increasingly involved in the ferment.
 
 This can change the timing and pattern of contact between juice, skins and seeds. Depending on the conditions, the wine may show fresh fruit character, distinctive aromas, a different texture or moderated early extraction. But whole-berry fermentation does not guarantee any one style. The result depends on the proportion of intact fruit and the winemaker’s broader process.

@@ -87,6 +87,8 @@ Australian research and technical guidance show this variety of approaches rathe
 
 Words such as “destemmed”, “crushed” or “whole bunch” describe processing choices, not a guaranteed taste. They do not tell you the exact equipment, degree of berry breakage, stem proportion or final wine style.
 
+<!-- VISUAL:VIS-014 -->
+
 Also, whole-bunch handling is not the same as [carbonic maceration](/carbonic-maceration/). Carbonic maceration is a separate fermentation method involving intact bunches in a closed, carbon-dioxide-filled environment without free juice. For the wider sequence, see [how wine is made](/how-wine-is-made/).
 
 The useful takeaway is simple: destemming controls how many stems remain, while crushing controls how much the berries are broken. Winemakers can use either operation as a separate tool or combine them, depending on the fruit and the wine they are trying to make.

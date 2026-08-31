@@ -174,4 +174,3 @@ Terroir is a way of understanding how **place and practice interact to shape win
 It is not soil flavour, a guarantee of quality or a promise that every bottle from a region will taste alike. Used carefully, terroir helps explain why wines made from the same grape can differ—and why every bottle is shaped by more than its label.
 
 [Learn more about Australian wine regions](/regions/) or explore the wider [winemaking hub](/winemaking/).
-

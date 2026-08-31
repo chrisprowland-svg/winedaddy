@@ -14,6 +14,8 @@
 
 Sauvignon Blanc in Australia is best understood as a grape variety expressed through many different places and winemaking choices.
 
+<!-- VISUAL:VIS-005 -->
+
 It is grown from warm inland regions such as the Riverland and Riverina to cooler areas including the Adelaide Hills and Tasmania, as well as maritime Margaret River in Western Australia. Wine Australia’s 2024 variety snapshot recorded 6,097 hectares planted in 2020 and 89,120 tonnes crushed in 2024. The Riverland, Riverina, Margaret River and Murray–Darling/Swan Hill were among the largest contributors to that crush.
 
 The style can change with latitude, elevation, ocean influence, water availability, crop level, canopy management, harvest timing and ripeness. Cooler or earlier-picked fruit may retain lively acidity and citrus or herbal characters. Riper fruit can show more tropical, melon or guava-like flavours. Winemaking matters too: stainless steel tends to preserve freshness, while barrel fermentation, oak maturation, blending and lees contact can create a broader, richer or more textural wine.
@@ -54,8 +56,6 @@ A region is not a single vineyard. Elevation, slope, aspect, rainfall, wind and 
 
 This is especially useful to remember when tasting Adelaide Hills Sauvignon Blanc. The name gives you geographic context, but it does not tell you exactly how high the vineyard sits, how ripe the fruit was when picked or whether the wine was made in stainless steel or barrel.
 
-The registered visual **VIS-005**, *Adelaide Hills site variation*, may help explain this relationship between elevation, terrain and local growing conditions.
-
 ## Three Australian reference points
 
 ### Adelaide Hills
@@ -94,6 +94,8 @@ The word “dry” also does not mean “flavourless”. A dry Sauvignon Blanc c
 
 A label can provide several different kinds of information:
 
+<!-- VISUAL:VIS-006 -->
+
 - **Sauvignon Blanc** identifies the grape variety.
 - **A GI** identifies geographic origin under Australian rules.
 - **A state, zone, region or subregion** describes different levels of geographic detail.
@@ -102,7 +104,7 @@ A label can provide several different kinds of information:
 
 Wine Australia’s protected GI register distinguishes Australian geographic levels and states that the legal textual description takes precedence if it differs from a map. A town name may help you understand where a vineyard is located, but it is not automatically the legal GI on a bottle.
 
-The most important lesson is simple: a GI tells you where the wine comes from, not exactly what it will taste like. The registered visual **VIS-006**, *Adelaide Hills varieties and label meaning*, may be reusable for this distinction between regional tendency and label guarantee.
+The most important lesson is simple: a GI tells you where the wine comes from, not exactly what it will taste like.
 
 For more on reading bottles, see [How to Read a Wine Label](/how-to-read-a-wine-label/).
 

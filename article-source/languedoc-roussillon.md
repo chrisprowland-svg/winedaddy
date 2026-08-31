@@ -40,6 +40,8 @@ The two areas share Mediterranean conditions and some grape varieties, but Rouss
 
 A broad reference to Languedoc-Roussillon may appear in a retailer description, restaurant explanation or wine education material. On the bottle itself, you are more likely to see a specific appellation or IGP.
 
+<!-- VISUAL:VIS-009 -->
+
 Examples from the Languedoc area include:
 
 - Languedoc

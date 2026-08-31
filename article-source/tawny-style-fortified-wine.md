@@ -64,6 +64,8 @@ Think of the style as a direction rather than a fixed destination: maturation ge
 
 These are distinct styles.
 
+<!-- VISUAL:VIS-008 -->
+
 | Tawny-style fortified wine | Vintage fortified wine |
 |---|---|
 | Usually matured before bottling | Usually presented around one declared harvest year |

@@ -148,4 +148,3 @@ No. Screw-cap bottles can be stored upright. Side storage is the conventional lo
 ### Do I need a cellar to store wine?
 
 No. A dark, stable interior cupboard may be suitable for a small collection. If your home becomes hot or changes temperature substantially, a wine fridge can provide more reliable control.
-

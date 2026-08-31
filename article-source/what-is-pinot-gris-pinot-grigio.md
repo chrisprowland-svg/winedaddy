@@ -167,4 +167,3 @@ Crisper styles can work well with seafood, shellfish, salads and lighter dishes.
 Pinot Gris and Pinot Grigio are two names for the same grape. The names come from French and Italian usage and can suggest different stylistic traditions, but neither name guarantees a particular flavour.
 
 Expect anything from a light, crisp and citrus-driven white to a fuller wine with ripe fruit and a more rounded texture. For the most reliable guide, read beyond the grape name and look for the producer’s description of the wine’s freshness, sweetness and texture.
-

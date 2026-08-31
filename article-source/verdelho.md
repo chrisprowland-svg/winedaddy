@@ -32,6 +32,8 @@ You may hear Verdelho described as fruity, rich or even high in alcohol. None of
 
 Verdelho can be dry or fortified, so the grape name alone does not tell you the wine’s sweetness.
 
+<!-- VISUAL:VIS-002 -->
+
 A dry wine contains little residual sugar, while fruitiness describes the aromas and flavours you perceive. A dry Verdelho can taste strongly of ripe tropical fruit and still be unmistakably dry. Alcohol can also add warmth and weight without being sugar.
 
 This distinction is particularly useful with Verdelho because Australian references describe some examples as **rich, fruity but dry**. If you are choosing a bottle, look for the wine’s style, sweetness description and alcohol level rather than assuming that an aromatic wine must be sweet.

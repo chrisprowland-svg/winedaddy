@@ -152,4 +152,3 @@ No. A teaspoon placed in the neck is not a reliable way to preserve sparkling wi
 ### Is storing opened wine the same as cellaring wine?
 
 No. This article covers short-term storage after opening. Long-term cellaring of unopened wine requires different conditions and advice.
-

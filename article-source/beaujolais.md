@@ -32,6 +32,8 @@ Beaujolais is often discussed alongside Burgundy because of its location, histor
 
 An **appellation** is a regulated geographic name with production rules. On a bottle, it tells you more than just where the grapes were grown: it can also indicate the level of geographic specificity and the kind of style you might expect.
 
+<!-- VISUAL:VIS-009 -->
+
 ### Beaujolais
 
 Beaujolais is the broadest regional appellation. It is the least specific of the three main label categories, although individual wines can still show plenty of character.

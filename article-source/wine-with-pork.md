@@ -15,6 +15,8 @@
 
 The best wine with pork depends on the complete dish rather than the meat alone.
 
+<!-- VISUAL:VIS-002 -->
+
 For simply roasted pork, pork loin or a lightly seasoned chop, start with **Pinot Noir, fresh Chardonnay, dry rosé or sparkling wine**. These styles can offer freshness without overwhelming leaner pork.
 
 For **pork belly, crackling or crumbed pork**, look for a wine with refreshing acidity. **Riesling, sparkling wine, fresh Chardonnay and dry rosé** are useful starting points. Acidity can make a rich dish feel more balanced and lift the palate after fatty or fried textures.
@@ -56,7 +58,7 @@ Pork belly is rich, so acidity becomes particularly useful. **Riesling, sparklin
 
 A sweet, salty or spicy glaze may change the choice. If the sauce is distinctly sweet, a very dry wine can taste thin or sharp beside it. A wine with some sweetness may be more balanced, provided it also has enough freshness.
 
-This does not mean Riesling is always sweet. Riesling can be dry, off-dry or sweet. It is also worth remembering that **fruitiness and sweetness are different things**: a dry wine can taste strongly of apple, pear, citrus or cherry. VIS-002, *Dry does not mean flavourless*, may support this explanation when used with suitable accessibility review.
+This does not mean Riesling is always sweet. Riesling can be dry, off-dry or sweet. It is also worth remembering that **fruitiness and sweetness are different things**: a dry wine can taste strongly of apple, pear, citrus or cherry.
 
 ### Pork chops
 

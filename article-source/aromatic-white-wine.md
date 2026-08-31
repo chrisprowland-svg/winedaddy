@@ -18,6 +18,8 @@ The most important thing to remember is this: **a wine can smell intensely fruit
 
 When wine people call a white wine aromatic, they usually mean its aromas are especially noticeable and distinctive. You may be able to identify the wine’s character quickly after swirling and smelling it.
 
+<!-- VISUAL:VIS-023 -->
+
 Aromatic notes can include:
 
 - lime, lemon and other citrus;

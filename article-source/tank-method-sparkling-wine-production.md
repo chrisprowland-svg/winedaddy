@@ -15,6 +15,8 @@
 
 Tank-method sparkling wine is made when a still base wine undergoes its bubble-producing second fermentation in a large, sealed tank rather than in individual bottles.
 
+<!-- VISUAL:VIS-021 -->
+
 The winemaker adds sugar and yeast to the base wine. The yeast consumes the sugar and produces alcohol and carbon dioxide. Because the tank is closed, the carbon dioxide cannot simply escape. It dissolves into the wine, creating its sparkle.
 
 After fermentation, the wine may be left in contact with the yeast deposit for a time. It is then clarified, cooled, adjusted if needed and bottled under pressure. This last step is called **isobaric bottling**: the wine is transferred while pressure is maintained, helping retain its dissolved carbon dioxide.

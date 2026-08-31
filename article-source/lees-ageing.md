@@ -14,6 +14,8 @@
 
 Lees ageing is the practice of holding wine in contact with sediment left from winemaking, usually after fermentation. This sediment often contains yeast cells, but it can also include grape solids, tartrate salts, bacteria and other winemaking residues.
 
+<!-- VISUAL:VIS-026 -->
+
 During this contact, yeast cells can gradually break down in a process called autolysis. Compounds released from the cells may influence the wine’s texture, aroma, flavour integration and some stability properties.
 
 The result is not predictable from the phrase alone. Lees composition, contact time, vessel, temperature, oxygen exposure, stirring and the wine itself all matter. In Australia, you may encounter the terms **on lees**, **sur lie**, **lees aged**, **lees ageing**, **lees-stirred** and **bâtonnage**, particularly when reading about Chardonnay or traditional-method sparkling wine.

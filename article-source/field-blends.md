@@ -13,6 +13,8 @@
 
 A field blend is generally a wine made from fruit grown in a vineyard block where different grape varieties are planted together. In the traditional approach, the grapes are harvested together and often fermented together, rather than being kept separate and blended later in the winery.
 
+<!-- VISUAL:VIS-042 -->
+
 That core idea is important: **the blend begins in the vineyard**.
 
 However, “field blend” does not have one universal definition that fixes every step of production. Some contemporary wines use the term for fruit from a mixed planting even when varieties are harvested or fermented separately. If you are curious about a particular bottle, check the producer’s description or ask whether the grapes were planted, harvested and fermented together.

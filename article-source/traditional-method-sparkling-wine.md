@@ -13,6 +13,8 @@
 
 Traditional-method sparkling wine is made by creating the bubbles through a second alcoholic fermentation in the bottle in which the wine is sold.
 
+<!-- VISUAL:VIS-033 -->
+
 The process usually begins with a still base wine, sometimes called a cuvée. A mixture of wine, sugar and yeast—known as tirage—is added before the wine is bottled and sealed. The yeast ferments the added sugar inside the bottle, producing carbon dioxide. Because the bottle is closed, that carbon dioxide dissolves into the wine and makes it sparkling.
 
 The wine commonly remains in contact with its lees, or spent yeast cells. Sediment is then moved towards the neck of the bottle, removed, and the bottle is topped up before receiving its final sparkling-wine closure. The exact process, timing and legal requirements vary between regions and producers.

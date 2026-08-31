@@ -14,6 +14,8 @@
 
 Wines taste different because grape variety, growing conditions, vineyard decisions, winemaking, maturation, serving conditions and human perception all interact.
 
+<!-- VISUAL:VIS-023 -->
+
 A grape variety supplies a starting point: it influences the fruit’s potential aroma, acidity, colour and tannin. Climate and weather then affect how that fruit ripens. The site, soil, slope, water availability and vineyard management can change vine growth and fruit composition. After harvest, choices such as fermentation temperature, yeast, skin contact, oak, blending and malolactic fermentation shape the wine further.
 
 Time changes it too. Maturation and bottle age can soften some flavours, develop new aromas or reduce youthful fruit. Finally, the temperature, glass, food and your own expectations affect how the wine reaches your senses.

@@ -14,6 +14,8 @@
 
 Icewine is a sweet wine made from fresh grapes that have naturally frozen on the vine. The grapes remain outdoors until a suitable freeze occurs, then they are harvested and pressed while frozen.
 
+<!-- VISUAL:VIS-039 -->
+
 When this happens, some of the grape’s water forms ice crystals and remains behind during pressing. The liquid juice is therefore more concentrated, containing higher levels of sugar, acidity and other dissolved grape components. That concentrated juice is fermented into wine.
 
 This is why Icewine can be intensely sweet and concentrated while still tasting lively. Its acidity provides freshness and balance, rather than leaving the wine tasting like simple liquid sugar.

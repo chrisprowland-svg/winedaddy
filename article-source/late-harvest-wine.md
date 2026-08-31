@@ -40,7 +40,7 @@ Yeast converts grape sugar into alcohol and carbon dioxide during fermentation. 
 
 That is why late-harvest wine can range from off-dry to distinctly sweet. **Off-dry** means a wine with noticeable but moderate sweetness. It is a useful sensory description, rather than a universal numerical category on every label. You can read more about [off-dry wine](/off-dry-wine-meaning/).
 
-Other things also affect how sweet a wine feels. Acidity can make sweetness seem fresher, while alcohol, aroma, serving temperature and texture influence the overall impression. A very fruity wine is not necessarily sweet: ripe fruit aromas can be present even when little sugar remains. The registered visual **VIS-002, “Dry does not mean flavourless,”** may help illustrate this distinction.
+Other things also affect how sweet a wine feels. Acidity can make sweetness seem fresher, while alcohol, aroma, serving temperature and texture influence the overall impression. A very fruity wine is not necessarily sweet: ripe fruit aromas can be present even when little sugar remains.
 
 ## What does late-harvest wine taste like?
 

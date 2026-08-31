@@ -16,6 +16,8 @@
 
 Climate affects wine by influencing how grapevines grow and how quickly their grapes ripen. Temperature, sunlight, rainfall, humidity, water availability and the length of the growing season all help determine the balance of sugar, acidity, flavour and phenolic maturity in the grapes.
 
+<!-- VISUAL:VIS-005 -->
+
 That balance carries through into the wine. More sugar at harvest can mean higher potential alcohol. Cooler or less advanced ripening can help grapes retain acidity. Suitable conditions can support flavour, colour and tannin development, particularly in red grapes.
 
 But climate is not a recipe that guarantees a particular style. A cool-climate wine is not automatically light, and a warm-climate wine is not automatically rich or high in alcohol. Grape variety, altitude, slope, soil, vineyard management, vintage, harvest timing and winemaking can all modify the result.
@@ -142,4 +144,3 @@ It strongly influences variety suitability, but it is not the only factor. Site,
 ### Why can two wines from the same region taste different?
 
 Vineyards may differ in elevation, slope, aspect, soil, wind and water availability. The grape variety, vintage, vineyard decisions and winemaking can also create significant differences.
-

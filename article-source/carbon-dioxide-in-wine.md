@@ -14,6 +14,8 @@
 
 Carbon dioxide in wine is the gas produced when yeast ferments grape sugar. During alcoholic fermentation, yeast converts sugar into ethanol, carbon dioxide and heat.
 
+<!-- VISUAL:VIS-021 -->
+
 In many wines, much of the CO₂ escapes during fermentation. Some remains dissolved in the liquid, however. When that dissolved gas is released in the glass, it can create a light fizz or a slightly prickly sensation known as **spritz**.
 
 Sparkling wine retains substantially more CO₂, usually under pressure, so it produces a stronger and more persistent stream of bubbles. The gas may come from a secondary fermentation in the bottle, a secondary fermentation in a closed tank, or fermentation that finishes in the bottle, as with many pét-nat styles.

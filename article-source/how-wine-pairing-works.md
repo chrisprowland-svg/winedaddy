@@ -14,6 +14,8 @@
 
 Wine pairing works by matching, or deliberately contrasting, the main characteristics of a wine and a dish.
 
+<!-- VISUAL:VIS-002 -->
+
 Look at the wine’s **intensity, body, acidity, sweetness, tannin, texture and flavour**. Then consider the food’s richness, salt, fat, heat, sweetness, acidity, texture, seasoning and cooking method.
 
 For example, a fresh, acidic wine may make rich or fried food feel more refreshing. A wine with some sweetness can be a useful starting point for chilli-hot food. A tannic red may work with roast lamb or steak because the food’s protein and fat can make the wine feel less aggressively drying.

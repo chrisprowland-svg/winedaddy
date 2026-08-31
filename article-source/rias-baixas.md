@@ -14,6 +14,8 @@ For an Australian wine learner, that means a bottle labelled “Rías Baixas” 
 - The designation has five official subzones: Val do Salnés, Condado do Tea, O Rosal, Soutomaior and Ribeira do Ulla.
 - Rías Baixas is often served with seafood, but not every bottle tastes the same or needs to be paired with seafood.
 
+<!-- VISUAL:VIS-013 -->
+
 ## Where is Rías Baixas?
 
 Rías Baixas sits in Galicia, Spain’s cool, wet north-western autonomous community. It is close to the Atlantic coast and includes areas around the lower courses of rivers such as the Ulla, Umia, Oitavén and Miño.
@@ -79,8 +81,6 @@ An Australian comparison can help: think of Rías Baixas as a reference point fo
 Fresh Rías Baixas whites often work well with oysters, prawns, grilled fish and other lightly seasoned seafood. Their acidity can refresh the palate, while their aromas complement delicate flavours.
 
 That does not make seafood a compulsory match. A fuller or more textured example may suit richer fish dishes, and personal preference matters more than a rigid rule.
-
-[VIS-013: A restrained seafood-context table may be reused here, showing fresh, aromatic and textured white-wine cues alongside oysters, prawns and grilled fish.]
 
 ## Common questions
 

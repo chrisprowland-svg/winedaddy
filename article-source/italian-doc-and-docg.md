@@ -88,8 +88,6 @@ When you see DOC or DOCG in a bottle shop or restaurant, use it as one piece of 
 6. **Notice practical details.** Alcohol, importer information and the back-label description can help explain the wine.
 7. **Keep the individual bottle in mind.** Producer, vintage, transport and storage still matter.
 
-An annotated label visual such as **VIS-009** may be reused here if validated, but the explanation should remain complete without it.
-
 ## Common questions
 
 ### Is DOCG always better than DOC?

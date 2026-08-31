@@ -132,4 +132,3 @@ No. Grape variety, vineyard, climate, pressing, skin contact, maturation, oak, b
 ## The simple takeaway
 
 Fermentation is the biological engine at the centre of winemaking: yeast transforms grape sugar into alcohol, carbon dioxide and heat, while producing compounds that help shape the wine’s aroma and texture. Winemakers manage that process according to the grapes, conditions and style they want—but fermentation is only one part of the journey from grape to bottle.
-

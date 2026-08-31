@@ -14,6 +14,8 @@
 
 Ancestral-method sparkling wine production involves bottling grape juice or partially fermented wine before its first alcoholic fermentation is complete. The wine still contains fermentable sugar and active or recoverable yeast. Once the bottle is sealed, fermentation continues inside it.
 
+<!-- VISUAL:VIS-021 -->
+
 As yeast consumes the remaining sugar, it produces alcohol and carbon dioxide. Because the bottle is closed, some of that carbon dioxide dissolves into the wine, creating effervescence.
 
 This is sometimes called **méthode ancestrale** or simply the **ancestral method**. Wines made this way are commonly associated with **pét-nat**, short for *pétillant naturel*. However, pét-nat is an informal, unregulated term in Australia, so it should not be treated as a guarantee that every bottle follows exactly the same process.

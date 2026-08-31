@@ -14,6 +14,8 @@
 
 A wine is **ageworthy** when its composition, structure and stability allow it to remain sound and develop desirable complexity over time.
 
+<!-- VISUAL:VIS-008 -->
+
 That usually means several features work together: freshness and acidity provide energy; tannin or other phenolic compounds provide structure; concentration gives the wine substance; and alcohol or sweetness can contribute to stability in the right context. Balance ties everything together, while the closure, oxygen exposure, microbial stability and storage conditions influence how the wine develops.
 
 Ageworthy does not mean simply “old”. It does not necessarily mean expensive, collectable or ready to drink. Nor does the ability to survive in bottle guarantee that the wine will become more enjoyable. A wine may soften or change over time without gaining the complexity or balance a drinker hopes for.

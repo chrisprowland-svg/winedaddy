@@ -64,6 +64,8 @@ Ageing in fortified wines can produce nutty, caramelised, dried-fruit, honeyed, 
 
 Ageing is not a single process. Oxygen exposure can influence chemical reactions, but tertiary aromas are not simply “oxidised aromas”. Bottle development also involves other transformations, including changes to volatile compounds and reactions that can occur under relatively low-oxygen conditions.
 
+<!-- VISUAL:VIS-008 -->
+
 A wine’s composition matters. Acidity, tannin, alcohol, residual sugar, phenolic material and the aromas present when the wine is young can all influence how it develops. The closure, bottle condition and amount of oxygen entering the bottle also matter.
 
 This is why two wines of the same age can smell very different. One may retain fresh fruit and acidity alongside developed aromas; another may have lost freshness or developed a fault. [Does wine improve with age?](/does-wine-improve-with-age/) explains why age and quality are not the same thing.

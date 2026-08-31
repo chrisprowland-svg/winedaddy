@@ -55,6 +55,8 @@ Likewise, dark fruit does not necessarily mean sweetness. A dry wine can smell r
 
 Yes. This is one of the most useful things to know about the variety.
 
+<!-- VISUAL:VIS-002 -->
+
 Touriga Nacional can be used for:
 
 - dry, still varietal red wine;

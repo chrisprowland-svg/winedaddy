@@ -17,6 +17,8 @@ The important point is that bottle ageing does not automatically mean improvemen
 
 Once wine is bottled, it continues to change in a relatively protected environment. Small amounts of oxygen may already be dissolved in the wine, trapped in the space below the closure, or gradually transferred through or around the closure.
 
+<!-- VISUAL:VIS-008 -->
+
 These conditions allow slow reactions involving compounds such as tannins, phenolics, sulphur dioxide and aroma molecules. The effects can include less overtly fresh fruit, softer-feeling tannins, changes in colour and the development of savoury, earthy, dried-fruit, honeyed or nutty aromas, depending on the style.
 
 That does not mean every bottle follows the same path. The wine’s acidity, tannin, sugar, alcohol, concentration, phenolic structure and overall balance all influence its development. Closure performance and storage conditions matter too.
@@ -47,7 +49,7 @@ In white wine, youthful fruit may become less prominent while more developed cha
 
 Other changes also occur. Aroma compounds can transform or rearrange, phenolic compounds can combine, and some wines may form sediment. The result depends on the starting wine and its history. Bottle-to-bottle differences can occur because closures do not all behave identically and because bottling oxygen and storage conditions may vary.
 
-The reusable visual **VIS-008, “How oxidation can develop in wine,”** can help explain this idea. Its message should be clear: oxidation is one influence on bottle development, not a complete definition of ageing, and more oxygen is not automatically better.
+Its message should be clear: oxidation is one influence on bottle development, not a complete definition of ageing, and more oxygen is not automatically better.
 
 ## What makes a wine suitable for bottle ageing?
 
