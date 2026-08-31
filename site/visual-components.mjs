@@ -68,10 +68,36 @@ function projectStatePoint(crop, lon, lat) {
   return [originX+(nativeX-cropX)*scale,originY+(nativeY-cropY)*scale];
 }
 
+function officialGeometryOnState(data, crop) {
+  const coordinates = data.paths.flatMap(path => [...path.matchAll(/(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)/g)].map(match => [Number(match[1]),Number(match[2])]));
+  const xs = coordinates.map(point => point[0]), ys = coordinates.map(point => point[1]);
+  const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+  const [minLon,minLat,maxLon,maxLat] = data.bbox;
+  const projectLocal = (x,y) => {
+    const lon = minLon + ((x-minX)/(maxX-minX))*(maxLon-minLon);
+    const lat = maxLat - ((y-minY)/(maxY-minY))*(maxLat-minLat);
+    return projectStatePoint(crop,lon,lat);
+  };
+  const paths = data.paths.map(path => path.replace(/(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)/g,(_,x,y) => {
+    const projected = projectLocal(Number(x),Number(y));
+    return `${projected[0].toFixed(1)} ${projected[1].toFixed(1)}`;
+  }));
+  return {paths,projectLocal};
+}
+
 function officialRegionMap({id, title, intro, hierarchy, summary, source, reference, labels = [], locator}) {
   const data = officialMapData[id];
   if (!data) throw new Error(`Missing official map data: ${id}`);
-  const places = [...data.markers, ...labels];
+  if (!locator) throw new Error(`Missing state locator configuration: ${id}`);
+  const geometry = officialGeometryOnState(data,locator.crop);
+  const places = [...data.markers, ...labels].map(place => {
+    if (place.kind === 'label') {
+      const point=geometry.projectLocal(place.x,place.y);
+      return {...place,x:point[0],y:point[1]};
+    }
+    const point=geometry.projectLocal(place.x,place.y);
+    return {...place,x:point[0],y:point[1],labelX:undefined,labelY:undefined};
+  });
   const placeHtml = places.map(place => {
     if (place.kind === 'label') return `<text class="wd-map__zone-label" x="${place.x}" y="${place.y}">${esc(place.label)}</text>`;
     const labelX = place.labelX ?? place.x + 10;
@@ -80,13 +106,10 @@ function officialRegionMap({id, title, intro, hierarchy, summary, source, refere
     return `<g class="wd-map__place"><circle cx="${place.x}" cy="${place.y}" r="5"/><text x="${labelX}" y="${labelY}">${esc(place.label)}</text></g>`;
   }).join('');
   const hierarchyHtml = hierarchy.map((item, index) => `<li><span>${index + 1}</span>${esc(item)}</li>`).join('');
-  const pathHtml = data.paths.map(path => `<path class="wd-map__official-boundary" d="${path}"/>`).join('');
+  const pathHtml = geometry.paths.map(path => `<path class="wd-map__official-boundary wd-map__official-boundary--context" d="${path}"/>`).join('');
   const referenceHtml = reference ? `<text class="wd-map__reference" x="62" y="59">${esc(reference)}</text>` : '';
-  if (!locator) throw new Error(`Missing state locator configuration: ${id}`);
-  const [locatorX,locatorY] = projectStatePoint(locator.crop,locator.lon,locator.lat);
-  const locatorHtml = `<div class="wd-map__locator"><p class="wd-map__panel-title">First, locate it</p><svg class="wd-map__svg wd-map__svg--locator" viewBox="0 0 520 360" role="img" aria-labelledby="${id}-locator-title ${id}-locator-desc"><title id="${id}-locator-title">${esc(locator.label)} within ${esc(locator.context)}</title><desc id="${id}-locator-desc">A recognisable state orientation map with the wine region marked in burgundy.</desc><image href="${esc(locator.asset)}" x="15" y="15" width="490" height="330"/><g class="wd-map__wine-marker"><circle cx="${locatorX.toFixed(1)}" cy="${locatorY.toFixed(1)}" r="8"/><text x="${(locatorX + (locator.dx ?? 14)).toFixed(1)}" y="${(locatorY + (locator.dy ?? -12)).toFixed(1)}">${esc(locator.label)}</text></g></svg></div>`;
-  const detailHtml = `<div class="wd-map__detail"><p class="wd-map__panel-title">Then, see the official GI</p><svg class="wd-map__svg" viewBox="0 0 520 360" role="img" aria-labelledby="${id}-svg-title ${id}-svg-desc"><title id="${id}-svg-title">${esc(title)}</title><desc id="${id}-svg-desc">Wine Australia spatial geometry with city and town reference markers for orientation.</desc>${pathHtml}${placeHtml}${referenceHtml}<g class="wd-map__north"><path d="M470 66V26M470 26l-8 14M470 26l8 14"/><text x="464" y="20">N</text></g></svg></div>`;
-  return `<figure class="learning-visual" id="${id.toLowerCase()}"><div class="wd-explainer wd-map" role="group" aria-labelledby="${id}-title" aria-describedby="${id}-summary"><p class="wd-explainer__eyebrow">WineDaddy map explainer</p><p class="wd-explainer__title" id="${id}-title">${esc(title)}</p><p class="wd-explainer__intro">${esc(intro)}</p><div class="wd-map__layout"><div class="wd-map__maps">${locatorHtml}${detailHtml}</div><div class="wd-map__key"><p>Geographic hierarchy</p><ol>${hierarchyHtml}</ol><p class="wd-map__notice">Locator: licensed state stencil. Detail: Wine Australia spatial translation. Square: city. Circle: local reference.</p></div></div><p class="wd-explainer__summary" id="${id}-summary"><span>Remember</span><strong>${esc(summary)}</strong></p></div><figcaption>Locator base adapted from “Australian states map” by PoliticsMaps, CC0/public domain. Detailed boundary: Wine Australia Register of Protected GIs and Open Data Hub. ${esc(source)}</figcaption></figure>`;
+  const integratedMap = `<svg class="wd-map__svg" viewBox="0 0 520 360" role="img" aria-labelledby="${id}-svg-title ${id}-svg-desc"><title id="${id}-svg-title">${esc(title)}</title><desc id="${id}-svg-desc">The official wine-region geometry shown in its correct position on a recognisable state map, with city and town references.</desc><image href="${esc(locator.asset)}" x="15" y="15" width="490" height="330"/>${pathHtml}${placeHtml}${referenceHtml}<g class="wd-map__north"><path d="M470 66V26M470 26l-8 14M470 26l8 14"/><text x="464" y="20">N</text></g></svg>`;
+  return `<figure class="learning-visual" id="${id.toLowerCase()}"><div class="wd-explainer wd-map" role="group" aria-labelledby="${id}-title" aria-describedby="${id}-summary"><p class="wd-explainer__eyebrow">WineDaddy map explainer</p><p class="wd-explainer__title" id="${id}-title">${esc(title)}</p><p class="wd-explainer__intro">${esc(intro)}</p><div class="wd-map__layout">${integratedMap}<div class="wd-map__key"><p>Geographic hierarchy</p><ol>${hierarchyHtml}</ol><p class="wd-map__notice">Burgundy area: official Wine Australia spatial translation. Square: city. Circle: local reference.</p></div></div><p class="wd-explainer__summary" id="${id}-summary"><span>Remember</span><strong>${esc(summary)}</strong></p></div><figcaption>State base adapted from “Australian states map” by PoliticsMaps, CC0/public domain. Regional boundary: Wine Australia Register of Protected GIs and Open Data Hub. ${esc(source)}</figcaption></figure>`;
 }
 
 function nationalWineMap({id, title, intro, hierarchy, summary}) {
