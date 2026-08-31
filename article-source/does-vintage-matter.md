@@ -170,9 +170,9 @@ No. Some wines improve with age, some change without improving, and some are bes
 
 ## Related learning
 
-- How to taste wine
-- How climate affects wine
-- How to read a wine label
-- How to cellar wine
-- Does wine improve with age?
-- Why wine prices vary
+- [How to taste wine](/how-to-taste-wine/)
+- [How climate affects wine](/how-climate-affects-wine/)
+- [How to read a wine label](/how-to-read-a-wine-label/)
+- [How to cellar wine](/how-to-cellar-wine/)
+- [Does wine improve with age?](/does-wine-improve-with-age/)
+- [Why wine prices vary](/why-wine-prices-vary/)
