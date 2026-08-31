@@ -20,6 +20,8 @@ The simplest way to think about Piedmont is as a region containing many legally 
 
 ## Where is Piedmont?
 
+<!-- VISUAL:VIS-024 -->
+
 Piedmont is in north-west Italy. The Alps lie broadly to the north and west, while the Apennines and Ligurian hills influence its southern and south-eastern edges. The region also includes parts of the Po Valley plain.
 
 For orientation, Turin is the most useful major-city reference point. The principal wine districts lie generally south-east of Turin, with Alba roughly 1–1.5 hours away by road, depending on the route and traffic. That is an orientation guide, not a fixed travel promise.

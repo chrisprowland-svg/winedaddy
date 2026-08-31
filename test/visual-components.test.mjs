@@ -15,8 +15,18 @@ test('rejects an unregistered visual reference', () => {
 
 test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-009'), true);
-  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-032','VIS-033','VIS-035','VIS-036','VIS-037','VIS-039','VIS-041','VIS-042','VIS-044','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) assert.equal(hasVisualComponent(id), true);
+  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-024','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-031','VIS-032','VIS-033','VIS-034','VIS-035','VIS-036','VIS-037','VIS-038','VIS-039','VIS-040','VIS-041','VIS-042','VIS-043','VIS-044','VIS-045','VIS-046','VIS-047','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) assert.equal(hasVisualComponent(id), true);
   assert.equal(hasVisualComponent('VIS-999'), false);
+});
+
+test('renders all nine international maps from sourced country stencils', () => {
+  for (const id of ['VIS-024','VIS-031','VIS-034','VIS-038','VIS-040','VIS-043','VIS-045','VIS-046','VIS-047']) {
+    const html=renderVisualComponents(`<!-- VISUAL:${id} -->`);
+    assert.match(html,/wd-map__country-stencil/);
+    assert.match(html,/Natural Earth 1:50m/);
+    assert.match(html,/Markers show location|orientation|boundary/i);
+  }
+  assert.match(renderVisualComponents('<!-- VISUAL:VIS-043 -->'),/wd-map__orientation-link/);
 });
 
 test('renders national and state overview maps from registered official geometry', () => {

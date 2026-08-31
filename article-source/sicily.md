@@ -14,6 +14,8 @@ Sicily is Italy’s large Mediterranean island, separated from mainland Calabria
 
 ## Where is Sicily?
 
+<!-- VISUAL:VIS-024 -->
+
 Sicily sits at the southern end of Italy, in the central Mediterranean. It is close to the toe of the Italian mainland, with the Strait of Messina separating the island from Calabria.
 
 For a general orientation, **Palermo** is the island’s capital and a useful reference point for western and northern Sicily. **Catania** is a useful eastern reference, particularly when discussing Mount Etna. Other names you may encounter include Marsala and Trapani in the west; Agrigento in the south; Vittoria, Ragusa, Modica, Noto and Syracuse in the southeast; and the offshore islands of Pantelleria and the Aeolian Islands.

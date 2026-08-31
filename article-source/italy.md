@@ -40,6 +40,8 @@ If you want to explore the relationship between place and wine in more detail, s
 
 ## A learner’s map of Italian wine
 
+<!-- VISUAL:VIS-024 -->
+
 You do not need to memorise every Italian denomination. Start with a few broad areas that show the country’s range.
 
 ### Piedmont: northern foothills and Nebbiolo

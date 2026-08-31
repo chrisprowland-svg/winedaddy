@@ -24,6 +24,8 @@ So there are three ideas to keep apart:
 
 ## Where is Montepulciano d’Abruzzo?
 
+<!-- VISUAL:VIS-024 -->
+
 Abruzzo is in central Italy, east of Rome, between the Apennine mountains and the Adriatic Sea. The regional capital is L’Aquila, while Pescara is a useful coastal and transport centre for understanding the area’s wine geography.
 
 As a broad orientation, Rome is roughly 200 kilometres by road from Pescara, usually around two and a quarter to three hours by car depending on the route and traffic. That is a sense of direction, not a promise of travel time to every part of the designation.

@@ -22,6 +22,8 @@ The important point is variation. A wine labelled Friuli may be fresh and straig
 
 ## Where is Friuli-Venezia Giulia?
 
+<!-- VISUAL:VIS-024 -->
+
 Friuli-Venezia Giulia is an Italian region, not a separate country or a synonym for neighbouring Veneto or Alto Adige. In Italian wine geography, it is commonly shortened to “Friuli”, although that shorthand can mean different things depending on the context.
 
 Useful orientation points include:

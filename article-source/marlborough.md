@@ -19,6 +19,8 @@ The important idea is variation. Marlborough contains different valleys, soils, 
 
 ## Where is Marlborough?
 
+<!-- VISUAL:VIS-038 -->
+
 Marlborough sits in the north-east of New Zealand’s South Island and is part of New Zealand’s wine geography. Blenheim is the main regional centre, while Renwick is an important vineyard locality. Other useful place names include the Wairau Valley, Southern Valleys, Awatere Valley and Seddon.
 
 Marlborough is roughly north-east of Christchurch. As a broad orientation, the road journey from Christchurch to Marlborough is about four hours, although the exact time depends on the route, conditions and destination.

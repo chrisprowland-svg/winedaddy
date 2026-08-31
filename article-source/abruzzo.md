@@ -27,6 +27,8 @@ There is also a Tuscan town called Montepulciano. Its Vino Nobile di Montepulcia
 
 ## Where is Abruzzo?
 
+<!-- VISUAL:VIS-024 -->
+
 Abruzzo borders Marche to the north, Lazio to the west and Molise to the south, with the Adriatic Sea to the east. L’Aquila is the regional capital and a useful inland reference point. Pescara is a practical coastal and transport reference, while Chieti and Teramo are important provincial centres.
 
 For an Australian learner picturing Italy, Abruzzo sits east of Rome across the central Apennines. Rome to L’Aquila is roughly one-and-a-half to two hours by road, while Rome to Pescara is approximately two to two-and-a-half hours, depending on the route and destination. These are broad orientation times, not precise travel promises.

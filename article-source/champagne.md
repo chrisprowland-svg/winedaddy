@@ -22,6 +22,8 @@ Champagne’s regional identity begins with place: its northern position, cool c
 
 ## Where is Champagne?
 
+<!-- VISUAL:VIS-047 -->
+
 Champagne sits within France’s national wine geography. Its vineyard area extends across parts of five départements: Marne, Aube, Aisne, Haute-Marne and Seine-et-Marne.
 
 For orientation, Paris is the most useful major-city reference. Champagne lies roughly north-east of Paris. Reims is an important reference point for the northern part of the region, while Épernay is a useful regional centre within the Champagne wine-growing landscape. Exact travel times vary with the route and starting point, so the distance and direction are better treated as geographic orientation than as a driving promise.

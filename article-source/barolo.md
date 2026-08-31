@@ -23,6 +23,8 @@ For an Australian learner, the simplest way to remember Barolo is: **place first
 
 ## Where is Barolo?
 
+<!-- VISUAL:VIS-024 -->
+
 Barolo lies in the Langhe hills of Piedmont, in Italy’s north-west. Piedmont is the broader regional parent, while the Langhe is a larger geographic and cultural landscape that extends beyond the legal Barolo area.
 
 The Barolo DOCG production area covers all or part of 11 municipalities:

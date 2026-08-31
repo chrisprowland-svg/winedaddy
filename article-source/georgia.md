@@ -23,6 +23,8 @@ For a first taste of Georgian wine language, begin with three ideas: Kakheti, Sa
 
 ## Where is Georgia in wine terms?
 
+<!-- VISUAL:VIS-031 -->
+
 Georgia’s clearest geographic description is **South Caucasus**. Its western edge meets the Black Sea, while the country extends through valleys, foothills and mountainous areas. That varied geography helps explain why Georgian wine should not be reduced to one national flavour profile.
 
 The most useful regional starting point is **Kakheti** in eastern Georgia. Its important vineyard areas include the Alazani and Iori basins. Kakheti is strongly associated with Saperavi, Rkatsiteli and traditional qvevri wines, although both traditional and modern European-style wines are made there.

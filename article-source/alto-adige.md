@@ -22,6 +22,8 @@ For an Australian drinker, Alto Adige is best understood as a place where Alpine
 
 ## Where is Alto Adige?
 
+<!-- VISUAL:VIS-024 -->
+
 Alto Adige is associated broadly with the Autonomous Province of Bolzano/Bozen, in Italy’s far north. Bolzano/Bozen is the provincial capital and the most useful regional centre for orientation.
 
 The region borders **Austria** to the north and **Switzerland** to the west. Trentino lies to the south, while Veneto and Lombardy are neighbouring Italian territories. Austria, Switzerland, Trentino, Veneto and Lombardy are separate places and, where relevant, separate wine-region identities.

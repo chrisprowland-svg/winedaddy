@@ -14,6 +14,8 @@ Barbaresco is both a place and a protected Italian wine appellation. It is not a
 
 ## Where is Barbaresco?
 
+<!-- VISUAL:VIS-024 -->
+
 The geographic hierarchy is:
 
 **Italy → Piedmont → Langhe → Barbaresco DOCG**
