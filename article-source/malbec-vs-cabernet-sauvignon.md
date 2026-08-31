@@ -33,6 +33,8 @@ That is a useful starting point, not a rule. A cool-climate Cabernet can be lean
 | Tannin | Often rounder or smoother, though Cahors can be firm | Usually firmer and more prominent |
 | Overall impression | Dark-fruited, generous and rounded | Upright, structured and persistent |
 
+<!-- VISUAL:VIS-001 -->
+
 The word **tannin** describes the drying or gripping sensation that can appear on your gums. Cabernet Sauvignon generally has more obvious tannin, but extraction, ripeness, oak and bottle age can narrow the difference.
 
 For a fuller explanation, see [What Are Tannins?](/what-are-tannins/).
@@ -40,6 +42,10 @@ For a fuller explanation, see [What Are Tannins?](/what-are-tannins/).
 ## Does Malbec taste sweeter than Cabernet Sauvignon?
 
 No. Neither grape is inherently sweet.
+
+<!-- VISUAL:VIS-003 -->
+
+<!-- VISUAL:VIS-002 -->
 
 A wine described as **dry** has little residual sugar. It can still smell and taste strongly of ripe plum, blackberry or blackcurrant. Fruitiness is not the same thing as sweetness.
 

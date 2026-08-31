@@ -14,6 +14,8 @@
 
 **South Eastern Australia is an official Australian wine geographical indication (GI) classified as a zone.** A GI is a protected geographic name used to identify where wine comes from.
 
+<!-- VISUAL:VIS-005 -->
+
 It is an unusually large zone. Its legal area includes all of New South Wales, Victoria, Tasmania and the Australian Capital Territory, as well as defined parts of Queensland and South Australia.
 
 That scale is the key to understanding it. South Eastern Australia is not a compact region with one climate, soil type or wine style. It includes many separate wine zones, regions and subregions. A bottle carrying the name therefore communicates a broad origin, but not the precise place where the grapes were grown.
@@ -77,6 +79,8 @@ Red, white, sparkling and fortified wines can all be found within the zone. That
 ## What does the name tell you on a wine label?
 
 If a bottle says **South Eastern Australia**, you can generally read that as a broad geographic-origin statement. It tells you that the wine’s qualifying origin falls within the GI’s large legal area.
+
+<!-- VISUAL:VIS-006 -->
 
 It does not, by itself, tell you:
 

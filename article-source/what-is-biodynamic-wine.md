@@ -128,4 +128,3 @@ No. Biodynamic status does not automatically mean sulphite-free. Check the wine�
 ### Should I buy biodynamic wine?
 
 If the farming approach interests you, look for a clear description of the producer’s practices and any named certification. Then choose the wine by its grape variety, region and style—as you would with any other bottle. Biodynamic tells you something important about how the vineyard is managed, but it does not decide whether you will enjoy the wine.
-

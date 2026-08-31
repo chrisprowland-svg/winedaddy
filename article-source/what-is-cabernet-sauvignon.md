@@ -14,6 +14,8 @@
 
 Cabernet Sauvignon is a **red wine grape variety**. It is one of the world’s best-known grapes and is used to make both single-variety wines and blends.
 
+<!-- VISUAL:VIS-002 -->
+
 Cabernet Sauvignon wines are often medium to full bodied, with deep colour, noticeable acidity and firm or structured tannins. Tannin is the part of wine that can make your mouth feel dry or grippy. The grape commonly produces dark-fruit flavours such as blackcurrant, blackberry, mulberry and plum.
 
 That is the classic outline, but Cabernet Sauvignon is not one fixed style. A cool-climate example may taste more restrained, herbal or finely structured, while a warmer-climate wine may seem riper, fuller and richer. Oak maturation can add cedar, spice or toast, and bottle age can soften tannin and bring more savoury notes.

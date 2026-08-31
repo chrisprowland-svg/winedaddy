@@ -40,7 +40,7 @@ Usually, Nero d’Avola is encountered as a **dry red wine**. In wine language, 
 
 That is different from fruitiness. A dry wine can taste of ripe cherries, plums or berries and still contain little noticeable sugar. Ripe fruit aromas, alcohol and oak can create a sweet-fruited or warming impression without making the wine technically sweet.
 
-This is a useful distinction when tasting Nero d’Avola: fruity does not necessarily mean sweet. [VIS-002: Dry does not mean flavourless]
+This is a useful distinction when tasting Nero d’Avola: fruity does not necessarily mean sweet.
 
 ## How much acidity, tannin and body does it have?
 

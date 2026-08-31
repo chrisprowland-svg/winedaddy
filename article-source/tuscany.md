@@ -32,7 +32,7 @@ As a broad travel orientation, Tuscany is south of Milan and north of Rome. Flor
 
 The familiar place names and the legal wine names are related but not identical. A town may feature in an appellation name, while the protected production area can include surrounding defined territory.
 
-A registered visual such as **VIS-024**, the Italy geographic and wine-region orientation map, can help show Tuscany’s position within Italy. It should be read as broad orientation rather than a map of precise appellation boundaries.
+It should be read as broad orientation rather than a map of precise appellation boundaries.
 
 ## Tuscany is a collection of wine areas
 

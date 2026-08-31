@@ -96,6 +96,8 @@ These wines may all have bubbles, but sparkling wine is a broad family. Origin, 
 
 Australian shoppers need to read the whole label rather than relying on the word Prosecco alone.
 
+<!-- VISUAL:VIS-009 -->
+
 Imported Italian Prosecco refers to wine made under the protected Italian designation. Under Australia’s current arrangements, Prosecco has also been used domestically as a grape-variety name. That means an Australian-produced wine and an imported Italian Prosecco are not automatically legally or stylistically identical.
 
 Check the country-of-origin information and the rest of the label. “Prosecco” does not, by itself, tell you that the wine was made in Italy.

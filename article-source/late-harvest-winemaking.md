@@ -66,6 +66,8 @@ Botrytis is not automatically bad or good. Under particular conditions, controll
 
 Alcoholic fermentation is the stage where yeast converts grape sugar into alcohol, carbon dioxide and heat.
 
+<!-- VISUAL:VIS-021 -->
+
 With later-picked grapes, the basic possibilities are:
 
 1. The higher-sugar juice ferments close to dryness, leaving little residual sugar.

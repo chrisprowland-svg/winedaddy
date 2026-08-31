@@ -13,6 +13,8 @@
 
 Australian Shiraz is a national grape-and-place story rather than a single taste profile. It can make medium- to full-bodied wines, ranging from rich and dark-fruited to fresher, more savoury, spicy or peppery styles.
 
+<!-- VISUAL:VIS-005 -->
+
 The main reason for this variety is interaction. Climate affects the growing season, but site, elevation, slope, water availability, vintage conditions, vineyard decisions and winemaking matter too. A Shiraz from a warmer South Australian region may often feel richer and darker-fruited, while some cooler or elevated examples can show more freshness, spice or pepper. These are useful tendencies, not rules.
 
 The regional name on an Australian label tells you where the grapes came from under the geographical-indication, or GI, system. It does not prescribe one flavour profile. To understand a bottle, combine the GI with the vintage, the producer’s winemaking choices and what you actually taste.
@@ -40,6 +42,8 @@ For more background, see [What is terroir?](/what-is-terroir/) and [How climate 
 ## Representative Australian Shiraz styles
 
 These regions are examples, not a complete directory or a ranking.
+
+<!-- VISUAL:VIS-002 -->
 
 ### Barossa Valley
 

@@ -82,6 +82,8 @@ These are regional associations, not rules. A North East Victoria wine is not au
 
 A North East Victoria geographic reference tells you that the wine’s grapes or wine meet the relevant origin requirements for that protected GI.
 
+<!-- VISUAL:VIS-006 -->
+
 It does not, by itself, tell you:
 
 - which of the five regional GIs supplied the grapes;
@@ -100,6 +102,8 @@ This is a useful way to read regional labels: treat them as a starting point for
 ## North East Victoria compared with nearby Victorian regions
 
 North East Victoria is one of several Victorian wine zones. It should not be confused with Central Victoria, which includes regional GIs such as Goulburn Valley, Heathcote, Strathbogie Ranges and Upper Goulburn.
+
+<!-- VISUAL:VIS-005 -->
 
 It is also distinct from North West Victoria, where regions such as Murray Darling and Swan Hill are located. These are all parts of inland Victoria, but they are separate areas in the official GI hierarchy.
 

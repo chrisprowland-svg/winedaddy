@@ -42,6 +42,10 @@ The legal boundary is defined by Wine Australia’s textual description. A simpl
 
 The five registered regions within Port Phillip are:
 
+<!-- VISUAL:VIS-006 -->
+
+<!-- VISUAL:VIS-005 -->
+
 1. Geelong  
 2. Macedon Ranges  
 3. Mornington Peninsula  

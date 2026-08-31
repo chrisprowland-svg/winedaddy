@@ -15,6 +15,8 @@
 
 Start with a **fresh, dry, high-acid white wine or dry sparkling wine**. Crisp Chardonnay, Sauvignon Blanc, Riesling, Pinot Gris or Pinot Grigio and brut sparkling wine are all useful starting points.
 
+<!-- VISUAL:VIS-013 -->
+
 For plain raw oysters, look for a wine that is light to medium-bodied, fresh and not dominated by heavy oak or high alcohol. With lemon, vinegar or mignonette, choose a wine with enough acidity and brightness to stay lively beside those sharp flavours.
 
 The preparation changes the answer. Creamy, grilled or cooked oysters can work with a fuller, more textural Chardonnay. Fried or crumbed oysters usually need plenty of freshness, and bubbles can help refresh the palate beside oil and crunchy coating.

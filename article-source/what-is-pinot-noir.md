@@ -185,5 +185,4 @@ If you want deeper information about Pinot Noir’s history, taxonomy, clones, v
 - [What does oak do to wine?](/winemaking/oak.html)
 - [What is whole-bunch fermentation?](/winemaking/whole-bunch.html)
 
-
 ---

@@ -47,6 +47,8 @@ The foundational guide [What is Riesling?](/what-is-riesling/) explains the grap
 
 Often, in the Australian styles shoppers commonly encounter, Moscato is sweeter than a typical Australian dry Riesling. But this is a comparison of common styles—not an inherent feature of the grapes.
 
+<!-- VISUAL:VIS-002 -->
+
 A Moscato can be dry, and a Riesling can be sweet. The finished wine’s residual sugar—the sugar left after fermentation—plays an important role. Acidity, alcohol, carbonation and flavour intensity also affect how that sugar is perceived.
 
 A sweet wine with lively acidity can feel refreshing rather than heavy. A dry wine with expressive fruit aromas can seem sweet even when it contains little residual sugar.
@@ -62,8 +64,6 @@ This is the most useful lesson when comparing Moscato and Riesling.
 A dry Riesling can smell vividly of lime, lemon or ripe fruit. That does not make it a sweet wine. Likewise, a floral Moscato can seem sweet-fruited because of its aroma, even before the wine reaches your palate.
 
 Acidity helps explain the difference. It gives wine freshness and can balance sugar, but it does not literally remove sugar. This is why two wines with similar sweetness can feel very different: one may seem crisp and lively, while another feels rounder and heavier.
-
-The registered visual **VIS-002, “Dry does not mean flavourless,”** is a useful companion to this idea if it is included on the page.
 
 ## How do they taste different?
 

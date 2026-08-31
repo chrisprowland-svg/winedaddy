@@ -72,6 +72,8 @@ The DOP specification also requires a vintage indication on bottled wines. Tradi
 
 Bierzo is not a sub-region of Rioja, Rueda or Toro. These are separate Spanish designations with different landscapes and grape associations.
 
+<!-- VISUAL:VIS-005 -->
+
 - **Rioja** is a much larger designation spanning parts of several Spanish territories.
 - **Ribera del Duero** is associated particularly with Tempranillo and the Duero plateau.
 - **Rueda** is especially associated with white wines, including Verdejo.

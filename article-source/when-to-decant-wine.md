@@ -149,4 +149,3 @@ Yes. A clean jug or carafe can be practical for sediment removal or aeration. Fo
 ### Should old wine be decanted for longer?
 
 No. Older wine may contain sediment, but delicate older wines can fade with prolonged aeration. Decant gently and briefly when sediment removal is the main purpose.
-

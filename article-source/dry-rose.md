@@ -13,6 +13,8 @@
 
 Dry rosé is rosé wine with low residual sugar — the sugar left in the wine after fermentation — and little perceptible sweetness.
 
+<!-- VISUAL:VIS-002 -->
+
 For an international reference, the OIV describes dry wine as containing no more than 4 grams of sugar per litre, or up to 9 grams per litre when the wine’s acidity provides the permitted balance. This is a useful technical definition, but it should not be treated automatically as an Australian legal labelling threshold.
 
 The important idea is that **dryness is one characteristic of a wine, not a description of everything about it**. It does not tell you how pale the rosé will be, how fruity it will taste, how much acidity it has, how much alcohol it contains or whether it is high quality.

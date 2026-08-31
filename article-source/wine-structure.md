@@ -13,6 +13,8 @@
 
 Wine structure is the framework of physical and sensory sensations that gives a wine shape, weight, tension, grip, texture and persistence in the mouth.
 
+<!-- VISUAL:VIS-002 -->
+
 The main contributors are acidity, tannin, alcohol, sweetness, body and texture. They interact constantly. Acidity can make a wine feel fresh and mouth-watering. Tannin can create drying grip. Alcohol can add warmth and weight. Sweetness can add roundness. Body describes the overall sense of fullness, while texture describes how the wine feels as it moves across your palate.
 
 So, structure is not a scorecard with separate boxes. It is the impression created by the components working together. A wine can be full-bodied but poorly integrated if its alcohol feels hot or its tannin dominates. A lighter-bodied wine can still have excellent structure if its acidity, texture and finish work in harmony.

@@ -4,6 +4,8 @@
 
 Burgundy is a wine region in east-central France—not a grape variety. Its French name is **Bourgogne**, and it is best known for wines made principally from **Pinot Noir** and **Chardonnay**.
 
+<!-- VISUAL:VIS-005 -->
+
 The region runs broadly from the Chablis area and Grand Auxerrois in the north, through the Côte de Nuits, Côte de Beaune and Côte Chalonnaise, to the Mâconnais in the south. Burgundy is not one uniform wine style. It is a layered system of places, appellations, vineyard sites, producers, vintages and winemaking decisions.
 
 For an Australian wine learner, the biggest adjustment is simple: Burgundy labels often lead with **where the wine comes from**, while Australian labels commonly lead with **which grape variety was used**.
@@ -137,6 +139,8 @@ For broader context, see [Australian wine regions](/australian-wine-regions/) an
 ## A practical way to read a Burgundy label
 
 When you encounter Burgundy in Australia, try this sequence:
+
+<!-- VISUAL:VIS-006 -->
 
 1. **Look for the place or appellation.** Is it Bourgogne, a village name, a Premier Cru designation or a Grand Cru name?
 2. **Identify the colour and likely principal grape.** Red Burgundy is principally associated with Pinot Noir; white Burgundy is principally associated with Chardonnay, subject to appellation rules.

@@ -13,6 +13,8 @@
 
 Carbonic maceration is a winemaking method in which intact grapes—usually whole bunches—are placed in a closed vessel containing carbon dioxide and very little oxygen.
 
+<!-- VISUAL:VIS-014 -->
+
 Because the berries are still unbroken, their early transformation happens partly inside the fruit. Enzymes drive a short-lived intracellular fermentation, producing a small amount of alcohol and changing some acids and aroma compounds. The grapes are then crushed or pressed, and ordinary yeast-driven alcoholic fermentation usually completes the wine.
 
 That sequence matters. Carbonic maceration is not simply “fermentation without yeast”. Yeast may ferment juice released by broken berries during the treatment, and yeast fermentation normally plays the main role in completing the wine.

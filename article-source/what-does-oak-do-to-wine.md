@@ -1,6 +1,5 @@
 # What Does Oak Do to Wine?
 
-
 ## Highlights
 
 - Oak can change wine through **wood-derived flavour** and through the way wine matures in an oak vessel.
@@ -143,4 +142,3 @@ No. “Unoaked” usually signals an intention to preserve fruit, acidity and fr
 - [What is Chardonnay?](/what-is-chardonnay/)
 - [What is Shiraz?](/what-is-shiraz/)
 - [Winemaking](/winemaking/)
-

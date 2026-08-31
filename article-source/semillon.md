@@ -30,6 +30,8 @@ Acidity is another variable. Early-picked Australian Sémillon can have pronounc
 
 Sémillon can be either dry or sweet.
 
+<!-- VISUAL:VIS-002 -->
+
 A **dry** wine has little or no perceptible residual sugar. A wine can still smell fruity, rich or honeyed while remaining dry. In other words, fruit flavour is not the same thing as sweetness.
 
 Sémillon is also used for sweet wines, including wines made with the help of *Botrytis cinerea*, sometimes called noble rot. This fungus reduces the water in grapes and concentrates their sugars. Botrytised Sémillon is an important international style, particularly in Bordeaux, but it should not be treated as the default Australian expression.

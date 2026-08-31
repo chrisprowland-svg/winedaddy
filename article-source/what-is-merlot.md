@@ -39,6 +39,8 @@ A warmer site and riper grapes may contribute darker fruit, fuller body and a ri
 
 Most still Merlot is dry.
 
+<!-- VISUAL:VIS-002 -->
+
 This is one of the most useful things to understand about the variety. A wine can taste strongly of ripe plum or blackberry without containing much residual sugar. Fruit flavour is an aroma and flavour impression; dryness describes the wine’s sweetness level.
 
 So, if you enjoy rich, ripe fruit flavours but do not want a sweet wine, a dry Merlot may still suit you.
@@ -134,4 +136,3 @@ No. They are different red grape varieties, although they are sometimes blended 
 ### Can Merlot be blended?
 
 Yes. Merlot can be bottled on its own or blended with Cabernet Sauvignon and other varieties. Blending can change the wine’s fruit, texture, body and structure.
-

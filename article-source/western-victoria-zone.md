@@ -14,6 +14,8 @@
 
 Western Victoria is a protected Australian wine GI zone in the state of Victoria. It is a broad geographic layer used to describe wine from a large part of western and south-western Victoria.
 
+<!-- VISUAL:VIS-025 -->
+
 It is not the same thing as the Grampians, Great Western, Pyrenees or Henty wine regions. Those names describe narrower places within, or associated with, the wider Western Victoria geographic area.
 
 The simplest way to read the hierarchy is:

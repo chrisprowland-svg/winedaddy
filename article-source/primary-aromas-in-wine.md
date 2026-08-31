@@ -14,6 +14,8 @@
 
 A primary aroma is a grape-derived or varietal aroma that contributes to a wine’s smell. It is mainly associated with the grape’s variety and composition before fermentation.
 
+<!-- VISUAL:VIS-023 -->
+
 That does not mean the aroma is copied unchanged from a grape into a bottle. Some aroma compounds are present in the grape, while others begin as non-volatile precursors and are released or changed during processing and fermentation. Ripeness, vineyard conditions, seasonal weather, harvest timing and winemaking all influence how that grape-origin character appears in the finished wine.
 
 Primary aromas are often described using familiar references such as lime, peach, blackcurrant, violet, mint or passionfruit. These are comparisons, not ingredients. If a wine smells of peach, nobody has necessarily added peach to it; the aroma reminds you of peach.

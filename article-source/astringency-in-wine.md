@@ -13,6 +13,8 @@
 
 Astringency is the sensation that makes your mouth feel **dry, puckered, rough or grippy** after drinking wine. You may notice it around your gums, cheeks, tongue or palate, sometimes becoming more obvious after swallowing or spitting.
 
+<!-- VISUAL:VIS-002 -->
+
 It is a tactile sensation rather than a basic taste. In many wines, tannins and other phenolic compounds are the main contributors. Tannins can interact with saliva and reduce the feeling of lubrication in your mouth, creating the familiar drying or gripping effect.
 
 That does not mean tannin and astringency are interchangeable. **Tannin is a group of compounds in the wine; astringency is what you feel.**

@@ -30,6 +30,8 @@ The amount of residual sugar matters, but it does not tell the whole sensory sto
 
 An off-dry wine may taste:
 
+<!-- VISUAL:VIS-002 -->
+
 - gently sweet;
 - rounded or slightly fuller;
 - fruit-forward;

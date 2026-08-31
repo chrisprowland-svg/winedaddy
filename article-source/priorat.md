@@ -34,6 +34,8 @@ The protected wine area is narrower than the larger administrative **Priorat com
 
 For an Australian consumer, the key distinction is between **place**, **designation** and **grape**.
 
+<!-- VISUAL:VIS-009 -->
+
 - **Priorat** identifies a regulated geographical origin.
 - **DOQ Priorat** or **DOCa Priorat** identifies the protected designation.
 - **Garnacha** or **Cariñena** identifies a grape variety.

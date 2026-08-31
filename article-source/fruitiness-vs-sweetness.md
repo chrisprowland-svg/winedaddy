@@ -26,6 +26,8 @@ The simplest rule is:
 
 When someone calls a wine *fruity*, they are usually describing what they smell and taste. The fruit impression may be fresh and bright, ripe and rich, or more like jam, dried fruit or boiled sweets.
 
+<!-- VISUAL:VIS-002 -->
+
 Some common examples include:
 
 - lemon, lime or grapefruit;

@@ -14,6 +14,8 @@
 
 Freshness in wine is a sensory impression. A fresh wine may seem vibrant, energetic, lifted, clear and mouth-watering rather than heavy, flat, dull or tired.
 
+<!-- VISUAL:VIS-008 -->
+
 Acidity is often one of the main contributors. It can make your mouth water and give wine a lively shape. But freshness is a whole-wine judgement, shaped by the interaction of fruit character, ripeness, alcohol, sweetness, texture, phenolics, carbonation, balance, serving condition and age.
 
 That is why freshness is not the same as a laboratory result. A wine with high acidity may taste sharply sour rather than fresh if it lacks fruit or balance. A rich, full-bodied or mature wine may still feel fresh when its components remain integrated.

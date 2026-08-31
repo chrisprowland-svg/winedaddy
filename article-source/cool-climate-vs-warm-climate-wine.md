@@ -22,6 +22,8 @@ Those are tendencies, not rules. A cool-climate wine can be rich and powerful, w
 
 A cool climate slows the pace at which grapes ripen. This can give growers more time for flavour development while helping the grapes retain acidity.
 
+<!-- VISUAL:VIS-005 -->
+
 Cool-climate wines are often associated with:
 
 - fresh, vibrant acidity;

@@ -120,4 +120,3 @@ Most importantly, do not decide whether you like Shiraz based on one bottle. The
 ## The short version
 
 Shiraz is Australia’s familiar name for the Syrah grape. It is usually made into dry red wine and can taste dark-fruited, peppery, floral, savoury, spicy or richly textured. Australian Shiraz is not a single heavy or sweet style: region, climate, ripeness, vineyard conditions and winemaking all shape the result.
-

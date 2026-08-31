@@ -96,7 +96,7 @@ A named grape variety is not necessarily a statement that the wine contains no o
 
 So a bottle labelled “Napa Valley Cabernet Sauvignon” gives you two useful clues: a regulated geographic origin and a regulated grape-variety claim. It still does not tell you exactly how ripe, tannic, oaky, powerful or ageworthy the wine will be.
 
-For more label confidence, see [How to Read a Wine Label](https://winedaddy.com.au/how-to-read-a-wine-label/). The existing VIS-009 label callout can support this section if approved for reuse.
+For more label confidence, see [How to Read a Wine Label](https://winedaddy.com.au/how-to-read-a-wine-label/).
 
 ## Napa Valley compared with Australian wine regions
 

@@ -56,6 +56,8 @@ This distinction is useful when buying wine. Regional names describe a place wit
 
 Canberra District has a strongly continental climate. Wine Australia describes warm, dry summer days, cold summer nights, cool autumn temperatures and the possibility of rain near harvest.
 
+<!-- VISUAL:VIS-005 -->
+
 The GI covers a wide elevation range, from approximately 264 to 1,419 metres. That figure describes the geographical area, not the height of every vineyard. Differences in elevation, slope and aspect can create local variations in growing conditions.
 
 Spring frost and dry conditions can also make grape growing challenging in some sites. The combination of warm days and cool nights can help grapes ripen while retaining freshness, although the result depends on the variety, vineyard location and vintage.

@@ -71,6 +71,8 @@ Do not assume that every bottle must lie down. If the bottle uses another type o
 
 Pinot Noir can develop beautifully with age, but the variety name alone does not establish a drinking window. Australian Pinot Noir ranges from light, fresh wines designed for earlier drinking to more concentrated and structured examples capable of extended development.
 
+<!-- VISUAL:VIS-008 -->
+
 Look for several clues rather than one magic indicator.
 
 ### Producer guidance

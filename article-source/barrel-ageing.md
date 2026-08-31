@@ -13,6 +13,8 @@
 
 Barrel ageing is the maturation of wine in a wooden barrel, most commonly an oak barrel. It usually takes place after fermentation, although some wines are fermented in barrels and then continue ageing there.
 
+<!-- VISUAL:VIS-008 -->
+
 During barrel ageing, the wine interacts with the wood and receives gradual exposure to oxygen through the barrel and its fittings. These conditions can influence the wine’s aroma, texture, tannin, colour and overall development.
 
 That means a barrel is not just a container that flavours wine. It is an active part of the winemaking process. The result depends on the barrel, the wine and how the maturation is managed. Barrel ageing can add complexity and integration in some wines, but excessive wood or oxygen can overwhelm fruit, dry out the palate or reduce freshness.

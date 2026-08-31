@@ -14,6 +14,8 @@
 
 European wine classifications are a group of European Union and national systems that organise and protect wine names. They often connect a wine with a defined geographical origin and a set of production rules.
 
+<!-- VISUAL:VIS-006 -->
+
 Those rules may cover the area where grapes are grown, permitted grape varieties, yields, harvesting methods, winemaking, ageing, analytical limits and labelling. The exact rules depend on the particular protected name.
 
 The important point is that there is no single European scale running neatly from “ordinary” to “best”. France’s AOC and AOP, Italy’s DOC and DOCG, Spain’s DO and DOCa, and Germany’s Prädikatswein terms communicate different kinds of information. Treating them as identical steps on one ladder will make European labels more confusing, not less.

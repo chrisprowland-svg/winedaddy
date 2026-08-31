@@ -67,6 +67,10 @@ A town or place can be widely associated with wine without its name being a prot
 
 For a single GI claim, Wine Australia’s explanatory material states that at least 85% of the grapes used to make the wine normally need to come from within the claimed GI, subject to the current regulations and applicable blending rules.
 
+<!-- VISUAL:VIS-009 -->
+
+<!-- VISUAL:VIS-006 -->
+
 That is useful background for reading a label, but it is not a complete compliance formula. Multiple GI claims have additional conditions, and rules can change. If several geographic names appear, do not assume that they are equally represented or interchangeable.
 
 A practical way to read the label is:

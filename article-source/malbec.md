@@ -37,6 +37,8 @@ For a beginner, “medium- to full-bodied” is a useful starting point, but lig
 
 Most Malbec is dry, meaning it has little or no perceptible sweetness from residual sugar. But dry does not mean flavourless.
 
+<!-- VISUAL:VIS-002 -->
+
 A dry Malbec can taste strongly of ripe plum, blackberry or black cherry. Those fruit impressions are aromas and flavours, not necessarily sugar. This is the same reason a dry wine can smell “sweet” or fruit-rich without tasting sugary.
 
 That distinction is useful when reading a label or choosing a bottle: a fruity Malbec is not automatically a sweet Malbec. For more on the difference, see [what sweetness means in wine](/what-is-sweetness-in-wine/).

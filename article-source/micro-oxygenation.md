@@ -13,6 +13,8 @@
 
 Micro-oxygenation, sometimes written as *microoxygenation* and often shortened to MOX, is a winemaking process that introduces very small, controlled amounts of oxygen into wine, usually through specialised equipment.
 
+<!-- VISUAL:VIS-008 -->
+
 The aim is to guide oxygen-dependent reactions during winemaking or maturation. In red wine, these reactions can involve phenolic compounds such as tannins and anthocyanins—the compounds associated with structure, astringency and colour.
 
 A winemaker may use micro-oxygenation to influence colour stability, tannin integration, mouthfeel, reductive aromas or the wine’s development. But these are possibilities, not guarantees. The outcome depends on the wine, the oxygen rate and duration, timing, vessel, temperature, sulphur dioxide and microbial conditions.

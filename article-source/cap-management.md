@@ -13,6 +13,8 @@
 
 Cap management is the controlled handling of the layer of grape skins and other solid material that forms on top of a red-wine ferment.
 
+<!-- VISUAL:VIS-021 -->
+
 As yeast converts grape sugar into alcohol, it produces carbon dioxide. Bubbles of this gas become caught among the grape solids, helping lift them towards the surface. The result is a floating layer known as the cap.
 
 The cap may contain skins and seeds. It may also contain stems if the winemaker has included whole bunches or retained stems. Its composition therefore depends on how the grapes were prepared.

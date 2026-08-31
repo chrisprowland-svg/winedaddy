@@ -66,7 +66,7 @@ Depending on the wine, you might find:
 
 Acidity gives the wine lift and liveliness, while tannin can create firmness or a drying sensation on the gums. If you are unfamiliar with tannin, our guide to [what tannins are](/what-are-tannins/) explains the feeling in more detail. You can also explore [acidity in wine](/what-is-acidity-in-wine/) and [wine body](/what-is-wine-body/) to understand why two Carignan wines may feel so different.
 
-Fruit flavour does not mean a wine is sweet. A Carignan can smell or taste of ripe red or dark fruit while still being completely dry. This is the same distinction shown in the reusable **VIS-002 — Dry does not mean flavourless** visual: fruitiness describes flavour, while dryness describes the amount of residual sugar.
+Fruit flavour does not mean a wine is sweet. A Carignan can smell or taste of ripe red or dark fruit while still being completely dry.
 
 ## Is Carignan used in blends?
 

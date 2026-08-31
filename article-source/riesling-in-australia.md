@@ -69,11 +69,13 @@ This is why “cool climate” should be treated as a helpful clue rather than a
 
 One of the most useful things to know about Riesling is that dryness and fruitiness are separate qualities.
 
+<!-- VISUAL:VIS-002 -->
+
 A dry wine has little or no perceptible sweetness. It can still smell strongly of citrus, flowers or green apple and taste intensely fruity. Australian dry Riesling commonly combines citrus flavour with lively acidity, which is why it can feel energetic rather than sweet.
 
 An off-dry Riesling contains some perceptible sweetness, but acidity can balance it. Sweet Riesling has a more obviously rich or dessert-like profile. None of these categories tells you exactly how aromatic or full-bodied the wine will be.
 
-When choosing a bottle, look for sweetness information as well as the region. Do not assume that “dry” means plain, thin or lacking fruit. [What Is Sweetness in Wine?](/what-is-sweetness-in-wine/) explains the distinction in more detail. The visual **VIS-002, “Dry does not mean flavourless,”** may also support this explanation.
+When choosing a bottle, look for sweetness information as well as the region. Do not assume that “dry” means plain, thin or lacking fruit. [What Is Sweetness in Wine?](/what-is-sweetness-in-wine/) explains the distinction in more detail.
 
 ## The main Australian Riesling styles
 

@@ -26,6 +26,8 @@ It is also important not to assume that Australian Pinot Noir only comes from co
 
 Australian wine geography uses a system of states, zones, regions and subregions. A geographical indication, or GI, is a protected geographic name that identifies where wine grapes come from.
 
+<!-- VISUAL:VIS-005 -->
+
 A bottle might show **Tasmania**, **Yarra Valley**, **Mornington Peninsula**, **Geelong**, **Gippsland**, **Macedon Ranges**, **Adelaide Hills**, **Riverland** or **Riverina**. These names provide geographic information under the Australian labelling system.
 
 They do not guarantee a particular flavour profile. A GI does not promise that every wine will be light bodied, highly acidic, savoury, fruity or oaky. It also does not guarantee a quality level or a particular winemaking method.

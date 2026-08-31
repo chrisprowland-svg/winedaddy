@@ -13,6 +13,8 @@
 
 Wine colour is the visible appearance of finished wine. It is shaped by grape variety, pigments in the skins, the amount and duration of skin contact, pressing, fermentation, maturation and storage.
 
+<!-- VISUAL:VIS-022 -->
+
 The key idea is that **grape-skin colour, grape juice colour and finished-wine colour are not necessarily the same thing**. Most grape juice is relatively pale, even when it comes from a dark-skinned grape. The skins contain pigments called **anthocyanins**, which are important contributors to young red-wine colour.
 
 When red grapes are crushed and fermented with their skins, colour and other phenolic compounds move into the juice. When grapes are pressed and the juice is separated from the skins early, much less colour is extracted. That is why a wine’s colour depends on winemaking choices as well as the grape itself.

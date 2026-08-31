@@ -56,6 +56,8 @@ A wine can be dry, fruity and high in acidity at the same time. If you want to e
 
 Usually, the familiar Albariño style is **dry and still**, particularly in Rías Baixas. But the grape name does not guarantee a particular sweetness level.
 
+<!-- VISUAL:VIS-002 -->
+
 The confusion often comes from fruitiness. A dry wine may smell strongly of peach, melon or citrus without containing much perceptible sugar. Sweetness describes how the wine tastes in terms of sugar; fruitiness describes its aromas and flavours.
 
 Other choices also affect the impression of sweetness. Riper fruit, lower acidity or a fuller texture can make a wine seem rounder, even when it remains technically dry.

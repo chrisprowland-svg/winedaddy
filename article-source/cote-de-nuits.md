@@ -31,6 +31,8 @@ For broader context, see our guides to [Burgundy](/burgundy/) and [France](/fran
 
 Usually, it is more accurate to call Côte de Nuits a wine subregion. It is a geographic area containing several different French appellations.
 
+<!-- VISUAL:VIS-009 -->
+
 That distinction matters when reading a label. A bottle may identify Burgundy broadly, a specific village, a Premier Cru site or a Grand Cru name. It may not say “Côte de Nuits” at all, even though the wine comes from this subregion.
 
 There is also a specific appellation called **Côte de Nuits-Villages**. This is a defined AOP covering specified communes, including Brochon, Fixin, Premeaux-Prissey, Comblanchien and Corgoloin. It is not another name for every wine made in the wider Côte de Nuits.

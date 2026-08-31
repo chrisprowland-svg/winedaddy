@@ -14,6 +14,8 @@ For an Australian wine learner, the key idea is simple: **Wachau is a place name
 - You may see **Wachau DAC**, **Steinfeder**, **Federspiel** or **Smaragd** on a label.
 - Wachau is separate from nearby Austrian regions such as Kremstal, Kamptal, Traisental, Wagram and Weinviertel.
 
+<!-- VISUAL:VIS-009 -->
+
 ## Where is Wachau?
 
 Wachau is in north-eastern Austria, west of Vienna, along the Danube. Krems an der Donau is the nearest useful regional centre, while Melk is an important western orientation point.

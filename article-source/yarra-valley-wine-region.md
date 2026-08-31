@@ -181,4 +181,3 @@ It identifies geographic origin under Australia’s GI system. It does not guara
 If you want to explore the region’s best-known identity, start with a Yarra Valley Pinot Noir or Chardonnay. If you prefer fuller structure, consider Cabernet Sauvignon or Shiraz. If you enjoy sparkling wine, look for a bottle that explains its grape varieties and production method.
 
 Wine is made to be explored rather than solved. The region name gives you useful context; the bottle’s variety, producer and vintage complete the picture.
-

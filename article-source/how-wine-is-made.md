@@ -113,6 +113,8 @@ After fortification, the wine may mature in wood, tank, bottle or another vessel
 
 ### Malolactic conversion
 
+<!-- VISUAL:VIS-014 -->
+
 Malolactic conversion is a bacterial process in which sharper malic acid is converted into softer lactic acid. It can change acidity, mouthfeel and stability.
 
 It is common in red wine and may be used in some white and sparkling wines, but it is not universal. Some wines are managed to encourage it; others are kept from undergoing it. Read more about [malolactic fermentation](/what-is-malolactic-fermentation/).

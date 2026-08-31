@@ -4,6 +4,8 @@
 
 Cava is a Spanish quality sparkling wine protected by a European Union Protected Designation of Origin, or PDO. It is made under rules covering where it can be produced, which grapes may be used, how it is made, how long it is aged and what can appear on the label.
 
+<!-- VISUAL:VIS-033 -->
+
 Cava is generally made using the traditional method. That means the wine undergoes a second fermentation in the bottle in which it will eventually be sold, then rests on its lees—spent yeast sediment—for at least nine months in the youngest category.
 
 Cava is not a grape variety, and it is not a generic word for Spanish sparkling wine or Australian bottle-fermented sparkling wine.

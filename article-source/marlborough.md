@@ -29,8 +29,6 @@ The wine region is broader than any one town. Blenheim helps you find Marlboroug
 
 The Wairau Valley, Southern Valleys and Awatere Valley are useful wine-geography terms, but they are not simply alternative names for Marlborough. They describe parts of the wider regional landscape.
 
-*Visual orientation: the registered `VIS-038` New Zealand wine geography map can show Marlborough’s position on the South Island and its relationship to other New Zealand regions.*
-
 ## Climate, landscape and site variation
 
 Marlborough is generally described as dry and sunny, with warm, dry summers and cold winters. Large differences between daytime and night-time temperatures can occur during the ripening season. The region also experiences dry north-westerly winds, while some areas have stronger wind exposure than others.

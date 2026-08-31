@@ -37,6 +37,8 @@ Grenache is often described as medium-bodied, though ripe, old-vine or more extr
 
 Most still red Grenache is dry. However, ripe berry flavours and warming alcohol can create an impression of sweetness or richness.
 
+<!-- VISUAL:VIS-002 -->
+
 This is an important distinction: **fruitiness is not the same as residual sugar**. A dry Grenache can taste like ripe strawberries or plums without being a sweet wine.
 
 Grenache is also used for rosé and fortified wines, where the finished style can differ considerably from a dry red. Those uses are part of the variety’s versatility, rather than evidence that Grenache has one universal flavour.

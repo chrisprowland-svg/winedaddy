@@ -73,6 +73,8 @@ The most useful beginner’s idea is **balance**. Sweetness can feel heavy if it
 | Botrytised wine | Wine made using grapes affected by botrytis |
 | Dessert wine | A broad style or serving category |
 
+<!-- VISUAL:VIS-002 -->
+
 Sauternes may be served with dessert, but “dessert wine” is not its legal definition. Likewise, a late-harvest Australian white or a botrytised wine from another region may resemble Sauternes in some ways without sharing its appellation, grapes, climate or production rules.
 
 For an Australian learner, Australian sweet Semillon, Riesling or other botrytised whites can be useful comparisons. They are comparisons only—not Australian versions of the Sauternes appellation.

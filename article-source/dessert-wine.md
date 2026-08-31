@@ -23,6 +23,8 @@ The category can include white, red, sparkling and amber-coloured wines. For Aus
 
 The terms overlap, but they are not quite the same idea.
 
+<!-- VISUAL:VIS-002 -->
+
 **Sweet wine** describes a wine’s sugar content or its perception of sweetness. Residual sugar is the measurable glucose and fructose left in the wine after fermentation. The International Organisation of Vine and Wine uses 45 grams per litre as a technical threshold for “sweet” in its international terminology, but that should not be treated as a universal legal definition of dessert wine.
 
 **Dessert wine** is a broader category shaped by sweetness, concentration, style and traditional use. In everyday conversation, many people use it for sweet wines intended to accompany dessert, but dessert wine does not have to be served only after a meal.

@@ -18,6 +18,10 @@ Orange is a registered Australian wine geographical indication (GI) within the *
 
 Orange is in central New South Wales, within the **Central Ranges zone**. The nearest useful regional centre is the city of Orange, west of Sydney. As a broad orientation, Orange is about 255 kilometres west of Sydney, or roughly three and a half hours by road, although the actual journey varies with the route, traffic and starting point.
 
+<!-- VISUAL:VIS-006 -->
+
+<!-- VISUAL:VIS-005 -->
+
 The region is associated with places including Orange, Blayney, Millthorpe, Canowindra, Nashdale, Borenore, Cargo, Lucknow and Canobolas. These names help describe the surrounding landscape, but they are not interchangeable with the legal GI.
 
 The protected region is not simply “everything around Orange”. Wine Australia’s legal description defines it as the contiguous area above 600 metres within the City of Orange and the former Shires of Cabonne and Blayney. The written description is the legal definition; maps are useful orientation tools, not a replacement for that wording.

@@ -14,6 +14,8 @@
 
 Savagnin is an old white grape variety in the Traminer family. It is most strongly associated with France’s Jura region, where it is used for both conventional dry white wines and the distinctive wine known as *vin jaune*.
 
+<!-- VISUAL:VIS-008 -->
+
 Savagnin can retain good acidity, including in warm conditions. Fresh Australian examples are described as dry, crisp and capable of showing citrus, white stone-fruit and spice characters. Other examples are matured under a layer of yeast, known as a flor or biological veil. This can create a more savoury, complex and oxidative style.
 
 That difference is important: Savagnin is a grape, not a single flavour profile. The grape name alone cannot tell you whether the wine will be fresh and bright, flor-aged and oxidative, or made in another style.

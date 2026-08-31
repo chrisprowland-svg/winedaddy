@@ -13,6 +13,8 @@
 
 A dry wine is generally a wine with little noticeable sweetness. During fermentation, yeast converts much of the grape sugar into alcohol. When relatively little sugar remains, the finished wine usually tastes dry.
 
+<!-- VISUAL:VIS-002 -->
+
 That does not mean the wine contains absolutely no sugar, or that it has no fruit flavour. Dryness is mainly a description of sweetness—not a judgement about quality, sophistication or flavour intensity.
 
 Australian wine education commonly uses “dry”, “off-dry” and “sweet” to describe wine styles. However, an Australian label may not show an exact residual-sugar figure, so the word is often used as a style description rather than a precise measurement.

@@ -1,6 +1,5 @@
 # What Is Cork Taint?
 
-
 ## Highlights
 
 - Cork taint is a wine fault usually associated with a compound called **TCA**.
@@ -117,4 +116,3 @@ Yes, in the broader sensory sense, although it is uncommon. A screw cap removes 
 If a wine smells like a damp cellar and its fruit has gone quiet, cork taint is one possibility. Do not confuse it with cork debris, sediment or every other wine fault. If the bottle clearly seems faulty, preserve the bottle and closure, keep proof of purchase where possible, and contact the retailer rather than accepting the wine as normal.
 
 **Related learning:** [What is wine?](/what-is-wine/) · [How wine is made](/how-wine-is-made/)
-

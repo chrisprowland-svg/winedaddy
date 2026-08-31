@@ -175,4 +175,3 @@ Yes. Organic describes the production method, not a particular variety. Organic 
 - [Winemaking](https://winedaddy.com.au/winemaking/)
 - Future guide: What is natural wine?
 - Future guide: What is biodynamic wine?
-

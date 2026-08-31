@@ -38,6 +38,8 @@ Pinot Blanc is therefore not “white Pinot Noir” in the simple sense. The gra
 
 ### Appearance
 
+<!-- VISUAL:VIS-023 -->
+
 Many Pinot Blanc wines are pale straw to light yellow. Colour can vary with ripeness, age, winemaking and oak, so appearance alone cannot reliably identify the grape.
 
 ### Aroma and flavour
@@ -63,6 +65,8 @@ Most of the familiar styles are dry. In wine, **dry** means not sweet; it does n
 ## Why Pinot Blanc styles vary
 
 The grape is only one part of a finished wine. Cooler conditions and earlier harvesting can help preserve acidity and create a lighter, fresher style. Riper fruit and warmer conditions may contribute to fuller body and riper fruit character. These are tendencies, not rules.
+
+<!-- VISUAL:VIS-002 -->
 
 Site also matters. German wine authorities describe Pinot Blanc as suited to warm, exposed sites and deep, strong soils, with the potential to ripen over a long growing season. That helps explain why the grape can make both delicate and substantial wines.
 

@@ -144,4 +144,3 @@ No. Serving temperature is chosen for drinking now. Long-term storage concerns p
 - [What is Chardonnay?](/what-is-chardonnay/)
 - [What is Pinot Noir?](/what-is-pinot-noir/)
 - [What is Shiraz?](/what-is-shiraz/)
-

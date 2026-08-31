@@ -26,6 +26,8 @@ That equation explains the main transformation, but real fermentation is more co
 
 Ripening changes the composition of a grape. Sugar often increases as the grape develops, while acidity changes and other parts of the juice mature. This gives yeast more potential food for fermentation.
 
+<!-- VISUAL:VIS-021 -->
+
 Ripeness is not simply a contest to produce the most sugar. Variety, season, climate, water availability, crop load, vine health and harvest decisions can all influence grape composition. That is why the same variety does not produce exactly the same starting juice every year, and why Australian wines do not have one universal alcohol level.
 
 After harvest, crushing or pressing releases the sugar-containing juice. In red winemaking, fermentation commonly takes place with the skins and seeds present, helping extract colour and tannin. In white winemaking, fermentation commonly takes place after pressing and clarification. These are different production contexts, but the alcohol-making mechanism is the same: yeast converts fermentable sugar into ethanol.

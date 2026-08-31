@@ -57,6 +57,8 @@ For broader orientation, you can explore [Australian wine regions](/australian-w
 
 Australian labels can identify a single variety, multiple varieties, a geographical indication (GI), or a combination of these.
 
+<!-- VISUAL:VIS-006 -->
+
 A bottle labelled **Marsanne** is not necessarily 100 per cent Marsanne. Wine Australia’s blending rules require at least 85 per cent of the named variety for a single-variety claim.
 
 When two or more varieties are named, they are listed in descending order of proportion. So **Marsanne–Roussanne** indicates a blend in which Marsanne makes up at least as much of the named composition as Roussanne.

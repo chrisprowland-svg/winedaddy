@@ -14,6 +14,8 @@
 
 Australian fortified wine is wine to which grape spirit, brandy or both have been added. The extra spirit raises the alcohol level and can interrupt fermentation, depending on when it is added.
 
+<!-- VISUAL:VIS-008 -->
+
 That timing matters. If fortification happens earlier, more grape sugar may remain, creating a sweeter wine. If fermentation continues for longer before the spirit is added, the result may be drier. Production methods vary, so this is a useful general principle rather than a rule for every bottle.
 
 After fortification, the wine may be matured, blended or bottled according to its intended style. Some Australian fortified wines are sweet and richly developed; others can be drier or fresher. Ageing, grape variety, blending and handling all influence the final character.

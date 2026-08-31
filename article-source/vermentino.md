@@ -14,6 +14,8 @@ That is the short answer. The more useful answer is that Vermentino is a flexibl
 - Australian Vermentino is a small but established alternative variety.
 - The same grape can produce crisp, rounded, lightly textured or more savoury wines.
 
+<!-- VISUAL:VIS-002 -->
+
 ## What does Vermentino taste like?
 
 A typical Vermentino is fresh, aromatic and dry. You might notice lemon or lime, pear, melon, green fruit, flowers or herbs. Some wines have a saline or mineral impression, while others finish with a gentle bitterness or savoury note.

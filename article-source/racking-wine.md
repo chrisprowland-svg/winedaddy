@@ -48,6 +48,8 @@ Wine may need to move from one production or maturation vessel to another. Racki
 
 Moving wine can expose it to oxygen. The amount depends on the transfer system, the vessel, the headspace and the way the wine is handled.
 
+<!-- VISUAL:VIS-008 -->
+
 Oxygen is not automatically a problem. In some situations, controlled oxygen exposure is part of winemaking. In others, excess exposure can contribute to oxidation and unwanted changes. This is why winemakers consider the timing and manner of a racking operation.
 
 The useful beginner’s distinction is:

@@ -14,6 +14,8 @@
 
 Semi-carbonic maceration is a winemaking process in which intact grapes or bunches spend time in a carbon-dioxide-rich, oxygen-poor environment. Some fermentation-like activity takes place inside the intact berries. At the same time, juice released from crushed or broken fruit begins ordinary yeast fermentation.
 
+<!-- VISUAL:VIS-014 -->
+
 The fruit is later crushed, pressed or allowed to complete fermentation in a more conventional way. This makes semi-carbonic maceration a middle ground between full carbonic maceration and standard crushed-grape fermentation.
 
 The method can create a more fruit-driven or perfumed style, but there is no single “semi-carbonic flavour”. The result depends on the grape variety, how much fruit remains intact, the length and temperature of the treatment, the vessel and what happens afterwards.

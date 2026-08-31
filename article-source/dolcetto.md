@@ -48,6 +48,8 @@ The finish is one of its most recognisable features. Many examples have a pleasa
 
 “Dry” describes sweetness in the finished wine. It does not mean flavourless, sour or lacking in ripe fruit character.
 
+<!-- VISUAL:VIS-002 -->
+
 Think of the difference between a fresh cherry and a cherry lolly. Both may suggest cherry, but only one is necessarily sweet because of added sugar. Wine’s fruit aromas come from aroma compounds and the way we perceive them; sweetness depends on the wine’s residual sugar and balance.
 
 This distinction is particularly helpful with Dolcetto. The grape can produce wine that smells of ripe fruit while remaining dry on the palate. Its characteristic bitter-almond finish can make the wine feel even less sweet.

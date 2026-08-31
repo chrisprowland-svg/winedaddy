@@ -158,4 +158,3 @@ It indicates geographic origin under Australia’s GI system. It does not guaran
 - [What is Sauvignon Blanc?](/what-is-sauvignon-blanc/)
 - [What is Shiraz?](/what-is-shiraz/)
 - [Explore grape varieties](/grapes/)
-

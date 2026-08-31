@@ -100,6 +100,8 @@ These may be true for a particular wine, but they require separate evidence.
 
 When you see “estate-grown”, ask:
 
+<!-- VISUAL:VIS-009 -->
+
 1. **What exactly does the label say?** Look for “estate-grown”, “estate-grown grapes”, “estate vineyard” or another phrase.
 2. **What GI is named?** This is the recognised geographic origin, not necessarily the estate’s property boundary.
 3. **Is a vineyard named?** That may indicate a single-vineyard claim, but read the wording carefully.

@@ -61,6 +61,8 @@ This is one reason a regional name should be treated as a useful starting point 
 
 Wine Australia describes Eden Valley’s overall growing-season temperatures as significantly lower than those of the Barossa Valley, with ripening and harvest occurring in cooler conditions.
 
+<!-- VISUAL:VIS-005 -->
+
 The region’s climate is not identical from north to south. Wine Australia’s 2023–24 regional snapshot recorded a long-term average growing-season rainfall of 205 millimetres for the 1994–2023 period, while the 2023–24 season recorded 145 millimetres. It also recorded a 1994–2023 average mean January temperature of 21.7°C. These figures describe regional datasets and particular periods, not every vineyard or every vintage.
 
 The soils are similarly varied. They include loamy sands, clay loams, ironstone and quartz gravels, rock fragments and weathered mica-schist beneath some sites. Some sandy soils have relatively low water-holding capacity, while other soils are better suited to dryland viticulture.

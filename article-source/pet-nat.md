@@ -4,6 +4,8 @@
 
 Pet-nat is a lightly sparkling wine usually made using the **ancestral method**. Its name is short for the French *pétillant naturel*, meaning “naturally sparkling”.
 
+<!-- VISUAL:VIS-021 -->
+
 The key idea is simple: fermentation begins before bottling, then continues in the sealed bottle. The yeast produces carbon dioxide as it converts grape sugar into alcohol. Because the bottle is sealed, some of that carbon dioxide dissolves into the wine, creating its sparkle.
 
 Pet-nat is a wine style, not a grape variety or region. It has no single flavour profile. Depending on the grapes and winemaking choices, it may be dry or sweet, clear or cloudy, fruity or savoury, gently fizzy or more energetic.

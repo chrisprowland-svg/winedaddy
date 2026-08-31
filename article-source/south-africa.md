@@ -32,6 +32,8 @@ Other useful regional names include the Klein Karoo, Olifants River and wine are
 
 South African wine origin is governed through the Wine of Origin scheme. Its hierarchy is commonly described as:
 
+<!-- VISUAL:VIS-006 -->
+
 **Geographical unit → region → district → ward → estate or single-vineyard wine.**
 
 The structure is not always a perfectly neat ladder, because some areas stand alone rather than sitting inside a broader region. Boundaries reflect geographical and viticultural factors such as climate, soil, topography, mountains and rivers.
@@ -50,6 +52,8 @@ Wine of Origin is about **where the grapes came from**. It is not a simple quali
 ## Climate and place: why regions can differ
 
 The Western Cape is often described as Mediterranean-influenced, with relatively dry summers and wetter winters. But that broad description hides considerable variation.
+
+<!-- VISUAL:VIS-005 -->
 
 The cold Benguela Current helps moderate parts of the Atlantic coast. The Indian Ocean influences southern and south-eastern areas, although its effect changes with distance and location. Mountains create slopes, valleys, rain shadows and differences in elevation. Inland areas are generally warmer and drier, while some coastal or elevated sites are cooler.
 

@@ -49,6 +49,8 @@ This is why two wines made from the same grape can feel quite different.
 
 Usually, Marsanne is made as a dry white wine. But **dry does not mean flavourless or light**.
 
+<!-- VISUAL:VIS-002 -->
+
 In wine, dry refers primarily to the amount of residual sugar. Fruitiness describes aroma and flavour, while body and richness describe the wine’s weight and texture in your mouth. A Marsanne can therefore be dry while still tasting ripe, fruity, floral, honeyed or rich.
 
 The word “honeyed” can describe an aroma or flavour that develops with age; it does not automatically mean the wine contains noticeable sweetness.

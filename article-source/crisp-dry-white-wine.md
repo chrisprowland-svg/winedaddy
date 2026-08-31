@@ -14,6 +14,8 @@
 
 A crisp, dry white wine is generally a white wine that tastes **refreshingly lively and not noticeably sweet**.
 
+<!-- VISUAL:VIS-002 -->
+
 The word **dry** mainly describes sweetness. It is related to the amount of residual sugar left after fermentation and, more importantly for a beginner, whether you perceive sweetness in the glass.
 
 The word **crisp** is a sensory description. It usually suggests refreshing acidity, freshness, a clean finish and sometimes a lighter or leaner impression.

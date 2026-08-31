@@ -25,6 +25,8 @@ Protection does not mean a wine is automatically superior. It tells you that the
 
 “Protected wine name” is a useful umbrella term rather than one universal legal category. Australia’s register includes Australian and foreign GIs, translations, traditional expressions, quality wine terms and additional protected terms. These categories do not all operate in exactly the same way.
 
+<!-- VISUAL:VIS-009 -->
+
 A **geographical indication** is a name identifying wine as originating in a country, region or locality where a quality, reputation or other characteristic is essentially attributable to its geographical origin. In everyday language, it connects the wine’s name with a recognised place and rules governing its use.
 
 A **traditional expression** is different. It may refer to a traditional name connected with a wine’s production method, quality, colour or type. That is why it is important not to describe every protected term as a GI.

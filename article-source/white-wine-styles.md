@@ -13,6 +13,8 @@
 
 A white wine style is a practical description of how a white wine is likely to smell, taste and feel, together with the winemaking choices that helped create those characteristics.
 
+<!-- VISUAL:VIS-002 -->
+
 You might describe a wine as crisp and dry, aromatic, rich and full-bodied, off-dry, sweet, sparkling or skin-contact. These descriptions can overlap. A white wine may be dry and aromatic, full-bodied and sparkling, or lightly sweet with high acidity.
 
 Style is not the same as grape variety, region, colour, quality or production method. Chardonnay does not always taste the same, nor does Riesling always have the same level of sweetness. Vineyard site, vintage, ripeness and winemaking choices all influence the finished wine.
@@ -29,7 +31,7 @@ Dry does not mean flavourless, low-alcohol or low-acid. A dry Riesling can be in
 
 Sparkling-wine terminology can be particularly confusing. On some labels, “dry” may describe a sparkling wine that is sweeter than “brut”. Treat the term in context rather than assuming that dry always means the same thing.
 
-*VIS-002, “Dry does not mean flavourless”, could support this explanation if confirmed for contextual reuse.*
+*
 
 ### Acidity
 

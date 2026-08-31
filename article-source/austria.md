@@ -14,6 +14,8 @@
 
 Austria is best understood as a country of regional contrasts rather than as one uniform wine style. Its wine identity is strongly associated with **Grüner Veltliner** and **Riesling**, particularly in Lower Austria, but its vineyards also produce red wines, aromatic whites, sweet wines, sparkling wine and Vienna’s distinctive **Wiener Gemischter Satz**.
 
+<!-- VISUAL:VIS-002 -->
+
 Most Austrian vineyards are in the eastern and south-eastern parts of the country. The main wine-growing structure includes **Lower Austria, Burgenland, Styria and Vienna**, with smaller wine-growing areas grouped legally under **Bergland**.
 
 For an Australian drinker, the simplest starting point is:

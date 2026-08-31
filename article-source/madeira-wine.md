@@ -9,6 +9,8 @@
 - It may taste of dried fruit, nuts, caramel, spice, citrus peel and wood, while acidity keeps it lively.
 - Madeira is not a type of Port or Sherry, and it is not the same as Australian fortified wine.
 
+<!-- VISUAL:VIS-008 -->
+
 ## What is Madeira wine?
 
 Madeira wine, also called *Vinho da Madeira*, is a protected Portuguese fortified wine made from grapes grown in the Madeira Demarcated Region. In simple terms, it is wine whose fermentation is interrupted by adding alcohol, then matured in a way that deliberately develops heat- and oxygen-influenced flavours.
