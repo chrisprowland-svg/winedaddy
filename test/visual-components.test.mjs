@@ -51,13 +51,12 @@ test('renders Australian map batch with accessible official geometry and orienta
   assert.match(renderVisualComponents('<!-- VISUAL:VIS-025 -->'), />Melbourne</);
 });
 
-test('focused regional maps pair a state locator with official GI detail', () => {
+test('focused regional maps place official GI geometry on a state stencil', () => {
   for (const id of ['VIS-004','VIS-015','VIS-017','VIS-018','VIS-019','VIS-020','VIS-053']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
-    assert.match(html, /First, locate it/);
-    assert.match(html, /Then, see the official GI/);
     assert.match(html, /stencil-cc0\.svg/);
-    assert.match(html, /wd-map__official-boundary/);
+    assert.match(html, /wd-map__official-boundary--context/);
+    assert.doesNotMatch(html, /First, locate it|Then, see the official GI/);
   }
 });
 
