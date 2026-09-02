@@ -42,6 +42,30 @@
       "source": "article-source/agiorgitiko.md"
     },
     {
+      "slug": "aglianico-del-vulture",
+      "route": "/aglianico-del-vulture/",
+      "title": "Aglianico del Vulture: A Beginner’s Guide to the Italian Wine",
+      "description": "Aglianico del Vulture is a protected Italian wine designation from the Vulture area of northern Basilicata. It is made principally from Aglianico, a…",
+      "section": "regions",
+      "source": "article-source/aglianico-del-vulture.md"
+    },
+    {
+      "slug": "ahr-wine-region",
+      "route": "/ahr-wine-region/",
+      "title": "Ahr wine region: Germany’s red-wine specialist",
+      "description": "Ahr is a small, officially recognised wine-growing region in northern Germany. Centred on the Ahr River in Rhineland-Palatinate, it is best known for red…",
+      "section": "regions",
+      "source": "article-source/ahr-wine-region.md"
+    },
+    {
+      "slug": "albany-wine-region",
+      "route": "/albany-wine-region/",
+      "title": "Albany wine region: a beginner’s guide",
+      "description": "Albany is the southern coastal subregion of Great Southern, one of Western Australia’s major wine regions. It is centred on Albany, the principal regional…",
+      "section": "regions",
+      "source": "article-source/albany-wine-region.md"
+    },
+    {
       "slug": "albarino",
       "route": "/albarino/",
       "title": "What is Albariño?",
@@ -64,6 +88,30 @@
       "description": "Learn how yeast converts grape sugars into alcohol and carbon dioxide, how winemakers manage fermentation, and why the process affects wine style.",
       "section": "winemaking",
       "source": "article-source/alcoholic-fermentation.md"
+    },
+    {
+      "slug": "alentejo-wine-region",
+      "route": "/alentejo-wine-region/",
+      "title": "Alentejo wine region: a beginner’s guide",
+      "description": "Alentejo is a major Portuguese wine region centred on the districts of Portalegre, Évora and Beja. It is broadly associated with warm, dry conditions and…",
+      "section": "regions",
+      "source": "article-source/alentejo-wine-region.md"
+    },
+    {
+      "slug": "alexander-valley",
+      "route": "/alexander-valley/",
+      "title": "Alexander Valley: A Beginner’s Guide to the Sonoma County AVA",
+      "description": "Alexander Valley is an established American Viticultural Area (AVA) in north-eastern Sonoma County, California. It is a warm inland Sonoma wine region best…",
+      "section": "regions",
+      "source": "article-source/alexander-valley.md"
+    },
+    {
+      "slug": "alicante-wine-region",
+      "route": "/alicante-wine-region/",
+      "title": "Alicante wine region: a beginner’s guide",
+      "description": "Alicante is a protected wine designation in south-eastern Spain. Its official name is Denominación de Origen Protegida Alicante, usually shortened to DOP…",
+      "section": "regions",
+      "source": "article-source/alicante-wine-region.md"
     },
     {
       "slug": "aligote",
@@ -90,12 +138,36 @@
       "source": "article-source/alsace.md"
     },
     {
+      "slug": "alsace-grand-cru",
+      "route": "/alsace-grand-cru/",
+      "title": "Alsace Grand Cru: a beginner’s guide to the French designation",
+      "description": "Alsace Grand Cru is a regulated French wine designation for wines made from defined vineyard sites in Alsace under controlled production and labelling rules.",
+      "section": "regions",
+      "source": "article-source/alsace-grand-cru.md"
+    },
+    {
       "slug": "alto-adige",
       "route": "/alto-adige/",
       "title": "Alto Adige: a beginner’s guide to Italy’s Alpine wine region",
       "description": "Understand Alto Adige, Südtirol, its Alpine geography, DOC terminology, principal grapes, wine styles and useful label clues for Australian wine learners.",
       "section": "regions",
       "source": "article-source/alto-adige.md"
+    },
+    {
+      "slug": "amarone-della-valpolicella",
+      "route": "/amarone-della-valpolicella/",
+      "title": "Amarone della Valpolicella: A Beginner’s Guide",
+      "description": "Amarone della Valpolicella is a protected Italian red-wine denomination from the Valpolicella area of Veneto, near Verona. It is made principally from…",
+      "section": "regions",
+      "source": "article-source/amarone-della-valpolicella.md"
+    },
+    {
+      "slug": "amontillado-vs-oloroso",
+      "route": "/amontillado-vs-oloroso/",
+      "title": "Amontillado vs Oloroso: What’s the Difference?",
+      "description": "Amontillado and Oloroso are both styles of Sherry, the fortified wine associated with the Jerez-Xérès-Sherry protected designation in southern Spain. They…",
+      "section": "regions",
+      "source": "article-source/amontillado-vs-oloroso.md"
     },
     {
       "slug": "amphora-and-clay-vessels",
@@ -112,6 +184,14 @@
       "description": "Ancestral-method sparkling wine finishes its original fermentation in the bottle. Learn how it works, why it is linked with pét-nat, and how it differs from traditional and tank methods.",
       "section": "winemaking",
       "source": "article-source/ancestral-method-sparkling-wine-production.md"
+    },
+    {
+      "slug": "anjou-wine-region",
+      "route": "/anjou-wine-region/",
+      "title": "Anjou wine region: a beginner’s guide",
+      "description": "Anjou is a wine area centred around Angers in the western Loire Valley of France. It is not one single wine style. The name is used for a family of…",
+      "section": "regions",
+      "source": "article-source/anjou-wine-region.md"
     },
     {
       "slug": "appassimento",
@@ -154,12 +234,28 @@
       "source": "article-source/assyrtiko.md"
     },
     {
+      "slug": "asti-and-moscato-d-asti",
+      "route": "/asti-and-moscato-d-asti/",
+      "title": "Asti and Moscato d’Asti: Two Piedmontese Wines, One Appellation Area",
+      "description": "Asti and Moscato d’Asti are related wines from the same protected Italian designation, but they are not interchangeable.",
+      "section": "regions",
+      "source": "article-source/asti-and-moscato-d-asti.md"
+    },
+    {
       "slug": "astringency-in-wine",
       "route": "/astringency-in-wine/",
       "title": "Astringency in Wine: What It Means and How to Recognise It",
       "description": "Learn what astringency in wine feels like, how it differs from tannin, bitterness, acidity and dry wine, and how to recognise it when tasting.",
       "section": "fundamentals",
       "source": "article-source/astringency-in-wine.md"
+    },
+    {
+      "slug": "auckland-wine-region",
+      "route": "/auckland-wine-region/",
+      "title": "Auckland wine region: a beginner’s guide",
+      "description": "Auckland is a registered New Zealand wine geographical indication (GI) on the upper North Island. It is centred on Auckland city but is not the same thing…",
+      "section": "regions",
+      "source": "article-source/auckland-wine-region.md"
     },
     {
       "slug": "australian-capital-territory-wine-regions",
@@ -234,12 +330,36 @@
       "source": "article-source/austria.md"
     },
     {
+      "slug": "austrian-dac-system",
+      "route": "/austrian-dac-system/",
+      "title": "Austrian DAC system: how to read Austria’s regional wine classifications",
+      "description": "In Austria, DAC stands for Districtus Austriae Controllatus. It is a legally protected designation used with a named Austrian wine-growing area.",
+      "section": "regions",
+      "source": "article-source/austrian-dac-system.md"
+    },
+    {
       "slug": "baden",
       "route": "/baden/",
       "title": "Baden: Germany’s Broad, Pinot-Focused Wine Region",
       "description": "Understand Baden, Germany’s broad and varied wine region: its location, relationship to Baden-Württemberg, Pinot varieties, wine styles and German label terms.",
       "section": "regions",
       "source": "article-source/baden.md"
+    },
+    {
+      "slug": "bairrada-wine-region",
+      "route": "/bairrada-wine-region/",
+      "title": "Bairrada wine region: a beginner’s guide",
+      "description": "Bairrada is a defined wine region in central-west Portugal, close to the Atlantic coast. It is best known for a combination that can seem surprising at…",
+      "section": "regions",
+      "source": "article-source/bairrada-wine-region.md"
+    },
+    {
+      "slug": "bandol-wine-region",
+      "route": "/bandol-wine-region/",
+      "title": "Bandol wine region: a beginner’s guide",
+      "description": "Bandol is a French wine appellation in Provence, best known for structured wines made with Mourvèdre. The name refers to a protected place and set of…",
+      "section": "regions",
+      "source": "article-source/bandol-wine-region.md"
     },
     {
       "slug": "barbaresco",
@@ -258,12 +378,28 @@
       "source": "article-source/barbera.md"
     },
     {
+      "slug": "bardolino",
+      "route": "/bardolino/",
+      "title": "Bardolino: A Beginner’s Guide to the Italian Wine Region",
+      "description": "Bardolino is both a place and a regulated Italian wine denomination. It is not a grape variety. The name refers to a wine area in Veneto, on the eastern…",
+      "section": "regions",
+      "source": "article-source/bardolino.md"
+    },
+    {
       "slug": "barolo",
       "route": "/barolo/",
       "title": "Barolo: A Beginner’s Guide to Piedmont’s Nebbiolo Wine",
       "description": "Understand Barolo as a protected Piedmontese wine designation: its place, Nebbiolo grape, DOCG ageing rules, style, label terms and relevance for Australian wine learners.",
       "section": "regions",
       "source": "article-source/barolo.md"
+    },
+    {
+      "slug": "barossa-valley-subregions",
+      "route": "/barossa-valley-subregions/",
+      "title": "Barossa Valley subregions: a clear guide to Barossa’s internal geography",
+      "description": "“Barossa Valley subregions” can mean two different things.",
+      "section": "regions",
+      "source": "article-source/barossa-valley-subregions.md"
     },
     {
       "slug": "barossa-valley-wine-region",
@@ -298,6 +434,14 @@
       "source": "article-source/beaujolais.md"
     },
     {
+      "slug": "beaujolais-cru-villages",
+      "route": "/beaujolais-cru-villages/",
+      "title": "Beaujolais Cru villages: the ten appellations explained",
+      "description": "Cru Beaujolais is the collective name for ten named red-wine appellations within the Beaujolais wine region. Each appellation identifies a defined…",
+      "section": "regions",
+      "source": "article-source/beaujolais-cru-villages.md"
+    },
+    {
       "slug": "beechworth-wine-region",
       "route": "/beechworth-wine-region/",
       "title": "Beechworth wine region: where it is and what its wines are like",
@@ -314,12 +458,36 @@
       "source": "article-source/bendigo-wine-region.md"
     },
     {
+      "slug": "bergerac-wine-region",
+      "route": "/bergerac-wine-region/",
+      "title": "Bergerac wine region: a beginner’s guide",
+      "description": "Bergerac is both a place and a regulated French wine appellation. In French wine language, it is commonly described as an AOC—appellation d’origine…",
+      "section": "regions",
+      "source": "article-source/bergerac-wine-region.md"
+    },
+    {
+      "slug": "best-temperature-for-storing-wine",
+      "route": "/best-temperature-for-storing-wine/",
+      "title": "Best temperature for storing wine",
+      "description": "For long-term storage of unopened wine, aim for approximately 10–15°C in a dark, stable environment. A consistent location around 15–20°C can also be…",
+      "section": "fundamentals",
+      "source": "article-source/best-temperature-for-storing-wine.md"
+    },
+    {
       "slug": "bierzo",
       "route": "/bierzo/",
       "title": "Bierzo: A Beginner’s Guide to This Spanish Wine Region",
       "description": "Understand where Bierzo is, why Mencía and Godello matter, how its varied geography shapes wine styles, and what its Spanish labels mean.",
       "section": "regions",
       "source": "article-source/bierzo.md"
+    },
+    {
+      "slug": "bierzo-wine-styles",
+      "route": "/bierzo-wine-styles/",
+      "title": "Bierzo wine styles: a beginner’s guide",
+      "description": "Bierzo wines are Spanish protected-origin wines from north-western León, centred on the Mencía grape for reds but offering a wider range of red, white, rosé…",
+      "section": "regions",
+      "source": "article-source/bierzo-wine-styles.md"
     },
     {
       "slug": "big-rivers-zone",
@@ -338,6 +506,22 @@
       "source": "article-source/blackwood-valley-wine-region.md"
     },
     {
+      "slug": "blanc-de-blancs-champagne",
+      "route": "/blanc-de-blancs-champagne/",
+      "title": "Blanc de Blancs Champagne: What It Means and How It Tastes",
+      "description": "Blanc de Blancs Champagne is Champagne made exclusively from white-skinned grape varieties. In practice, it is usually Chardonnay-led, because Chardonnay is…",
+      "section": "regions",
+      "source": "article-source/blanc-de-blancs-champagne.md"
+    },
+    {
+      "slug": "blanc-de-noirs-champagne",
+      "route": "/blanc-de-noirs-champagne/",
+      "title": "Blanc de Noirs Champagne",
+      "description": "Blanc de Noirs Champagne is white Champagne made exclusively from dark-skinned grapes. In Champagne, the relevant varieties are principally Pinot Noir and…",
+      "section": "regions",
+      "source": "article-source/blanc-de-noirs-champagne.md"
+    },
+    {
       "slug": "blending-wine",
       "route": "/blending-wine/",
       "title": "What Is Blending Wine? A Beginner’s Guide",
@@ -352,6 +536,14 @@
       "description": "Blind tasting is tasting wine without being told its identity, or without being given information that could influence your judgement. The bottle might be…",
       "section": "fundamentals",
       "source": "article-source/blind-tasting.md"
+    },
+    {
+      "slug": "bolgheri",
+      "route": "/bolgheri/",
+      "title": "Bolgheri: A Beginner’s Guide to Tuscany’s Coastal Wine Area",
+      "description": "Bolgheri is a small, coastal wine area in Tuscany, central Italy. It is particularly associated with structured, Cabernet-based red wines, often involving…",
+      "section": "regions",
+      "source": "article-source/bolgheri.md"
     },
     {
       "slug": "bordeaux",
@@ -386,12 +578,76 @@
       "source": "article-source/bottle-ageing.md"
     },
     {
+      "slug": "bourgueil",
+      "route": "/bourgueil/",
+      "title": "Bourgueil: a beginner’s guide to this Loire Valley appellation",
+      "description": "Bourgueil is a regulated French wine appellation in the Touraine section of the Loire Valley. It is best known for still red wines made principally from…",
+      "section": "regions",
+      "source": "article-source/bourgueil.md"
+    },
+    {
+      "slug": "brouilly-and-cote-de-brouilly",
+      "route": "/brouilly-and-cote-de-brouilly/",
+      "title": "Brouilly and Côte de Brouilly: understanding two Beaujolais appellations",
+      "description": "Brouilly and Côte de Brouilly are separate Beaujolais cru appellations. In French wine, an appellation is a legally protected name linked to a defined place…",
+      "section": "regions",
+      "source": "article-source/brouilly-and-cote-de-brouilly.md"
+    },
+    {
+      "slug": "brunello-di-montalcino",
+      "route": "/brunello-di-montalcino/",
+      "title": "Brunello di Montalcino: A Beginner’s Guide",
+      "description": "Brunello di Montalcino is a protected Italian red-wine appellation from Montalcino in southern Tuscany. It is a DOCG wine made exclusively from Sangiovese,…",
+      "section": "regions",
+      "source": "article-source/brunello-di-montalcino.md"
+    },
+    {
+      "slug": "building-a-wine-tasting-flight",
+      "route": "/building-a-wine-tasting-flight/",
+      "title": "Building a wine tasting flight",
+      "description": "To build a wine tasting flight, choose three to five wines that share a useful connection, such as grape variety, region, style or production method. Decide…",
+      "section": "fundamentals",
+      "source": "article-source/building-a-wine-tasting-flight.md"
+    },
+    {
+      "slug": "burgenland",
+      "route": "/burgenland/",
+      "title": "Burgenland: Understanding Austria’s Eastern Wine Region",
+      "description": "Burgenland is Austria’s easternmost federal province and one of its principal wine-growing areas. It stretches along the Hungarian border, from the Lake…",
+      "section": "regions",
+      "source": "article-source/burgenland.md"
+    },
+    {
       "slug": "burgundy",
       "route": "/burgundy/",
       "title": "Burgundy: A Beginner’s Guide to the French Wine Region",
       "description": "Understand Burgundy’s geography, grape varieties, appellation hierarchy, wine styles and place-led labels, with practical context for Australian wine learners.",
       "section": "regions",
       "source": "article-source/burgundy.md"
+    },
+    {
+      "slug": "burgundy-grand-cru-explained",
+      "route": "/burgundy-grand-cru-explained/",
+      "title": "Burgundy Grand Cru explained",
+      "description": "In Burgundy, Grand Cru is the highest level in the region’s commonly presented appellation hierarchy. An appellation is a legally protected geographic name…",
+      "section": "regions",
+      "source": "article-source/burgundy-grand-cru-explained.md"
+    },
+    {
+      "slug": "burgundy-premier-cru-explained",
+      "route": "/burgundy-premier-cru-explained/",
+      "title": "Burgundy Premier Cru explained",
+      "description": "Burgundy Premier Cru means that a wine is made under a relevant Burgundy village appellation from grapes grown in a specifically recognised vineyard site,…",
+      "section": "regions",
+      "source": "article-source/burgundy-premier-cru-explained.md"
+    },
+    {
+      "slug": "burgundy-village-wine-labels",
+      "route": "/burgundy-village-wine-labels/",
+      "title": "Burgundy village wine labels: how to read them",
+      "description": "In Burgundy, a village wine normally carries the name of a recognised Village appellation, such as Savigny-lès-Beaune, Chassagne-Montrachet or Meursault.…",
+      "section": "regions",
+      "source": "article-source/burgundy-village-wine-labels.md"
     },
     {
       "slug": "cabernet-franc",
@@ -418,6 +674,22 @@
       "source": "article-source/cabernet-sauvignon-vs-cabernet-franc.md"
     },
     {
+      "slug": "cafayate-wine-region",
+      "route": "/cafayate-wine-region/",
+      "title": "Cafayate wine region: an Australian beginner’s guide",
+      "description": "Cafayate is an Argentine wine region in the Cafayate Department of Salta Province, in the country’s north-west. It is part of the broader Calchaquí Valleys…",
+      "section": "regions",
+      "source": "article-source/cafayate-wine-region.md"
+    },
+    {
+      "slug": "cahors-wine-region",
+      "route": "/cahors-wine-region/",
+      "title": "Cahors wine region: a beginner’s guide to French Malbec",
+      "description": "Cahors is both a wine-producing area in south-west France and the name of its protected AOC/AOP appellation. The vineyards follow the Lot River around the…",
+      "section": "regions",
+      "source": "article-source/cahors-wine-region.md"
+    },
+    {
       "slug": "campania",
       "route": "/campania/",
       "title": "Campania: A Beginner’s Guide to the Wines of Southern Italy",
@@ -426,12 +698,44 @@
       "source": "article-source/campania.md"
     },
     {
+      "slug": "canberra-district-subregions",
+      "route": "/canberra-district-subregions/",
+      "title": "Canberra District subregions: three informal districts within one GI",
+      "description": "Canberra District is one formal Australian wine GI. It is classified as a region within the Southern New South Wales zone, rather than as a legally…",
+      "section": "regions",
+      "source": "article-source/canberra-district-subregions.md"
+    },
+    {
       "slug": "canberra-district-wine-region",
       "route": "/canberra-district-wine-region/",
       "title": "Canberra District wine region: where it is, grapes and wine styles",
       "description": "Understand where Canberra District is, how its ACT–NSW GI works, and the Shiraz, Riesling, Cabernet Sauvignon and other wines associated with the region.",
       "section": "regions",
       "source": "article-source/canberra-district-wine-region.md"
+    },
+    {
+      "slug": "canned-wine-explained",
+      "route": "/canned-wine-explained/",
+      "title": "Canned wine explained",
+      "description": "Canned wine is wine packaged in a sealed beverage can. The can does not determine the wine’s grape variety, sweetness, colour, quality or production method.…",
+      "section": "fundamentals",
+      "source": "article-source/canned-wine-explained.md"
+    },
+    {
+      "slug": "cannonau-di-sardegna",
+      "route": "/cannonau-di-sardegna/",
+      "title": "Cannonau di Sardegna: A Beginner’s Guide",
+      "description": "Cannonau di Sardegna is a protected Italian wine designation from Sardinia, made principally from the Cannonau grape. It is an Italian DOC and a European…",
+      "section": "regions",
+      "source": "article-source/cannonau-di-sardegna.md"
+    },
+    {
+      "slug": "canterbury-wine-region",
+      "route": "/canterbury-wine-region/",
+      "title": "Canterbury wine region: a beginner’s guide",
+      "description": "Canterbury is a broad, registered New Zealand wine GI on the eastern side of the South Island. Its two registered local GIs are North Canterbury and Waipara…",
+      "section": "regions",
+      "source": "article-source/canterbury-wine-region.md"
     },
     {
       "slug": "cap-management",
@@ -474,12 +778,44 @@
       "source": "article-source/carmenere.md"
     },
     {
+      "slug": "casablanca-valley",
+      "route": "/casablanca-valley/",
+      "title": "Casablanca Valley: A Beginner’s Guide to Chile’s Cool-Climate Wine Region",
+      "description": "Casablanca Valley is an officially recognised Chilean wine subregion, best known for fresh, aromatic white wines—especially Sauvignon Blanc and…",
+      "section": "regions",
+      "source": "article-source/casablanca-valley.md"
+    },
+    {
+      "slug": "cask-wine-and-bag-in-box-explained",
+      "route": "/cask-wine-and-bag-in-box-explained/",
+      "title": "Cask wine and bag-in-box explained",
+      "description": "Cask wine and bag-in-box wine describe how wine is packaged, not what the wine tastes like or how good it is.",
+      "section": "fundamentals",
+      "source": "article-source/cask-wine-and-bag-in-box-explained.md"
+    },
+    {
+      "slug": "cassis-wine-region",
+      "route": "/cassis-wine-region/",
+      "title": "Cassis wine region: a beginner’s guide",
+      "description": "Cassis is both a town and a protected French wine appellation within Provence. It is located in the Bouches-du-Rhône department of southeastern France, on…",
+      "section": "regions",
+      "source": "article-source/cassis-wine-region.md"
+    },
+    {
       "slug": "cava",
       "route": "/cava/",
       "title": "What Is Cava? A Beginner’s Guide",
       "description": "Learn what Cava is, how its traditional method works, which grapes and regions are permitted, what Brut and Reserva mean, and how to read a Cava label in Australia.",
       "section": "fundamentals",
       "source": "article-source/cava.md"
+    },
+    {
+      "slug": "cava-classifications",
+      "route": "/cava-classifications/",
+      "title": "Cava classifications: how to read Reserva, Gran Reserva and more",
+      "description": "Cava classifications tell you mainly about where the wine comes from, how it was made and how long it aged in bottle. They do not guarantee that one bottle…",
+      "section": "regions",
+      "source": "article-source/cava-classifications.md"
     },
     {
       "slug": "cava-wine-regions",
@@ -498,6 +834,14 @@
       "source": "article-source/central-otago.md"
     },
     {
+      "slug": "central-otago-subregions",
+      "route": "/central-otago-subregions/",
+      "title": "Central Otago subregions: a clear guide for Australian wine learners",
+      "description": "Central Otago’s established wine-industry subregions are Gibbston, Wānaka, Bannockburn, Bendigo, Lowburn, Pisa and Alexandra.",
+      "section": "regions",
+      "source": "article-source/central-otago-subregions.md"
+    },
+    {
       "slug": "central-ranges-zone",
       "route": "/central-ranges-zone/",
       "title": "Central Ranges zone: a beginner’s guide to its place and wines",
@@ -512,6 +856,22 @@
       "description": "Understand Central Victoria as an official Victorian wine zone: its GI hierarchy, regions, geographic variation, label meaning and important grape varieties.",
       "section": "regions",
       "source": "article-source/central-victoria-zone.md"
+    },
+    {
+      "slug": "cerasuolo-d-abruzzo",
+      "route": "/cerasuolo-d-abruzzo/",
+      "title": "Cerasuolo d’Abruzzo: A Beginner’s Guide to This Italian Rosé-Style Wine",
+      "description": "Cerasuolo d’Abruzzo is a protected rosé-style wine designation from Abruzzo, in central-eastern Italy. It is made primarily from the Montepulciano grape and…",
+      "section": "regions",
+      "source": "article-source/cerasuolo-d-abruzzo.md"
+    },
+    {
+      "slug": "cerasuolo-di-vittoria",
+      "route": "/cerasuolo-di-vittoria/",
+      "title": "Cerasuolo di Vittoria: Sicily’s DOCG Red Wine Explained",
+      "description": "Cerasuolo di Vittoria is a Sicilian red wine made from a regulated blend of two local grapes: Nero d’Avola and Frappato. Nero d’Avola must make up 50–70% of…",
+      "section": "regions",
+      "source": "article-source/cerasuolo-di-vittoria.md"
     },
     {
       "slug": "chablis",
@@ -530,6 +890,14 @@
       "source": "article-source/chablis-and-chardonnay-what-is-the-relationship.md"
     },
     {
+      "slug": "chablis-premier-cru-and-grand-cru",
+      "route": "/chablis-premier-cru-and-grand-cru/",
+      "title": "Chablis Premier Cru and Grand Cru: What Australian Wine Drinkers Should Know",
+      "description": "Chablis Premier Cru and Chablis Grand Cru are regulated French appellation designations for white wines made from Chardonnay. They come from Chablis, a wine…",
+      "section": "regions",
+      "source": "article-source/chablis-premier-cru-and-grand-cru.md"
+    },
+    {
       "slug": "champagne",
       "route": "/champagne/",
       "title": "Champagne: A Beginner’s Guide to France’s Famous Wine Region",
@@ -544,6 +912,22 @@
       "description": "Understand Champagne’s principal styles and label terms, including vintage, blanc de blancs, rosé, dosage categories and producer codes, with clear Australian context.",
       "section": "fundamentals",
       "source": "article-source/champagne-styles-and-classifications.md"
+    },
+    {
+      "slug": "champagne-subregions",
+      "route": "/champagne-subregions/",
+      "title": "Champagne subregions: the four broad wine-growing areas explained",
+      "description": "“Champagne subregions” is a useful educational expression for four broad wine-growing areas within the single Champagne appellation: Montagne de Reims,…",
+      "section": "regions",
+      "source": "article-source/champagne-subregions.md"
+    },
+    {
+      "slug": "champagne-sweetness-levels",
+      "route": "/champagne-sweetness-levels/",
+      "title": "Champagne sweetness levels: Brut, Extra Brut, Demi-Sec and more",
+      "description": "Champagne sweetness levels are regulated categories based on sugar content, expressed in grams per litre (g/L). They are closely associated with dosage, the…",
+      "section": "regions",
+      "source": "article-source/champagne-sweetness-levels.md"
     },
     {
       "slug": "chaptalisation",
@@ -570,12 +954,28 @@
       "source": "article-source/chardonnay-in-australia.md"
     },
     {
+      "slug": "chateauneuf-du-pape",
+      "route": "/chateauneuf-du-pape/",
+      "title": "Châteauneuf-du-Pape: A Beginner’s Guide to the Southern Rhône Appellation",
+      "description": "Châteauneuf-du-Pape is a protected wine appellation in the Southern Rhône Valley of France. The name refers to a legally defined place and set of production…",
+      "section": "regions",
+      "source": "article-source/chateauneuf-du-pape.md"
+    },
+    {
       "slug": "chenin-blanc",
       "route": "/chenin-blanc/",
       "title": "What is Chenin Blanc?",
       "description": "Chenin Blanc is a versatile white wine grape that can produce dry, off-dry, sweet and sparkling wines. Learn its flavours, acidity, Australian context and food-pairing styles.",
       "section": "grapes",
       "source": "article-source/chenin-blanc.md"
+    },
+    {
+      "slug": "chianti",
+      "route": "/chianti/",
+      "title": "Chianti: A Beginner’s Guide to the Tuscan Wine",
+      "description": "Chianti is a protected Tuscan wine designation, recognised in Europe as a Protected Designation of Origin (PDO, also called DOP) and in Italy as a DOCG.…",
+      "section": "regions",
+      "source": "article-source/chianti.md"
     },
     {
       "slug": "chianti-classico",
@@ -594,12 +994,28 @@
       "source": "article-source/chile.md"
     },
     {
+      "slug": "chinon",
+      "route": "/chinon/",
+      "title": "Chinon: A Beginner’s Guide to the Loire Appellation",
+      "description": "Chinon is a French wine appellation in the Loire Valley. More specifically, it is part of the western Touraine wine area, in the Indre-et-Loire department…",
+      "section": "regions",
+      "source": "article-source/chinon.md"
+    },
+    {
       "slug": "cinsault",
       "route": "/cinsault/",
       "title": "What Is Cinsault? A Beginner’s Guide",
       "description": "Cinsault, also written Cinsaut, is a soft, fruity red wine grape used for red wines, blends and rosé. Learn its taste, origins and Australian context.",
       "section": "grapes",
       "source": "article-source/cinsault.md"
+    },
+    {
+      "slug": "clare-valley-subregions",
+      "route": "/clare-valley-subregions/",
+      "title": "Clare Valley subregions: the five districts wine learners should know",
+      "description": "Clare Valley is a recognised South Australian wine region, but it does not have five legally defined wine subregions. When people talk about Clare Valley’s…",
+      "section": "regions",
+      "source": "article-source/clare-valley-subregions.md"
     },
     {
       "slug": "clare-valley-wine-region",
@@ -618,12 +1034,52 @@
       "source": "article-source/co-fermentation.md"
     },
     {
+      "slug": "coal-river-valley",
+      "route": "/coal-river-valley/",
+      "title": "Coal River Valley: A Beginner’s Guide to Tasmania’s Wine-Growing Area",
+      "description": "Coal River Valley wines are shaped by a Tasmanian cool-climate setting, but the area is relatively warm and dry within the state. That combination can…",
+      "section": "regions",
+      "source": "article-source/coal-river-valley.md"
+    },
+    {
+      "slug": "colchagua-valley",
+      "route": "/colchagua-valley/",
+      "title": "Colchagua Valley: A Beginner’s Guide to Chile’s Red-Wine Country",
+      "description": "Colchagua Valley is an officially recognised Chilean wine-designation area in central Chile. It is best understood as a broad, varied wine region associated…",
+      "section": "regions",
+      "source": "article-source/colchagua-valley.md"
+    },
+    {
       "slug": "cold-stabilisation",
       "route": "/cold-stabilisation/",
       "title": "What Is Cold Stabilisation? A Beginner’s Guide",
       "description": "Cold stabilisation chills wine before bottling to reduce the risk of tartrate crystals forming later. Learn how it works, why crystals are usually harmless and how it differs from cold soak, filtration and fining.",
       "section": "winemaking",
       "source": "article-source/cold-stabilisation.md"
+    },
+    {
+      "slug": "colheita-port",
+      "route": "/colheita-port/",
+      "title": "Colheita Port: A Beginner’s Guide to Portugal’s Single-Harvest Port",
+      "description": "Colheita Port is a single-harvest category of Portuguese Port from the Douro Demarcated Region. The wine must be made from grapes harvested in one year,…",
+      "section": "regions",
+      "source": "article-source/colheita-port.md"
+    },
+    {
+      "slug": "colli-orientali-del-friuli",
+      "route": "/colli-orientali-del-friuli/",
+      "title": "Colli Orientali del Friuli: A Beginner’s Guide",
+      "description": "Colli Orientali del Friuli is a hilly wine-growing area and DOC in Friuli-Venezia Giulia, in north-eastern Italy. Its formal protected-designation wording…",
+      "section": "regions",
+      "source": "article-source/colli-orientali-del-friuli.md"
+    },
+    {
+      "slug": "collio-wine-region",
+      "route": "/collio-wine-region/",
+      "title": "Collio wine region: a beginner’s guide",
+      "description": "Collio is an Italian wine area and DOC in the hills of north-eastern Friuli-Venezia Giulia, beside the Slovenian border. It is especially associated with…",
+      "section": "regions",
+      "source": "article-source/collio-wine-region.md"
     },
     {
       "slug": "common-wine-vocabulary",
@@ -650,6 +1106,30 @@
       "source": "article-source/concrete-eggs-and-tanks.md"
     },
     {
+      "slug": "condrieu",
+      "route": "/condrieu/",
+      "title": "Condrieu: A Beginner’s Guide to This Northern Rhône Appellation",
+      "description": "Condrieu is a defined French AOC/AOP wine appellation in the Northern Rhône. AOC means Appellation d’Origine Contrôlée, while AOP is the European…",
+      "section": "regions",
+      "source": "article-source/condrieu.md"
+    },
+    {
+      "slug": "conegliano-valdobbiadene",
+      "route": "/conegliano-valdobbiadene/",
+      "title": "Conegliano Valdobbiadene: Understanding Italy’s Prosecco Hills",
+      "description": "Conegliano Valdobbiadene is a defined wine-growing area in Veneto, north-eastern Italy. It is also the geographic setting for the protected designation…",
+      "section": "regions",
+      "source": "article-source/conegliano-valdobbiadene.md"
+    },
+    {
+      "slug": "constantia-wine-region",
+      "route": "/constantia-wine-region/",
+      "title": "Constantia wine region: a clear guide to its place, history and wines",
+      "description": "Constantia is a small wine-producing area in the southern suburbs of Cape Town, South Africa. Formally, it is a Wine of Origin ward within the Cape Town…",
+      "section": "regions",
+      "source": "article-source/constantia-wine-region.md"
+    },
+    {
       "slug": "cool-climate-vs-warm-climate-wine",
       "route": "/cool-climate-vs-warm-climate-wine/",
       "title": "Cool-climate vs warm-climate wine: what’s the difference?",
@@ -658,12 +1138,36 @@
       "source": "article-source/cool-climate-vs-warm-climate-wine.md"
     },
     {
+      "slug": "coonawarra-soils-and-terra-rossa",
+      "route": "/coonawarra-soils-and-terra-rossa/",
+      "title": "Coonawarra soils and terra rossa: why the red soil matters",
+      "description": "Coonawarra’s terra rossa is a famous red, clay-rich soil associated with a narrow north–south strip over limestone in South Australia’s Limestone Coast. Its…",
+      "section": "regions",
+      "source": "article-source/coonawarra-soils-and-terra-rossa.md"
+    },
+    {
       "slug": "coonawarra-wine-region",
       "route": "/coonawarra-wine-region/",
       "title": "Coonawarra Wine Region: What It Is Known For and What Its Wines Taste Like",
       "description": "Learn what Coonawarra is known for, from Cabernet Sauvignon and terra rossa soils to its cool maritime climate, regional wine styles and label meaning.",
       "section": "regions",
       "source": "article-source/coonawarra-wine-region.md"
+    },
+    {
+      "slug": "cornas",
+      "route": "/cornas/",
+      "title": "Cornas: A Beginner’s Guide to This Northern Rhône Appellation",
+      "description": "Cornas is a protected French wine appellation in the Northern Rhône. It is part of the wider Rhône Valley, on the Rhône’s right bank in the Ardèche département.",
+      "section": "regions",
+      "source": "article-source/cornas.md"
+    },
+    {
+      "slug": "corpinnat-sparkling-wine",
+      "route": "/corpinnat-sparkling-wine/",
+      "title": "Corpinnat sparkling wine: a beginner’s guide",
+      "description": "Corpinnat is a European Union collective brand for sparkling wines made in the Penedès area of Catalonia, Spain. The name identifies wines made under the…",
+      "section": "regions",
+      "source": "article-source/corpinnat-sparkling-wine.md"
     },
     {
       "slug": "corvina",
@@ -698,6 +1202,62 @@
       "source": "article-source/cote-de-nuits.md"
     },
     {
+      "slug": "cote-des-bar",
+      "route": "/cote-des-bar/",
+      "title": "Côte des Bar: Understanding Champagne’s Southern Wine-Growing Subregion",
+      "description": "Côte des Bar is one of Champagne’s principal wine-growing subregions. It sits at the southern end of the Champagne production area, south-east of Troyes,…",
+      "section": "regions",
+      "source": "article-source/cote-des-bar.md"
+    },
+    {
+      "slug": "cote-des-blancs",
+      "route": "/cote-des-blancs/",
+      "title": "Côte des Blancs: Understanding Champagne’s Chardonnay Heartland",
+      "description": "Côte des Blancs is a recognised wine-growing subregion within the Champagne appellation area of north-eastern France. It is not a separate AOC or AOP, a…",
+      "section": "regions",
+      "source": "article-source/cote-des-blancs.md"
+    },
+    {
+      "slug": "cote-rotie",
+      "route": "/cote-rotie/",
+      "title": "Côte-Rôtie: A Beginner’s Guide to the Northern Rhône Appellation",
+      "description": "Côte-Rôtie is a legally defined French appellation in the Northern Rhône. It applies to still red wines made from grapes grown in a delimited area of three…",
+      "section": "regions",
+      "source": "article-source/cote-rotie.md"
+    },
+    {
+      "slug": "coteaux-du-layon",
+      "route": "/coteaux-du-layon/",
+      "title": "Coteaux du Layon: a beginner’s guide to this Loire Valley sweet white wine",
+      "description": "Coteaux du Layon is a defined French AOC/AOP wine appellation in Anjou, within the lower Loire Valley. It covers still white wines made exclusively from…",
+      "section": "regions",
+      "source": "article-source/coteaux-du-layon.md"
+    },
+    {
+      "slug": "cotes-de-provence",
+      "route": "/cotes-de-provence/",
+      "title": "Côtes de Provence: a beginner’s guide for Australian wine drinkers",
+      "description": "Côtes de Provence is a protected French wine appellation in southeastern France. It sits within the broader Provence wine region and was recognised as an…",
+      "section": "regions",
+      "source": "article-source/cotes-de-provence.md"
+    },
+    {
+      "slug": "cotes-du-rhone",
+      "route": "/cotes-du-rhone/",
+      "title": "Côtes du Rhône: A Beginner’s Guide to the French Rhône Appellation",
+      "description": "Côtes du Rhône is a broad French AOC appellation within the Rhône Valley. The name identifies wine from a defined geographic area made according to…",
+      "section": "regions",
+      "source": "article-source/cotes-du-rhone.md"
+    },
+    {
+      "slug": "cotes-du-rhone-villages",
+      "route": "/cotes-du-rhone-villages/",
+      "title": "Côtes du Rhône Villages: A Beginner’s Guide",
+      "description": "Côtes du Rhône Villages is the name of a protected French wine appellation in the southern Rhône context. An appellation is a regulated geographic and…",
+      "section": "regions",
+      "source": "article-source/cotes-du-rhone-villages.md"
+    },
+    {
       "slug": "cowra-wine-region",
       "route": "/cowra-wine-region/",
       "title": "Cowra wine region: a beginner’s guide",
@@ -714,12 +1274,28 @@
       "source": "article-source/cremant.md"
     },
     {
+      "slug": "cremant-d-alsace",
+      "route": "/cremant-d-alsace/",
+      "title": "Crémant d’Alsace: a beginner’s guide",
+      "description": "Crémant d’Alsace is a protected French appellation for white and rosé sparkling wines from Alsace. In French legal terminology it is an AOC, or appellation…",
+      "section": "regions",
+      "source": "article-source/cremant-d-alsace.md"
+    },
+    {
       "slug": "crisp-dry-white-wine",
       "route": "/crisp-dry-white-wine/",
       "title": "What Is Crisp, Dry White Wine? A Beginner’s Guide",
       "description": "Learn what crisp, dry white wine means, how dry differs from crisp, fruity and sour, which grapes may fit the style, and how Australian labels can help you choose.",
       "section": "fundamentals",
       "source": "article-source/crisp-dry-white-wine.md"
+    },
+    {
+      "slug": "crozes-hermitage",
+      "route": "/crozes-hermitage/",
+      "title": "Crozes-Hermitage: a beginner’s guide to the Northern Rhône appellation",
+      "description": "Crozes-Hermitage is a protected French appellation in the Northern Rhône, part of the wider Rhône Valley. It sits on the Rhône’s left bank in the Drôme…",
+      "section": "regions",
+      "source": "article-source/crozes-hermitage.md"
     },
     {
       "slug": "cultured-yeast-fermentation",
@@ -746,12 +1322,44 @@
       "source": "article-source/cuvee-meaning.md"
     },
     {
+      "slug": "dao-wine-region",
+      "route": "/dao-wine-region/",
+      "title": "Dão Wine Region: A Beginner’s Guide",
+      "description": "Dão is a protected wine region in inland central Portugal, centred on the area around Viseu. Its formal designation is DOP Dão—Portugal’s protected…",
+      "section": "regions",
+      "source": "article-source/dao-wine-region.md"
+    },
+    {
       "slug": "dealcoholised-wine-production",
       "route": "/dealcoholised-wine-production/",
       "title": "What Is Dealcoholised Wine Production? A Beginner’s Guide",
       "description": "Learn how dealcoholised wine is made from fermented wine, including membrane, vacuum and spinning-cone processes, sensory changes and Australian labelling context.",
       "section": "winemaking",
       "source": "article-source/dealcoholised-wine-production.md"
+    },
+    {
+      "slug": "decanter-vs-aerator",
+      "route": "/decanter-vs-aerator/",
+      "title": "Decanter vs aerator: which should you use?",
+      "description": "A decanter is the more versatile choice. It can give wine contact with air, hold a full bottle, improve table presentation and help separate wine from…",
+      "section": "fundamentals",
+      "source": "article-source/decanter-vs-aerator.md"
+    },
+    {
+      "slug": "denmark-wine-region",
+      "route": "/denmark-wine-region/",
+      "title": "Denmark wine region: a beginner’s guide to Danish wine",
+      "description": "Denmark is an emerging cool-climate wine-producing country rather than one single legally defined wine region. The most useful way to understand it is as a…",
+      "section": "regions",
+      "source": "article-source/denmark-wine-region.md"
+    },
+    {
+      "slug": "describing-wine-without-jargon",
+      "route": "/describing-wine-without-jargon/",
+      "title": "Describing wine without jargon",
+      "description": "You do not need specialist vocabulary, a perfect palate or a formal score to describe wine well. Start with what you notice: what it smells like, what…",
+      "section": "fundamentals",
+      "source": "article-source/describing-wine-without-jargon.md"
     },
     {
       "slug": "dessert-wine",
@@ -802,12 +1410,28 @@
       "source": "article-source/dolcetto.md"
     },
     {
+      "slug": "douro-table-wine",
+      "route": "/douro-table-wine/",
+      "title": "Douro table wine: Portugal’s unfortified wine beyond Port",
+      "description": "Douro table wine means still, unfortified wine associated with Portugal’s Douro wine region. The more precise terms you are likely to see are Douro, Douro…",
+      "section": "regions",
+      "source": "article-source/douro-table-wine.md"
+    },
+    {
       "slug": "douro-valley",
       "route": "/douro-valley/",
       "title": "Douro Valley: A Beginner’s Guide to Portugal’s Wine Region",
       "description": "Understand the Douro Valley, Portugal’s formal wine region, its rugged landscape, important grapes, dry Douro wines and the difference between Douro and Port.",
       "section": "regions",
       "source": "article-source/douro-valley.md"
+    },
+    {
+      "slug": "dry-creek-valley",
+      "route": "/dry-creek-valley/",
+      "title": "Dry Creek Valley: a beginner’s guide to Sonoma’s Zinfandel country",
+      "description": "Dry Creek Valley is a defined wine-growing area in north-central Sonoma County, California. It became an American Viticultural Area in 1983, giving the name…",
+      "section": "regions",
+      "source": "article-source/dry-creek-valley.md"
     },
     {
       "slug": "dry-rose",
@@ -826,6 +1450,14 @@
       "source": "article-source/dry-wine-meaning.md"
     },
     {
+      "slug": "dundee-hills",
+      "route": "/dundee-hills/",
+      "title": "Dundee Hills: An Australian Beginner’s Guide",
+      "description": "Dundee Hills is a defined wine-growing area in Oregon’s northern Willamette Valley. Its AVA status means the name refers to a legally delimited geographic…",
+      "section": "regions",
+      "source": "article-source/dundee-hills.md"
+    },
+    {
       "slug": "durif",
       "route": "/durif/",
       "title": "What Is Durif? A Beginner’s Guide",
@@ -842,12 +1474,36 @@
       "source": "article-source/earthy-aromas-in-wine.md"
     },
     {
+      "slug": "east-coast-tasmania-wine",
+      "route": "/east-coast-tasmania-wine/",
+      "title": "East Coast Tasmania Wine: A Beginner’s Guide",
+      "description": "East Coast Tasmania is a recognised wine-growing area on the eastern side of Tasmania. It is used by the Tasmanian wine industry and appears as a climate…",
+      "section": "regions",
+      "source": "article-source/east-coast-tasmania-wine.md"
+    },
+    {
+      "slug": "eden-valley-subregions",
+      "route": "/eden-valley-subregions/",
+      "title": "Eden Valley subregions: High Eden explained",
+      "description": "Eden Valley has one officially recognised wine subregion: High Eden.",
+      "section": "regions",
+      "source": "article-source/eden-valley-subregions.md"
+    },
+    {
       "slug": "eden-valley-wine-region",
       "route": "/eden-valley-wine-region/",
       "title": "Eden Valley wine region: a clear guide to its wines and landscape",
       "description": "Learn where Eden Valley is, how it fits within South Australia’s Barossa zone, and why elevation, climate and site shape its Riesling, Shiraz and other wines.",
       "section": "regions",
       "source": "article-source/eden-valley-wine-region.md"
+    },
+    {
+      "slug": "eger-wine-region",
+      "route": "/eger-wine-region/",
+      "title": "Eger wine region: a beginner’s guide to Hungary’s fresh, distinctive wines",
+      "description": "Eger is a wine region in north-eastern Hungary, at the foot of the Bükk Mountains. It is best known for two protected blends: Egri Bikavér, a red wine often…",
+      "section": "regions",
+      "source": "article-source/eger-wine-region.md"
     },
     {
       "slug": "emilia-romagna",
@@ -874,12 +1530,44 @@
       "source": "article-source/estate-grown-wine.md"
     },
     {
+      "slug": "etna-bianco",
+      "route": "/etna-bianco/",
+      "title": "Etna Bianco: A Beginner’s Guide to Sicily’s Volcanic White Wine",
+      "description": "Etna Bianco is a dry white wine made under the Etna DOC designation on Mount Etna in eastern Sicily, Italy. It is not a grape variety: it is a regulated,…",
+      "section": "regions",
+      "source": "article-source/etna-bianco.md"
+    },
+    {
+      "slug": "etna-rosso",
+      "route": "/etna-rosso/",
+      "title": "Etna Rosso: A Beginner’s Guide to Sicily’s Mount Etna Red Wine",
+      "description": "Etna Rosso is the red-wine type within the regulated Etna DOC, a protected Italian designation of origin on the slopes of Mount Etna in eastern Sicily.",
+      "section": "regions",
+      "source": "article-source/etna-rosso.md"
+    },
+    {
+      "slug": "etna-wine-region",
+      "route": "/etna-wine-region/",
+      "title": "Etna wine region: a beginner’s guide to Etna DOC",
+      "description": "Etna is a regulated wine designation on the slopes of Mount Etna in eastern Sicily, Italy. Its wines are best understood through three ideas: a volcanic…",
+      "section": "regions",
+      "source": "article-source/etna-wine-region.md"
+    },
+    {
       "slug": "european-wine-classifications",
       "route": "/european-wine-classifications/",
       "title": "European Wine Classifications Explained: A Beginner’s Guide",
       "description": "Learn how European wine classifications use origin, protected names and production rules, and how France, Italy, Spain and Germany differ from Australian Geographic Indications.",
       "section": "fundamentals",
       "source": "article-source/european-wine-classifications.md"
+    },
+    {
+      "slug": "everyday-wine-meaning",
+      "route": "/everyday-wine-meaning/",
+      "title": "Everyday wine meaning: what does “everyday wine” mean?",
+      "description": "“Everyday wine” usually means a wine regarded as suitable for ordinary, relaxed or regular occasions rather than a particularly formal, rare or celebratory…",
+      "section": "fundamentals",
+      "source": "article-source/everyday-wine-meaning.md"
     },
     {
       "slug": "extended-maceration",
@@ -906,6 +1594,14 @@
       "source": "article-source/fiano.md"
     },
     {
+      "slug": "fiano-di-avellino",
+      "route": "/fiano-di-avellino/",
+      "title": "Fiano di Avellino: an Australian beginner’s guide",
+      "description": "Fiano di Avellino is a protected designation of origin for white wine made in a defined area of Campania, around Avellino. In Italian classification…",
+      "section": "regions",
+      "source": "article-source/fiano-di-avellino.md"
+    },
+    {
       "slug": "field-blends",
       "route": "/field-blends/",
       "title": "Field blends: what Australian wine drinkers should know",
@@ -922,12 +1618,44 @@
       "source": "article-source/filtering-wine.md"
     },
     {
+      "slug": "fine-wine-meaning",
+      "route": "/fine-wine-meaning/",
+      "title": "Fine wine meaning: what does “fine wine” actually mean?",
+      "description": "“Fine wine” is a flexible phrase used to describe a wine that a particular wine community considers especially accomplished, distinctive or desirable.…",
+      "section": "fundamentals",
+      "source": "article-source/fine-wine-meaning.md"
+    },
+    {
+      "slug": "finger-lakes-wine-region",
+      "route": "/finger-lakes-wine-region/",
+      "title": "Finger Lakes wine region: Riesling, lakes and cool-climate wine",
+      "description": "The Finger Lakes wine region is a cool-climate wine area in west-central New York State, United States. It takes its name from a group of long, deep lakes…",
+      "section": "regions",
+      "source": "article-source/finger-lakes-wine-region.md"
+    },
+    {
       "slug": "fining-wine",
       "route": "/fining-wine/",
       "title": "What Is Fining Wine? A Beginner’s Guide",
       "description": "Fining is a winemaking treatment used to clarify wine and adjust selected compounds. Learn how it differs from filtering, what “unfined” means and how fining relates to vegan wine in Australia.",
       "section": "winemaking",
       "source": "article-source/fining-wine.md"
+    },
+    {
+      "slug": "fino-vs-manzanilla",
+      "route": "/fino-vs-manzanilla/",
+      "title": "Fino vs Manzanilla: What’s the Difference?",
+      "description": "Fino and Manzanilla are not grape varieties. They are closely related, dry Sherry styles made by ageing a dry, fortified wine under a layer of flor yeast.",
+      "section": "regions",
+      "source": "article-source/fino-vs-manzanilla.md"
+    },
+    {
+      "slug": "fleurie",
+      "route": "/fleurie/",
+      "title": "Fleurie: A Beginner’s Guide to This Beaujolais Appellation",
+      "description": "Fleurie is a French wine appellation in Beaujolais, best known for fresh, fragrant red wines made principally from Gamay. It is a place name, not a grape…",
+      "section": "regions",
+      "source": "article-source/fleurie.md"
     },
     {
       "slug": "fleurieu-zone",
@@ -970,6 +1698,30 @@
       "source": "article-source/france.md"
     },
     {
+      "slug": "franciacorta",
+      "route": "/franciacorta/",
+      "title": "Franciacorta: An Italian guide for Australian wine learners",
+      "description": "Franciacorta is both a defined wine-producing area and the name of a protected Italian designation: Franciacorta DOCG. DOCG means Denominazione di Origine…",
+      "section": "regions",
+      "source": "article-source/franciacorta.md"
+    },
+    {
+      "slug": "franconia-wine-region",
+      "route": "/franconia-wine-region/",
+      "title": "Franconia Wine Region: A Beginner’s Guide to Franken",
+      "description": "Franconia is a wine region in central Germany. On German labels, it is usually called Franken, which is the official name of the region and its PDO. The…",
+      "section": "regions",
+      "source": "article-source/franconia-wine-region.md"
+    },
+    {
+      "slug": "frankland-river-wine-region",
+      "route": "/frankland-river-wine-region/",
+      "title": "Frankland River wine region: a beginner’s guide",
+      "description": "Frankland River is a protected Australian wine Geographical Indication (GI) in Western Australia. It sits inside the Great Southern region, within the South…",
+      "section": "regions",
+      "source": "article-source/frankland-river-wine-region.md"
+    },
+    {
       "slug": "french-aoc-and-aop",
       "route": "/french-aoc-and-aop/",
       "title": "What Is French AOC and AOP? A Beginner’s Guide",
@@ -1002,6 +1754,14 @@
       "source": "article-source/friuli-venezia-giulia.md"
     },
     {
+      "slug": "fronton",
+      "route": "/fronton/",
+      "title": "Fronton: A Beginner’s Guide to This French Wine Appellation",
+      "description": "Fronton is a protected French wine appellation in south-west France, north of Toulouse. It produces still red and rosé wines, with Négrette as its principal…",
+      "section": "regions",
+      "source": "article-source/fronton.md"
+    },
+    {
       "slug": "fruit-flavours-in-wine",
       "route": "/fruit-flavours-in-wine/",
       "title": "Fruit flavours in wine: what do they mean?",
@@ -1016,6 +1776,14 @@
       "description": "Learn why fruity and sweet are not synonyms, how acidity and tannin affect perception, and why a dry Australian wine can still be full of fruit character.",
       "section": "fundamentals",
       "source": "article-source/fruitiness-vs-sweetness.md"
+    },
+    {
+      "slug": "full-bodied-red-wine",
+      "route": "/full-bodied-red-wine/",
+      "title": "What Is Full-bodied red wine? A Beginner’s Guide",
+      "description": "A full-bodied red wine feels substantial, broad or mouth-filling on the palate. Compared with a light-bodied red, it has more apparent weight and presence,…",
+      "section": "fundamentals",
+      "source": "article-source/full-bodied-red-wine.md"
     },
     {
       "slug": "full-bodied-white-wine",
@@ -1034,6 +1802,14 @@
       "source": "article-source/furmint.md"
     },
     {
+      "slug": "gaillac",
+      "route": "/gaillac/",
+      "title": "Gaillac: A Beginner’s Guide to This French Wine Appellation",
+      "description": "Gaillac is a protected French wine appellation in the Tarn department of Occitanie, in south-west France. It is a place name and regulated wine…",
+      "section": "regions",
+      "source": "article-source/gaillac.md"
+    },
+    {
       "slug": "gamay",
       "route": "/gamay/",
       "title": "What is Gamay?",
@@ -1048,6 +1824,14 @@
       "description": "Learn what Garganega is, where it comes from, how it relates to Soave and what its wines can taste like—including useful context for Australian wine learners.",
       "section": "grapes",
       "source": "article-source/garganega.md"
+    },
+    {
+      "slug": "gattinara",
+      "route": "/gattinara/",
+      "title": "Gattinara: a beginner’s guide to this northern Italian Nebbiolo wine",
+      "description": "Gattinara is a DOCG red-wine appellation in Piedmont, Italy. The name also belongs to the municipality where the appellation’s grapes must be grown.",
+      "section": "regions",
+      "source": "article-source/gattinara.md"
     },
     {
       "slug": "geelong-wine-region",
@@ -1074,6 +1858,14 @@
       "source": "article-source/georgia.md"
     },
     {
+      "slug": "german-dry-wine-labels",
+      "route": "/german-dry-wine-labels/",
+      "title": "German Dry Wine Labels: What “Trocken” Really Means",
+      "description": "On a German wine label, trocken means dry within the relevant German and European labelling framework. For the still-wine category covered by the German…",
+      "section": "regions",
+      "source": "article-source/german-dry-wine-labels.md"
+    },
+    {
       "slug": "german-pradikat-system",
       "route": "/german-pradikat-system/",
       "title": "What Is the German Prädikat System? A Beginner’s Guide",
@@ -1098,12 +1890,44 @@
       "source": "article-source/gewurztraminer.md"
     },
     {
+      "slug": "ghemme",
+      "route": "/ghemme/",
+      "title": "Ghemme: a beginner’s guide to this Piedmont red wine",
+      "description": "Ghemme is a DOCG red-wine designation from Alto Piemonte, the northern part of Italy’s Piedmont region. DOCG means Denominazione di Origine Controllata e…",
+      "section": "regions",
+      "source": "article-source/ghemme.md"
+    },
+    {
+      "slug": "gigondas",
+      "route": "/gigondas/",
+      "title": "Gigondas: a beginner’s guide to this Southern Rhône appellation",
+      "description": "Gigondas is a protected French wine appellation in the Southern Rhône. It is also the name of the commune where the appellation is produced. Most…",
+      "section": "regions",
+      "source": "article-source/gigondas.md"
+    },
+    {
+      "slug": "gimblett-gravels",
+      "route": "/gimblett-gravels/",
+      "title": "Gimblett Gravels: Understanding Hawke’s Bay’s Gravelly Wine District",
+      "description": "Gimblett Gravels is a defined wine-growing district within Hawke’s Bay, on New Zealand’s North Island. It is best known for red wines, particularly Syrah…",
+      "section": "regions",
+      "source": "article-source/gimblett-gravels.md"
+    },
+    {
       "slug": "gippsland-wine-region",
       "route": "/gippsland-wine-region/",
       "title": "Gippsland wine region: where it is and what it is known for",
       "description": "Learn where Gippsland is, how its Victorian Geographical Indication works, and why Chardonnay, Pinot Noir, Shiraz and aromatic whites are associated with this diverse cool-climate wine region.",
       "section": "regions",
       "source": "article-source/gippsland-wine-region.md"
+    },
+    {
+      "slug": "givry-wine-region",
+      "route": "/givry-wine-region/",
+      "title": "Givry wine region",
+      "description": "Givry is a French wine appellation in Burgundy’s Côte Chalonnaise. It produces still red and white wines from legally delimited vineyard parcels in the…",
+      "section": "regions",
+      "source": "article-source/givry-wine-region.md"
     },
     {
       "slug": "glera",
@@ -1138,6 +1962,14 @@
       "source": "article-source/granite-belt-wine-region.md"
     },
     {
+      "slug": "graves-wine-region",
+      "route": "/graves-wine-region/",
+      "title": "Graves wine region: a beginner’s guide",
+      "description": "Graves is a defined French wine appellation within the wider Bordeaux region. It covers part of the Gironde département on the left bank of the Garonne,…",
+      "section": "regions",
+      "source": "article-source/graves-wine-region.md"
+    },
+    {
       "slug": "great-southern-subregions",
       "route": "/great-southern-subregions/",
       "title": "Great Southern subregions: Albany, Denmark, Frankland River, Mount Barker and Porongurup",
@@ -1170,6 +2002,14 @@
       "source": "article-source/greater-perth-zone.md"
     },
     {
+      "slug": "greco-di-tufo",
+      "route": "/greco-di-tufo/",
+      "title": "Greco di Tufo: a beginner’s guide to the Italian wine",
+      "description": "Greco di Tufo is a protected Italian wine denomination from Irpinia in Campania. It is best known for dry white wines made mainly from the Greco grape, but…",
+      "section": "regions",
+      "source": "article-source/greco-di-tufo.md"
+    },
+    {
       "slug": "greece",
       "route": "/greece/",
       "title": "Greece: A Beginner’s Guide to Greek Wine",
@@ -1184,6 +2024,14 @@
       "description": "Understand Australian Grenache: its history, major regions, styles, blends, old-vine context and the clues that help explain what may be in the glass.",
       "section": "regions",
       "source": "article-source/grenache-in-australia.md"
+    },
+    {
+      "slug": "grower-champagne",
+      "route": "/grower-champagne/",
+      "title": "Grower Champagne: What Australian Wine Drinkers Should Know",
+      "description": "In Champagne, a grower is a producer connected to vineyards and grape growing. A grower may make and sell Champagne under its own label, rather than selling…",
+      "section": "regions",
+      "source": "article-source/grower-champagne.md"
     },
     {
       "slug": "gruner-veltliner",
@@ -1210,6 +2058,14 @@
       "source": "article-source/hastings-river-wine-region.md"
     },
     {
+      "slug": "haut-medoc",
+      "route": "/haut-medoc/",
+      "title": "Haut-Médoc: A Beginner’s Guide to the Bordeaux Appellation",
+      "description": "Haut-Médoc is a French appellation d’origine contrôlée (AOC) and appellation d’origine protégée (AOP) for still red wines. In simple terms, it is a…",
+      "section": "regions",
+      "source": "article-source/haut-medoc.md"
+    },
+    {
       "slug": "hawkes-bay",
       "route": "/hawkes-bay/",
       "title": "Hawke’s Bay: A Beginner’s Guide to New Zealand’s Wine Region",
@@ -1226,6 +2082,14 @@
       "source": "article-source/heathcote-wine-region.md"
     },
     {
+      "slug": "hemel-en-aarde-valley",
+      "route": "/hemel-en-aarde-valley/",
+      "title": "Hemel-en-Aarde Valley: A Beginner’s Guide to the South African Wine Region",
+      "description": "Hemel-en-Aarde Valley is a South African wine-producing ward within the Walker Bay district of the Cape South Coast region, in the Western Cape.",
+      "section": "regions",
+      "source": "article-source/hemel-en-aarde-valley.md"
+    },
+    {
       "slug": "henty-wine-region",
       "route": "/henty-wine-region/",
       "title": "Henty wine region: a beginner’s guide",
@@ -1240,6 +2104,14 @@
       "description": "Learn what herbal aromas in wine mean, from mint and eucalyptus to leafy and capsicum notes, and how to tell character from excessive green aromas.",
       "section": "fundamentals",
       "source": "article-source/herbal-aromas-in-wine.md"
+    },
+    {
+      "slug": "hermitage",
+      "route": "/hermitage/",
+      "title": "Hermitage: A Beginner’s Guide to the Northern Rhône Appellation",
+      "description": "Hermitage is a protected French AOC/AOP—roughly, a legally protected place-name for wine—in the Northern Rhône. It is also one of the Rhône’s named crus,…",
+      "section": "regions",
+      "source": "article-source/hermitage.md"
     },
     {
       "slug": "hilltops-wine-region",
@@ -1266,12 +2138,52 @@
       "source": "article-source/how-grapes-become-alcohol.md"
     },
     {
+      "slug": "how-long-to-chill-wine",
+      "route": "/how-long-to-chill-wine/",
+      "title": "How long to chill wine",
+      "description": "For a standard 750 mL bottle beginning at approximately 20–21°C, allow roughly 1½–3 hours in a refrigerator, 10–20 minutes in an ice-and-water bath, or…",
+      "section": "fundamentals",
+      "source": "article-source/how-long-to-chill-wine.md"
+    },
+    {
+      "slug": "how-long-wine-lasts-after-opening",
+      "route": "/how-long-wine-lasts-after-opening/",
+      "title": "How Long Does Wine Last After Opening?",
+      "description": "How long wine lasts after opening depends on its style, temperature, closure, oxygen exposure and how much wine remains in the bottle.",
+      "section": "fundamentals",
+      "source": "article-source/how-long-wine-lasts-after-opening.md"
+    },
+    {
+      "slug": "how-many-glasses-are-in-a-bottle-of-wine",
+      "route": "/how-many-glasses-are-in-a-bottle-of-wine/",
+      "title": "How many glasses are in a bottle of wine?",
+      "description": "A typical bottle of still wine contains 750 mL. At a 150 mL pour, that gives:",
+      "section": "winemaking",
+      "source": "article-source/how-many-glasses-are-in-a-bottle-of-wine.md"
+    },
+    {
+      "slug": "how-much-wine-to-buy-for-a-party",
+      "route": "/how-much-wine-to-buy-for-a-party/",
+      "title": "How much wine to buy for a party",
+      "description": "A useful party-planning formula is:",
+      "section": "fundamentals",
+      "source": "article-source/how-much-wine-to-buy-for-a-party.md"
+    },
+    {
       "slug": "how-soil-affects-wine",
       "route": "/how-soil-affects-wine/",
       "title": "How Soil Affects Wine",
       "description": "Soil can influence wine through water availability, root growth, nutrients and vine development—but it does not simply transfer its flavour to grapes. Learn how soil, climate and winemaking interact.",
       "section": "winemaking",
       "source": "article-source/how-soil-affects-wine.md"
+    },
+    {
+      "slug": "how-to-buy-wine-online",
+      "route": "/how-to-buy-wine-online/",
+      "title": "How to buy wine online",
+      "description": "First decide what you are buying the wine for. Is it for dinner, a gift, a casual glass or a celebration? Think about the food, the number of people and the…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-buy-wine-online.md"
     },
     {
       "slug": "how-to-cellar-pinot-noir",
@@ -1290,6 +2202,62 @@
       "source": "article-source/how-to-cellar-wine.md"
     },
     {
+      "slug": "how-to-chill-wine-quickly",
+      "route": "/how-to-chill-wine-quickly/",
+      "title": "How to chill wine quickly",
+      "description": "To chill a sealed bottle of wine quickly, place it in a stable container filled with ice and water. Make sure the cold water surrounds as much of the bottle…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-chill-wine-quickly.md"
+    },
+    {
+      "slug": "how-to-choose-wine-as-a-gift",
+      "route": "/how-to-choose-wine-as-a-gift/",
+      "title": "How to choose wine as a gift",
+      "description": "Choosing wine as a gift is less about finding the most prestigious bottle and more about understanding the person receiving it. Start with three things:…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-as-a-gift.md"
+    },
+    {
+      "slug": "how-to-choose-wine-at-a-restaurant",
+      "route": "/how-to-choose-wine-at-a-restaurant/",
+      "title": "How to choose wine at a restaurant",
+      "description": "Before looking closely at the list, answer five questions:",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-at-a-restaurant.md"
+    },
+    {
+      "slug": "how-to-choose-wine-in-a-bottle-shop",
+      "route": "/how-to-choose-wine-in-a-bottle-shop/",
+      "title": "How to choose wine in a bottle shop",
+      "description": "Choosing wine in a bottle shop is easier when you decide what you want before you study the shelf. Start with the occasion, food, budget and one or two…",
+      "section": "winemaking",
+      "source": "article-source/how-to-choose-wine-in-a-bottle-shop.md"
+    },
+    {
+      "slug": "how-to-clean-wine-glasses",
+      "route": "/how-to-clean-wine-glasses/",
+      "title": "How to clean wine glasses",
+      "description": "Hand-washing is the cautious choice for hand-wash-only, delicate, valuable, antique or unusually shaped glasses. Ordinary glasses labelled dishwasher-safe…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-clean-wine-glasses.md"
+    },
+    {
+      "slug": "how-to-compare-wine-value",
+      "route": "/how-to-compare-wine-value/",
+      "title": "How to compare wine value",
+      "description": "Wine value means the expected benefit of a wine relative to its total price. That benefit might be enjoyment, suitability with food, reliability for a…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-compare-wine-value.md"
+    },
+    {
+      "slug": "how-to-learn-your-wine-preferences",
+      "route": "/how-to-learn-your-wine-preferences/",
+      "title": "How to learn your wine preferences",
+      "description": "The most reliable way to learn your wine preferences is to taste deliberately over time. Start with a wine you know, compare it with one or two contrasting…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-learn-your-wine-preferences.md"
+    },
+    {
       "slug": "how-to-open-sparkling-wine-safely",
       "route": "/how-to-open-sparkling-wine-safely/",
       "title": "How to Open Sparkling Wine Safely",
@@ -1298,12 +2266,44 @@
       "source": "article-source/how-to-open-sparkling-wine-safely.md"
     },
     {
+      "slug": "how-to-order-wine-confidently",
+      "route": "/how-to-order-wine-confidently/",
+      "title": "How to order wine confidently",
+      "description": "Ordering wine confidently is mostly a communication skill. You do not need expert knowledge or a perfect vocabulary. Give the server or sommelier—if the…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-order-wine-confidently.md"
+    },
+    {
+      "slug": "how-to-organise-a-wine-cellar",
+      "route": "/how-to-organise-a-wine-cellar/",
+      "title": "How to organise a wine cellar",
+      "description": "The most useful approach for many households is to create three or four broad zones:",
+      "section": "fundamentals",
+      "source": "article-source/how-to-organise-a-wine-cellar.md"
+    },
+    {
       "slug": "how-to-read-a-wine-label",
       "route": "/how-to-read-a-wine-label/",
       "title": "How to Read a Wine Label",
       "description": "Learn how to find the producer, region, grape, vintage, alcohol and other useful clues on an Australian wine label.",
       "section": "fundamentals",
       "source": "article-source/how-to-read-a-wine-label.md"
+    },
+    {
+      "slug": "how-to-remove-a-broken-cork",
+      "route": "/how-to-remove-a-broken-cork/",
+      "title": "How to remove a broken cork",
+      "description": "These instructions are for an ordinary still-wine bottle, such as one commonly opened at home in Australia. If the bottle is sparkling or otherwise…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-remove-a-broken-cork.md"
+    },
+    {
+      "slug": "how-to-start-a-wine-collection",
+      "route": "/how-to-start-a-wine-collection/",
+      "title": "How to start a wine collection",
+      "description": "Begin by choosing a purpose. You might want wines for weeknight drinking, future dinners, birthdays, entertaining, learning or a mixture of these. Your…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-start-a-wine-collection.md"
     },
     {
       "slug": "how-to-store-open-wine",
@@ -1320,6 +2320,22 @@
       "description": "A practical step-by-step guide to looking, smelling and tasting wine without the theatre.",
       "section": "fundamentals",
       "source": "article-source/how-to-taste-wine.md"
+    },
+    {
+      "slug": "how-to-tell-if-wine-is-ready-to-drink",
+      "route": "/how-to-tell-if-wine-is-ready-to-drink/",
+      "title": "How to tell if wine is ready to drink",
+      "description": "A wine is ready to drink when it gives you the balance, flavour development and enjoyment you want from its style. That might be while it is youthful and…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-tell-if-wine-is-ready-to-drink.md"
+    },
+    {
+      "slug": "how-to-transport-wine-safely",
+      "route": "/how-to-transport-wine-safely/",
+      "title": "How to transport wine safely",
+      "description": "The safest way to transport wine is to pack each sealed bottle so it cannot knock against another bottle or move freely inside a box. Use a rigid wine…",
+      "section": "fundamentals",
+      "source": "article-source/how-to-transport-wine-safely.md"
     },
     {
       "slug": "how-to-understand-wine-reviews",
@@ -1346,12 +2362,28 @@
       "source": "article-source/how-wine-pairing-works.md"
     },
     {
+      "slug": "howell-mountain-ava",
+      "route": "/howell-mountain-ava/",
+      "title": "Howell Mountain AVA: A Beginner’s Guide to Napa’s Mountain Appellation",
+      "description": "Howell Mountain is a legally defined American Viticultural Area in Napa County, California, within the Napa Valley AVA. It is a mountain growing area rather…",
+      "section": "regions",
+      "source": "article-source/howell-mountain-ava.md"
+    },
+    {
       "slug": "hungary",
       "route": "/hungary/",
       "title": "Hungary: A Beginner’s Guide to Its Wine Regions, Grapes and Styles",
       "description": "Understand Hungary as a diverse Central European wine country, from Tokaj and Tokaji Aszú to Furmint, Kékfrankos, Eger, Villány, Szekszárd, Somló and the Balaton wine districts.",
       "section": "regions",
       "source": "article-source/hungary.md"
+    },
+    {
+      "slug": "hunter-valley-subregions",
+      "route": "/hunter-valley-subregions/",
+      "title": "Hunter Valley subregions: Broke Fordwich, Pokolbin and Upper Hunter Valley",
+      "description": "The Hunter Valley is an official Australian Geographic Indication (GI) zone. Inside that zone is the official Hunter GI region, which contains three…",
+      "section": "regions",
+      "source": "article-source/hunter-valley-subregions.md"
     },
     {
       "slug": "hunter-valley-wine-region",
@@ -1394,12 +2426,44 @@
       "source": "article-source/italy.md"
     },
     {
+      "slug": "itata-valley",
+      "route": "/itata-valley/",
+      "title": "Itata Valley: A Beginner’s Guide to Chile’s Southern Wine Region",
+      "description": "Itata Valley—formally Valle del Itata—is an official Chilean wine subregion and denomination-of-origin designation. It sits within Chile’s Southern…",
+      "section": "regions",
+      "source": "article-source/itata-valley.md"
+    },
+    {
       "slug": "jerez",
       "route": "/jerez/",
       "title": "Jerez: a beginner’s guide to Spain’s Sherry region",
       "description": "Understand Jerez as a protected wine geography in Andalusia, including Sherry terminology, the Sherry Triangle, key grapes, flor, oxidation, fortification, solera ageing and major wine styles.",
       "section": "regions",
       "source": "article-source/jerez.md"
+    },
+    {
+      "slug": "jumilla",
+      "route": "/jumilla/",
+      "title": "Jumilla: A Beginner’s Guide to This Spanish Wine Region",
+      "description": "Jumilla is a protected wine designation in south-eastern Spain, best known for red wines made from Monastrell. But “Jumilla” on a bottle does not guarantee…",
+      "section": "regions",
+      "source": "article-source/jumilla.md"
+    },
+    {
+      "slug": "jurancon",
+      "route": "/jurancon/",
+      "title": "Jurançon: a beginner’s guide to this French white-wine appellation",
+      "description": "Jurançon is a protected French appellation for still white wines from a defined area in Béarn, in south-west France. The vineyards sit in the foothills of…",
+      "section": "regions",
+      "source": "article-source/jurancon.md"
+    },
+    {
+      "slug": "kamptal",
+      "route": "/kamptal/",
+      "title": "Kamptal: An Austrian Wine Region Guide for Australian Learners",
+      "description": "Kamptal is a defined Austrian wine region in Lower Austria, associated with the Kamp valley and especially with the wine town of Langenlois. As a rough…",
+      "section": "regions",
+      "source": "article-source/kamptal.md"
     },
     {
       "slug": "kangaroo-island-wine-region",
@@ -1418,12 +2482,36 @@
       "source": "article-source/king-valley-wine-region.md"
     },
     {
+      "slug": "kremstal",
+      "route": "/kremstal/",
+      "title": "Kremstal: Understanding Austria’s Danube Wine Region",
+      "description": "Kremstal is a wine-growing region in Lower Austria, in the north-east of Austria. It is centred on Krems an der Donau, where the Krems River meets the…",
+      "section": "regions",
+      "source": "article-source/kremstal.md"
+    },
+    {
+      "slug": "la-mancha-wine-region",
+      "route": "/la-mancha-wine-region/",
+      "title": "La Mancha wine region: a beginner’s guide",
+      "description": "La Mancha is a large natural and historic region in central Spain. It is also the name of the protected La Mancha Denominación de Origen Protegida (DOP), or…",
+      "section": "regions",
+      "source": "article-source/la-mancha-wine-region.md"
+    },
+    {
       "slug": "lagrein",
       "route": "/lagrein/",
       "title": "What Is Lagrein? A Beginner’s Guide",
       "description": "Learn what Lagrein is, where it comes from, how red and rosé expressions differ, what it may taste like and what Australian wine learners should expect from the label.",
       "section": "grapes",
       "source": "article-source/lagrein.md"
+    },
+    {
+      "slug": "langhe-nebbiolo",
+      "route": "/langhe-nebbiolo/",
+      "title": "Langhe Nebbiolo: A Beginner’s Guide to the Piedmont Red Wine",
+      "description": "Langhe Nebbiolo is a Nebbiolo-led red wine from Piedmont in north-western Italy. It is made under the Langhe DOC, a protected geographic designation, and…",
+      "section": "regions",
+      "source": "article-source/langhe-nebbiolo.md"
     },
     {
       "slug": "langhorne-creek-wine-region",
@@ -1440,6 +2528,14 @@
       "description": "Understand Languedoc-Roussillon as a broad southern French wine region, its Languedoc and Roussillon areas, appellations, grapes, styles and label terminology.",
       "section": "regions",
       "source": "article-source/languedoc-roussillon.md"
+    },
+    {
+      "slug": "late-bottled-vintage-port",
+      "route": "/late-bottled-vintage-port/",
+      "title": "Late Bottled Vintage Port: What LBV Means",
+      "description": "Late Bottled Vintage Port is a recognised category of Portuguese Port made from grapes harvested in a single vintage year. It is selected and certified…",
+      "section": "regions",
+      "source": "article-source/late-bottled-vintage-port.md"
     },
     {
       "slug": "late-harvest-wine",
@@ -1474,6 +2570,22 @@
       "source": "article-source/lees-stirring.md"
     },
     {
+      "slug": "leithaberg",
+      "route": "/leithaberg/",
+      "title": "Leithaberg: an Australian beginner’s guide to this Austrian wine region",
+      "description": "Leithaberg is a defined Austrian wine place, not a producer brand or simply a name for a scenic mountain landscape. It is a protected designation of origin…",
+      "section": "regions",
+      "source": "article-source/leithaberg.md"
+    },
+    {
+      "slug": "leyda-valley",
+      "route": "/leyda-valley/",
+      "title": "Leyda Valley: A Beginner’s Guide to Chile’s Coastal Wine Country",
+      "description": "Leyda Valley, officially Valle de Leyda, is a Chilean wine zone within the Valle de San Antonio subregion of the Aconcagua viticultural region.",
+      "section": "regions",
+      "source": "article-source/leyda-valley.md"
+    },
+    {
       "slug": "light-bodied-red-wine",
       "route": "/light-bodied-red-wine/",
       "title": "What Is Light-bodied Red Wine? A Beginner’s Guide",
@@ -1488,6 +2600,30 @@
       "description": "Understand Limestone Coast as an official South Australian GI zone, its associated wine regions, varied climate and soils, principal grapes, styles and label meaning.",
       "section": "regions",
       "source": "article-source/limestone-coast-zone.md"
+    },
+    {
+      "slug": "lirac",
+      "route": "/lirac/",
+      "title": "Lirac: A Beginner’s Guide to This Rhône Wine Appellation",
+      "description": "Lirac is a French AOC/AOP wine appellation and one of the Côtes du Rhône crus. It is located in the Southern Rhône, on the right bank of the Rhône River,…",
+      "section": "regions",
+      "source": "article-source/lirac.md"
+    },
+    {
+      "slug": "lisboa-wine-region",
+      "route": "/lisboa-wine-region/",
+      "title": "Lisboa wine region: a beginner’s guide",
+      "description": "Lisboa is a broad, varied wine region of Portugal shaped by its position between the Atlantic Ocean and more sheltered inland areas. It is not defined by…",
+      "section": "regions",
+      "source": "article-source/lisboa-wine-region.md"
+    },
+    {
+      "slug": "listrac-medoc",
+      "route": "/listrac-medoc/",
+      "title": "Listrac-Médoc: a beginner’s guide to this Bordeaux appellation",
+      "description": "Listrac-Médoc is a protected French wine appellation in Bordeaux’s Médoc peninsula. Its official designation is the appellation d’origine contrôlée…",
+      "section": "regions",
+      "source": "article-source/listrac-medoc.md"
     },
     {
       "slug": "loire-valley",
@@ -1514,6 +2650,22 @@
       "source": "article-source/lower-murray-zone.md"
     },
     {
+      "slug": "lugana",
+      "route": "/lugana/",
+      "title": "Lugana: a beginner’s guide to Italy’s Lake Garda white wine",
+      "description": "Lugana is a protected Italian wine denomination and DOC for white wines made in a defined area around the southern end of Lake Garda. It is an…",
+      "section": "regions",
+      "source": "article-source/lugana.md"
+    },
+    {
+      "slug": "lujan-de-cuyo",
+      "route": "/lujan-de-cuyo/",
+      "title": "Luján de Cuyo: What Australian Wine Learners Should Know",
+      "description": "Luján de Cuyo is an established wine geography in Mendoza Province, Argentina. It is south or south-west of Mendoza city, depending on the locality, and…",
+      "section": "regions",
+      "source": "article-source/lujan-de-cuyo.md"
+    },
+    {
       "slug": "macedon-ranges-wine-region",
       "route": "/macedon-ranges-wine-region/",
       "title": "Macedon Ranges Wine Region: A Beginner’s Guide",
@@ -1530,12 +2682,44 @@
       "source": "article-source/maconnais.md"
     },
     {
+      "slug": "madeira-grape-varieties",
+      "route": "/madeira-grape-varieties/",
+      "title": "Madeira grape varieties: a beginner’s guide",
+      "description": "The four classic named varieties are Sercial, Verdelho, Boal/Bual and Malvasia/Malmsey. They are sometimes called Madeira’s “noble four” and are…",
+      "section": "regions",
+      "source": "article-source/madeira-grape-varieties.md"
+    },
+    {
+      "slug": "madeira-sweetness-levels",
+      "route": "/madeira-sweetness-levels/",
+      "title": "Madeira sweetness levels: from extra seco to doce",
+      "description": "Madeira’s sweetness levels run from extra seco (extra dry) to doce (sweet). These are Madeira-specific Portuguese terms, and they do not map perfectly onto…",
+      "section": "regions",
+      "source": "article-source/madeira-sweetness-levels.md"
+    },
+    {
       "slug": "madeira-wine",
       "route": "/madeira-wine/",
       "title": "What Is Madeira wine? A Beginner’s Guide",
       "description": "Learn what Madeira wine is, where it comes from, how fortification and deliberate maturation shape it, and how dry, sweet and classic grape-associated styles differ.",
       "section": "fundamentals",
       "source": "article-source/madeira-wine.md"
+    },
+    {
+      "slug": "madiran",
+      "route": "/madiran/",
+      "title": "Madiran: Tannat, place and structure in southwest France",
+      "description": "Madiran is a protected French wine appellation in southwest France. In the current French system it is an AOP, or protected designation of origin, and the…",
+      "section": "regions",
+      "source": "article-source/madiran.md"
+    },
+    {
+      "slug": "maipo-valley",
+      "route": "/maipo-valley/",
+      "title": "Maipo Valley: A Beginner’s Guide to Chile’s Cabernet Country",
+      "description": "Maipo Valley is best known for red wines, particularly Cabernet Sauvignon. These wines are often associated with ripe red and black fruit, firm tannins,…",
+      "section": "regions",
+      "source": "article-source/maipo-valley.md"
     },
     {
       "slug": "malbec",
@@ -1570,12 +2754,36 @@
       "source": "article-source/margaret-river-wine-region.md"
     },
     {
+      "slug": "margaux-appellation",
+      "route": "/margaux-appellation/",
+      "title": "Margaux appellation: a beginner’s guide to Bordeaux’s Left Bank red wines",
+      "description": "Margaux is a French protected wine appellation in Bordeaux’s Médoc, on the Left Bank of the Gironde estuary. It is best known for still red wines made from…",
+      "section": "regions",
+      "source": "article-source/margaux-appellation.md"
+    },
+    {
       "slug": "marlborough",
       "route": "/marlborough/",
       "title": "Marlborough",
       "description": "Understand Marlborough, New Zealand: where it is, its climate and vineyard landscapes, the grapes and styles associated with it, and how to read Marlborough on a wine label.",
       "section": "regions",
       "source": "article-source/marlborough.md"
+    },
+    {
+      "slug": "marlborough-subregions",
+      "route": "/marlborough-subregions/",
+      "title": "Marlborough subregions: understanding Wairau, Southern Valleys and Awatere",
+      "description": "Marlborough is a New Zealand wine GI and one of the country’s best-known wine regions. It sits at the north-eastern end of the South Island, around the…",
+      "section": "regions",
+      "source": "article-source/marlborough-subregions.md"
+    },
+    {
+      "slug": "marsala-wine",
+      "route": "/marsala-wine/",
+      "title": "Marsala wine: a beginner’s guide to Sicily’s fortified wine",
+      "description": "Marsala is a protected fortified wine from western Sicily, centred on the town of Marsala in Italy’s Province of Trapani. It is not automatically sweet, it…",
+      "section": "regions",
+      "source": "article-source/marsala-wine.md"
     },
     {
       "slug": "marsanne",
@@ -1594,6 +2802,14 @@
       "source": "article-source/marsanne-and-roussanne-in-australia.md"
     },
     {
+      "slug": "martinborough",
+      "route": "/martinborough/",
+      "title": "Martinborough: a beginner’s guide to New Zealand’s Pinot Noir region",
+      "description": "Martinborough is a recognised wine subregion of Wairarapa, in southern New Zealand’s North Island. It is within the Wellington region and South Wairarapa…",
+      "section": "regions",
+      "source": "article-source/martinborough.md"
+    },
+    {
       "slug": "mataro-mourvedre",
       "route": "/mataro-mourvedre/",
       "title": "What is Mataro / Mourvèdre?",
@@ -1602,12 +2818,44 @@
       "source": "article-source/mataro-mourvedre.md"
     },
     {
+      "slug": "maule-valley",
+      "route": "/maule-valley/",
+      "title": "Maule Valley: A Beginner’s Guide to Chile’s Varied Wine Region",
+      "description": "Maule Valley is one of Chile’s important wine regions. Formally known as Valle del Maule, it is a recognised viticultural subregion within the larger Valle…",
+      "section": "regions",
+      "source": "article-source/maule-valley.md"
+    },
+    {
+      "slug": "mclaren-vale-geology",
+      "route": "/mclaren-vale-geology/",
+      "title": "McLaren Vale Geology: Why the Region Has More Than One Kind of Vineyard Site",
+      "description": "McLaren Vale is geologically diverse. The South Australian wine GI includes coastal plains, embayments, valleys, foothills and elevated country adjoining…",
+      "section": "regions",
+      "source": "article-source/mclaren-vale-geology.md"
+    },
+    {
+      "slug": "mclaren-vale-subregions",
+      "route": "/mclaren-vale-subregions/",
+      "title": "McLaren Vale subregions: districts, localities and site variation explained",
+      "description": "Not in the same formal sense as McLaren Vale itself.",
+      "section": "regions",
+      "source": "article-source/mclaren-vale-subregions.md"
+    },
+    {
       "slug": "mclaren-vale-wine-region",
       "route": "/mclaren-vale-wine-region/",
       "title": "McLaren Vale Wine Region: Shiraz, Grenache and Coastal South Australia",
       "description": "Learn about McLaren Vale’s Mediterranean climate, local variation and its best-known grapes, including Shiraz, Grenache and Cabernet Sauvignon.",
       "section": "regions",
       "source": "article-source/mclaren-vale-wine-region.md"
+    },
+    {
+      "slug": "medium-bodied-red-wine",
+      "route": "/medium-bodied-red-wine/",
+      "title": "What Is Medium-bodied Red Wine? A Beginner’s Guide",
+      "description": "A medium-bodied red wine has a moderate sense of weight, fullness and texture on the palate. It feels more substantial than a delicate, light-bodied red,…",
+      "section": "fundamentals",
+      "source": "article-source/medium-bodied-red-wine.md"
     },
     {
       "slug": "medoc",
@@ -1634,6 +2882,22 @@
       "source": "article-source/mencia.md"
     },
     {
+      "slug": "mendoza-subregions",
+      "route": "/mendoza-subregions/",
+      "title": "Mendoza subregions: a beginner’s guide to Argentina’s wine geography",
+      "description": "Mendoza is Argentina’s principal wine province and a broad geographic designation rather than a single, uniform wine region. For an Australian wine learner,…",
+      "section": "regions",
+      "source": "article-source/mendoza-subregions.md"
+    },
+    {
+      "slug": "mercurey",
+      "route": "/mercurey/",
+      "title": "Mercurey: A Beginner’s Guide to This Burgundy Appellation",
+      "description": "Mercurey is a named wine appellation in Burgundy’s Côte Chalonnaise, in eastern France. It is best known for still red wines made principally from Pinot…",
+      "section": "regions",
+      "source": "article-source/mercurey.md"
+    },
+    {
       "slug": "micro-oxygenation",
       "route": "/micro-oxygenation/",
       "title": "What Is Micro-oxygenation? A Beginner’s Guide",
@@ -1650,12 +2914,36 @@
       "source": "article-source/minerality-in-wine.md"
     },
     {
+      "slug": "monbazillac",
+      "route": "/monbazillac/",
+      "title": "Monbazillac: a beginner’s guide to this French sweet wine appellation",
+      "description": "Monbazillac is a protected French wine appellation in the Dordogne department of Nouvelle-Aquitaine, in south-west France. It is best known for sweet, still…",
+      "section": "regions",
+      "source": "article-source/monbazillac.md"
+    },
+    {
+      "slug": "montagne-de-reims",
+      "route": "/montagne-de-reims/",
+      "title": "Montagne de Reims: A Beginner’s Guide to Champagne’s Pinot Noir Heartland",
+      "description": "Montagne de Reims is one of Champagne’s four principal wine-growing subregions. It is located in north-eastern France, mainly in the Marne department of the…",
+      "section": "regions",
+      "source": "article-source/montagne-de-reims.md"
+    },
+    {
       "slug": "montalcino",
       "route": "/montalcino/",
       "title": "Montalcino: a beginner’s guide to its place, grapes and wines",
       "description": "Understand Montalcino’s place in Tuscany, its relationship with Sangiovese, Brunello and Rosso, and how to read its protected names on an Australian wine label.",
       "section": "regions",
       "source": "article-source/montalcino.md"
+    },
+    {
+      "slug": "montefalco-sagrantino",
+      "route": "/montefalco-sagrantino/",
+      "title": "Montefalco Sagrantino: A Beginner’s Guide to the Umbrian Appellation",
+      "description": "Montefalco Sagrantino is a protected Italian wine appellation in Umbria, central Italy. Its red wines are made exclusively from the Sagrantino grape and…",
+      "section": "regions",
+      "source": "article-source/montefalco-sagrantino.md"
     },
     {
       "slug": "montepulciano",
@@ -1672,6 +2960,46 @@
       "description": "Montepulciano d’Abruzzo is an Italian wine designation from Abruzzo, a region on Italy’s central-eastern Adriatic side. The wine is normally a dry red made…",
       "section": "regions",
       "source": "article-source/montepulciano-dabruzzo.md"
+    },
+    {
+      "slug": "monterrei",
+      "route": "/monterrei/",
+      "title": "Monterrei: A Beginner’s Guide to Galicia’s Inland Wine Region",
+      "description": "Monterrei is a Spanish Protected Designation of Origin, usually written as PDO in English and DOP or DO Monterrei in Spanish wine contexts. It covers wine…",
+      "section": "regions",
+      "source": "article-source/monterrei.md"
+    },
+    {
+      "slug": "montilla-moriles",
+      "route": "/montilla-moriles/",
+      "title": "Montilla-Moriles: A Beginner’s Guide to This Spanish Wine Region",
+      "description": "Montilla-Moriles is a protected Spanish wine region, or Denominación de Origen Protegida (DOP), in Córdoba province in Andalusia. It is especially…",
+      "section": "regions",
+      "source": "article-source/montilla-moriles.md"
+    },
+    {
+      "slug": "montsant",
+      "route": "/montsant/",
+      "title": "Montsant: A Beginner’s Guide to the Spanish Wine Region",
+      "description": "Montsant is a Spanish wine region formally known as the Denominació d’Origen Montsant, or DO Montsant. It sits in Catalonia, in the province of Tarragona,…",
+      "section": "regions",
+      "source": "article-source/montsant.md"
+    },
+    {
+      "slug": "morellino-di-scansano",
+      "route": "/morellino-di-scansano/",
+      "title": "Morellino di Scansano: A Beginner’s Guide to This Tuscan Red",
+      "description": "Morellino di Scansano is a protected Italian red-wine designation from the hills of the Province of Grosseto in southern Tuscany’s Maremma. It is an Italian…",
+      "section": "regions",
+      "source": "article-source/morellino-di-scansano.md"
+    },
+    {
+      "slug": "morgon",
+      "route": "/morgon/",
+      "title": "Morgon: a beginner’s guide to this Beaujolais cru",
+      "description": "Morgon is in France, within the broader Beaujolais wine region and the Rhône department. The appellation’s legally defined area is exclusively within the…",
+      "section": "regions",
+      "source": "article-source/morgon.md"
     },
     {
       "slug": "mornington-peninsula-wine-region",
@@ -1714,6 +3042,38 @@
       "source": "article-source/mosel.md"
     },
     {
+      "slug": "mosel-wine-classifications",
+      "route": "/mosel-wine-classifications/",
+      "title": "Mosel wine classifications: how to read German wine labels",
+      "description": "Mosel is a German wine-growing region. The classification terms found on Mosel labels come from Germany’s statutory wine system, which regulates categories…",
+      "section": "regions",
+      "source": "article-source/mosel-wine-classifications.md"
+    },
+    {
+      "slug": "moulin-a-vent",
+      "route": "/moulin-a-vent/",
+      "title": "Moulin-à-Vent: a beginner’s guide to this Beaujolais red wine",
+      "description": "Moulin-à-Vent is a protected French appellation and one of the ten Beaujolais crus. It produces still red wine from qualifying vineyard parcels in two…",
+      "section": "regions",
+      "source": "article-source/moulin-a-vent.md"
+    },
+    {
+      "slug": "moulis-en-medoc",
+      "route": "/moulis-en-medoc/",
+      "title": "Moulis-en-Médoc: understanding this Bordeaux appellation",
+      "description": "Moulis-en-Médoc is a French place-based appellation in Bordeaux’s Médoc area. In French wine terminology, an appellation is a regulated geographic…",
+      "section": "regions",
+      "source": "article-source/moulis-en-medoc.md"
+    },
+    {
+      "slug": "mount-barker-great-southern",
+      "route": "/mount-barker-great-southern/",
+      "title": "Mount Barker Great Southern: a beginner’s guide",
+      "description": "Mount Barker is an official Australian wine Geographical Indication (GI) subregion within the broader Great Southern wine region of Western Australia. Great…",
+      "section": "regions",
+      "source": "article-source/mount-barker-great-southern.md"
+    },
+    {
       "slug": "mount-benson-wine-region",
       "route": "/mount-benson-wine-region/",
       "title": "Mount Benson Wine Region: Location, Wines and GI Guide",
@@ -1754,12 +3114,36 @@
       "source": "article-source/murray-darling-wine-region.md"
     },
     {
+      "slug": "muscadet-sevre-et-maine",
+      "route": "/muscadet-sevre-et-maine/",
+      "title": "Muscadet Sèvre et Maine: a beginner’s guide",
+      "description": "Muscadet Sèvre et Maine is a protected French appellation for still white wine from the Nantes wine area of the western Loire Valley. It is not a grape…",
+      "section": "regions",
+      "source": "article-source/muscadet-sevre-et-maine.md"
+    },
+    {
       "slug": "nagambie-lakes-wine-region",
       "route": "/nagambie-lakes-wine-region/",
       "title": "Nagambie Lakes wine region: location, climate and wines",
       "description": "Understand the Nagambie Lakes wine region in central Victoria, including its GI hierarchy, location, climate, soils, history and best-known grape varieties.",
       "section": "regions",
       "source": "article-source/nagambie-lakes-wine-region.md"
+    },
+    {
+      "slug": "nahe-wine-region",
+      "route": "/nahe-wine-region/",
+      "title": "Nahe wine region: a beginner’s guide",
+      "description": "Nahe is one of Germany’s 13 officially designated wine-growing regions. It sits in Rhineland-Palatinate, around the Nahe River and nearby valleys, and is…",
+      "section": "regions",
+      "source": "article-source/nahe-wine-region.md"
+    },
+    {
+      "slug": "naoussa-wine-region",
+      "route": "/naoussa-wine-region/",
+      "title": "Naoussa wine region: a beginner’s guide",
+      "description": "Naoussa is a protected wine region in northern Greece, best known for red wines made from the Xinomavro grape. Its wines are often marked by bright acidity,…",
+      "section": "regions",
+      "source": "article-source/naoussa-wine-region.md"
     },
     {
       "slug": "napa-valley",
@@ -1770,12 +3154,28 @@
       "source": "article-source/napa-valley.md"
     },
     {
+      "slug": "napa-valley-sub-appellations",
+      "route": "/napa-valley-sub-appellations/",
+      "title": "Napa Valley sub-appellations: how to understand its AVAs",
+      "description": "Napa Valley is both a broad AVA and a collection of more specific nested AVAs. The practical hierarchy is:",
+      "section": "regions",
+      "source": "article-source/napa-valley-sub-appellations.md"
+    },
+    {
       "slug": "native-yeast-fermentation",
       "route": "/native-yeast-fermentation/",
       "title": "What Is Native Yeast Fermentation? A Beginner’s Guide",
       "description": "Native yeast fermentation explained: how it differs from cultured yeast, what “wild” and “spontaneous” mean, possible benefits and risks, and what Australian wine drinkers should know.",
       "section": "winemaking",
       "source": "article-source/native-yeast-fermentation.md"
+    },
+    {
+      "slug": "navarra-wine-region",
+      "route": "/navarra-wine-region/",
+      "title": "Navarra wine region: a beginner’s guide",
+      "description": "Navarra is a wine region and protected designation in northern Spain. Its wines include red, rosé, white and sweet or liqueur styles, with Garnacha and…",
+      "section": "regions",
+      "source": "article-source/navarra-wine-region.md"
     },
     {
       "slug": "nebbiolo-in-australia",
@@ -1802,12 +3202,28 @@
       "source": "article-source/nelson.md"
     },
     {
+      "slug": "nemea-wine-region",
+      "route": "/nemea-wine-region/",
+      "title": "Nemea wine region: a beginner’s guide to Greece’s Agiorgitiko appellation",
+      "description": "Nemea is a protected Greek wine designation in the north-eastern Peloponnese. Officially known as PDO Nemea or ΠΟΠ Νεμέα, it is best known for red wines…",
+      "section": "regions",
+      "source": "article-source/nemea-wine-region.md"
+    },
+    {
       "slug": "nero-davola",
       "route": "/nero-davola/",
       "title": "What Is Nero d’Avola? A Beginner’s Guide",
       "description": "Nero d’Avola is a Sicilian red wine grape that can make fresh, fruity or fuller, structured dry wines. Learn its taste, structure, Australian context and serving ideas.",
       "section": "grapes",
       "source": "article-source/nero-davola.md"
+    },
+    {
+      "slug": "neusiedlersee",
+      "route": "/neusiedlersee/",
+      "title": "Neusiedlersee: an Austrian wine region explained",
+      "description": "Neusiedlersee is a protected Austrian wine designation in Burgenland. It is also closely associated with Lake Neusiedl—the English name for the lake whose…",
+      "section": "regions",
+      "source": "article-source/neusiedlersee.md"
     },
     {
       "slug": "new-england-australia-wine-region",
@@ -1840,6 +3256,14 @@
       "description": "A clear beginner’s guide to New Zealand wine: its islands, maritime climate, major regions, important grapes, labels and comparisons with Australian wine.",
       "section": "regions",
       "source": "article-source/new-zealand.md"
+    },
+    {
+      "slug": "niagara-peninsula-wine-region",
+      "route": "/niagara-peninsula-wine-region/",
+      "title": "Niagara Peninsula wine region: a beginner’s guide",
+      "description": "Niagara Peninsula is an officially recognised Ontario VQA viticultural area in southern Ontario, Canada. It sits south of Lake Ontario and west of the…",
+      "section": "regions",
+      "source": "article-source/niagara-peninsula-wine-region.md"
     },
     {
       "slug": "no-alcohol-and-dealcoholised-wine",
@@ -1882,6 +3306,14 @@
       "source": "article-source/oak-toast-levels.md"
     },
     {
+      "slug": "oakville-ava",
+      "route": "/oakville-ava/",
+      "title": "Oakville AVA: A Beginner’s Guide for Australian Wine Learners",
+      "description": "Oakville is a legally defined wine-growing area in Napa County, California, United States. It is nested within the larger Napa Valley AVA, so the simplest…",
+      "section": "regions",
+      "source": "article-source/oakville-ava.md"
+    },
+    {
       "slug": "off-dry-wine-meaning",
       "route": "/off-dry-wine-meaning/",
       "title": "Off-dry wine meaning: what does off-dry wine taste like?",
@@ -1890,12 +3322,28 @@
       "source": "article-source/off-dry-wine-meaning.md"
     },
     {
+      "slug": "okanagan-valley",
+      "route": "/okanagan-valley/",
+      "title": "Okanagan Valley: A Beginner’s Guide to Canada’s Inland Wine Region",
+      "description": "Okanagan Valley is a broad inland wine region in southern British Columbia, east and north-east of Vancouver. It runs broadly from near the Canada–United…",
+      "section": "regions",
+      "source": "article-source/okanagan-valley.md"
+    },
+    {
       "slug": "old-world-vs-new-world-wine",
       "route": "/old-world-vs-new-world-wine/",
       "title": "Old World vs New World wine: what’s the difference?",
       "description": "Understand Old World and New World wine terminology, how labels and climate can influence style, and why Australia does not fit a single wine stereotype.",
       "section": "fundamentals",
       "source": "article-source/old-world-vs-new-world-wine.md"
+    },
+    {
+      "slug": "oltrepo-pavese",
+      "route": "/oltrepo-pavese/",
+      "title": "Oltrepò Pavese: a beginner’s guide to this Italian wine region",
+      "description": "Oltrepò Pavese is a wine-producing area in southern Lombardy, in northern Italy. Its name means “beyond the Po”, referring to the territory south of the Po…",
+      "section": "regions",
+      "source": "article-source/oltrepo-pavese.md"
     },
     {
       "slug": "orange-wine",
@@ -1914,12 +3362,68 @@
       "source": "article-source/orange-wine-region.md"
     },
     {
+      "slug": "orange-wine-region-elevation",
+      "route": "/orange-wine-region-elevation/",
+      "title": "Orange wine region elevation: what it means for Australian wine",
+      "description": "Orange is an elevated wine region in the Central Ranges zone of New South Wales. Officially, the Orange GI is the contiguous land above the 600-metre…",
+      "section": "regions",
+      "source": "article-source/orange-wine-region-elevation.md"
+    },
+    {
+      "slug": "orvieto-wine-region",
+      "route": "/orvieto-wine-region/",
+      "title": "Orvieto wine region: a beginner’s guide",
+      "description": "Orvieto is a protected Italian wine designation and geographic production area centred on the hill town of Orvieto. Its legal production zone covers…",
+      "section": "regions",
+      "source": "article-source/orvieto-wine-region.md"
+    },
+    {
+      "slug": "paarl-wine-region",
+      "route": "/paarl-wine-region/",
+      "title": "Paarl wine region: a beginner’s guide",
+      "description": "Paarl is a South African Wine of Origin district within the broader Coastal Region, in the Western Cape. Although “Paarl wine region” is a useful…",
+      "section": "regions",
+      "source": "article-source/paarl-wine-region.md"
+    },
+    {
       "slug": "padthaway-wine-region",
       "route": "/padthaway-wine-region/",
       "title": "Padthaway Wine Region: Location, Wines and GI Explained",
       "description": "Understand where Padthaway is, how it fits within South Australia’s Limestone Coast, what its GI means and why Chardonnay, Cabernet Sauvignon and Shiraz are associated with the region.",
       "section": "regions",
       "source": "article-source/padthaway-wine-region.md"
+    },
+    {
+      "slug": "pantelleria-wine",
+      "route": "/pantelleria-wine/",
+      "title": "Pantelleria wine: Zibibbo, Passito and the wines of a windswept island",
+      "description": "Pantelleria wine comes from Pantelleria, a volcanic island in the Strait of Sicily. It is best understood as both a place and a regulated Italian wine…",
+      "section": "regions",
+      "source": "article-source/pantelleria-wine.md"
+    },
+    {
+      "slug": "paso-robles",
+      "route": "/paso-robles/",
+      "title": "Paso Robles: What Australian Wine Learners Should Know",
+      "description": "Paso Robles is a large American Viticultural Area in California’s Central Coast, within the United States. It is an inland region with warm, dry growing…",
+      "section": "regions",
+      "source": "article-source/paso-robles.md"
+    },
+    {
+      "slug": "pauillac-appellation",
+      "route": "/pauillac-appellation/",
+      "title": "Pauillac appellation: a beginner’s guide",
+      "description": "Pauillac is a protected French appellation for still red wine. It is part of Bordeaux, within the broader Médoc area on the Left Bank of the Gironde estuary.",
+      "section": "regions",
+      "source": "article-source/pauillac-appellation.md"
+    },
+    {
+      "slug": "pedro-ximenez-sherry",
+      "route": "/pedro-ximenez-sherry/",
+      "title": "Pedro Ximénez sherry: a beginner’s guide to PX",
+      "description": "Pedro Ximénez, usually shortened to PX, is both a white grape variety and the name commonly used for an intensely sweet style of Sherry made from it.",
+      "section": "regions",
+      "source": "article-source/pedro-ximenez-sherry.md"
     },
     {
       "slug": "peel-wine-region",
@@ -1938,12 +3442,28 @@
       "source": "article-source/pemberton-wine-region.md"
     },
     {
+      "slug": "penedes-wine-region",
+      "route": "/penedes-wine-region/",
+      "title": "Penedès wine region: a beginner’s guide",
+      "description": "Penedès is a wine region in Catalonia, in north-eastern Spain, and the name of a protected designation of origin: DOP Penedès. It is known for a broad range…",
+      "section": "regions",
+      "source": "article-source/penedes-wine-region.md"
+    },
+    {
       "slug": "perth-hills-wine-region",
       "route": "/perth-hills-wine-region/",
       "title": "Perth Hills wine region: a beginner’s guide",
       "description": "Learn where the Perth Hills wine region is, how its elevation and terrain shape growing conditions, which varieties it is known for, and what “Perth Hills” means on an Australian wine label.",
       "section": "regions",
       "source": "article-source/perth-hills-wine-region.md"
+    },
+    {
+      "slug": "pessac-leognan",
+      "route": "/pessac-leognan/",
+      "title": "Pessac-Léognan: A Beginner’s Guide to This Bordeaux Appellation",
+      "description": "Pessac-Léognan is a protected wine appellation in Bordeaux, south-west France. In French, it is an appellation d’origine contrôlée (AOC), a regulated…",
+      "section": "regions",
+      "source": "article-source/pessac-leognan.md"
     },
     {
       "slug": "pet-nat",
@@ -2058,12 +3578,28 @@
       "source": "article-source/pinot-noir-vs-gamay.md"
     },
     {
+      "slug": "pipers-river",
+      "route": "/pipers-river/",
+      "title": "Pipers River: A Beginner’s Guide to This Tasmanian Wine-Growing Area",
+      "description": "Pipers River is a recognised wine-growing area and rural locality in northeast Tasmania. It is particularly associated with cool-climate viticulture and…",
+      "section": "regions",
+      "source": "article-source/pipers-river.md"
+    },
+    {
       "slug": "pomerol",
       "route": "/pomerol/",
       "title": "Pomerol: a beginner’s guide to the Bordeaux appellation",
       "description": "Understand what Pomerol is, where it sits in Bordeaux, why Merlot matters, how its wines generally taste and why the appellation has no official classification.",
       "section": "regions",
       "source": "article-source/pomerol.md"
+    },
+    {
+      "slug": "porongurup-wine-region",
+      "route": "/porongurup-wine-region/",
+      "title": "Porongurup wine region: a beginner’s guide",
+      "description": "Porongurup is a protected Australian wine Geographical Indication (GI) in Western Australia. It sits within the Great Southern wine region, inside the South…",
+      "section": "regions",
+      "source": "article-source/porongurup-wine-region.md"
     },
     {
       "slug": "port",
@@ -2082,12 +3618,36 @@
       "source": "article-source/port-phillip-zone.md"
     },
     {
+      "slug": "port-wine-styles",
+      "route": "/port-wine-styles/",
+      "title": "Port wine styles: Ruby, Tawny, Vintage and more explained",
+      "description": "Port is a protected Portuguese designation of origin associated with the Douro Demarcated Region in northern Portugal. The name covers several styles,…",
+      "section": "regions",
+      "source": "article-source/port-wine-styles.md"
+    },
+    {
       "slug": "portugal",
       "route": "/portugal/",
       "title": "Portugal: A Beginner’s Guide to Its Wine Regions, Grapes and Styles",
       "description": "Understand Portugal’s wine geography, major regions, native grapes, protected classifications and the difference between Portugal and Port.",
       "section": "regions",
       "source": "article-source/portugal.md"
+    },
+    {
+      "slug": "pouilly-fuisse",
+      "route": "/pouilly-fuisse/",
+      "title": "Pouilly-Fuissé: A Beginner’s Guide to Burgundy Chardonnay",
+      "description": "Pouilly-Fuissé is a French appellation of origin for dry white wine made from Chardonnay. It is a place name, not a grape variety. The appellation sits in…",
+      "section": "regions",
+      "source": "article-source/pouilly-fuisse.md"
+    },
+    {
+      "slug": "pouilly-fume",
+      "route": "/pouilly-fume/",
+      "title": "Pouilly-Fumé: a beginner’s guide to this Loire Sauvignon Blanc appellation",
+      "description": "Pouilly-Fumé is a French AOC/AOP appellation for dry, still white wine from the eastern part of the Loire Valley. It is centred on Pouilly-sur-Loire, on the…",
+      "section": "regions",
+      "source": "article-source/pouilly-fume.md"
     },
     {
       "slug": "pressing-wine-grapes",
@@ -2106,6 +3666,14 @@
       "source": "article-source/primary-aromas-in-wine.md"
     },
     {
+      "slug": "primitivo-di-manduria",
+      "route": "/primitivo-di-manduria/",
+      "title": "Primitivo di Manduria: A Beginner’s Guide to the Puglian Wine",
+      "description": "Primitivo di Manduria is a protected Italian red-wine designation from southern Puglia. It is made principally from the Primitivo grape in a defined area…",
+      "section": "regions",
+      "source": "article-source/primitivo-di-manduria.md"
+    },
+    {
       "slug": "priorat",
       "route": "/priorat/",
       "title": "Priorat: A Beginner’s Guide to Spain’s Mountain Wine Region",
@@ -2114,12 +3682,28 @@
       "source": "article-source/priorat.md"
     },
     {
+      "slug": "priorat-classifications",
+      "route": "/priorat-classifications/",
+      "title": "Priorat classifications: what the terms mean on a wine label",
+      "description": "Priorat classification is best understood as a regulated geographic system with increasingly precise place terms, rather than as a simple ladder from “good”…",
+      "section": "regions",
+      "source": "article-source/priorat-classifications.md"
+    },
+    {
       "slug": "prosecco",
       "route": "/prosecco/",
       "title": "What Is Prosecco? A Beginner’s Guide",
       "description": "Learn what Prosecco is, how Glera and the tank method shape it, what “Extra Dry” means, and how Prosecco differs from Champagne and other sparkling wines.",
       "section": "fundamentals",
       "source": "article-source/prosecco.md"
+    },
+    {
+      "slug": "prosecco-doc-and-docg",
+      "route": "/prosecco-doc-and-docg/",
+      "title": "Prosecco DOC and DOCG: what the labels mean",
+      "description": "DOC and DOCG are Italian designations that connect a qualifying wine with a defined place and a set of production rules.",
+      "section": "regions",
+      "source": "article-source/prosecco-doc-and-docg.md"
     },
     {
       "slug": "protected-wine-names",
@@ -2136,6 +3720,14 @@
       "description": "Understand Provence as a southeastern French wine region: its dry rosé reputation, red and white wines, major appellations, grapes, climate and label terms.",
       "section": "regions",
       "source": "article-source/provence.md"
+    },
+    {
+      "slug": "provence-rose-appellations",
+      "route": "/provence-rose-appellations/",
+      "title": "Provence rosé appellations: a beginner’s guide",
+      "description": "Provence rosé appellations are protected French geographic names used for wines made in defined areas under defined production rules. In practical terms,…",
+      "section": "regions",
+      "source": "article-source/provence-rose-appellations.md"
     },
     {
       "slug": "puglia",
@@ -2160,6 +3752,14 @@
       "description": "Learn where Victoria’s Pyrenees wine region is, why it is known for Shiraz and Cabernet Sauvignon, and how climate, elevation and the GI label shape what you can expect.",
       "section": "regions",
       "source": "article-source/pyrenees-wine-region.md"
+    },
+    {
+      "slug": "quarts-de-chaume",
+      "route": "/quarts-de-chaume/",
+      "title": "Quarts de Chaume: A Beginner’s Guide to This Loire Sweet Wine",
+      "description": "Quarts de Chaume is a small, protected French appellation for sweet, still white wine made exclusively from Chenin Blanc. It comes from a tightly defined…",
+      "section": "regions",
+      "source": "article-source/quarts-de-chaume.md"
     },
     {
       "slug": "queensland-wine-regions",
@@ -2218,6 +3818,14 @@
       "source": "article-source/rheingau.md"
     },
     {
+      "slug": "rheinhessen-wine-region",
+      "route": "/rheinhessen-wine-region/",
+      "title": "Rheinhessen Wine Region: A Beginner’s Guide",
+      "description": "Rheinhessen is one of Germany’s 13 legally defined quality-wine regions and a protected designation of origin (PDO). It lies in the federal state of…",
+      "section": "regions",
+      "source": "article-source/rheinhessen-wine-region.md"
+    },
+    {
       "slug": "rhone-valley",
       "route": "/rhone-valley/",
       "title": "Rhône Valley: A Beginner’s Guide to the Region and Its Wines",
@@ -2234,12 +3842,36 @@
       "source": "article-source/rias-baixas.md"
     },
     {
+      "slug": "rias-baixas-subregions",
+      "route": "/rias-baixas-subregions/",
+      "title": "Rías Baixas subregions: a clear guide to the five official areas",
+      "description": "Rías Baixas is a Spanish Denominación de Origen Protegida, usually shortened to DOP, in Galicia. Its recognised production area is divided into five…",
+      "section": "regions",
+      "source": "article-source/rias-baixas-subregions.md"
+    },
+    {
+      "slug": "ribeira-sacra",
+      "route": "/ribeira-sacra/",
+      "title": "Ribeira Sacra: A Beginner’s Guide to This Galician Wine Region",
+      "description": "Ribeira Sacra is both a cultural landscape and a protected wine region in inland Galicia, in north-west Spain. Its vineyards follow the steep valleys and…",
+      "section": "regions",
+      "source": "article-source/ribeira-sacra.md"
+    },
+    {
       "slug": "ribera-del-duero",
       "route": "/ribera-del-duero/",
       "title": "Ribera del Duero: A Beginner’s Guide to Spain’s High-Elevation Red-Wine Region",
       "description": "Understand where Ribera del Duero is, why Tempranillo matters, how its elevation and climate influence wine, what Spanish ageing terms mean and how the region differs from Rioja.",
       "section": "regions",
       "source": "article-source/ribera-del-duero.md"
+    },
+    {
+      "slug": "ribera-del-duero-classifications",
+      "route": "/ribera-del-duero-classifications/",
+      "title": "Ribera del Duero classifications: what Crianza, Reserva and Gran Reserva mean",
+      "description": "When you see Crianza, Reserva or Gran Reserva on a Ribera del Duero label, the term mainly tells you about the wine’s regulated minimum maturation before…",
+      "section": "regions",
+      "source": "article-source/ribera-del-duero-classifications.md"
     },
     {
       "slug": "riesling-in-australia",
@@ -2256,6 +3888,54 @@
       "description": "Riesling and Gewürztraminer are different aromatic white grapes. Learn how they differ in aroma, acidity, body and sweetness, with Australian context.",
       "section": "grapes",
       "source": "article-source/riesling-vs-gewurztraminer.md"
+    },
+    {
+      "slug": "rioja",
+      "route": "/rioja/",
+      "title": "Rioja: a beginner’s guide to Spain’s famous wine region",
+      "description": "Rioja is both a geographical wine region in northern Spain and a protected appellation formally known as a Denominación de Origen Calificada, or DOCa. In…",
+      "section": "regions",
+      "source": "article-source/rioja.md"
+    },
+    {
+      "slug": "rioja-alavesa",
+      "route": "/rioja-alavesa/",
+      "title": "Rioja Alavesa: Understanding This Zone of Rioja",
+      "description": "Rioja Alavesa is the Álava zone of DOCa Rioja, the protected wine designation in northern Spain. It sits in the Basque Country, between the Sierra de…",
+      "section": "regions",
+      "source": "article-source/rioja-alavesa.md"
+    },
+    {
+      "slug": "rioja-alta",
+      "route": "/rioja-alta/",
+      "title": "Rioja Alta: A Beginner’s Guide to This Part of Rioja",
+      "description": "Rioja Alta is one of three officially recognised production areas within Spain’s DOCa Rioja. It is not another name for all Rioja, and it is not a separate…",
+      "section": "regions",
+      "source": "article-source/rioja-alta.md"
+    },
+    {
+      "slug": "rioja-classifications",
+      "route": "/rioja-classifications/",
+      "title": "Rioja classifications: how to read Crianza, Reserva and Gran Reserva",
+      "description": "Rioja is a Spanish Denominación de Origen Calificada, usually shortened to DOCa. In plain English, it is a protected geographic designation: the name refers…",
+      "section": "regions",
+      "source": "article-source/rioja-classifications.md"
+    },
+    {
+      "slug": "rioja-oriental",
+      "route": "/rioja-oriental/",
+      "title": "Rioja Oriental: A Beginner’s Guide to Spain’s Eastern Rioja",
+      "description": "Rioja Oriental is the easternmost of the three official production zones within Spain’s DOCa Rioja. It is not a separate wine appellation unrelated to…",
+      "section": "regions",
+      "source": "article-source/rioja-oriental.md"
+    },
+    {
+      "slug": "ripasso-wine",
+      "route": "/ripasso-wine/",
+      "title": "Ripasso Wine: What Australian Wine Drinkers Should Know",
+      "description": "Ripasso is a dry Italian red wine associated with Valpolicella in Veneto, northern Italy. Its defining feature is a second fermentation of Valpolicella wine…",
+      "section": "regions",
+      "source": "article-source/ripasso-wine.md"
     },
     {
       "slug": "ripeness-in-wine",
@@ -2290,12 +3970,44 @@
       "source": "article-source/robe-wine-region.md"
     },
     {
+      "slug": "roero-wine-region",
+      "route": "/roero-wine-region/",
+      "title": "Roero wine region: a beginner’s guide",
+      "description": "Roero is best understood as both a place and a protected wine name. Geographically, it is a hilly part of Piedmont on the left bank of the Tanaro River. In…",
+      "section": "regions",
+      "source": "article-source/roero-wine-region.md"
+    },
+    {
+      "slug": "rose-champagne",
+      "route": "/rose-champagne/",
+      "title": "Rosé Champagne: What Australian Wine Drinkers Should Know",
+      "description": "Rosé Champagne is Champagne made under the rules of the Champagne appellation and presented in a rosé style. In other words, it is a geographically specific…",
+      "section": "regions",
+      "source": "article-source/rose-champagne.md"
+    },
+    {
+      "slug": "rosso-di-montalcino",
+      "route": "/rosso-di-montalcino/",
+      "title": "Rosso di Montalcino: a beginner’s guide",
+      "description": "Rosso di Montalcino is a protected red-wine denomination from the Municipality of Montalcino in Tuscany, Italy. It is made exclusively from Sangiovese, the…",
+      "section": "regions",
+      "source": "article-source/rosso-di-montalcino.md"
+    },
+    {
       "slug": "roussanne",
       "route": "/roussanne/",
       "title": "What Is Roussanne? A Beginner’s Guide",
       "description": "Roussanne is a Rhône white grape that can make floral, textured and complex wines. Learn how it differs from Marsanne and where Australians may encounter it.",
       "section": "grapes",
       "source": "article-source/roussanne.md"
+    },
+    {
+      "slug": "ruby-vs-tawny-port",
+      "route": "/ruby-vs-tawny-port/",
+      "title": "Ruby vs Tawny Port: What’s the Difference?",
+      "description": "Ruby and Tawny are two styles of Port, not different grape varieties. The simplest distinction is this:",
+      "section": "regions",
+      "source": "article-source/ruby-vs-tawny-port.md"
     },
     {
       "slug": "rueda",
@@ -2306,12 +4018,52 @@
       "source": "article-source/rueda.md"
     },
     {
+      "slug": "rueda-wine-styles",
+      "route": "/rueda-wine-styles/",
+      "title": "Rueda wine styles: a beginner’s guide",
+      "description": "Rueda is a Spanish Protected Designation of Origin, commonly written as DOP Rueda or D.O. Rueda. It is in Castilla y León, in the central Duero depression,…",
+      "section": "regions",
+      "source": "article-source/rueda-wine-styles.md"
+    },
+    {
+      "slug": "rully-wine-region",
+      "route": "/rully-wine-region/",
+      "title": "Rully wine region: a beginner’s guide to Burgundy’s Côte Chalonnaise",
+      "description": "Rully is a wine appellation in eastern France. In Burgundy’s familiar wine-geography hierarchy, it sits here:",
+      "section": "regions",
+      "source": "article-source/rully-wine-region.md"
+    },
+    {
+      "slug": "russian-river-valley",
+      "route": "/russian-river-valley/",
+      "title": "Russian River Valley: A Beginner’s Guide to Its Wines and Place",
+      "description": "Russian River Valley is a defined wine-growing region in Sonoma County, California, in the United States. It is an American Viticultural Area, or AVA: a…",
+      "section": "regions",
+      "source": "article-source/russian-river-valley.md"
+    },
+    {
+      "slug": "rutherford-ava",
+      "route": "/rutherford-ava/",
+      "title": "Rutherford AVA: A Beginner’s Guide for Australian Wine Learners",
+      "description": "Rutherford AVA is a federally recognised American Viticultural Area in Napa County, California, United States. It sits within the larger Napa Valley AVA and…",
+      "section": "regions",
+      "source": "article-source/rutherford-ava.md"
+    },
+    {
       "slug": "rutherglen-wine-region",
       "route": "/rutherglen-wine-region/",
       "title": "Rutherglen wine region: Muscat, fortified wines and full-bodied reds",
       "description": "Discover where Rutherglen is, why Victoria’s north-east region is famous for Rutherglen Muscat and Topaque, and what to expect from its Durif, Shiraz and Cabernet Sauvignon.",
       "section": "regions",
       "source": "article-source/rutherglen-wine-region.md"
+    },
+    {
+      "slug": "saale-unstrut",
+      "route": "/saale-unstrut/",
+      "title": "Saale-Unstrut: Germany’s Northern Wine Region Explained",
+      "description": "Saale-Unstrut is a German wine-growing region and protected designation of origin (PDO), named after the Saale and Unstrut rivers. It is Germany’s…",
+      "section": "regions",
+      "source": "article-source/saale-unstrut.md"
     },
     {
       "slug": "sagrantino",
@@ -2338,6 +4090,70 @@
       "source": "article-source/saint-emilion.md"
     },
     {
+      "slug": "saint-emilion-classifications",
+      "route": "/saint-emilion-classifications/",
+      "title": "Saint-Émilion classifications explained",
+      "description": "Saint-Émilion classification is an official, periodically revised classification of eligible crus within the Saint-Émilion Grand Cru appellation.",
+      "section": "regions",
+      "source": "article-source/saint-emilion-classifications.md"
+    },
+    {
+      "slug": "saint-estephe-appellation",
+      "route": "/saint-estephe-appellation/",
+      "title": "Saint-Estèphe appellation: a beginner’s guide",
+      "description": "Saint-Estèphe is a protected French appellation for red wine in Bordeaux’s Médoc. It is located on the Left Bank of the Gironde Estuary, towards the…",
+      "section": "regions",
+      "source": "article-source/saint-estephe-appellation.md"
+    },
+    {
+      "slug": "saint-joseph-rhone",
+      "route": "/saint-joseph-rhone/",
+      "title": "Saint-Joseph Rhône: a beginner’s guide to the Northern Rhône appellation",
+      "description": "Saint-Joseph is a French appellation of origin for still red and white wines from the Northern Rhône. In French regulatory language, it is an AOC; in…",
+      "section": "regions",
+      "source": "article-source/saint-joseph-rhone.md"
+    },
+    {
+      "slug": "saint-julien-appellation",
+      "route": "/saint-julien-appellation/",
+      "title": "Saint-Julien appellation: a beginner’s guide to this Médoc red wine",
+      "description": "Saint-Julien is a small, regulated Bordeaux appellation in the Médoc. Its wines are dry, still reds made from permitted Bordeaux varieties, commonly led by…",
+      "section": "regions",
+      "source": "article-source/saint-julien-appellation.md"
+    },
+    {
+      "slug": "saint-veran",
+      "route": "/saint-veran/",
+      "title": "Saint-Véran: a beginner’s guide to this Burgundy white wine",
+      "description": "Saint-Véran is a protected French appellation for still white wine from the southern Mâconnais, a wine subregion within Burgundy. The appellation is in the…",
+      "section": "regions",
+      "source": "article-source/saint-veran.md"
+    },
+    {
+      "slug": "salice-salentino",
+      "route": "/salice-salentino/",
+      "title": "Salice Salentino: a beginner’s guide to this Puglian wine designation",
+      "description": "Salice Salentino is a Denominazione di Origine Controllata (DOC) wine designation from Puglia, at the southern end of Italy. It was first recognised in 1976…",
+      "section": "regions",
+      "source": "article-source/salice-salentino.md"
+    },
+    {
+      "slug": "salta-wine-region",
+      "route": "/salta-wine-region/",
+      "title": "Salta wine region: a beginner’s guide to Argentina’s high-altitude wines",
+      "description": "Salta is a wine-producing area in north-western Argentina, best known for vineyards in and around the Calchaquí Valleys. It is a dry, mountainous region…",
+      "section": "regions",
+      "source": "article-source/salta-wine-region.md"
+    },
+    {
+      "slug": "sancerre",
+      "route": "/sancerre/",
+      "title": "Sancerre: a beginner’s guide to the French appellation",
+      "description": "Sancerre is a defined French wine appellation in the Centre-Loire part of the Loire Valley. In simple terms, it is the name of a legally recognised wine…",
+      "section": "regions",
+      "source": "article-source/sancerre.md"
+    },
+    {
       "slug": "sangiovese-in-australia",
       "route": "/sangiovese-in-australia/",
       "title": "Sangiovese in Australia",
@@ -2346,12 +4162,44 @@
       "source": "article-source/sangiovese-in-australia.md"
     },
     {
+      "slug": "santa-barbara-county-wine",
+      "route": "/santa-barbara-county-wine/",
+      "title": "Santa Barbara County wine: a beginner’s guide",
+      "description": "Santa Barbara County wines can range from fresh, maritime-influenced whites and reds to fuller wines from warmer inland sites. Chardonnay and Pinot Noir are…",
+      "section": "regions",
+      "source": "article-source/santa-barbara-county-wine.md"
+    },
+    {
+      "slug": "santorini-wine-region",
+      "route": "/santorini-wine-region/",
+      "title": "Santorini wine region: Assyrtiko, volcanic conditions and Vinsanto explained",
+      "description": "Santorini is a Greek wine region in the southern Aegean Sea and the Cyclades island group. In Greek and European Union wine law, Santorini is a Protected…",
+      "section": "regions",
+      "source": "article-source/santorini-wine-region.md"
+    },
+    {
+      "slug": "saumur-champigny",
+      "route": "/saumur-champigny/",
+      "title": "Saumur-Champigny: A Beginner’s Guide to This Loire Valley Red Wine",
+      "description": "Saumur-Champigny is a French AOC/AOP appellation in the Saumur area of the Loire Valley. In plain English, that means it is a legally protected place name…",
+      "section": "regions",
+      "source": "article-source/saumur-champigny.md"
+    },
+    {
       "slug": "sauternes",
       "route": "/sauternes/",
       "title": "Sauternes: a beginner’s guide to Bordeaux’s sweet white wine appellation",
       "description": "Understand Sauternes: where it is, how Bordeaux’s appellation works, the role of Sémillon and noble rot, what the wines taste like, and how Australian drinkers can approach them.",
       "section": "regions",
       "source": "article-source/sauternes.md"
+    },
+    {
+      "slug": "sauternes-and-barsac",
+      "route": "/sauternes-and-barsac/",
+      "title": "Sauternes and Barsac: understanding two sweet-wine appellations",
+      "description": "Sauternes and Barsac are two separate French AOC/AOP appellations for sweet, still white wines in the Graves-Sauternes area of Bordeaux.",
+      "section": "regions",
+      "source": "article-source/sauternes-and-barsac.md"
     },
     {
       "slug": "sauvignon-blanc-in-australia",
@@ -2376,6 +4224,22 @@
       "description": "Learn what Savagnin is, how it differs from Sauvignon Blanc and Albariño, why it is associated with Jura, and what its Australian history means for wine drinkers.",
       "section": "grapes",
       "source": "article-source/savagnin.md"
+    },
+    {
+      "slug": "savennieres",
+      "route": "/savennieres/",
+      "title": "Savennières: A Beginner’s Guide to the Loire Valley Appellation",
+      "description": "Savennières is a small Loire Valley appellation for still white wine. It is located on the right bank of the Loire, near the confluence of the Loire and…",
+      "section": "regions",
+      "source": "article-source/savennieres.md"
+    },
+    {
+      "slug": "saxony-wine-region",
+      "route": "/saxony-wine-region/",
+      "title": "Saxony wine region: a beginner’s guide",
+      "description": "Saxony is Germany’s easternmost official wine-growing region and one of its smallest. In German, it is called Sachsen. Most of its vineyards sit along the…",
+      "section": "regions",
+      "source": "article-source/saxony-wine-region.md"
     },
     {
       "slug": "screw-cap-vs-cork",
@@ -2418,12 +4282,36 @@
       "source": "article-source/semillon-in-australia.md"
     },
     {
+      "slug": "serra-gaucha-wine-region",
+      "route": "/serra-gaucha-wine-region/",
+      "title": "Serra Gaúcha wine region: a beginner’s guide",
+      "description": "Serra Gaúcha is a wine-producing region in north-eastern Rio Grande do Sul, in southern Brazil. In Brazilian regulatory language, Região da Serra Gaúcha is…",
+      "section": "regions",
+      "source": "article-source/serra-gaucha-wine-region.md"
+    },
+    {
+      "slug": "setubal-wine",
+      "route": "/setubal-wine/",
+      "title": "Setúbal wine: a beginner’s guide to Portugal’s sweet fortified style",
+      "description": "Setúbal wine is a Portuguese wine term with two related meanings.",
+      "section": "regions",
+      "source": "article-source/setubal-wine.md"
+    },
+    {
       "slug": "sherry",
       "route": "/sherry/",
       "title": "What Is Sherry? A Beginner’s Guide",
       "description": "Sherry is a protected-origin family of fortified wines from southern Spain. Learn how flor, oxidative ageing, fortification and solera shape styles from Fino to Pedro Ximénez, plus what Australian drinkers should know about labelling.",
       "section": "fundamentals",
       "source": "article-source/sherry.md"
+    },
+    {
+      "slug": "sherry-ageing-system",
+      "route": "/sherry-ageing-system/",
+      "title": "Sherry ageing system: flor, oxidation and the solera explained",
+      "description": "The Sherry ageing system combines different ways of maturing fortified wine. Wine may age under flor, a surface layer of wine yeast; it may age oxidatively…",
+      "section": "regions",
+      "source": "article-source/sherry-ageing-system.md"
     },
     {
       "slug": "shiraz-food-pairing",
@@ -2498,12 +4386,44 @@
       "source": "article-source/skin-contact-white-wine.md"
     },
     {
+      "slug": "soave",
+      "route": "/soave/",
+      "title": "Soave: A Beginner’s Guide to Italy’s Famous White Wine",
+      "description": "Soave is a protected Italian wine designation from Veneto, in the Province of Verona. It is best known for white wines based on Garganega, a white grape…",
+      "section": "regions",
+      "source": "article-source/soave.md"
+    },
+    {
+      "slug": "soave-classico",
+      "route": "/soave-classico/",
+      "title": "Soave Classico: What Australian Wine Drinkers Should Know",
+      "description": "Soave Classico is the historic, legally defined hillside area within the wider Soave DOC in Veneto, north-eastern Italy. It is not a grape variety and it is…",
+      "section": "regions",
+      "source": "article-source/soave-classico.md"
+    },
+    {
       "slug": "solera-ageing",
       "route": "/solera-ageing/",
       "title": "What Is Solera Ageing? A Beginner’s Guide",
       "description": "Solera ageing explained simply: how criaderas and the oldest tier work, why solera wines contain multiple ages, and what Australian drinkers should know about fortified-wine terminology.",
       "section": "winemaking",
       "source": "article-source/solera-ageing.md"
+    },
+    {
+      "slug": "somontano",
+      "route": "/somontano/",
+      "title": "Somontano: A Beginner’s Guide to This Spanish Wine Region",
+      "description": "Somontano is a protected Spanish wine region in Aragón, in the province of Huesca, on the southern foothills of the Pyrenees. It is known officially as the…",
+      "section": "regions",
+      "source": "article-source/somontano.md"
+    },
+    {
+      "slug": "sonoma-coast",
+      "route": "/sonoma-coast/",
+      "title": "Sonoma Coast: A Beginner’s Guide to the California Wine Region",
+      "description": "Sonoma Coast is a large, legally defined American Viticultural Area in Sonoma County, Northern California. It lies within the North Coast AVA and stretches…",
+      "section": "regions",
+      "source": "article-source/sonoma-coast.md"
     },
     {
       "slug": "south-africa",
@@ -2544,6 +4464,14 @@
       "description": "Understand where the Southern Fleurieu wine region is, how it fits within South Australia’s GI system, and why its maritime conditions support Cabernet Sauvignon, Merlot, Riesling and more.",
       "section": "regions",
       "source": "article-source/southern-fleurieu-wine-region.md"
+    },
+    {
+      "slug": "southern-flinders-ranges-wine-region",
+      "route": "/southern-flinders-ranges-wine-region/",
+      "title": "Southern Flinders Ranges wine region: a beginner’s guide",
+      "description": "Southern Flinders Ranges is a registered South Australian wine region within the Far North wine zone. Wine Australia records the GI as having been entered…",
+      "section": "regions",
+      "source": "article-source/southern-flinders-ranges-wine-region.md"
     },
     {
       "slug": "southern-highlands-wine-region",
@@ -2602,6 +4530,22 @@
       "source": "article-source/spice-aromas-in-wine.md"
     },
     {
+      "slug": "sta-rita-hills",
+      "route": "/sta-rita-hills/",
+      "title": "Sta. Rita Hills: a beginner’s guide to this cool-climate California wine region",
+      "description": "Sta. Rita Hills is a small, legally defined wine-growing area in Santa Barbara County, California. It is recognised in the United States as an American…",
+      "section": "regions",
+      "source": "article-source/sta-rita-hills.md"
+    },
+    {
+      "slug": "stags-leap-district",
+      "route": "/stags-leap-district/",
+      "title": "Stags Leap District: A Beginner’s Guide",
+      "description": "Stags Leap District is a small, legally defined wine-growing area in Napa County, California, within the larger Napa Valley AVA. It is particularly…",
+      "section": "regions",
+      "source": "article-source/stags-leap-district.md"
+    },
+    {
       "slug": "stainless-steel-winemaking",
       "route": "/stainless-steel-winemaking/",
       "title": "What Is Stainless-Steel Winemaking? A Beginner’s Guide",
@@ -2610,12 +4554,28 @@
       "source": "article-source/stainless-steel-winemaking.md"
     },
     {
+      "slug": "stellenbosch",
+      "route": "/stellenbosch/",
+      "title": "Stellenbosch: A Beginner’s Guide to South Africa’s Wine Region",
+      "description": "Stellenbosch is a legally demarcated production area under South Africa’s Wine of Origin scheme. It is in the Western Cape, within the broader Cape…",
+      "section": "regions",
+      "source": "article-source/stellenbosch.md"
+    },
+    {
       "slug": "strathbogie-ranges-wine-region",
       "route": "/strathbogie-ranges-wine-region/",
       "title": "Strathbogie Ranges wine region: a beginner’s guide",
       "description": "Understand where the Strathbogie Ranges wine region is, how its elevation and climate shape wine, and what to expect from Chardonnay, Pinot Noir, Sauvignon Blanc and Shiraz.",
       "section": "regions",
       "source": "article-source/strathbogie-ranges-wine-region.md"
+    },
+    {
+      "slug": "styria-wine-region",
+      "route": "/styria-wine-region/",
+      "title": "Styria wine region: an Australian beginner’s guide",
+      "description": "Styria is an Austrian wine region in the country’s southeast, close to Slovenia and centred practically around the wider area of Graz. Its vineyards are…",
+      "section": "regions",
+      "source": "article-source/styria-wine-region.md"
     },
     {
       "slug": "sulfur-dioxide-in-wine",
@@ -2650,6 +4610,22 @@
       "source": "article-source/swan-hill-wine-region.md"
     },
     {
+      "slug": "swan-valley-subregion",
+      "route": "/swan-valley-subregion/",
+      "title": "Swan Valley subregion: a clear guide to its place and wines",
+      "description": "Swan Valley is a legally protected wine subregion within the Swan District region of Western Australia. The full Australian Geographic Indication (GI)…",
+      "section": "regions",
+      "source": "article-source/swan-valley-subregion.md"
+    },
+    {
+      "slug": "swartland",
+      "route": "/swartland/",
+      "title": "Swartland: A Beginner’s Guide to South Africa’s Wine District",
+      "description": "Swartland is a South African Wine of Origin district in the Western Cape, within the Coastal Region. It lies generally north to north-east of Cape Town,…",
+      "section": "regions",
+      "source": "article-source/swartland.md"
+    },
+    {
       "slug": "syrah-vs-shiraz",
       "route": "/syrah-vs-shiraz/",
       "title": "Syrah vs Shiraz: Are They the Same Grape?",
@@ -2664,6 +4640,14 @@
       "description": "Table wine has different meanings in everyday language, historical classifications and current regulations. Learn how Australian wine drinkers should interpret the term.",
       "section": "fundamentals",
       "source": "article-source/table-wine-meaning.md"
+    },
+    {
+      "slug": "tamar-valley",
+      "route": "/tamar-valley/",
+      "title": "Tamar Valley: A Beginner’s Guide to Tasmania’s Northern Wine Country",
+      "description": "Tamar Valley is one of Tasmania’s recognised wine-growing areas, centred on both sides of kanamaluka / the Tamar River in northern Tasmania. It begins near…",
+      "section": "regions",
+      "source": "article-source/tamar-valley.md"
     },
     {
       "slug": "tank-method-sparkling-wine-production",
@@ -2698,6 +4682,38 @@
       "source": "article-source/tasmania-wine-region.md"
     },
     {
+      "slug": "tasmanian-wine-subregions",
+      "route": "/tasmanian-wine-subregions/",
+      "title": "Tasmanian wine subregions: a guide to the island’s growing areas",
+      "description": "In everyday wine conversation, “Tasmanian wine subregions” means the island’s principal internal wine-growing areas. It does not, based on the reviewed Wine…",
+      "section": "regions",
+      "source": "article-source/tasmanian-wine-subregions.md"
+    },
+    {
+      "slug": "tasting-wine-at-home",
+      "route": "/tasting-wine-at-home/",
+      "title": "Tasting Wine at Home: A Simple Guide for Beginners",
+      "description": "Tasting wine at home means setting aside a wine, or a small group of wines, for attentive observation and comparison in a domestic setting. You look at the…",
+      "section": "fundamentals",
+      "source": "article-source/tasting-wine-at-home.md"
+    },
+    {
+      "slug": "taurasi",
+      "route": "/taurasi/",
+      "title": "Taurasi: an Australian beginner’s guide to the Italian red wine",
+      "description": "Taurasi is an Italian DOCG red-wine denomination from inland Campania. It is centred on the Irpinia area of Avellino Province, east or east-south-east of…",
+      "section": "regions",
+      "source": "article-source/taurasi.md"
+    },
+    {
+      "slug": "tavel",
+      "route": "/tavel/",
+      "title": "Tavel: A Beginner’s Guide to This Rhône Rosé Appellation",
+      "description": "Tavel is a French AOC/AOP appellation in the Southern Rhône, best known for still rosé wine. Its name refers to a legally defined place and production…",
+      "section": "regions",
+      "source": "article-source/tavel.md"
+    },
+    {
       "slug": "tawny-style-fortified-wine",
       "route": "/tawny-style-fortified-wine/",
       "title": "What Is Tawny-style fortified wine? A Beginner’s Guide",
@@ -2722,6 +4738,14 @@
       "source": "article-source/tempranillo-vs-sangiovese.md"
     },
     {
+      "slug": "terra-alta",
+      "route": "/terra-alta/",
+      "title": "Terra Alta: A Beginner’s Guide to This Catalan Wine Region",
+      "description": "Terra Alta is a protected wine denomination in Spain, located in inland south-western Catalonia, in Tarragona province. It sits between the Ebro River and…",
+      "section": "regions",
+      "source": "article-source/terra-alta.md"
+    },
+    {
       "slug": "tertiary-aromas-in-wine",
       "route": "/tertiary-aromas-in-wine/",
       "title": "Tertiary aromas in wine",
@@ -2736,6 +4760,38 @@
       "description": "Learn what texture means in wine, how it differs from body, tannin, acidity and astringency, and how to recognise mouthfeel while tasting.",
       "section": "fundamentals",
       "source": "article-source/texture-in-wine.md"
+    },
+    {
+      "slug": "the-peninsulas-wine-zone",
+      "route": "/the-peninsulas-wine-zone/",
+      "title": "The Peninsulas wine zone: a beginner’s guide",
+      "description": "The Peninsulas is a legally recognised Australian Geographical Indication and wine zone in South Australia. In the official hierarchy, it sits below…",
+      "section": "regions",
+      "source": "article-source/the-peninsulas-wine-zone.md"
+    },
+    {
+      "slug": "thermenregion",
+      "route": "/thermenregion/",
+      "title": "Thermenregion: Austria’s Wine Region South of Vienna",
+      "description": "Thermenregion is an officially defined Austrian wine-growing region in Lower Austria (Niederösterreich). It lies directly south and south-west of Vienna,…",
+      "section": "regions",
+      "source": "article-source/thermenregion.md"
+    },
+    {
+      "slug": "tokaj-wine-region",
+      "route": "/tokaj-wine-region/",
+      "title": "Tokaj wine region: a beginner’s guide",
+      "description": "Tokaj is a historic, formally protected wine region in north-eastern Hungary. It is best known for Tokaji Aszú, a sweet wine made with individually…",
+      "section": "regions",
+      "source": "article-source/tokaj-wine-region.md"
+    },
+    {
+      "slug": "tokaji-aszu",
+      "route": "/tokaji-aszu/",
+      "title": "Tokaji Aszú: Hungary’s Sweet Wine Explained",
+      "description": "Tokaji Aszú is a regulated sweet wine type from the Tokaj wine region in north-eastern Hungary. It is protected under the European Union’s Tokaj/Tokaji…",
+      "section": "regions",
+      "source": "article-source/tokaji-aszu.md"
     },
     {
       "slug": "toro",
@@ -2786,6 +4842,14 @@
       "source": "article-source/trebbiano.md"
     },
     {
+      "slug": "trentino-wine-region",
+      "route": "/trentino-wine-region/",
+      "title": "Trentino Wine Region: A Beginner’s Guide",
+      "description": "Trentino is a mountainous wine-growing area in north-eastern Italy, centred on the Autonomous Province of Trento. It stretches from the northern end of Lake…",
+      "section": "regions",
+      "source": "article-source/trentino-wine-region.md"
+    },
+    {
       "slug": "tumbarumba-wine-region",
       "route": "/tumbarumba-wine-region/",
       "title": "Tumbarumba Wine Region: A Guide to Its Place, Climate and Wines",
@@ -2808,6 +4872,14 @@
       "description": "Learn what typicity means in wine, how “typical” differs from quality and terroir, and how to interpret the term in Australian wine reviews.",
       "section": "fundamentals",
       "source": "article-source/typicity-in-wine.md"
+    },
+    {
+      "slug": "uco-valley",
+      "route": "/uco-valley/",
+      "title": "Uco Valley: A Beginner’s Guide to Argentina’s High-Elevation Wine Region",
+      "description": "Uco Valley is a wine region in Mendoza Province, Argentina, near the Andes and south of Mendoza city. Its formal Argentine name is Valle de Uco, and it was…",
+      "section": "regions",
+      "source": "article-source/uco-valley.md"
     },
     {
       "slug": "umami-and-wine",
@@ -2834,6 +4906,62 @@
       "source": "article-source/upper-goulburn-wine-region.md"
     },
     {
+      "slug": "utiel-requena",
+      "route": "/utiel-requena/",
+      "title": "Utiel-Requena: A Beginner’s Guide to This Spanish Wine Region",
+      "description": "Utiel-Requena is a Spanish wine region and protected designation in Valencia province, within the Valencian Community. The current European terminology is…",
+      "section": "regions",
+      "source": "article-source/utiel-requena.md"
+    },
+    {
+      "slug": "vacqueyras",
+      "route": "/vacqueyras/",
+      "title": "Vacqueyras: a beginner’s guide to this southern Rhône appellation",
+      "description": "Vacqueyras is a protected wine place and appellation in the southern Rhône Valley of France. The name on a bottle primarily tells you where the grapes were…",
+      "section": "regions",
+      "source": "article-source/vacqueyras.md"
+    },
+    {
+      "slug": "valdeorras",
+      "route": "/valdeorras/",
+      "title": "Valdeorras: A Beginner’s Guide to This Spanish Wine Region",
+      "description": "Valdeorras is a protected wine designation in Galicia, in north-west Spain. It is best known for fresh, structured white wines made from Godello and red…",
+      "section": "regions",
+      "source": "article-source/valdeorras.md"
+    },
+    {
+      "slug": "vallee-de-la-marne",
+      "route": "/vallee-de-la-marne/",
+      "title": "Vallée de la Marne: Understanding This Champagne Subregion",
+      "description": "Vallée de la Marne, or the Marne Valley, is one of Champagne’s major wine-growing subregions. It sits within the broader Champagne wine-growing area in…",
+      "section": "regions",
+      "source": "article-source/vallee-de-la-marne.md"
+    },
+    {
+      "slug": "valpolicella",
+      "route": "/valpolicella/",
+      "title": "Valpolicella: A Beginner’s Guide to the Wines of Veneto",
+      "description": "Valpolicella is a wine-growing area in Veneto, northern Italy, immediately north and north-west of Verona. It is also the name used for a family of related…",
+      "section": "regions",
+      "source": "article-source/valpolicella.md"
+    },
+    {
+      "slug": "valtellina-wine-region",
+      "route": "/valtellina-wine-region/",
+      "title": "Valtellina wine region: an Alpine guide to Nebbiolo and Chiavennasca",
+      "description": "Valtellina is a wine region in Lombardy, northern Italy, in and around the Alpine valley of the Adda River. It is best known for red wines made from…",
+      "section": "regions",
+      "source": "article-source/valtellina-wine-region.md"
+    },
+    {
+      "slug": "vdp-classifications",
+      "route": "/vdp-classifications/",
+      "title": "VDP Classifications: A Beginner’s Guide to German Wine Labels",
+      "description": "VDP classifications are a voluntary German system for communicating the origin of wine. They are created and administered by the Verband Deutscher…",
+      "section": "regions",
+      "source": "article-source/vdp-classifications.md"
+    },
+    {
       "slug": "veneto",
       "route": "/veneto/",
       "title": "Veneto: a beginner’s guide to the wines of north-eastern Italy",
@@ -2858,12 +4986,36 @@
       "source": "article-source/verdicchio.md"
     },
     {
+      "slug": "verdicchio-dei-castelli-di-jesi",
+      "route": "/verdicchio-dei-castelli-di-jesi/",
+      "title": "Verdicchio dei Castelli di Jesi: a beginner’s guide",
+      "description": "Verdicchio dei Castelli di Jesi is a place-based Italian white-wine designation from the Marche region. The wine is made principally from Verdicchio, a…",
+      "section": "regions",
+      "source": "article-source/verdicchio-dei-castelli-di-jesi.md"
+    },
+    {
+      "slug": "verdicchio-di-matelica",
+      "route": "/verdicchio-di-matelica/",
+      "title": "Verdicchio di Matelica: a beginner’s guide to the Marche appellation",
+      "description": "Verdicchio di Matelica is a protected wine appellation in Italy’s Marche region. It is centred on the inland town of Matelica and the Esino Valley, in an…",
+      "section": "regions",
+      "source": "article-source/verdicchio-di-matelica.md"
+    },
+    {
       "slug": "vermentino",
       "route": "/vermentino/",
       "title": "What Is Vermentino? A Beginner’s Guide",
       "description": "Vermentino is a fresh, flexible white grape that makes dry wines ranging from crisp and citrus-led to broad and textural. Learn its names, flavours, origins and Australian context.",
       "section": "grapes",
       "source": "article-source/vermentino.md"
+    },
+    {
+      "slug": "vermentino-di-gallura",
+      "route": "/vermentino-di-gallura/",
+      "title": "Vermentino di Gallura: a beginner’s guide to Sardinia’s DOCG wine",
+      "description": "Vermentino di Gallura is a protected Italian wine designation from Gallura, a defined area in the north-east of Sardinia. It is made principally from the…",
+      "section": "regions",
+      "source": "article-source/vermentino-di-gallura.md"
     },
     {
       "slug": "vermentino-vs-sauvignon-blanc",
@@ -2882,12 +5034,44 @@
       "source": "article-source/victorian-wine-regions.md"
     },
     {
+      "slug": "vinho-verde",
+      "route": "/vinho-verde/",
+      "title": "Vinho Verde: A Beginner’s Guide to Portugal’s Fresh, Varied Wines",
+      "description": "Vinho Verde is a protected Portuguese wine designation, formally a Protected Designation of Origin (PDO), or DOP in Portuguese. It comes from north-western…",
+      "section": "regions",
+      "source": "article-source/vinho-verde.md"
+    },
+    {
+      "slug": "vino-nobile-di-montepulciano",
+      "route": "/vino-nobile-di-montepulciano/",
+      "title": "Vino Nobile di Montepulciano: A Beginner’s Guide",
+      "description": "Vino Nobile di Montepulciano is a DOCG red-wine appellation from the municipality of Montepulciano in southern Tuscany’s Province of Siena. DOCG means…",
+      "section": "regions",
+      "source": "article-source/vino-nobile-di-montepulciano.md"
+    },
+    {
       "slug": "vintage-fortified-wine",
       "route": "/vintage-fortified-wine/",
       "title": "What Is Vintage Fortified Wine? A Beginner’s Guide",
       "description": "Learn what Australian vintage fortified wine is, what “vintage” means, how it is made and matured, and how it differs from tawny-style fortified wine and Vintage Port.",
       "section": "fundamentals",
       "source": "article-source/vintage-fortified-wine.md"
+    },
+    {
+      "slug": "vintage-port",
+      "route": "/vintage-port/",
+      "title": "Vintage Port: a beginner’s guide to Portugal’s declared, bottle-aged Port",
+      "description": "Vintage Port is a protected category of Port wine from Portugal’s Douro wine region. It is made from grapes harvested in a single year, known as a declared…",
+      "section": "regions",
+      "source": "article-source/vintage-port.md"
+    },
+    {
+      "slug": "vintage-vs-non-vintage-champagne",
+      "route": "/vintage-vs-non-vintage-champagne/",
+      "title": "Vintage vs non-vintage Champagne: what’s the difference?",
+      "description": "The simplest way to tell Vintage and non-vintage Champagne apart is to look for a year on the label.",
+      "section": "regions",
+      "source": "article-source/vintage-vs-non-vintage-champagne.md"
     },
     {
       "slug": "vintage-wine-vs-non-vintage-wine",
@@ -2906,12 +5090,60 @@
       "source": "article-source/viognier.md"
     },
     {
+      "slug": "vire-clesse",
+      "route": "/vire-clesse/",
+      "title": "Viré-Clessé: A Beginner’s Guide to This Burgundy Appellation",
+      "description": "Viré-Clessé is a protected French wine appellation in the Mâconnais, the southern part of Burgundy. It is not a grape variety. The name on a bottle…",
+      "section": "regions",
+      "source": "article-source/vire-clesse.md"
+    },
+    {
+      "slug": "vouvray",
+      "route": "/vouvray/",
+      "title": "Vouvray: a beginner’s guide to this Loire wine appellation",
+      "description": "Vouvray is a protected French wine appellation in the Loire Valley. More specifically, it is in Touraine, on the Loire River’s right bank, in the…",
+      "section": "regions",
+      "source": "article-source/vouvray.md"
+    },
+    {
       "slug": "wachau",
       "route": "/wachau/",
       "title": "Wachau: An Australian Beginner’s Guide to Austria’s Danube Wine Region",
       "description": "Understand Wachau wine: where the Austrian region is, its Danube terraces, principal grapes, DAC and PDO terminology, traditional categories and label clues.",
       "section": "regions",
       "source": "article-source/wachau.md"
+    },
+    {
+      "slug": "waiheke-island",
+      "route": "/waiheke-island/",
+      "title": "Waiheke Island: New Zealand’s Island Wine GI Explained",
+      "description": "Waiheke Island is a New Zealand wine-growing place with a formal identity as well as a memorable island setting. It sits in the Hauraki Gulf, east of…",
+      "section": "regions",
+      "source": "article-source/waiheke-island.md"
+    },
+    {
+      "slug": "waitaki-valley",
+      "route": "/waitaki-valley/",
+      "title": "Waitaki Valley: A Beginner’s Guide to New Zealand’s Cool-Climate Wine Region",
+      "description": "Waitaki Valley is a small, cool-climate wine region on New Zealand’s South Island. It is a registered New Zealand wine GI, meaning the name refers to a…",
+      "section": "regions",
+      "source": "article-source/waitaki-valley.md"
+    },
+    {
+      "slug": "walker-bay",
+      "route": "/walker-bay/",
+      "title": "Walker Bay: A Beginner’s Guide to the South African Wine District",
+      "description": "Walker Bay is a recognised South African Wine of Origin district on the coast of the Western Cape. It lies broadly south-east of Cape Town, with Hermanus as…",
+      "section": "regions",
+      "source": "article-source/walker-bay.md"
+    },
+    {
+      "slug": "walla-walla-valley",
+      "route": "/walla-walla-valley/",
+      "title": "Walla Walla Valley: A Beginner’s Guide to the American Wine Region",
+      "description": "Walla Walla Valley is an established American Viticultural Area in the inland Pacific Northwest of the United States. The AVA was established on 6 February…",
+      "section": "regions",
+      "source": "article-source/walla-walla-valley.md"
     },
     {
       "slug": "western-australian-wine-regions",
@@ -3258,12 +5490,28 @@
       "source": "article-source/what-makes-wine-ageworthy.md"
     },
     {
+      "slug": "when-to-aerate-wine",
+      "route": "/when-to-aerate-wine/",
+      "title": "When to Aerate Wine",
+      "description": "Aerate wine when a sound wine tastes tight, muted, harsh or mildly reductive and seems likely to benefit from controlled exposure to air. Start by pouring a…",
+      "section": "fundamentals",
+      "source": "article-source/when-to-aerate-wine.md"
+    },
+    {
       "slug": "when-to-decant-wine",
       "route": "/when-to-decant-wine/",
       "title": "When Should Wine Be Decanted?",
       "description": "Learn when decanting can help wine, when it may do little, and how to decant young, old and sediment-bearing bottles safely.",
       "section": "fundamentals",
       "source": "article-source/when-to-decant-wine.md"
+    },
+    {
+      "slug": "when-to-drink-a-wine",
+      "route": "/when-to-drink-a-wine/",
+      "title": "When to drink a wine",
+      "description": "Drink a wine when it is in a condition you enjoy and suits the occasion. That might be now, after a short period of air, or later if the wine has the…",
+      "section": "fundamentals",
+      "source": "article-source/when-to-drink-a-wine.md"
     },
     {
       "slug": "white-wine-styles",
@@ -3306,6 +5554,14 @@
       "source": "article-source/why-white-wine-can-be-made-from-red-grapes.md"
     },
     {
+      "slug": "why-wine-changes-in-the-glass",
+      "route": "/why-wine-changes-in-the-glass/",
+      "title": "Why wine changes in the glass",
+      "description": "Wine smells and tastes different after a few minutes because pouring changes its contact with air. Aroma compounds move from the liquid into the air space…",
+      "section": "fundamentals",
+      "source": "article-source/why-wine-changes-in-the-glass.md"
+    },
+    {
       "slug": "why-wine-prices-vary",
       "route": "/why-wine-prices-vary/",
       "title": "Why Wine Prices Vary — And Whether Expensive Wine Is Better",
@@ -3320,6 +5576,14 @@
       "description": "Discover why wines taste different, from grape variety and climate to winemaking, ageing, serving conditions and personal perception.",
       "section": "fundamentals",
       "source": "article-source/why-wines-taste-different.md"
+    },
+    {
+      "slug": "willamette-valley",
+      "route": "/willamette-valley/",
+      "title": "Willamette Valley: An Australian Beginner’s Guide",
+      "description": "Willamette Valley is a federally recognised American Viticultural Area in Oregon, established in 1983. Its broad natural boundaries are the Columbia River…",
+      "section": "regions",
+      "source": "article-source/willamette-valley.md"
     },
     {
       "slug": "wine-and-cheese-pairing",
@@ -3352,6 +5616,22 @@
       "description": "Learn how to pair wine with steak by considering the cut, cooking method, char, sauce and richness. Includes Australian Shiraz, Cabernet Sauvignon, Pinot Noir and alternatives.",
       "section": "fundamentals",
       "source": "article-source/wine-and-steak-pairing.md"
+    },
+    {
+      "slug": "wine-appellation-meaning",
+      "route": "/wine-appellation-meaning/",
+      "title": "Wine appellation meaning: what the term means on a wine label",
+      "description": "In wine, an appellation is generally a recognised name for a defined wine-producing place. It identifies wine as being connected with that place of origin.",
+      "section": "fundamentals",
+      "source": "article-source/wine-appellation-meaning.md"
+    },
+    {
+      "slug": "wine-awards-and-medals",
+      "route": "/wine-awards-and-medals/",
+      "title": "Wine awards and medals: what do they mean?",
+      "description": "Wine awards and medals tell you that a particular wine entry received recognition in a particular competition. The wine was assessed against other entries…",
+      "section": "fundamentals",
+      "source": "article-source/wine-awards-and-medals.md"
     },
     {
       "slug": "wine-balance-vs-complexity",
@@ -3400,6 +5680,14 @@
       "description": "Freshness and acidity are related but different. Learn how acidity, fruit, aroma, alcohol, texture, temperature and balance shape a wine’s sense of freshness.",
       "section": "fundamentals",
       "source": "article-source/wine-freshness-vs-acidity.md"
+    },
+    {
+      "slug": "wine-fridge-vs-wine-cellar",
+      "route": "/wine-fridge-vs-wine-cellar/",
+      "title": "Wine fridge vs wine cellar: which is right for you?",
+      "description": "For most Australian homes, a purpose-built wine fridge is the practical choice when you need reliable temperature control in a small space. It can be…",
+      "section": "fundamentals",
+      "source": "article-source/wine-fridge-vs-wine-cellar.md"
     },
     {
       "slug": "wine-glass-types-explained",
@@ -3498,6 +5786,14 @@
       "source": "article-source/wine-with-chinese-food.md"
     },
     {
+      "slug": "wine-with-chocolate",
+      "route": "/wine-with-chocolate/",
+      "title": "Wine with chocolate: how to choose a pairing that works",
+      "description": "Start by asking three questions:",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-chocolate.md"
+    },
+    {
       "slug": "wine-with-creamy-sauces",
       "route": "/wine-with-creamy-sauces/",
       "title": "Wine with creamy sauces",
@@ -3512,6 +5808,30 @@
       "description": "Learn how to choose wine with duck by matching Pinot Noir, sparkling wine, Chardonnay, Riesling and other styles to the preparation, sauce, richness, sweetness and spice.",
       "section": "fundamentals",
       "source": "article-source/wine-with-duck.md"
+    },
+    {
+      "slug": "wine-with-fruit-desserts",
+      "route": "/wine-with-fruit-desserts/",
+      "title": "Wine with fruit desserts",
+      "description": "A useful starting point is to choose a wine that is at least as sweet as the fruit dessert, then consider the dessert’s acidity, cream, custard, pastry,…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-fruit-desserts.md"
+    },
+    {
+      "slug": "wine-with-hard-cheese",
+      "route": "/wine-with-hard-cheese/",
+      "title": "Wine with hard cheese: how to choose a good match",
+      "description": "Hard cheese is not one flavour profile, so there is no single best wine for it. A young, mild Gouda presents a different pairing challenge from salty…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-hard-cheese.md"
+    },
+    {
+      "slug": "wine-with-indian-food",
+      "route": "/wine-with-indian-food/",
+      "title": "Wine with Indian food: how to choose a bottle",
+      "description": "The best wine with Indian food depends on the dish. A creamy curry, smoky tandoori dish, tangy lentil preparation and chilli-hot curry do not have the same…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-indian-food.md"
     },
     {
       "slug": "wine-with-lamb",
@@ -3570,12 +5890,84 @@
       "source": "article-source/wine-with-pork.md"
     },
     {
+      "slug": "wine-with-roast-dinner",
+      "route": "/wine-with-roast-dinner/",
+      "title": "Wine with roast dinner: how to choose the right style",
+      "description": "There is no single correct wine for every roast dinner. Start with the main roast, then consider the gravy, sauce, herbs, salt, sweetness and richness of…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-roast-dinner.md"
+    },
+    {
+      "slug": "wine-with-salads",
+      "route": "/wine-with-salads/",
+      "title": "Wine with salads: how to choose a good match",
+      "description": "The best wine with a salad depends less on the leaves than on the dressing and the ingredients added to them.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-salads.md"
+    },
+    {
+      "slug": "wine-with-salmon",
+      "route": "/wine-with-salmon/",
+      "title": "Wine with Salmon: How to Choose the Right Style",
+      "description": "The best wine with salmon depends on the whole dish, not just the fish. Start with freshness and acidity to balance salmon’s usual richness and oiliness,…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-salmon.md"
+    },
+    {
+      "slug": "wine-with-shellfish",
+      "route": "/wine-with-shellfish/",
+      "title": "Wine with shellfish: how to choose the right style",
+      "description": "Start by asking four questions:",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-shellfish.md"
+    },
+    {
+      "slug": "wine-with-soft-cheese",
+      "route": "/wine-with-soft-cheese/",
+      "title": "Wine with Soft Cheese: How to Choose a Good Match",
+      "description": "Soft cheese is not one single pairing target. A fresh, tangy goat’s cheese, a creamy Brie-style cheese and a pungent washed-rind cheese can all be soft, but…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-soft-cheese.md"
+    },
+    {
+      "slug": "wine-with-sushi",
+      "route": "/wine-with-sushi/",
+      "title": "Wine with sushi: how to choose a bottle that works",
+      "description": "Start with a fresh, relatively light white or sparkling wine. Australian sparkling wine, dry Riesling, Sauvignon Blanc, Pinot Gris/Grigio and light unoaked…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-sushi.md"
+    },
+    {
+      "slug": "wine-with-thai-food",
+      "route": "/wine-with-thai-food/",
+      "title": "Wine with Thai food: how to choose a bottle",
+      "description": "For mild Thai dishes, begin with a crisp dry white, aromatic white, sparkling wine or dry rosé. These styles can provide freshness alongside herbs, citrus,…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-thai-food.md"
+    },
+    {
       "slug": "wine-with-tomato-based-dishes",
       "route": "/wine-with-tomato-based-dishes/",
       "title": "Wine with tomato-based dishes",
       "description": "Learn how tomato acidity, preparation, spice, meat, seafood, cheese and umami affect wine choice, with practical Australian style-based guidance.",
       "section": "fundamentals",
       "source": "article-source/wine-with-tomato-based-dishes.md"
+    },
+    {
+      "slug": "wine-with-vegan-food",
+      "route": "/wine-with-vegan-food/",
+      "title": "Wine with vegan food",
+      "description": "Start with the dish, not the word “vegan”. A lemony salad, smoky mushroom dish, coconut curry and lentil stew are all vegan, but they have very different…",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-vegan-food.md"
+    },
+    {
+      "slug": "wine-with-vegetarian-food",
+      "route": "/wine-with-vegetarian-food/",
+      "title": "Wine with vegetarian food",
+      "description": "Start by identifying the dish’s strongest feature.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-vegetarian-food.md"
     },
     {
       "slug": "wrattonbully-wine-region",
@@ -3600,6 +5992,14 @@
       "description": "Explore the Yarra Valley’s varied climate, elevations and key wines, including Pinot Noir, Chardonnay, Cabernet Sauvignon and sparkling wine.",
       "section": "regions",
       "source": "article-source/yarra-valley-wine-region.md"
+    },
+    {
+      "slug": "yecla-wine-region",
+      "route": "/yecla-wine-region/",
+      "title": "Yecla wine region: a beginner’s guide",
+      "description": "Yecla is a Spanish wine region in the Region of Murcia, in the dry, elevated interior of southeastern Spain. It is best known for red wines made from…",
+      "section": "regions",
+      "source": "article-source/yecla-wine-region.md"
     },
     {
       "slug": "zinfandel-primitivo",
