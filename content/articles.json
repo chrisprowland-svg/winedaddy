@@ -202,6 +202,14 @@
       "source": "article-source/appassimento.md"
     },
     {
+      "slug": "are-crystals-in-wine-safe",
+      "route": "/are-crystals-in-wine-safe/",
+      "title": "Are crystals in wine safe?",
+      "description": "Most wine crystals are harmless tartrate deposits, but not every crystal-like particle is safe. Learn why they form and what to do if you suspect glass.",
+      "section": "fundamentals",
+      "source": "article-source/are-crystals-in-wine-safe.md"
+    },
+    {
       "slug": "argentina",
       "route": "/argentina/",
       "title": "Argentina: A Beginner’s Guide to Its Wine Regions and Styles",
@@ -698,6 +706,22 @@
       "source": "article-source/campania.md"
     },
     {
+      "slug": "can-wine-be-frozen",
+      "route": "/can-wine-be-frozen/",
+      "title": "Can wine be frozen?",
+      "description": "Yes, wine can freeze—but a full bottle may leak, damage its closure or break. Learn how freezing affects wine and the safest way to handle leftovers.",
+      "section": "fundamentals",
+      "source": "article-source/can-wine-be-frozen.md"
+    },
+    {
+      "slug": "can-wine-be-stored-in-the-fridge",
+      "route": "/can-wine-be-stored-in-the-fridge/",
+      "title": "Can wine be stored in the fridge?",
+      "description": "Yes, but mainly for short-term chilling and opened-bottle preservation. Learn when to refrigerate wine and why a household fridge is unsuitable for long-term storage.",
+      "section": "fundamentals",
+      "source": "article-source/can-wine-be-stored-in-the-fridge.md"
+    },
+    {
       "slug": "canberra-district-subregions",
       "route": "/canberra-district-subregions/",
       "title": "Canberra District subregions: three informal districts within one GI",
@@ -826,6 +850,14 @@
       "source": "article-source/cava-wine-regions.md"
     },
     {
+      "slug": "cellar-door-etiquette-in-australia",
+      "route": "/cellar-door-etiquette-in-australia/",
+      "title": "Cellar door etiquette in Australia: what to expect and how to behave",
+      "description": "A practical guide to Australian cellar-door etiquette, including bookings, tasting fees, questions, spitting, purchases, group behaviour and safe transport.",
+      "section": "fundamentals",
+      "source": "article-source/cellar-door-etiquette-in-australia.md"
+    },
+    {
       "slug": "central-otago",
       "route": "/central-otago/",
       "title": "Central Otago: A Beginner’s Guide to New Zealand’s Pinot Noir Region",
@@ -930,6 +962,14 @@
       "source": "article-source/champagne-sweetness-levels.md"
     },
     {
+      "slug": "champagne-vs-english-sparkling-wine",
+      "route": "/champagne-vs-english-sparkling-wine/",
+      "title": "Champagne vs English sparkling wine: what’s the difference?",
+      "description": "Champagne and English sparkling wine can share grapes and the traditional method, but their protected origins, rules, climates and styles differ. Here’s what Australian wine learners need to know.",
+      "section": "grapes",
+      "source": "article-source/champagne-vs-english-sparkling-wine.md"
+    },
+    {
       "slug": "chaptalisation",
       "route": "/chaptalisation/",
       "title": "What Is Chaptalisation? A Beginner’s Guide",
@@ -968,6 +1008,14 @@
       "description": "Chenin Blanc is a versatile white wine grape that can produce dry, off-dry, sweet and sparkling wines. Learn its flavours, acidity, Australian context and food-pairing styles.",
       "section": "grapes",
       "source": "article-source/chenin-blanc.md"
+    },
+    {
+      "slug": "chenin-blanc-vs-sauvignon-blanc",
+      "route": "/chenin-blanc-vs-sauvignon-blanc/",
+      "title": "Chenin Blanc vs Sauvignon Blanc",
+      "description": "Understand the difference between Chenin Blanc and Sauvignon Blanc, including aroma, acidity, texture, sweetness, style range and Australian examples.",
+      "section": "grapes",
+      "source": "article-source/chenin-blanc-vs-sauvignon-blanc.md"
     },
     {
       "slug": "chianti",
@@ -1026,6 +1074,14 @@
       "source": "article-source/clare-valley-wine-region.md"
     },
     {
+      "slug": "cleanskin-wine-explained",
+      "route": "/cleanskin-wine-explained/",
+      "title": "Cleanskin wine explained",
+      "description": "Learn what cleanskin wine means in Australia, how it differs from branded, generic and private-label wine, and what to check on the label before buying.",
+      "section": "fundamentals",
+      "source": "article-source/cleanskin-wine-explained.md"
+    },
+    {
       "slug": "co-fermentation",
       "route": "/co-fermentation/",
       "title": "What Is Co-fermentation? A Beginner’s Guide",
@@ -1080,6 +1136,14 @@
       "description": "Collio is an Italian wine area and DOC in the hills of north-eastern Friuli-Venezia Giulia, beside the Slovenian border. It is especially associated with…",
       "section": "regions",
       "source": "article-source/collio-wine-region.md"
+    },
+    {
+      "slug": "common-wine-myths-explained",
+      "route": "/common-wine-myths-explained/",
+      "title": "Common wine myths explained",
+      "description": "Understand seven common wine myths, from price and bottle age to screw caps, serving temperature, sulphites, dryness and sediment, with practical Australian context.",
+      "section": "fundamentals",
+      "source": "article-source/common-wine-myths-explained.md"
     },
     {
       "slug": "common-wine-vocabulary",
@@ -1338,6 +1402,14 @@
       "source": "article-source/dealcoholised-wine-production.md"
     },
     {
+      "slug": "decanter-shapes-explained",
+      "route": "/decanter-shapes-explained/",
+      "title": "Decanter shapes explained",
+      "description": "Understand how decanter shape affects wine exposure, pouring control and sediment separation, plus how to choose a practical decanter for an Australian home.",
+      "section": "fundamentals",
+      "source": "article-source/decanter-shapes-explained.md"
+    },
+    {
       "slug": "decanter-vs-aerator",
       "route": "/decanter-vs-aerator/",
       "title": "Decanter vs aerator: which should you use?",
@@ -1386,12 +1458,28 @@
       "source": "article-source/direct-press-rose.md"
     },
     {
+      "slug": "do-wine-aerators-work",
+      "route": "/do-wine-aerators-work/",
+      "title": "Do wine aerators work?",
+      "description": "Wine aerators can change how some wines smell and taste, but that does not guarantee improvement. Learn how aerators compare with swirling and decanting, and when to try one.",
+      "section": "fundamentals",
+      "source": "article-source/do-wine-aerators-work.md"
+    },
+    {
       "slug": "does-vintage-matter",
       "route": "/does-vintage-matter/",
       "title": "Does Vintage Matter in Wine?",
       "description": "Learn what a wine vintage means, when weather and region make it important, and why an older or highly rated vintage is not automatically better.",
       "section": "fundamentals",
       "source": "article-source/does-vintage-matter.md"
+    },
+    {
+      "slug": "does-wine-go-off",
+      "route": "/does-wine-go-off/",
+      "title": "Does wine go off?",
+      "description": "Does wine go off? Learn how opened and unopened wine changes, how oxygen, heat and light affect quality, and when to discard a questionable bottle.",
+      "section": "fundamentals",
+      "source": "article-source/does-wine-go-off.md"
     },
     {
       "slug": "does-wine-improve-with-age",
@@ -1568,6 +1656,14 @@
       "description": "“Everyday wine” usually means a wine regarded as suitable for ordinary, relaxed or regular occasions rather than a particularly formal, rare or celebratory…",
       "section": "fundamentals",
       "source": "article-source/everyday-wine-meaning.md"
+    },
+    {
+      "slug": "exclusive-release-wine-explained",
+      "route": "/exclusive-release-wine-explained/",
+      "title": "Exclusive-release wine explained",
+      "description": "Understand what “exclusive release” usually means, how it differs from limited, rare and small-batch wine, and what Australian buyers should check before relying on the claim.",
+      "section": "fundamentals",
+      "source": "article-source/exclusive-release-wine-explained.md"
     },
     {
       "slug": "extended-maceration",
@@ -2026,6 +2122,14 @@
       "source": "article-source/grenache-in-australia.md"
     },
     {
+      "slug": "grenache-vs-pinot-noir",
+      "route": "/grenache-vs-pinot-noir/",
+      "title": "Grenache vs Pinot Noir: What’s the Difference?",
+      "description": "Grenache vs Pinot Noir explained for Australian wine learners: compare body, acidity, tannin, fruit character, texture, Australian regions and food pairing.",
+      "section": "grapes",
+      "source": "article-source/grenache-vs-pinot-noir.md"
+    },
+    {
       "slug": "grower-champagne",
       "route": "/grower-champagne/",
       "title": "Grower Champagne: What Australian Wine Drinkers Should Know",
@@ -2048,6 +2152,14 @@
       "description": "Understand the Gundagai wine region, its Southern New South Wales location, climate, principal grape varieties and what “Gundagai” means on an Australian wine label.",
       "section": "regions",
       "source": "article-source/gundagai-wine-region.md"
+    },
+    {
+      "slug": "hand-picked-vs-machine-harvested-grapes",
+      "route": "/hand-picked-vs-machine-harvested-grapes/",
+      "title": "Hand-picked vs machine-harvested grapes",
+      "description": "Understand how hand-picked and machine-harvested grapes differ, why Australian vineyards may use either method, and why harvesting method alone does not determine wine quality.",
+      "section": "winemaking",
+      "source": "article-source/hand-picked-vs-machine-harvested-grapes.md"
     },
     {
       "slug": "hastings-river-wine-region",
@@ -2122,6 +2234,30 @@
       "source": "article-source/hilltops-wine-region.md"
     },
     {
+      "slug": "how-alcohol-is-removed-from-wine",
+      "route": "/how-alcohol-is-removed-from-wine/",
+      "title": "How alcohol is removed from wine",
+      "description": "Learn how alcohol is removed from fermented wine using vacuum, distillation, spinning-cone and membrane methods, and why aroma, flavour and body can change.",
+      "section": "winemaking",
+      "source": "article-source/how-alcohol-is-removed-from-wine.md"
+    },
+    {
+      "slug": "how-blind-tasting-competitions-work",
+      "route": "/how-blind-tasting-competitions-work/",
+      "title": "How blind tasting competitions work",
+      "description": "Learn how blind tasting competitions code, group, serve and judge wines, how medals are awarded, and why results are useful signals rather than universal verdicts.",
+      "section": "fundamentals",
+      "source": "article-source/how-blind-tasting-competitions-work.md"
+    },
+    {
+      "slug": "how-bushfires-affect-wine",
+      "route": "/how-bushfires-affect-wine/",
+      "title": "How bushfires affect wine",
+      "description": "Learn how bushfire smoke, heat, fire damage and vineyard disruption can affect grapes and wine—and why smoke exposure is not automatically smoke taint.",
+      "section": "winemaking",
+      "source": "article-source/how-bushfires-affect-wine.md"
+    },
+    {
       "slug": "how-climate-affects-wine",
       "route": "/how-climate-affects-wine/",
       "title": "How Climate Affects Wine",
@@ -2130,12 +2266,100 @@
       "source": "article-source/how-climate-affects-wine.md"
     },
     {
+      "slug": "how-corkage-works",
+      "route": "/how-corkage-works/",
+      "title": "How corkage works",
+      "description": "Understand corkage, BYO permission, venue policies and Australian differences before bringing wine to a restaurant or event.",
+      "section": "fundamentals",
+      "source": "article-source/how-corkage-works.md"
+    },
+    {
+      "slug": "how-designated-driver-wine-tasting-works",
+      "route": "/how-designated-driver-wine-tasting-works/",
+      "title": "How designated-driver wine tasting works",
+      "description": "Learn how designated-driver arrangements work at Australian wine tastings, what tickets may include and how to plan safely if you are driving.",
+      "section": "fundamentals",
+      "source": "article-source/how-designated-driver-wine-tasting-works.md"
+    },
+    {
+      "slug": "how-frost-affects-vineyards",
+      "route": "/how-frost-affects-vineyards/",
+      "title": "How frost affects vineyards",
+      "description": "Learn how frost damages grapevines, why spring frost after budburst is risky, how Australian vineyard sites differ, and how growers monitor and manage frost.",
+      "section": "winemaking",
+      "source": "article-source/how-frost-affects-vineyards.md"
+    },
+    {
+      "slug": "how-grapes-are-harvested",
+      "route": "/how-grapes-are-harvested/",
+      "title": "How grapes are harvested",
+      "description": "Learn how wine grapes are harvested, how growers decide when to pick, and the practical differences between hand and machine harvesting in Australia.",
+      "section": "winemaking",
+      "source": "article-source/how-grapes-are-harvested.md"
+    },
+    {
       "slug": "how-grapes-become-alcohol",
       "route": "/how-grapes-become-alcohol/",
       "title": "How grapes become alcohol",
       "description": "Learn how grape sugars become ethanol through alcoholic fermentation, and why yeast, ripeness, residual sugar and ABV matter.",
       "section": "fundamentals",
       "source": "article-source/how-grapes-become-alcohol.md"
+    },
+    {
+      "slug": "how-hail-affects-vineyards",
+      "route": "/how-hail-affects-vineyards/",
+      "title": "How hail affects vineyards",
+      "description": "Learn how hail can damage vineyard leaves, shoots, flowers, bunches and berries, why timing matters, and how one localised storm may affect both the current crop and future vine health.",
+      "section": "winemaking",
+      "source": "article-source/how-hail-affects-vineyards.md"
+    },
+    {
+      "slug": "how-heat-damages-wine",
+      "route": "/how-heat-damages-wine/",
+      "title": "How heat damages wine",
+      "description": "Learn how heat, time and repeated temperature changes can affect wine, how to recognise possible damage, and what Australian drinkers can do during transport, delivery and storage.",
+      "section": "fundamentals",
+      "source": "article-source/how-heat-damages-wine.md"
+    },
+    {
+      "slug": "how-light-damages-wine",
+      "route": "/how-light-damages-wine/",
+      "title": "How light damages wine",
+      "description": "Learn how light can alter wine, what light-struck character means, why bottle colour matters and how to protect bottles from sun and bright light in Australian conditions.",
+      "section": "fundamentals",
+      "source": "article-source/how-light-damages-wine.md"
+    },
+    {
+      "slug": "how-long-does-opened-red-wine-last",
+      "route": "/how-long-does-opened-red-wine-last/",
+      "title": "How long does opened red wine last?",
+      "description": "Opened red wine is often best within three to four days when resealed and refrigerated. Learn how storage, air exposure and wine style affect quality.",
+      "section": "fundamentals",
+      "source": "article-source/how-long-does-opened-red-wine-last.md"
+    },
+    {
+      "slug": "how-long-does-opened-sparkling-wine-last",
+      "route": "/how-long-does-opened-sparkling-wine-last/",
+      "title": "How long does opened sparkling wine last?",
+      "description": "Opened sparkling wine is usually best within a day. Learn how refrigeration, a proper stopper, headspace and handling affect its fizz and freshness.",
+      "section": "fundamentals",
+      "source": "article-source/how-long-does-opened-sparkling-wine-last.md"
+    },
+    {
+      "slug": "how-long-does-opened-white-wine-last",
+      "route": "/how-long-does-opened-white-wine-last/",
+      "title": "How long does opened white wine last?",
+      "description": "Opened still white wine is usually at its best for two to three days when promptly resealed and refrigerated. Learn how to store it and spot quality decline.",
+      "section": "fundamentals",
+      "source": "article-source/how-long-does-opened-white-wine-last.md"
+    },
+    {
+      "slug": "how-long-should-wine-breathe",
+      "route": "/how-long-should-wine-breathe/",
+      "title": "How long should wine breathe?",
+      "description": "There is no universal breathing time for wine. Learn how opening, pouring, swirling and decanting affect air exposure, and use a simple taste-and-reassess method at home.",
+      "section": "fundamentals",
+      "source": "article-source/how-long-should-wine-breathe.md"
     },
     {
       "slug": "how-long-to-chill-wine",
@@ -2154,12 +2378,28 @@
       "source": "article-source/how-long-wine-lasts-after-opening.md"
     },
     {
+      "slug": "how-low-alcohol-wine-is-made",
+      "route": "/how-low-alcohol-wine-is-made/",
+      "title": "How low-alcohol wine is made",
+      "description": "Learn how low-alcohol wine is made through grape and fermentation choices, blending or post-fermentation alcohol removal, including reverse osmosis, vacuum distillation and spinning-cone processing.",
+      "section": "winemaking",
+      "source": "article-source/how-low-alcohol-wine-is-made.md"
+    },
+    {
       "slug": "how-many-glasses-are-in-a-bottle-of-wine",
       "route": "/how-many-glasses-are-in-a-bottle-of-wine/",
       "title": "How many glasses are in a bottle of wine?",
       "description": "A typical bottle of still wine contains 750 mL. At a 150 mL pour, that gives:",
       "section": "winemaking",
       "source": "article-source/how-many-glasses-are-in-a-bottle-of-wine.md"
+    },
+    {
+      "slug": "how-much-should-you-spend-on-wine",
+      "route": "/how-much-should-you-spend-on-wine/",
+      "title": "How much should you spend on wine?",
+      "description": "There is no universal right price for wine. Learn how to set a comfortable Australian wine budget based on the occasion, quantity, preferences and value—not price alone.",
+      "section": "fundamentals",
+      "source": "article-source/how-much-should-you-spend-on-wine.md"
     },
     {
       "slug": "how-much-wine-to-buy-for-a-party",
@@ -2170,12 +2410,60 @@
       "source": "article-source/how-much-wine-to-buy-for-a-party.md"
     },
     {
+      "slug": "how-much-wine-to-pour-per-glass",
+      "route": "/how-much-wine-to-pour-per-glass/",
+      "title": "How much wine to pour per glass",
+      "description": "Learn how much wine to pour into a glass, why headspace matters and how serving volume differs from an Australian standard drink.",
+      "section": "fundamentals",
+      "source": "article-source/how-much-wine-to-pour-per-glass.md"
+    },
+    {
+      "slug": "how-non-alcoholic-wine-is-made",
+      "route": "/how-non-alcoholic-wine-is-made/",
+      "title": "How non-alcoholic wine is made",
+      "description": "Most dealcoholised wine starts as fermented wine. Learn how alcohol is removed, why aroma and texture can change, and what Australian labels may mean.",
+      "section": "winemaking",
+      "source": "article-source/how-non-alcoholic-wine-is-made.md"
+    },
+    {
+      "slug": "how-restaurant-wine-markups-work",
+      "route": "/how-restaurant-wine-markups-work/",
+      "title": "How restaurant wine markups work",
+      "description": "Understand restaurant wine markups, gross margin, GST context, bottle-versus-glass pricing and how to assess wine-list value in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/how-restaurant-wine-markups-work.md"
+    },
+    {
       "slug": "how-soil-affects-wine",
       "route": "/how-soil-affects-wine/",
       "title": "How Soil Affects Wine",
       "description": "Soil can influence wine through water availability, root growth, nutrients and vine development—but it does not simply transfer its flavour to grapes. Learn how soil, climate and winemaking interact.",
       "section": "winemaking",
       "source": "article-source/how-soil-affects-wine.md"
+    },
+    {
+      "slug": "how-to-build-a-mixed-wine-case",
+      "route": "/how-to-build-a-mixed-wine-case/",
+      "title": "How to build a mixed wine case",
+      "description": "Learn how to build a mixed wine case around drinkers, occasions, wine styles, budget, storage and serving needs—without relying on a rigid 12-bottle formula.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-build-a-mixed-wine-case.md"
+    },
+    {
+      "slug": "how-to-buy-wine-at-auction",
+      "route": "/how-to-buy-wine-at-auction/",
+      "title": "How to buy wine at auction",
+      "description": "A practical Australian beginner’s guide to buying wine at auction, covering auction terms, bottle condition, provenance, total cost, bidding limits, delivery risks and arrival checks.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-buy-wine-at-auction.md"
+    },
+    {
+      "slug": "how-to-buy-wine-for-immediate-drinking",
+      "route": "/how-to-buy-wine-for-immediate-drinking/",
+      "title": "How to buy wine for immediate drinking",
+      "description": "A practical Australian guide to choosing wine for near-term enjoyment, including style, labels, retailer questions, bottle condition, transport and responsible buying.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-buy-wine-for-immediate-drinking.md"
     },
     {
       "slug": "how-to-buy-wine-online",
@@ -2210,6 +2498,54 @@
       "source": "article-source/how-to-chill-wine-quickly.md"
     },
     {
+      "slug": "how-to-choose-an-everyday-red-wine",
+      "route": "/how-to-choose-an-everyday-red-wine/",
+      "title": "How to choose an everyday red wine",
+      "description": "A practical Australian guide to choosing an everyday red wine by occasion, food, budget, style, label clues and serving conditions.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-an-everyday-red-wine.md"
+    },
+    {
+      "slug": "how-to-choose-an-everyday-white-wine",
+      "route": "/how-to-choose-an-everyday-white-wine/",
+      "title": "How to choose an everyday white wine",
+      "description": "A practical Australian beginner’s guide to choosing an everyday white wine by style, grape variety, food, occasion, label clues, serving temperature and storage.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-an-everyday-white-wine.md"
+    },
+    {
+      "slug": "how-to-choose-dessert-wine",
+      "route": "/how-to-choose-dessert-wine/",
+      "title": "How to choose dessert wine",
+      "description": "Learn how to choose dessert wine by matching sweetness, acidity, body and flavour intensity to the food, occasion and your own preferences.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-dessert-wine.md"
+    },
+    {
+      "slug": "how-to-choose-fortified-wine",
+      "route": "/how-to-choose-fortified-wine/",
+      "title": "How to choose fortified wine",
+      "description": "Learn how to choose fortified wine by occasion, sweetness, flavour, maturation, alcohol and label terms, with Australian examples including Muscat, Topaque and Apera.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-fortified-wine.md"
+    },
+    {
+      "slug": "how-to-choose-rose",
+      "route": "/how-to-choose-rose/",
+      "title": "How to choose rosé",
+      "description": "A practical Australian guide to choosing rosé by sweetness, texture, flavour, food and occasion—not colour alone.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-rose.md"
+    },
+    {
+      "slug": "how-to-choose-sparkling-wine",
+      "route": "/how-to-choose-sparkling-wine/",
+      "title": "How to choose sparkling wine",
+      "description": "A practical Australian guide to choosing sparkling wine by sweetness, method, grape, region, vintage, occasion, food and budget.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-sparkling-wine.md"
+    },
+    {
       "slug": "how-to-choose-wine-as-a-gift",
       "route": "/how-to-choose-wine-as-a-gift/",
       "title": "How to choose wine as a gift",
@@ -2224,6 +2560,62 @@
       "description": "Before looking closely at the list, answer five questions:",
       "section": "fundamentals",
       "source": "article-source/how-to-choose-wine-at-a-restaurant.md"
+    },
+    {
+      "slug": "how-to-choose-wine-by-alcohol-level",
+      "route": "/how-to-choose-wine-by-alcohol-level/",
+      "title": "How to choose wine by alcohol level",
+      "description": "Learn how alcohol by volume can help you choose wine, what ABV does and does not tell you, and why standard drinks matter in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-by-alcohol-level.md"
+    },
+    {
+      "slug": "how-to-choose-wine-by-body",
+      "route": "/how-to-choose-wine-by-body/",
+      "title": "How to choose wine by body",
+      "description": "Learn what wine body means, how light-, medium- and full-bodied styles differ, and how Australian drinkers can use body descriptions to choose a bottle with more confidence.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-by-body.md"
+    },
+    {
+      "slug": "how-to-choose-wine-by-sweetness",
+      "route": "/how-to-choose-wine-by-sweetness/",
+      "title": "How to choose wine by sweetness",
+      "description": "Learn how to choose dry, off-dry and sweet wine by reading labels, understanding residual sugar and recognising the effects of acidity, alcohol, tannin and bubbles.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-by-sweetness.md"
+    },
+    {
+      "slug": "how-to-choose-wine-for-a-dinner-party",
+      "route": "/how-to-choose-wine-for-a-dinner-party/",
+      "title": "How to choose wine for a dinner party",
+      "description": "Learn how to choose versatile wine styles, plan bottles, match wine broadly to dinner-party food and host confidently with inclusive Australian serving guidance.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-for-a-dinner-party.md"
+    },
+    {
+      "slug": "how-to-choose-wine-for-a-mixed-crowd",
+      "route": "/how-to-choose-wine-for-a-mixed-crowd/",
+      "title": "How to choose wine for a mixed crowd",
+      "description": "A practical Australian guide to choosing wine for guests with different tastes, food preferences and drinking habits.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-for-a-mixed-crowd.md"
+    },
+    {
+      "slug": "how-to-choose-wine-for-ageing",
+      "route": "/how-to-choose-wine-for-ageing/",
+      "title": "How to choose wine for ageing",
+      "description": "Learn how acidity, tannin, sweetness, balance, producer, vintage and provenance affect a wine’s ageing potential—and why not every bottle improves with time.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-for-ageing.md"
+    },
+    {
+      "slug": "how-to-choose-wine-for-cooking",
+      "route": "/how-to-choose-wine-for-cooking/",
+      "title": "How to choose wine for cooking",
+      "description": "Learn how to choose wine for cooking by matching sweetness, acidity, colour, body and flavour intensity to the dish, with practical Australian label guidance.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-choose-wine-for-cooking.md"
     },
     {
       "slug": "how-to-choose-wine-in-a-bottle-shop",
@@ -2242,12 +2634,44 @@
       "source": "article-source/how-to-clean-wine-glasses.md"
     },
     {
+      "slug": "how-to-compare-two-bottles-of-wine",
+      "route": "/how-to-compare-two-bottles-of-wine/",
+      "title": "How to compare two bottles of wine",
+      "description": "A practical guide to comparing two bottles of wine fairly, from label information and tasting conditions to preference, value, suitability and possible faults.",
+      "section": "winemaking",
+      "source": "article-source/how-to-compare-two-bottles-of-wine.md"
+    },
+    {
       "slug": "how-to-compare-wine-value",
       "route": "/how-to-compare-wine-value/",
       "title": "How to compare wine value",
       "description": "Wine value means the expected benefit of a wine relative to its total price. That benefit might be enjoyment, suitability with food, reliability for a…",
       "section": "fundamentals",
       "source": "article-source/how-to-compare-wine-value.md"
+    },
+    {
+      "slug": "how-to-develop-your-palate",
+      "route": "/how-to-develop-your-palate/",
+      "title": "How to develop your palate",
+      "description": "Learn how to improve your wine palate through attentive tasting, side-by-side comparison, sensory vocabulary, note-taking and responsible practice.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-develop-your-palate.md"
+    },
+    {
+      "slug": "how-to-host-a-blind-wine-tasting",
+      "route": "/how-to-host-a-blind-wine-tasting/",
+      "title": "How to host a blind wine tasting",
+      "description": "A practical Australian guide to planning, serving and discussing a fair, inclusive blind wine tasting at home.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-host-a-blind-wine-tasting.md"
+    },
+    {
+      "slug": "how-to-keep-sparkling-wine-fizzy",
+      "route": "/how-to-keep-sparkling-wine-fizzy/",
+      "title": "How to keep sparkling wine fizzy",
+      "description": "Learn the best way to preserve bubbles in opened sparkling wine: use a proper stopper, refrigerate the bottle, handle it gently and drink it soon.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-keep-sparkling-wine-fizzy.md"
     },
     {
       "slug": "how-to-learn-your-wine-preferences",
@@ -2258,12 +2682,28 @@
       "source": "article-source/how-to-learn-your-wine-preferences.md"
     },
     {
+      "slug": "how-to-open-an-old-bottle-of-wine",
+      "route": "/how-to-open-an-old-bottle-of-wine/",
+      "title": "How to open an old bottle of wine",
+      "description": "Learn how to open an older bottle carefully, choose between a standard corkscrew and an Ah-So, manage fragile or broken corks, pour around sediment and decide whether decanting is worthwhile.",
+      "section": "winemaking",
+      "source": "article-source/how-to-open-an-old-bottle-of-wine.md"
+    },
+    {
       "slug": "how-to-open-sparkling-wine-safely",
       "route": "/how-to-open-sparkling-wine-safely/",
       "title": "How to Open Sparkling Wine Safely",
       "description": "Learn how to open a standard sparkling-wine bottle safely, with simple steps for chilling, controlling the cork, loosening the wire cage and avoiding flying corks.",
       "section": "fundamentals",
       "source": "article-source/how-to-open-sparkling-wine-safely.md"
+    },
+    {
+      "slug": "how-to-order-wine-by-the-glass",
+      "route": "/how-to-order-wine-by-the-glass/",
+      "title": "How to order wine by the glass",
+      "description": "A practical Australian guide to reading a by-the-glass wine list, describing your preferences, checking pour sizes and handling service questions confidently.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-order-wine-by-the-glass.md"
     },
     {
       "slug": "how-to-order-wine-confidently",
@@ -2282,6 +2722,70 @@
       "source": "article-source/how-to-organise-a-wine-cellar.md"
     },
     {
+      "slug": "how-to-pack-wine-for-travel",
+      "route": "/how-to-pack-wine-for-travel/",
+      "title": "How to pack wine for travel",
+      "description": "Learn how to protect wine from breakage, leaks and avoidable heat when travelling by car, plane or permitted courier, with practical Australian baggage and border-rule checks.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-pack-wine-for-travel.md"
+    },
+    {
+      "slug": "how-to-plan-a-wine-tasting-at-home",
+      "route": "/how-to-plan-a-wine-tasting-at-home/",
+      "title": "How to plan a wine tasting at home",
+      "description": "Plan a relaxed home wine tasting with practical advice on choosing wines, serving order, tasting notes, equipment and responsible hosting in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-plan-a-wine-tasting-at-home.md"
+    },
+    {
+      "slug": "how-to-plan-an-australian-wine-region-weekend",
+      "route": "/how-to-plan-an-australian-wine-region-weekend/",
+      "title": "How to plan an Australian wine-region weekend",
+      "description": "A practical guide to choosing an Australian wine region, planning cellar-door visits, arranging safe transport and building a flexible, enjoyable weekend.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-plan-an-australian-wine-region-weekend.md"
+    },
+    {
+      "slug": "how-to-pour-wine-properly",
+      "route": "/how-to-pour-wine-properly/",
+      "title": "How to pour wine properly",
+      "description": "Learn how to pour still wine neatly, choose a sensible fill level, prevent drips and handle sparkling or sedimented wine with confidence.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-pour-wine-properly.md"
+    },
+    {
+      "slug": "how-to-pronounce-common-wine-grapes",
+      "route": "/how-to-pronounce-common-wine-grapes/",
+      "title": "How to pronounce common wine grapes",
+      "description": "Learn practical Australian-English pronunciations for common wine grape names, including Chardonnay, Pinot Noir, Sauvignon, Merlot, Riesling and more.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-pronounce-common-wine-grapes.md"
+    },
+    {
+      "slug": "how-to-pronounce-french-wine-regions",
+      "route": "/how-to-pronounce-french-wine-regions/",
+      "title": "How to pronounce French wine regions",
+      "description": "Learn clear, practical pronunciations for common French wine regions, including Bordeaux, Bourgogne, Burgundy, Champagne, Chablis and Beaujolais.",
+      "section": "regions",
+      "source": "article-source/how-to-pronounce-french-wine-regions.md"
+    },
+    {
+      "slug": "how-to-pronounce-italian-wine-names",
+      "route": "/how-to-pronounce-italian-wine-names/",
+      "title": "How to pronounce Italian wine names",
+      "description": "Learn practical pronunciation patterns for Italian wine names, including Chianti, Barolo, Sangiovese, Nebbiolo, Prosecco and Valpolicella, with Australian-friendly guides.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-pronounce-italian-wine-names.md"
+    },
+    {
+      "slug": "how-to-pronounce-spanish-wine-names",
+      "route": "/how-to-pronounce-spanish-wine-names/",
+      "title": "How to pronounce Spanish wine names",
+      "description": "Learn a few simple pronunciation rules for Spanish wine names, including Rioja, Tempranillo, Albariño, Cava and Txakoli, with Australian-friendly approximations and regional context.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-pronounce-spanish-wine-names.md"
+    },
+    {
       "slug": "how-to-read-a-wine-label",
       "route": "/how-to-read-a-wine-label/",
       "title": "How to Read a Wine Label",
@@ -2290,12 +2794,68 @@
       "source": "article-source/how-to-read-a-wine-label.md"
     },
     {
+      "slug": "how-to-remember-wines-you-liked",
+      "route": "/how-to-remember-wines-you-liked/",
+      "title": "How to remember wines you liked",
+      "description": "A simple guide to recording wine labels, venues and personal reactions so you can find and understand your favourites again.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-remember-wines-you-liked.md"
+    },
+    {
       "slug": "how-to-remove-a-broken-cork",
       "route": "/how-to-remove-a-broken-cork/",
       "title": "How to remove a broken cork",
       "description": "These instructions are for an ordinary still-wine bottle, such as one commonly opened at home in Australia. If the bottle is sparkling or otherwise…",
       "section": "fundamentals",
       "source": "article-source/how-to-remove-a-broken-cork.md"
+    },
+    {
+      "slug": "how-to-remove-wine-sediment",
+      "route": "/how-to-remove-wine-sediment/",
+      "title": "How to remove wine sediment",
+      "description": "Learn how to serve wine while leaving sediment in the bottle, including how to settle, open and pour it carefully.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-remove-wine-sediment.md"
+    },
+    {
+      "slug": "how-to-send-wine-back-at-a-restaurant",
+      "route": "/how-to-send-wine-back-at-a-restaurant/",
+      "title": "How to send wine back at a restaurant",
+      "description": "Learn what the restaurant wine tasting is for, how to raise a concern about a faulty bottle, and why personal preference may be handled differently in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-send-wine-back-at-a-restaurant.md"
+    },
+    {
+      "slug": "how-to-serve-aged-wine",
+      "route": "/how-to-serve-aged-wine/",
+      "title": "How to serve aged wine",
+      "description": "Learn how to prepare, open, taste and serve aged wine, including when to stand, decant or pour directly in an Australian home.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-serve-aged-wine.md"
+    },
+    {
+      "slug": "how-to-serve-wine-without-a-corkscrew",
+      "route": "/how-to-serve-wine-without-a-corkscrew/",
+      "title": "How to serve wine without a corkscrew",
+      "description": "Learn the safest options for opening still wine without a corkscrew, what to avoid, how to handle a broken cork and why sparkling wine needs different care.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-serve-wine-without-a-corkscrew.md"
+    },
+    {
+      "slug": "how-to-spit-wine-at-a-tasting",
+      "route": "/how-to-spit-wine-at-a-tasting/",
+      "title": "How to spit wine at a tasting",
+      "description": "Learn why people spit wine at tastings, how to use a spittoon discreetly and why spitting does not guarantee zero alcohol exposure or safe driving.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-spit-wine-at-a-tasting.md"
+    },
+    {
+      "slug": "how-to-spot-misleading-wine-marketing",
+      "route": "/how-to-spot-misleading-wine-marketing/",
+      "title": "How to spot misleading wine marketing",
+      "description": "Learn how to read wine marketing more carefully with a practical Australian pause, check, compare method for labels, certifications, awards, sustainability claims and wellness language.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-spot-misleading-wine-marketing.md"
     },
     {
       "slug": "how-to-start-a-wine-collection",
@@ -2314,6 +2874,14 @@
       "source": "article-source/how-to-store-open-wine.md"
     },
     {
+      "slug": "how-to-take-useful-wine-tasting-notes",
+      "route": "/how-to-take-useful-wine-tasting-notes/",
+      "title": "How to take useful wine tasting notes",
+      "description": "Learn a simple, repeatable way to record wine’s appearance, aroma, palate, structure and finish—and separate observation from judgement and preference.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-take-useful-wine-tasting-notes.md"
+    },
+    {
       "slug": "how-to-taste-wine",
       "route": "/how-to-taste-wine/",
       "title": "How to Taste Wine",
@@ -2322,12 +2890,44 @@
       "source": "article-source/how-to-taste-wine.md"
     },
     {
+      "slug": "how-to-taste-wine-at-a-cellar-door",
+      "route": "/how-to-taste-wine-at-a-cellar-door/",
+      "title": "How to taste wine at a cellar door",
+      "description": "A beginner-friendly guide to tasting wine at an Australian cellar door, including what to expect, how to compare wines, useful questions, etiquette, spitting and safe-transport considerations.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-taste-wine-at-a-cellar-door.md"
+    },
+    {
+      "slug": "how-to-taste-wine-without-feeling-intimidated",
+      "route": "/how-to-taste-wine-without-feeling-intimidated/",
+      "title": "How to taste wine without feeling intimidated",
+      "description": "Learn a simple, pressure-free way to taste wine, describe what you notice and feel more confident at an Australian cellar door, restaurant or tasting.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-taste-wine-without-feeling-intimidated.md"
+    },
+    {
       "slug": "how-to-tell-if-wine-is-ready-to-drink",
       "route": "/how-to-tell-if-wine-is-ready-to-drink/",
       "title": "How to tell if wine is ready to drink",
       "description": "A wine is ready to drink when it gives you the balance, flavour development and enjoyment you want from its style. That might be while it is youthful and…",
       "section": "fundamentals",
       "source": "article-source/how-to-tell-if-wine-is-ready-to-drink.md"
+    },
+    {
+      "slug": "how-to-tell-if-wine-is-still-drinkable",
+      "route": "/how-to-tell-if-wine-is-still-drinkable/",
+      "title": "How to tell if wine is still drinkable",
+      "description": "A practical guide to checking an old or opened wine, from bottle and appearance to aroma and a cautious taste, with advice on faults, sediment, heat and when to discard it.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-tell-if-wine-is-still-drinkable.md"
+    },
+    {
+      "slug": "how-to-track-wine-in-your-cellar",
+      "route": "/how-to-track-wine-in-your-cellar/",
+      "title": "How to track wine in your cellar",
+      "description": "Learn a simple way to track wine in your cellar, including essential inventory fields, location and status updates, tool choices, backups and drinking-window notes.",
+      "section": "fundamentals",
+      "source": "article-source/how-to-track-wine-in-your-cellar.md"
     },
     {
       "slug": "how-to-transport-wine-safely",
@@ -2346,6 +2946,14 @@
       "source": "article-source/how-to-understand-wine-reviews.md"
     },
     {
+      "slug": "how-vibration-affects-wine-storage",
+      "route": "/how-vibration-affects-wine-storage/",
+      "title": "How vibration affects wine storage",
+      "description": "Does vibration damage wine? Learn what sustained movement may do during long-term storage, how it differs from transport, and which storage risks matter most in Australian homes.",
+      "section": "fundamentals",
+      "source": "article-source/how-vibration-affects-wine-storage.md"
+    },
+    {
       "slug": "how-wine-is-made",
       "route": "/how-wine-is-made/",
       "title": "How Wine Is Made: From Grapes to the Finished Bottle",
@@ -2354,12 +2962,36 @@
       "source": "article-source/how-wine-is-made.md"
     },
     {
+      "slug": "how-wine-judging-works",
+      "route": "/how-wine-judging-works/",
+      "title": "How wine judging works",
+      "description": "Understand how formal wine judging works, from classes and blind tasting to panel discussion, scores, medals and trophies, with Australian wine-show context.",
+      "section": "fundamentals",
+      "source": "article-source/how-wine-judging-works.md"
+    },
+    {
+      "slug": "how-wine-medals-work",
+      "route": "/how-wine-medals-work/",
+      "title": "How wine medals work",
+      "description": "Understand what wine medals mean, how competitions award them and how Australian shoppers can interpret medals without treating them as universal proof of quality.",
+      "section": "fundamentals",
+      "source": "article-source/how-wine-medals-work.md"
+    },
+    {
       "slug": "how-wine-pairing-works",
       "route": "/how-wine-pairing-works/",
       "title": "How Wine Pairing Works: A Simple Guide to Choosing Wine with Food",
       "description": "Learn how wine pairing works by matching intensity, acidity, sweetness, tannin and texture with the food on your plate, plus a simple method for choosing wine.",
       "section": "fundamentals",
       "source": "article-source/how-wine-pairing-works.md"
+    },
+    {
+      "slug": "how-wine-subscriptions-work",
+      "route": "/how-wine-subscriptions-work/",
+      "title": "How wine subscriptions work",
+      "description": "Understand how wine subscriptions work in Australia, including plan types, recurring charges, delivery, cancellation, consumer rights and the costs to compare.",
+      "section": "fundamentals",
+      "source": "article-source/how-wine-subscriptions-work.md"
     },
     {
       "slug": "howell-mountain-ava",
@@ -2408,6 +3040,14 @@
       "description": "Learn how Icewine is made from naturally frozen grapes, why pressing frozen fruit concentrates the juice, and how the process differs from other sweet-wine methods.",
       "section": "winemaking",
       "source": "article-source/icewine-production.md"
+    },
+    {
+      "slug": "is-expensive-wine-worth-it",
+      "route": "/is-expensive-wine-worth-it/",
+      "title": "Is expensive wine worth it?",
+      "description": "Expensive wine is not automatically better. Learn what higher prices may reflect, when a premium can be worthwhile and how Australian drinkers can judge value.",
+      "section": "fundamentals",
+      "source": "article-source/is-expensive-wine-worth-it.md"
     },
     {
       "slug": "italian-doc-and-docg",
@@ -2602,6 +3242,14 @@
       "source": "article-source/limestone-coast-zone.md"
     },
     {
+      "slug": "limited-release-wine-explained",
+      "route": "/limited-release-wine-explained/",
+      "title": "Limited-release wine explained",
+      "description": "What does “limited release” mean on a wine label or offer? Learn how quantity, timing, distribution and allocations affect availability—and what scarcity does not prove.",
+      "section": "fundamentals",
+      "source": "article-source/limited-release-wine-explained.md"
+    },
+    {
       "slug": "lirac",
       "route": "/lirac/",
       "title": "Lirac: A Beginner’s Guide to This Rhône Wine Appellation",
@@ -2736,6 +3384,14 @@
       "description": "Malbec and Cabernet Sauvignon compared: learn how their fruit, tannin, body, acidity and Australian expressions commonly differ.",
       "section": "grapes",
       "source": "article-source/malbec-vs-cabernet-sauvignon.md"
+    },
+    {
+      "slug": "malbec-vs-shiraz",
+      "route": "/malbec-vs-shiraz/",
+      "title": "Malbec vs Shiraz: What’s the Difference?",
+      "description": "Malbec and Shiraz are different red grape varieties. Learn how their typical flavours, structure, Australian styles, labels and food pairings compare.",
+      "section": "grapes",
+      "source": "article-source/malbec-vs-shiraz.md"
     },
     {
       "slug": "manjimup-wine-region",
@@ -2896,6 +3552,14 @@
       "description": "Mercurey is a named wine appellation in Burgundy’s Côte Chalonnaise, in eastern France. It is best known for still red wines made principally from Pinot…",
       "section": "regions",
       "source": "article-source/mercurey.md"
+    },
+    {
+      "slug": "merlot-vs-pinot-noir",
+      "route": "/merlot-vs-pinot-noir/",
+      "title": "Merlot vs Pinot Noir",
+      "description": "Understand the typical differences between Merlot and Pinot Noir, including body, acidity, tannin, flavour, Australian regional context and practical choosing tips.",
+      "section": "grapes",
+      "source": "article-source/merlot-vs-pinot-noir.md"
     },
     {
       "slug": "micro-oxygenation",
@@ -3184,6 +3848,14 @@
       "description": "Learn where Nebbiolo is grown in Australia, why it is challenging, how Australian styles vary and how they differ from Barolo and Barbaresco.",
       "section": "regions",
       "source": "article-source/nebbiolo-in-australia.md"
+    },
+    {
+      "slug": "nebbiolo-vs-pinot-noir",
+      "route": "/nebbiolo-vs-pinot-noir/",
+      "title": "Nebbiolo vs Pinot Noir: What’s the Difference?",
+      "description": "Nebbiolo is usually firmer and more tannic, while Pinot Noir is generally more delicate, perfumed and supple. Learn how structure, aroma, Australian region and food pairing shape the comparison.",
+      "section": "grapes",
+      "source": "article-source/nebbiolo-vs-pinot-noir.md"
     },
     {
       "slug": "nebbiolo-vs-sangiovese",
@@ -3690,6 +4362,14 @@
       "source": "article-source/priorat-classifications.md"
     },
     {
+      "slug": "private-label-wine-explained",
+      "route": "/private-label-wine-explained/",
+      "title": "Private-label wine explained",
+      "description": "Private-label wine explained in plain English: who may control the brand, who may make or supply the wine, and how Australian buyers can read the label.",
+      "section": "fundamentals",
+      "source": "article-source/private-label-wine-explained.md"
+    },
+    {
       "slug": "prosecco",
       "route": "/prosecco/",
       "title": "What Is Prosecco? A Beginner’s Guide",
@@ -3704,6 +4384,14 @@
       "description": "DOC and DOCG are Italian designations that connect a qualifying wine with a defined place and a set of production rules.",
       "section": "regions",
       "source": "article-source/prosecco-doc-and-docg.md"
+    },
+    {
+      "slug": "prosecco-vs-pet-nat",
+      "route": "/prosecco-vs-pet-nat/",
+      "title": "Prosecco vs pét-nat: what’s the difference?",
+      "description": "Prosecco and pét-nat are not the same thing. Learn how their origins, grapes, fermentation methods, sweetness, bubbles and sediment can differ.",
+      "section": "grapes",
+      "source": "article-source/prosecco-vs-pet-nat.md"
     },
     {
       "slug": "protected-wine-names",
@@ -5162,6 +5850,30 @@
       "source": "article-source/western-victoria-zone.md"
     },
     {
+      "slug": "what-a-sommelier-does",
+      "route": "/what-a-sommelier-does/",
+      "title": "What does a sommelier do?",
+      "description": "Learn what a sommelier does in Australian restaurants and beyond, from wine advice and service to wine-list management, food matching and staff education.",
+      "section": "fundamentals",
+      "source": "article-source/what-a-sommelier-does.md"
+    },
+    {
+      "slug": "what-a-viticulturist-does",
+      "route": "/what-a-viticulturist-does/",
+      "title": "What does a viticulturist do?",
+      "description": "Discover what a viticulturist does, how vineyard work differs from winemaking, and how Australian conditions shape grape growing.",
+      "section": "fundamentals",
+      "source": "article-source/what-a-viticulturist-does.md"
+    },
+    {
+      "slug": "what-a-winemaker-does",
+      "route": "/what-a-winemaker-does/",
+      "title": "What does a winemaker do?",
+      "description": "A clear Australian guide to what winemakers do, from assessing grapes and managing fermentation to maturation, blending and bottling.",
+      "section": "fundamentals",
+      "source": "article-source/what-a-winemaker-does.md"
+    },
+    {
       "slug": "what-are-tannins",
       "route": "/what-are-tannins/",
       "title": "What Are Tannins in Wine?",
@@ -5176,6 +5888,150 @@
       "description": "Wine grape clones are selected vine lines within a grape variety. Learn how clones differ from varieties and rootstocks, why growers use them and what they can—and cannot—tell you about wine style.",
       "section": "winemaking",
       "source": "article-source/what-are-wine-grape-clones.md"
+    },
+    {
+      "slug": "what-causes-banana-aromas-in-wine",
+      "route": "/what-causes-banana-aromas-in-wine/",
+      "title": "What causes banana aromas in wine?",
+      "description": "Banana aromas in wine are commonly linked to isoamyl acetate, a fermentation-derived compound produced by yeast. Learn how fermentation affects the aroma and why it does not necessarily mean sweetness or a wine fault.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-banana-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-buttery-flavours-in-wine",
+      "route": "/what-causes-buttery-flavours-in-wine/",
+      "title": "What causes buttery flavours in wine?",
+      "description": "Buttery wine is most commonly linked to diacetyl produced during malolactic fermentation. Learn how MLF, oak, lees and wine style shape the flavour.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-buttery-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-causes-earthy-flavours-in-wine",
+      "route": "/what-causes-earthy-flavours-in-wine/",
+      "title": "What causes earthy flavours in wine?",
+      "description": "Earthy wine flavours can come from development, fermentation, grape condition or taint-related compounds. Learn how to describe them without confusing complexity with a fault.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-earthy-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-causes-eucalyptus-aromas-in-wine",
+      "route": "/what-causes-eucalyptus-aromas-in-wine/",
+      "title": "What causes eucalyptus aromas in wine?",
+      "description": "Discover why wine can smell of eucalyptus, how 1,8-cineole contributes, and why nearby trees, grape chemistry and fermentation do not provide one universal answer.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-eucalyptus-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-green-flavours-in-wine",
+      "route": "/what-causes-green-flavours-in-wine/",
+      "title": "What causes green flavours in wine?",
+      "description": "Green flavours in wine can come from methoxypyrazines, grape maturity, growing conditions, stems and winemaking choices. Learn how to interpret herbal, leafy and capsicum notes without assuming they are faults.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-green-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-causes-leather-aromas-in-wine",
+      "route": "/what-causes-leather-aromas-in-wine/",
+      "title": "What causes leather aromas in wine?",
+      "description": "Leather aromas in wine can reflect development, sensory context or Brettanomyces. Learn how to interpret leathery, savoury and barnyard notes without mistaking one descriptor for a diagnosis.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-leather-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-mint-aromas-in-wine",
+      "route": "/what-causes-mint-aromas-in-wine/",
+      "title": "What causes mint aromas in wine?",
+      "description": "Mint aromas in wine can come from several compounds and influences. Learn how eucalyptol, wine matrix, temperature and sensory perception shape minty, herbal and eucalyptus-like aromas.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-mint-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-pepper-aromas-in-wine",
+      "route": "/what-causes-pepper-aromas-in-wine/",
+      "title": "What causes pepper aromas in wine?",
+      "description": "Discover why some wines smell of black or white pepper, how rotundone, grape variety, vineyard conditions and winemaking contribute, and why tasters perceive it differently.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-pepper-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-petrol-aromas-in-riesling",
+      "route": "/what-causes-petrol-aromas-in-riesling/",
+      "title": "What causes petrol aromas in Riesling?",
+      "description": "Discover why some Rieslings smell of petrol or kerosene, how TDN develops from grape-derived precursors, and why the aroma is not automatically a wine fault.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-petrol-aromas-in-riesling.md"
+    },
+    {
+      "slug": "what-causes-savoury-flavours-in-wine",
+      "route": "/what-causes-savoury-flavours-in-wine/",
+      "title": "What causes savoury flavours in wine?",
+      "description": "Savoury flavours in wine can come from grapes, fermentation, maturation, bottle age and perception. Learn how to recognise savoury character and distinguish it from faults.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-savoury-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-causes-smoky-flavours-in-wine",
+      "route": "/what-causes-smoky-flavours-in-wine/",
+      "title": "What causes smoky flavours in wine?",
+      "description": "Smoky flavours in wine can come from smoke exposure, toasted oak or neighbouring aromas. Learn how to distinguish smoke taint from oak character without relying on one descriptor.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-smoky-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-causes-tropical-fruit-aromas-in-wine",
+      "route": "/what-causes-tropical-fruit-aromas-in-wine/",
+      "title": "What causes tropical fruit aromas in wine?",
+      "description": "Learn why some wines smell like passionfruit, pineapple or mango, and how grape variety, yeast and fermentation influence tropical fruit aromas.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-tropical-fruit-aromas-in-wine.md"
+    },
+    {
+      "slug": "what-causes-vanilla-flavours-in-wine",
+      "route": "/what-causes-vanilla-flavours-in-wine/",
+      "title": "What causes vanilla flavours in wine?",
+      "description": "Discover why wine can smell or taste of vanilla, how oak and vanillin contribute, and why vanilla does not necessarily mean sweetness or added flavouring.",
+      "section": "fundamentals",
+      "source": "article-source/what-causes-vanilla-flavours-in-wine.md"
+    },
+    {
+      "slug": "what-does-closed-wine-mean",
+      "route": "/what-does-closed-wine-mean/",
+      "title": "What does closed wine mean?",
+      "description": "Learn what “closed wine” means, how it may taste, how it differs from faults and what to try before deciding a bottle is not showing well.",
+      "section": "fundamentals",
+      "source": "article-source/what-does-closed-wine-mean.md"
+    },
+    {
+      "slug": "what-does-corked-wine-smell-like",
+      "route": "/what-does-corked-wine-smell-like/",
+      "title": "What does corked wine smell like?",
+      "description": "Corked wine commonly smells musty, mouldy or like damp cardboard. Learn how cork taint differs from ordinary cork, oxidation and reduction, and what to do with a suspected faulty bottle.",
+      "section": "fundamentals",
+      "source": "article-source/what-does-corked-wine-smell-like.md"
+    },
+    {
+      "slug": "what-does-flabby-wine-mean",
+      "route": "/what-does-flabby-wine-mean/",
+      "title": "What does flabby wine mean?",
+      "description": "Learn what “flabby” means in a wine tasting note, how acidity and balance shape the impression, and why it differs from soft, sweet, full-bodied or faulty.",
+      "section": "fundamentals",
+      "source": "article-source/what-does-flabby-wine-mean.md"
+    },
+    {
+      "slug": "what-does-hot-wine-mean",
+      "route": "/what-does-hot-wine-mean/",
+      "title": "What does “hot” mean when describing wine?",
+      "description": "Learn what “hot” means in wine tasting, why alcohol can create a warming sensation, and why hotness is different from serving temperature or a wine fault.",
+      "section": "fundamentals",
+      "source": "article-source/what-does-hot-wine-mean.md"
+    },
+    {
+      "slug": "what-does-jammy-wine-mean",
+      "route": "/what-does-jammy-wine-mean/",
+      "title": "What does jammy wine mean?",
+      "description": "“Jammy” describes ripe, preserve-like fruit character in wine—not necessarily sweetness. Learn how to interpret the term in tasting notes, including Australian Shiraz context.",
+      "section": "fundamentals",
+      "source": "article-source/what-does-jammy-wine-mean.md"
     },
     {
       "slug": "what-does-oak-do-to-wine",
@@ -5194,12 +6050,76 @@
       "source": "article-source/what-does-yeast-do-in-wine.md"
     },
     {
+      "slug": "what-estate-bottled-means",
+      "route": "/what-estate-bottled-means/",
+      "title": "What does estate bottled mean?",
+      "description": "Learn what “estate bottled” means on a wine label, how the term differs between the United States and Australia, and what it does—and does not—tell you about provenance.",
+      "section": "winemaking",
+      "source": "article-source/what-estate-bottled-means.md"
+    },
+    {
+      "slug": "what-is-a-solera-system",
+      "route": "/what-is-a-solera-system/",
+      "title": "What is a solera system?",
+      "description": "A plain-language guide to solera ageing: how wine moves through criaderas, why producers use the system, and what “solera” does—and does not—tell you about age.",
+      "section": "winemaking",
+      "source": "article-source/what-is-a-solera-system.md"
+    },
+    {
+      "slug": "what-is-acidification-in-wine",
+      "route": "/what-is-acidification-in-wine/",
+      "title": "What is acidification in wine?",
+      "description": "Acidification is the controlled addition of acid to grape juice, must or wine. Learn why winemakers use it, how pH differs from titratable acidity, and how it differs from malolactic fermentation and deacidification.",
+      "section": "winemaking",
+      "source": "article-source/what-is-acidification-in-wine.md"
+    },
+    {
       "slug": "what-is-acidity-in-wine",
       "route": "/what-is-acidity-in-wine/",
       "title": "What Is Acidity in Wine? How It Affects Taste",
       "description": "Learn what acidity in wine tastes like, how it differs from pH, sweetness and tannin, and how variety, climate and winemaking shape freshness and balance.",
       "section": "fundamentals",
       "source": "article-source/what-is-acidity-in-wine.md"
+    },
+    {
+      "slug": "what-is-aglianico",
+      "route": "/what-is-aglianico/",
+      "title": "What is Aglianico?",
+      "description": "A beginner-friendly guide to Aglianico: the southern Italian red grape, its tannin and acidity, Taurasi and Aglianico del Vulture, Australian examples and food pairing.",
+      "section": "grapes",
+      "source": "article-source/what-is-aglianico.md"
+    },
+    {
+      "slug": "what-is-alicante-bouschet",
+      "route": "/what-is-alicante-bouschet/",
+      "title": "What is Alicante Bouschet?",
+      "description": "Discover what Alicante Bouschet is, why it is known as a teinturier grape, what styles it can produce and where it is grown in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-alicante-bouschet.md"
+    },
+    {
+      "slug": "what-is-arinto",
+      "route": "/what-is-arinto/",
+      "title": "What is Arinto?",
+      "description": "Arinto is a Portuguese white wine grape known for high acidity, freshness and citrus-like character. Learn where it is used and how its wines can vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-arinto.md"
+    },
+    {
+      "slug": "what-is-autolysis-in-sparkling-wine",
+      "route": "/what-is-autolysis-in-sparkling-wine/",
+      "title": "What is autolysis in sparkling wine?",
+      "description": "Autolysis is the gradual breakdown of spent yeast cells during lees ageing. Learn how it shapes sparkling wine’s aroma, texture and foam, and why more time on lees does not guarantee one flavour.",
+      "section": "winemaking",
+      "source": "article-source/what-is-autolysis-in-sparkling-wine.md"
+    },
+    {
+      "slug": "what-is-baga",
+      "route": "/what-is-baga/",
+      "title": "What is Baga?",
+      "description": "Baga is a Portuguese red wine grape best known from Bairrada. Learn where it grows, how Baga wines can taste and how to recognise the name on a label.",
+      "section": "grapes",
+      "source": "article-source/what-is-baga.md"
     },
     {
       "slug": "what-is-balance-in-wine",
@@ -5218,6 +6138,46 @@
       "source": "article-source/what-is-biodynamic-wine.md"
     },
     {
+      "slug": "what-is-blaufrankisch",
+      "route": "/what-is-blaufrankisch/",
+      "title": "What is Blaufränkisch?",
+      "description": "Blaufränkisch is a Central European red grape variety known for berry fruit, fresh acidity, spice and tannin. Learn its names, style and Australian label context.",
+      "section": "grapes",
+      "source": "article-source/what-is-blaufrankisch.md"
+    },
+    {
+      "slug": "what-is-bonarda",
+      "route": "/what-is-bonarda/",
+      "title": "What is Bonarda?",
+      "description": "Bonarda is usually Argentina’s name for Corbeau, a dark-fruited red grape with a useful freshness. Learn how its identity, style, regions and label meaning vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-bonarda.md"
+    },
+    {
+      "slug": "what-is-botrytis-in-wine-grapes",
+      "route": "/what-is-botrytis-in-wine-grapes/",
+      "title": "What is botrytis in wine grapes?",
+      "description": "Botrytis in wine grapes can cause damaging grey mould or, under particular drying conditions, desirable noble rot. Learn how *Botrytis cinerea* affects grapes and wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-botrytis-in-wine-grapes.md"
+    },
+    {
+      "slug": "what-is-bourboulenc",
+      "route": "/what-is-bourboulenc/",
+      "title": "What is Bourboulenc?",
+      "description": "Bourboulenc is an old southern French white wine grape that can bring freshness, acidity, floral and fruit character to varietal wines and blends. Learn where it is used, how it may taste and how Australian drinkers might encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-bourboulenc.md"
+    },
+    {
+      "slug": "what-is-brachetto",
+      "route": "/what-is-brachetto/",
+      "title": "What is Brachetto?",
+      "description": "Brachetto is an aromatic Italian grape best known for sweet, fragrant wines from Piemonte. Learn how the grape differs from Brachetto d’Acqui DOCG, what styles to expect and how to serve it.",
+      "section": "grapes",
+      "source": "article-source/what-is-brachetto.md"
+    },
+    {
       "slug": "what-is-brettanomyces",
       "route": "/what-is-brettanomyces/",
       "title": "What Is Brettanomyces in Wine?",
@@ -5232,6 +6192,38 @@
       "description": "Cabernet Sauvignon is a structured red grape known for dark fruit, acidity and firm tannin. Learn how its style varies and where it thrives in Australia.",
       "section": "grapes",
       "source": "article-source/what-is-cabernet-sauvignon.md"
+    },
+    {
+      "slug": "what-is-canopy-management",
+      "route": "/what-is-canopy-management/",
+      "title": "What is canopy management?",
+      "description": "A plain-English guide to canopy management: what it means, why growers manage vine growth, the main techniques, Australian conditions and the trade-offs between dense and exposed canopies.",
+      "section": "winemaking",
+      "source": "article-source/what-is-canopy-management.md"
+    },
+    {
+      "slug": "what-is-carricante",
+      "route": "/what-is-carricante/",
+      "title": "What is Carricante?",
+      "description": "Carricante is a Sicilian white grape best known for Etna wines. Learn about its acidity, flavours, label terms, food matches and emerging Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-carricante.md"
+    },
+    {
+      "slug": "what-is-catarratto",
+      "route": "/what-is-catarratto/",
+      "title": "What is Catarratto?",
+      "description": "Catarratto is a Sicilian white wine grape that can make fresh, dry whites or fuller blends. Learn what the name means, how the style varies and how Australians may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-catarratto.md"
+    },
+    {
+      "slug": "what-is-cesanese",
+      "route": "/what-is-cesanese/",
+      "title": "What is Cesanese?",
+      "description": "Cesanese is a Lazio-associated Italian red-grape family. Learn what the name means, how Cesanese varieties differ, what the wines can taste like and how to approach a bottle in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-cesanese.md"
     },
     {
       "slug": "what-is-chardonnay",
@@ -5266,12 +6258,124 @@
       "source": "article-source/what-is-cork-taint.md"
     },
     {
+      "slug": "what-is-cortese",
+      "route": "/what-is-cortese/",
+      "title": "What is Cortese?",
+      "description": "Cortese is a white Italian grape best known in Piedmont’s Gavi area. Learn how Cortese tastes and why not every Cortese wine is Gavi.",
+      "section": "grapes",
+      "source": "article-source/what-is-cortese.md"
+    },
+    {
+      "slug": "what-is-counoise",
+      "route": "/what-is-counoise/",
+      "title": "What is Counoise?",
+      "description": "Counoise is a southern Rhône red-wine grape best known for adding freshness, fruit and spice to blends. Learn its style, uses and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-counoise.md"
+    },
+    {
+      "slug": "what-is-cover-cropping-in-vineyards",
+      "route": "/what-is-cover-cropping-in-vineyards/",
+      "title": "What is cover cropping in vineyards?",
+      "description": "Cover cropping means growing or managing plants around grapevines. Learn why vineyards use it, its benefits and trade-offs, and why Australian conditions matter.",
+      "section": "winemaking",
+      "source": "article-source/what-is-cover-cropping-in-vineyards.md"
+    },
+    {
+      "slug": "what-is-crop-thinning",
+      "route": "/what-is-crop-thinning/",
+      "title": "What is crop thinning?",
+      "description": "Crop thinning is the deliberate removal of grape bunches or other fruit-bearing material to manage crop load. Learn why timing, vine balance and Australian vineyard conditions matter—and why it does not guarantee better wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-crop-thinning.md"
+    },
+    {
+      "slug": "what-is-deacidification-in-wine",
+      "route": "/what-is-deacidification-in-wine/",
+      "title": "What is deacidification in wine?",
+      "description": "Deacidification is the controlled reduction of excessive acidity in wine. Learn how biological conversion, blending and technical treatments can change a wine’s acid balance, and why pH is not the same as titratable acidity.",
+      "section": "winemaking",
+      "source": "article-source/what-is-deacidification-in-wine.md"
+    },
+    {
+      "slug": "what-is-delestage",
+      "route": "/what-is-delestage/",
+      "title": "What is délestage?",
+      "description": "Délestage, also called rack-and-return, separates fermenting red-wine juice from grape solids before returning it over the cap. Learn how it differs from pump-overs and punch-downs.",
+      "section": "winemaking",
+      "source": "article-source/what-is-delestage.md"
+    },
+    {
+      "slug": "what-is-disgorgement-in-sparkling-wine",
+      "route": "/what-is-disgorgement-in-sparkling-wine/",
+      "title": "What is disgorgement in sparkling wine?",
+      "description": "Disgorgement is the removal of sediment from a sparkling-wine bottle after traditional-method secondary fermentation and lees ageing. Learn how it differs from riddling and dosage.",
+      "section": "winemaking",
+      "source": "article-source/what-is-disgorgement-in-sparkling-wine.md"
+    },
+    {
+      "slug": "what-is-dosage-in-sparkling-wine",
+      "route": "/what-is-dosage-in-sparkling-wine/",
+      "title": "What is dosage in sparkling wine?",
+      "description": "Dosage is the finishing addition made to sparkling wine after disgorgement. Learn what it contains, how it affects sweetness and balance, and why it is not a quality scale.",
+      "section": "winemaking",
+      "source": "article-source/what-is-dosage-in-sparkling-wine.md"
+    },
+    {
+      "slug": "what-is-dry-farming-in-vineyards",
+      "route": "/what-is-dry-farming-in-vineyards/",
+      "title": "What is dry farming in vineyards?",
+      "description": "Dry farming means growing grapevines without routine irrigation. Learn how rainfall, soil moisture and site conditions affect vines, grapes and Australian vineyards.",
+      "section": "winemaking",
+      "source": "article-source/what-is-dry-farming-in-vineyards.md"
+    },
+    {
+      "slug": "what-is-duras",
+      "route": "/what-is-duras/",
+      "title": "What is Duras?",
+      "description": "Duras is a red grape from south-west France, best known in Gaillac. Learn about its peppery, fresh style—and why it is not the same as Durif.",
+      "section": "grapes",
+      "source": "article-source/what-is-duras.md"
+    },
+    {
+      "slug": "what-is-encruzado",
+      "route": "/what-is-encruzado/",
+      "title": "What is Encruzado?",
+      "description": "Encruzado is a Portuguese white wine grape, especially associated with Dão. Learn how its wines can combine freshness, acidity, body and texture, and why styles vary.",
+      "section": "grapes",
+      "source": "article-source/what-is-encruzado.md"
+    },
+    {
+      "slug": "what-is-falanghina",
+      "route": "/what-is-falanghina/",
+      "title": "What is Falanghina?",
+      "description": "Falanghina is a southern Italian white grape associated with Campania. Learn its typical flavours, styles, serving temperature and food-pairing starting points.",
+      "section": "grapes",
+      "source": "article-source/what-is-falanghina.md"
+    },
+    {
+      "slug": "what-is-fer-servadou",
+      "route": "/what-is-fer-servadou/",
+      "title": "What is Fer Servadou?",
+      "description": "Fer Servadou is a south-west French red wine grape known also as Fer N, Braucol and Mansois. Learn where it grows, how its wines taste and how to recognise the name.",
+      "section": "grapes",
+      "source": "article-source/what-is-fer-servadou.md"
+    },
+    {
       "slug": "what-is-fermentation",
       "route": "/what-is-fermentation/",
       "title": "What Is Fermentation in Wine?",
       "description": "Fermentation is the process in which yeast converts grape sugar into alcohol, carbon dioxide and flavour compounds. Learn how it shapes wine.",
       "section": "winemaking",
       "source": "article-source/what-is-fermentation.md"
+    },
+    {
+      "slug": "what-is-flor-ageing",
+      "route": "/what-is-flor-ageing/",
+      "title": "What is flor ageing?",
+      "description": "Flor ageing is wine matured beneath a living film of yeast. Learn how flor works, how it changes wine and why it is associated with Fino and Manzanilla.",
+      "section": "winemaking",
+      "source": "article-source/what-is-flor-ageing.md"
     },
     {
       "slug": "what-is-fortified-wine",
@@ -5282,12 +6386,164 @@
       "source": "article-source/what-is-fortified-wine.md"
     },
     {
+      "slug": "what-is-fractional-blending",
+      "route": "/what-is-fractional-blending/",
+      "title": "What is fractional blending?",
+      "description": "Fractional blending repeatedly removes part of a wine and replaces it with younger or different wine. Learn how it works, why producers use it and how it differs from ordinary blending and solera ageing.",
+      "section": "winemaking",
+      "source": "article-source/what-is-fractional-blending.md"
+    },
+    {
+      "slug": "what-is-frappato",
+      "route": "/what-is-frappato/",
+      "title": "What is Frappato?",
+      "description": "Frappato is a Sicilian red grape variety known for fragrant, fresh and relatively gentle red wines. Learn how it relates to Cerasuolo di Vittoria and Nero d’Avola.",
+      "section": "grapes",
+      "source": "article-source/what-is-frappato.md"
+    },
+    {
+      "slug": "what-is-free-run-juice",
+      "route": "/what-is-free-run-juice/",
+      "title": "What is free-run juice?",
+      "description": "Free-run juice is the grape juice that drains naturally before stronger pressing. Learn how it differs from press juice and why wineries may separate or blend the fractions.",
+      "section": "winemaking",
+      "source": "article-source/what-is-free-run-juice.md"
+    },
+    {
+      "slug": "what-is-godello",
+      "route": "/what-is-godello/",
+      "title": "What is Godello?",
+      "description": "Godello is a white grape variety from north-west Spain, especially associated with Galicia’s Valdeorras appellation. Learn about its typical style, regional identity and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-godello.md"
+    },
+    {
+      "slug": "what-is-grape-must",
+      "route": "/what-is-grape-must/",
+      "title": "What is grape must?",
+      "description": "Grape must is the grape material that becomes wine. Learn how must differs from juice and wine, what it can contain, and why skins, seeds and fermentation matter.",
+      "section": "winemaking",
+      "source": "article-source/what-is-grape-must.md"
+    },
+    {
+      "slug": "what-is-greco",
+      "route": "/what-is-greco/",
+      "title": "What is Greco?",
+      "description": "Greco is a white Italian wine grape associated with Campania and Greco di Tufo. Learn the difference between the grape, the appellation and similar names.",
+      "section": "grapes",
+      "source": "article-source/what-is-greco.md"
+    },
+    {
+      "slug": "what-is-green-harvesting",
+      "route": "/what-is-green-harvesting/",
+      "title": "What is green harvesting?",
+      "description": "Green harvesting is the deliberate removal of immature grape bunches before harvest. Learn why growers use it, when it happens and why it does not guarantee better wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-green-harvesting.md"
+    },
+    {
       "slug": "what-is-grenache",
       "route": "/what-is-grenache/",
       "title": "What Is Grenache?",
       "description": "Grenache is a versatile red grape known for red fruit, spice and warmth. Learn about its Australian styles, blends and growing regions.",
       "section": "grapes",
       "source": "article-source/what-is-grenache.md"
+    },
+    {
+      "slug": "what-is-grillo",
+      "route": "/what-is-grillo/",
+      "title": "What is Grillo?",
+      "description": "Grillo is an Italian white wine grape strongly associated with Sicily. Learn what Grillo tastes like, how its style varies and how to read the label.",
+      "section": "grapes",
+      "source": "article-source/what-is-grillo.md"
+    },
+    {
+      "slug": "what-is-heat-damage-in-wine",
+      "route": "/what-is-heat-damage-in-wine/",
+      "title": "What is heat damage in wine?",
+      "description": "Heat damage in wine explained: how excessive heat affects freshness, aroma and ageing, how to recognise possible signs, and how Australians can protect bottles in hot conditions.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-heat-damage-in-wine.md"
+    },
+    {
+      "slug": "what-is-hondarrabi-zuri",
+      "route": "/what-is-hondarrabi-zuri/",
+      "title": "What is Hondarrabi Zuri?",
+      "description": "Hondarrabi Zuri is a Basque white wine grape best known through Txakoli. Learn how the grape, regional wine names and protected designations differ, plus what to expect in the glass.",
+      "section": "grapes",
+      "source": "article-source/what-is-hondarrabi-zuri.md"
+    },
+    {
+      "slug": "what-is-icewine",
+      "route": "/what-is-icewine/",
+      "title": "What is icewine?",
+      "description": "Icewine is a sweet wine made from grapes that freeze naturally on the vine and are harvested and pressed while frozen. Learn how frozen pressing concentrates the juice and how icewine differs from other sweet wines.",
+      "section": "winemaking",
+      "source": "article-source/what-is-icewine.md"
+    },
+    {
+      "slug": "what-is-inzolia",
+      "route": "/what-is-inzolia/",
+      "title": "What is Inzolia?",
+      "description": "Inzolia is an Italian white wine grape associated with Sicily. Learn its other names, typical wine style, Australian context and how to serve it.",
+      "section": "grapes",
+      "source": "article-source/what-is-inzolia.md"
+    },
+    {
+      "slug": "what-is-irrigation-in-vineyards",
+      "route": "/what-is-irrigation-in-vineyards/",
+      "title": "What is irrigation in vineyards?",
+      "description": "Vineyard irrigation explained in plain English: why growers use it, how rainfall and soil moisture affect vines, and what irrigation can mean for grapes and wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-irrigation-in-vineyards.md"
+    },
+    {
+      "slug": "what-is-jacquere",
+      "route": "/what-is-jacquere/",
+      "title": "What is Jacquère?",
+      "description": "Jacquère is a white grape associated with Savoie in the French Alps, typically producing light, fresh, lively white wines.",
+      "section": "grapes",
+      "source": "article-source/what-is-jacquere.md"
+    },
+    {
+      "slug": "what-is-kerner",
+      "route": "/what-is-kerner/",
+      "title": "What is Kerner?",
+      "description": "Kerner is a German white wine grape related to Riesling. Learn how Kerner tastes, whether it is sweet, where it is grown and how it differs from Riesling.",
+      "section": "grapes",
+      "source": "article-source/what-is-kerner.md"
+    },
+    {
+      "slug": "what-is-late-harvest-wine",
+      "route": "/what-is-late-harvest-wine/",
+      "title": "What is late-harvest wine?",
+      "description": "Learn how late-harvest wine is made, why grapes are left on the vine longer, how this affects sweetness and flavour, and why it is different from Icewine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-late-harvest-wine.md"
+    },
+    {
+      "slug": "what-is-lightstrike-in-wine",
+      "route": "/what-is-lightstrike-in-wine/",
+      "title": "What is lightstrike in wine?",
+      "description": "Lightstrike is a light-induced wine fault that can dull fresh aromas and create sulphur-like smells. Learn how to recognise the risk and store wine safely.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-lightstrike-in-wine.md"
+    },
+    {
+      "slug": "what-is-listan-negro",
+      "route": "/what-is-listan-negro/",
+      "title": "What is Listán Negro?",
+      "description": "Learn what Listán Negro is, where it is grown, how its wines can taste and how to understand the grape name on a label.",
+      "section": "grapes",
+      "source": "article-source/what-is-listan-negro.md"
+    },
+    {
+      "slug": "what-is-loureiro",
+      "route": "/what-is-loureiro/",
+      "title": "What is Loureiro?",
+      "description": "Loureiro is a Portuguese white wine grape associated with Vinho Verde. Learn what Loureiro wines typically taste like, how the grape is used and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-loureiro.md"
     },
     {
       "slug": "what-is-malolactic-fermentation",
@@ -5298,12 +6554,60 @@
       "source": "article-source/what-is-malolactic-fermentation.md"
     },
     {
+      "slug": "what-is-malvasia",
+      "route": "/what-is-malvasia/",
+      "title": "What is Malvasia?",
+      "description": "Malvasia is a name used for several grape varieties and wine styles. Learn how dry, sweet and fortified Malvasia wines differ, and how to read the label.",
+      "section": "grapes",
+      "source": "article-source/what-is-malvasia.md"
+    },
+    {
+      "slug": "what-is-mavrodaphne",
+      "route": "/what-is-mavrodaphne/",
+      "title": "What is Mavrodaphne?",
+      "description": "Mavrodaphne is a Greek red grape best known for sweet, often fortified wines from Patras and Cephalonia. Learn how the name works on a wine label.",
+      "section": "grapes",
+      "source": "article-source/what-is-mavrodaphne.md"
+    },
+    {
+      "slug": "what-is-mazuelo",
+      "route": "/what-is-mazuelo/",
+      "title": "What is Mazuelo?",
+      "description": "Mazuelo is a red wine grape also known as Carignan. Learn where it comes from, how it tastes, why it is used in blends and what Australian drinkers may find on a label.",
+      "section": "grapes",
+      "source": "article-source/what-is-mazuelo.md"
+    },
+    {
       "slug": "what-is-merlot",
       "route": "/what-is-merlot/",
       "title": "What Is Merlot?",
       "description": "Merlot is a red grape known for plum and dark-fruit flavours, moderate tannin and a smooth texture. Learn how its styles vary.",
       "section": "grapes",
       "source": "article-source/what-is-merlot.md"
+    },
+    {
+      "slug": "what-is-mondeuse",
+      "route": "/what-is-mondeuse/",
+      "title": "What is Mondeuse?",
+      "description": "Mondeuse is a black-skinned French grape, usually Mondeuse noire, known for deeply coloured, aromatic red wines with lively acidity and firm tannin. Learn its naming history, style and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-mondeuse.md"
+    },
+    {
+      "slug": "what-is-monica",
+      "route": "/what-is-monica/",
+      "title": "What is Monica?",
+      "description": "Monica is a red wine grape associated with Sardinia. Learn what Monica N. tastes like, how it differs from Monica di Sardegna and how Australian readers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-monica.md"
+    },
+    {
+      "slug": "what-is-mouse-taint-in-wine",
+      "route": "/what-is-mouse-taint-in-wine/",
+      "title": "What is mouse taint in wine?",
+      "description": "Mouse taint is an unusual wine fault that may taste stale, savoury or cereal-like and often appears after swallowing. Learn how to recognise it and why it occurs.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-mouse-taint-in-wine.md"
     },
     {
       "slug": "what-is-natural-wine",
@@ -5322,6 +6626,38 @@
       "source": "article-source/what-is-nebbiolo.md"
     },
     {
+      "slug": "what-is-negroamaro",
+      "route": "/what-is-negroamaro/",
+      "title": "What is Negroamaro?",
+      "description": "Negroamaro is a dark-skinned Italian wine grape associated with Puglia and Salento. Learn what its wines taste like, how styles vary, what the label names mean and why Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-negroamaro.md"
+    },
+    {
+      "slug": "what-is-nerello-mascalese",
+      "route": "/what-is-nerello-mascalese/",
+      "title": "What is Nerello Mascalese?",
+      "description": "Nerello Mascalese is a Sicilian red grape best known from Mount Etna. Learn about its flavour, acidity, tannin, regional identity, food pairings and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-nerello-mascalese.md"
+    },
+    {
+      "slug": "what-is-noble-rot",
+      "route": "/what-is-noble-rot/",
+      "title": "What is noble rot?",
+      "description": "Noble rot is a beneficial form of *Botrytis cinerea* infection that concentrates ripe grapes. Learn how it differs from harmful rot, late harvest and Icewine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-noble-rot.md"
+    },
+    {
+      "slug": "what-is-nosiola",
+      "route": "/what-is-nosiola/",
+      "title": "What is Nosiola?",
+      "description": "Nosiola is a white wine grape associated with Trentino, Italy. Learn what dry Nosiola tastes like, how it differs from Vino Santo Trentino and where Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-nosiola.md"
+    },
+    {
       "slug": "what-is-organic-wine",
       "route": "/what-is-organic-wine/",
       "title": "What Is Organic Wine?",
@@ -5336,6 +6672,38 @@
       "description": "Learn how oxygen can help or harm wine, how oxidation tastes and smells, and when oxidative character is intentional rather than a fault.",
       "section": "fundamentals",
       "source": "article-source/what-is-oxidation-in-wine.md"
+    },
+    {
+      "slug": "what-is-pais",
+      "route": "/what-is-pais/",
+      "title": "What is País?",
+      "description": "País is a historic red wine grape associated with Chile. Learn about its identity, history, synonyms and the varied styles of wine it can produce.",
+      "section": "grapes",
+      "source": "article-source/what-is-pais.md"
+    },
+    {
+      "slug": "what-is-pallagrello-nero",
+      "route": "/what-is-pallagrello-nero/",
+      "title": "What is Pallagrello Nero?",
+      "description": "Pallagrello Nero is a Campanian red-wine grape associated with Caserta. Learn what it tastes like, how it differs from Pallagrello Bianco and what its name means on a label.",
+      "section": "grapes",
+      "source": "article-source/what-is-pallagrello-nero.md"
+    },
+    {
+      "slug": "what-is-pecorino-wine-grape",
+      "route": "/what-is-pecorino-wine-grape/",
+      "title": "What is Pecorino wine grape?",
+      "description": "Pecorino is an Italian white wine grape known for fresh acidity, texture and floral, fruit, spice and almond-like characters. Learn where it comes from, what it tastes like and how it is grown in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-pecorino-wine-grape.md"
+    },
+    {
+      "slug": "what-is-picolit",
+      "route": "/what-is-picolit/",
+      "title": "What is Picolit?",
+      "description": "Picolit is a white grape variety best known for concentrated, often sweet wines from Friuli. Learn about its identity, styles, flavours and small Australian presence.",
+      "section": "grapes",
+      "source": "article-source/what-is-picolit.md"
     },
     {
       "slug": "what-is-pinot-gris-pinot-grigio",
@@ -5354,12 +6722,84 @@
       "source": "article-source/what-is-pinot-noir.md"
     },
     {
+      "slug": "what-is-poulsard",
+      "route": "/what-is-poulsard/",
+      "title": "What is Poulsard?",
+      "description": "Poulsard is a Jura-associated red grape that often makes pale, fresh, red-fruited wines. Learn about Ploussard, colour, style and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-poulsard.md"
+    },
+    {
+      "slug": "what-is-press-wine",
+      "route": "/what-is-press-wine/",
+      "title": "What is press wine?",
+      "description": "Press wine is the liquid extracted from grape skins, seeds and other solids during pressing. Learn how it differs from free-run wine and how winemakers use it.",
+      "section": "winemaking",
+      "source": "article-source/what-is-press-wine.md"
+    },
+    {
+      "slug": "what-is-prie-blanc",
+      "route": "/what-is-prie-blanc/",
+      "title": "What is Prie Blanc?",
+      "description": "Prié blanc is a high-altitude white wine grape from Valle d’Aosta. Learn its names, regional identity, typical fresh style and how it may appear on labels.",
+      "section": "grapes",
+      "source": "article-source/what-is-prie-blanc.md"
+    },
+    {
+      "slug": "what-is-rabigato",
+      "route": "/what-is-rabigato/",
+      "title": "What is Rabigato?",
+      "description": "Rabigato is a Portuguese white wine grape especially associated with the Douro. Learn how it tastes, how it is used in blends and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-rabigato.md"
+    },
+    {
       "slug": "what-is-reduction-in-wine",
       "route": "/what-is-reduction-in-wine/",
       "title": "What Is Reduction in Wine? Smells, Causes and Whether Air Helps",
       "description": "Reduction in wine can smell like struck match, rubber or rotten egg. Learn what it means, when it may be stylistic, and whether opening the bottle can help.",
       "section": "fundamentals",
       "source": "article-source/what-is-reduction-in-wine.md"
+    },
+    {
+      "slug": "what-is-refermentation-in-bottled-wine",
+      "route": "/what-is-refermentation-in-bottled-wine/",
+      "title": "What is refermentation in bottled wine?",
+      "description": "Refermentation in bottled wine explained: how yeast, sugar and carbon dioxide create sparkling wine, and why renewed fermentation can be unintended in a still wine.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-refermentation-in-bottled-wine.md"
+    },
+    {
+      "slug": "what-is-refosco",
+      "route": "/what-is-refosco/",
+      "title": "What is Refosco?",
+      "description": "Refosco is a name associated with several dark-skinned grape varieties from north-eastern Italy. Learn why Refosco dal Peduncolo Rosso matters, what these wines may taste like and how to read the label.",
+      "section": "grapes",
+      "source": "article-source/what-is-refosco.md"
+    },
+    {
+      "slug": "what-is-reverse-osmosis-in-winemaking",
+      "route": "/what-is-reverse-osmosis-in-winemaking/",
+      "title": "What is reverse osmosis in winemaking?",
+      "description": "Reverse osmosis in winemaking explained in plain English: how pressure and a semipermeable membrane create permeate and retentate, and why wineries may use the process.",
+      "section": "winemaking",
+      "source": "article-source/what-is-reverse-osmosis-in-winemaking.md"
+    },
+    {
+      "slug": "what-is-ribolla-gialla",
+      "route": "/what-is-ribolla-gialla/",
+      "title": "What is Ribolla Gialla?",
+      "description": "Ribolla Gialla is a fresh, high-acid white grape from north-eastern Italy and nearby Slovenia. Learn its typical flavours, styles and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-ribolla-gialla.md"
+    },
+    {
+      "slug": "what-is-riddling-in-sparkling-wine",
+      "route": "/what-is-riddling-in-sparkling-wine/",
+      "title": "What is riddling in sparkling wine?",
+      "description": "Riddling is the process of gradually rotating and tilting a bottle so sparkling-wine sediment collects in the neck before disgorgement. Learn how it works and where it fits in traditional-method production.",
+      "section": "winemaking",
+      "source": "article-source/what-is-riddling-in-sparkling-wine.md"
     },
     {
       "slug": "what-is-riesling",
@@ -5370,12 +6810,52 @@
       "source": "article-source/what-is-riesling.md"
     },
     {
+      "slug": "what-is-roditis",
+      "route": "/what-is-roditis/",
+      "title": "What is Roditis?",
+      "description": "Roditis is a pink-skinned Greek wine grape usually made into fresh, dry white wine. Learn about its taste, style, names, origins and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-roditis.md"
+    },
+    {
+      "slug": "what-is-romorantin",
+      "route": "/what-is-romorantin/",
+      "title": "What is Romorantin?",
+      "description": "Romorantin is a rare French white wine grape best known from the Loire Valley appellation of Cour-Cheverny. Learn its identity, style, history and Australian context.",
+      "section": "grapes",
+      "source": "article-source/what-is-romorantin.md"
+    },
+    {
       "slug": "what-is-rose",
       "route": "/what-is-rose/",
       "title": "What Is Rosé? A Beginner’s Guide to Pink Wine",
       "description": "Rosé is a wine style, not a single grape or sweetness level. Learn how it gets its colour and how to choose, serve and enjoy it.",
       "section": "fundamentals",
       "source": "article-source/what-is-rose.md"
+    },
+    {
+      "slug": "what-is-rossese",
+      "route": "/what-is-rossese/",
+      "title": "What is Rossese?",
+      "description": "Rossese is a wine-grape name associated especially with red wines from Liguria. Learn how Rossese differs from Rossese di Dolceacqua, what the wines can taste like and how to read the label.",
+      "section": "grapes",
+      "source": "article-source/what-is-rossese.md"
+    },
+    {
+      "slug": "what-is-rotgipfler",
+      "route": "/what-is-rotgipfler/",
+      "title": "What is Rotgipfler?",
+      "description": "Rotgipfler is an Austrian white wine grape associated with the Thermenregion. Learn what it tastes like, how it differs from Zierfandler and how to serve it.",
+      "section": "grapes",
+      "source": "article-source/what-is-rotgipfler.md"
+    },
+    {
+      "slug": "what-is-ruche",
+      "route": "/what-is-ruche/",
+      "title": "What is Ruchè?",
+      "description": "Ruchè is a Piedmont red grape known for dry, aromatic, medium-bodied wines. Learn the difference between the grape and Ruchè di Castagnole Monferrato DOCG.",
+      "section": "grapes",
+      "source": "article-source/what-is-ruche.md"
     },
     {
       "slug": "what-is-sangiovese",
@@ -5386,12 +6866,36 @@
       "source": "article-source/what-is-sangiovese.md"
     },
     {
+      "slug": "what-is-saperavi",
+      "route": "/what-is-saperavi/",
+      "title": "What is Saperavi?",
+      "description": "Saperavi is a Georgian red wine grape known for deeply coloured, structured wines. Learn what it tastes like, how it is made and why Australians may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-saperavi.md"
+    },
+    {
       "slug": "what-is-sauvignon-blanc",
       "route": "/what-is-sauvignon-blanc/",
       "title": "What Is Sauvignon Blanc? A Beginner’s Guide to Its Flavour and Style",
       "description": "Sauvignon Blanc is a fresh, aromatic white wine grape variety. Learn what it tastes like, whether it is sweet and how Australian styles vary.",
       "section": "grapes",
       "source": "article-source/what-is-sauvignon-blanc.md"
+    },
+    {
+      "slug": "what-is-schiava",
+      "route": "/what-is-schiava/",
+      "title": "What is Schiava?",
+      "description": "Schiava is a red grape best known in Alto Adige. Learn about its names, typical fresh and floral style, regional labels and what Australian drinkers may encounter.",
+      "section": "grapes",
+      "source": "article-source/what-is-schiava.md"
+    },
+    {
+      "slug": "what-is-sediment-in-wine",
+      "route": "/what-is-sediment-in-wine/",
+      "title": "What is sediment in wine?",
+      "description": "Sediment in wine is usually harmless solid material that settles during ageing or storage. Learn what causes it, how it differs from tartrate crystals and how to serve the bottle carefully.",
+      "section": "fundamentals",
+      "source": "article-source/what-is-sediment-in-wine.md"
     },
     {
       "slug": "what-is-shiraz",
@@ -5410,6 +6914,22 @@
       "source": "article-source/what-is-sparkling-wine.md"
     },
     {
+      "slug": "what-is-spinning-cone-technology",
+      "route": "/what-is-spinning-cone-technology/",
+      "title": "What is spinning cone technology?",
+      "description": "Spinning cone technology uses rotating cones, thin liquid films, gas flow and reduced pressure to manage wine aroma and alcohol. Learn how it works, where it is used and why the result can differ from the original wine.",
+      "section": "winemaking",
+      "source": "article-source/what-is-spinning-cone-technology.md"
+    },
+    {
+      "slug": "what-is-susumaniello",
+      "route": "/what-is-susumaniello/",
+      "title": "What is Susumaniello?",
+      "description": "Susumaniello is a dark-skinned Italian wine grape associated with Puglia, Brindisi and Salento. Learn what its red and rosé wines can taste like, how it is used in blends, and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-susumaniello.md"
+    },
+    {
       "slug": "what-is-sweet-wine",
       "route": "/what-is-sweet-wine/",
       "title": "What Is Sweet Wine? A Beginner’s Guide",
@@ -5426,6 +6946,14 @@
       "source": "article-source/what-is-sweetness-in-wine.md"
     },
     {
+      "slug": "what-is-sylvaner",
+      "route": "/what-is-sylvaner/",
+      "title": "What is Sylvaner?",
+      "description": "Sylvaner is a white wine grape known as Silvaner in Germany. Learn where it is grown, how it tastes, the styles it makes and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-sylvaner.md"
+    },
+    {
       "slug": "what-is-tempranillo",
       "route": "/what-is-tempranillo/",
       "title": "What Is Tempranillo?",
@@ -5434,12 +6962,92 @@
       "source": "article-source/what-is-tempranillo.md"
     },
     {
+      "slug": "what-is-teroldego",
+      "route": "/what-is-teroldego/",
+      "title": "What is Teroldego?",
+      "description": "Teroldego is a red grape from Trentino known for deeply coloured, fresh and structured wines. Learn its origins, style, Australian context and serving tips.",
+      "section": "grapes",
+      "source": "article-source/what-is-teroldego.md"
+    },
+    {
       "slug": "what-is-terroir",
       "route": "/what-is-terroir/",
       "title": "What Is Terroir?",
       "description": "Terroir describes how place, climate, site, soil, vine and people interact to shape wine. Learn what the term usefully means.",
       "section": "winemaking",
       "source": "article-source/what-is-terroir.md"
+    },
+    {
+      "slug": "what-is-timorasso",
+      "route": "/what-is-timorasso/",
+      "title": "What is Timorasso?",
+      "description": "Timorasso is an Italian white grape from Piedmont known for dry, textured wines with fresh acidity and the ability to develop savoury complexity with age. Learn what the grape is, what its label terms mean and where Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-timorasso.md"
+    },
+    {
+      "slug": "what-is-tinta-barroca",
+      "route": "/what-is-tinta-barroca/",
+      "title": "What is Tinta Barroca?",
+      "description": "Tinta Barroca is a Portuguese grape associated with the Douro. Learn how it is grown, what it contributes to Douro wines and Port blends, and what Australian drinkers may encounter.",
+      "section": "grapes",
+      "source": "article-source/what-is-tinta-barroca.md"
+    },
+    {
+      "slug": "what-is-tintilia",
+      "route": "/what-is-tintilia/",
+      "title": "What is Tintilia?",
+      "description": "Tintilia is an Italian red wine grape associated with Molise. Learn how Tintilia differs from Tintilia del Molise, what its wines can taste like and how the grape may appear in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-tintilia.md"
+    },
+    {
+      "slug": "what-is-tirage-in-sparkling-wine",
+      "route": "/what-is-tirage-in-sparkling-wine/",
+      "title": "What is tirage in sparkling wine?",
+      "description": "Tirage is the step that prepares traditional-method sparkling wine for its second fermentation. Learn how it differs from dosage and creates bottle-fermented bubbles.",
+      "section": "winemaking",
+      "source": "article-source/what-is-tirage-in-sparkling-wine.md"
+    },
+    {
+      "slug": "what-is-trepat",
+      "route": "/what-is-trepat/",
+      "title": "What is Trepat?",
+      "description": "Trepat is a Catalan red wine grape associated with Conca de Barberà and used for fresh reds, rosés and rosé Cava. Learn what it tastes like and how to read the label.",
+      "section": "grapes",
+      "source": "article-source/what-is-trepat.md"
+    },
+    {
+      "slug": "what-is-trousseau",
+      "route": "/what-is-trousseau/",
+      "title": "What is Trousseau?",
+      "description": "Trousseau is a red grape from eastern France, best known in the Jura and also encountered as Bastardo, Merenzao and Maturana Tinta. Learn what its wines taste like, why styles vary and where it appears in Australia.",
+      "section": "grapes",
+      "source": "article-source/what-is-trousseau.md"
+    },
+    {
+      "slug": "what-is-verdejo",
+      "route": "/what-is-verdejo/",
+      "title": "What is Verdejo?",
+      "description": "Verdejo is a Spanish white wine grape best known for fresh, aromatic wines from Rueda. Learn what Verdejo tastes like, how it differs from Rueda and how to serve it.",
+      "section": "grapes",
+      "source": "article-source/what-is-verdejo.md"
+    },
+    {
+      "slug": "what-is-vine-yield",
+      "route": "/what-is-vine-yield/",
+      "title": "What is vine yield?",
+      "description": "Vine yield is the amount of grapes produced by a vine or vineyard area. Learn how kg/vine, tonnes per hectare, crop load and vine balance differ—and why low yield is not automatically better.",
+      "section": "winemaking",
+      "source": "article-source/what-is-vine-yield.md"
+    },
+    {
+      "slug": "what-is-vinhao",
+      "route": "/what-is-vinhao/",
+      "title": "What is Vinhão?",
+      "description": "Vinhão is a dark-skinned Portuguese grape known for deeply coloured wines with fresh acidity and firm structure. Learn where it is grown, how it tastes and why it may appear as Sousão.",
+      "section": "grapes",
+      "source": "article-source/what-is-vinhao.md"
     },
     {
       "slug": "what-is-volatile-acidity",
@@ -5482,12 +7090,108 @@
       "source": "article-source/what-is-wine-finish.md"
     },
     {
+      "slug": "what-is-xarel-lo",
+      "route": "/what-is-xarel-lo/",
+      "title": "What is Xarel-lo?",
+      "description": "Xarel-lo is a Catalan white wine grape used in Cava and still wines. Learn its names, typical style and how Australian drinkers may encounter it.",
+      "section": "grapes",
+      "source": "article-source/what-is-xarel-lo.md"
+    },
+    {
+      "slug": "what-is-zibibbo",
+      "route": "/what-is-zibibbo/",
+      "title": "What is Zibibbo?",
+      "description": "Zibibbo is an aromatic white wine grape associated with Muscat of Alexandria and Pantelleria. Learn how its wines can range from dry to sweet, sparkling and fortified.",
+      "section": "grapes",
+      "source": "article-source/what-is-zibibbo.md"
+    },
+    {
+      "slug": "what-is-zierfandler",
+      "route": "/what-is-zierfandler/",
+      "title": "What is Zierfandler?",
+      "description": "Zierfandler is an Austrian white wine grape associated with the Thermenregion. Learn about Spätrot, its wine style, Rotgipfler blends and Australian label relevance.",
+      "section": "grapes",
+      "source": "article-source/what-is-zierfandler.md"
+    },
+    {
+      "slug": "what-low-intervention-wine-means",
+      "route": "/what-low-intervention-wine-means/",
+      "title": "What low-intervention wine means",
+      "description": "Low-intervention wine is a flexible winemaking description, not a fixed recipe. Learn what it may involve, how it differs from natural, organic and biodynamic wine, and how Australian drinkers can read the term.",
+      "section": "fundamentals",
+      "source": "article-source/what-low-intervention-wine-means.md"
+    },
+    {
       "slug": "what-makes-wine-ageworthy",
       "route": "/what-makes-wine-ageworthy/",
       "title": "What Makes Wine Ageworthy?",
       "description": "Learn what makes wine ageworthy, from acidity and tannin to balance, concentration, oxygen, closures and storage, with Australian examples.",
       "section": "fundamentals",
       "source": "article-source/what-makes-wine-ageworthy.md"
+    },
+    {
+      "slug": "what-old-vines-means-on-a-wine-label",
+      "route": "/what-old-vines-means-on-a-wine-label/",
+      "title": "What “old vines” means on a wine label",
+      "description": "Learn what “old vines” means on an Australian wine label, why the term has no universal age threshold, and how to interpret the claim without assuming better wine.",
+      "section": "fundamentals",
+      "source": "article-source/what-old-vines-means-on-a-wine-label.md"
+    },
+    {
+      "slug": "what-preservative-free-wine-means",
+      "route": "/what-preservative-free-wine-means/",
+      "title": "What preservative-free wine means",
+      "description": "Preservative-free wine usually means no added sulphur dioxide or sulphites, but it does not necessarily mean zero sulphites, additive-free wine or a healthier bottle. Learn how to read the claim in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/what-preservative-free-wine-means.md"
+    },
+    {
+      "slug": "what-reserve-means-on-a-wine-label",
+      "route": "/what-reserve-means-on-a-wine-label/",
+      "title": "What does “reserve” mean on a wine label?",
+      "description": "“Reserve” can mean different things on different wine labels. Learn what Australian shoppers can—and cannot—tell from the term, and how to read it with the rest of the bottle.",
+      "section": "fundamentals",
+      "source": "article-source/what-reserve-means-on-a-wine-label.md"
+    },
+    {
+      "slug": "what-single-vineyard-means",
+      "route": "/what-single-vineyard-means/",
+      "title": "What single vineyard means",
+      "description": "Learn what “single vineyard” means on an Australian wine label, how it differs from estate, block, variety and GI claims, and what it does not guarantee.",
+      "section": "fundamentals",
+      "source": "article-source/what-single-vineyard-means.md"
+    },
+    {
+      "slug": "what-sustainable-wine-means",
+      "route": "/what-sustainable-wine-means/",
+      "title": "What sustainable wine means",
+      "description": "Sustainable wine considers environmental, social and economic impacts across grape growing, winemaking and the wider wine business. Learn how Australian certification works and how to interpret sustainability claims.",
+      "section": "fundamentals",
+      "source": "article-source/what-sustainable-wine-means.md"
+    },
+    {
+      "slug": "what-unfiltered-wine-means",
+      "route": "/what-unfiltered-wine-means/",
+      "title": "What unfiltered wine means",
+      "description": "Unfiltered wine is bottled without a final filtration step, but it may still be clarified. Learn what the term means for haze, sediment, taste, stability and serving in Australia.",
+      "section": "winemaking",
+      "source": "article-source/what-unfiltered-wine-means.md"
+    },
+    {
+      "slug": "what-vegan-wine-means",
+      "route": "/what-vegan-wine-means/",
+      "title": "What vegan wine means",
+      "description": "Vegan wine explained: learn how animal-derived fining agents can be used in winemaking and how Australian shoppers can check a wine’s suitability.",
+      "section": "fundamentals",
+      "source": "article-source/what-vegan-wine-means.md"
+    },
+    {
+      "slug": "what-wine-scores-mean",
+      "route": "/what-wine-scores-mean/",
+      "title": "What wine scores mean",
+      "description": "Learn what wine scores, 100-point ratings, medals, stars and consumer reviews actually communicate—and how Australian wine drinkers can use them more confidently.",
+      "section": "fundamentals",
+      "source": "article-source/what-wine-scores-mean.md"
     },
     {
       "slug": "when-to-aerate-wine",
@@ -5514,6 +7218,14 @@
       "source": "article-source/when-to-drink-a-wine.md"
     },
     {
+      "slug": "when-to-stand-an-old-bottle-upright",
+      "route": "/when-to-stand-an-old-bottle-upright/",
+      "title": "When to stand an old bottle upright",
+      "description": "Learn when standing an old wine bottle upright helps settle sediment, how long to leave it, and how to serve it carefully at home.",
+      "section": "winemaking",
+      "source": "article-source/when-to-stand-an-old-bottle-upright.md"
+    },
+    {
       "slug": "white-wine-styles",
       "route": "/white-wine-styles/",
       "title": "What Are White Wine Styles? A Beginner’s Guide",
@@ -5536,6 +7248,14 @@
       "description": "Whole-bunch fermentation retains some or all grape bunches, including stems, during red-wine fermentation. Learn how it works, how it differs from carbonic maceration, and how it can affect wine.",
       "section": "winemaking",
       "source": "article-source/whole-bunch.md"
+    },
+    {
+      "slug": "why-does-wine-taste-different-the-next-day",
+      "route": "/why-does-wine-taste-different-the-next-day/",
+      "title": "Why does wine taste different the next day?",
+      "description": "Opening a bottle, oxygen exposure, temperature and aroma release can all change how wine tastes the next day. Learn what to expect and how to store leftovers.",
+      "section": "fundamentals",
+      "source": "article-source/why-does-wine-taste-different-the-next-day.md"
     },
     {
       "slug": "why-red-wine-is-red",
@@ -5650,6 +7370,14 @@
       "source": "article-source/wine-blends.md"
     },
     {
+      "slug": "wine-bottle-sizes-explained",
+      "route": "/wine-bottle-sizes-explained/",
+      "title": "Wine bottle sizes explained",
+      "description": "Understand common wine bottle capacities, traditional format names and what Australian shoppers should read on the label.",
+      "section": "winemaking",
+      "source": "article-source/wine-bottle-sizes-explained.md"
+    },
+    {
       "slug": "wine-colour-explained",
       "route": "/wine-colour-explained/",
       "title": "Wine colour explained",
@@ -5666,6 +7394,22 @@
       "source": "article-source/wine-elegance.md"
     },
     {
+      "slug": "wine-etiquette-at-restaurants",
+      "route": "/wine-etiquette-at-restaurants/",
+      "title": "Wine etiquette at restaurants: a practical guide for Australian diners",
+      "description": "Understand restaurant wine etiquette without the intimidation: how to read a wine list, state a budget, handle the tasting pour and raise concerns politely in Australia.",
+      "section": "fundamentals",
+      "source": "article-source/wine-etiquette-at-restaurants.md"
+    },
+    {
+      "slug": "wine-festivals-a-beginners-guide",
+      "route": "/wine-festivals-a-beginners-guide/",
+      "title": "Wine festivals: a beginner’s guide",
+      "description": "Learn what to expect at an Australian wine festival, how to prepare, taste confidently, ask useful questions and plan a safe journey home.",
+      "section": "fundamentals",
+      "source": "article-source/wine-festivals-a-beginners-guide.md"
+    },
+    {
       "slug": "wine-flavour-vs-wine-aroma",
       "route": "/wine-flavour-vs-wine-aroma/",
       "title": "Wine flavour vs wine aroma: what’s the difference?",
@@ -5674,12 +7418,68 @@
       "source": "article-source/wine-flavour-vs-wine-aroma.md"
     },
     {
+      "slug": "wine-for-a-picnic",
+      "route": "/wine-for-a-picnic/",
+      "title": "Wine for a picnic: how to choose a bottle that works outdoors",
+      "description": "Learn how to choose, pair, carry and serve wine for an Australian picnic, with practical guidance on style, food, heat, transport and local rules.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-a-picnic.md"
+    },
+    {
+      "slug": "wine-for-a-wedding",
+      "route": "/wine-for-a-wedding/",
+      "title": "Wine for a wedding: how to choose, pair and serve it",
+      "description": "A practical Australian guide to choosing wedding wine, matching styles with food, estimating quantities and planning chilling, venue and responsible-service arrangements.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-a-wedding.md"
+    },
+    {
+      "slug": "wine-for-brunch",
+      "route": "/wine-for-brunch/",
+      "title": "Wine for brunch: how to choose a bottle that works with the food",
+      "description": "Learn how to choose wine for brunch by matching food characteristics such as richness, salt, sweetness and spice with acidity, bubbles, body and sweetness. Includes Australian style suggestions and shared-table advice.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-brunch.md"
+    },
+    {
+      "slug": "wine-for-christmas-lunch",
+      "route": "/wine-for-christmas-lunch/",
+      "title": "Wine for Christmas Lunch: How to Choose a Bottle That Works",
+      "description": "Learn how to choose wine for an Australian Christmas lunch, from seafood and ham to barbecue, salads and roast dishes, with practical advice on styles, service and mixed menus.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-christmas-lunch.md"
+    },
+    {
+      "slug": "wine-for-hot-weather",
+      "route": "/wine-for-hot-weather/",
+      "title": "Wine for hot weather",
+      "description": "Learn how acidity, alcohol, body, sweetness and serving temperature affect wine in hot weather, with practical tips for choosing, chilling and serving wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-hot-weather.md"
+    },
+    {
+      "slug": "wine-for-winter-meals",
+      "route": "/wine-for-winter-meals/",
+      "title": "Wine for Winter Meals: How to Choose a Bottle",
+      "description": "Learn how to choose wine for winter meals by matching intensity, sauce, acidity, tannin, sweetness and texture—not simply choosing red wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-for-winter-meals.md"
+    },
+    {
       "slug": "wine-freshness-vs-acidity",
       "route": "/wine-freshness-vs-acidity/",
       "title": "Wine Freshness vs Acidity: What’s the Difference?",
       "description": "Freshness and acidity are related but different. Learn how acidity, fruit, aroma, alcohol, texture, temperature and balance shape a wine’s sense of freshness.",
       "section": "fundamentals",
       "source": "article-source/wine-freshness-vs-acidity.md"
+    },
+    {
+      "slug": "wine-fridge-vs-ordinary-fridge",
+      "route": "/wine-fridge-vs-ordinary-fridge/",
+      "title": "Wine fridge vs ordinary fridge: which is better for wine?",
+      "description": "Understand when an ordinary refrigerator is enough, when a wine fridge may help, and how Australian heat, storage time and appliance features affect the decision.",
+      "section": "fundamentals",
+      "source": "article-source/wine-fridge-vs-ordinary-fridge.md"
     },
     {
       "slug": "wine-fridge-vs-wine-cellar",
@@ -5754,6 +7554,14 @@
       "source": "article-source/wine-structure.md"
     },
     {
+      "slug": "wine-vintage-charts-explained",
+      "route": "/wine-vintage-charts-explained/",
+      "title": "Wine vintage charts explained: how to read them without being misled",
+      "description": "Learn what wine vintage charts measure, how vintage differs from bottling year, and why Australian regional variation, producer, style, age and storage matter.",
+      "section": "fundamentals",
+      "source": "article-source/wine-vintage-charts-explained.md"
+    },
+    {
       "slug": "wine-with-barbecue",
       "route": "/wine-with-barbecue/",
       "title": "Wine with barbecue: how to choose the right style",
@@ -5768,6 +7576,30 @@
       "description": "Learn how to choose wine with burgers by matching the patty, toppings, sauce, smoke and spice. Includes Australian Shiraz, Grenache, Cabernet Sauvignon, Pinot Noir, rosé, sparkling and white wine styles.",
       "section": "fundamentals",
       "source": "article-source/wine-with-burgers.md"
+    },
+    {
+      "slug": "wine-with-butter-chicken",
+      "route": "/wine-with-butter-chicken/",
+      "title": "Wine with butter chicken: what works best?",
+      "description": "Learn which wine styles work with mild, creamy, hot or smoky butter chicken, and how acidity, sweetness, alcohol and tannin affect the pairing.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-butter-chicken.md"
+    },
+    {
+      "slug": "wine-with-charcuterie",
+      "route": "/wine-with-charcuterie/",
+      "title": "Wine with charcuterie: how to choose the right style",
+      "description": "Learn how to choose wine for charcuterie by balancing salt, fat, spice, smoke and sweetness, with practical Australian style suggestions.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-charcuterie.md"
+    },
+    {
+      "slug": "wine-with-cheese-boards",
+      "route": "/wine-with-cheese-boards/",
+      "title": "Wine with cheese boards: how to choose a bottle that works",
+      "description": "Learn how to choose wine for a mixed cheese board using cheese intensity, salt, richness, texture and accompaniments, with practical Australian wine-style examples.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-cheese-boards.md"
     },
     {
       "slug": "wine-with-chicken",
@@ -5810,12 +7642,52 @@
       "source": "article-source/wine-with-duck.md"
     },
     {
+      "slug": "wine-with-dumplings",
+      "route": "/wine-with-dumplings/",
+      "title": "Wine with dumplings: how to choose a bottle",
+      "description": "Learn how filling, cooking method and sauce affect wine with dumplings, with practical Australian suggestions including Riesling, sparkling wine, Chardonnay, rosé and lighter reds.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-dumplings.md"
+    },
+    {
+      "slug": "wine-with-fish-and-chips",
+      "route": "/wine-with-fish-and-chips/",
+      "title": "Wine with fish and chips",
+      "description": "Learn which wine styles suit Australian fish and chips, and how batter, salt, lemon, tartare sauce and malt vinegar change the pairing.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-fish-and-chips.md"
+    },
+    {
+      "slug": "wine-with-fried-chicken",
+      "route": "/wine-with-fried-chicken/",
+      "title": "Wine with fried chicken",
+      "description": "Learn why dry sparkling wine, fresh whites, Riesling, rosé and lighter reds can work with fried chicken—and how to adjust for spice, sauces and sides.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-fried-chicken.md"
+    },
+    {
       "slug": "wine-with-fruit-desserts",
       "route": "/wine-with-fruit-desserts/",
       "title": "Wine with fruit desserts",
       "description": "A useful starting point is to choose a wine that is at least as sweet as the fruit dessert, then consider the dessert’s acidity, cream, custard, pastry,…",
       "section": "fundamentals",
       "source": "article-source/wine-with-fruit-desserts.md"
+    },
+    {
+      "slug": "wine-with-garlic",
+      "route": "/wine-with-garlic/",
+      "title": "Wine with garlic: how to choose the right style",
+      "description": "Learn how raw, cooked and roasted garlic change a wine pairing, with practical Australian style suggestions for white, rosé and red wines.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-garlic.md"
+    },
+    {
+      "slug": "wine-with-green-curry",
+      "route": "/wine-with-green-curry/",
+      "title": "Wine with green curry",
+      "description": "Find a suitable wine for green curry by matching chilli heat, coconut richness, sweetness and herbs. Compare Riesling, aromatic whites, sparkling wine, rosé and light reds.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-green-curry.md"
     },
     {
       "slug": "wine-with-hard-cheese",
@@ -5842,12 +7714,36 @@
       "source": "article-source/wine-with-lamb.md"
     },
     {
+      "slug": "wine-with-meatballs",
+      "route": "/wine-with-meatballs/",
+      "title": "Wine with Meatballs: How to Choose a Pairing",
+      "description": "Learn how to choose wine for tomato, creamy, spicy, barbecue and sweet-and-sour meatballs, with practical Australian style suggestions.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-meatballs.md"
+    },
+    {
       "slug": "wine-with-mexican-food",
       "route": "/wine-with-mexican-food/",
       "title": "Wine with Mexican food: how to choose a bottle",
       "description": "Learn how to choose wine with Mexican food by matching chilli, acidity, salt, sweetness, smoke and richness. Includes practical Australian style and serving guidance.",
       "section": "fundamentals",
       "source": "article-source/wine-with-mexican-food.md"
+    },
+    {
+      "slug": "wine-with-middle-eastern-food",
+      "route": "/wine-with-middle-eastern-food/",
+      "title": "Wine with Middle Eastern food: how to choose a good match",
+      "description": "Learn how to choose wine for varied Middle Eastern dishes, from hummus and mezze to grilled meats, chilli-rich stews and baklava.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-middle-eastern-food.md"
+    },
+    {
+      "slug": "wine-with-mushroom-dishes",
+      "route": "/wine-with-mushroom-dishes/",
+      "title": "Wine with mushroom dishes: how to choose a bottle",
+      "description": "Learn how mushroom preparation, sauces, richness and umami influence wine choice, with practical Australian starting points including Chardonnay, Pinot Noir and sparkling wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-mushroom-dishes.md"
     },
     {
       "slug": "wine-with-mushrooms",
@@ -5858,12 +7754,28 @@
       "source": "article-source/wine-with-mushrooms.md"
     },
     {
+      "slug": "wine-with-olives",
+      "route": "/wine-with-olives/",
+      "title": "Wine with olives",
+      "description": "Learn how salt, brine, bitterness, oil and preparation affect wine with olives, with practical style-led suggestions for Australian drinkers.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-olives.md"
+    },
+    {
       "slug": "wine-with-oysters",
       "route": "/wine-with-oysters/",
       "title": "Wine with oysters: how to choose the right style",
       "description": "Learn which wine styles work with raw, dressed, creamy, cooked and fried oysters, with practical Australian examples.",
       "section": "fundamentals",
       "source": "article-source/wine-with-oysters.md"
+    },
+    {
+      "slug": "wine-with-paella",
+      "route": "/wine-with-paella/",
+      "title": "Wine with paella: how to choose the right style",
+      "description": "Learn how to choose wine with paella by matching freshness, body and texture to seafood, chicken, rabbit, chorizo and vegetable versions.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-paella.md"
     },
     {
       "slug": "wine-with-pasta",
@@ -5890,6 +7802,38 @@
       "source": "article-source/wine-with-pork.md"
     },
     {
+      "slug": "wine-with-pork-belly",
+      "route": "/wine-with-pork-belly/",
+      "title": "Wine with pork belly",
+      "description": "Learn how to choose wine for pork belly by matching the preparation, sauce, richness, sweetness and spice. Includes Australian style options.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-pork-belly.md"
+    },
+    {
+      "slug": "wine-with-prawns",
+      "route": "/wine-with-prawns/",
+      "title": "Wine with prawns: how to choose the right bottle",
+      "description": "Learn how to choose wine with prawns by matching the bottle to the preparation, sauce and seasoning, with practical Australian style suggestions.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-prawns.md"
+    },
+    {
+      "slug": "wine-with-ramen",
+      "route": "/wine-with-ramen/",
+      "title": "Wine with ramen: how to choose a bottle",
+      "description": "Learn how broth, umami, salt, fat and chilli affect wine with ramen, with practical Australian style suggestions from Riesling to sparkling wine.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-ramen.md"
+    },
+    {
+      "slug": "wine-with-risotto",
+      "route": "/wine-with-risotto/",
+      "title": "Wine with risotto: how to choose the right style",
+      "description": "Learn how to choose wine with risotto by matching acidity, body, tannin and richness to the finished dish, with Australian style examples.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-risotto.md"
+    },
+    {
       "slug": "wine-with-roast-dinner",
       "route": "/wine-with-roast-dinner/",
       "title": "Wine with roast dinner: how to choose the right style",
@@ -5912,6 +7856,14 @@
       "description": "The best wine with salmon depends on the whole dish, not just the fish. Start with freshness and acidity to balance salmon’s usual richness and oiliness,…",
       "section": "fundamentals",
       "source": "article-source/wine-with-salmon.md"
+    },
+    {
+      "slug": "wine-with-sausages",
+      "route": "/wine-with-sausages/",
+      "title": "Wine with sausages: how to choose a bottle",
+      "description": "Learn how to choose wine for sausages by considering the meat, fat, seasoning, smoke, chilli, sauce and cooking method, with practical Australian examples.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-sausages.md"
     },
     {
       "slug": "wine-with-shellfish",
@@ -5938,6 +7890,14 @@
       "source": "article-source/wine-with-sushi.md"
     },
     {
+      "slug": "wine-with-tacos",
+      "route": "/wine-with-tacos/",
+      "title": "Wine with tacos: how to choose a bottle that works",
+      "description": "Learn how to choose wine for tacos by considering filling, chilli heat, salsa, richness and toppings, with Australian Riesling, Sauvignon Blanc, sparkling, rosé and light-bodied red styles as practical starting points.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-tacos.md"
+    },
+    {
       "slug": "wine-with-thai-food",
       "route": "/wine-with-thai-food/",
       "title": "Wine with Thai food: how to choose a bottle",
@@ -5954,6 +7914,22 @@
       "source": "article-source/wine-with-tomato-based-dishes.md"
     },
     {
+      "slug": "wine-with-truffle",
+      "route": "/wine-with-truffle/",
+      "title": "Wine with truffle: how to choose a pairing",
+      "description": "Learn how to choose wine with truffle by matching the complete dish, including its richness, sauce, umami, protein and intensity. Includes practical white and red wine starting points for Australian readers.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-truffle.md"
+    },
+    {
+      "slug": "wine-with-tuna",
+      "route": "/wine-with-tuna/",
+      "title": "Wine with tuna: how to choose the right style",
+      "description": "Learn how tuna preparation, sauces and texture affect wine choice, with practical Australian starting points for raw, seared, grilled and canned tuna.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-tuna.md"
+    },
+    {
       "slug": "wine-with-vegan-food",
       "route": "/wine-with-vegan-food/",
       "title": "Wine with vegan food",
@@ -5968,6 +7944,14 @@
       "description": "Start by identifying the dish’s strongest feature.",
       "section": "fundamentals",
       "source": "article-source/wine-with-vegetarian-food.md"
+    },
+    {
+      "slug": "wine-with-vietnamese-food",
+      "route": "/wine-with-vietnamese-food/",
+      "title": "Wine with Vietnamese food: how to choose a bottle",
+      "description": "Learn how to choose wine with Vietnamese food by matching acidity, sweetness, chilli, salt, umami, texture and dish intensity. Includes practical Australian wine-style starting points.",
+      "section": "fundamentals",
+      "source": "article-source/wine-with-vietnamese-food.md"
     },
     {
       "slug": "wrattonbully-wine-region",

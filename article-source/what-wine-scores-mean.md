@@ -1,0 +1,143 @@
+# What wine scores mean
+
+## Highlights
+
+- A wine score is an evaluator’s judgement, not an objective measurement.
+- The same number can mean different things to different publications.
+- A 100-point score only makes sense when you understand who gave it and how.
+- Medals, stars, critic scores and consumer ratings are different kinds of information.
+- A tasting note often tells you more about whether a wine suits you than the number alone.
+- Scores can change with the vintage, bottle, tasting conditions and the wine’s development.
+- Australian wine labels do not follow one mandatory national consumer scoring scale.
+
+## Quick answer: what does a wine score mean?
+
+A wine score is a numerical opinion about a particular wine, given by a critic, publication, competition, retailer, app or group of consumers. It reflects that evaluator’s method, expectations and tasting context.
+
+A score can help you compare wines reviewed by the same source. It cannot guarantee that you will enjoy the wine, and it does not objectively measure quality in the way a ruler measures length.
+
+The most useful way to read a score is to ask:
+
+1. Who gave it?
+2. What scale did they use?
+3. How was the wine tasted?
+4. Does the tasting note describe a style you enjoy?
+5. Is it the same wine and vintage you are considering?
+
+Think of the number as a shortcut to a longer judgement. The tasting note and the context explain what the shortcut leaves out.
+
+## How the 100-point wine scale works
+
+The 100-point scale is widely used, but it does not have one universal meaning. Each publication can set its own score bands, descriptions, publishing policy and tasting method.
+
+For example, Decanter publishes score bands including “Exceptional”, “Outstanding”, “Highly Recommended” and “Recommended”. Wine Enthusiast also uses a 100-point scale, but its score bands and descriptions differ. Wine Enthusiast says it does not publish scores below 80, while Decanter’s published system includes lower ranges.
+
+That means a 92 from one publication is not automatically equivalent to a 92 from another. The number may look comparable, but the two publications may have different starting points, standards and review policies.
+
+Score bands are therefore best understood as part of a publication’s own language. A description such as “excellent” or “outstanding” should not be treated as a universal definition that applies to every scoring system.
+
+## Why can wine scores differ?
+
+Different scores do not necessarily mean that one reviewer was careless. Wine tasting involves judgement, and reviewers may assess the same wine in different circumstances.
+
+### Different methods and tasters
+
+Some publications use blind tasting, where identifying information is concealed. Others may taste wines with varying amounts of information available. A review might come from one critic, an average of individual scores or a panel discussion.
+
+Decanter describes a process involving experienced tasters, blind flights, individual scores, group discussion and retasting when scores differ significantly. That is its method—not a universal rule for every wine review.
+
+Reviewers also bring different experience, regional knowledge and stylistic preferences. One taster may particularly value freshness and restraint; another may respond more strongly to richness or concentration.
+
+### Different tasting conditions
+
+Temperature, glassware, food, noise, palate fatigue and the number of wines tasted can influence the tasting experience. Professional judging systems use procedures to manage these variables, but they cannot remove every difference between one tasting and another.
+
+### Vintage, bottle and wine development
+
+The score may apply to a specific vintage or bottling. A later vintage can taste different because growing conditions changed. Individual bottles can also vary, including because of closure performance or faults.
+
+Wine develops over time, too. A score given when a wine is young may not describe exactly how it tastes years later. A later assessment may reflect the wine’s maturity rather than a simple correction of the first score.
+
+## Scores, medals, stars and ratings are not the same
+
+These terms can appear together in a retailer listing or on a bottle, but they communicate different things.
+
+### Critic or publication score
+
+This is an editorial assessment made according to a critic’s or publication’s method. It is often paired with a tasting note and may be an individual score, panel result or consensus.
+
+### Competition medal
+
+A medal is an award from a wine show or competition. It is given under that event’s rules, categories and judging process. A competition may award medals to several wines in the same group, and its thresholds are specific to that competition.
+
+A medal therefore is not simply another name for a critic’s score. It tells you that the wine received an award within a particular judging framework.
+
+### Star rating
+
+Stars may be used by publications, retailers, venues or online platforms. Their meaning depends entirely on the provider. Three stars in one system cannot safely be compared with three stars in another unless both systems explain their criteria in the same way.
+
+### Consumer rating
+
+A consumer rating reflects opinions submitted by users on a platform. It may capture enjoyment, expectations, value or popularity, but it is not necessarily a professional sensory assessment. Like any rating, it needs to be read in the context of how the platform collects and presents it.
+
+## What Australian wine drinkers should know
+
+Australian consumers may encounter scores and awards from Australian publications, overseas critics, retailers, wine competitions, apps and consumer-review platforms. These systems are not automatically interchangeable.
+
+Australian wine labels have regulated requirements for information such as alcohol content and standard drinks. Those requirements are separate from editorial scores and competition awards. There is no single mandatory national consumer wine-scoring scale that gives every Australian score the same meaning.
+
+Wine Australia also provides guidance about displaying awards and medals, including the need to avoid misleading presentation and to identify the relevant competition or show and award year where applicable.
+
+So if you see a score or medal on a bottle, shelf label or online listing, treat it as additional information—not as a regulated guarantee that the wine is right for you.
+
+## How to use a wine score when buying
+
+A score is most useful as one part of a quick decision process.
+
+### Start with the source
+
+Find out whether the number came from a critic, publication, competition, retailer, app or consumers. A retailer’s presentation may combine several types of information, so check what the number actually represents.
+
+### Read the method
+
+Look for the provider’s score scale, score bands and review policy. Check whether wines are tasted blind, whether the score is individual or averaged, and whether the provider publishes every score or only selected reviews.
+
+### Read the tasting note
+
+Look for clues about body, acidity, sweetness, tannin, oak, intensity, maturity and texture. These details can tell you whether the wine fits your preferences more clearly than the number can.
+
+### Check the wine and vintage
+
+Make sure the score refers to the same wine and vintage you are considering. A score for one vintage is not automatically a score for the next.
+
+### Consider the occasion and price
+
+A highly rated full-bodied red may be unsuitable if you want a light wine for a warm afternoon. A score also does not establish whether a bottle represents good value for your budget. Those are separate decisions.
+
+### Compare like with like
+
+Scores are easier to use comparatively when wines were assessed by the same source, with a similar method and within a similar category. Avoid converting scores between publications as though they were a shared currency.
+
+Most importantly, let your own taste have the final word. A high score may identify a wine that a reviewer admired, but it cannot predict exactly what you will enjoy.
+
+## Frequently asked questions
+
+### Is a higher wine score always better?
+
+No. A higher score reflects a stronger assessment within that evaluator’s system. It does not guarantee that the wine will suit your preferred style, meal, occasion or budget.
+
+### Is 90 points a universal definition of a good wine?
+
+No. Publications attach their own descriptions and meanings to score ranges. A score should be interpreted using the source’s published methodology.
+
+### Are medals better than critic scores?
+
+They are different signals, not competing versions of the same signal. A medal comes from a competition process; a critic score comes from a reviewer or publication’s assessment.
+
+### Should I ignore wine scores?
+
+Not necessarily. Scores can be useful for narrowing a choice, especially when you understand the source and compare wines within the same system. They are most helpful when read alongside the tasting note.
+
+### Why did the same wine receive different scores?
+
+The reviewers may have used different methods, tasted different bottles or vintages, assessed the wine at different stages of development, or simply reached different judgements. Wine evaluation is interpretive rather than perfectly fixed.
