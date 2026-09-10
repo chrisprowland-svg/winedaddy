@@ -38,8 +38,8 @@ for (const relationship of relationshipRegistry.relationships) {
   editorialDegree.set(relationship.from, (editorialDegree.get(relationship.from) || 0) + 1);
   editorialDegree.set(relationship.to, (editorialDegree.get(relationship.to) || 0) + 1);
 }
-const isolatedEntities = entityRegistry.entities.filter(entity => entity.type !== 'knowledge_collection' && editorialDegree.get(entity.id) === 0);
-if (recommendationRegistry.recommendations.length !== isolatedEntities.length) errors.push(`recommendation coverage expected ${isolatedEntities.length}; found ${recommendationRegistry.recommendations.length}`);
+const topicEntities = entityRegistry.entities.filter(entity => entity.type !== 'knowledge_collection');
+if (recommendationRegistry.recommendations.length !== topicEntities.length) errors.push(`recommendation coverage expected ${topicEntities.length}; found ${recommendationRegistry.recommendations.length}`);
 for (const recommendation of recommendationRegistry.recommendations) {
   if (!entityIds.has(recommendation.entityId)) errors.push(`recommendation source missing: ${recommendation.entityId}`);
   if (recommendation.items.length < 1 || recommendation.items.length > 3) errors.push(`recommendation set expected 1-3 items: ${recommendation.entityId}`);
