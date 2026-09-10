@@ -13,7 +13,7 @@
     {"slug":"south-australian-wine-regions","kind":"state_or_territory","label":"South Australia","parent":"australian-wine-regions"},
     {"slug":"western-australian-wine-regions","kind":"state_or_territory","label":"Western Australia","parent":"australian-wine-regions"},
     {"slug":"queensland-wine-regions","kind":"state_or_territory","label":"Queensland","parent":"australian-wine-regions"},
-    {"slug":"tasmania-wine-region","kind":"wine_region","label":"Tasmania","parent":"australian-wine-regions"},
+    {"slug":"tasmania-wine-region","kind":"wine_region","label":"Tasmania","parent":"australian-wine-regions","recommendationPriority":["what-is-sparkling-wine","what-is-pinot-noir"]},
     {"slug":"australian-capital-territory-wine-regions","kind":"state_or_territory","label":"Australian Capital Territory","parent":"australian-wine-regions"},
 
     {"slug":"barossa-zone","kind":"wine_zone","label":"Barossa zone","parent":"south-australian-wine-regions"},

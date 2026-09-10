@@ -44,6 +44,7 @@ for (const place of geography.places) {
   if (entity.geographyKind !== place.kind) errors.push(`geography kind missing: ${place.slug}`);
   const renderedPage = fs.readFileSync(path.join(root, place.slug, 'index.html'), 'utf8');
   if (!renderedPage.includes('data-geography-hierarchy')) errors.push(`geography hierarchy not rendered: ${place.slug}`);
+  if (renderedPage.includes('Knowledge Graph v2')) errors.push(`internal Knowledge Graph version leaked to reader: ${place.slug}`);
   if (!renderedPage.includes(`<strong>${escapeHtml(place.label)}</strong>`)) errors.push(`geography label not rendered: ${place.slug}`);
   if (!renderedPage.includes(`"@type":"Place","name":"${place.label.replaceAll('"', '\\"')}"`)) errors.push(`geography Place schema missing: ${place.slug}`);
   if (place.kind === 'informal_growing_area' && !renderedPage.includes('not shown here as a separately registered Australian GI')) errors.push(`informal geography qualifier missing: ${place.slug}`);
@@ -56,6 +57,13 @@ for (const place of geography.places) {
   const evidence = place.evidence || 'wine_australia_gi_hierarchy';
   if (!geography.evidenceCatalog[evidence]) errors.push(`geography evidence is not governed: ${place.slug} (${evidence})`);
 }
+const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
+if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
+if (!tasmaniaPage.includes('Explore selected WineDaddy growing-area guides')) errors.push('Tasmania must label its linked informal places as selected growing-area guides');
+if (/<h2[^>]*>Related (?:learning|reading)<\/h2>/i.test(tasmaniaPage)) errors.push('Tasmania still renders the legacy Related learning list');
+const tasmaniaRecommendations = recommendationRegistry.recommendations.find(item => item.article === '/tasmania-wine-region/');
+const expectedTasmaniaNext = ['/what-is-sparkling-wine/', '/what-is-pinot-noir/', '/regions/'];
+if (JSON.stringify(tasmaniaRecommendations?.items.map(item => item.route)) !== JSON.stringify(expectedTasmaniaNext)) errors.push('Tasmania recommendation cards are not the reviewed priority set');
 const editorialDegree = new Map(entityRegistry.entities.map(entity => [entity.id, 0]));
 for (const relationship of relationshipRegistry.relationships) {
   if (relationship.predicate !== 'editorially_related_to') continue;

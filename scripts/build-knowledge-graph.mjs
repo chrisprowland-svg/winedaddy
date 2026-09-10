@@ -39,6 +39,7 @@ const topicEntities = manifest.articles.map(article => {
   };
 });
 const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
+const articleBySlug = new Map(manifest.articles.map(article => [article.slug, article]));
 const entities = [...collectionEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 const stopwords = new Set('a an and are as at australia australian be beginner beginners by can context does dry explained for from grape grapes guide how in into is it its known learn made of on or principal red region regions style styles taste tastes the their this to variety varieties vs what when where which white why wine wines with without your'.split(' '));
 const documentFrequency = new Map();
@@ -88,8 +89,10 @@ for (const relationship of relationships) {
 const recommendations = [];
 for (const article of manifest.articles) {
   const from = entityId(article);
-  const editorialItems = [...editorialNeighbourScores.get(from)].map(([targetId, directionScore]) => ({article: articleByEntityId.get(targetId), directionScore})).filter(candidate => candidate.article).sort((a, b) => b.directionScore - a.directionScore || cardTitle(a.article).localeCompare(cardTitle(b.article))).slice(0, 2).map(({article: target}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'editorial_link'}));
-  const items = [...editorialItems];
+  const priorityItems = (geographyBySlug.get(article.slug)?.recommendationPriority || []).map(slug => articleBySlug.get(slug)).filter(Boolean).slice(0,2).map(target => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'reviewed_priority'}));
+  const priorityIds = new Set(priorityItems.map(item => item.entityId));
+  const editorialItems = [...editorialNeighbourScores.get(from)].map(([targetId, directionScore]) => ({article: articleByEntityId.get(targetId), directionScore})).filter(candidate => candidate.article && !priorityIds.has(entityId(candidate.article))).sort((a, b) => b.directionScore - a.directionScore || cardTitle(a.article).localeCompare(cardTitle(b.article))).slice(0, 2 - priorityItems.length).map(({article: target}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'editorial_link'}));
+  const items = [...priorityItems, ...editorialItems];
   if (!items.length) items.push(...rankedNeighbours(article).filter(candidate => candidate.titleOverlap ? candidate.score >= 5 : candidate.score >= 25).slice(0, 2).map(({article: target, score}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: Number(score.toFixed(4)), evidence: 'lexical_cluster'})));
   const collection = collectionEntities.find(entity => entity.section === article.section);
   items.push({entityId: collection.id, route: collection.canonicalArticle, title: `Explore ${collection.name}`, description: collection.description, score: 0, evidence: 'canonical_section'});
