@@ -5,6 +5,7 @@ import {cardTitle, sections} from '../site/site.mjs';
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
+const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
 const typeBySection = {
   fundamentals: 'wine_concept',
   grapes: 'grape_variety',
@@ -77,6 +78,16 @@ for (const place of geography.places) {
   addRelationship({from: entityId(article), predicate: 'located_in', to: entityId(parent), evidence});
   addRelationship({from: entityId(parent), predicate: 'contains', to: entityId(article), evidence});
 }
+for (const grape of grapeRegions.grapes) {
+  const grapeArticle = articleBySlug.get(grape.slug);
+  if (!grapeArticle || grapeArticle.section !== 'grapes') throw new Error(`Australian grape entity missing: ${grape.slug}`);
+  for (const regionSlug of grape.regions) {
+    const regionArticle = articleBySlug.get(regionSlug);
+    if (!regionArticle || regionArticle.section !== 'regions') throw new Error(`Australian grape-region target missing: ${regionSlug}`);
+    addRelationship({from: entityId(grapeArticle), predicate: 'grown_in', to: entityId(regionArticle), evidence: grapeRegions.evidence});
+    addRelationship({from: entityId(regionArticle), predicate: 'known_for', to: entityId(grapeArticle), evidence: grapeRegions.evidence});
+  }
+}
 const editorialDegree = new Map(topicEntities.map(entity => [entity.id, 0]));
 const editorialNeighbourScores = new Map(topicEntities.map(entity => [entity.id, new Map()]));
 for (const relationship of relationships) {
@@ -113,6 +124,8 @@ const publicGraph = {
     recommended_next: 'https://schema.org/relatedLink',
     located_in: 'https://schema.org/containedInPlace',
     contains: 'https://schema.org/containsPlace'
+    ,grown_in: 'https://schema.org/location'
+    ,known_for: 'https://schema.org/knowsAbout'
   },
   version: 2,
   entities,
