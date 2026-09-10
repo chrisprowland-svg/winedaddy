@@ -15,7 +15,7 @@ for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
 const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
-if (!servingWorker.includes('<aside class="geography-panel"')) errors.push('serving Worker can strip the Knowledge Graph v2 geography panel');
+if (!servingWorker.includes('geography-panel|entity-links')) errors.push('serving Worker can strip knowledge-graph relationship panels');
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
