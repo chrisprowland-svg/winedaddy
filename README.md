@@ -12,6 +12,8 @@ WineDaddy is a static Cloudflare Pages site generated from one content manifest 
 - `site/site.mjs` owns shared navigation, footer, metadata, analytics, and page chrome.
 - `scripts/build-site.mjs` generates every article, hub, search index, sitemap, and QA manifest.
 - `scripts/build-knowledge-graph.mjs` deterministically rebuilds the entity and relationship registries from approved content.
+
+Knowledge Graph v1 uses governed predicates: `member_of` for canonical collection membership and `editorially_related_to` for relationships evidenced by an approved reader-facing link. More specific factual predicates require explicit enrichment rather than automatic inference.
 - `scripts/qa-site.mjs` checks every generated route, canonical, link, heading, analytics tag, schema block, hub entry, search entry, and sitemap entry.
 - `workers/page-qa/` contains the deployed remote QA Worker used against protected branch previews before human review.
 

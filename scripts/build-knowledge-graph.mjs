@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {cardTitle} from '../site/site.mjs';
+import {cardTitle, sections} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
@@ -16,28 +16,40 @@ for (const article of manifest.articles) {
   if (article.route.endsWith('/')) articleByRoute.set(article.route.slice(0, -1), article);
 }
 
-const entities = manifest.articles.map(article => ({
+const collectionEntities = Object.entries(sections).map(([section, value]) => ({
+  id: `wd:knowledge_collection:${section}`,
+  type: 'knowledge_collection',
+  name: value.name,
+  description: value.description,
+  canonicalArticle: `/${section}/`,
+  section
+}));
+const topicEntities = manifest.articles.map(article => ({
   id: entityId(article),
   type: typeBySection[article.section],
   name: cardTitle(article),
   description: article.description,
   canonicalArticle: article.route,
   section: article.section
-})).sort((a, b) => a.id.localeCompare(b.id));
+}));
+const entities = [...collectionEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 
 const relationshipKeys = new Set();
 const relationships = [];
 for (const article of manifest.articles) {
+  addRelationship({
+    from: entityId(article),
+    predicate: 'member_of',
+    to: `wd:knowledge_collection:${article.section}`,
+    evidence: 'canonical_section'
+  });
   const source = fs.readFileSync(path.join(root, article.source), 'utf8');
   for (const route of sourceInternalRoutes(source)) {
     const target = articleByRoute.get(route);
     if (!target || target.slug === article.slug) continue;
     const from = entityId(article);
     const to = entityId(target);
-    const key = `${from}|related_to|${to}`;
-    if (relationshipKeys.has(key)) continue;
-    relationshipKeys.add(key);
-    relationships.push({from, predicate: 'related_to', to, evidence: 'editorial_link'});
+    addRelationship({from, predicate: 'editorially_related_to', to, evidence: 'editorial_link'});
   }
 }
 relationships.sort((a, b) => `${a.from}|${a.to}`.localeCompare(`${b.from}|${b.to}`));
@@ -49,7 +61,8 @@ const publicGraph = {
     name: 'https://schema.org/name',
     description: 'https://schema.org/description',
     canonicalArticle: 'https://schema.org/mainEntityOfPage',
-    related_to: 'https://schema.org/relatedLink'
+    editorially_related_to: 'https://schema.org/relatedLink',
+    member_of: 'https://schema.org/isPartOf'
   },
   version: 1,
   entities,
@@ -63,6 +76,13 @@ console.log(`Built knowledge graph: ${entities.length} entities and ${relationsh
 
 function entityId(article) {
   return `wd:${typeBySection[article.section]}:${article.slug}`;
+}
+
+function addRelationship(relationship) {
+  const key = `${relationship.from}|${relationship.predicate}|${relationship.to}`;
+  if (relationshipKeys.has(key)) return;
+  relationshipKeys.add(key);
+  relationships.push(relationship);
 }
 
 function sourceInternalRoutes(source) {
