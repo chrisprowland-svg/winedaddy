@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-10T00:18:10.120Z",
+  "totals": {
+    "articles": 1000,
+    "relationships": 4273,
+    "noOutbound": 338,
+    "noInbound": 563,
+    "fullyIsolated": 278,
+    "broken": 0
+  },
+  "bySection": {
+    "fundamentals": {
+      "articles": 324,
+      "noOutbound": 141,
+      "noInbound": 167
+    },
+    "grapes": {
+      "articles": 146,
+      "noOutbound": 82,
+      "noInbound": 82
+    },
+    "regions": {
+      "articles": 427,
+      "noOutbound": 72,
+      "noInbound": 272
+    },
+    "winemaking": {
+      "articles": 103,
+      "noOutbound": 43,
+      "noInbound": 42
+    }
+  },
+  "weakest": [
+    {
+      "slug": "adelaide-plains-wine-region",
+      "route": "/adelaide-plains-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "anjou-wine-region",
+      "route": "/anjou-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "are-crystals-in-wine-safe",
+      "route": "/are-crystals-in-wine-safe/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "bergerac-wine-region",
+      "route": "/bergerac-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "bourgueil",
+      "route": "/bourgueil/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "can-wine-be-frozen",
+      "route": "/can-wine-be-frozen/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "can-wine-be-stored-in-the-fridge",
+      "route": "/can-wine-be-stored-in-the-fridge/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "canned-wine-explained",
+      "route": "/canned-wine-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "cannonau-di-sardegna",
+      "route": "/cannonau-di-sardegna/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "cask-wine-and-bag-in-box-explained",
+      "route": "/cask-wine-and-bag-in-box-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "cellar-door-etiquette-in-australia",
+      "route": "/cellar-door-etiquette-in-australia/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "chenin-blanc-vs-sauvignon-blanc",
+      "route": "/chenin-blanc-vs-sauvignon-blanc/",
+      "section": "grapes",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "cleanskin-wine-explained",
+      "route": "/cleanskin-wine-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "common-wine-myths-explained",
+      "route": "/common-wine-myths-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "currency-creek-wine-region",
+      "route": "/currency-creek-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "decanter-shapes-explained",
+      "route": "/decanter-shapes-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "do-wine-aerators-work",
+      "route": "/do-wine-aerators-work/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "does-wine-go-off",
+      "route": "/does-wine-go-off/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "dolcetto",
+      "route": "/dolcetto/",
+      "section": "grapes",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "dry-creek-valley",
+      "route": "/dry-creek-valley/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "exclusive-release-wine-explained",
+      "route": "/exclusive-release-wine-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "franciacorta",
+      "route": "/franciacorta/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "franconia-wine-region",
+      "route": "/franconia-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "gattinara",
+      "route": "/gattinara/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "graves-wine-region",
+      "route": "/graves-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "hand-picked-vs-machine-harvested-grapes",
+      "route": "/hand-picked-vs-machine-harvested-grapes/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "haut-medoc",
+      "route": "/haut-medoc/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "henty-wine-region",
+      "route": "/henty-wine-region/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-alcohol-is-removed-from-wine",
+      "route": "/how-alcohol-is-removed-from-wine/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-blind-tasting-competitions-work",
+      "route": "/how-blind-tasting-competitions-work/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-bushfires-affect-wine",
+      "route": "/how-bushfires-affect-wine/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-corkage-works",
+      "route": "/how-corkage-works/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-designated-driver-wine-tasting-works",
+      "route": "/how-designated-driver-wine-tasting-works/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-frost-affects-vineyards",
+      "route": "/how-frost-affects-vineyards/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-grapes-are-harvested",
+      "route": "/how-grapes-are-harvested/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-hail-affects-vineyards",
+      "route": "/how-hail-affects-vineyards/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-heat-damages-wine",
+      "route": "/how-heat-damages-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-light-damages-wine",
+      "route": "/how-light-damages-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-long-does-opened-red-wine-last",
+      "route": "/how-long-does-opened-red-wine-last/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-long-does-opened-sparkling-wine-last",
+      "route": "/how-long-does-opened-sparkling-wine-last/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-long-does-opened-white-wine-last",
+      "route": "/how-long-does-opened-white-wine-last/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-long-should-wine-breathe",
+      "route": "/how-long-should-wine-breathe/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-low-alcohol-wine-is-made",
+      "route": "/how-low-alcohol-wine-is-made/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-much-should-you-spend-on-wine",
+      "route": "/how-much-should-you-spend-on-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-non-alcoholic-wine-is-made",
+      "route": "/how-non-alcoholic-wine-is-made/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-restaurant-wine-markups-work",
+      "route": "/how-restaurant-wine-markups-work/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-build-a-mixed-wine-case",
+      "route": "/how-to-build-a-mixed-wine-case/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-buy-wine-at-auction",
+      "route": "/how-to-buy-wine-at-auction/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-buy-wine-for-immediate-drinking",
+      "route": "/how-to-buy-wine-for-immediate-drinking/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-an-everyday-red-wine",
+      "route": "/how-to-choose-an-everyday-red-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-an-everyday-white-wine",
+      "route": "/how-to-choose-an-everyday-white-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-dessert-wine",
+      "route": "/how-to-choose-dessert-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-rose",
+      "route": "/how-to-choose-rose/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-sparkling-wine",
+      "route": "/how-to-choose-sparkling-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-by-alcohol-level",
+      "route": "/how-to-choose-wine-by-alcohol-level/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-by-body",
+      "route": "/how-to-choose-wine-by-body/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-by-sweetness",
+      "route": "/how-to-choose-wine-by-sweetness/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-for-a-dinner-party",
+      "route": "/how-to-choose-wine-for-a-dinner-party/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-for-a-mixed-crowd",
+      "route": "/how-to-choose-wine-for-a-mixed-crowd/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-for-ageing",
+      "route": "/how-to-choose-wine-for-ageing/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-choose-wine-for-cooking",
+      "route": "/how-to-choose-wine-for-cooking/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-compare-two-bottles-of-wine",
+      "route": "/how-to-compare-two-bottles-of-wine/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-develop-your-palate",
+      "route": "/how-to-develop-your-palate/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-host-a-blind-wine-tasting",
+      "route": "/how-to-host-a-blind-wine-tasting/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-open-an-old-bottle-of-wine",
+      "route": "/how-to-open-an-old-bottle-of-wine/",
+      "section": "winemaking",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-order-wine-by-the-glass",
+      "route": "/how-to-order-wine-by-the-glass/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pack-wine-for-travel",
+      "route": "/how-to-pack-wine-for-travel/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-plan-a-wine-tasting-at-home",
+      "route": "/how-to-plan-a-wine-tasting-at-home/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-plan-an-australian-wine-region-weekend",
+      "route": "/how-to-plan-an-australian-wine-region-weekend/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pour-wine-properly",
+      "route": "/how-to-pour-wine-properly/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pronounce-common-wine-grapes",
+      "route": "/how-to-pronounce-common-wine-grapes/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pronounce-french-wine-regions",
+      "route": "/how-to-pronounce-french-wine-regions/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pronounce-italian-wine-names",
+      "route": "/how-to-pronounce-italian-wine-names/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-pronounce-spanish-wine-names",
+      "route": "/how-to-pronounce-spanish-wine-names/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-remember-wines-you-liked",
+      "route": "/how-to-remember-wines-you-liked/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-remove-wine-sediment",
+      "route": "/how-to-remove-wine-sediment/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-send-wine-back-at-a-restaurant",
+      "route": "/how-to-send-wine-back-at-a-restaurant/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-serve-aged-wine",
+      "route": "/how-to-serve-aged-wine/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-serve-wine-without-a-corkscrew",
+      "route": "/how-to-serve-wine-without-a-corkscrew/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-spit-wine-at-a-tasting",
+      "route": "/how-to-spit-wine-at-a-tasting/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-spot-misleading-wine-marketing",
+      "route": "/how-to-spot-misleading-wine-marketing/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-take-useful-wine-tasting-notes",
+      "route": "/how-to-take-useful-wine-tasting-notes/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-taste-wine-at-a-cellar-door",
+      "route": "/how-to-taste-wine-at-a-cellar-door/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-taste-wine-without-feeling-intimidated",
+      "route": "/how-to-taste-wine-without-feeling-intimidated/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-tell-if-wine-is-still-drinkable",
+      "route": "/how-to-tell-if-wine-is-still-drinkable/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-to-track-wine-in-your-cellar",
+      "route": "/how-to-track-wine-in-your-cellar/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-vibration-affects-wine-storage",
+      "route": "/how-vibration-affects-wine-storage/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-wine-judging-works",
+      "route": "/how-wine-judging-works/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-wine-medals-work",
+      "route": "/how-wine-medals-work/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "how-wine-subscriptions-work",
+      "route": "/how-wine-subscriptions-work/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "is-expensive-wine-worth-it",
+      "route": "/is-expensive-wine-worth-it/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "jumilla",
+      "route": "/jumilla/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "kamptal",
+      "route": "/kamptal/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "limited-release-wine-explained",
+      "route": "/limited-release-wine-explained/",
+      "section": "fundamentals",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "lujan-de-cuyo",
+      "route": "/lujan-de-cuyo/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "malbec-vs-shiraz",
+      "route": "/malbec-vs-shiraz/",
+      "section": "grapes",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "mclaren-vale-geology",
+      "route": "/mclaren-vale-geology/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "merlot-vs-pinot-noir",
+      "route": "/merlot-vs-pinot-noir/",
+      "section": "grapes",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "morellino-di-scansano",
+      "route": "/morellino-di-scansano/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    },
+    {
+      "slug": "napa-valley-sub-appellations",
+      "route": "/napa-valley-sub-appellations/",
+      "section": "regions",
+      "outbound": 0,
+      "inbound": 0
+    }
+  ],
+  "broken": []
+}

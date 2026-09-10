@@ -120,7 +120,7 @@ Gippsland belongs broadly to Victoria’s cooler, maritime-influenced group, but
 
 Compared with better-known Victorian regions such as the Yarra Valley and Mornington Peninsula, Gippsland is less densely planted and more geographically dispersed. Its wines are best understood through individual localities and producers rather than through one universally recognised style.
 
-You can compare it with [the Yarra Valley](/regions/yarra-valley.html) and [Mornington Peninsula](/regions/mornington-peninsula.html), or explore the wider [regions collection](/regions/).
+You can compare it with [the Yarra Valley](/yarra-valley-wine-region/) and [Mornington Peninsula](/mornington-peninsula-wine-region/), or explore the wider [regions collection](/regions/).
 
 ## What does “Gippsland” on a wine label mean?
 

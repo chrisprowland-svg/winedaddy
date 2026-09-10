@@ -109,7 +109,7 @@ These are broad regional tendencies, not promises made by the GI:
 - **Chardonnay:** fresh to concentrated, in still or sparkling styles.
 - **Cabernet Sauvignon:** blackcurrant, structure and tannin in suitable sites.
 
-Oak can change the aroma, texture and structure of any of these wines. It is one reason two wines from the same region and variety may taste very different. See [What does oak do to wine?](/winemaking/oak.html).
+Oak can change the aroma, texture and structure of any of these wines. It is one reason two wines from the same region and variety may taste very different. See [What does oak do to wine?](/what-does-oak-do-to-wine/).
 
 ## A short history of Geelong wine
 
@@ -125,7 +125,7 @@ Geelong, the Yarra Valley and Mornington Peninsula are all Victorian regions whe
 
 Geelong’s large GI includes coastal and inland areas west of Port Phillip Bay. The Mornington Peninsula is strongly shaped by its peninsula geography and maritime setting, while the Yarra Valley contains a range of valley, slope and elevation environments. Comparing them can help you understand Victorian wine, but regional labels do not rank one area above another.
 
-A useful approach is to compare the same variety across regions. Try Geelong Pinot Noir beside a [Yarra Valley wine](/regions/yarra-valley.html) or a [Mornington Peninsula wine](/regions/mornington-peninsula.html), then notice differences in fruit, freshness, body and tannin. There is no single correct reaction.
+A useful approach is to compare the same variety across regions. Try Geelong Pinot Noir beside a [Yarra Valley wine](/yarra-valley-wine-region/) or a [Mornington Peninsula wine](/mornington-peninsula-wine-region/), then notice differences in fruit, freshness, body and tannin. There is no single correct reaction.
 
 ## Buying, serving and tasting a Geelong wine
 

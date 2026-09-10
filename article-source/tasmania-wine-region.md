@@ -111,7 +111,7 @@ Chardonnay is important as both a still wine and a sparkling-wine grape. Tasmani
 
 Some examples are restrained and mineral-feeling; others are broader or more textured because of harvest timing, oak, lees work, site and producer decisions. The regional label does not tell you whether a Chardonnay is unoaked, buttery, heavily oaked or designed for ageing.
 
-You can learn more about the variety in [what is Chardonnay?](/what-is-chardonnay/). For oak terminology, see [what oak does to wine](/winemaking/oak.html).
+You can learn more about the variety in [what is Chardonnay?](/what-is-chardonnay/). For oak terminology, see [what oak does to wine](/what-does-oak-do-to-wine/).
 
 ### Riesling
 
@@ -210,5 +210,5 @@ Cool growing conditions can help preserve the acidity and structure needed for s
 - [What is Pinot Noir?](/what-is-pinot-noir/)
 - [What is Chardonnay?](/what-is-chardonnay/)
 - [What is Pinot Gris / Pinot Grigio?](/what-is-pinot-gris-pinot-grigio/)
-- [Yarra Valley wine region](/regions/yarra-valley.html)
-- [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
+- [Yarra Valley wine region](/yarra-valley-wine-region/)
+- [Mornington Peninsula wine region](/mornington-peninsula-wine-region/)

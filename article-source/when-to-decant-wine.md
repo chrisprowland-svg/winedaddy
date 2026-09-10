@@ -1,7 +1,7 @@
 ---
 title: "When Should Wine Be Decanted?"
 description: "Learn when decanting helps wine, when it is unnecessary, and how to decant around sediment without relying on rigid timing rules."
-canonical: "https://winedaddy.com.au/when-should-wine-be-decanted/"
+canonical: "https://winedaddy.com.au/when-to-decant-wine/"
 article_type: "Educational Guide"
 ---
 

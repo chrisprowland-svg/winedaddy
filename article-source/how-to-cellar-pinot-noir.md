@@ -55,7 +55,7 @@ A standard kitchen refrigerator is useful for chilling Pinot Noir before serving
 
 A kitchen fridge is generally colder than typical cellar guidance, is opened frequently and may be dry, crowded or exposed to food odours and vibration. Its shelves may also not safely accommodate bottles stored on their side.
 
-For a bottle intended to mature over years, prioritise stable conditions rather than simply making the wine as cold as possible. For opened-bottle advice, see [how to store an open bottle of wine](https://winedaddy.com.au/how-to-store-an-open-bottle-of-wine/) when you are deciding whether that page is the better fit for your situation.
+For a bottle intended to mature over years, prioritise stable conditions rather than simply making the wine as cold as possible. For opened-bottle advice, see [how to store an open bottle of wine](https://winedaddy.com.au/how-to-store-open-wine/) when you are deciding whether that page is the better fit for your situation.
 
 ## How Should the Bottle Be Positioned?
 

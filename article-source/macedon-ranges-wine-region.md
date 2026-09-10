@@ -114,7 +114,7 @@ Macedon Ranges is sometimes discussed alongside the Yarra Valley and Mornington 
 
 The comparison should remain broad. Macedon Ranges is particularly defined by its elevated, mountainous setting and marked site variation. The Yarra Valley contains a wider range of landscapes and growing conditions, while the Mornington Peninsula is influenced by its maritime position. Those broad differences help explain why cool-climate Victorian wines do not all taste alike.
 
-Explore the [Yarra Valley](https://winedaddy.com.au/regions/yarra-valley.html) and [Mornington Peninsula](https://winedaddy.com.au/regions/mornington-peninsula.html) guides for those regions’ own identities.
+Explore the [Yarra Valley](/yarra-valley-wine-region/) and [Mornington Peninsula](/mornington-peninsula-wine-region/) guides for those regions’ own identities.
 
 ## How to read a Macedon Ranges wine label
 

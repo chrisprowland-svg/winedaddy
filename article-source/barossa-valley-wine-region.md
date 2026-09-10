@@ -150,7 +150,7 @@ When tasting, ask three simple questions:
 
 A substantial Barossa red may benefit from being served slightly below room temperature and given some air, but not every bottle needs extended decanting. Storage, producer, vintage and wine style matter.
 
-For more on the winemaking choices that can shape regional wine, read [how wine is made](https://winedaddy.com.au/how-wine-is-made/) and [what oak does to wine](https://winedaddy.com.au/winemaking/oak.html).
+For more on the winemaking choices that can shape regional wine, read [how wine is made](https://winedaddy.com.au/how-wine-is-made/) and [what oak does to wine](/what-does-oak-do-to-wine/).
 
 ## Frequently asked questions
 

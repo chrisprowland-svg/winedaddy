@@ -142,4 +142,4 @@ The main lesson is that Sauvignon Blanc is a grape with a recognisable personali
 - [Red wine vs white wine](/red-wine-vs-white-wine/)
 - [Explore grape varieties](/grapes/)
 - [Explore Australian wine regions](/regions/)
-- [What does oak do to wine?](/winemaking/oak.html)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)

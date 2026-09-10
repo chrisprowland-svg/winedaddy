@@ -100,7 +100,7 @@ These terms are easy to mix up:
 
 A winemaker may use two or all three techniques in the same wine. A buttery or creamy wine does not therefore point to one process by itself.
 
-For broader context, see [how wine is made](/how-wine-is-made/), [what Chardonnay is](/what-is-chardonnay/) and [what oak does to wine](/winemaking/oak.html).
+For broader context, see [how wine is made](/how-wine-is-made/), [what Chardonnay is](/what-is-chardonnay/) and [what oak does to wine](/what-does-oak-do-to-wine/).
 
 ## Is malolactic fermentation good or bad?
 
@@ -146,5 +146,5 @@ Yes. It can occur through bacteria already present in the winery or wine, or it 
 - [What is Chardonnay?](/what-is-chardonnay/)
 - [What is Pinot Noir?](/what-is-pinot-noir/)
 - [What is Shiraz?](/what-is-shiraz/)
-- [What does oak do to wine?](/winemaking/oak.html)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)
 - [Winemaking](/winemaking/)

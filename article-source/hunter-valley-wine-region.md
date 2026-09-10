@@ -165,5 +165,5 @@ Suitable examples can age well, but not every bottle needs ageing and not every 
 - [What is Shiraz?](/what-is-shiraz/)
 - [What is Chardonnay?](/what-is-chardonnay/)
 - [How wine is made](/how-wine-is-made/)
-- [What does oak do to wine?](/winemaking/oak.html)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)
 - [Explore grape varieties](/grapes/)

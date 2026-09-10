@@ -14,6 +14,10 @@ if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('s
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 for (const article of manifest.articles) {
+  const source = fs.readFileSync(path.join(root, article.source), 'utf8');
+  for (const route of sourceInternalRoutes(source)) {
+    if (!routeExists(route)) errors.push(`${article.slug}: broken source link ${route}`);
+  }
   const file = article.route.endsWith('/') ? path.join(root, article.route.slice(1), 'index.html') : path.join(root, article.route.slice(1));
   if (!fs.existsSync(file)) { errors.push(`${article.slug}: page missing`); continue; }
   const html = fs.readFileSync(file, 'utf8');
@@ -41,4 +45,19 @@ if (Buffer.byteLength(JSON.stringify(search)) > 500_000) errors.push('search ind
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 console.log(`Site QA passed: ${manifest.articles.length} articles, 4 hubs, ${sitemapUrls.length} unique sitemap URLs.`);
 function routeExists(route) { if (expectedRoutes.has(route)) return true; return route.endsWith('/') ? fs.existsSync(path.join(root, route.slice(1), 'index.html')) : fs.existsSync(path.join(root, route.slice(1))); }
+function sourceInternalRoutes(source) {
+  const routes = [];
+  const patterns = [
+    /\[[^\]]*\]\((\/[^)#?\s]+)(?:#[^)]*)?\)/g,
+    /href=["'](\/[^"'#?\s]+)/g,
+    /(?:https?:\/\/)?(?:www\.)?winedaddy\.com\.au(\/[^)#?\s"']+)/g
+  ];
+  for (const pattern of patterns) {
+    for (const match of source.matchAll(pattern)) {
+      const route = match[1];
+      if (!route.startsWith('/assets/')) routes.push(route);
+    }
+  }
+  return [...new Set(routes)];
+}
 function check(html, pattern, slug, message) { if (!pattern.test(html)) errors.push(`${slug}: ${message}`); }
