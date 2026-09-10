@@ -17,7 +17,7 @@ if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('s
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
 const expectedEntityCount = manifest.articles.length + 4;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
@@ -31,6 +31,29 @@ for (const relationship of relationshipRegistry.relationships) {
   if (relationship.from === relationship.to) errors.push(`self relationship is not allowed: ${relationship.from}`);
   if (!allowedPredicates.has(relationship.predicate)) errors.push(`relationship predicate is not governed: ${relationship.predicate}`);
   if (!relationship.evidence) errors.push(`relationship evidence missing: ${relationship.from} -> ${relationship.to}`);
+}
+const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
+const geographySlugs = new Set();
+if (geography.places.length < 50 || geography.places.length > 100) errors.push(`geography pilot expected 50-100 places; found ${geography.places.length}`);
+for (const place of geography.places) {
+  if (geographySlugs.has(place.slug)) errors.push(`duplicate geography slug: ${place.slug}`);
+  geographySlugs.add(place.slug);
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${place.slug}/`);
+  if (!entity) { errors.push(`geography entity missing: ${place.slug}`); continue; }
+  if (entity.geographyKind !== place.kind) errors.push(`geography kind missing: ${place.slug}`);
+  const renderedPage = fs.readFileSync(path.join(root, place.slug, 'index.html'), 'utf8');
+  if (!renderedPage.includes('data-geography-hierarchy')) errors.push(`geography hierarchy not rendered: ${place.slug}`);
+  if (!renderedPage.includes(`<strong>${escapeHtml(place.label)}</strong>`)) errors.push(`geography label not rendered: ${place.slug}`);
+  if (!renderedPage.includes(`"@type":"Place","name":"${place.label.replaceAll('"', '\\"')}"`)) errors.push(`geography Place schema missing: ${place.slug}`);
+  if (place.kind === 'informal_growing_area' && !renderedPage.includes('not shown here as a separately registered Australian GI')) errors.push(`informal geography qualifier missing: ${place.slug}`);
+  if (!place.parent) continue;
+  const parent = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${place.parent}/`);
+  if (!parent) { errors.push(`geography parent missing: ${place.parent}`); continue; }
+  const forward = relationshipRegistry.relationships.some(item => item.from === entity.id && item.predicate === 'located_in' && item.to === parent.id);
+  const inverse = relationshipRegistry.relationships.some(item => item.from === parent.id && item.predicate === 'contains' && item.to === entity.id);
+  if (!forward || !inverse) errors.push(`geography relationship pair missing: ${place.slug} -> ${place.parent}`);
+  const evidence = place.evidence || 'wine_australia_gi_hierarchy';
+  if (!geography.evidenceCatalog[evidence]) errors.push(`geography evidence is not governed: ${place.slug} (${evidence})`);
 }
 const editorialDegree = new Map(entityRegistry.entities.map(entity => [entity.id, 0]));
 for (const relationship of relationshipRegistry.relationships) {
@@ -55,6 +78,8 @@ for (const article of manifest.articles) {
   if (entity && !relationshipRegistry.relationships.some(relationship => relationship.from === entity.id && relationship.predicate === 'member_of' && relationship.to === collectionId)) errors.push(`${article.slug}: collection membership missing`);
 }
 const publicGraph = JSON.parse(fs.readFileSync(path.join(root, 'knowledge-graph.json'), 'utf8'));
+if (entityRegistry.version !== 2 || relationshipRegistry.version !== 2 || publicGraph.version !== 2) errors.push('Knowledge Graph v2 version marker missing');
+if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) errors.push('Knowledge Graph v2 predicate context missing');
 if (publicGraph.entities.length !== entityRegistry.entities.length) errors.push('public knowledge graph entity count is stale');
 if (publicGraph.relationships.length !== relationshipRegistry.relationships.length) errors.push('public knowledge graph relationship count is stale');
 for (const article of manifest.articles) {

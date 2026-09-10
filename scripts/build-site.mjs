@@ -7,7 +7,17 @@ import {renderVisualComponents} from '../site/visual-components.mjs';
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/recommendations.json'), 'utf8'));
+const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
+const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const recommendationsByRoute = new Map(recommendationRegistry.recommendations.map(recommendation => [recommendation.article, recommendation.items]));
+const entitiesById = new Map(entityRegistry.entities.map(entity => [entity.id, entity]));
+const entitiesByRoute = new Map(entityRegistry.entities.map(entity => [entity.canonicalArticle, entity]));
+const parentsById = new Map();
+const childrenById = new Map();
+for (const relationship of relationshipRegistry.relationships) {
+  if (relationship.predicate === 'located_in') parentsById.set(relationship.from, relationship.to);
+  if (relationship.predicate === 'contains') childrenById.set(relationship.from, [...(childrenById.get(relationship.from) || []), relationship.to]);
+}
 const seenSlugs = new Set();
 const searchEntries = [];
 for (const article of manifest.articles) {
@@ -19,11 +29,15 @@ for (const article of manifest.articles) {
   validateSource(article.slug, source);
   const body = article.source.endsWith('.md') ? renderMarkdown(source) : source;
   const related = renderRecommendations(recommendationsByRoute.get(article.route));
+  const geography = geographyModel(entitiesByRoute.get(article.route));
+  const geographyPanel = renderGeography(geography);
   const section = sections[article.section];
   const canonicalPath = article.route;
-  const schema = {'@context':'https://schema.org','@graph':[{'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${SITE_URL}/`},{'@type':'ListItem',position:2,name:section.name,item:`${SITE_URL}/${article.section}/`},{'@type':'ListItem',position:3,name:article.title,item:`${SITE_URL}${canonicalPath}`}]}]};
+  const articleSchema = {'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}};
+  if (geography) articleSchema.about = placeSchema(geography);
+  const schema = {'@context':'https://schema.org','@graph':[articleSchema,{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${SITE_URL}/`},{'@type':'ListItem',position:2,name:section.name,item:`${SITE_URL}/${article.section}/`},{'@type':'ListItem',position:3,name:article.title,item:`${SITE_URL}${canonicalPath}`}]}]};
   const heroTitle = source.match(/^#\s+(.+)$/m)?.[1] || article.title;
-  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}${related}</article></main>`});
+  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
@@ -46,3 +60,31 @@ function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/
 function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
+function geographyModel(entity) {
+  if (!entity?.geographyKind) return null;
+  const ancestors = [];
+  const seen = new Set([entity.id]);
+  let parentId = parentsById.get(entity.id);
+  while (parentId) {
+    if (seen.has(parentId)) throw new Error(`geography cycle detected at ${entity.id}`);
+    seen.add(parentId);
+    const parent = entitiesById.get(parentId);
+    if (!parent) throw new Error(`geography parent entity missing: ${parentId}`);
+    ancestors.unshift(parent);
+    parentId = parentsById.get(parentId);
+  }
+  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
+  return {entity, ancestors, children};
+}
+function renderGeography(model) {
+  if (!model) return '';
+  const path = [...model.ancestors, model.entity].map((entity, index, all) => index === all.length - 1 ? `<strong>${escapeHtml(entity.name)}</strong>` : `<a href="${entity.canonicalArticle}">${escapeHtml(entity.name)}</a>`).join('<span aria-hidden="true">›</span>');
+  const children = model.children.length ? `<div class="geography-children"><p>${model.entity.geographyKind === 'country' || model.entity.geographyKind === 'state_or_territory' ? 'Explore within this place' : 'Explore contained wine regions'}</p><div>${model.children.map(child => `<a href="${child.canonicalArticle}">${escapeHtml(child.name)}</a>`).join('')}</div></div>` : '';
+  const qualifier = model.entity.geographyKind === 'informal_growing_area' ? '<p class="geography-note">Commonly used growing-area name; not shown here as a separately registered Australian GI.</p>' : '';
+  return `<aside class="geography-panel" data-geography-hierarchy aria-labelledby="wine-geography-title"><p class="kicker">Knowledge Graph v2</p><h2 id="wine-geography-title">Wine geography</h2><nav class="geography-path" aria-label="Wine geography hierarchy">${path}</nav>${children}${qualifier}</aside>`;
+}
+function placeSchema(model) {
+  let containedInPlace;
+  for (const entity of model.ancestors) containedInPlace = {'@type':'Place',name:entity.name,url:`${SITE_URL}${entity.canonicalArticle}`,...(containedInPlace ? {containedInPlace} : {})};
+  return {'@type':'Place',name:model.entity.name,url:`${SITE_URL}${model.entity.canonicalArticle}`,...(containedInPlace ? {containedInPlace} : {})};
+}

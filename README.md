@@ -14,6 +14,8 @@ WineDaddy is a static Cloudflare Pages site generated from one content manifest 
 - `scripts/build-knowledge-graph.mjs` deterministically rebuilds the entity and relationship registries from approved content.
 
 Knowledge Graph v1 uses governed predicates: `member_of` for canonical collection membership and `editorially_related_to` for relationships evidenced by an approved reader-facing link. More specific factual predicates require explicit enrichment rather than automatic inference.
+
+Knowledge Graph v2 begins with a controlled Australian geography pilot in `content/knowledge/australian-geography.json`. It adds reviewed `located_in` / `contains` pairs for 50–100 canonical place entities, records their evidence class, renders the hierarchy on affected articles, and publishes nested Schema.org `Place` data. Informal Tasmanian growing areas are explicitly labelled and are never represented as separately registered GIs. These factual relationships are curated; the build must not infer them from titles or descriptions.
 - `scripts/qa-site.mjs` checks every generated route, canonical, link, heading, analytics tag, schema block, hub entry, search entry, and sitemap entry.
 - `workers/page-qa/` contains the deployed remote QA Worker used against protected branch previews before human review.
 
