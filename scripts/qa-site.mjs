@@ -5,6 +5,7 @@ const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
 const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
+const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/recommendations.json'), 'utf8'));
 const errors = [];
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
@@ -16,7 +17,7 @@ if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('s
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
 const expectedEntityCount = manifest.articles.length + 4;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
@@ -30,6 +31,23 @@ for (const relationship of relationshipRegistry.relationships) {
   if (relationship.from === relationship.to) errors.push(`self relationship is not allowed: ${relationship.from}`);
   if (!allowedPredicates.has(relationship.predicate)) errors.push(`relationship predicate is not governed: ${relationship.predicate}`);
   if (!relationship.evidence) errors.push(`relationship evidence missing: ${relationship.from} -> ${relationship.to}`);
+}
+const editorialDegree = new Map(entityRegistry.entities.map(entity => [entity.id, 0]));
+for (const relationship of relationshipRegistry.relationships) {
+  if (relationship.predicate !== 'editorially_related_to') continue;
+  editorialDegree.set(relationship.from, (editorialDegree.get(relationship.from) || 0) + 1);
+  editorialDegree.set(relationship.to, (editorialDegree.get(relationship.to) || 0) + 1);
+}
+const isolatedEntities = entityRegistry.entities.filter(entity => entity.type !== 'knowledge_collection' && editorialDegree.get(entity.id) === 0);
+if (recommendationRegistry.recommendations.length !== isolatedEntities.length) errors.push(`recommendation coverage expected ${isolatedEntities.length}; found ${recommendationRegistry.recommendations.length}`);
+for (const recommendation of recommendationRegistry.recommendations) {
+  if (!entityIds.has(recommendation.entityId)) errors.push(`recommendation source missing: ${recommendation.entityId}`);
+  if (recommendation.items.length < 1 || recommendation.items.length > 3) errors.push(`recommendation set expected 1-3 items: ${recommendation.entityId}`);
+  if (new Set(recommendation.items.map(item => item.entityId)).size !== recommendation.items.length) errors.push(`recommendation set contains duplicates: ${recommendation.entityId}`);
+  const page = recommendation.article.endsWith('/') ? path.join(root, recommendation.article.slice(1), 'index.html') : path.join(root, recommendation.article.slice(1));
+  const html = fs.readFileSync(page, 'utf8');
+  if ((html.match(/data-graph-related/g) || []).length !== recommendation.items.length) errors.push(`recommendation cards missing: ${recommendation.article}`);
+  for (const item of recommendation.items) if (!entityIds.has(item.entityId) || !expectedRoutes.has(item.route)) errors.push(`recommendation target invalid: ${item.entityId}`);
 }
 for (const article of manifest.articles) {
   const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
