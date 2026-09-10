@@ -10,6 +10,7 @@ const errors = [];
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
 for (const route of ['/australian-wine-regions/', '/new-south-wales-wine-regions/', '/victorian-wine-regions/', '/south-australian-wine-regions/', '/western-australian-wine-regions/', '/queensland-wine-regions/', '/tasmania-wine-region/', '/australian-capital-territory-wine-regions/']) if (!header.includes(`href="${route}"`)) errors.push(`region submenu missing ${route}`);
+for (const route of ['/france/', '/burgundy/', '/bordeaux/', '/champagne/', '/rhone-valley/', '/loire-valley/', '/alsace/']) if (!header.includes(`href="${route}"`)) errors.push(`French region submenu missing ${route}`);
 if (header.includes('href="/about.html"')) errors.push('About must remain footer-only');
 for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const html = fs.readFileSync(path.join(root, file), 'utf8'); if (!html.includes(header)) errors.push(`${file}: shared header is stale`); if (!html.includes(faviconHead())) errors.push(`${file}: favicon metadata is stale`); }
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
@@ -35,6 +36,7 @@ for (const relationship of relationshipRegistry.relationships) {
   if (!relationship.evidence) errors.push(`relationship evidence missing: ${relationship.from} -> ${relationship.to}`);
 }
 const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
+const franceGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/france-geography.json'), 'utf8'));
 const geographySlugs = new Set();
 if (geography.places.length < 80) errors.push(`Australian geography hierarchy expected at least 80 places; found ${geography.places.length}`);
 for (const place of geography.places) {
@@ -57,6 +59,23 @@ for (const place of geography.places) {
   if (!forward || !inverse) errors.push(`geography relationship pair missing: ${place.slug} -> ${place.parent}`);
   const evidence = place.evidence || 'wine_australia_gi_hierarchy';
   if (!geography.evidenceCatalog[evidence]) errors.push(`geography evidence is not governed: ${place.slug} (${evidence})`);
+}
+if (franceGeography.places.length < 50) errors.push(`French geography hierarchy expected at least 50 places; found ${franceGeography.places.length}`);
+const franceSlugs = new Set();
+for (const place of franceGeography.places) {
+  if (franceSlugs.has(place.slug)) errors.push(`duplicate French geography slug: ${place.slug}`);
+  franceSlugs.add(place.slug);
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${place.slug}/`);
+  if (!entity) { errors.push(`French geography entity missing: ${place.slug}`); continue; }
+  if (entity.geographyKind !== place.kind) errors.push(`French geography kind missing: ${place.slug}`);
+  const renderedPage = fs.readFileSync(path.join(root, place.slug, 'index.html'), 'utf8');
+  if (!renderedPage.includes('data-geography-hierarchy')) errors.push(`French geography hierarchy not rendered: ${place.slug}`);
+  if (renderedPage.includes('Knowledge Graph v2')) errors.push(`internal Knowledge Graph version leaked to reader: ${place.slug}`);
+  if (!place.parent) continue;
+  const parent = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${place.parent}/`);
+  const forward = relationshipRegistry.relationships.some(item => item.from === entity.id && item.predicate === 'located_in' && item.to === parent?.id);
+  const inverse = relationshipRegistry.relationships.some(item => item.from === parent?.id && item.predicate === 'contains' && item.to === entity.id);
+  if (!forward || !inverse) errors.push(`French geography relationship pair missing: ${place.slug} -> ${place.parent}`);
 }
 const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
 if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
@@ -92,7 +111,8 @@ if (entityRegistry.version !== 2 || relationshipRegistry.version !== 2 || public
 if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) errors.push('Knowledge Graph v2 predicate context missing');
 if (!publicGraph['@context'].grown_in || !publicGraph['@context'].known_for) errors.push('grape-region predicate context missing');
 const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
-for (const grape of grapeRegions.grapes) {
+const frenchGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/french-grape-regions.json'), 'utf8'));
+for (const grape of [...grapeRegions.grapes, ...frenchGrapeRegions.grapes]) {
   const grapeEntity = entityRegistry.entities.find(entity => entity.canonicalArticle === `/${grape.slug}/`);
   const grapePage = fs.readFileSync(path.join(root, grape.slug, 'index.html'), 'utf8');
   if (!grapePage.includes('Australian regions for this grape')) errors.push(`grape-region panel missing: ${grape.slug}`);

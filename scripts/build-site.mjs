@@ -105,6 +105,8 @@ function childGroupLabel(children) {
   if (kinds.size === 1 && kinds.has('informal_growing_area')) return 'Explore selected WineDaddy growing-area guides';
   if (kinds.size === 1 && kinds.has('wine_region')) return 'Explore wine regions';
   if (kinds.size === 1 && kinds.has('wine_zone')) return 'Explore wine zones';
+  if (kinds.size === 1 && kinds.has('wine_subregion')) return 'Explore wine subregions';
+  if (kinds.size === 1 && kinds.has('appellation')) return 'Explore appellations';
   if (kinds.size === 1 && kinds.has('state_or_territory')) return 'Explore states and territories';
   return 'Explore within this place';
 }

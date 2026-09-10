@@ -4,8 +4,9 @@ import {cardTitle, sections} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
-const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
-const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
+const geographies = ['australian-geography.json', 'france-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const geography = {places: geographies.flatMap(item => item.places)};
+const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const typeBySection = {
   fundamentals: 'wine_concept',
   grapes: 'grape_variety',
@@ -36,7 +37,7 @@ const topicEntities = manifest.articles.map(article => {
     description: article.description,
     canonicalArticle: article.route,
     section: article.section,
-    ...(place ? {geographyKind: place.kind, geographyPilot: geography.scope} : {})
+    ...(place ? {geographyKind: place.kind} : {})
   };
 });
 const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
@@ -68,17 +69,17 @@ for (const article of manifest.articles) {
     addRelationship({from, predicate: 'editorially_related_to', to, evidence: 'editorial_link'});
   }
 }
-for (const place of geography.places) {
+for (const geographySet of geographies) for (const place of geographySet.places) {
   const article = manifest.articles.find(candidate => candidate.slug === place.slug);
   if (!article) throw new Error(`Australian geography entity has no canonical article: ${place.slug}`);
   if (!place.parent) continue;
   const parent = manifest.articles.find(candidate => candidate.slug === place.parent);
   if (!parent) throw new Error(`Australian geography parent has no canonical article: ${place.parent}`);
-  const evidence = place.evidence || 'wine_australia_gi_hierarchy';
+  const evidence = place.evidence || Object.keys(geographySet.evidenceCatalog)[0];
   addRelationship({from: entityId(article), predicate: 'located_in', to: entityId(parent), evidence});
   addRelationship({from: entityId(parent), predicate: 'contains', to: entityId(article), evidence});
 }
-for (const grape of grapeRegions.grapes) {
+for (const grapeRegions of grapeRegionSets) for (const grape of grapeRegions.grapes) {
   const grapeArticle = articleBySlug.get(grape.slug);
   if (!grapeArticle || grapeArticle.section !== 'grapes') throw new Error(`Australian grape entity missing: ${grape.slug}`);
   for (const regionSlug of grape.regions) {
