@@ -4,6 +4,7 @@ import {cardTitle, sections} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
+const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
 const typeBySection = {
   fundamentals: 'wine_concept',
   grapes: 'grape_variety',
@@ -24,15 +25,21 @@ const collectionEntities = Object.entries(sections).map(([section, value]) => ({
   canonicalArticle: `/${section}/`,
   section
 }));
-const topicEntities = manifest.articles.map(article => ({
-  id: entityId(article),
-  type: typeBySection[article.section],
-  name: cardTitle(article),
-  description: article.description,
-  canonicalArticle: article.route,
-  section: article.section
-}));
+const geographyBySlug = new Map(geography.places.map(place => [place.slug, place]));
+const topicEntities = manifest.articles.map(article => {
+  const place = geographyBySlug.get(article.slug);
+  return {
+    id: entityId(article),
+    type: typeBySection[article.section],
+    name: place?.label || cardTitle(article),
+    description: article.description,
+    canonicalArticle: article.route,
+    section: article.section,
+    ...(place ? {geographyKind: place.kind, geographyPilot: geography.scope} : {})
+  };
+});
 const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
+const articleBySlug = new Map(manifest.articles.map(article => [article.slug, article]));
 const entities = [...collectionEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 const stopwords = new Set('a an and are as at australia australian be beginner beginners by can context does dry explained for from grape grapes guide how in into is it its known learn made of on or principal red region regions style styles taste tastes the their this to variety varieties vs what when where which white why wine wines with without your'.split(' '));
 const documentFrequency = new Map();
@@ -42,7 +49,6 @@ for (const article of manifest.articles) {
   termsBySlug.set(article.slug, terms);
   for (const term of terms) documentFrequency.set(term, (documentFrequency.get(term) || 0) + 1);
 }
-
 const relationshipKeys = new Set();
 const relationships = [];
 for (const article of manifest.articles) {
@@ -61,6 +67,16 @@ for (const article of manifest.articles) {
     addRelationship({from, predicate: 'editorially_related_to', to, evidence: 'editorial_link'});
   }
 }
+for (const place of geography.places) {
+  const article = manifest.articles.find(candidate => candidate.slug === place.slug);
+  if (!article) throw new Error(`Australian geography entity has no canonical article: ${place.slug}`);
+  if (!place.parent) continue;
+  const parent = manifest.articles.find(candidate => candidate.slug === place.parent);
+  if (!parent) throw new Error(`Australian geography parent has no canonical article: ${place.parent}`);
+  const evidence = place.evidence || 'wine_australia_gi_hierarchy';
+  addRelationship({from: entityId(article), predicate: 'located_in', to: entityId(parent), evidence});
+  addRelationship({from: entityId(parent), predicate: 'contains', to: entityId(article), evidence});
+}
 const editorialDegree = new Map(topicEntities.map(entity => [entity.id, 0]));
 const editorialNeighbourScores = new Map(topicEntities.map(entity => [entity.id, new Map()]));
 for (const relationship of relationships) {
@@ -73,8 +89,10 @@ for (const relationship of relationships) {
 const recommendations = [];
 for (const article of manifest.articles) {
   const from = entityId(article);
-  const editorialItems = [...editorialNeighbourScores.get(from)].map(([targetId, directionScore]) => ({article: articleByEntityId.get(targetId), directionScore})).filter(candidate => candidate.article).sort((a, b) => b.directionScore - a.directionScore || cardTitle(a.article).localeCompare(cardTitle(b.article))).slice(0, 2).map(({article: target}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'editorial_link'}));
-  const items = [...editorialItems];
+  const priorityItems = (geographyBySlug.get(article.slug)?.recommendationPriority || []).map(slug => articleBySlug.get(slug)).filter(Boolean).slice(0,2).map(target => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'reviewed_priority'}));
+  const priorityIds = new Set(priorityItems.map(item => item.entityId));
+  const editorialItems = [...editorialNeighbourScores.get(from)].map(([targetId, directionScore]) => ({article: articleByEntityId.get(targetId), directionScore})).filter(candidate => candidate.article && !priorityIds.has(entityId(candidate.article))).sort((a, b) => b.directionScore - a.directionScore || cardTitle(a.article).localeCompare(cardTitle(b.article))).slice(0, 2 - priorityItems.length).map(({article: target}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'editorial_link'}));
+  const items = [...priorityItems, ...editorialItems];
   if (!items.length) items.push(...rankedNeighbours(article).filter(candidate => candidate.titleOverlap ? candidate.score >= 5 : candidate.score >= 25).slice(0, 2).map(({article: target, score}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: Number(score.toFixed(4)), evidence: 'lexical_cluster'})));
   const collection = collectionEntities.find(entity => entity.section === article.section);
   items.push({entityId: collection.id, route: collection.canonicalArticle, title: `Explore ${collection.name}`, description: collection.description, score: 0, evidence: 'canonical_section'});
@@ -83,8 +101,8 @@ for (const article of manifest.articles) {
 }
 relationships.sort((a, b) => `${a.from}|${a.to}`.localeCompare(`${b.from}|${b.to}`));
 
-const entityRegistry = {version: 1, entities};
-const relationshipRegistry = {version: 1, relationships};
+const entityRegistry = {version: 2, entities};
+const relationshipRegistry = {version: 2, relationships};
 const publicGraph = {
   '@context': {
     name: 'https://schema.org/name',
@@ -92,9 +110,11 @@ const publicGraph = {
     canonicalArticle: 'https://schema.org/mainEntityOfPage',
     editorially_related_to: 'https://schema.org/relatedLink',
     member_of: 'https://schema.org/isPartOf',
-    recommended_next: 'https://schema.org/relatedLink'
+    recommended_next: 'https://schema.org/relatedLink',
+    located_in: 'https://schema.org/containedInPlace',
+    contains: 'https://schema.org/containsPlace'
   },
-  version: 1,
+  version: 2,
   entities,
   relationships
 };
