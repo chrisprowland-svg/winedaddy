@@ -35,7 +35,7 @@ for (const relationship of relationshipRegistry.relationships) {
 }
 const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
 const geographySlugs = new Set();
-if (geography.places.length < 50 || geography.places.length > 100) errors.push(`geography pilot expected 50-100 places; found ${geography.places.length}`);
+if (geography.places.length < 80) errors.push(`Australian geography hierarchy expected at least 80 places; found ${geography.places.length}`);
 for (const place of geography.places) {
   if (geographySlugs.has(place.slug)) errors.push(`duplicate geography slug: ${place.slug}`);
   geographySlugs.add(place.slug);
