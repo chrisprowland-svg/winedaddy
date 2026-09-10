@@ -16,8 +16,10 @@ if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('s
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
+const allowedPredicates = new Set(['editorially_related_to', 'member_of']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
-if (entityRegistry.entities.length !== manifest.articles.length) errors.push(`entity registry expected ${manifest.articles.length}; found ${entityRegistry.entities.length}`);
+const expectedEntityCount = manifest.articles.length + 4;
+if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
 for (const article of manifest.articles) {
   const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
   if (!entity) errors.push(`${article.slug}: canonical entity missing`);
@@ -26,6 +28,13 @@ for (const relationship of relationshipRegistry.relationships) {
   if (!entityIds.has(relationship.from)) errors.push(`relationship source missing: ${relationship.from}`);
   if (!entityIds.has(relationship.to)) errors.push(`relationship target missing: ${relationship.to}`);
   if (relationship.from === relationship.to) errors.push(`self relationship is not allowed: ${relationship.from}`);
+  if (!allowedPredicates.has(relationship.predicate)) errors.push(`relationship predicate is not governed: ${relationship.predicate}`);
+  if (!relationship.evidence) errors.push(`relationship evidence missing: ${relationship.from} -> ${relationship.to}`);
+}
+for (const article of manifest.articles) {
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
+  const collectionId = `wd:knowledge_collection:${article.section}`;
+  if (entity && !relationshipRegistry.relationships.some(relationship => relationship.from === entity.id && relationship.predicate === 'member_of' && relationship.to === collectionId)) errors.push(`${article.slug}: collection membership missing`);
 }
 const publicGraph = JSON.parse(fs.readFileSync(path.join(root, 'knowledge-graph.json'), 'utf8'));
 if (publicGraph.entities.length !== entityRegistry.entities.length) errors.push('public knowledge graph entity count is stale');
