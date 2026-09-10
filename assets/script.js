@@ -1,4 +1,16 @@
 document.querySelector('.menu')?.addEventListener('click',event=>{const links=document.querySelector('.nav-links');links?.classList.toggle('open');event.currentTarget.setAttribute('aria-expanded',String(links?.classList.contains('open')))});
+document.querySelectorAll('.nav-group').forEach(group => group.addEventListener('toggle', () => {
+  if (!group.open) return;
+  document.querySelectorAll('.nav-group[open]').forEach(other => { if (other !== group) other.open = false; });
+}));
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  document.querySelectorAll('.nav-group[open]').forEach(group => { group.open = false; });
+  const links = document.querySelector('.nav-links');
+  links?.classList.remove('open');
+  const menu = document.querySelector('.menu');
+  menu?.setAttribute('aria-expanded', 'false');
+});
 
 document.querySelectorAll('.subscribe-form').forEach(form => form.addEventListener('submit', async event => {
   event.preventDefault();

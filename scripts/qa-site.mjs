@@ -9,16 +9,17 @@ const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'conte
 const errors = [];
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
+for (const route of ['/australian-wine-regions/', '/new-south-wales-wine-regions/', '/victorian-wine-regions/', '/south-australian-wine-regions/', '/western-australian-wine-regions/', '/queensland-wine-regions/', '/tasmania-wine-region/', '/australian-capital-territory-wine-regions/']) if (!header.includes(`href="${route}"`)) errors.push(`region submenu missing ${route}`);
 if (header.includes('href="/about.html"')) errors.push('About must remain footer-only');
 for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const html = fs.readFileSync(path.join(root, file), 'utf8'); if (!html.includes(header)) errors.push(`${file}: shared header is stale`); if (!html.includes(faviconHead())) errors.push(`${file}: favicon metadata is stale`); }
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
 const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
-if (!servingWorker.includes('<aside class="geography-panel"')) errors.push('serving Worker can strip the Knowledge Graph v2 geography panel');
+if (!servingWorker.includes('geography-panel|entity-links')) errors.push('serving Worker can strip knowledge-graph relationship panels');
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
 const expectedEntityCount = manifest.articles.length + 4;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
@@ -89,6 +90,18 @@ for (const article of manifest.articles) {
 const publicGraph = JSON.parse(fs.readFileSync(path.join(root, 'knowledge-graph.json'), 'utf8'));
 if (entityRegistry.version !== 2 || relationshipRegistry.version !== 2 || publicGraph.version !== 2) errors.push('Knowledge Graph v2 version marker missing');
 if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) errors.push('Knowledge Graph v2 predicate context missing');
+if (!publicGraph['@context'].grown_in || !publicGraph['@context'].known_for) errors.push('grape-region predicate context missing');
+const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
+for (const grape of grapeRegions.grapes) {
+  const grapeEntity = entityRegistry.entities.find(entity => entity.canonicalArticle === `/${grape.slug}/`);
+  const grapePage = fs.readFileSync(path.join(root, grape.slug, 'index.html'), 'utf8');
+  if (!grapePage.includes('Australian regions for this grape')) errors.push(`grape-region panel missing: ${grape.slug}`);
+  for (const regionSlug of grape.regions) {
+    const regionEntity = entityRegistry.entities.find(entity => entity.canonicalArticle === `/${regionSlug}/`);
+    if (!relationshipRegistry.relationships.some(item => item.from === grapeEntity?.id && item.predicate === 'grown_in' && item.to === regionEntity?.id)) errors.push(`grown_in missing: ${grape.slug} -> ${regionSlug}`);
+    if (!relationshipRegistry.relationships.some(item => item.from === regionEntity?.id && item.predicate === 'known_for' && item.to === grapeEntity?.id)) errors.push(`known_for missing: ${regionSlug} -> ${grape.slug}`);
+  }
+}
 if (publicGraph.entities.length !== entityRegistry.entities.length) errors.push('public knowledge graph entity count is stale');
 if (publicGraph.relationships.length !== relationshipRegistry.relationships.length) errors.push('public knowledge graph relationship count is stale');
 for (const article of manifest.articles) {
@@ -99,6 +112,7 @@ for (const article of manifest.articles) {
   const file = article.route.endsWith('/') ? path.join(root, article.route.slice(1), 'index.html') : path.join(root, article.route.slice(1));
   if (!fs.existsSync(file)) { errors.push(`${article.slug}: page missing`); continue; }
   const html = fs.readFileSync(file, 'utf8');
+  if (/<h2[^>]*>Related (?:learning|reading)<\/h2>/i.test(html)) errors.push(`${article.slug}: legacy Related learning list remains`);
   check(html, /<meta name="viewport"/i, article.slug, 'viewport missing');
   check(html, /<link rel="icon" href="\/favicon\.ico" sizes="any">/i, article.slug, 'favicon metadata missing');
   if (!html.includes(`<link rel="canonical" href="https://winedaddy.com.au${article.route}"`)) errors.push(`${article.slug}: canonical incorrect`);
