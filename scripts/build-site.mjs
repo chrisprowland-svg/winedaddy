@@ -6,6 +6,8 @@ import {renderVisualComponents} from '../site/visual-components.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
+const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/recommendations.json'), 'utf8'));
+const recommendationsByRoute = new Map(recommendationRegistry.recommendations.map(recommendation => [recommendation.article, recommendation.items]));
 const seenSlugs = new Set();
 const searchEntries = [];
 for (const article of manifest.articles) {
@@ -16,11 +18,12 @@ for (const article of manifest.articles) {
   const source = article.source.endsWith('.md') ? normaliseReaderSource(rawSource) : rawSource;
   validateSource(article.slug, source);
   const body = article.source.endsWith('.md') ? renderMarkdown(source) : source;
+  const related = renderRecommendations(recommendationsByRoute.get(article.route));
   const section = sections[article.section];
   const canonicalPath = article.route;
   const schema = {'@context':'https://schema.org','@graph':[{'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${SITE_URL}/`},{'@type':'ListItem',position:2,name:section.name,item:`${SITE_URL}/${article.section}/`},{'@type':'ListItem',position:3,name:article.title,item:`${SITE_URL}${canonicalPath}`}]}]};
   const heroTitle = source.match(/^#\s+(.+)$/m)?.[1] || article.title;
-  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}</article></main>`});
+  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
@@ -42,3 +45,4 @@ function buildHub(key, section, articles) { const cards = articles.sort((a,b) =>
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
 function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
+function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
