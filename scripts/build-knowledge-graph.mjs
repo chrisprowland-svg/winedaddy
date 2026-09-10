@@ -4,9 +4,9 @@ import {cardTitle, sections} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
-const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json', 'spain-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const geography = {places: geographies.flatMap(item => item.places)};
-const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json', 'spanish-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const typeBySection = {
   fundamentals: 'wine_concept',
   grapes: 'grape_variety',

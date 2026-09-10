@@ -73,7 +73,7 @@ function renderGrapeRegions(entity) {
   const grapeIds = grapesByRegionId.get(entity.id) || [];
   const related = (regionIds.length ? regionIds : grapeIds).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
   if (!related.length) return '';
-  const title = regionIds.length ? 'Australian regions for this grape' : 'Grapes associated with this region';
+  const title = regionIds.length ? 'Wine regions for this grape' : 'Grapes associated with this region';
   const links = related.map(item => `<a href="${item.canonicalArticle}">${escapeHtml(item.name.replace(/^What Is /i, '').replace(/\?$/, ''))}</a>`).join('');
   return `<aside class="entity-links" data-grape-region-links><p class="kicker">Grape and place</p><h2>${title}</h2><div>${links}</div></aside>`;
 }
