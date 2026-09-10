@@ -112,6 +112,7 @@ for (const article of manifest.articles) {
   const file = article.route.endsWith('/') ? path.join(root, article.route.slice(1), 'index.html') : path.join(root, article.route.slice(1));
   if (!fs.existsSync(file)) { errors.push(`${article.slug}: page missing`); continue; }
   const html = fs.readFileSync(file, 'utf8');
+  if (/<h2[^>]*>Related (?:learning|reading)<\/h2>/i.test(html)) errors.push(`${article.slug}: legacy Related learning list remains`);
   check(html, /<meta name="viewport"/i, article.slug, 'viewport missing');
   check(html, /<link rel="icon" href="\/favicon\.ico" sizes="any">/i, article.slug, 'favicon metadata missing');
   if (!html.includes(`<link rel="canonical" href="https://winedaddy.com.au${article.route}"`)) errors.push(`${article.slug}: canonical incorrect`);
