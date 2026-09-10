@@ -87,7 +87,7 @@ These techniques can overlap, but they are not interchangeable.
 
 A whole-bunch ferment does not have to be sealed or filled with carbon dioxide. Some intact berries may experience limited carbonic-like activity, but that alone does not make the wine a carbonic maceration wine.
 
-For a broader comparison, see [carbonic maceration](/winemaking/carbonic-maceration.html).
+For a broader comparison, see [carbonic maceration](/carbonic-maceration/).
 
 ## Why would a winemaker use whole bunches?
 

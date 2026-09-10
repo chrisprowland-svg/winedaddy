@@ -1,7 +1,7 @@
 ---
 title: How to Store an Open Bottle of Wine
 description: Learn how to store opened red, white and sparkling wine, including when to refrigerate it, which closures to use and how long it may remain enjoyable.
-canonical: https://winedaddy.com.au/how-to-store-an-open-bottle-of-wine/
+canonical: https://winedaddy.com.au/how-to-store-open-wine/
 article_type: Educational Guide
 ---
 

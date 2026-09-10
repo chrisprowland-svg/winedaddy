@@ -131,4 +131,4 @@ No. Oxygen can influence ageing, but tertiary development involves more than oxi
 
 Aromas associated with maturation can develop during processes other than long bottle ageing, and aroma categories overlap. It is safer to describe a wine’s character than to use age as proof.
 
-For more tasting practice, see [How to taste wine](/how-to-taste-wine) and [What is complexity in wine?](/what-is-complexity-in-wine/).
+For more tasting practice, see [How to taste wine](/how-to-taste-wine/) and [What is complexity in wine?](/what-is-complexity-in-wine/).

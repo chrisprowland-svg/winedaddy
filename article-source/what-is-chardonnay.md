@@ -86,7 +86,7 @@ A few regional examples show the range:
 
 These are broad regional tendencies, not guarantees or rankings. Australian Chardonnay includes fresh, unoaked, richly textured, oaked, still and sparkling examples.
 
-For more regional context, explore the guides to the [Yarra Valley](/regions/yarra-valley.html) and [Mornington Peninsula](/regions/mornington-peninsula.html).
+For more regional context, explore the guides to the [Yarra Valley](/yarra-valley-wine-region/) and [Mornington Peninsula](/mornington-peninsula-wine-region/).
 
 ## Chardonnay can be sparkling
 

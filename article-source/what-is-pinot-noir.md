@@ -139,7 +139,7 @@ The Adelaide Hills is an important South Australian region for Pinot Noir. Its c
 
 Still red examples may be medium bodied, with ripe cherry and berry characters. The region’s Pinot Noir should not be treated as identical to Tasmanian, Yarra Valley or Mornington Peninsula examples.
 
-For more regional detail, see the WineDaddy guides to the [Yarra Valley](/regions/yarra-valley.html) and [Mornington Peninsula](/regions/mornington-peninsula.html).
+For more regional detail, see the WineDaddy guides to the [Yarra Valley](/yarra-valley-wine-region/) and [Mornington Peninsula](/mornington-peninsula-wine-region/).
 
 ## What food goes with Pinot Noir?
 
@@ -170,7 +170,7 @@ Pinot Noir is often described as elegant, silky or delicate, but those words des
 
 It can be light or more concentrated, fruit-driven or savoury, pale or relatively dark, and immediately approachable or capable of developing with age. The common thread is the grape variety—not one compulsory style.
 
-If you want deeper information about Pinot Noir’s history, taxonomy, clones, viticulture and technical winemaking, continue to the [WineDaddy Pinot Noir grape profile](/grapes/pinot-noir.html).
+If you want deeper information about Pinot Noir’s history, taxonomy, clones, viticulture and technical winemaking, continue to the [WineDaddy Pinot Noir grape profile](/what-is-pinot-noir/).
 
 ---
 
@@ -179,10 +179,10 @@ If you want deeper information about Pinot Noir’s history, taxonomy, clones, v
 - [What is wine?](/what-is-wine/)
 - [How wine is made](/how-wine-is-made/)
 - [Red wine vs white wine](/red-wine-vs-white-wine/)
-- [Yarra Valley wine region](/regions/yarra-valley.html)
-- [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
-- [Pinot Noir grape profile](/grapes/pinot-noir.html)
-- [What does oak do to wine?](/winemaking/oak.html)
+- [Yarra Valley wine region](/yarra-valley-wine-region/)
+- [Mornington Peninsula wine region](/mornington-peninsula-wine-region/)
+- [Pinot Noir grape profile](/what-is-pinot-noir/)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)
 - [What is whole-bunch fermentation?](/winemaking/whole-bunch.html)
 
 ---

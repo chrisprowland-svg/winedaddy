@@ -96,7 +96,7 @@ Chardonnay is equally central to the region’s identity. Yarra Valley Chardonna
 
 The final style depends heavily on choices such as harvest timing, oak, lees contact and fermentation. Some examples are restrained and subtle; others are broader, more textured or more complex. “Yarra Valley Chardonnay” does not automatically mean unoaked, buttery or heavily oaked.
 
-For background on the grape, see [what is Chardonnay?](https://winedaddy.com.au/what-is-chardonnay/). You can also read about [what oak does to wine](https://winedaddy.com.au/winemaking/oak.html).
+For background on the grape, see [what is Chardonnay?](https://winedaddy.com.au/what-is-chardonnay/). You can also read about [what oak does to wine](/what-does-oak-do-to-wine/).
 
 ### Cabernet Sauvignon
 

@@ -144,5 +144,5 @@ It tells you about geographic origin under Australia’s GI system. It does not 
 - [What is wine?](/what-is-wine/)
 - [How wine is made](/how-wine-is-made/)
 - [Grapes](/grapes/)
-- [Yarra Valley wine region](/regions/yarra-valley.html)
-- [Mornington Peninsula wine region](/regions/mornington-peninsula.html)
+- [Yarra Valley wine region](/yarra-valley-wine-region/)
+- [Mornington Peninsula wine region](/mornington-peninsula-wine-region/)

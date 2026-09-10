@@ -108,7 +108,7 @@ The Yarra Valley provides a useful cool-climate example. Its Cabernet Sauvignon 
 
 These regions are useful starting points, not rigid style labels or rankings. Australian Cabernet is made in many other areas too, so the region on the label can offer a clue without telling you everything about the wine.
 
-You can explore broader regional relationships through the [Australian wine regions hub](/regions/) and the [Yarra Valley guide](/regions/yarra-valley.html).
+You can explore broader regional relationships through the [Australian wine regions hub](/regions/) and the [Yarra Valley guide](/yarra-valley-wine-region/).
 
 ## How should a beginner choose Cabernet Sauvignon?
 

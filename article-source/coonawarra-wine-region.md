@@ -182,5 +182,5 @@ Terra rossa is a red, iron-rich clay soil associated with limestone. It is a def
 - [What is Shiraz?](https://winedaddy.com.au/what-is-shiraz/)
 - [What is Chardonnay?](https://winedaddy.com.au/what-is-chardonnay/)
 - [How wine is made](https://winedaddy.com.au/how-wine-is-made/)
-- [What does oak do to wine?](https://winedaddy.com.au/winemaking/oak.html)
-- [Mount Gambier wine region](https://winedaddy.com.au/regions/mount-gambier.html)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)
+- [Mount Gambier wine region](/mount-gambier-wine-region/)

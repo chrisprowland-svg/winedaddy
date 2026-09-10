@@ -97,7 +97,7 @@ The two processes have different jobs:
 
 It does not turn sugar into alcohol. Instead, it can make acidity seem softer or less sharp, raise the wine’s pH and influence aroma and texture. It may happen after alcoholic fermentation, although winemaking practices can vary.
 
-For the full explanation, see the forthcoming guide to [what is malolactic fermentation?]. You can also explore related techniques such as [whole-bunch winemaking](/winemaking/whole-bunch.html) and [carbonic maceration](/winemaking/carbonic-maceration.html).
+For the full explanation, see the forthcoming guide to [what is malolactic fermentation?]. You can also explore related techniques such as [whole-bunch winemaking](/winemaking/whole-bunch.html) and [carbonic maceration](/carbonic-maceration/).
 
 ## What is different about fermentation in Australia?
 

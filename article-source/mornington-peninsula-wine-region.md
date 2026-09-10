@@ -172,4 +172,4 @@ The answer depends on the bottle. Fresh Pinot Noir can suit lighter meat, mushro
 - [What is Pinot Gris/Pinot Grigio?](/what-is-pinot-gris-pinot-grigio/)
 - [What is Shiraz?](/what-is-shiraz/)
 - [How wine is made](/how-wine-is-made/)
-- [What does oak do to wine?](/winemaking/oak.html)
+- [What does oak do to wine?](/what-does-oak-do-to-wine/)

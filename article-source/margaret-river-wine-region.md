@@ -93,7 +93,7 @@ That combination can make the wines feel both generous and energetic. But Chardo
 
 One Chardonnay may taste bright and citrusy; another may be creamier, richer or more savoury. The region’s association with Mendoza or Gin Gin Chardonnay material is useful historical and viticultural context, but not every Margaret River Chardonnay comes from one clone, and clone identity alone does not determine quality.
 
-Our guide to [what Chardonnay is](/what-is-chardonnay/) explains the variety in more detail. You may also find our guide to [what oak does to wine](/winemaking/oak.html) useful when comparing richer and more lightly oaked examples.
+Our guide to [what Chardonnay is](/what-is-chardonnay/) explains the variety in more detail. You may also find our guide to [what oak does to wine](/what-does-oak-do-to-wine/) useful when comparing richer and more lightly oaked examples.
 
 ## Sauvignon Blanc–Semillon and other varieties
 
