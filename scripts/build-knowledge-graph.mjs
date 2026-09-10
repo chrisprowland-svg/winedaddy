@@ -32,6 +32,7 @@ const topicEntities = manifest.articles.map(article => ({
   canonicalArticle: article.route,
   section: article.section
 }));
+const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
 const entities = [...collectionEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 const stopwords = new Set('a an and are as at australia australian be beginner beginners by can context does dry explained for from grape grapes guide how in into is it its known learn made of on or principal red region regions style styles taste tastes the their this to variety varieties vs what when where which white why wine wines with without your'.split(' '));
 const documentFrequency = new Map();
@@ -61,16 +62,20 @@ for (const article of manifest.articles) {
   }
 }
 const editorialDegree = new Map(topicEntities.map(entity => [entity.id, 0]));
+const editorialNeighbourScores = new Map(topicEntities.map(entity => [entity.id, new Map()]));
 for (const relationship of relationships) {
   if (relationship.predicate !== 'editorially_related_to') continue;
   editorialDegree.set(relationship.from, (editorialDegree.get(relationship.from) || 0) + 1);
   editorialDegree.set(relationship.to, (editorialDegree.get(relationship.to) || 0) + 1);
+  editorialNeighbourScores.get(relationship.from).set(relationship.to, 2);
+  editorialNeighbourScores.get(relationship.to).set(relationship.from, Math.max(editorialNeighbourScores.get(relationship.to).get(relationship.from) || 0, 1));
 }
 const recommendations = [];
 for (const article of manifest.articles) {
   const from = entityId(article);
-  if (editorialDegree.get(from) !== 0) continue;
-  const items = rankedNeighbours(article).filter(candidate => candidate.titleOverlap ? candidate.score >= 5 : candidate.score >= 25).slice(0, 2).map(({article: target, score}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: Number(score.toFixed(4)), evidence: 'lexical_cluster'}));
+  const editorialItems = [...editorialNeighbourScores.get(from)].map(([targetId, directionScore]) => ({article: articleByEntityId.get(targetId), directionScore})).filter(candidate => candidate.article).sort((a, b) => b.directionScore - a.directionScore || cardTitle(a.article).localeCompare(cardTitle(b.article))).slice(0, 2).map(({article: target}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: 0, evidence: 'editorial_link'}));
+  const items = [...editorialItems];
+  if (!items.length) items.push(...rankedNeighbours(article).filter(candidate => candidate.titleOverlap ? candidate.score >= 5 : candidate.score >= 25).slice(0, 2).map(({article: target, score}) => ({entityId: entityId(target), route: target.route, title: cardTitle(target), description: target.description, score: Number(score.toFixed(4)), evidence: 'lexical_cluster'})));
   const collection = collectionEntities.find(entity => entity.section === article.section);
   items.push({entityId: collection.id, route: collection.canonicalArticle, title: `Explore ${collection.name}`, description: collection.description, score: 0, evidence: 'canonical_section'});
   recommendations.push({entityId: from, article: article.route, items});
