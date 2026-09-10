@@ -7,7 +7,8 @@
     "content:migrate": "node scripts/migrate-content-manifest.mjs",
     "content:import": "node scripts/import-wdos-batch.mjs",
     "knowledge:audit": "node scripts/audit-knowledge-network.mjs --write",
-    "build": "node scripts/build-site.mjs",
+    "knowledge:build": "node scripts/build-knowledge-graph.mjs",
+    "build": "node scripts/build-knowledge-graph.mjs && node scripts/build-site.mjs",
     "check": "npm run build && node scripts/qa-site.mjs",
     "test": "node --test workers/page-qa/test/*.test.mjs",
     "worker:check": "tsc -p workers/page-qa/tsconfig.json && wrangler deploy --dry-run --config workers/page-qa/wrangler.jsonc"

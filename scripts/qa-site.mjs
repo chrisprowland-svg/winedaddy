@@ -3,6 +3,8 @@ import path from 'node:path';
 import {cardTitle, escapeHtml, faviconHead, siteHeader} from '../site/site.mjs';
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
+const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
+const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const errors = [];
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
@@ -13,6 +15,21 @@ const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
+const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
+if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
+if (entityRegistry.entities.length !== manifest.articles.length) errors.push(`entity registry expected ${manifest.articles.length}; found ${entityRegistry.entities.length}`);
+for (const article of manifest.articles) {
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
+  if (!entity) errors.push(`${article.slug}: canonical entity missing`);
+}
+for (const relationship of relationshipRegistry.relationships) {
+  if (!entityIds.has(relationship.from)) errors.push(`relationship source missing: ${relationship.from}`);
+  if (!entityIds.has(relationship.to)) errors.push(`relationship target missing: ${relationship.to}`);
+  if (relationship.from === relationship.to) errors.push(`self relationship is not allowed: ${relationship.from}`);
+}
+const publicGraph = JSON.parse(fs.readFileSync(path.join(root, 'knowledge-graph.json'), 'utf8'));
+if (publicGraph.entities.length !== entityRegistry.entities.length) errors.push('public knowledge graph entity count is stale');
+if (publicGraph.relationships.length !== relationshipRegistry.relationships.length) errors.push('public knowledge graph relationship count is stale');
 for (const article of manifest.articles) {
   const source = fs.readFileSync(path.join(root, article.source), 'utf8');
   for (const route of sourceInternalRoutes(source)) {

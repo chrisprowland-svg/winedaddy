@@ -5,9 +5,13 @@ WineDaddy is a static Cloudflare Pages site generated from one content manifest 
 ## Architecture
 
 - `content/articles.json` is the article catalogue and routing authority.
+- `content/knowledge/entities.json` assigns every canonical topic a stable WineDaddy entity ID and type.
+- `content/knowledge/relationships.json` records the directed relationships between those entities.
+- `knowledge-graph.json` publishes the current machine-readable graph for future discovery and API use.
 - `article-source/` contains reader-facing source content.
 - `site/site.mjs` owns shared navigation, footer, metadata, analytics, and page chrome.
 - `scripts/build-site.mjs` generates every article, hub, search index, sitemap, and QA manifest.
+- `scripts/build-knowledge-graph.mjs` deterministically rebuilds the entity and relationship registries from approved content.
 - `scripts/qa-site.mjs` checks every generated route, canonical, link, heading, analytics tag, schema block, hub entry, search entry, and sitemap entry.
 - `workers/page-qa/` contains the deployed remote QA Worker used against protected branch previews before human review.
 
