@@ -15,7 +15,7 @@ export default {
       // Remove any internal preamble/front matter before that boundary while
       // preserving the public hero, <head> metadata, schema and article copy.
       html = html.replace(
-        /(<article\b[^>]*>)[\s\S]*?(<section class="highlights">)/i,
+        /(<article\b[^>]*>)[\s\S]*?(<aside class="geography-panel"[\s\S]*?<section class="highlights">|<section class="highlights">)/i,
         '$1$2'
       );
     }
