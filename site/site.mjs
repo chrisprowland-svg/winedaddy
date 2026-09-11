@@ -16,7 +16,7 @@ function regionMenuGroups() { const groups = [
   ['Greece','/greece/','Major regions',[['Santorini','/santorini-wine-region/'],['Nemea','/nemea-wine-region/'],['Naoussa','/naoussa-wine-region/']]],
   ['Hungary','/hungary/','Major regions',[['Tokaj','/tokaj-wine-region/'],['Eger','/eger-wine-region/']]],
   ['Georgia','/georgia/','Country guide',[]],['England','/england/','Country guide',[]]
-]; return groups.map(([name,route,label,links]) => `<section class="nav-region-group"><a class="nav-feature" href="${route}">${name}</a><span>${label}</span>${links.map(([text,href]) => `<a href="${href}">${text}</a>`).join('')}</section>`).join(''); }
+]; const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true}); return groups.sort((a,b) => alphabetical.compare(a[0], b[0])).map(([name,route,label,links]) => `<section class="nav-region-group"><a class="nav-feature" href="${route}">${name}</a><span>${label}</span>${links.sort((a,b) => alphabetical.compare(a[0], b[0])).map(([text,href]) => `<a href="${href}">${text}</a>`).join('')}</section>`).join(''); }
 export const sections = {
   fundamentals: {name: 'Wine Fundamentals', description: 'Practical guides to understanding, tasting, serving, storing and buying wine.'},
   grapes: {name: 'Grapes', description: 'Understand the varieties behind the labels and why their styles change.'},
