@@ -6,6 +6,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.js
 const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
 const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/recommendations.json'), 'utf8'));
+const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
 const errors = [];
 const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true});
 function expectAlphabetical(items, label) {
@@ -40,9 +41,9 @@ if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('cons
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
-const expectedEntityCount = manifest.articles.length + 4;
+const expectedEntityCount = manifest.articles.length + 4 + fundamentalsNavigation.groups.length;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
 for (const article of manifest.articles) {
   const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
@@ -55,6 +56,38 @@ for (const relationship of relationshipRegistry.relationships) {
   if (!allowedPredicates.has(relationship.predicate)) errors.push(`relationship predicate is not governed: ${relationship.predicate}`);
   if (!relationship.evidence) errors.push(`relationship evidence missing: ${relationship.from} -> ${relationship.to}`);
 }
+const fundamentalsArticles = manifest.articles.filter(article => article.section === 'fundamentals');
+const fundamentalsBySlug = new Map(fundamentalsArticles.map(article => [article.slug, article]));
+const classifiedFundamentals = fundamentalsNavigation.groups.flatMap(group => group.slugs);
+if (fundamentalsNavigation.groups.length !== 10) errors.push(`fundamentals taxonomy expected 10 learning paths; found ${fundamentalsNavigation.groups.length}`);
+if (classifiedFundamentals.length !== fundamentalsArticles.length || new Set(classifiedFundamentals).size !== fundamentalsArticles.length) errors.push(`fundamentals taxonomy expected exactly one classification for ${fundamentalsArticles.length} guides`);
+const fundamentalsHub = fs.readFileSync(path.join(root, 'fundamentals', 'index.html'), 'utf8');
+if (!fundamentalsHub.includes('data-fundamentals-directory')) errors.push('fundamentals hub is not using the learning-path directory');
+if ((fundamentalsHub.match(/data-fundamentals-group/g) || []).length !== fundamentalsNavigation.groups.length || /data-fundamentals-group open/.test(fundamentalsHub)) errors.push('fundamentals learning paths must all load collapsed');
+for (const group of fundamentalsNavigation.groups) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(group.id) || !group.name || !group.description || !group.start) errors.push(`fundamentals learning path metadata is incomplete: ${group.id}`);
+  if (!group.slugs.includes(group.start)) errors.push(`fundamentals learning path start guide is not a member: ${group.id} -> ${group.start}`);
+  const pathEntity = entityRegistry.entities.find(entity => entity.id === `wd:learning_path:${group.id}`);
+  if (!pathEntity || pathEntity.canonicalArticle !== `/fundamentals/#${group.id}`) errors.push(`fundamentals learning path entity missing: ${group.id}`);
+  const groupHtml = fundamentalsHub.match(new RegExp(`<details class="fundamentals-group" id="${group.id}"[\\s\\S]*?<div class="fundamentals-links">([\\s\\S]*?)<\\/div><\\/details>`))?.[1] || '';
+  const titles = textMatches(groupHtml, /data-fundamentals-item>(.*?)<\/a>/g);
+  for (const slug of group.slugs) {
+    const article = fundamentalsBySlug.get(slug);
+    if (!article) { errors.push(`fundamentals learning path guide missing: ${group.id} -> ${slug}`); continue; }
+    const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
+    if (!relationshipRegistry.relationships.some(item => item.from === entity?.id && item.predicate === 'member_of_path' && item.to === pathEntity?.id)) errors.push(`fundamentals learning-path relationship missing: ${slug} -> ${group.id}`);
+    if (!relationshipRegistry.relationships.some(item => item.from === pathEntity?.id && item.predicate === 'has_learning_guide' && item.to === entity?.id)) errors.push(`fundamentals learning-path inverse missing: ${group.id} -> ${slug}`);
+    if (!fundamentalsHub.includes(`href="${article.route}" data-fundamentals-item`)) errors.push(`fundamentals guide missing from directory: ${slug}`);
+    const page = fs.readFileSync(path.join(root, slug, 'index.html'), 'utf8');
+    if (!page.includes('data-learning-path') || !page.includes(`/fundamentals/#${group.id}`)) errors.push(`fundamentals learning-path context missing: ${slug}`);
+  }
+  expectAlphabetical(titles, `${group.name} guides`);
+  expectInitialCapital(titles, `${group.name} guide`);
+}
+const unclassifiedFundamentals = fundamentalsArticles.filter(article => !classifiedFundamentals.includes(article.slug));
+if (unclassifiedFundamentals.length) errors.push(`unclassified fundamentals guides: ${unclassifiedFundamentals.map(article => article.slug).join(', ')}`);
+const clientFundamentalsScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
+if (!clientFundamentalsScript.includes("querySelector('[data-fundamentals-filter]')") || !clientFundamentalsScript.includes('group.open = Boolean(query) ? hasMatch')) errors.push('fundamentals learning-path search behaviour missing');
 const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
 const franceGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/france-geography.json'), 'utf8'));
 const italyGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/italy-geography.json'), 'utf8'));
@@ -316,6 +349,7 @@ if (entityRegistry.version !== 2 || relationshipRegistry.version !== 2 || public
 if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) errors.push('Knowledge Graph v2 predicate context missing');
 if (!publicGraph['@context'].grown_in || !publicGraph['@context'].known_for) errors.push('grape-region predicate context missing');
 if (!publicGraph['@context'].about_place || !publicGraph['@context'].has_regional_guide) errors.push('regional-topic predicate context missing');
+if (!publicGraph['@context'].member_of_path || !publicGraph['@context'].has_learning_guide) errors.push('fundamentals learning-path predicate context missing');
 const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
 const frenchGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/french-grape-regions.json'), 'utf8'));
 const italianGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/italian-grape-regions.json'), 'utf8'));
@@ -366,10 +400,10 @@ for (const [section, articles] of groups) {
   const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8');
   for (const article of articles) {
     if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`);
-    if (!['regions','grapes','winemaking'].includes(section) && !hub.includes(`<h2>${escapeHtml(capitaliseDisplayTitle(cardTitle(article)))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`);
+    if (!['fundamentals','regions','grapes','winemaking'].includes(section) && !hub.includes(`<h2>${escapeHtml(capitaliseDisplayTitle(cardTitle(article)))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`);
     if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`);
   }
-  if (!['regions','grapes','winemaking'].includes(section)) { const titles = textMatches(hub, /class="card guide-card"[^>]*>[\s\S]*?<h2>(.*?)<\/h2>/g); expectAlphabetical(titles, `${section} guides`); expectInitialCapital(titles, `${section} guide`); }
+  if (!['fundamentals','regions','grapes','winemaking'].includes(section)) { const titles = textMatches(hub, /class="card guide-card"[^>]*>[\s\S]*?<h2>(.*?)<\/h2>/g); expectAlphabetical(titles, `${section} guides`); expectInitialCapital(titles, `${section} guide`); }
 }
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>https:\/\/winedaddy\.com\.au([^<]+)<\/loc>/g)].map(match => match[1]);

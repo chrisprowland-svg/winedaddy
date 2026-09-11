@@ -6,6 +6,7 @@ const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json', 'spain-geography.json', 'germany-austria-geography.json', 'portugal-geography.json', 'new-zealand-geography.json', 'south-africa-geography.json', 'argentina-chile-geography.json', 'united-states-geography.json', 'emerging-europe-geography.json', 'canada-brazil-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const regionTopics = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
+const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
 const geography = {places: geographies.flatMap(item => item.places)};
 const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json', 'spanish-grape-regions.json', 'german-austrian-grape-regions.json', 'portuguese-grape-regions.json', 'new-zealand-grape-regions.json', 'south-african-grape-regions.json', 'argentine-chilean-grape-regions.json', 'united-states-grape-regions.json', 'emerging-europe-grape-regions.json', 'canada-brazil-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const typeBySection = {
@@ -28,6 +29,14 @@ const collectionEntities = Object.entries(sections).map(([section, value]) => ({
   canonicalArticle: `/${section}/`,
   section
 }));
+const learningPathEntities = fundamentalsNavigation.groups.map(group => ({
+  id: `wd:learning_path:${group.id}`,
+  type: 'knowledge_collection',
+  name: group.name,
+  description: group.description,
+  canonicalArticle: `/fundamentals/#${group.id}`,
+  section: 'fundamentals'
+}));
 const geographyBySlug = new Map(geography.places.map(place => [place.slug, place]));
 const topicEntities = manifest.articles.map(article => {
   const place = geographyBySlug.get(article.slug);
@@ -43,7 +52,7 @@ const topicEntities = manifest.articles.map(article => {
 });
 const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
 const articleBySlug = new Map(manifest.articles.map(article => [article.slug, article]));
-const entities = [...collectionEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
+const entities = [...collectionEntities, ...learningPathEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 const stopwords = new Set('a an and are as at australia australian be beginner beginners by can context does dry explained for from grape grapes guide how in into is it its known learn made of on or principal red region regions style styles taste tastes the their this to variety varieties vs what when where which white why wine wines with without your'.split(' '));
 const documentFrequency = new Map();
 const termsBySlug = new Map();
@@ -69,6 +78,12 @@ for (const article of manifest.articles) {
     const to = entityId(target);
     addRelationship({from, predicate: 'editorially_related_to', to, evidence: 'editorial_link'});
   }
+}
+for (const group of fundamentalsNavigation.groups) for (const slug of group.slugs) {
+  const article = articleBySlug.get(slug);
+  if (!article || article.section !== 'fundamentals') throw new Error(`Fundamentals learning path contains a missing or misclassified guide: ${group.id} -> ${slug}`);
+  addRelationship({from: entityId(article), predicate: 'member_of_path', to: `wd:learning_path:${group.id}`, evidence: fundamentalsNavigation.evidence});
+  addRelationship({from: `wd:learning_path:${group.id}`, predicate: 'has_learning_guide', to: entityId(article), evidence: fundamentalsNavigation.evidence});
 }
 for (const geographySet of geographies) for (const place of geographySet.places) {
   const article = manifest.articles.find(candidate => candidate.slug === place.slug);
@@ -137,7 +152,9 @@ const publicGraph = {
     grown_in: 'https://schema.org/location',
     known_for: 'https://schema.org/knowsAbout',
     about_place: 'https://schema.org/about',
-    has_regional_guide: 'https://schema.org/subjectOf'
+    has_regional_guide: 'https://schema.org/subjectOf',
+    member_of_path: 'https://schema.org/isPartOf',
+    has_learning_guide: 'https://schema.org/hasPart'
   },
   version: 2,
   entities,
