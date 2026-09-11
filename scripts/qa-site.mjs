@@ -216,15 +216,16 @@ for (const place of allGeographyPlaces) {
   }
 }
 const regionsHub = fs.readFileSync(path.join(root, 'regions', 'index.html'), 'utf8');
+if (/await reviewed classification|geographic relationships await/i.test(regionsHub)) errors.push('regions hub leaks internal classification workflow');
 if (!regionsHub.includes('data-region-directory')) errors.push('regions hub is not using the governed directory');
 const geographicCountryCount = allGeographyPlaces.filter(place => place.kind === 'country' && !place.parent).length;
 if ((regionsHub.match(/data-region-country/g) || []).length !== geographicCountryCount) errors.push(`regions directory expected ${geographicCountryCount} country groups`);
-if ((regionsHub.match(/<details class="region-country" data-region-country open>/g) || []).length !== geographicCountryCount) errors.push('regions directory country groups must be collapsible');
+if ((regionsHub.match(/<details class="region-country" data-region-country>/g) || []).length !== geographicCountryCount || /data-region-country open/.test(regionsHub)) errors.push('regions directory country groups must load collapsed');
 const governedRegionRoutes = new Set(allGeographyPlaces.map(place => `/${place.slug}/`));
 const ungroupedRegionCount = manifest.articles.filter(article => article.section === 'regions' && !governedRegionRoutes.has(article.route)).length;
 if ((regionsHub.match(/data-region-ungrouped/g) || []).length !== ungroupedRegionCount) errors.push(`regions directory expected ${ungroupedRegionCount} ungrouped guides`);
 const clientScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
-if (!clientScript.includes("matchMedia('(max-width: 800px)')") || !clientScript.includes('group.open = Boolean(query)')) errors.push('regions directory mobile/search expansion behaviour missing');
+if (!clientScript.includes('group.open = Boolean(query) && !group.hidden')) errors.push('regions directory search expansion behaviour missing');
 const grapesHub = fs.readFileSync(path.join(root, 'grapes', 'index.html'), 'utf8');
 if (!grapesHub.includes('data-grape-directory')) errors.push('grapes hub is not using the relationship-led directory');
 const grapeArticles = manifest.articles.filter(article => article.section === 'grapes');
@@ -255,7 +256,7 @@ for (const article of winemakingArticles) if (!winemakingHub.includes(`href="${a
 expectInitialCapital(textMatches(winemakingHub, /data-process-az>(.*?)<\/a>/g), 'winemaking guide');
 expectAlphabetical(textMatches(winemakingHub.match(/process-feature-grid">([\s\S]*?)<\/div><\/section><section class="process-stages"/)?.[1] || '', /<h3>(.*?)<\/h3>/g), 'featured winemaking guides');
 for (const links of winemakingHub.matchAll(/<div class="process-links">([\s\S]*?)<\/div>/g)) expectAlphabetical(textMatches(links[1], /data-process-item>(.*?)<\/a>/g), 'winemaking process guides');
-if (!clientScript.includes("querySelector('[data-process-filter]')") || !clientScript.includes('group.open = Boolean(query) ? hasMatch')) errors.push('winemaking directory mobile/search behaviour missing');
+if (/data-process-group open/.test(winemakingHub) || !clientScript.includes("querySelector('[data-process-filter]')") || !clientScript.includes('group.open = Boolean(query) && hasMatch')) errors.push('winemaking directory collapsed/search behaviour missing');
 const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
 if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
 if (!tasmaniaPage.includes('Explore selected WineDaddy growing-area guides')) errors.push('Tasmania must label its linked informal places as selected growing-area guides');
@@ -327,6 +328,7 @@ for (const article of manifest.articles) {
   check(html, /<script type="application\/ld\+json">/i, article.slug, 'JSON-LD missing');
   check(html, /G-M281DG8YTP/i, article.slug, 'GA missing'); check(html, /1085436810811087/i, article.slug, 'Meta Pixel missing');
   check(html, /<section class="highlights"><h2>Highlights<\/h2>/i, article.slug, 'Highlights component missing');
+  const highlightsStart = html.indexOf('<section class="highlights">'); const highlightsHeadingEnd = html.indexOf('</h2>', highlightsStart) + 5; const highlightsEnd = html.indexOf('</section>', highlightsHeadingEnd); const nextH2 = html.indexOf('<h2', highlightsHeadingEnd); if (nextH2 !== -1 && nextH2 < highlightsEnd) errors.push(`${article.slug}: Highlights panel swallows a later section`);
   if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) errors.push(`${article.slug}: expected one H1`);
   if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|IMPLEMENTATION NOTE|\[Visual:\s*VIS-/i.test(html)) errors.push(`${article.slug}: internal content leaked`);
   for (const match of html.matchAll(/href="(\/[^"#?]+)[^"]*"/g)) if (!routeExists(match[1])) errors.push(`${article.slug}: broken internal link ${match[1]}`);
