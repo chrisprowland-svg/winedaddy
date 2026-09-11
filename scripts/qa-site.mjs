@@ -205,9 +205,12 @@ const regionsHub = fs.readFileSync(path.join(root, 'regions', 'index.html'), 'ut
 if (!regionsHub.includes('data-region-directory')) errors.push('regions hub is not using the governed directory');
 const geographicCountryCount = allGeographyPlaces.filter(place => place.kind === 'country' && !place.parent).length;
 if ((regionsHub.match(/data-region-country/g) || []).length !== geographicCountryCount) errors.push(`regions directory expected ${geographicCountryCount} country groups`);
+if ((regionsHub.match(/<details class="region-country" data-region-country open>/g) || []).length !== geographicCountryCount) errors.push('regions directory country groups must be collapsible');
 const governedRegionRoutes = new Set(allGeographyPlaces.map(place => `/${place.slug}/`));
 const ungroupedRegionCount = manifest.articles.filter(article => article.section === 'regions' && !governedRegionRoutes.has(article.route)).length;
 if ((regionsHub.match(/data-region-ungrouped/g) || []).length !== ungroupedRegionCount) errors.push(`regions directory expected ${ungroupedRegionCount} ungrouped guides`);
+const clientScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
+if (!clientScript.includes("matchMedia('(max-width: 800px)')") || !clientScript.includes('group.open = Boolean(query)')) errors.push('regions directory mobile/search expansion behaviour missing');
 const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
 if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
 if (!tasmaniaPage.includes('Explore selected WineDaddy growing-area guides')) errors.push('Tasmania must label its linked informal places as selected growing-area guides');

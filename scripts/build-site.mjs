@@ -74,7 +74,7 @@ function buildRegionsHub(section, articles) {
   const countryGroups = roots.map(rootEntity => {
     const descendants = geographyDescendants(rootEntity);
     const tree = renderDirectoryChildren(rootEntity) || '<p class="region-country-empty">Country guide available; regional guides are still being classified.</p>';
-    return `<section class="region-country" data-region-country><div class="region-country-head"><div><p class="kicker">Country</p><h2><a href="${rootEntity.canonicalArticle}" data-region-item>${escapeHtml(rootEntity.name)}</a></h2></div><span>${descendants.length + 1} guides</span></div>${tree}</section>`;
+    return `<details class="region-country" data-region-country open><summary class="region-country-head"><span><span class="kicker">Country</span><strong>${escapeHtml(rootEntity.name)}</strong></span><span>${descendants.length + 1} guides</span></summary><a class="region-country-guide" href="${rootEntity.canonicalArticle}" data-region-item>View ${escapeHtml(rootEntity.name)} guide →</a>${tree}</details>`;
   }).join('');
   const ungrouped = articles.filter(article => !governed.has(article.route)).sort((a,b) => cardTitle(a).localeCompare(cardTitle(b)));
   const otherCards = ungrouped.map(article => `<a class="card guide-card region-more-card" data-region-item data-region-ungrouped href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join('');
