@@ -112,3 +112,28 @@ if (grapeFilter) {
     if (empty) empty.hidden = visible !== 0;
   });
 }
+
+const processFilter = document.querySelector('[data-process-filter]');
+if (processFilter) {
+  const items = [...document.querySelectorAll('[data-process-item]')];
+  const processGroups = [...document.querySelectorAll('[data-process-group]')];
+  const letterGroups = [...document.querySelectorAll('[data-process-letter]')];
+  const empty = document.querySelector('[data-process-empty]');
+  const compact = matchMedia('(max-width: 800px)').matches;
+  if (compact) for (const group of processGroups) group.open = false;
+  processFilter.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    let visible = 0;
+    for (const item of items) {
+      item.hidden = Boolean(query) && !item.textContent.toLowerCase().includes(query);
+      if (!item.hidden) visible += 1;
+    }
+    for (const group of processGroups) {
+      const hasMatch = [...group.querySelectorAll('[data-process-item]')].some(item => !item.hidden);
+      group.hidden = Boolean(query) && !hasMatch;
+      group.open = Boolean(query) ? hasMatch : !compact;
+    }
+    for (const group of letterGroups) group.hidden = Boolean(query) && ![...group.querySelectorAll('[data-process-item]')].some(item => !item.hidden);
+    if (empty) empty.hidden = visible !== 0;
+  });
+}
