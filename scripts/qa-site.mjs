@@ -16,6 +16,7 @@ for (const route of ['/spain/', '/rioja/', '/ribera-del-duero/', '/priorat/', '/
 for (const route of ['/germany/', '/mosel/', '/rheingau/', '/pfalz/', '/baden/', '/ahr-wine-region/', '/austria/', '/wachau/', '/kamptal/', '/burgenland/', '/styria-wine-region/']) if (!header.includes(`href="${route}"`)) errors.push(`German/Austrian region submenu missing ${route}`);
 for (const route of ['/portugal/', '/douro-valley/', '/vinho-verde/', '/alentejo-wine-region/', '/dao-wine-region/', '/bairrada-wine-region/', '/lisboa-wine-region/']) if (!header.includes(`href="${route}"`)) errors.push(`Portuguese region submenu missing ${route}`);
 for (const route of ['/new-zealand/', '/marlborough/', '/central-otago/', '/hawkes-bay/', '/martinborough/', '/south-africa/', '/stellenbosch/', '/swartland/', '/walker-bay/', '/argentina/', '/salta-wine-region/', '/uco-valley/', '/cafayate-wine-region/', '/chile/', '/maipo-valley/', '/colchagua-valley/', '/casablanca-valley/', '/leyda-valley/']) if (!header.includes(`href="${route}"`)) errors.push(`Southern Hemisphere region submenu missing ${route}`);
+for (const route of ['/united-states/', '/napa-valley/', '/sonoma-coast/', '/santa-barbara-county-wine/', '/paso-robles/', '/willamette-valley/', '/finger-lakes-wine-region/', '/greece/', '/santorini-wine-region/', '/nemea-wine-region/', '/naoussa-wine-region/', '/hungary/', '/tokaj-wine-region/', '/eger-wine-region/', '/georgia/', '/england/']) if (!header.includes(`href="${route}"`)) errors.push(`North American/emerging European region submenu missing ${route}`);
 if (header.includes('href="/about.html"')) errors.push('About must remain footer-only');
 for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const html = fs.readFileSync(path.join(root, file), 'utf8'); if (!html.includes(header)) errors.push(`${file}: shared header is stale`); if (!html.includes(faviconHead())) errors.push(`${file}: favicon metadata is stale`); }
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
@@ -49,6 +50,8 @@ const portugalGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/kn
 const newZealandGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/new-zealand-geography.json'), 'utf8'));
 const southAfricaGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/south-africa-geography.json'), 'utf8'));
 const argentinaChileGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/argentina-chile-geography.json'), 'utf8'));
+const unitedStatesGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/united-states-geography.json'), 'utf8'));
+const emergingEuropeGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/emerging-europe-geography.json'), 'utf8'));
 const geographySlugs = new Set();
 if (geography.places.length < 80) errors.push(`Australian geography hierarchy expected at least 80 places; found ${geography.places.length}`);
 for (const place of geography.places) {
@@ -157,7 +160,7 @@ for (const place of portugalGeography.places) {
   const inverse = relationshipRegistry.relationships.some(item => item.from === parent?.id && item.predicate === 'contains' && item.to === entity.id);
   if (!forward || !inverse) errors.push(`Portuguese geography relationship pair missing: ${place.slug} -> ${place.parent}`);
 }
-for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeography, 11], ['South African', southAfricaGeography, 7], ['Argentine/Chilean', argentinaChileGeography, 10]]) {
+for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeography, 11], ['South African', southAfricaGeography, 7], ['Argentine/Chilean', argentinaChileGeography, 10], ['United States', unitedStatesGeography, 17], ['Emerging European', emergingEuropeGeography, 9]]) {
   if (geographySet.places.length < minimum) errors.push(`${label} geography hierarchy expected at least ${minimum} places; found ${geographySet.places.length}`);
   const slugs = new Set();
   for (const place of geographySet.places) {
@@ -218,7 +221,9 @@ const portugueseGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'conte
 const newZealandGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/new-zealand-grape-regions.json'), 'utf8'));
 const southAfricanGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/south-african-grape-regions.json'), 'utf8'));
 const argentineChileanGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/argentine-chilean-grape-regions.json'), 'utf8'));
-for (const grape of [...grapeRegions.grapes, ...frenchGrapeRegions.grapes, ...italianGrapeRegions.grapes, ...spanishGrapeRegions.grapes, ...germanAustrianGrapeRegions.grapes, ...portugueseGrapeRegions.grapes, ...newZealandGrapeRegions.grapes, ...southAfricanGrapeRegions.grapes, ...argentineChileanGrapeRegions.grapes]) {
+const unitedStatesGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/united-states-grape-regions.json'), 'utf8'));
+const emergingEuropeGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/emerging-europe-grape-regions.json'), 'utf8'));
+for (const grape of [...grapeRegions.grapes, ...frenchGrapeRegions.grapes, ...italianGrapeRegions.grapes, ...spanishGrapeRegions.grapes, ...germanAustrianGrapeRegions.grapes, ...portugueseGrapeRegions.grapes, ...newZealandGrapeRegions.grapes, ...southAfricanGrapeRegions.grapes, ...argentineChileanGrapeRegions.grapes, ...unitedStatesGrapeRegions.grapes, ...emergingEuropeGrapeRegions.grapes]) {
   const grapeEntity = entityRegistry.entities.find(entity => entity.canonicalArticle === `/${grape.slug}/`);
   const grapePage = fs.readFileSync(path.join(root, grape.slug, 'index.html'), 'utf8');
   if (!grapePage.includes('Wine regions for this grape')) errors.push(`grape-region panel missing: ${grape.slug}`);
