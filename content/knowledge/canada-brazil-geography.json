@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "scope": "Canadian and Brazilian wine geography hierarchy",
+  "sourcePolicy": "Only explicit, reviewed geographic relationships between canonical WineDaddy place pages are included.",
+  "evidenceCatalog": {
+    "approved_editorial_geography": "Approved WineDaddy regional guides and their explicit Canadian and Brazilian geographic hierarchy"
+  },
+  "places": [
+    {"slug":"canada-wine-regions","kind":"country","label":"Canada"},
+    {"slug":"niagara-peninsula-wine-region","kind":"wine_region","label":"Niagara Peninsula","parent":"canada-wine-regions"},
+    {"slug":"okanagan-valley","kind":"wine_region","label":"Okanagan Valley","parent":"canada-wine-regions"},
+    {"slug":"brazil-wine-regions","kind":"country","label":"Brazil"},
+    {"slug":"serra-gaucha-wine-region","kind":"wine_region","label":"Serra Gaúcha","parent":"brazil-wine-regions"}
+  ]
+}

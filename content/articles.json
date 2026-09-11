@@ -166,7 +166,7 @@
       "route": "/amontillado-vs-oloroso/",
       "title": "Amontillado vs Oloroso: What’s the Difference?",
       "description": "Amontillado and Oloroso are both styles of Sherry, the fortified wine associated with the Jerez-Xérès-Sherry protected designation in southern Spain. They…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/amontillado-vs-oloroso.md"
     },
     {
@@ -518,7 +518,7 @@
       "route": "/blanc-de-blancs-champagne/",
       "title": "Blanc de Blancs Champagne: What It Means and How It Tastes",
       "description": "Blanc de Blancs Champagne is Champagne made exclusively from white-skinned grape varieties. In practice, it is usually Chardonnay-led, because Chardonnay is…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/blanc-de-blancs-champagne.md"
     },
     {
@@ -526,7 +526,7 @@
       "route": "/blanc-de-noirs-champagne/",
       "title": "Blanc de Noirs Champagne",
       "description": "Blanc de Noirs Champagne is white Champagne made exclusively from dark-skinned grapes. In Champagne, the relevant varieties are principally Pinot Noir and…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/blanc-de-noirs-champagne.md"
     },
     {
@@ -670,7 +670,7 @@
       "route": "/cabernet-sauvignon-in-australia/",
       "title": "Cabernet Sauvignon in Australia: Regions, Styles and What to Expect",
       "description": "Understand how Cabernet Sauvignon varies across Australia, from Margaret River and Coonawarra to warmer inland and cooler Victorian regions.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/cabernet-sauvignon-in-australia.md"
     },
     {
@@ -958,7 +958,7 @@
       "route": "/champagne-sweetness-levels/",
       "title": "Champagne sweetness levels: Brut, Extra Brut, Demi-Sec and more",
       "description": "Champagne sweetness levels are regulated categories based on sugar content, expressed in grams per litre (g/L). They are closely associated with dosage, the…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/champagne-sweetness-levels.md"
     },
     {
@@ -990,7 +990,7 @@
       "route": "/chardonnay-in-australia/",
       "title": "Chardonnay in Australia: How Place and Winemaking Shape the Style",
       "description": "Understand why Australian Chardonnay varies across regions and styles, and how climate, site, harvest timing, oak and malolactic fermentation shape the wine.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/chardonnay-in-australia.md"
     },
     {
@@ -1118,7 +1118,7 @@
       "route": "/colheita-port/",
       "title": "Colheita Port: A Beginner’s Guide to Portugal’s Single-Harvest Port",
       "description": "Colheita Port is a single-harvest category of Portuguese Port from the Douro Demarcated Region. The wine must be made from grapes harvested in one year,…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/colheita-port.md"
     },
     {
@@ -1230,7 +1230,7 @@
       "route": "/corpinnat-sparkling-wine/",
       "title": "Corpinnat sparkling wine: a beginner’s guide",
       "description": "Corpinnat is a European Union collective brand for sparkling wines made in the Penedès area of Catalonia, Spain. The name identifies wines made under the…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/corpinnat-sparkling-wine.md"
     },
     {
@@ -1502,7 +1502,7 @@
       "route": "/douro-table-wine/",
       "title": "Douro table wine: Portugal’s unfortified wine beyond Port",
       "description": "Douro table wine means still, unfortified wine associated with Portugal’s Douro wine region. The more precise terms you are likely to see are Douro, Douro…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/douro-table-wine.md"
     },
     {
@@ -1742,7 +1742,7 @@
       "route": "/fino-vs-manzanilla/",
       "title": "Fino vs Manzanilla: What’s the Difference?",
       "description": "Fino and Manzanilla are not grape varieties. They are closely related, dry Sherry styles made by ageing a dry, fortified wine under a layer of flor yeast.",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/fino-vs-manzanilla.md"
     },
     {
@@ -2118,7 +2118,7 @@
       "route": "/grenache-in-australia/",
       "title": "Grenache in Australia",
       "description": "Understand Australian Grenache: its history, major regions, styles, blends, old-vine context and the clues that help explain what may be in the glass.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/grenache-in-australia.md"
     },
     {
@@ -2134,7 +2134,7 @@
       "route": "/grower-champagne/",
       "title": "Grower Champagne: What Australian Wine Drinkers Should Know",
       "description": "In Champagne, a grower is a producer connected to vineyards and grape growing. A grower may make and sell Champagne under its own label, rather than selling…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/grower-champagne.md"
     },
     {
@@ -2766,7 +2766,7 @@
       "route": "/how-to-pronounce-french-wine-regions/",
       "title": "How to pronounce French wine regions",
       "description": "Learn clear, practical pronunciations for common French wine regions, including Bordeaux, Bourgogne, Burgundy, Champagne, Chablis and Beaujolais.",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/how-to-pronounce-french-wine-regions.md"
     },
     {
@@ -3174,7 +3174,7 @@
       "route": "/late-bottled-vintage-port/",
       "title": "Late Bottled Vintage Port: What LBV Means",
       "description": "Late Bottled Vintage Port is a recognised category of Portuguese Port made from grapes harvested in a single vintage year. It is selected and certified…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/late-bottled-vintage-port.md"
     },
     {
@@ -3334,7 +3334,7 @@
       "route": "/madeira-grape-varieties/",
       "title": "Madeira grape varieties: a beginner’s guide",
       "description": "The four classic named varieties are Sercial, Verdelho, Boal/Bual and Malvasia/Malmsey. They are sometimes called Madeira’s “noble four” and are…",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/madeira-grape-varieties.md"
     },
     {
@@ -3342,7 +3342,7 @@
       "route": "/madeira-sweetness-levels/",
       "title": "Madeira sweetness levels: from extra seco to doce",
       "description": "Madeira’s sweetness levels run from extra seco (extra dry) to doce (sweet). These are Madeira-specific Portuguese terms, and they do not map perfectly onto…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/madeira-sweetness-levels.md"
     },
     {
@@ -3454,7 +3454,7 @@
       "route": "/marsanne-and-roussanne-in-australia/",
       "title": "Marsanne and Roussanne in Australia",
       "description": "Understand how Marsanne and Roussanne relate, where they are documented in Australia, how they appear on labels and what styles Australian wine learners may encounter.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/marsanne-and-roussanne-in-australia.md"
     },
     {
@@ -3846,7 +3846,7 @@
       "route": "/nebbiolo-in-australia/",
       "title": "Nebbiolo in Australia: Regions, Styles and What to Expect",
       "description": "Learn where Nebbiolo is grown in Australia, why it is challenging, how Australian styles vary and how they differ from Barolo and Barbaresco.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/nebbiolo-in-australia.md"
     },
     {
@@ -4094,7 +4094,7 @@
       "route": "/pedro-ximenez-sherry/",
       "title": "Pedro Ximénez sherry: a beginner’s guide to PX",
       "description": "Pedro Ximénez, usually shortened to PX, is both a white grape variety and the name commonly used for an intensely sweet style of Sherry made from it.",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/pedro-ximenez-sherry.md"
     },
     {
@@ -4206,7 +4206,7 @@
       "route": "/pinot-gris-in-australia/",
       "title": "Pinot Gris in Australia: a guide to the grape and its styles",
       "description": "Understand Pinot Gris in Australia, including the difference between Pinot Gris and Pinot Grigio, Australian style variation, regional influences and label-reading tips.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/pinot-gris-in-australia.md"
     },
     {
@@ -4238,7 +4238,7 @@
       "route": "/pinot-noir-in-australia/",
       "title": "Pinot Noir in Australia: Regions, Styles and What to Look For",
       "description": "Understand Pinot Noir in Australia through its major regions, GI labels, climate and site variation, inland production and practical tasting clues.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/pinot-noir-in-australia.md"
     },
     {
@@ -4294,7 +4294,7 @@
       "route": "/port-wine-styles/",
       "title": "Port wine styles: Ruby, Tawny, Vintage and more explained",
       "description": "Port is a protected Portuguese designation of origin associated with the Douro Demarcated Region in northern Portugal. The name covers several styles,…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/port-wine-styles.md"
     },
     {
@@ -4382,7 +4382,7 @@
       "route": "/prosecco-doc-and-docg/",
       "title": "Prosecco DOC and DOCG: what the labels mean",
       "description": "DOC and DOCG are Italian designations that connect a qualifying wine with a defined place and a set of production rules.",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/prosecco-doc-and-docg.md"
     },
     {
@@ -4566,7 +4566,7 @@
       "route": "/riesling-in-australia/",
       "title": "Riesling in Australia: A Guide to Style, Place and Ageing",
       "description": "Understand Australian Riesling through its regions, climate, styles, acidity, sweetness, ageing potential, serving and food pairing.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/riesling-in-australia.md"
     },
     {
@@ -4670,7 +4670,7 @@
       "route": "/rose-champagne/",
       "title": "Rosé Champagne: What Australian Wine Drinkers Should Know",
       "description": "Rosé Champagne is Champagne made under the rules of the Champagne appellation and presented in a rosé style. In other words, it is a geographically specific…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/rose-champagne.md"
     },
     {
@@ -4694,7 +4694,7 @@
       "route": "/ruby-vs-tawny-port/",
       "title": "Ruby vs Tawny Port: What’s the Difference?",
       "description": "Ruby and Tawny are two styles of Port, not different grape varieties. The simplest distinction is this:",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/ruby-vs-tawny-port.md"
     },
     {
@@ -4846,7 +4846,7 @@
       "route": "/sangiovese-in-australia/",
       "title": "Sangiovese in Australia",
       "description": "Understand Sangiovese’s small but established Australian presence, associated regions, changing styles and what to look for when tasting or reading a label.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/sangiovese-in-australia.md"
     },
     {
@@ -4894,7 +4894,7 @@
       "route": "/sauvignon-blanc-in-australia/",
       "title": "Sauvignon Blanc in Australia",
       "description": "Understand where Sauvignon Blanc is grown in Australia, how region and winemaking shape its style, and what Australian labels and GIs can—and cannot—tell you.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/sauvignon-blanc-in-australia.md"
     },
     {
@@ -4966,7 +4966,7 @@
       "route": "/semillon-in-australia/",
       "title": "Sémillon in Australia: Styles, Regions and What to Expect",
       "description": "Understand Australian Sémillon, from classic Hunter Valley styles and bottle-age potential to Barossa expressions, Margaret River blends and practical label clues.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/semillon-in-australia.md"
     },
     {
@@ -4998,7 +4998,7 @@
       "route": "/sherry-ageing-system/",
       "title": "Sherry ageing system: flor, oxidation and the solera explained",
       "description": "The Sherry ageing system combines different ways of maturing fortified wine. Wine may age under flor, a surface layer of wine yeast; it may age oxidatively…",
-      "section": "regions",
+      "section": "winemaking",
       "source": "article-source/sherry-ageing-system.md"
     },
     {
@@ -5014,7 +5014,7 @@
       "route": "/shiraz-in-australia/",
       "title": "Shiraz in Australia",
       "description": "Understand why Australian Shiraz varies across regions, and how climate, site, vintage, winemaking and GI labels shape what you taste.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/shiraz-in-australia.md"
     },
     {
@@ -5414,7 +5414,7 @@
       "route": "/tempranillo-in-australia/",
       "title": "Tempranillo in Australia: What to Expect from Australian Examples",
       "description": "Learn where Tempranillo is grown in Australia, how climate and site affect its style, and what to look for when tasting or reading a label.",
-      "section": "regions",
+      "section": "grapes",
       "source": "article-source/tempranillo-in-australia.md"
     },
     {
@@ -5478,7 +5478,7 @@
       "route": "/tokaji-aszu/",
       "title": "Tokaji Aszú: Hungary’s Sweet Wine Explained",
       "description": "Tokaji Aszú is a regulated sweet wine type from the Tokaj wine region in north-eastern Hungary. It is protected under the European Union’s Tokaj/Tokaji…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/tokaji-aszu.md"
     },
     {
@@ -5750,7 +5750,7 @@
       "route": "/vintage-port/",
       "title": "Vintage Port: a beginner’s guide to Portugal’s declared, bottle-aged Port",
       "description": "Vintage Port is a protected category of Port wine from Portugal’s Douro wine region. It is made from grapes harvested in a single year, known as a declared…",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/vintage-port.md"
     },
     {
@@ -5758,7 +5758,7 @@
       "route": "/vintage-vs-non-vintage-champagne/",
       "title": "Vintage vs non-vintage Champagne: what’s the difference?",
       "description": "The simplest way to tell Vintage and non-vintage Champagne apart is to look for a year on the label.",
-      "section": "regions",
+      "section": "fundamentals",
       "source": "article-source/vintage-vs-non-vintage-champagne.md"
     },
     {
@@ -8000,6 +8000,22 @@
       "description": "Learn what Zweigelt is, where it comes from, how it tastes, where it is grown—including Australia—and what food to serve with it.",
       "section": "grapes",
       "source": "article-source/zweigelt.md"
+    },
+    {
+      "slug": "canada-wine-regions",
+      "route": "/canada-wine-regions/",
+      "section": "regions",
+      "title": "Canada Wine Regions: A Beginner’s Guide",
+      "description": "Understand Canadian wine through the Okanagan Valley, Niagara Peninsula, cool-climate growing conditions, key grapes and regional label context.",
+      "source": "article-source/canada-wine-regions.md"
+    },
+    {
+      "slug": "brazil-wine-regions",
+      "route": "/brazil-wine-regions/",
+      "section": "regions",
+      "title": "Brazil Wine Regions: A Beginner’s Guide",
+      "description": "Understand Brazilian wine through Serra Gaúcha, southern growing conditions, sparkling wine, key grapes and regional label context.",
+      "source": "article-source/brazil-wine-regions.md"
     }
   ]
 }

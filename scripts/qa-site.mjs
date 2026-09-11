@@ -24,7 +24,7 @@ for (const route of ['/germany/', '/mosel/', '/rheingau/', '/pfalz/', '/baden/',
 for (const route of ['/portugal/', '/douro-valley/', '/vinho-verde/', '/alentejo-wine-region/', '/dao-wine-region/', '/bairrada-wine-region/', '/lisboa-wine-region/']) if (!header.includes(`href="${route}"`)) errors.push(`Portuguese region submenu missing ${route}`);
 for (const route of ['/new-zealand/', '/marlborough/', '/central-otago/', '/hawkes-bay/', '/martinborough/', '/south-africa/', '/stellenbosch/', '/swartland/', '/walker-bay/', '/argentina/', '/salta-wine-region/', '/uco-valley/', '/cafayate-wine-region/', '/chile/', '/maipo-valley/', '/colchagua-valley/', '/casablanca-valley/', '/leyda-valley/']) if (!header.includes(`href="${route}"`)) errors.push(`Southern Hemisphere region submenu missing ${route}`);
 for (const route of ['/united-states/', '/napa-valley/', '/sonoma-coast/', '/santa-barbara-county-wine/', '/paso-robles/', '/willamette-valley/', '/finger-lakes-wine-region/', '/greece/', '/santorini-wine-region/', '/nemea-wine-region/', '/naoussa-wine-region/', '/hungary/', '/tokaj-wine-region/', '/eger-wine-region/', '/georgia/', '/england/']) if (!header.includes(`href="${route}"`)) errors.push(`North American/emerging European region submenu missing ${route}`);
-if ((header.match(/class="nav-region-group"/g) || []).length !== 16 || !header.includes('class="nav-dropdown nav-mega"')) errors.push('desktop Regions mega-menu structure missing');
+if ((header.match(/class="nav-region-group"/g) || []).length !== 18 || !header.includes('class="nav-dropdown nav-mega"')) errors.push('desktop Regions mega-menu structure missing');
 const regionMenu = header.match(/<div class="nav-mega-grid">([\s\S]*?)<\/div><\/div><\/details>/)?.[1] || '';
 const regionMenuCountries = textMatches(regionMenu, /class="nav-feature"[^>]*>(.*?)<\/a>/g);
 expectAlphabetical(regionMenuCountries, 'Regions menu countries');
@@ -40,7 +40,7 @@ if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('cons
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
 const expectedEntityCount = manifest.articles.length + 4;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
@@ -66,6 +66,9 @@ const southAfricaGeography = JSON.parse(fs.readFileSync(path.join(root, 'content
 const argentinaChileGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/argentina-chile-geography.json'), 'utf8'));
 const unitedStatesGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/united-states-geography.json'), 'utf8'));
 const emergingEuropeGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/emerging-europe-geography.json'), 'utf8'));
+const canadaBrazilGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/canada-brazil-geography.json'), 'utf8'));
+const regionTopics = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
+const regionTaxonomyMigrations = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-taxonomy-migrations.json'), 'utf8'));
 const geographySlugs = new Set();
 if (geography.places.length < 80) errors.push(`Australian geography hierarchy expected at least 80 places; found ${geography.places.length}`);
 for (const place of geography.places) {
@@ -174,8 +177,7 @@ for (const place of portugalGeography.places) {
   const inverse = relationshipRegistry.relationships.some(item => item.from === parent?.id && item.predicate === 'contains' && item.to === entity.id);
   if (!forward || !inverse) errors.push(`Portuguese geography relationship pair missing: ${place.slug} -> ${place.parent}`);
 }
-for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeography, 11], ['South African', southAfricaGeography, 7], ['Argentine/Chilean', argentinaChileGeography, 10], ['United States', unitedStatesGeography, 17], ['Emerging European', emergingEuropeGeography, 9]]) {
-  if (geographySet.places.length < minimum) errors.push(`${label} geography hierarchy expected at least ${minimum} places; found ${geographySet.places.length}`);
+for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeography, 12], ['South African', southAfricaGeography, 7], ['Argentine/Chilean', argentinaChileGeography, 12], ['United States', unitedStatesGeography, 17], ['Emerging European', emergingEuropeGeography, 9], ['Canadian/Brazilian', canadaBrazilGeography, 5]]) {
   const slugs = new Set();
   for (const place of geographySet.places) {
     if (slugs.has(place.slug)) errors.push(`duplicate ${label} geography slug: ${place.slug}`);
@@ -193,7 +195,7 @@ for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeograph
     if (!forward || !inverse) errors.push(`${label} geography relationship pair missing: ${place.slug} -> ${place.parent}`);
   }
 }
-const allGeographyPlaces = [geography, franceGeography, italyGeography, spainGeography, germanAustrianGeography, portugalGeography, newZealandGeography, southAfricaGeography, argentinaChileGeography, unitedStatesGeography, emergingEuropeGeography].flatMap(set => set.places);
+const allGeographyPlaces = [geography, franceGeography, italyGeography, spainGeography, germanAustrianGeography, portugalGeography, newZealandGeography, southAfricaGeography, argentinaChileGeography, unitedStatesGeography, emergingEuropeGeography, canadaBrazilGeography].flatMap(set => set.places);
 const geographyPlaceBySlug = new Map(allGeographyPlaces.map(place => [place.slug, place]));
 for (const place of allGeographyPlaces) {
   const chain = [];
@@ -222,8 +224,31 @@ const geographicCountryCount = allGeographyPlaces.filter(place => place.kind ===
 if ((regionsHub.match(/data-region-country/g) || []).length !== geographicCountryCount) errors.push(`regions directory expected ${geographicCountryCount} country groups`);
 if ((regionsHub.match(/<details class="region-country" data-region-country>/g) || []).length !== geographicCountryCount || /data-region-country open/.test(regionsHub)) errors.push('regions directory country groups must load collapsed');
 const governedRegionRoutes = new Set(allGeographyPlaces.map(place => `/${place.slug}/`));
+for (const topic of regionTopics.topics) {
+  governedRegionRoutes.add(`/${topic.slug}/`);
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${topic.slug}/`);
+  const parent = entityRegistry.entities.find(candidate => candidate.canonicalArticle === `/${topic.parent}/`);
+  if (!entity || entity.geographyKind) errors.push(`regional topic must be a non-place entity: ${topic.slug}`);
+  if (!parent?.geographyKind) errors.push(`regional topic parent missing: ${topic.slug} -> ${topic.parent}`);
+  if (!relationshipRegistry.relationships.some(item => item.from === entity?.id && item.predicate === 'about_place' && item.to === parent?.id)) errors.push(`regional topic relationship missing: ${topic.slug} -> ${topic.parent}`);
+  if (!relationshipRegistry.relationships.some(item => item.from === parent?.id && item.predicate === 'has_regional_guide' && item.to === entity?.id)) errors.push(`regional topic inverse relationship missing: ${topic.parent} -> ${topic.slug}`);
+  if (!regionsHub.includes(`href="/${topic.slug}/" data-region-item`)) errors.push(`regional topic missing from directory: ${topic.slug}`);
+  const topicPage = fs.readFileSync(path.join(root, topic.slug, 'index.html'), 'utf8');
+  if (!topicPage.includes('data-geography-hierarchy')) errors.push(`regional topic geography context missing: ${topic.slug}`);
+  if (!topicPage.includes(`"item":"https://winedaddy.com.au/${topic.parent}/"`)) errors.push(`regional topic breadcrumb parent missing: ${topic.slug} -> ${topic.parent}`);
+}
+if (regionTopics.topics.length !== 41) errors.push(`regional topic audit expected 41 guides; found ${regionTopics.topics.length}`);
+if (regionTaxonomyMigrations.migrations.length !== 35) errors.push(`regional taxonomy migration audit expected 35 guides; found ${regionTaxonomyMigrations.migrations.length}`);
+const migrationSlugs = new Set();
+for (const migration of regionTaxonomyMigrations.migrations) {
+  if (migrationSlugs.has(migration.slug)) errors.push(`duplicate regional taxonomy migration: ${migration.slug}`);
+  migrationSlugs.add(migration.slug);
+  const article = manifest.articles.find(candidate => candidate.slug === migration.slug);
+  if (!article) errors.push(`regional taxonomy migration article missing: ${migration.slug}`);
+  else if (article.section !== migration.to) errors.push(`regional taxonomy migration target mismatch: ${migration.slug} expected ${migration.to}, found ${article.section}`);
+}
 const ungroupedRegionCount = manifest.articles.filter(article => article.section === 'regions' && !governedRegionRoutes.has(article.route)).length;
-if ((regionsHub.match(/data-region-ungrouped/g) || []).length !== ungroupedRegionCount) errors.push(`regions directory expected ${ungroupedRegionCount} ungrouped guides`);
+if (ungroupedRegionCount !== 0 || /data-region-ungrouped/.test(regionsHub) || /More regional guides/.test(regionsHub)) errors.push(`regions directory has ${ungroupedRegionCount} unclassified guides`);
 const clientScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
 if (!clientScript.includes('group.open = Boolean(query) && !group.hidden')) errors.push('regions directory search expansion behaviour missing');
 const grapesHub = fs.readFileSync(path.join(root, 'grapes', 'index.html'), 'utf8');
@@ -290,6 +315,7 @@ const publicGraph = JSON.parse(fs.readFileSync(path.join(root, 'knowledge-graph.
 if (entityRegistry.version !== 2 || relationshipRegistry.version !== 2 || publicGraph.version !== 2) errors.push('Knowledge Graph v2 version marker missing');
 if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) errors.push('Knowledge Graph v2 predicate context missing');
 if (!publicGraph['@context'].grown_in || !publicGraph['@context'].known_for) errors.push('grape-region predicate context missing');
+if (!publicGraph['@context'].about_place || !publicGraph['@context'].has_regional_guide) errors.push('regional-topic predicate context missing');
 const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
 const frenchGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/french-grape-regions.json'), 'utf8'));
 const italianGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/italian-grape-regions.json'), 'utf8'));
@@ -301,7 +327,8 @@ const southAfricanGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'con
 const argentineChileanGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/argentine-chilean-grape-regions.json'), 'utf8'));
 const unitedStatesGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/united-states-grape-regions.json'), 'utf8'));
 const emergingEuropeGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/emerging-europe-grape-regions.json'), 'utf8'));
-for (const grape of [...grapeRegions.grapes, ...frenchGrapeRegions.grapes, ...italianGrapeRegions.grapes, ...spanishGrapeRegions.grapes, ...germanAustrianGrapeRegions.grapes, ...portugueseGrapeRegions.grapes, ...newZealandGrapeRegions.grapes, ...southAfricanGrapeRegions.grapes, ...argentineChileanGrapeRegions.grapes, ...unitedStatesGrapeRegions.grapes, ...emergingEuropeGrapeRegions.grapes]) {
+const canadaBrazilGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/canada-brazil-grape-regions.json'), 'utf8'));
+for (const grape of [...grapeRegions.grapes, ...frenchGrapeRegions.grapes, ...italianGrapeRegions.grapes, ...spanishGrapeRegions.grapes, ...germanAustrianGrapeRegions.grapes, ...portugueseGrapeRegions.grapes, ...newZealandGrapeRegions.grapes, ...southAfricanGrapeRegions.grapes, ...argentineChileanGrapeRegions.grapes, ...unitedStatesGrapeRegions.grapes, ...emergingEuropeGrapeRegions.grapes, ...canadaBrazilGrapeRegions.grapes]) {
   const grapeEntity = entityRegistry.entities.find(entity => entity.canonicalArticle === `/${grape.slug}/`);
   const grapePage = fs.readFileSync(path.join(root, grape.slug, 'index.html'), 'utf8');
   if (!grapePage.includes('Wine regions for this grape')) errors.push(`grape-region panel missing: ${grape.slug}`);
