@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "scope": "Canonical grapes and Canadian or Brazilian wine places",
+  "sourcePolicy": "Curated only where approved WineDaddy regional guides explicitly identify the grape as important.",
+  "evidence": "approved_editorial_grape_region",
+  "grapes": [
+    {"slug":"what-is-riesling","regions":["canada-wine-regions","niagara-peninsula-wine-region","okanagan-valley"]},
+    {"slug":"what-is-chardonnay","regions":["canada-wine-regions","niagara-peninsula-wine-region","okanagan-valley","brazil-wine-regions","serra-gaucha-wine-region"]},
+    {"slug":"what-is-pinot-noir","regions":["canada-wine-regions","niagara-peninsula-wine-region","okanagan-valley","brazil-wine-regions","serra-gaucha-wine-region"]},
+    {"slug":"cabernet-franc","regions":["canada-wine-regions","niagara-peninsula-wine-region","okanagan-valley"]},
+    {"slug":"what-is-merlot","regions":["brazil-wine-regions","serra-gaucha-wine-region"]},
+    {"slug":"moscato-muscat","regions":["brazil-wine-regions","serra-gaucha-wine-region"]}
+  ]
+}

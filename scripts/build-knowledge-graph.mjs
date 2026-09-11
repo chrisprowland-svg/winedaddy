@@ -4,9 +4,10 @@ import {cardTitle, sections} from '../site/site.mjs';
 
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
-const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json', 'spain-geography.json', 'germany-austria-geography.json', 'portugal-geography.json', 'new-zealand-geography.json', 'south-africa-geography.json', 'argentina-chile-geography.json', 'united-states-geography.json', 'emerging-europe-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json', 'spain-geography.json', 'germany-austria-geography.json', 'portugal-geography.json', 'new-zealand-geography.json', 'south-africa-geography.json', 'argentina-chile-geography.json', 'united-states-geography.json', 'emerging-europe-geography.json', 'canada-brazil-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const regionTopics = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
 const geography = {places: geographies.flatMap(item => item.places)};
-const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json', 'spanish-grape-regions.json', 'german-austrian-grape-regions.json', 'portuguese-grape-regions.json', 'new-zealand-grape-regions.json', 'south-african-grape-regions.json', 'argentine-chilean-grape-regions.json', 'united-states-grape-regions.json', 'emerging-europe-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
+const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json', 'spanish-grape-regions.json', 'german-austrian-grape-regions.json', 'portuguese-grape-regions.json', 'new-zealand-grape-regions.json', 'south-african-grape-regions.json', 'argentine-chilean-grape-regions.json', 'united-states-grape-regions.json', 'emerging-europe-grape-regions.json', 'canada-brazil-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const typeBySection = {
   fundamentals: 'wine_concept',
   grapes: 'grape_variety',
@@ -79,6 +80,14 @@ for (const geographySet of geographies) for (const place of geographySet.places)
   addRelationship({from: entityId(article), predicate: 'located_in', to: entityId(parent), evidence});
   addRelationship({from: entityId(parent), predicate: 'contains', to: entityId(article), evidence});
 }
+for (const topic of regionTopics.topics) {
+  const article = articleBySlug.get(topic.slug);
+  const parent = articleBySlug.get(topic.parent);
+  if (!article || article.section !== 'regions') throw new Error(`Regional topic missing or misclassified: ${topic.slug}`);
+  if (!parent || !geographyBySlug.has(topic.parent)) throw new Error(`Regional topic parent is not a governed place: ${topic.slug} -> ${topic.parent}`);
+  addRelationship({from: entityId(article), predicate: 'about_place', to: entityId(parent), evidence: regionTopics.evidence});
+  addRelationship({from: entityId(parent), predicate: 'has_regional_guide', to: entityId(article), evidence: regionTopics.evidence});
+}
 for (const grapeRegions of grapeRegionSets) for (const grape of grapeRegions.grapes) {
   const grapeArticle = articleBySlug.get(grape.slug);
   if (!grapeArticle || grapeArticle.section !== 'grapes') throw new Error(`Australian grape entity missing: ${grape.slug}`);
@@ -124,9 +133,11 @@ const publicGraph = {
     member_of: 'https://schema.org/isPartOf',
     recommended_next: 'https://schema.org/relatedLink',
     located_in: 'https://schema.org/containedInPlace',
-    contains: 'https://schema.org/containsPlace'
-    ,grown_in: 'https://schema.org/location'
-    ,known_for: 'https://schema.org/knowsAbout'
+    contains: 'https://schema.org/containsPlace',
+    grown_in: 'https://schema.org/location',
+    known_for: 'https://schema.org/knowsAbout',
+    about_place: 'https://schema.org/about',
+    has_regional_guide: 'https://schema.org/subjectOf'
   },
   version: 2,
   entities,

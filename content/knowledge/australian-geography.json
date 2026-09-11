@@ -99,6 +99,15 @@
     {"slug":"tamar-valley","kind":"informal_growing_area","label":"Tamar Valley growing area","parent":"tasmania-wine-region","evidence":"editorial_geography"},
     {"slug":"east-coast-tasmania-wine","kind":"informal_growing_area","label":"East Coast Tasmania growing area","parent":"tasmania-wine-region","evidence":"editorial_geography"},
     {"slug":"coal-river-valley","kind":"informal_growing_area","label":"Coal River Valley growing area","parent":"tasmania-wine-region","evidence":"editorial_geography"},
-    {"slug":"pipers-river","kind":"informal_growing_area","label":"Pipers River growing area","parent":"tasmania-wine-region","evidence":"editorial_geography"}
+    {"slug":"pipers-river","kind":"informal_growing_area","label":"Pipers River growing area","parent":"tasmania-wine-region","evidence":"editorial_geography"},
+    {"slug":"hastings-river-wine-region","kind":"wine_region","label":"Hastings River","parent":"new-south-wales-wine-regions"},
+    {"slug":"hunter-valley-wine-region","kind":"wine_region","label":"Hunter Valley","parent":"new-south-wales-wine-regions"},
+    {"slug":"new-england-australia-wine-region","kind":"wine_region","label":"New England Australia","parent":"new-south-wales-wine-regions"},
+    {"slug":"shoalhaven-coast-wine-region","kind":"wine_region","label":"Shoalhaven Coast","parent":"new-south-wales-wine-regions"},
+    {"slug":"southern-highlands-wine-region","kind":"wine_region","label":"Southern Highlands","parent":"new-south-wales-wine-regions"},
+    {"slug":"southern-flinders-ranges-wine-region","kind":"wine_region","label":"Southern Flinders Ranges","parent":"south-australian-wine-regions"},
+    {"slug":"south-east-australia-zone","kind":"wine_zone","label":"South Eastern Australia","parent":"australian-wine-regions","evidence":"editorial_geography"},
+    {"slug":"murray-darling-wine-region","kind":"wine_region","label":"Murray–Darling","parent":"australian-wine-regions","evidence":"editorial_geography"},
+    {"slug":"swan-hill-wine-region","kind":"wine_region","label":"Swan Hill","parent":"australian-wine-regions","evidence":"editorial_geography"}
   ]
 }
