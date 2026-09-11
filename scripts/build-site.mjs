@@ -52,6 +52,7 @@ for (const article of manifest.articles) {
 for (const [key, section] of Object.entries(sections)) {
   const articles = manifest.articles.filter(article => article.section === key);
   if (key === 'regions') buildRegionsHub(section, articles);
+  else if (key === 'grapes') buildGrapesHub(section, articles);
   else buildHub(key, section, articles);
 }
 refreshStaticHeaders();
@@ -83,6 +84,36 @@ function buildRegionsHub(section, articles) {
   fs.mkdirSync(path.join(root, 'regions'), {recursive: true});
   fs.writeFileSync(path.join(root, 'regions', 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:'/regions/', schema, body}));
 }
+function buildGrapesHub(section, articles) {
+  const articlesByRoute = new Map(articles.map(article => [article.route, article]));
+  const classics = ['what-is-pinot-noir','what-is-shiraz','what-is-chardonnay','what-is-cabernet-sauvignon','what-is-riesling','what-is-sauvignon-blanc'].map(slug => articles.find(article => article.slug === slug)).filter(Boolean);
+  const classicCards = classics.map(article => grapeCard(article, 'grape-classic-card')).join('');
+  const countryRoots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind === 'country' && !parentsById.has(entity.id)).sort((a,b) => a.name.localeCompare(b.name));
+  const countryGroups = countryRoots.map(country => {
+    const placeIds = new Set([country.id, ...geographyDescendants(country).map(entity => entity.id)]);
+    const grapeIds = new Set();
+    for (const placeId of placeIds) for (const grapeId of grapesByRegionId.get(placeId) || []) grapeIds.add(grapeId);
+    const grapes = [...grapeIds].map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => grapeEntityName(a).localeCompare(grapeEntityName(b)));
+    if (!grapes.length) return '';
+    const links = grapes.map(grape => `<a href="${grape.canonicalArticle}" data-grape-item>${escapeHtml(grapeEntityName(grape))}</a>`).join('');
+    return `<section class="grape-country" data-grape-country><div class="grape-country-head"><h3><a href="${country.canonicalArticle}">${escapeHtml(country.name)}</a></h3><span>${grapes.length} grapes</span></div><div class="grape-country-links">${links}</div></section>`;
+  }).join('');
+  const comparisons = articles.filter(article => article.slug.includes('-vs-')).sort((a,b) => grapeDisplayTitle(a).localeCompare(grapeDisplayTitle(b)));
+  const comparisonCards = comparisons.map(article => grapeCard(article, 'grape-comparison-card')).join('');
+  const alphabet = new Map();
+  for (const article of [...articles].sort((a,b) => grapeDisplayTitle(a).localeCompare(grapeDisplayTitle(b)))) {
+    const letter = grapeDisplayTitle(article).charAt(0).toLocaleUpperCase('en-AU');
+    alphabet.set(letter, [...(alphabet.get(letter) || []), article]);
+  }
+  const azGroups = [...alphabet].map(([letter, items]) => `<section class="grape-letter" data-grape-letter><h3>${escapeHtml(letter)}</h3><div>${items.map(article => `<a href="${article.route}" data-grape-item data-grape-az>${escapeHtml(grapeDisplayTitle(article))}</a>`).join('')}</div></section>`).join('');
+  const body = `<main data-grape-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Start with familiar varieties, explore the grapes associated with major wine countries, compare similar styles, or browse every guide A–Z.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section grape-directory"><label class="guide-filter">Search all grape guides<input type="search" data-grape-filter placeholder="Try Pinot Noir, Furmint or Grenache…"></label><section class="grape-feature"><div class="section-head"><div><p class="eyebrow">Start here</p><h2>Classic grapes</h2></div><p>Six useful reference points for understanding how grape variety shapes wine style.</p></div><div class="grid grape-feature-grid">${classicCards}</div></section><section class="grape-by-country"><div class="section-head"><div><p class="eyebrow">Grape and place</p><h2>Explore by country</h2></div><p>These groupings come from WineDaddy’s reviewed grape–region relationships.</p></div><div class="grape-country-grid">${countryGroups}</div></section><section class="grape-comparisons"><div class="section-head"><div><p class="eyebrow">Side by side</p><h2>Compare grapes</h2></div><p>Direct guides for varieties and styles that are commonly confused.</p></div><div class="grid guide-grid">${comparisonCards}</div></section><section class="grape-az"><div class="section-head"><div><p class="eyebrow">Complete directory</p><h2>All grape guides A–Z</h2></div><p>Every WineDaddy grape guide remains available here.</p></div><div class="grape-alphabet">${azGroups}</div></section><p class="empty-state" data-grape-empty hidden>No matching grape guides found.</p></section></main>`;
+  const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/grapes/`,description:section.description,hasPart:classics.map(article => ({'@type':'Article',name:grapeDisplayTitle(article),url:`${SITE_URL}${article.route}`}))};
+  fs.mkdirSync(path.join(root, 'grapes'), {recursive: true});
+  fs.writeFileSync(path.join(root, 'grapes', 'index.html'), pageDocument({title:section.name,description:section.description,canonicalPath:'/grapes/',schema,body}));
+}
+function grapeCard(article, className) { return `<a class="card guide-card ${className}" data-grape-item href="${article.route}"><div><h3>${escapeHtml(grapeDisplayTitle(article))}</h3><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`; }
+function grapeDisplayTitle(article) { return cardTitle(article).replace(/^What is\s+/i, '').replace(/\?$/, ''); }
+function grapeEntityName(entity) { return entity.name.replace(/^What is\s+/i, '').replace(/\?$/, ''); }
 function geographyDescendants(entity) {
   const descendants = [];
   for (const childId of childrenById.get(entity.id) || []) {
@@ -104,7 +135,7 @@ function breadcrumbSchema(article, section, geography) {
   return {'@type':'BreadcrumbList',itemListElement:entries.map((entry,index) => ({'@type':'ListItem',position:index + 1,name:entry.name,item:`${SITE_URL}${entry.route}`}))};
 }
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
-function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-1').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-1'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
+function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-2').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-2'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
 function renderGrapeRegions(entity) {

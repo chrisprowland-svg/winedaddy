@@ -93,3 +93,22 @@ if (regionFilter) {
     if (empty) empty.hidden = visible !== 0;
   });
 }
+
+const grapeFilter = document.querySelector('[data-grape-filter]');
+if (grapeFilter) {
+  const items = [...document.querySelectorAll('[data-grape-item]')];
+  const countryGroups = [...document.querySelectorAll('[data-grape-country]')];
+  const letterGroups = [...document.querySelectorAll('[data-grape-letter]')];
+  const empty = document.querySelector('[data-grape-empty]');
+  grapeFilter.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    let visible = 0;
+    for (const item of items) {
+      item.hidden = Boolean(query) && !item.textContent.toLowerCase().includes(query);
+      if (!item.hidden) visible += 1;
+    }
+    for (const group of countryGroups) group.hidden = Boolean(query) && ![...group.querySelectorAll('[data-grape-item]')].some(item => !item.hidden);
+    for (const group of letterGroups) group.hidden = Boolean(query) && ![...group.querySelectorAll('[data-grape-item]')].some(item => !item.hidden);
+    if (empty) empty.hidden = visible !== 0;
+  });
+}

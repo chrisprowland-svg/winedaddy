@@ -211,6 +211,15 @@ const ungroupedRegionCount = manifest.articles.filter(article => article.section
 if ((regionsHub.match(/data-region-ungrouped/g) || []).length !== ungroupedRegionCount) errors.push(`regions directory expected ${ungroupedRegionCount} ungrouped guides`);
 const clientScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
 if (!clientScript.includes("matchMedia('(max-width: 800px)')") || !clientScript.includes('group.open = Boolean(query)')) errors.push('regions directory mobile/search expansion behaviour missing');
+const grapesHub = fs.readFileSync(path.join(root, 'grapes', 'index.html'), 'utf8');
+if (!grapesHub.includes('data-grape-directory')) errors.push('grapes hub is not using the relationship-led directory');
+const grapeArticles = manifest.articles.filter(article => article.section === 'grapes');
+if ((grapesHub.match(/data-grape-az/g) || []).length !== grapeArticles.length) errors.push(`grape A-Z expected ${grapeArticles.length} guides`);
+const comparisonCount = grapeArticles.filter(article => article.slug.includes('-vs-')).length;
+if ((grapesHub.match(/grape-comparison-card/g) || []).length !== comparisonCount) errors.push(`grape comparison section expected ${comparisonCount} guides`);
+if ((grapesHub.match(/data-grape-country/g) || []).length !== geographicCountryCount) errors.push(`grape directory expected ${geographicCountryCount} country groups`);
+for (const article of grapeArticles) if (!grapesHub.includes(`data-grape-az>${escapeHtml(cardTitle(article).replace(/^What is\s+/i, '').replace(/\?$/, ''))}</a>`)) errors.push(`${article.slug}: missing from grape A-Z`);
+if (!clientScript.includes("querySelector('[data-grape-filter]')") || !clientScript.includes("querySelectorAll('[data-grape-item]')")) errors.push('grape directory search behaviour missing');
 const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
 if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
 if (!tasmaniaPage.includes('Explore selected WineDaddy growing-area guides')) errors.push('Tasmania must label its linked informal places as selected growing-area guides');
@@ -288,7 +297,7 @@ for (const article of manifest.articles) {
 }
 const groups = new Map();
 for (const article of manifest.articles) groups.set(article.section, [...(groups.get(article.section) || []), article]);
-for (const [section, articles] of groups) { const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8'); for (const article of articles) { if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`); if (section !== 'regions' && !hub.includes(`<h2>${escapeHtml(cardTitle(article))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`); if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`); } }
+for (const [section, articles] of groups) { const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8'); for (const article of articles) { if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`); if (!['regions','grapes'].includes(section) && !hub.includes(`<h2>${escapeHtml(cardTitle(article))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`); if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`); } }
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>https:\/\/winedaddy\.com\.au([^<]+)<\/loc>/g)].map(match => match[1]);
 if (new Set(sitemapUrls).size !== sitemapUrls.length) errors.push('sitemap contains duplicate URLs');
