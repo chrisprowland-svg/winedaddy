@@ -74,15 +74,14 @@ if (regionFilter) {
   const groups = [...document.querySelectorAll('[data-region-country]')];
   const otherCards = [...document.querySelectorAll('[data-region-ungrouped]')];
   const empty = document.querySelector('[data-region-empty]');
-  const compact = matchMedia('(max-width: 800px)').matches;
-  if (compact) for (const group of groups) group.open = false;
+  for (const group of groups) group.open = false;
   regionFilter.addEventListener('input', event => {
     const query = event.target.value.trim().toLowerCase();
     let visible = 0;
     for (const group of groups) {
       const matches = [...group.querySelectorAll('[data-region-item]')].filter(item => !query || item.textContent.toLowerCase().includes(query));
       group.hidden = Boolean(query) && !group.textContent.toLowerCase().includes(query);
-      group.open = Boolean(query) ? !group.hidden : !compact;
+      group.open = Boolean(query) && !group.hidden;
       for (const item of group.querySelectorAll('li')) item.hidden = Boolean(query) && !item.textContent.toLowerCase().includes(query);
       if (!group.hidden) visible += matches.length || 1;
     }
@@ -119,8 +118,7 @@ if (processFilter) {
   const processGroups = [...document.querySelectorAll('[data-process-group]')];
   const letterGroups = [...document.querySelectorAll('[data-process-letter]')];
   const empty = document.querySelector('[data-process-empty]');
-  const compact = matchMedia('(max-width: 800px)').matches;
-  if (compact) for (const group of processGroups) group.open = false;
+  for (const group of processGroups) group.open = false;
   processFilter.addEventListener('input', event => {
     const query = event.target.value.trim().toLowerCase();
     let visible = 0;
@@ -131,7 +129,7 @@ if (processFilter) {
     for (const group of processGroups) {
       const hasMatch = [...group.querySelectorAll('[data-process-item]')].some(item => !item.hidden);
       group.hidden = Boolean(query) && !hasMatch;
-      group.open = Boolean(query) ? hasMatch : !compact;
+      group.open = Boolean(query) && hasMatch;
     }
     for (const group of letterGroups) group.hidden = Boolean(query) && ![...group.querySelectorAll('[data-process-item]')].some(item => !item.hidden);
     if (empty) empty.hidden = visible !== 0;
