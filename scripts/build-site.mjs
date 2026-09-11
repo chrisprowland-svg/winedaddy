@@ -41,7 +41,7 @@ for (const article of manifest.articles) {
   const canonicalPath = article.route;
   const articleSchema = {'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}};
   if (geography) articleSchema.about = placeSchema(geography);
-  const schema = {'@context':'https://schema.org','@graph':[articleSchema,{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${SITE_URL}/`},{'@type':'ListItem',position:2,name:section.name,item:`${SITE_URL}/${article.section}/`},{'@type':'ListItem',position:3,name:article.title,item:`${SITE_URL}${canonicalPath}`}]}]};
+  const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography)]};
   const heroTitle = geography?.entity.name || source.match(/^#\s+(.+)$/m)?.[1] || article.title;
   const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
@@ -49,7 +49,11 @@ for (const article of manifest.articles) {
   fs.writeFileSync(outputPath, html);
   searchEntries.push({title: article.title, description: article.description, url: canonicalPath, text: visibleText(body).slice(0, 100)});
 }
-for (const [key, section] of Object.entries(sections)) buildHub(key, section, manifest.articles.filter(article => article.section === key));
+for (const [key, section] of Object.entries(sections)) {
+  const articles = manifest.articles.filter(article => article.section === key);
+  if (key === 'regions') buildRegionsHub(section, articles);
+  else buildHub(key, section, articles);
+}
 refreshStaticHeaders();
 searchEntries.sort((a, b) => a.title.localeCompare(b.title));
 fs.writeFileSync(path.join(root, 'search-index.json'), `${JSON.stringify(searchEntries)}\n`);
@@ -63,8 +67,44 @@ function normaliseReaderSource(source) { return source.replace(/^##\s+(?:.+\s+)?
 function renderMarkdown(source) { let html = marked.parse(source).replace(/^<h1>.*?<\/h1>\s*/s, ''); html = html.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>'); html = html.replace(/<h2>Highlights<\/h2>([\s\S]*?<\/ul>)/i, '<section class="highlights"><h2>Highlights</h2>$1</section>'); html = html.replace(/<table>/g, '<div class="table-scroll" tabindex="0"><table class="article-table">').replace(/<\/table>/g, '</table></div>'); return renderVisualComponents(html); }
 function stripLegacyRelatedLearning(html) { return html.replace(/<h2[^>]*>Related (?:learning|reading)<\/h2>[\s\S]*?(?=<h2(?:\s|>)|$)/gi, ''); }
 function buildHub(key, section, articles) { const cards = articles.sort((a,b) => cardTitle(a).localeCompare(cardTitle(b))).map(article => `<a class="card guide-card" href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join(''); const body = `<main><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">${section.description}</p><p class="article-count">${articles.length} guides</p></div></section><section class="section"><label class="guide-filter">Filter ${section.name.toLowerCase()} guides<input type="search" data-guide-filter placeholder="Search ${section.name.toLowerCase()}…"></label><div class="grid guide-grid" data-guide-grid>${cards}</div><p class="empty-state" data-empty-state hidden>No matching guides found.</p></section></main>`; const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/${key}/`,description:section.description}; fs.mkdirSync(path.join(root, key), {recursive: true}); fs.writeFileSync(path.join(root, key, 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:`/${key}/`, schema, body})); }
+function buildRegionsHub(section, articles) {
+  const articlesByRoute = new Map(articles.map(article => [article.route, article]));
+  const governed = new Set([...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind).map(entity => entity.canonicalArticle));
+  const roots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind && !parentsById.has(entity.id)).sort((a,b) => a.name.localeCompare(b.name));
+  const countryGroups = roots.map(rootEntity => {
+    const descendants = geographyDescendants(rootEntity);
+    const tree = renderDirectoryChildren(rootEntity) || '<p class="region-country-empty">Country guide available; regional guides are still being classified.</p>';
+    return `<section class="region-country" data-region-country><div class="region-country-head"><div><p class="kicker">Country</p><h2><a href="${rootEntity.canonicalArticle}" data-region-item>${escapeHtml(rootEntity.name)}</a></h2></div><span>${descendants.length + 1} guides</span></div>${tree}</section>`;
+  }).join('');
+  const ungrouped = articles.filter(article => !governed.has(article.route)).sort((a,b) => cardTitle(a).localeCompare(cardTitle(b)));
+  const otherCards = ungrouped.map(article => `<a class="card guide-card region-more-card" data-region-item data-region-ungrouped href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join('');
+  const body = `<main data-region-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Browse wine geography from country to region, subregion and appellation—or search every regional guide directly.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section region-directory"><label class="guide-filter">Search all region guides<input type="search" data-region-filter placeholder="Try Burgundy, Barossa or Napa…"></label><div class="region-country-grid">${countryGroups}</div><p class="empty-state" data-region-empty hidden>No matching region guides found.</p><section class="region-more"><div class="section-head"><div><p class="eyebrow">Beyond the country trees</p><h2>More regional guides</h2></div><p>These guides remain fully searchable while their geographic relationships await reviewed classification.</p></div><div class="grid guide-grid" data-guide-grid>${otherCards}</div></section></section></main>`;
+  const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/regions/`,description:section.description,hasPart:roots.map(entity => ({'@type':'CollectionPage',name:entity.name,url:`${SITE_URL}${entity.canonicalArticle}`}))};
+  fs.mkdirSync(path.join(root, 'regions'), {recursive: true});
+  fs.writeFileSync(path.join(root, 'regions', 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:'/regions/', schema, body}));
+}
+function geographyDescendants(entity) {
+  const descendants = [];
+  for (const childId of childrenById.get(entity.id) || []) {
+    const child = entitiesById.get(childId);
+    if (!child) continue;
+    descendants.push(child, ...geographyDescendants(child));
+  }
+  return descendants;
+}
+function renderDirectoryChildren(entity) {
+  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
+  if (!children.length) return '';
+  return `<ul class="region-tree">${children.map(child => `<li><a href="${child.canonicalArticle}" data-region-item>${escapeHtml(child.name)}</a>${renderDirectoryChildren(child)}</li>`).join('')}</ul>`;
+}
+function breadcrumbSchema(article, section, geography) {
+  const entries = [{name:'Home',route:'/'},{name:section.name,route:`/${article.section}/`}];
+  if (geography) for (const entity of geography.ancestors) entries.push({name:entity.name,route:entity.canonicalArticle});
+  entries.push({name:geography?.entity.name || article.title,route:article.route});
+  return {'@type':'BreadcrumbList',itemListElement:entries.map((entry,index) => ({'@type':'ListItem',position:index + 1,name:entry.name,item:`${SITE_URL}${entry.route}`}))};
+}
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
-function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260910-1').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260910-1'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
+function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-1').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-1'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
 function renderGrapeRegions(entity) {

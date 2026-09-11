@@ -179,6 +179,35 @@ for (const [label, geographySet, minimum] of [['New Zealand', newZealandGeograph
     if (!forward || !inverse) errors.push(`${label} geography relationship pair missing: ${place.slug} -> ${place.parent}`);
   }
 }
+const allGeographyPlaces = [geography, franceGeography, italyGeography, spainGeography, germanAustrianGeography, portugalGeography, newZealandGeography, southAfricaGeography, argentinaChileGeography, unitedStatesGeography, emergingEuropeGeography].flatMap(set => set.places);
+const geographyPlaceBySlug = new Map(allGeographyPlaces.map(place => [place.slug, place]));
+for (const place of allGeographyPlaces) {
+  const chain = [];
+  const seen = new Set();
+  let current = place;
+  while (current) {
+    if (seen.has(current.slug)) { errors.push(`geography breadcrumb cycle: ${place.slug}`); break; }
+    seen.add(current.slug);
+    chain.unshift(current);
+    current = current.parent ? geographyPlaceBySlug.get(current.parent) : null;
+  }
+  const renderedPage = fs.readFileSync(path.join(root, place.slug, 'index.html'), 'utf8');
+  let previousIndex = -1;
+  for (const item of chain) {
+    const marker = `"item":"https://winedaddy.com.au/${item.slug}/"`;
+    const index = renderedPage.indexOf(marker, previousIndex + 1);
+    if (index < 0) errors.push(`geographic BreadcrumbList item missing: ${place.slug} -> ${item.slug}`);
+    else if (index < previousIndex) errors.push(`geographic BreadcrumbList order incorrect: ${place.slug}`);
+    previousIndex = index;
+  }
+}
+const regionsHub = fs.readFileSync(path.join(root, 'regions', 'index.html'), 'utf8');
+if (!regionsHub.includes('data-region-directory')) errors.push('regions hub is not using the governed directory');
+const geographicCountryCount = allGeographyPlaces.filter(place => place.kind === 'country' && !place.parent).length;
+if ((regionsHub.match(/data-region-country/g) || []).length !== geographicCountryCount) errors.push(`regions directory expected ${geographicCountryCount} country groups`);
+const governedRegionRoutes = new Set(allGeographyPlaces.map(place => `/${place.slug}/`));
+const ungroupedRegionCount = manifest.articles.filter(article => article.section === 'regions' && !governedRegionRoutes.has(article.route)).length;
+if ((regionsHub.match(/data-region-ungrouped/g) || []).length !== ungroupedRegionCount) errors.push(`regions directory expected ${ungroupedRegionCount} ungrouped guides`);
 const tasmaniaPage = fs.readFileSync(path.join(root, 'tasmania-wine-region', 'index.html'), 'utf8');
 if (!tasmaniaPage.includes('<h1>Tasmania</h1>')) errors.push('Tasmania must use its concise canonical place name as the visible H1');
 if (!tasmaniaPage.includes('Explore selected WineDaddy growing-area guides')) errors.push('Tasmania must label its linked informal places as selected growing-area guides');
@@ -256,7 +285,7 @@ for (const article of manifest.articles) {
 }
 const groups = new Map();
 for (const article of manifest.articles) groups.set(article.section, [...(groups.get(article.section) || []), article]);
-for (const [section, articles] of groups) { const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8'); for (const article of articles) { if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`); if (!hub.includes(`<h2>${escapeHtml(cardTitle(article))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`); if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`); } }
+for (const [section, articles] of groups) { const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8'); for (const article of articles) { if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`); if (section !== 'regions' && !hub.includes(`<h2>${escapeHtml(cardTitle(article))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`); if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`); } }
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>https:\/\/winedaddy\.com\.au([^<]+)<\/loc>/g)].map(match => match[1]);
 if (new Set(sitemapUrls).size !== sitemapUrls.length) errors.push('sitemap contains duplicate URLs');

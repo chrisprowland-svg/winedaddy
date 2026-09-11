@@ -68,3 +68,25 @@ if (guideFilter) {
     if (empty) empty.hidden = visible !== 0;
   });
 }
+
+const regionFilter = document.querySelector('[data-region-filter]');
+if (regionFilter) {
+  const groups = [...document.querySelectorAll('[data-region-country]')];
+  const otherCards = [...document.querySelectorAll('[data-region-ungrouped]')];
+  const empty = document.querySelector('[data-region-empty]');
+  regionFilter.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    let visible = 0;
+    for (const group of groups) {
+      const matches = [...group.querySelectorAll('[data-region-item]')].filter(item => !query || item.textContent.toLowerCase().includes(query));
+      group.hidden = Boolean(query) && !group.textContent.toLowerCase().includes(query);
+      for (const item of group.querySelectorAll('li')) item.hidden = Boolean(query) && !item.textContent.toLowerCase().includes(query);
+      if (!group.hidden) visible += matches.length || 1;
+    }
+    for (const card of otherCards) {
+      card.hidden = Boolean(query) && !card.textContent.toLowerCase().includes(query);
+      if (!card.hidden) visible += 1;
+    }
+    if (empty) empty.hidden = visible !== 0;
+  });
+}
