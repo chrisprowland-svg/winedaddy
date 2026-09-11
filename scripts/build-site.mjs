@@ -10,6 +10,8 @@ const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'conte
 const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
 const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const winemakingNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/winemaking-navigation.json'), 'utf8'));
+const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true});
+const compareTitles = (left, right) => alphabetical.compare(left, right);
 const recommendationsByRoute = new Map(recommendationRegistry.recommendations.map(recommendation => [recommendation.article, recommendation.items]));
 const entitiesById = new Map(entityRegistry.entities.map(entity => [entity.id, entity]));
 const entitiesByRoute = new Map(entityRegistry.entities.map(entity => [entity.canonicalArticle, entity]));
@@ -58,7 +60,7 @@ for (const [key, section] of Object.entries(sections)) {
   else buildHub(key, section, articles);
 }
 refreshStaticHeaders();
-searchEntries.sort((a, b) => a.title.localeCompare(b.title));
+searchEntries.sort((a, b) => compareTitles(a.title, b.title));
 fs.writeFileSync(path.join(root, 'search-index.json'), `${JSON.stringify(searchEntries)}\n`);
 buildSitemap(manifest.articles);
 fs.writeFileSync(path.join(root, 'qa-manifest.json'), `${JSON.stringify({version: 1, paths: manifest.articles.map(article => article.route)}, null, 2)}\n`);
@@ -69,17 +71,17 @@ function validateSource(slug, source) { if (/INTERNAL EDITORIAL APPENDIX|NOT FOR
 function normaliseReaderSource(source) { return source.replace(/^##\s+(?:.+\s+)?(?:highlights?|(?:the\s+)?quick highlights|at a glance|quick facts|in brief|in short|in a nutshell)\s*$/im, '## Highlights'); }
 function renderMarkdown(source) { let html = marked.parse(source).replace(/^<h1>.*?<\/h1>\s*/s, ''); html = html.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>'); html = html.replace(/<h2>Highlights<\/h2>([\s\S]*?<\/ul>)/i, '<section class="highlights"><h2>Highlights</h2>$1</section>'); html = html.replace(/<table>/g, '<div class="table-scroll" tabindex="0"><table class="article-table">').replace(/<\/table>/g, '</table></div>'); return renderVisualComponents(html); }
 function stripLegacyRelatedLearning(html) { return html.replace(/<h2[^>]*>Related (?:learning|reading)<\/h2>[\s\S]*?(?=<h2(?:\s|>)|$)/gi, ''); }
-function buildHub(key, section, articles) { const cards = articles.sort((a,b) => cardTitle(a).localeCompare(cardTitle(b))).map(article => `<a class="card guide-card" href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join(''); const body = `<main><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">${section.description}</p><p class="article-count">${articles.length} guides</p></div></section><section class="section"><label class="guide-filter">Filter ${section.name.toLowerCase()} guides<input type="search" data-guide-filter placeholder="Search ${section.name.toLowerCase()}…"></label><div class="grid guide-grid" data-guide-grid>${cards}</div><p class="empty-state" data-empty-state hidden>No matching guides found.</p></section></main>`; const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/${key}/`,description:section.description}; fs.mkdirSync(path.join(root, key), {recursive: true}); fs.writeFileSync(path.join(root, key, 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:`/${key}/`, schema, body})); }
+function buildHub(key, section, articles) { const cards = [...articles].sort((a,b) => compareTitles(cardTitle(a), cardTitle(b))).map(article => `<a class="card guide-card" href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join(''); const body = `<main><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">${section.description}</p><p class="article-count">${articles.length} guides</p></div></section><section class="section"><label class="guide-filter">Filter ${section.name.toLowerCase()} guides<input type="search" data-guide-filter placeholder="Search ${section.name.toLowerCase()}…"></label><div class="grid guide-grid" data-guide-grid>${cards}</div><p class="empty-state" data-empty-state hidden>No matching guides found.</p></section></main>`; const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/${key}/`,description:section.description}; fs.mkdirSync(path.join(root, key), {recursive: true}); fs.writeFileSync(path.join(root, key, 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:`/${key}/`, schema, body})); }
 function buildRegionsHub(section, articles) {
   const articlesByRoute = new Map(articles.map(article => [article.route, article]));
   const governed = new Set([...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind).map(entity => entity.canonicalArticle));
-  const roots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind && !parentsById.has(entity.id)).sort((a,b) => a.name.localeCompare(b.name));
+  const roots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind && !parentsById.has(entity.id)).sort((a,b) => compareTitles(a.name, b.name));
   const countryGroups = roots.map(rootEntity => {
     const descendants = geographyDescendants(rootEntity);
     const tree = renderDirectoryChildren(rootEntity) || '<p class="region-country-empty">Country guide available; regional guides are still being classified.</p>';
     return `<details class="region-country" data-region-country open><summary class="region-country-head"><span><span class="kicker">Country</span><strong>${escapeHtml(rootEntity.name)}</strong></span><span>${descendants.length + 1} guides</span></summary><a class="region-country-guide" href="${rootEntity.canonicalArticle}" data-region-item>View ${escapeHtml(rootEntity.name)} guide →</a>${tree}</details>`;
   }).join('');
-  const ungrouped = articles.filter(article => !governed.has(article.route)).sort((a,b) => cardTitle(a).localeCompare(cardTitle(b)));
+  const ungrouped = articles.filter(article => !governed.has(article.route)).sort((a,b) => compareTitles(cardTitle(a), cardTitle(b)));
   const otherCards = ungrouped.map(article => `<a class="card guide-card region-more-card" data-region-item data-region-ungrouped href="${article.route}"><div><h2>${escapeHtml(cardTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join('');
   const body = `<main data-region-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Browse wine geography from country to region, subregion and appellation—or search every regional guide directly.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section region-directory"><label class="guide-filter">Search all region guides<input type="search" data-region-filter placeholder="Try Burgundy, Barossa or Napa…"></label><div class="region-country-grid">${countryGroups}</div><p class="empty-state" data-region-empty hidden>No matching region guides found.</p><section class="region-more"><div class="section-head"><div><p class="eyebrow">Beyond the country trees</p><h2>More regional guides</h2></div><p>These guides remain fully searchable while their geographic relationships await reviewed classification.</p></div><div class="grid guide-grid" data-guide-grid>${otherCards}</div></section></section></main>`;
   const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/regions/`,description:section.description,hasPart:roots.map(entity => ({'@type':'CollectionPage',name:entity.name,url:`${SITE_URL}${entity.canonicalArticle}`}))};
@@ -88,22 +90,22 @@ function buildRegionsHub(section, articles) {
 }
 function buildGrapesHub(section, articles) {
   const articlesByRoute = new Map(articles.map(article => [article.route, article]));
-  const classics = ['what-is-pinot-noir','what-is-shiraz','what-is-chardonnay','what-is-cabernet-sauvignon','what-is-riesling','what-is-sauvignon-blanc'].map(slug => articles.find(article => article.slug === slug)).filter(Boolean);
+  const classics = ['what-is-pinot-noir','what-is-shiraz','what-is-chardonnay','what-is-cabernet-sauvignon','what-is-riesling','what-is-sauvignon-blanc'].map(slug => articles.find(article => article.slug === slug)).filter(Boolean).sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)));
   const classicCards = classics.map(article => grapeCard(article, 'grape-classic-card')).join('');
-  const countryRoots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind === 'country' && !parentsById.has(entity.id)).sort((a,b) => a.name.localeCompare(b.name));
+  const countryRoots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind === 'country' && !parentsById.has(entity.id)).sort((a,b) => compareTitles(a.name, b.name));
   const countryGroups = countryRoots.map(country => {
     const placeIds = new Set([country.id, ...geographyDescendants(country).map(entity => entity.id)]);
     const grapeIds = new Set();
     for (const placeId of placeIds) for (const grapeId of grapesByRegionId.get(placeId) || []) grapeIds.add(grapeId);
-    const grapes = [...grapeIds].map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => grapeEntityName(a).localeCompare(grapeEntityName(b)));
+    const grapes = [...grapeIds].map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => compareTitles(grapeEntityName(a), grapeEntityName(b)));
     if (!grapes.length) return '';
     const links = grapes.map(grape => `<a href="${grape.canonicalArticle}" data-grape-item>${escapeHtml(grapeEntityName(grape))}</a>`).join('');
     return `<section class="grape-country" data-grape-country><div class="grape-country-head"><h3><a href="${country.canonicalArticle}">${escapeHtml(country.name)}</a></h3><span>${grapes.length} grapes</span></div><div class="grape-country-links">${links}</div></section>`;
   }).join('');
-  const comparisons = articles.filter(article => article.slug.includes('-vs-')).sort((a,b) => grapeDisplayTitle(a).localeCompare(grapeDisplayTitle(b)));
+  const comparisons = articles.filter(article => article.slug.includes('-vs-')).sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)));
   const comparisonCards = comparisons.map(article => grapeCard(article, 'grape-comparison-card')).join('');
   const alphabet = new Map();
-  for (const article of [...articles].sort((a,b) => grapeDisplayTitle(a).localeCompare(grapeDisplayTitle(b)))) {
+  for (const article of [...articles].sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)))) {
     const letter = grapeDisplayTitle(article).charAt(0).toLocaleUpperCase('en-AU');
     alphabet.set(letter, [...(alphabet.get(letter) || []), article]);
   }
@@ -118,14 +120,14 @@ function grapeDisplayTitle(article) { return cardTitle(article).replace(/^What i
 function grapeEntityName(entity) { return entity.name.replace(/^What is\s+/i, '').replace(/\?$/, ''); }
 function buildWinemakingHub(section, articles) {
   const articlesBySlug = new Map(articles.map(article => [article.slug, article]));
-  const featured = winemakingNavigation.featured.map(slug => articlesBySlug.get(slug)).filter(Boolean);
+  const featured = winemakingNavigation.featured.map(slug => articlesBySlug.get(slug)).filter(Boolean).sort((a,b) => compareTitles(processDisplayTitle(a), processDisplayTitle(b)));
   const featuredCards = featured.map(article => processCard(article, 'process-feature-card')).join('');
   const processGroups = winemakingNavigation.groups.map(group => {
-    const guides = group.slugs.map(slug => articlesBySlug.get(slug)).filter(Boolean).sort((a,b) => processDisplayTitle(a).localeCompare(processDisplayTitle(b)));
+    const guides = group.slugs.map(slug => articlesBySlug.get(slug)).filter(Boolean).sort((a,b) => compareTitles(processDisplayTitle(a), processDisplayTitle(b)));
     return `<details class="process-group" data-process-group open><summary><span><span class="kicker">Production stage</span><strong>${escapeHtml(group.name)}</strong></span><span>${guides.length} guides</span></summary><p>${escapeHtml(group.description)}</p><div class="process-links">${guides.map(article => `<a href="${article.route}" data-process-item>${escapeHtml(processDisplayTitle(article))}</a>`).join('')}</div></details>`;
   }).join('');
   const alphabet = new Map();
-  for (const article of [...articles].sort((a,b) => processDisplayTitle(a).localeCompare(processDisplayTitle(b)))) {
+  for (const article of [...articles].sort((a,b) => compareTitles(processDisplayTitle(a), processDisplayTitle(b)))) {
     const letter = processDisplayTitle(article).charAt(0).toLocaleUpperCase('en-AU');
     alphabet.set(letter, [...(alphabet.get(letter) || []), article]);
   }
@@ -147,7 +149,7 @@ function geographyDescendants(entity) {
   return descendants;
 }
 function renderDirectoryChildren(entity) {
-  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
+  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => compareTitles(a.name, b.name));
   if (!children.length) return '';
   return `<ul class="region-tree">${children.map(child => `<li><a href="${child.canonicalArticle}" data-region-item>${escapeHtml(child.name)}</a>${renderDirectoryChildren(child)}</li>`).join('')}</ul>`;
 }
@@ -165,7 +167,7 @@ function renderGrapeRegions(entity) {
   if (!entity) return '';
   const regionIds = regionsByGrapeId.get(entity.id) || [];
   const grapeIds = grapesByRegionId.get(entity.id) || [];
-  const related = (regionIds.length ? regionIds : grapeIds).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
+  const related = (regionIds.length ? regionIds : grapeIds).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => compareTitles(a.name, b.name));
   if (!related.length) return '';
   const title = regionIds.length ? 'Wine regions for this grape' : 'Grapes associated with this region';
   const links = related.map(item => `<a href="${item.canonicalArticle}">${escapeHtml(item.name.replace(/^What Is /i, '').replace(/\?$/, ''))}</a>`).join('');
@@ -184,7 +186,7 @@ function geographyModel(entity) {
     ancestors.unshift(parent);
     parentId = parentsById.get(parentId);
   }
-  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => a.name.localeCompare(b.name));
+  const children = (childrenById.get(entity.id) || []).map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => compareTitles(a.name, b.name));
   return {entity, ancestors, children};
 }
 function renderGeography(model) {
