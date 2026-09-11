@@ -11,6 +11,8 @@ const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowl
 const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const winemakingNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/winemaking-navigation.json'), 'utf8'));
 const regionTopicRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
+const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
+const fundamentalsPathBySlug = new Map(fundamentalsNavigation.groups.flatMap(group => group.slugs.map(slug => [slug, group])));
 const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true});
 const compareTitles = (left, right) => alphabetical.compare(left, right);
 const recommendationsByRoute = new Map(recommendationRegistry.recommendations.map(recommendation => [recommendation.article, recommendation.items]));
@@ -46,13 +48,16 @@ for (const article of manifest.articles) {
   const topicGeography = !geography && regionalPlaceByTopicId.has(articleEntity?.id) ? geographyModel(entitiesById.get(regionalPlaceByTopicId.get(articleEntity.id))) : null;
   const geographyPanel = renderGeography(geography || topicGeography);
   const grapeRegionPanel = renderGrapeRegions(articleEntity);
+  const learningPath = article.section === 'fundamentals' ? fundamentalsPathBySlug.get(article.slug) : null;
+  const learningPathPanel = renderLearningPath(learningPath);
   const section = sections[article.section];
   const canonicalPath = article.route;
   const articleSchema = {'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}};
   if (geography || topicGeography) articleSchema.about = placeSchema(geography || topicGeography);
-  const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography, topicGeography)]};
+  if (learningPath) articleSchema.isPartOf = {'@type':'CollectionPage',name:learningPath.name,url:`${SITE_URL}/fundamentals/#${learningPath.id}`};
+  const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography, topicGeography, learningPath)]};
   const heroTitle = geography?.entity.name || source.match(/^#\s+(.+)$/m)?.[1] || article.title;
-  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${body}${related}</article></main>`});
+  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${learningPathPanel}${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
@@ -60,7 +65,8 @@ for (const article of manifest.articles) {
 }
 for (const [key, section] of Object.entries(sections)) {
   const articles = manifest.articles.filter(article => article.section === key);
-  if (key === 'regions') buildRegionsHub(section, articles);
+  if (key === 'fundamentals') buildFundamentalsHub(section, articles);
+  else if (key === 'regions') buildRegionsHub(section, articles);
   else if (key === 'grapes') buildGrapesHub(section, articles);
   else if (key === 'winemaking') buildWinemakingHub(section, articles);
   else buildHub(key, section, articles);
@@ -78,6 +84,21 @@ function normaliseReaderSource(source) { return source.replace(/^##\s+(?:.+\s+)?
 function renderMarkdown(source) { let html = marked.parse(source).replace(/^<h1>.*?<\/h1>\s*/s, ''); html = html.replace(/<h1([^>]*)>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>'); html = html.replace(/<h2>Highlights<\/h2>([\s\S]*?)(?=<h2(?:\s|>)|$)/i, '<section class="highlights"><h2>Highlights</h2>$1</section>'); html = html.replace(/<table>/g, '<div class="table-scroll" tabindex="0"><table class="article-table">').replace(/<\/table>/g, '</table></div>'); return renderVisualComponents(html); }
 function stripLegacyRelatedLearning(html) { return html.replace(/<h2[^>]*>Related (?:learning|reading)<\/h2>[\s\S]*?(?=<h2(?:\s|>)|$)/gi, ''); }
 function buildHub(key, section, articles) { const cards = [...articles].sort((a,b) => compareTitles(directoryDisplayTitle(a), directoryDisplayTitle(b))).map(article => `<a class="card guide-card" href="${article.route}"><div><h2>${escapeHtml(directoryDisplayTitle(article))}</h2><p>${escapeHtml(article.description)}</p></div><b>Read guide →</b></a>`).join(''); const body = `<main><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">${section.description}</p><p class="article-count">${articles.length} guides</p></div></section><section class="section"><label class="guide-filter">Filter ${section.name.toLowerCase()} guides<input type="search" data-guide-filter placeholder="Search ${section.name.toLowerCase()}…"></label><div class="grid guide-grid" data-guide-grid>${cards}</div><p class="empty-state" data-empty-state hidden>No matching guides found.</p></section></main>`; const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/${key}/`,description:section.description}; fs.mkdirSync(path.join(root, key), {recursive: true}); fs.writeFileSync(path.join(root, key, 'index.html'), pageDocument({title: section.name, description: section.description, canonicalPath:`/${key}/`, schema, body})); }
+function buildFundamentalsHub(section, articles) {
+  const articlesBySlug = new Map(articles.map(article => [article.slug, article]));
+  const groups = fundamentalsNavigation.groups.map(group => {
+    const guides = group.slugs.map(slug => articlesBySlug.get(slug)).filter(Boolean).sort((a,b) => compareTitles(directoryDisplayTitle(a), directoryDisplayTitle(b)));
+    const start = articlesBySlug.get(group.start);
+    if (!start || !group.slugs.includes(group.start)) throw new Error(`Fundamentals learning path start guide is invalid: ${group.id}`);
+    const links = guides.filter(article => article.slug !== group.start).map(article => `<a href="${article.route}" data-fundamentals-item>${escapeHtml(directoryDisplayTitle(article))}</a>`).join('');
+    return `<details class="fundamentals-group" id="${group.id}" data-fundamentals-group><summary><span><span class="kicker">Learning path</span><strong>${escapeHtml(group.name)}</strong></span><span>${guides.length} guides</span></summary><p>${escapeHtml(group.description)}</p><a class="fundamentals-start" href="${start.route}" data-fundamentals-item>Start with ${escapeHtml(directoryDisplayTitle(start))} →</a><div class="fundamentals-links">${links}</div></details>`;
+  }).join('');
+  if (fundamentalsNavigation.groups.flatMap(group => group.slugs).length !== articles.length) throw new Error('Fundamentals learning-path coverage is incomplete');
+  const body = `<main data-fundamentals-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Choose what you want to understand or do next. Every guide remains searchable, but you no longer need to scroll through one enormous list.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section fundamentals-directory"><label class="guide-filter">Search all fundamentals guides<input type="search" data-fundamentals-filter placeholder="Try decanting, food pairing or wine faults…"></label><div class="fundamentals-group-grid">${groups}</div><p class="empty-state" data-fundamentals-empty hidden>No matching fundamentals guides found.</p></section></main>`;
+  const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/fundamentals/`,description:section.description,hasPart:fundamentalsNavigation.groups.map(group => ({'@type':'CollectionPage',name:group.name,url:`${SITE_URL}/fundamentals/#${group.id}`}))};
+  fs.mkdirSync(path.join(root, 'fundamentals'), {recursive: true});
+  fs.writeFileSync(path.join(root, 'fundamentals', 'index.html'), pageDocument({title:section.name,description:section.description,canonicalPath:'/fundamentals/',schema,body}));
+}
 function buildRegionsHub(section, articles) {
   const articlesByRoute = new Map(articles.map(article => [article.route, article]));
   const governed = new Set([...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind).map(entity => entity.canonicalArticle));
@@ -164,15 +185,20 @@ function renderDirectoryChildren(entity) {
   if (!children.length && !topics.length) return '';
   return `<ul class="region-tree">${children.map(child => `<li><a href="${child.canonicalArticle}" data-region-item>${escapeHtml(child.name)}</a>${renderDirectoryChildren(child)}</li>`).join('')}${topics.map(topic => `<li class="region-topic"><a href="${topic.canonicalArticle}" data-region-item><span>Guide</span>${escapeHtml(capitaliseDisplayTitle(topic.name))}</a></li>`).join('')}</ul>`;
 }
-function breadcrumbSchema(article, section, geography, topicGeography) {
+function breadcrumbSchema(article, section, geography, topicGeography, learningPath) {
   const entries = [{name:'Home',route:'/'},{name:section.name,route:`/${article.section}/`}];
   if (geography) for (const entity of geography.ancestors) entries.push({name:entity.name,route:entity.canonicalArticle});
   if (topicGeography) for (const entity of [...topicGeography.ancestors, topicGeography.entity]) entries.push({name:entity.name,route:entity.canonicalArticle});
+  if (learningPath) entries.push({name:learningPath.name,route:`/fundamentals/#${learningPath.id}`});
   entries.push({name:geography?.entity.name || article.title,route:article.route});
   return {'@type':'BreadcrumbList',itemListElement:entries.map((entry,index) => ({'@type':'ListItem',position:index + 1,name:entry.name,item:`${SITE_URL}${entry.route}`}))};
 }
+function renderLearningPath(group) {
+  if (!group) return '';
+  return `<aside class="learning-path-panel" data-learning-path><p class="kicker">Learning path</p><h2>${escapeHtml(group.name)}</h2><p>${escapeHtml(group.description)}</p><a href="/fundamentals/#${group.id}">Explore this learning path →</a></aside>`;
+}
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
-function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-5').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-5'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
+function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-6').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-6'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
 function renderGrapeRegions(entity) {

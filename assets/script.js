@@ -69,6 +69,28 @@ if (guideFilter) {
   });
 }
 
+const fundamentalsFilter = document.querySelector('[data-fundamentals-filter]');
+if (fundamentalsFilter) {
+  const items = [...document.querySelectorAll('[data-fundamentals-item]')];
+  const groups = [...document.querySelectorAll('[data-fundamentals-group]')];
+  const empty = document.querySelector('[data-fundamentals-empty]');
+  for (const group of groups) group.open = location.hash === `#${group.id}`;
+  fundamentalsFilter.addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    let visible = 0;
+    for (const item of items) {
+      item.hidden = Boolean(query) && !item.textContent.toLowerCase().includes(query);
+      if (!item.hidden) visible += 1;
+    }
+    for (const group of groups) {
+      const hasMatch = [...group.querySelectorAll('[data-fundamentals-item]')].some(item => !item.hidden);
+      group.hidden = Boolean(query) && !hasMatch;
+      group.open = Boolean(query) ? hasMatch : location.hash === `#${group.id}`;
+    }
+    if (empty) empty.hidden = visible !== 0;
+  });
+}
+
 const regionFilter = document.querySelector('[data-region-filter]');
 if (regionFilter) {
   const groups = [...document.querySelectorAll('[data-region-country]')];
