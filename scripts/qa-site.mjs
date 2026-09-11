@@ -12,6 +12,8 @@ function expectAlphabetical(items, label) {
   for (let index = 1; index < items.length; index += 1) if (alphabetical.compare(items[index - 1], items[index]) > 0) errors.push(`${label} is not alphabetical: ${items[index - 1]} before ${items[index]}`);
 }
 function textMatches(html, pattern) { return [...html.matchAll(pattern)].map(match => match[1].replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"')); }
+function capitaliseDisplayTitle(value) { return value.replace(/^(\P{L}*)(\p{L})/u, (_, prefix, letter) => `${prefix}${letter.toLocaleUpperCase('en-AU')}`); }
+function expectInitialCapital(items, label) { for (const item of items) if (item !== capitaliseDisplayTitle(item)) errors.push(`${label} starts lowercase: ${item}`); }
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
 for (const route of ['/australian-wine-regions/', '/new-south-wales-wine-regions/', '/victorian-wine-regions/', '/south-australian-wine-regions/', '/western-australian-wine-regions/', '/queensland-wine-regions/', '/tasmania-wine-region/', '/australian-capital-territory-wine-regions/']) if (!header.includes(`href="${route}"`)) errors.push(`region submenu missing ${route}`);
@@ -23,6 +25,11 @@ for (const route of ['/portugal/', '/douro-valley/', '/vinho-verde/', '/alentejo
 for (const route of ['/new-zealand/', '/marlborough/', '/central-otago/', '/hawkes-bay/', '/martinborough/', '/south-africa/', '/stellenbosch/', '/swartland/', '/walker-bay/', '/argentina/', '/salta-wine-region/', '/uco-valley/', '/cafayate-wine-region/', '/chile/', '/maipo-valley/', '/colchagua-valley/', '/casablanca-valley/', '/leyda-valley/']) if (!header.includes(`href="${route}"`)) errors.push(`Southern Hemisphere region submenu missing ${route}`);
 for (const route of ['/united-states/', '/napa-valley/', '/sonoma-coast/', '/santa-barbara-county-wine/', '/paso-robles/', '/willamette-valley/', '/finger-lakes-wine-region/', '/greece/', '/santorini-wine-region/', '/nemea-wine-region/', '/naoussa-wine-region/', '/hungary/', '/tokaj-wine-region/', '/eger-wine-region/', '/georgia/', '/england/']) if (!header.includes(`href="${route}"`)) errors.push(`North American/emerging European region submenu missing ${route}`);
 if ((header.match(/class="nav-region-group"/g) || []).length !== 16 || !header.includes('class="nav-dropdown nav-mega"')) errors.push('desktop Regions mega-menu structure missing');
+const regionMenu = header.match(/<div class="nav-mega-grid">([\s\S]*?)<\/div><\/div><\/details>/)?.[1] || '';
+const regionMenuCountries = textMatches(regionMenu, /class="nav-feature"[^>]*>(.*?)<\/a>/g);
+expectAlphabetical(regionMenuCountries, 'Regions menu countries');
+expectInitialCapital(regionMenuCountries, 'Regions menu country');
+for (const group of regionMenu.matchAll(/<section class="nav-region-group">([\s\S]*?)<\/section>/g)) { const links = textMatches(group[1].replace(/<a class="nav-feature"[\s\S]*?<\/a><span>[\s\S]*?<\/span>/, ''), /<a[^>]*>(.*?)<\/a>/g); expectAlphabetical(links, 'Regions menu links'); expectInitialCapital(links, 'Regions menu link'); }
 if (header.includes('href="/about.html"')) errors.push('About must remain footer-only');
 for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const html = fs.readFileSync(path.join(root, file), 'utf8'); if (!html.includes(header)) errors.push(`${file}: shared header is stale`); if (!html.includes(faviconHead())) errors.push(`${file}: favicon metadata is stale`); }
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
@@ -225,7 +232,8 @@ if ((grapesHub.match(/data-grape-az/g) || []).length !== grapeArticles.length) e
 const comparisonCount = grapeArticles.filter(article => article.slug.includes('-vs-')).length;
 if ((grapesHub.match(/grape-comparison-card/g) || []).length !== comparisonCount) errors.push(`grape comparison section expected ${comparisonCount} guides`);
 if ((grapesHub.match(/data-grape-country/g) || []).length !== geographicCountryCount) errors.push(`grape directory expected ${geographicCountryCount} country groups`);
-for (const article of grapeArticles) if (!grapesHub.includes(`data-grape-az>${escapeHtml(cardTitle(article).replace(/^What is\s+/i, '').replace(/\?$/, ''))}</a>`)) errors.push(`${article.slug}: missing from grape A-Z`);
+for (const article of grapeArticles) if (!grapesHub.includes(`data-grape-az>${escapeHtml(capitaliseDisplayTitle(cardTitle(article).replace(/^What is\s+/i, '').replace(/\?$/, '')))}</a>`)) errors.push(`${article.slug}: missing from grape A-Z`);
+expectInitialCapital(textMatches(grapesHub, /data-grape-az>(.*?)<\/a>/g), 'grape guide');
 expectAlphabetical(textMatches(grapesHub.match(/grape-feature-grid">([\s\S]*?)<\/div><\/section><section class="grape-by-country"/)?.[1] || '', /<h3>(.*?)<\/h3>/g), 'classic grape guides');
 if (!clientScript.includes("querySelector('[data-grape-filter]')") || !clientScript.includes("querySelectorAll('[data-grape-item]')")) errors.push('grape directory search behaviour missing');
 const winemakingNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/winemaking-navigation.json'), 'utf8'));
@@ -244,6 +252,7 @@ for (const group of winemakingNavigation.groups) for (const slug of group.slugs)
   groupedWinemakingSlugs.add(slug);
 }
 for (const article of winemakingArticles) if (!winemakingHub.includes(`href="${article.route}" data-process-item data-process-az`)) errors.push(`${article.slug}: missing from winemaking A-Z`);
+expectInitialCapital(textMatches(winemakingHub, /data-process-az>(.*?)<\/a>/g), 'winemaking guide');
 expectAlphabetical(textMatches(winemakingHub.match(/process-feature-grid">([\s\S]*?)<\/div><\/section><section class="process-stages"/)?.[1] || '', /<h3>(.*?)<\/h3>/g), 'featured winemaking guides');
 for (const links of winemakingHub.matchAll(/<div class="process-links">([\s\S]*?)<\/div>/g)) expectAlphabetical(textMatches(links[1], /data-process-item>(.*?)<\/a>/g), 'winemaking process guides');
 if (!clientScript.includes("querySelector('[data-process-filter]')") || !clientScript.includes('group.open = Boolean(query) ? hasMatch')) errors.push('winemaking directory mobile/search behaviour missing');
@@ -328,10 +337,10 @@ for (const [section, articles] of groups) {
   const hub = fs.readFileSync(path.join(root, section, 'index.html'), 'utf8');
   for (const article of articles) {
     if (!hub.includes(`href="${article.route}"`)) errors.push(`${article.slug}: missing from ${section} hub`);
-    if (!['regions','grapes','winemaking'].includes(section) && !hub.includes(`<h2>${escapeHtml(cardTitle(article))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`);
+    if (!['regions','grapes','winemaking'].includes(section) && !hub.includes(`<h2>${escapeHtml(capitaliseDisplayTitle(cardTitle(article)))}</h2>`)) errors.push(`${article.slug}: concise card title missing from ${section} hub`);
     if (cardTitle(article) !== article.title && hub.includes(`<h2>${escapeHtml(article.title)}</h2>`)) errors.push(`${article.slug}: SEO title leaked into ${section} card`);
   }
-  if (!['regions','grapes','winemaking'].includes(section)) expectAlphabetical(textMatches(hub, /class="card guide-card"[^>]*>[\s\S]*?<h2>(.*?)<\/h2>/g), `${section} guides`);
+  if (!['regions','grapes','winemaking'].includes(section)) { const titles = textMatches(hub, /class="card guide-card"[^>]*>[\s\S]*?<h2>(.*?)<\/h2>/g); expectAlphabetical(titles, `${section} guides`); expectInitialCapital(titles, `${section} guide`); }
 }
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>https:\/\/winedaddy\.com\.au([^<]+)<\/loc>/g)].map(match => match[1]);
