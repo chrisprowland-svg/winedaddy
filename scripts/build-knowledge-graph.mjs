@@ -7,6 +7,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.js
 const geographies = ['australian-geography.json', 'france-geography.json', 'italy-geography.json', 'spain-geography.json', 'germany-austria-geography.json', 'portugal-geography.json', 'new-zealand-geography.json', 'south-africa-geography.json', 'argentina-chile-geography.json', 'united-states-geography.json', 'emerging-europe-geography.json', 'canada-brazil-geography.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const regionTopics = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
 const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
+const grapeNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/grape-navigation.json'), 'utf8'));
 const geography = {places: geographies.flatMap(item => item.places)};
 const grapeRegionSets = ['australian-grape-regions.json', 'french-grape-regions.json', 'italian-grape-regions.json', 'spanish-grape-regions.json', 'german-austrian-grape-regions.json', 'portuguese-grape-regions.json', 'new-zealand-grape-regions.json', 'south-african-grape-regions.json', 'argentine-chilean-grape-regions.json', 'united-states-grape-regions.json', 'emerging-europe-grape-regions.json', 'canada-brazil-grape-regions.json'].map(file => JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge', file), 'utf8')));
 const typeBySection = {
@@ -37,9 +38,19 @@ const learningPathEntities = fundamentalsNavigation.groups.map(group => ({
   canonicalArticle: `/fundamentals/#${group.id}`,
   section: 'fundamentals'
 }));
+const grapePathEntities = grapeNavigation.groups.map(group => ({
+  id: `wd:grape_path:${group.id}`,
+  type: 'knowledge_collection',
+  name: group.name,
+  description: group.description,
+  canonicalArticle: `/grapes/#${group.id}`,
+  section: 'grapes'
+}));
+const grapeAliasByCanonicalSlug = new Map(grapeNavigation.aliases.map(alias => [alias.canonicalSlug, alias]));
 const geographyBySlug = new Map(geography.places.map(place => [place.slug, place]));
 const topicEntities = manifest.articles.map(article => {
   const place = geographyBySlug.get(article.slug);
+  const grapeAlias = grapeAliasByCanonicalSlug.get(article.slug);
   return {
     id: entityId(article),
     type: typeBySection[article.section],
@@ -47,12 +58,13 @@ const topicEntities = manifest.articles.map(article => {
     description: article.description,
     canonicalArticle: article.route,
     section: article.section,
-    ...(place ? {geographyKind: place.kind} : {})
+    ...(place ? {geographyKind: place.kind} : {}),
+    ...(grapeAlias ? {alternateName: grapeAlias.aliases} : {})
   };
 });
 const articleByEntityId = new Map(manifest.articles.map(article => [entityId(article), article]));
 const articleBySlug = new Map(manifest.articles.map(article => [article.slug, article]));
-const entities = [...collectionEntities, ...learningPathEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
+const entities = [...collectionEntities, ...learningPathEntities, ...grapePathEntities, ...topicEntities].sort((a, b) => a.id.localeCompare(b.id));
 const stopwords = new Set('a an and are as at australia australian be beginner beginners by can context does dry explained for from grape grapes guide how in into is it its known learn made of on or principal red region regions style styles taste tastes the their this to variety varieties vs what when where which white why wine wines with without your'.split(' '));
 const documentFrequency = new Map();
 const termsBySlug = new Map();
@@ -84,6 +96,21 @@ for (const group of fundamentalsNavigation.groups) for (const slug of group.slug
   if (!article || article.section !== 'fundamentals') throw new Error(`Fundamentals learning path contains a missing or misclassified guide: ${group.id} -> ${slug}`);
   addRelationship({from: entityId(article), predicate: 'member_of_path', to: `wd:learning_path:${group.id}`, evidence: fundamentalsNavigation.evidence});
   addRelationship({from: `wd:learning_path:${group.id}`, predicate: 'has_learning_guide', to: entityId(article), evidence: fundamentalsNavigation.evidence});
+}
+for (const group of grapeNavigation.groups) for (const slug of group.slugs) {
+  const article = articleBySlug.get(slug);
+  if (!article || article.section !== 'grapes') throw new Error(`Grape pathway contains a missing or misclassified guide: ${group.id} -> ${slug}`);
+  addRelationship({from: entityId(article), predicate: 'member_of_grape_path', to: `wd:grape_path:${group.id}`, evidence: grapeNavigation.evidence});
+  addRelationship({from: `wd:grape_path:${group.id}`, predicate: 'has_grape_guide', to: entityId(article), evidence: grapeNavigation.evidence});
+}
+for (const alias of grapeNavigation.aliases) {
+  const canonical = articleBySlug.get(alias.canonicalSlug);
+  if (!canonical || canonical.section !== 'grapes') throw new Error(`Canonical grape alias target missing: ${alias.canonicalSlug}`);
+  for (const relatedSlug of alias.relatedSlugs) {
+    const related = articleBySlug.get(relatedSlug);
+    if (!related || related.section !== 'grapes') throw new Error(`Related grape alias guide missing: ${relatedSlug}`);
+    addRelationship({from: entityId(related), predicate: 'same_as_grape', to: entityId(canonical), evidence: grapeNavigation.evidence});
+  }
 }
 for (const geographySet of geographies) for (const place of geographySet.places) {
   const article = manifest.articles.find(candidate => candidate.slug === place.slug);
@@ -155,6 +182,9 @@ const publicGraph = {
     has_regional_guide: 'https://schema.org/subjectOf',
     member_of_path: 'https://schema.org/isPartOf',
     has_learning_guide: 'https://schema.org/hasPart'
+    ,member_of_grape_path: 'https://schema.org/isPartOf'
+    ,has_grape_guide: 'https://schema.org/hasPart'
+    ,same_as_grape: 'https://schema.org/sameAs'
   },
   version: 2,
   entities,

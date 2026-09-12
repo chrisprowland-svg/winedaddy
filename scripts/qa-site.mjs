@@ -7,6 +7,7 @@ const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowl
 const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/relationships.json'), 'utf8'));
 const recommendationRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/recommendations.json'), 'utf8'));
 const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
+const grapeNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/grape-navigation.json'), 'utf8'));
 const errors = [];
 const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true});
 function expectAlphabetical(items, label) {
@@ -17,6 +18,7 @@ function capitaliseDisplayTitle(value) { return value.replace(/^(\P{L}*)(\p{L})/
 function expectInitialCapital(items, label) { for (const item of items) if (item !== capitaliseDisplayTitle(item)) errors.push(`${label} starts lowercase: ${item}`); }
 const header = siteHeader();
 for (const route of ['/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/search.html']) if (!header.includes(`href="${route}"`)) errors.push(`header navigation missing ${route}`);
+for (const anchor of ['classic-grapes','red-grape-varieties','white-grape-varieties','grapes-in-australia','compare-grapes','grapes-by-country','all-grape-guides']) if (!header.includes(`href="/grapes/#${anchor}"`)) errors.push(`grape submenu missing #${anchor}`);
 for (const route of ['/australian-wine-regions/', '/new-south-wales-wine-regions/', '/victorian-wine-regions/', '/south-australian-wine-regions/', '/western-australian-wine-regions/', '/queensland-wine-regions/', '/tasmania-wine-region/', '/australian-capital-territory-wine-regions/']) if (!header.includes(`href="${route}"`)) errors.push(`region submenu missing ${route}`);
 for (const route of ['/france/', '/burgundy/', '/bordeaux/', '/champagne/', '/rhone-valley/', '/loire-valley/', '/alsace/']) if (!header.includes(`href="${route}"`)) errors.push(`French region submenu missing ${route}`);
 for (const route of ['/italy/', '/piedmont/', '/tuscany/', '/veneto/', '/sicily/', '/campania/', '/puglia/']) if (!header.includes(`href="${route}"`)) errors.push(`Italian region submenu missing ${route}`);
@@ -36,14 +38,14 @@ for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 
 for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'android-chrome-192x192.png', 'android-chrome-512x512.png', 'site.webmanifest']) if (!fs.existsSync(path.join(root, file))) errors.push(`favicon asset missing: ${file}`);
 const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
-if (!servingWorker.includes('geography-panel|entity-links')) errors.push('serving Worker can strip knowledge-graph relationship panels');
+if (!servingWorker.includes('geography-panel|entity-links|learning-path-panel|grape-path-panel')) errors.push('serving Worker can strip knowledge-graph relationship panels');
 if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('const primaryNav')) errors.push('serving Worker must not override build-generated navigation');
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'member_of_grape_path', 'has_grape_guide', 'same_as_grape', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
-const expectedEntityCount = manifest.articles.length + 4 + fundamentalsNavigation.groups.length;
+const expectedEntityCount = manifest.articles.length + 4 + fundamentalsNavigation.groups.length + grapeNavigation.groups.length;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
 for (const article of manifest.articles) {
   const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
@@ -88,6 +90,48 @@ const unclassifiedFundamentals = fundamentalsArticles.filter(article => !classif
 if (unclassifiedFundamentals.length) errors.push(`unclassified fundamentals guides: ${unclassifiedFundamentals.map(article => article.slug).join(', ')}`);
 const clientFundamentalsScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
 if (!clientFundamentalsScript.includes("querySelector('[data-fundamentals-filter]')") || !clientFundamentalsScript.includes('group.open = Boolean(query) ? hasMatch')) errors.push('fundamentals learning-path search behaviour missing');
+const governedGrapeArticles = manifest.articles.filter(article => article.section === 'grapes');
+const grapeBySlug = new Map(governedGrapeArticles.map(article => [article.slug, article]));
+const classifiedGrapes = grapeNavigation.groups.flatMap(group => group.slugs);
+if (grapeNavigation.groups.length !== 6) errors.push(`grape taxonomy expected 6 pathways; found ${grapeNavigation.groups.length}`);
+if (classifiedGrapes.length !== governedGrapeArticles.length || new Set(classifiedGrapes).size !== governedGrapeArticles.length) errors.push(`grape taxonomy expected exactly one classification for ${governedGrapeArticles.length} guides`);
+const grapeHub = fs.readFileSync(path.join(root, 'grapes', 'index.html'), 'utf8');
+if (!grapeHub.includes('data-grape-directory')) errors.push('grape hub is not using the governed directory');
+if ((grapeHub.match(/data-grape-path/g) || []).length !== grapeNavigation.groups.length || /data-grape-path open/.test(grapeHub)) errors.push('grape pathways must all load collapsed');
+if (/data-grape-directory-section open/.test(grapeHub) || /data-grape-country open/.test(grapeHub)) errors.push('secondary grape directories must load collapsed');
+for (const group of grapeNavigation.groups) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(group.id) || !group.name || !group.description || !group.start) errors.push(`grape pathway metadata is incomplete: ${group.id}`);
+  if (!group.slugs.includes(group.start)) errors.push(`grape pathway start guide is not a member: ${group.id} -> ${group.start}`);
+  const pathEntity = entityRegistry.entities.find(entity => entity.id === `wd:grape_path:${group.id}`);
+  if (!pathEntity || pathEntity.canonicalArticle !== `/grapes/#${group.id}`) errors.push(`grape pathway entity missing: ${group.id}`);
+  const groupHtml = grapeHub.match(new RegExp(`<details class="grape-path" id="${group.id}"[\\s\\S]*?<div class="grape-path-links">([\\s\\S]*?)<\\/div><\\/details>`))?.[1] || '';
+  const titles = textMatches(groupHtml, /data-grape-item>(.*?)<\/a>/g);
+  for (const slug of group.slugs) {
+    const article = grapeBySlug.get(slug);
+    if (!article) { errors.push(`grape pathway guide missing: ${group.id} -> ${slug}`); continue; }
+    const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === article.route);
+    if (!relationshipRegistry.relationships.some(item => item.from === entity?.id && item.predicate === 'member_of_grape_path' && item.to === pathEntity?.id)) errors.push(`grape-path relationship missing: ${slug} -> ${group.id}`);
+    if (!relationshipRegistry.relationships.some(item => item.from === pathEntity?.id && item.predicate === 'has_grape_guide' && item.to === entity?.id)) errors.push(`grape-path inverse missing: ${group.id} -> ${slug}`);
+    if (!grapeHub.includes(`href="${article.route}" data-grape-item`)) errors.push(`grape guide missing from directory: ${slug}`);
+    const page = fs.readFileSync(path.join(root, slug, 'index.html'), 'utf8');
+    if (!page.includes('data-grape-path-context') || !page.includes(`/grapes/#${group.id}`)) errors.push(`grape pathway context missing: ${slug}`);
+  }
+  expectAlphabetical(titles, `${group.name} guides`);
+  expectInitialCapital(titles, `${group.name} guide`);
+}
+for (const alias of grapeNavigation.aliases) {
+  const canonical = grapeBySlug.get(alias.canonicalSlug);
+  const entity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === canonical?.route);
+  if (!canonical || !entity || JSON.stringify(entity.alternateName) !== JSON.stringify(alias.aliases)) errors.push(`grape alias metadata missing: ${alias.canonicalSlug}`);
+  for (const relatedSlug of alias.relatedSlugs) {
+    const related = grapeBySlug.get(relatedSlug);
+    const relatedEntity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === related?.route);
+    if (!relationshipRegistry.relationships.some(item => item.from === relatedEntity?.id && item.predicate === 'same_as_grape' && item.to === entity?.id)) errors.push(`grape alias relationship missing: ${relatedSlug} -> ${alias.canonicalSlug}`);
+  }
+}
+for (const facet of ['pinkSkinned','aromatic','sparkling','fortified','blendingFamilies']) if (!grapeNavigation.facets?.[facet]?.length) errors.push(`grape facet missing: ${facet}`);
+const clientGrapeScript = fs.readFileSync(path.join(root, 'assets', 'script.js'), 'utf8');
+if (!clientGrapeScript.includes("querySelector('[data-grape-filter]')") || !clientGrapeScript.includes('path.open = Boolean(query) ? hasMatch')) errors.push('grape pathway search behaviour missing');
 const geography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-geography.json'), 'utf8'));
 const franceGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/france-geography.json'), 'utf8'));
 const italyGeography = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/italy-geography.json'), 'utf8'));
@@ -288,12 +332,9 @@ const grapesHub = fs.readFileSync(path.join(root, 'grapes', 'index.html'), 'utf8
 if (!grapesHub.includes('data-grape-directory')) errors.push('grapes hub is not using the relationship-led directory');
 const grapeArticles = manifest.articles.filter(article => article.section === 'grapes');
 if ((grapesHub.match(/data-grape-az/g) || []).length !== grapeArticles.length) errors.push(`grape A-Z expected ${grapeArticles.length} guides`);
-const comparisonCount = grapeArticles.filter(article => article.slug.includes('-vs-')).length;
-if ((grapesHub.match(/grape-comparison-card/g) || []).length !== comparisonCount) errors.push(`grape comparison section expected ${comparisonCount} guides`);
 if ((grapesHub.match(/data-grape-country/g) || []).length !== geographicCountryCount) errors.push(`grape directory expected ${geographicCountryCount} country groups`);
 for (const article of grapeArticles) if (!grapesHub.includes(`data-grape-az>${escapeHtml(capitaliseDisplayTitle(cardTitle(article).replace(/^What is\s+/i, '').replace(/\?$/, '')))}</a>`)) errors.push(`${article.slug}: missing from grape A-Z`);
 expectInitialCapital(textMatches(grapesHub, /data-grape-az>(.*?)<\/a>/g), 'grape guide');
-expectAlphabetical(textMatches(grapesHub.match(/grape-feature-grid">([\s\S]*?)<\/div><\/section><section class="grape-by-country"/)?.[1] || '', /<h3>(.*?)<\/h3>/g), 'classic grape guides');
 if (!clientScript.includes("querySelector('[data-grape-filter]')") || !clientScript.includes("querySelectorAll('[data-grape-item]')")) errors.push('grape directory search behaviour missing');
 const winemakingNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/winemaking-navigation.json'), 'utf8'));
 const winemakingHub = fs.readFileSync(path.join(root, 'winemaking', 'index.html'), 'utf8');
@@ -350,6 +391,7 @@ if (!publicGraph['@context'].located_in || !publicGraph['@context'].contains) er
 if (!publicGraph['@context'].grown_in || !publicGraph['@context'].known_for) errors.push('grape-region predicate context missing');
 if (!publicGraph['@context'].about_place || !publicGraph['@context'].has_regional_guide) errors.push('regional-topic predicate context missing');
 if (!publicGraph['@context'].member_of_path || !publicGraph['@context'].has_learning_guide) errors.push('fundamentals learning-path predicate context missing');
+if (!publicGraph['@context'].member_of_grape_path || !publicGraph['@context'].has_grape_guide || !publicGraph['@context'].same_as_grape) errors.push('grape-path predicate context missing');
 const grapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/australian-grape-regions.json'), 'utf8'));
 const frenchGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/french-grape-regions.json'), 'utf8'));
 const italianGrapeRegions = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/italian-grape-regions.json'), 'utf8'));

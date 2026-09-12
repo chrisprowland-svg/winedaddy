@@ -12,7 +12,10 @@ const relationshipRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content
 const winemakingNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/winemaking-navigation.json'), 'utf8'));
 const regionTopicRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/region-topics.json'), 'utf8'));
 const fundamentalsNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/fundamentals-navigation.json'), 'utf8'));
+const grapeNavigation = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/grape-navigation.json'), 'utf8'));
 const fundamentalsPathBySlug = new Map(fundamentalsNavigation.groups.flatMap(group => group.slugs.map(slug => [slug, group])));
+const grapePathBySlug = new Map(grapeNavigation.groups.flatMap(group => group.slugs.map(slug => [slug, group])));
+const grapeAliasBySlug = new Map(grapeNavigation.aliases.flatMap(alias => [alias.canonicalSlug, ...alias.relatedSlugs].map(slug => [slug, alias])));
 const alphabetical = new Intl.Collator('en-AU', {sensitivity: 'base', ignorePunctuation: true, numeric: true});
 const compareTitles = (left, right) => alphabetical.compare(left, right);
 const recommendationsByRoute = new Map(recommendationRegistry.recommendations.map(recommendation => [recommendation.article, recommendation.items]));
@@ -50,14 +53,17 @@ for (const article of manifest.articles) {
   const grapeRegionPanel = renderGrapeRegions(articleEntity);
   const learningPath = article.section === 'fundamentals' ? fundamentalsPathBySlug.get(article.slug) : null;
   const learningPathPanel = renderLearningPath(learningPath);
+  const grapePath = article.section === 'grapes' ? grapePathBySlug.get(article.slug) : null;
+  const grapePathPanel = renderGrapePath(grapePath, grapeAliasBySlug.get(article.slug));
   const section = sections[article.section];
   const canonicalPath = article.route;
   const articleSchema = {'@type':'Article',headline:article.title,description:article.description,mainEntityOfPage:`${SITE_URL}${canonicalPath}`,articleSection:section.name,inLanguage:'en-AU',author:{'@type':'Organization',name:'WineDaddy'},publisher:{'@type':'Organization',name:'WineDaddy'}};
   if (geography || topicGeography) articleSchema.about = placeSchema(geography || topicGeography);
   if (learningPath) articleSchema.isPartOf = {'@type':'CollectionPage',name:learningPath.name,url:`${SITE_URL}/fundamentals/#${learningPath.id}`};
-  const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography, topicGeography, learningPath)]};
+  if (grapePath) articleSchema.isPartOf = {'@type':'CollectionPage',name:grapePath.name,url:`${SITE_URL}/grapes/#${grapePath.id}`};
+  const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography, topicGeography, learningPath, grapePath)]};
   const heroTitle = geography?.entity.name || source.match(/^#\s+(.+)$/m)?.[1] || article.title;
-  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${learningPathPanel}${body}${related}</article></main>`});
+  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${learningPathPanel}${grapePathPanel}${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
@@ -118,8 +124,12 @@ function buildRegionsHub(section, articles) {
 }
 function buildGrapesHub(section, articles) {
   const articlesByRoute = new Map(articles.map(article => [article.route, article]));
-  const classics = ['what-is-pinot-noir','what-is-shiraz','what-is-chardonnay','what-is-cabernet-sauvignon','what-is-riesling','what-is-sauvignon-blanc'].map(slug => articles.find(article => article.slug === slug)).filter(Boolean).sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)));
-  const classicCards = classics.map(article => grapeCard(article, 'grape-classic-card')).join('');
+  const articlesBySlug = new Map(articles.map(article => [article.slug, article]));
+  const pathGroups = grapeNavigation.groups.map(group => {
+    const guides = group.slugs.map(slug => articlesBySlug.get(slug)).filter(Boolean).sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)));
+    const start = articlesBySlug.get(group.start);
+    return `<details class="grape-path" id="${group.id}" data-grape-path><summary><span><span class="kicker">Grape pathway</span><strong>${escapeHtml(group.name)}</strong></span><span>${guides.length} guides</span></summary><p>${escapeHtml(group.description)}</p>${start ? `<a class="grape-path-start" href="${start.route}" data-grape-item>Start with ${escapeHtml(grapeDisplayTitle(start))} →</a>` : ''}<div class="grape-path-links">${guides.map(article => `<a href="${article.route}" data-grape-item>${escapeHtml(grapeDisplayTitle(article))}</a>`).join('')}</div></details>`;
+  }).join('');
   const countryRoots = [...entitiesByRoute.values()].filter(entity => entity.section === 'regions' && entity.geographyKind === 'country' && !parentsById.has(entity.id)).sort((a,b) => compareTitles(a.name, b.name));
   const countryGroups = countryRoots.map(country => {
     const placeIds = new Set([country.id, ...geographyDescendants(country).map(entity => entity.id)]);
@@ -128,18 +138,16 @@ function buildGrapesHub(section, articles) {
     const grapes = [...grapeIds].map(id => entitiesById.get(id)).filter(Boolean).sort((a,b) => compareTitles(grapeEntityName(a), grapeEntityName(b)));
     if (!grapes.length) return '';
     const links = grapes.map(grape => `<a href="${grape.canonicalArticle}" data-grape-item>${escapeHtml(grapeEntityName(grape))}</a>`).join('');
-    return `<section class="grape-country" data-grape-country><div class="grape-country-head"><h3><a href="${country.canonicalArticle}">${escapeHtml(country.name)}</a></h3><span>${grapes.length} grapes</span></div><div class="grape-country-links">${links}</div></section>`;
+    return `<details class="grape-country" data-grape-country><summary class="grape-country-head"><strong>${escapeHtml(country.name)}</strong><span>${grapes.length} grapes</span></summary><a class="grape-country-guide" href="${country.canonicalArticle}">View ${escapeHtml(country.name)} guide →</a><div class="grape-country-links">${links}</div></details>`;
   }).join('');
-  const comparisons = articles.filter(article => article.slug.includes('-vs-')).sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)));
-  const comparisonCards = comparisons.map(article => grapeCard(article, 'grape-comparison-card')).join('');
   const alphabet = new Map();
   for (const article of [...articles].sort((a,b) => compareTitles(grapeDisplayTitle(a), grapeDisplayTitle(b)))) {
     const letter = grapeDisplayTitle(article).charAt(0).toLocaleUpperCase('en-AU');
     alphabet.set(letter, [...(alphabet.get(letter) || []), article]);
   }
   const azGroups = [...alphabet].map(([letter, items]) => `<section class="grape-letter" data-grape-letter><h3>${escapeHtml(letter)}</h3><div>${items.map(article => `<a href="${article.route}" data-grape-item data-grape-az>${escapeHtml(grapeDisplayTitle(article))}</a>`).join('')}</div></section>`).join('');
-  const body = `<main data-grape-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Start with familiar varieties, explore the grapes associated with major wine countries, compare similar styles, or browse every guide A–Z.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section grape-directory"><label class="guide-filter">Search all grape guides<input type="search" data-grape-filter placeholder="Try Pinot Noir, Furmint or Grenache…"></label><section class="grape-feature"><div class="section-head"><div><p class="eyebrow">Start here</p><h2>Classic grapes</h2></div><p>Six useful reference points for understanding how grape variety shapes wine style.</p></div><div class="grid grape-feature-grid">${classicCards}</div></section><section class="grape-by-country"><div class="section-head"><div><p class="eyebrow">Grape and place</p><h2>Explore by country</h2></div><p>These groupings come from WineDaddy’s reviewed grape–region relationships.</p></div><div class="grape-country-grid">${countryGroups}</div></section><section class="grape-comparisons"><div class="section-head"><div><p class="eyebrow">Side by side</p><h2>Compare grapes</h2></div><p>Direct guides for varieties and styles that are commonly confused.</p></div><div class="grid guide-grid">${comparisonCards}</div></section><section class="grape-az"><div class="section-head"><div><p class="eyebrow">Complete directory</p><h2>All grape guides A–Z</h2></div><p>Every WineDaddy grape guide remains available here.</p></div><div class="grape-alphabet">${azGroups}</div></section><p class="empty-state" data-grape-empty hidden>No matching grape guides found.</p></section></main>`;
-  const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/grapes/`,description:section.description,hasPart:classics.map(article => ({'@type':'Article',name:grapeDisplayTitle(article),url:`${SITE_URL}${article.route}`}))};
+  const body = `<main data-grape-directory><section class="page-hero hub-hero"><div class="section"><p class="eyebrow">WineDaddy knowledge base</p><h1>${section.name}</h1><p class="lede">Follow a grape pathway, browse varieties through the countries that grow them, or search every WineDaddy grape guide directly.</p><p class="article-count">${articles.length} guides</p></div></section><section class="section grape-directory"><label class="guide-filter">Search all grape guides<input type="search" data-grape-filter placeholder="Try Pinot Noir, Furmint or Grenache…"></label><section class="grape-pathways"><div class="section-head"><div><p class="eyebrow">Choose a pathway</p><h2>Explore grape knowledge</h2></div><p>Every guide belongs to one reviewed pathway, so the complete collection is easier to navigate.</p></div><div class="grape-path-grid">${pathGroups}</div></section><details class="grape-directory-section" id="grapes-by-country" data-grape-directory-section><summary><span><span class="eyebrow">Grape and place</span><strong>Explore by country</strong></span><span>${countryRoots.length} countries</span></summary><p>These groupings come from WineDaddy’s reviewed grape–region relationships.</p><div class="grape-country-grid">${countryGroups}</div></details><details class="grape-directory-section" id="all-grape-guides" data-grape-directory-section><summary><span><span class="eyebrow">Complete directory</span><strong>All grape guides A–Z</strong></span><span>${articles.length} guides</span></summary><p>Every WineDaddy grape guide remains available here.</p><div class="grape-alphabet">${azGroups}</div></details><p class="empty-state" data-grape-empty hidden>No matching grape guides found.</p></section></main>`;
+  const schema = {'@context':'https://schema.org','@type':'CollectionPage',name:section.name,url:`${SITE_URL}/grapes/`,description:section.description,hasPart:grapeNavigation.groups.map(group => ({'@type':'CollectionPage',name:group.name,url:`${SITE_URL}/grapes/#${group.id}`}))};
   fs.mkdirSync(path.join(root, 'grapes'), {recursive: true});
   fs.writeFileSync(path.join(root, 'grapes', 'index.html'), pageDocument({title:section.name,description:section.description,canonicalPath:'/grapes/',schema,body}));
 }
@@ -185,11 +193,12 @@ function renderDirectoryChildren(entity) {
   if (!children.length && !topics.length) return '';
   return `<ul class="region-tree">${children.map(child => `<li><a href="${child.canonicalArticle}" data-region-item>${escapeHtml(child.name)}</a>${renderDirectoryChildren(child)}</li>`).join('')}${topics.map(topic => `<li class="region-topic"><a href="${topic.canonicalArticle}" data-region-item><span>Guide</span>${escapeHtml(capitaliseDisplayTitle(topic.name))}</a></li>`).join('')}</ul>`;
 }
-function breadcrumbSchema(article, section, geography, topicGeography, learningPath) {
+function breadcrumbSchema(article, section, geography, topicGeography, learningPath, grapePath) {
   const entries = [{name:'Home',route:'/'},{name:section.name,route:`/${article.section}/`}];
   if (geography) for (const entity of geography.ancestors) entries.push({name:entity.name,route:entity.canonicalArticle});
   if (topicGeography) for (const entity of [...topicGeography.ancestors, topicGeography.entity]) entries.push({name:entity.name,route:entity.canonicalArticle});
   if (learningPath) entries.push({name:learningPath.name,route:`/fundamentals/#${learningPath.id}`});
+  if (grapePath) entries.push({name:grapePath.name,route:`/grapes/#${grapePath.id}`});
   entries.push({name:geography?.entity.name || article.title,route:article.route});
   return {'@type':'BreadcrumbList',itemListElement:entries.map((entry,index) => ({'@type':'ListItem',position:index + 1,name:entry.name,item:`${SITE_URL}${entry.route}`}))};
 }
@@ -197,8 +206,13 @@ function renderLearningPath(group) {
   if (!group) return '';
   return `<aside class="learning-path-panel" data-learning-path><p class="kicker">Learning path</p><h2>${escapeHtml(group.name)}</h2><p>${escapeHtml(group.description)}</p><a href="/fundamentals/#${group.id}">Explore this learning path →</a></aside>`;
 }
+function renderGrapePath(group, alias) {
+  if (!group) return '';
+  const names = alias ? `<p class="grape-aliases"><b>Names:</b> ${escapeHtml(alias.aliases.join(' · '))}</p>` : '';
+  return `<aside class="grape-path-panel" data-grape-path-context><p class="kicker">Grape pathway</p><h2>${escapeHtml(group.name)}</h2><p>${escapeHtml(group.description)}</p>${names}<a href="/grapes/#${group.id}">Explore this grape pathway →</a></aside>`;
+}
 function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
-function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260911-6').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260911-6'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
+function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260912-1').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260912-1'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
 function renderGrapeRegions(entity) {
