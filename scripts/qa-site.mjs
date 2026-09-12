@@ -43,7 +43,7 @@ if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('cons
 const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
-const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'member_of_grape_path', 'has_grape_guide', 'same_as_grape', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
+const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'member_of_grape_path', 'has_grape_guide', 'same_as_grape', 'about_grape', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
 const expectedEntityCount = manifest.articles.length + 4 + fundamentalsNavigation.groups.length + grapeNavigation.groups.length;
 if (entityRegistry.entities.length !== expectedEntityCount) errors.push(`entity registry expected ${expectedEntityCount}; found ${entityRegistry.entities.length}`);
@@ -126,7 +126,9 @@ for (const alias of grapeNavigation.aliases) {
   for (const relatedSlug of alias.relatedSlugs) {
     const related = grapeBySlug.get(relatedSlug);
     const relatedEntity = entityRegistry.entities.find(candidate => candidate.canonicalArticle === related?.route);
-    if (!relationshipRegistry.relationships.some(item => item.from === relatedEntity?.id && item.predicate === 'same_as_grape' && item.to === entity?.id)) errors.push(`grape alias relationship missing: ${relatedSlug} -> ${alias.canonicalSlug}`);
+    const expectedPredicate = relatedSlug.includes('-vs-') ? 'about_grape' : 'same_as_grape';
+    if (!relationshipRegistry.relationships.some(item => item.from === relatedEntity?.id && item.predicate === expectedPredicate && item.to === entity?.id)) errors.push(`grape alias relationship missing: ${relatedSlug} -> ${alias.canonicalSlug}`);
+    if (relatedSlug.includes('-vs-') && relationshipRegistry.relationships.some(item => item.from === relatedEntity?.id && item.predicate === 'same_as_grape')) errors.push(`comparison article must not be equated with a grape profile: ${relatedSlug}`);
   }
 }
 for (const facet of ['pinkSkinned','aromatic','sparkling','fortified','blendingFamilies']) if (!grapeNavigation.facets?.[facet]?.length) errors.push(`grape facet missing: ${facet}`);

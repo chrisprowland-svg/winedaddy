@@ -109,7 +109,8 @@ for (const alias of grapeNavigation.aliases) {
   for (const relatedSlug of alias.relatedSlugs) {
     const related = articleBySlug.get(relatedSlug);
     if (!related || related.section !== 'grapes') throw new Error(`Related grape alias guide missing: ${relatedSlug}`);
-    addRelationship({from: entityId(related), predicate: 'same_as_grape', to: entityId(canonical), evidence: grapeNavigation.evidence});
+    const predicate = relatedSlug.includes('-vs-') ? 'about_grape' : 'same_as_grape';
+    addRelationship({from: entityId(related), predicate, to: entityId(canonical), evidence: grapeNavigation.evidence});
   }
 }
 for (const geographySet of geographies) for (const place of geographySet.places) {
@@ -185,6 +186,7 @@ const publicGraph = {
     ,member_of_grape_path: 'https://schema.org/isPartOf'
     ,has_grape_guide: 'https://schema.org/hasPart'
     ,same_as_grape: 'https://schema.org/sameAs'
+    ,about_grape: 'https://schema.org/about'
   },
   version: 2,
   entities,
