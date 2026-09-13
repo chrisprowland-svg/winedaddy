@@ -1,6 +1,12 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // Internal editorial triage belongs in protected repository review, not the public site.
+    let auditPath;
+    try { auditPath = decodeURIComponent(url.pathname); } catch { auditPath = url.pathname; }
+    if (auditPath.startsWith('/reports/authority-audit')) {
+      return new Response('Not found', {status: 404, headers: {'X-Robots-Tag': 'noindex', 'Cache-Control': 'no-store'}});
+    }
     if (url.pathname === '/api/subscribe') return subscribe(request, env);
 
     const response = await env.ASSETS.fetch(request);

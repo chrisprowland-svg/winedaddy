@@ -8,8 +8,9 @@
     "content:import": "node scripts/import-wdos-batch.mjs",
     "knowledge:audit": "node scripts/audit-knowledge-network.mjs --write",
     "knowledge:build": "node scripts/build-knowledge-graph.mjs",
+    "authority:audit": "npm run build && node scripts/audit-authority.mjs",
     "build": "node scripts/build-knowledge-graph.mjs && node scripts/build-site.mjs",
-    "check": "npm run build && node scripts/qa-site.mjs",
+    "check": "npm run build && node scripts/qa-site.mjs && node scripts/audit-authority.mjs --gate",
     "test": "node --test workers/page-qa/test/*.test.mjs",
     "worker:check": "tsc -p workers/page-qa/tsconfig.json && wrangler deploy --dry-run --config workers/page-qa/wrangler.jsonc"
   },
