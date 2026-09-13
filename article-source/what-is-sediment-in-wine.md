@@ -21,7 +21,7 @@ Sediment may be more noticeable in an aged red wine, or in a wine that has had l
 
 Sediment is often dark, reddish-brown or cloudy in red wine. It may be fine and powdery, or form a visible layer at the bottom of the bottle. It can contain more than one type of material, so colour and texture are useful clues rather than a definite identification test.
 
-Pale, clear or whitish crystals are more likely to be **tartrate crystals**. These are wine salts, most commonly potassium hydrogen tartrate and sometimes calcium tartrate. They can look like grains of sand, sugar or tiny fragments of glass, particularly in white wine. Typical tartrate crystals are generally harmless, but not every unfamiliar particle is necessarily a tartrate.
+Pale, clear or whitish crystals may be **tartrate crystals**. These are wine salts, most commonly potassium hydrogen tartrate and sometimes calcium tartrate. They can look like grains of sand, sugar or tiny fragments of glass, particularly in white wine. Appearance alone cannot establish that an unfamiliar particle is a tartrate rather than foreign material.
 
 Lees are another related term. Lees are settled solids associated especially with fermentation and wine storage, and commonly include yeast cells. Lees can contribute to sediment, but the two words are not exact synonyms: sediment is the broader term for solid material found settled in a finished wine or bottle.
 
@@ -49,9 +49,9 @@ Decanting is optional. In this situation, its main purpose is to separate cleare
 
 ## Frequently asked questions
 
-### Is it safe to drink wine sediment?
+### Should you drink wine containing sediment?
 
-Typical organic sediment and tartrate crystals are generally considered harmless. But an unknown particle cannot be identified confidently from sight alone. Do not consume wine if you suspect contamination, mould or glass.
+Ordinary wine sediment and tartrate deposits are generally treated as appearance or texture issues rather than wine faults. However, an unknown particle cannot be identified confidently from sight alone. Do not consume the wine if you suspect contamination, mould, glass, damaged packaging or another foreign object; return it to the retailer or contact the producer.
 
 ### Does sediment mean a wine is old?
 

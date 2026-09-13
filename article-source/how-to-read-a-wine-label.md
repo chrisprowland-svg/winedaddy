@@ -103,7 +103,7 @@ Do not assume a lot code is a bottling date or vintage. It is primarily an ident
 
 Wine may contain or require declarations for substances such as sulphites, depending on the ingredient, concentration and applicable exemptions. Added sulphites must be declared when present at or above the applicable threshold of 10 mg/kg. Relevant allergen information may also appear in the required plain-English format.
 
-Packaged alcoholic beverages above 1.15% ABV sold at retail in Australia and New Zealand must display the prescribed pregnancy warning, subject to limited exceptions. This warning is regulatory information, not a style or quality cue.
+Relevant packaged alcoholic beverages sold in Australia and New Zealand must display the [prescribed FSANZ pregnancy warning](https://www.foodstandards.gov.au/business/labelling/pregnancy-warning-labels). This warning is regulatory information, not a style or quality cue.
 
 Labelling rules can change, and imported products may have additional requirements. If you have an allergy or need precise product information, use the label as a starting point and contact the producer or supplier.
 

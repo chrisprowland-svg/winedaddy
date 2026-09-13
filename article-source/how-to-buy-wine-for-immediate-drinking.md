@@ -99,7 +99,7 @@ A useful correction to remember is: **drink now does not mean young is always be
 
 ## Responsible Australian buying
 
-In Australia, you must be 18 or older to buy alcohol or drink in a licensed venue. Check the label’s standard-drink information and follow Australian alcohol laws. If you are driving, pregnant, under 18 or choosing not to drink, select a non-alcoholic option instead.
+In Australia, alcohol can only be sold or supplied to people aged 18 or older, subject to state and territory laws. Check the label’s standard-drink information and plan not to drive after drinking. The [Australian Government advises](https://www.health.gov.au/topics/alcohol/alcohol-throughout-life/alcohol-during-pregnancy-and-breastfeeding) people who are pregnant or planning pregnancy not to drink alcohol. If alcohol is not appropriate, choose a genuinely alcohol-free alternative and check its label.
 
 ## Frequently asked questions
 

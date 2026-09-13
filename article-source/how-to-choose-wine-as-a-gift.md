@@ -17,7 +17,7 @@ There is no universal “best” wine gift. A bottle that suits the recipient is
 
 ## The quick answer: what wine should you give?
 
-First, check that wine is an appropriate gift. In Australia, alcohol may only be bought by adults aged 18 or over. You should also respect people who do not drink, are avoiding alcohol, are pregnant, are in recovery, have health concerns, follow cultural or religious practices, or simply do not want alcohol. You do not need to ask for private details: if you are unsure, choose a non-alcoholic alternative or ask discreetly.
+First, check that wine is an appropriate gift. In Australia, alcohol can only be sold or supplied to people aged 18 or older, subject to state and territory laws. Respect people who do not drink, are avoiding alcohol, are pregnant, are in recovery, have health concerns, follow cultural or religious practices, or simply do not want alcohol. You do not need to ask for private details: if you are unsure, choose a genuinely alcohol-free alternative or ask discreetly.
 
 Next, work out what the recipient already enjoys. Do they usually drink red, white, rosé or sparkling wine? Do they like wines that are dry, sweet, fruity, fresh, aromatic, light-bodied or full-bodied? Will the bottle be opened at a dinner, taken to a barbecue, used for a celebration or saved for later?
 
@@ -84,7 +84,7 @@ A label can help you make a more informed choice. Look for:
 - the approximate number of Australian standard drinks;
 - relevant warning and allergen information.
 
-In Australia, one standard drink contains 10 grams of pure alcohol. Packaged alcoholic beverages above 0.5% ABV must include a standard-drink statement under the applicable food-labelling requirements. Packaged alcohol above 1.15% ABV generally carries a pregnancy warning label, subject to the relevant exception.
+In Australia, one standard drink contains 10 grams of pure alcohol. [FSANZ states](https://www.foodstandards.gov.au/consumer/labelling/Labelling-of-alcoholic-beverages) that beverages containing more than 0.5% ABV must include a standard-drink statement. Relevant packaged alcoholic beverages must also display the [prescribed pregnancy warning](https://www.foodstandards.gov.au/business/labelling/pregnancy-warning-labels).
 
 Labelling rules and product information can change, so do not infer that a wine is suitable for a particular medical, allergy-related or dietary circumstance from general wording alone. For a closer look at label information, read [How to Read a Wine Label](/how-to-read-a-wine-label/).
 

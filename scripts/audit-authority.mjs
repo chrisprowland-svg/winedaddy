@@ -7,6 +7,8 @@ const root = process.cwd();
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const articles = read('content/articles.json').articles;
 const relationships = read('content/knowledge/relationships.json').relationships;
+const authorityReviewPath = path.join(root, 'content/editorial/authority-reviews.json');
+const authorityReviews = fs.existsSync(authorityReviewPath) ? JSON.parse(fs.readFileSync(authorityReviewPath, 'utf8')) : {reviews:{}};
 const normalizeRoute = route => route.split(/[?#]/)[0].replace(/\/$/, '') || '/';
 const routes = new Map(articles.map(article => [normalizeRoute(article.route), article]));
 const staticRoutes = new Set(['/', '/fundamentals', '/grapes', '/regions', '/winemaking', '/about.html', '/contact.html', '/privacy.html', '/search.html']);
@@ -17,6 +19,7 @@ const add = (article, code, priority, evidence, action, status = 'review_flag') 
 const incoming = new Map(articles.map(article => [article.slug, new Set()]));
 const rows = articles.map(article => {
   const source = fs.readFileSync(path.join(root, article.source), 'utf8');
+  const sourceDigest = crypto.createHash('sha256').update(source).digest('hex');
   const text = plain(source);
   const words = text.split(/\s+/).filter(Boolean).length;
   const headings = [...source.matchAll(/^##\s+(.+)$/gm)].map(match => match[1]);
@@ -41,7 +44,9 @@ const rows = articles.map(article => {
   const riskTerms = [...new Set((text.match(/\b(?:pregnan\w*|cancer|medication|health benefits|safe to drink|legal(?:ly)?|permitted|prohibited|regulation\w*|sulphur dioxide|sulfur dioxide|methanol)\b/gi) || []).map(term => term.toLowerCase()))];
   if (riskTerms.length) {
     const healthTerms = riskTerms.filter(term => /pregnan|cancer|medication|health benefits|safe to drink|methanol/.test(term));
-    add(article, healthTerms.length ? 'health_safety_claim_review' : 'regulatory_technical_claim_review', healthTerms.length ? 'high' : 'medium', riskTerms.join(', '), 'Verify the relevant claims against authoritative current sources; keep educational content distinct from advice.');
+    const review = authorityReviews.reviews[article.slug];
+    const currentHealthReview = healthTerms.length && review?.scope === 'health_safety' && review.sourceDigest === sourceDigest;
+    if (!currentHealthReview) add(article, healthTerms.length ? 'health_safety_claim_review' : 'regulatory_technical_claim_review', healthTerms.length ? 'high' : 'medium', riskTerms.join(', '), 'Verify the relevant claims against authoritative current sources; keep educational content distinct from advice.');
   }
   const editorialCrossSections = [...new Set([...outgoing].map(slug => articles.find(item => item.slug === slug).section).filter(section => section !== article.section))];
   return {slug:article.slug, route:article.route, section:article.section, words, headings:headings.length, editorialOutbound:outgoing.size, externalCitationLinks:external, editorialCrossSections, bodyHash:crypto.createHash('sha256').update(normalize(text)).digest('hex'), titleTerms:new Set(normalize(article.title.split(/[:?]/)[0]).split(' ').filter(term => !['what','is','are','a','the','wine','guide','beginner','s'].includes(term)))};
@@ -69,7 +74,11 @@ for (const relationship of relationships.filter(item => item.predicate === 'same
   if (article?.slug.includes('-vs-')) add(article, 'comparison_identity_error', 'high', `${relationship.from} -> ${relationship.to}`, 'Model the comparison article as about the grape, not the same entity.', 'confirmed_defect');
 }
 findings.sort((a,b) => priorityOrder[a.priority]-priorityOrder[b.priority] || a.slug.localeCompare(b.slug) || a.code.localeCompare(b.code));
-const totals = {articles:rows.length, findings:findings.length, confirmedDefects:findings.filter(item => item.status === 'confirmed_defect').length, exactDuplicatePairs:duplicates.length, titleOverlapCandidates:overlapCandidates.length, byPriority:Object.fromEntries(Object.keys(priorityOrder).map(priority => [priority,findings.filter(item => item.priority === priority).length])), byCode:Object.fromEntries([...new Set(findings.map(item => item.code))].sort().map(code => [code,findings.filter(item => item.code === code).length]))};
+const currentHealthSafetyReviews = Object.entries(authorityReviews.reviews).filter(([slug,review]) => {
+  const article = articles.find(item => item.slug === slug);
+  return review.scope === 'health_safety' && article && review.sourceDigest === crypto.createHash('sha256').update(fs.readFileSync(path.join(root, article.source), 'utf8')).digest('hex');
+}).length;
+const totals = {articles:rows.length, findings:findings.length, confirmedDefects:findings.filter(item => item.status === 'confirmed_defect').length, currentHealthSafetyReviews, exactDuplicatePairs:duplicates.length, titleOverlapCandidates:overlapCandidates.length, byPriority:Object.fromEntries(Object.keys(priorityOrder).map(priority => [priority,findings.filter(item => item.priority === priority).length])), byCode:Object.fromEntries([...new Set(findings.map(item => item.code))].sort().map(code => [code,findings.filter(item => item.code === code).length]))};
 const bySection = Object.fromEntries([...new Set(rows.map(row => row.section))].sort().map(section => {
   const selected = rows.filter(row => row.section === section);
   return [section,{articles:selected.length,wordsMedian:selected.map(row=>row.words).sort((a,b)=>a-b)[Math.floor(selected.length/2)],noEditorialOutbound:selected.filter(row=>!row.editorialOutbound).length,noEditorialInbound:selected.filter(row=>!row.editorialInbound).length,contextualCrossSectionCoverage:selected.filter(row=>row.editorialCrossSections.length).length}];

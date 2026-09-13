@@ -135,7 +135,7 @@ Ask guests to plan their trip home before the tasting. Public transport, a taxi,
 
 Rules concerning alcohol service vary between Australian states and territories and between private homes, clubs and licensed venues. This guide offers general safety guidance, not licensing or legal advice.
 
-You can also make participation easier by providing large-print or digital notes, good lighting, comfortable seating and a quiet tasting period. Avoid scented candles, perfume and strongly flavoured food. Identify ingredients and allergens in anything served. Respect guests who are abstaining, pregnant, taking medication, recovering from alcohol dependence or simply do not want to drink.
+You can also make participation easier by providing large-print or digital notes, good lighting, comfortable seating and a quiet tasting period. Avoid scented candles, perfume and strongly flavoured food. Identify ingredients and allergens in anything served. Respect guests who are abstaining, pregnant, recovering from alcohol dependence or simply do not want to drink. Alcohol can interact with some prescription, over-the-counter and herbal medicines; guests should follow their medicine’s instructions or ask a pharmacist or doctor rather than relying on general event advice. [Healthdirect explains the interaction risk](https://www.healthdirect.gov.au/alcohol).
 
 ## 9. End with the reveal, not a verdict
 

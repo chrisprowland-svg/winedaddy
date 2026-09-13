@@ -5,7 +5,7 @@
 - There is no universal drinking age for wine.
 - Most wine does not automatically improve if you keep it longer.
 - Style, structure, vintage, storage history and personal taste all matter.
-- “Ready to drink” is different from “fully mature”, “properly served” or “safe to drink”.
+- “Ready to drink” is different from “fully mature”, “properly served” or free from a possible contamination or packaging problem.
 - Australian heat during transport or storage can affect a bottle’s condition.
 - The most useful test is to open one bottle, taste it and decide what to do next.
 - Air may make a young wine more expressive, but it cannot repair oxidation, heat damage or spoilage.
@@ -77,9 +77,9 @@ A mature wine has developed beyond its youthful stage. It may show less primary 
 
 Serving concerns temperature, glassware and opening. A mature wine can seem disappointing if served too warm or too cold. A young wine may show better after a short time in the glass. See [wine serving temperature explained](/wine-serving-temperature-explained/) for the separate serving question.
 
-### Safe to drink
+### Bottle condition and possible contamination
 
-Safety and condition are different from maturity. Old wine is not automatically unsafe, and young wine is not automatically sound. Leakage, severe heat exposure, obvious spoilage or a concerning smell should not be treated as normal ageing.
+Bottle condition is different from maturity. Age alone does not establish whether a bottle is suitable to consume, and youth does not guarantee that it is sound. Leakage, broken glass, a pushed closure, severe heat damage, mould inside the closure or suspected contamination should not be treated as normal ageing. If you are uncertain, do not drink the wine; return it to the retailer or contact the producer.
 
 Colour or sediment alone cannot diagnose a fault. Sediment may occur in older or minimally filtered wine and is not automatically a problem.
 
@@ -111,7 +111,7 @@ Australian labels may identify a wine’s variety, region or geographical indica
 
 A vintage is the year of harvest, when stated. It is not a promise that the wine will be mature or enjoyable by a particular later year. Variety and region can provide useful style clues, but wines made from the same grape or place can still differ in structure and intended timing.
 
-Standard drinks are also separate from maturity. In Australia, one standard drink contains 10 grams of pure alcohol, and the number of standard drinks in a bottle depends on its volume and alcohol level. A serving poured at home or in a restaurant is not necessarily one standard drink. Consider the Australian health guidelines and your circumstances, including driving, pregnancy and age.
+Standard drinks are also separate from maturity. In Australia, one standard drink contains 10 grams of pure alcohol, and the number of standard drinks in a bottle depends on its volume and alcohol level. A serving poured at home or in a restaurant is not necessarily one standard drink. See the [NHMRC Australian alcohol guidelines](https://www.nhmrc.gov.au/health-advice/alcohol), including the separate guidance for adults, people under 18, and pregnancy and breastfeeding.
 
 ## A practical Friday-night decision
 
