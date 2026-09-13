@@ -116,7 +116,7 @@ The best Christmas-lunch wine is the one that fits the food, the weather and the
 
 Most importantly, pairing is not a test. If guests enjoy the wine and the food, the match is doing its job.
 
-Offer water, avoid pressuring anyone to drink and include non-alcoholic choices. The Australian Government advises healthy adults who drink to have no more than four standard drinks on any one day to reduce risk; less is lower risk. An Australian standard drink contains 10 grams of alcohol. People who are pregnant, under 18, driving, taking medicines or choosing not to drink should avoid alcohol.
+Offer water, avoid pressuring anyone to drink and include genuinely alcohol-free choices. The [NHMRC Australian alcohol guidelines](https://www.nhmrc.gov.au/health-advice/alcohol) advise healthy adults to have no more than four standard drinks on any one day and no more than 10 per week to reduce risk; these are not no-risk limits, and less is lower risk. An Australian standard drink contains 10 grams of alcohol. People under 18 should not drink alcohol, and anyone driving should not drink. The [Australian Government advises](https://www.health.gov.au/topics/alcohol/alcohol-throughout-life/alcohol-during-pregnancy-and-breastfeeding) people who are pregnant or planning pregnancy not to drink. Alcohol can interact with some medicines, so follow the medicine’s instructions or ask a pharmacist or doctor.
 
 ## Frequently asked questions
 

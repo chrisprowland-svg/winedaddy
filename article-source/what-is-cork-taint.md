@@ -68,9 +68,9 @@ These are orientation points rather than definitive tests. For example, earthy n
 
 Cork pieces are particularly easy to confuse with cork taint. A fragment in the glass is a physical nuisance, not evidence that the wine has absorbed TCA. Likewise, sediment does not automatically mean the wine is spoiled.
 
-## Is cork-tainted wine safe to drink?
+## Is cork taint a health risk?
 
-Research supplied for this guide supports treating cork taint primarily as a wine-quality and sensory problem. It does not support an absolute claim that every TCA-affected wine is medically harmless, nor does it establish a simple household safety threshold.
+Cork taint is primarily discussed as a wine-quality and sensory problem, not as a medical assessment. An unpleasant musty aroma can be consistent with cork taint, but smell alone cannot identify every possible problem with a bottle. If the bottle appears contaminated, damaged or otherwise abnormal—or if you are uncertain—do not drink it; return it to the retailer or contact the producer.
 
 For a drinker, the usual practical issue is that the wine is faulty and unpleasant rather than that it tastes normal while secretly presenting a known danger. It should not be served as intended if the fault is clear.
 

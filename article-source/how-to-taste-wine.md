@@ -117,7 +117,7 @@ Try tasting the same wine again later. Your description may change as the wine, 
 
 Tasting wine does not mean finishing every sample. At organised tastings, spitting is normal and can help you compare wines without consuming every pour. Drink water, keep pours modest and check the label: a restaurant serve or bottle may contain more than one Australian standard drink.
 
-Australian Government guidance says that healthy adults should drink no more than 10 standard drinks per week and no more than four on any one day to reduce alcohol-related risk. Less alcohol means lower risk, and some people should not drink at all. One Australian standard drink contains 10 grams of pure alcohol. Never drive after drinking. People under 18, people who are pregnant or planning pregnancy, and others advised not to drink should not taste alcohol.
+The [NHMRC Australian alcohol guidelines](https://www.nhmrc.gov.au/health-advice/alcohol) advise healthy adults to have no more than 10 standard drinks per week and no more than four on any one day to reduce alcohol-related risk. These are risk-reduction limits, not a “safe” or no-risk level; less alcohol means lower risk. One Australian standard drink contains 10 grams of pure alcohol. Never drive after drinking. People under 18 should not drink alcohol. The [Australian Government advises](https://www.health.gov.au/topics/alcohol/alcohol-throughout-life/alcohol-during-pregnancy-and-breastfeeding) people who are pregnant or planning pregnancy not to drink alcohol.
 
 For more context, see [what wine is](/what-is-wine/), [how wine is made](/how-wine-is-made/) and [what sweet wine is](/what-is-sweet-wine/). More detailed guides to finish, balance and complexity will follow in the wine-tasting and structure series.
 

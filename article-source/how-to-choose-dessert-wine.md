@@ -95,7 +95,7 @@ Before buying, look for:
 - **Fortified status or style description:** useful for anticipating warmth and richness.
 - **Sweetness wording:** helpful when supplied, but terms are not always interchangeable across wine styles and markets.
 
-For Australian packaged alcoholic beverages, the label provides alcohol information and, where applicable, standard-drinks information. Some packaged alcoholic beverages above 1.15% alcohol by volume also require a pregnancy-warning label, subject to relevant exceptions. Treat the label as a practical guide, not a complete tasting note.
+For Australian packaged alcoholic beverages, the label provides alcohol information and, where applicable, standard-drinks information. Relevant packaged alcoholic beverages also require the [prescribed FSANZ pregnancy warning](https://www.foodstandards.gov.au/business/labelling/pregnancy-warning-labels). Treat the label as a practical guide, not a complete tasting note.
 
 ## A buying checklist
 

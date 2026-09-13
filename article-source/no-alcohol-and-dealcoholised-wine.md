@@ -16,7 +16,7 @@ No-alcohol and dealcoholised wine are wine-based beverages in which alcohol has 
 
 The word **dealcoholised** describes a process or result: alcohol has been removed from a fermented wine or wine base. **No-alcohol**, **alcohol-free** and **zero-alcohol** are usually consumer-facing descriptions. Their precise meaning can vary by product and jurisdiction, so they should not automatically be treated as identical legal categories.
 
-The most useful Australian reference is the product’s declared alcohol by volume, or **ABV**. FSANZ requires alcohol-content information for beverages containing **0.5% ABV or more**. These are labelling thresholds, not proof that every product below 0.5% ABV contains absolutely no ethanol.
+The most useful Australian reference is the product’s declared alcohol by volume, or **ABV**. [FSANZ’s alcohol-labelling guidance](https://www.foodstandards.gov.au/consumer/labelling/Labelling-of-alcoholic-beverages) requires standard-drink information for beverages containing more than **0.5% ABV** and explains the applicable alcohol-content statements. These are labelling thresholds, not proof that every product below 0.5% ABV contains absolutely no ethanol.
 
 ## How is alcohol removed?
 
@@ -79,7 +79,7 @@ That is why “fruity” and “sweet” should not be treated as synonyms. [Swe
 
 ## How should Australians read the label?
 
-FSANZ states that beverages containing **0.5% ABV or more** must include alcohol-content information. For beverages above **1.15% ABV**, the alcohol content is generally shown as a percentage by volume or millilitres per 100 millilitres. At or below 1.15% ABV, wording such as “contains not more than X% alcohol by volume” may be used. Beverages above 0.5% ABV also require standard-drink information.
+[FSANZ explains](https://www.foodstandards.gov.au/consumer/labelling/Labelling-of-alcoholic-beverages) how alcohol content must be stated at different strengths. Beverages containing more than 0.5% ABV must also include standard-drink information. The thresholds govern required label statements; they do not guarantee absolute zero alcohol below a threshold.
 
 These rules do not create one universal Australian definition of “no-alcohol” or “alcohol-free”. Before choosing a product, check:
 

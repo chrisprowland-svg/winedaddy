@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-13",
+  "method": "Claim-level editorial review against current primary Australian government and regulator guidance. Source digests invalidate a review when an article changes.",
+  "primarySources": {
+    "nhmrcAlcohol": "https://www.nhmrc.gov.au/health-advice/alcohol",
+    "healthPregnancy": "https://www.health.gov.au/topics/alcohol/alcohol-throughout-life/alcohol-during-pregnancy-and-breastfeeding",
+    "healthdirectAlcohol": "https://www.healthdirect.gov.au/alcohol",
+    "fsanzAlcoholLabels": "https://www.foodstandards.gov.au/consumer/labelling/Labelling-of-alcoholic-beverages",
+    "fsanzPregnancyLabels": "https://www.foodstandards.gov.au/business/labelling/pregnancy-warning-labels"
+  },
+  "reviews": {
+    "amarone-della-valpolicella": {"scope":"health_safety","sourceDigest":"1b163baa32845b9bddb4db88d1b770fd1be9130b750f59de90effa2a1e7d38d4","outcome":"confirmed_current","note":"Flag is a regulatory pregnancy-warning reference; no individual health advice."},
+    "bardolino": {"scope":"health_safety","sourceDigest":"980cd69730f8fa688b15e205761b2fb5d8d7d722c19506534cfa15ae874be89b","outcome":"confirmed_current","note":"Flag is denomination and Australian label terminology; no individual health advice."},
+    "building-a-wine-tasting-flight": {"scope":"health_safety","sourceDigest":"fb53afd6668330114fcaf47a15f7cc6e5026a2d2b4b51ad3ecdfd9d5ff2dc8fa","outcome":"corrected_and_sourced","note":"Pregnancy wording aligned to Australian Government guidance."},
+    "canned-wine-explained": {"scope":"health_safety","sourceDigest":"8e4c9f7512ef6f095864275dc9aac565c368e0c7c9b3f6466cdd53e35aba1796","outcome":"corrected_and_sourced","note":"Clarified NHMRC limits are risk-reduction, not no-risk limits; linked FSANZ."},
+    "cleanskin-wine-explained": {"scope":"health_safety","sourceDigest":"5a444b119ddafcc7242b7a39034bbc279b25cb045fba7026313bbc0b8a877125","outcome":"confirmed_current","note":"Flag is Australian packaging regulation; no health recommendation."},
+    "how-to-buy-wine-for-immediate-drinking": {"scope":"health_safety","sourceDigest":"05c7add83d1ddce467f8a23c47b282cd7ec2eee7e11c637e361e6c15c9a33699","outcome":"corrected_and_sourced","note":"Age, driving, pregnancy and alcohol-free wording made precise."},
+    "how-to-choose-dessert-wine": {"scope":"health_safety","sourceDigest":"0497abf0c81ed2411f445e4289f3365035606e6b3b74f24ae7a1e80b81445f31","outcome":"corrected_and_sourced","note":"Pregnancy-label statement linked to FSANZ without oversimplified threshold language."},
+    "how-to-choose-wine-as-a-gift": {"scope":"health_safety","sourceDigest":"1d87bdccf80763780863bf34dcdd9f93d43f30aeca5e41e2cde6136b00f2505d","outcome":"corrected_and_sourced","note":"Alcohol-free and labelling language clarified; FSANZ linked."},
+    "how-to-host-a-blind-wine-tasting": {"scope":"health_safety","sourceDigest":"96ec8b15e9fd7b42c1dc336e4598a18d549f98d42ae0a9a9ab8807ab97670334","outcome":"corrected_and_sourced","note":"Replaced blanket medication advice with interaction warning and pharmacist/doctor direction."},
+    "how-to-read-a-wine-label": {"scope":"health_safety","sourceDigest":"6fa32f10543cc93f50949a4d082ce6bdc31c3aabb4825b264ffaae6531cd01e9","outcome":"corrected_and_sourced","note":"Pregnancy-label statement linked directly to FSANZ."},
+    "how-to-spot-misleading-wine-marketing": {"scope":"health_safety","sourceDigest":"ebcd71d93e946d70f2cd17422aace8180711d69a59808b71ad8a467b23ae26d1","outcome":"confirmed_current","note":"Health-claim discussion is consumer regulatory education, not a health-benefit claim."},
+    "how-to-taste-wine": {"scope":"health_safety","sourceDigest":"6d2195669b0fbe123dde5ea159601284ecf0679f3df28ecf3f6c4b4cef41f962","outcome":"corrected_and_sourced","note":"NHMRC risk limits and Australian Government pregnancy advice stated separately and linked."},
+    "marsala-wine": {"scope":"health_safety","sourceDigest":"163f8e0b79456a190a126bb8eff50bd70de332b63a04174c28213b84491ce356","outcome":"confirmed_current","note":"Flag is a packaging-warning reference; no individual health advice."},
+    "no-alcohol-and-dealcoholised-wine": {"scope":"health_safety","sourceDigest":"85940252a8fcf12a11d9c33c3cba774787169b58b5eebcc27a726a921adcc1c8","outcome":"corrected_and_sourced","note":"FSANZ thresholds linked and distinguished from proof of absolute zero alcohol."},
+    "vintage-port": {"scope":"health_safety","sourceDigest":"15fabc9a29e7b96b2e70c6d5c829bd0ee4f8674261d0f34bd17c9ac4db79e35c","outcome":"confirmed_current","note":"Flag is packaging and responsible-consumption context; no personalised advice."},
+    "what-does-corked-wine-smell-like": {"scope":"health_safety","sourceDigest":"75b813ecefbb4d2e6fe80f4ce0b09d180068237cfdfff6accea83d6a576fc5ab","outcome":"corrected","note":"Removed implied universal safety conclusion; separated sensory fault from possible contamination."},
+    "what-is-cork-taint": {"scope":"health_safety","sourceDigest":"e6bcc82705b7ed6702f07c5ba5c847fb0a918f27c0f17aa9e27d8a25d25e51a1","outcome":"corrected","note":"Removed implied medical conclusion and added conservative bottle-condition guidance."},
+    "what-is-sediment-in-wine": {"scope":"health_safety","sourceDigest":"8e4b10c9b619718e3e3fd1026aca06604af89f1181fd908970cb850c4cd79e27","outcome":"corrected","note":"Removed categorical harmlessness claim; cannot identify unknown particles by sight."},
+    "what-unfiltered-wine-means": {"scope":"health_safety","sourceDigest":"ac04c6bc0d5c6e11f83e9814fb11f9b0c81aea6f21fdb4b3225af3ae00af2186","outcome":"confirmed_current","note":"Article correctly states that unfiltered wording alone cannot determine safety."},
+    "when-to-drink-a-wine": {"scope":"health_safety","sourceDigest":"6988cd564b2bfa6ab52cd4db921a871357321c1f61296143b2fff35f05d29bbb","outcome":"corrected_and_sourced","note":"Separated maturity from contamination; added conservative direction and NHMRC link."},
+    "wine-for-christmas-lunch": {"scope":"health_safety","sourceDigest":"9614398d9bacdc71e941fa6a3b4d635d36bb7e9f862e100fb1ec30865020515e","outcome":"corrected_and_sourced","note":"Clarified NHMRC risk limits, pregnancy, driving, medicines and alcohol-free choices."}
+  }
+}

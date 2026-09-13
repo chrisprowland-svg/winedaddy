@@ -8,13 +8,14 @@ Syrah versus Shiraz and Pinot Gris versus Pinot Grigio are comparison articles a
 
 Internal authority reports are denied by the serving Worker, including encoded paths. Worker tests also protect the public geography and learning-path panels during preamble cleanup.
 
+The 21 health/safety keyword flags have now received claim-level editorial review against current primary Australian guidance. Fourteen article sources were corrected or strengthened; seven were confirmed as regulatory or denomination references rather than health advice. The review register records a SHA-256 digest for every reviewed source, so a later source edit automatically returns that page to the review queue. The current audit reports 21 current reviews and zero outstanding high-priority health/safety flags.
+
 ## Immediate editorial queue
 
-1. Review the 21 health/safety keyword flags against primary sources. Keyword matches alone do not establish incorrect advice.
-2. Reconcile the 996 pages without visible external citations against upstream research records. Reader-facing citation absence is not evidence that research was absent.
-3. Review overlapping scopes: Flor ageing / What is flor ageing; Reverse osmosis in winemaking / What is reverse osmosis in winemaking. Their bodies differ, but introductions and primary scope overlap. Do not redirect or delete without an editorial decision and search-performance evidence.
-4. Add genuinely useful contextual links where absent (340 pages have no source outbound links; 565 have no source inbound links). Generated cards and hubs are excluded from these measures; these are not unreachable-page counts.
-5. Review Brazil and Canada country overviews (320 and 351 words). Shortness alone does not establish low quality.
+1. Reconcile the remaining pages without visible external citations against upstream research records. Reader-facing citation absence is not evidence that research was absent.
+2. Review overlapping scopes: Flor ageing / What is flor ageing; Reverse osmosis in winemaking / What is reverse osmosis in winemaking. Their bodies differ, but introductions and primary scope overlap. Do not redirect or delete without an editorial decision and search-performance evidence.
+3. Add genuinely useful contextual links where absent (340 pages have no source outbound links; 565 have no source inbound links). Generated cards and hubs are excluded from these measures; these are not unreachable-page counts.
+4. Review Brazil and Canada country overviews (320 and 351 words). Shortness alone does not establish low quality.
 
 ## Unfinished evidence work
 

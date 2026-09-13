@@ -86,9 +86,9 @@ Before buying, look for:
 - storage or best-before information, where supplied;
 - package condition.
 
-A standard drink contains 10 grams of pure alcohol. Because a can’s size and alcohol percentage vary, a small can may contain more than one standard drink. For healthy adults, the NHMRC advises no more than 10 standard drinks per week and no more than four on any one day; less is lower risk.
+A standard drink contains 10 grams of pure alcohol. Because a can’s size and alcohol percentage vary, a small can may contain more than one standard drink. The [NHMRC Australian alcohol guidelines](https://www.nhmrc.gov.au/health-advice/alcohol) advise healthy adults to have no more than 10 standard drinks per week and no more than four on any one day to reduce risk. These are not “safe” or no-risk limits; less is lower risk.
 
-Australian packaged-alcohol labelling also includes pregnancy-warning requirements for applicable beverages above 1.15% alcohol by volume. Energy labelling requirements for alcoholic beverages are scheduled to commence on 13 August 2028, so those requirements should be treated as upcoming rather than assumed to apply to every label today.
+Australian packaged-alcohol labelling also includes [prescribed pregnancy-warning requirements](https://www.foodstandards.gov.au/business/labelling/pregnancy-warning-labels). Energy labelling requirements for alcoholic beverages are scheduled to commence on 13 August 2028, so those requirements should be treated as upcoming rather than assumed to apply to every label today.
 
 ## Can you recycle a wine can?
 

@@ -116,7 +116,7 @@ In Australia, a standard drink contains 10 grams of pure alcohol. It is not the 
 
 DrinkWise gives the useful approximation that six 15 mL tasting pours equal about one standard drink, but this varies with alcohol strength and pour accuracy. Use the standard-drink information on the label as your main guide.
 
-Pour small amounts, offer water and non-alcoholic alternatives, and never pressure anyone to taste or finish wine. Plan transport before drinking. People under 18 should not be encouraged to drink, and not drinking is safest during pregnancy. Never drive after drinking.
+Pour small amounts, offer water and non-alcoholic alternatives, and never pressure anyone to taste or finish wine. Plan transport before drinking. People under 18 should not drink alcohol. The [Australian Government advises](https://www.health.gov.au/topics/alcohol/alcohol-throughout-life/alcohol-during-pregnancy-and-breastfeeding) people who are pregnant or planning pregnancy not to drink alcohol. Never drive after drinking.
 
 ## FAQs
 

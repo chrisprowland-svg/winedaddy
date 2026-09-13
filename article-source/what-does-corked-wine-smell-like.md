@@ -57,9 +57,9 @@ Then contact the seller or venue and explain that you suspect cork taint. Ask ab
 
 ### Frequently asked questions
 
-#### Is corked wine safe to drink?
+#### Is corked wine a health risk?
 
-Cork taint is discussed here as a quality and enjoyment fault. The main issue is that the wine may smell and taste unpleasant or muted. If you do not enjoy it, there is no reason to keep serving it.
+Cork taint is discussed here as a quality and enjoyment fault, not as a medical assessment. The main issue is that the wine may smell and taste unpleasant or muted. Smell alone cannot identify every possible problem with a bottle. If the bottle appears contaminated, damaged or otherwise abnormal—or if you are uncertain—do not drink it; return it to the retailer or contact the producer.
 
 #### Can every person smell cork taint?
 
