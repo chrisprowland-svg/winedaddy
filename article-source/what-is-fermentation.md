@@ -22,6 +22,8 @@ That equation is useful, but incomplete. Yeast also produces other compounds tha
 
 Fermentation is central to making wine, but it is not the whole process. Crushing, pressing, skin contact, clarification, maturation and bottling are separate winemaking operations. To understand the bigger picture, see [how wine is made](/how-wine-is-made/), or explore the broader [winemaking](/winemaking/) hub.
 
+<!-- VISUAL:VIS-021 -->
+
 ## What does yeast do in wine?
 
 Yeast is a type of fungus. In alcoholic fermentation, it uses sugar as an energy source and converts it mainly into ethanol and carbon dioxide.

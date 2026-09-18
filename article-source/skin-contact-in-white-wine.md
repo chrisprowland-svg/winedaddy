@@ -19,6 +19,8 @@ This is a **process choice**, not one fixed wine style. Contact might last for h
 
 The result depends on the grape variety, ripeness, temperature, oxygen exposure, contact time, vessel and handling. Skin contact can make a wine more textural or phenolic, but it does not guarantee a particular flavour, colour or level of quality.
 
+<!-- VISUAL:VIS-022 -->
+
 ## How does the process work?
 
 A simplified white-wine pathway looks like this:

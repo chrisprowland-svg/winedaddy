@@ -44,6 +44,25 @@ The active-asset ceiling remains 100. This is a governance alarm, not a target.
 
 After this branch, the preview corpus contains 239 placements across 209 pages using 63 concepts. Wine structure already contained an earlier governed visual, so the ten new placements add nine newly visualised pages.
 
+## Batch 2 — protected-preview proposal
+
+| ID | Concept | Canary page | Format |
+|---|---|---|---|
+| VIS-064 | Merlot at a glance | What is Merlot? | Semantic profile |
+| VIS-065 | Grenache at a glance | What is Grenache? | Semantic profile |
+| VIS-066 | Nebbiolo at a glance | What is Nebbiolo? | Semantic profile |
+| VIS-067 | Sangiovese at a glance | What is Sangiovese? | Semantic profile |
+| VIS-068 | Tempranillo at a glance | What is Tempranillo? | Semantic profile |
+| VIS-069 | Sparkling-wine production methods | What is sparkling wine? | Semantic comparison |
+| VIS-070 | Sweetness reference | What is sweetness in wine? | Semantic reference |
+| VIS-071 | Wine-fault triage | How to tell if wine is still drinkable | Semantic decision aid |
+| VIS-072 | Screw cap versus cork | Screw cap vs cork | Semantic comparison |
+| VIS-073 | Bottle-ageing timeline | Bottle ageing | Semantic timeline |
+| VIS-074 | Food-pairing intensity | How wine pairing works | Semantic framework |
+| VIS-075 | Red versus white winemaking | Red wine vs white wine | Semantic process comparison |
+
+Batch 2 also reuses VIS-021 on the fermentation foundation guide, VIS-023 on secondary aromas, VIS-022 on skin-contact white wine and VIS-012 on glass-cleaning guidance. The preview corpus contains 255 placements across 219 pages using 75 concepts.
+
 ## Ranked queue after Batch 1
 
 The next audit pass should rank reuse and new concepts by learning value, reuse potential, cornerstone-page importance and source certainty. Current priority themes are:

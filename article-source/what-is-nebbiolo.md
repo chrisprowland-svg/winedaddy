@@ -20,6 +20,8 @@ Typical Nebbiolo aromas and flavours may include red cherry, raspberry, rose, vi
 
 The style varies considerably. Climate, vineyard site, harvest timing, extraction, oak maturation and bottle age can all influence the final wine. Australian Nebbiolo should not be expected to taste identical to Barolo or Barbaresco.
 
+<!-- VISUAL:VIS-066 -->
+
 ## What does Nebbiolo taste like?
 
 Nebbiolo is commonly associated with red rather than black fruit. You may notice cherry, raspberry or other red-fruit flavours, alongside floral aromas such as rose or violet. Herbs, spice, earthy notes and savoury characters may become more noticeable as the wine develops.

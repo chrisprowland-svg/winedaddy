@@ -16,6 +16,8 @@ Hand-wash glasses marked “hand wash only”, delicate or valuable stemware, an
 
 Use warm rather than boiling water. Hot water and steam can cause scalds, while sudden temperature extremes may be hard on glassware.
 
+<!-- VISUAL:VIS-012 -->
+
 ## How to hand-wash wine glasses safely
 
 Wine glasses have three useful parts: the bowl, stem and foot. Hold the glass steadily and avoid twisting the stem while cleaning or drying it. Do not force a cloth into a narrow bowl, and take particular care with thin rims.

@@ -22,6 +22,8 @@ But sweetness is not simply a sugar reading. Acidity can make a wine feel freshe
 
 That is why a wine can taste fruity yet dry. **Dry describes sweetness, not flavour intensity.**
 
+<!-- VISUAL:VIS-070 -->
+
 ## Sweetness is not the same as fruitiness
 
 A wine described as smelling of peach, berries, citrus, ripe melon or honey does not necessarily contain residual sugar. These are comparisons used to describe aromas and flavours—not an ingredient list.

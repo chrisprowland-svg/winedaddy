@@ -18,6 +18,8 @@ A lighter Grenache might taste bright, juicy and fresh, with strawberry or raspb
 
 You may see the name **Garnacha** on a Spanish wine label. In most wine contexts, Grenache and Garnacha are different names for the same red grape variety. “Grenache Blanc” and “Grenache Gris”, however, refer to related white or grey-skinned forms and should not be assumed to taste like red Grenache.
 
+<!-- VISUAL:VIS-065 -->
+
 ## What does Grenache wine taste like?
 
 Red Grenache often has an inviting, fruit-forward aroma. Common possibilities include:

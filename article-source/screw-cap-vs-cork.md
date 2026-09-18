@@ -20,6 +20,8 @@ A **screw cap** usually provides a more consistent seal and very low, controlled
 
 The right choice depends on the wine, how long you plan to keep it, how it was made and stored, and your own preference. A screw cap is not a quality downgrade, while a cork does not guarantee a more complex or age-worthy wine.
 
+<!-- VISUAL:VIS-072 -->
+
 ## What Is the Difference Between Screw Cap and Cork?
 
 A screw cap is usually an aluminium closure with an internal liner. The liner presses against the bottle neck to create the seal. Different liner designs can allow different amounts of oxygen transfer, so not every screw cap performs in exactly the same way.

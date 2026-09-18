@@ -25,6 +25,8 @@ That does not mean every bottle follows the same path. The wine’s acidity, tan
 
 Think of bottle ageing as development, not a guaranteed upgrade. Some wines become more complex. Some simply become different. Others lose fruit and freshness before gaining enough mature character to replace them.
 
+<!-- VISUAL:VIS-073 -->
+
 ## Bottle ageing is not the same as cellaring
 
 These terms are related but not interchangeable.
