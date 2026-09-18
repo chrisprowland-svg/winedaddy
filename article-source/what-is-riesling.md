@@ -20,6 +20,8 @@ The grape can produce several styles, from bone-dry to off-dry, sweet and desser
 
 The most useful beginner lesson is simple: the word “Riesling” tells you the grape, but not necessarily how sweet the finished wine will be.
 
+<!-- VISUAL:VIS-058 -->
+
 ## What does Riesling taste like?
 
 Young Riesling is often light- to medium-bodied, fresh and aromatic. Common descriptions include:

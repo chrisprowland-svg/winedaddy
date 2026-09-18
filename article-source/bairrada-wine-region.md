@@ -24,7 +24,7 @@ Familiar places in the wine region include Anadia, Mealhada and Oliveira do Bair
 
 That distinction matters. A town can be a useful way to understand the landscape without defining the whole legal wine region.
 
-A map such as **VIS-046 — Portugal wine geography orientation map** can help place Bairrada within Portugal. It should be read as broad geographic orientation, while the DOP’s legal boundary is defined more precisely in the official specification.
+The DOP’s legal boundary is defined more precisely in the official specification than a broad national orientation map can show.
 
 ## DOP Bairrada and IGP Beira Atlântico
 

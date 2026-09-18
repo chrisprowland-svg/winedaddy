@@ -28,7 +28,6 @@ From Porto, Dão is generally south-east and inland; Viseu is roughly a 1½-hour
 
 Dão has seven recognised sub-regions: Alva, Serra da Estrela, Terras de Senhorim, Besteiros, Silgueiros, Castendo and Terras de Azurara. They are internal divisions within the wider Dão designation, not separate regions that replace the name Dão.
 
-[VIS-046: Portugal wine geography orientation map]
 
 ## Why does Dão’s landscape matter?
 

@@ -34,7 +34,6 @@ Italy does not use exactly the same state–zone–region structure familiar fro
 
 **Italy → Umbria → Province of Perugia → Montefalco Sagrantino DOCG**
 
-A map such as **VIS-024**, if it shows Umbria and Montefalco only as broad orientation points, can help place the appellation without implying a precise legal boundary.
 
 ## What does DOCG mean?
 

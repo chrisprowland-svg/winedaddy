@@ -126,5 +126,3 @@ No. Flavour and texture depend on the variety, region, winemaking and maturation
 Treat “reserve” as a **prompt to ask a better question**, not as an automatic quality score.
 
 If the producer defines the term, use that information. Then judge the wine using the rest of the label and your own preferences. A confident wine choice does not come from trusting one impressive-sounding word; it comes from understanding what the whole label is telling you.
-
-*Visual suggestion: Reuse VIS-009 as a generic annotated wine-label callout. Highlight “reserve” alongside producer, variety, region, vintage, alcohol and style fields, with the note: “Meaning varies by producer—check the explanation.”*

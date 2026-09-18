@@ -65,7 +65,7 @@ Have ready:
 - non-alcoholic drinks;
 - labels, paper or reusable covers if tasting blind.
 
-A general-purpose wine glass is enough. Different glass shapes can change how aromas and flavours are experienced, but no particular glass is compulsory. If you are interested in the trade-off between glass shapes, see the registered visual **VIS-012: Wine glass anatomy and shape comparison**.
+A general-purpose wine glass is enough. Different glass shapes can change how aromas and flavours are experienced, but no particular glass is compulsory.
 
 Avoid strong room scents, smoke and heavily perfumed products. Noise, lighting, room temperature, wine temperature and recently eaten food can all influence perception, so aim for reasonably consistent conditions rather than laboratory perfection.
 

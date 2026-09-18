@@ -20,6 +20,8 @@ Sweet and fortified wines vary more by style, but approximate starting ranges ar
 
 These are guides rather than laws. The wine’s sweetness, acidity, tannin, alcohol, age and producer recommendation can all shift the best point within the range. If a wine tastes muted, let it warm in the glass. If it tastes heavy or “hot”, a short chill may help.
 
+<!-- VISUAL:VIS-061 -->
+
 ## Wine serving temperature chart
 
 | Wine style | Useful starting range | Practical cue |

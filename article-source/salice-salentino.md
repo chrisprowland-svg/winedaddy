@@ -32,7 +32,6 @@ The name comes from the municipality of Salice Salentino, but a bottle labelled 
 
 Lecce is the most useful larger centre for orientation. Salice Salentino is roughly 25–35 minutes south-east of Lecce by car, depending on the route and starting point. That is a practical travel guide, not a precise promise.
 
-*Visual orientation: VIS-024 may be reused if its map accurately shows Puglia and the approximate position of Salice Salentino without presenting a simplified shape as the exact DOC boundary.*
 
 ## DOC, DOP and Australian label context
 

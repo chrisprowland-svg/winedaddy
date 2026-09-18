@@ -74,7 +74,6 @@ A spinning-cone column uses rotating cones and vacuum conditions to spread the w
 
 A gentler first stage may capture aroma compounds, followed by a stronger stage aimed at removing ethanol. The recovered aroma fraction can then be returned to the wine. How successful this is depends on the wine and the process settings; it does not guarantee that every original aroma will be preserved.
 
-[VIS-044: Dealcoholised wine production pathway may be reused here, provided it is shown as an optional post-fermentation branch rather than the pathway for every low-alcohol wine.]
 
 ## What changes when alcohol is reduced?
 

@@ -20,6 +20,8 @@ Pinot Noir is strongly associated with cool or temperate climates. In Australia,
 
 The most useful thing to remember is that Pinot Noir is a variety with a broad range of styles—not a single fixed flavour formula. One bottle may be pale, bright and silky; another may be darker, richer and firmer.
 
+<!-- VISUAL:VIS-054 -->
+
 ## What kind of wine is Pinot Noir?
 
 Pinot Noir is a red grape variety. Its name is also commonly used for the still red wine made from it.

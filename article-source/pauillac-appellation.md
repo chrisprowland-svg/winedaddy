@@ -101,7 +101,6 @@ On a Pauillac bottle or restaurant list:
 
 “Pauillac” does not mean “100% Cabernet Sauvignon”. Nor does it guarantee a particular age, price or drinking experience.
 
-A generic annotated wine-label visual such as **VIS-009** can help show these fields, but the example should not be presented as a specific Pauillac bottle.
 
 ## Australian takeaway
 

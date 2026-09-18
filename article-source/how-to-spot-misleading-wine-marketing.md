@@ -32,7 +32,7 @@ For Australian wine, claims about vintage, grape variety and geographical indica
 
 Imported wines may also carry overseas origin, certification or geographical language. Do not assume that a foreign term has exactly the same meaning or legal status in Australia.
 
-A label-reading visual such as **VIS-009, Generic annotated wine-label callout**, can help locate common factual fields. Remember, though, that not every marketing claim appears in a mandatory label field.
+Remember that not every marketing claim appears in a mandatory label field.
 
 ## Common claims that need context
 

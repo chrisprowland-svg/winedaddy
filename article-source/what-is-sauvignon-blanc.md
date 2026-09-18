@@ -21,6 +21,8 @@ Sauvignon Blanc is often light to medium bodied, but it has a broad range of sty
 
 In Australia, Adelaide Hills offers one fresh, aromatic expression, while Margaret River is particularly associated with Sauvignon Blanc–Semillon blends ranging from crisp and herbal to richer and more oak-influenced. Tasmania is another useful cool-climate context. These are broad tendencies, not rules for every bottle.
 
+<!-- VISUAL:VIS-057 -->
+
 ## What Does Sauvignon Blanc Taste Like?
 
 Sauvignon Blanc’s flavour can be easier to understand by separating aroma, acidity, body and sweetness.

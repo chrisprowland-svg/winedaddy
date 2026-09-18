@@ -70,7 +70,6 @@ When you see an Austrian bottle, work through the label in this order:
 
 The precise presentation can vary. Some regional rules require DAC to appear in immediate association with the protected regional name. This is another reason to treat the wording on the bottle as a regulated combination rather than assuming that the letters DAC work independently.
 
-For an annotated explanation of common label fields, see the reusable **VIS-009 Generic annotated wine-label callout**.
 
 ## DAC compared with Australian Geographic Indications
 

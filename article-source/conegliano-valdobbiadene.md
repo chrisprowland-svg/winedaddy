@@ -25,7 +25,7 @@ These towns help you understand the landscape, but a town name and a legal wine 
 
 From Venice, the area is approximately 50 kilometres north-west. As a travel orientation, allow roughly 60–75 minutes by road, depending on your starting point, route and traffic. That is a useful sense of scale rather than a fixed journey time.
 
-The existing [Italy](/italy/) and [Veneto](/veneto/) guides provide broader geographic context. A map such as **VIS-024**, showing Italy, Veneto, Venice, Treviso, Conegliano and Valdobbiadene, would help readers understand the relationship between the national, regional and local scales.
+The existing [Italy](/italy/) and [Veneto](/veneto/) guides provide broader geographic context between the national, regional and local scales.
 
 ## What does Conegliano Valdobbiadene mean on a wine label?
 

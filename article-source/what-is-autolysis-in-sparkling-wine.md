@@ -39,7 +39,7 @@ The broad sequence looks like this:
 6. Riddling gathers the sediment in the neck of the bottle.
 7. Disgorgement removes the sediment.
 
-The process diagram used for traditional-method sparkling wine, **VIS-033**, can help show this broader sequence. It should not be read as a diagram of autolysis itself: the cell-level breakdown happens during the lees-ageing stage and is not something a standard production flowchart can show in detail.
+The cell-level breakdown happens during the lees-ageing stage and is not something a standard production flowchart can show in detail.
 
 “Traditional method” is the useful general term for sparkling wine that undergoes its second fermentation in the bottle in which it is ultimately sold. Regional names and legal descriptions can differ, so Champagne’s rules should not automatically be applied to every traditional-method wine.
 

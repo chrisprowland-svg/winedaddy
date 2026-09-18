@@ -29,7 +29,7 @@ Montalcino is a hill town roughly 40 kilometres south of Siena, the nearest usef
 
 Localities such as Castelnuovo dell’Abate, Sant’Angelo and Torrenieri help describe the wider municipal area. They are not, by themselves, separate Rosso di Montalcino subzones.
 
-A broad map of Italy and Tuscany can make this relationship easier to picture. VIS-024 is suitable for that general orientation, provided it does not suggest a detailed legal boundary.
+A broad map of Italy and Tuscany can make this relationship easier to picture, provided it does not suggest a detailed legal boundary.
 
 ## What does DOC mean?
 
@@ -79,7 +79,7 @@ On an imported bottle or restaurant list:
 
 A label saying “Rosso” elsewhere in Italy does not automatically mean Rosso di Montalcino. Look for the complete name.
 
-A generic annotated label visual such as VIS-009 can help show these fields, while making clear that Italian labels do not all use the same layout.
+Italian labels do not all use the same layout.
 
 ## Serving and food pairing
 

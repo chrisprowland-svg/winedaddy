@@ -130,7 +130,6 @@ Citrus, berries, herbs, flowers, spice, toast and earth are useful reference poi
 
 An aroma comparison is also not proof of a grape variety, region or winemaking method. A wine that reminds you of blackberries is not necessarily made from a particular grape. Tasting language records perception; it does not guarantee identification.
 
-The registered visual **VIS-023 — Aroma origin framework** may support this limited explanation of where aroma descriptions come from. **VIS-002 — Dry does not mean flavourless** may support the distinction between dryness, fruitiness and flavour intensity. Both should remain subject to Visual Learning confirmation.
 
 ## Describing wine in everyday Australian settings
 

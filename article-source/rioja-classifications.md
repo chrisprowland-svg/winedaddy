@@ -82,7 +82,7 @@ When you pick up an imported Rioja in an Australian bottle shop, read it in this
 6. **Check the grape information, if supplied.** Tempranillo may appear, but it is not the same as the Rioja designation.
 7. **Keep expectations flexible.** The label gives you useful clues, not a complete prediction of taste.
 
-The existing [how to read a wine label](/how-to-read-a-wine-label/) guide can help with the rest of the bottle. This page can also be supported by the registered **VIS-009 — Generic annotated wine-label callout**, showing the difference between designation, vintage, ageing term, place and grape variety.
+The existing [how to read a wine label](/how-to-read-a-wine-label/) guide can help distinguish designation, vintage, ageing term, place and grape variety.
 
 ## Common questions
 

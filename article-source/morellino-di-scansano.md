@@ -30,7 +30,7 @@ Scansano is the defining town. The formal production area includes the entire mu
 
 Grosseto is the nearest useful regional centre. From Rome, Scansano is approximately 165 kilometres by road and around 2 hours 17 minutes in normal conditions. Treat that as orientation rather than a fixed travel promise: routes, traffic and starting points vary.
 
-On a map, the legal area is the hilly belt between the Ombrone and Albegna rivers. The specification also excludes valley-floor sites from suitable vineyard land. A broad orientation map such as **VIS-024** can help, provided it does not shade the entire Maremma or every named municipality as part of the DOCG.
+On a map, the legal area is the hilly belt between the Ombrone and Albegna rivers. The specification also excludes valley-floor sites from suitable vineyard land.
 
 ## What grapes are used?
 
@@ -84,7 +84,6 @@ A useful label-reading shortcut is:
 - **Superiore or Riserva:** regulated category terms
 - **Toscana:** the broader Tuscan regional reference
 
-A generic annotated label visual such as **VIS-009** could reinforce this distinction.
 
 ## How is it different from other Tuscan wines?
 
