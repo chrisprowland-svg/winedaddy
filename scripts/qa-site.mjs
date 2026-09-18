@@ -437,6 +437,7 @@ for (const article of manifest.articles) {
   check(html, /<section class="highlights"><h2>Highlights<\/h2>/i, article.slug, 'Highlights component missing');
   const highlightsStart = html.indexOf('<section class="highlights">'); const highlightsHeadingEnd = html.indexOf('</h2>', highlightsStart) + 5; const highlightsEnd = html.indexOf('</section>', highlightsHeadingEnd); const nextH2 = html.indexOf('<h2', highlightsHeadingEnd); if (nextH2 !== -1 && nextH2 < highlightsEnd) errors.push(`${article.slug}: Highlights panel swallows a later section`);
   if ((html.match(/<h1(?:\s|>)/gi) || []).length !== 1) errors.push(`${article.slug}: expected one H1`);
+  if (/<article class="article article-wide">[\s\S]*?<h2>title:\s*&quot;/i.test(html)) errors.push(`${article.slug}: source front matter leaked`);
   if (/INTERNAL EDITORIAL APPENDIX|NOT FOR PUBLICATION|BEGIN READER ARTICLE|END READER ARTICLE|IMPLEMENTATION NOTE|\[Visual:\s*VIS-/i.test(html)) errors.push(`${article.slug}: internal content leaked`);
   for (const match of html.matchAll(/href="(\/[^"#?]+)[^"]*"/g)) if (!routeExists(match[1])) errors.push(`${article.slug}: broken internal link ${match[1]}`);
 }
