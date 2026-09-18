@@ -28,7 +28,6 @@ From Porto, the Douro lies generally east and inland. Driving from Porto to Peso
 
 On a bottle, you may see wording such as **Porto**, **Port**, **Vinho do Porto**, **Porto Vintage** or **Vintage Port**, along with a harvest year. “Douro” and “Porto” are not interchangeable: the protected Porto designation applies to Port, while Douro is also used for still wines made under the Douro designation. For a broader introduction, see [what is Port](/port/) and [Portugal](/portugal/).
 
-A Portugal wine-geography map such as **VIS-046** can help place the Douro within the country, provided its regional scope is confirmed by Visual Learning.
 
 ## How is Vintage Port made?
 

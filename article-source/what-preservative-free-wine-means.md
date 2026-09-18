@@ -70,7 +70,6 @@ Retailer descriptions may shorten or repeat producer wording. If the distinction
 - Does “preservative-free” refer to testing of the finished wine?
 - Are there storage or consumption instructions?
 
-A generic label visual such as **VIS-009** may help readers compare these kinds of statements, provided it is checked for current Australian wording.
 
 ## Is preservative-free the same as organic, biodynamic or natural?
 

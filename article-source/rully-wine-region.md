@@ -90,7 +90,7 @@ You should not assume:
 
 This differs from the way many Australian wines foreground grape variety on the label. French appellation labels may place more emphasis on the protected place name. The systems are not identical, so the most useful approach is to treat “Rully” as a geographic and regulatory clue rather than a complete tasting description.
 
-The existing [annotated wine-label visual, VIS-009](/how-to-read-a-wine-label/) may help readers understand how place names and other label fields work. French labels do not all display identical information, however.
+The existing [wine-label guide](/how-to-read-a-wine-label/) may help readers understand how place names and other label fields work. French labels do not all display identical information, however.
 
 ## Why can two Rully wines taste different?
 

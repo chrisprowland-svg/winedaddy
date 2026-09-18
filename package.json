@@ -7,6 +7,7 @@
     "content:migrate": "node scripts/migrate-content-manifest.mjs",
     "content:import": "node scripts/import-wdos-batch.mjs",
     "knowledge:audit": "node scripts/audit-knowledge-network.mjs --write",
+    "visual:audit": "node scripts/audit-visual-coverage.mjs",
     "knowledge:build": "node scripts/build-knowledge-graph.mjs",
     "authority:audit": "npm run build && node scripts/audit-authority.mjs",
     "build": "node scripts/build-knowledge-graph.mjs && node scripts/build-site.mjs",

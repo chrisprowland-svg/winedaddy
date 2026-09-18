@@ -21,6 +21,8 @@ Most still Chardonnay is made as a dry wine, meaning it contains little residual
 
 Climate is one important reason Chardonnay varies. Cooler conditions generally help preserve acidity and support fresher flavours, while warmer conditions generally encourage riper fruit and more body. Vineyard site, harvest timing and winemaking choices matter too. This is why the word “Chardonnay” on a label does not tell you one complete flavour story.
 
+<!-- VISUAL:VIS-055 -->
+
 # Learn More
 
 ## What does Chardonnay taste like?

@@ -78,7 +78,6 @@ A useful reading sequence is:
 3. **Estate or château name** — the named winegrowing identity.
 4. **Vintage** — the harvest year.
 
-An annotated generic label visual such as **VIS-009** can help show these fields without using a real producer label.
 
 Classification can provide useful context, but it does not tell you whether a particular bottle will suit your taste. It does not, by itself, guarantee that a wine is better value, ready to drink, capable of ageing longer or superior to every unclassified wine. Vintage, storage, provenance, producer decisions and personal preference still matter.
 

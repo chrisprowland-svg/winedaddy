@@ -126,5 +126,3 @@ A useful starting expectation is ripe fruit, body and rounded texture, particula
 - [What are tannins?](/what-are-tannins/)
 - [What does oak do to wine?](/what-does-oak-do-to-wine/)
 - [What is Port?](/port/)
-
-Visual reuse: `VIS-046 — Portugal wine geography orientation map` can support the national location section, provided its Alentejo callout and boundaries are checked against the official evidence.

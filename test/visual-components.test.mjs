@@ -18,7 +18,7 @@ test('rejects an unregistered visual reference', () => {
 test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-002'), true);
   assert.equal(hasVisualComponent('VIS-009'), true);
-  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-024','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-031','VIS-032','VIS-033','VIS-034','VIS-035','VIS-036','VIS-037','VIS-038','VIS-039','VIS-040','VIS-041','VIS-042','VIS-043','VIS-044','VIS-045','VIS-046','VIS-047','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053']) assert.equal(hasVisualComponent(id), true);
+  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-024','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-031','VIS-032','VIS-033','VIS-034','VIS-035','VIS-036','VIS-037','VIS-038','VIS-039','VIS-040','VIS-041','VIS-042','VIS-043','VIS-044','VIS-045','VIS-046','VIS-047','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053','VIS-054','VIS-055','VIS-056','VIS-057','VIS-058','VIS-059','VIS-060','VIS-061','VIS-062','VIS-063']) assert.equal(hasVisualComponent(id), true);
   assert.equal(hasVisualComponent('VIS-999'), false);
 });
 
@@ -26,9 +26,19 @@ test('keeps the reconciled visual rollout complete and production notes private'
   const sourceDir=path.resolve(new URL('../article-source',import.meta.url).pathname);
   const sources=fs.readdirSync(sourceDir).filter(file=>file.endsWith('.md')).map(file=>fs.readFileSync(path.join(sourceDir,file),'utf8'));
   const markers=sources.flatMap(source=>[...source.matchAll(/<!--\s*VISUAL:(VIS-\d{3})\s*-->/g)]);
-  assert.equal(markers.length,229);
-  assert.equal(new Set(markers.map(match=>match[1])).size,53);
+  assert.equal(markers.length,239);
+  assert.equal(new Set(markers.map(match=>match[1])).size,63);
   for(const source of sources) assert.doesNotMatch(source.replace(/<!--\s*VISUAL:VIS-\d{3}\s*-->/g,''),/VIS-\d{3}/);
+});
+
+test('renders the post-1000 visual batch as accessible semantic HTML', () => {
+  for (const id of ['VIS-054','VIS-055','VIS-056','VIS-057','VIS-058','VIS-059','VIS-060','VIS-061','VIS-062','VIS-063']) {
+    const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
+    assert.match(html, new RegExp(`id="${id.toLowerCase()}"`));
+    assert.match(html, /aria-labelledby=/);
+    assert.match(html, /<figcaption>/);
+    assert.doesNotMatch(html, /<img\b/);
+  }
 });
 
 test('renders all nine international maps from sourced country stencils', () => {

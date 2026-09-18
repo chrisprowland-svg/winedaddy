@@ -20,6 +20,8 @@ Australian Shiraz is especially diverse. Warm regions such as Barossa Valley and
 
 The most useful thing to remember is that “Shiraz” on a label identifies the grape and the Australian naming convention. It does not promise a sweet, heavy, high-alcohol or heavily oaked wine.
 
+<!-- VISUAL:VIS-056 -->
+
 ## Shiraz and Syrah: are they the same grape?
 
 Yes. Shiraz and Syrah are names for the same grape variety.

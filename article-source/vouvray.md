@@ -96,7 +96,7 @@ An Australian Chenin Blanc is not automatically Vouvray, and a Vouvray is not si
 
 A Vouvray label can suggest French origin, Chenin Blanc, and the possibility of still, sparkling, dry or sweet wine. It cannot, on its own, tell you the exact sweetness, whether botrytis was used, how old the wine is, or how long it may cellar.
 
-An annotated label visual such as **VIS-009** can reinforce this distinction: place, grape, producer, vintage and style information are separate clues.
+Place, grape, producer, vintage and style information are separate clues.
 
 ## Frequently asked questions
 

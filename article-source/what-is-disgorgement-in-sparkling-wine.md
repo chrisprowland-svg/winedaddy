@@ -27,7 +27,6 @@ Disgorgement may be performed manually or mechanically. In one widely used appro
 
 Freezing the neck can make the process easier, but it is a technique used to facilitate disgorgement—not the meaning of the word itself. Exact equipment and handling vary with the producer, scale and product.
 
-The existing visual, **VIS-033: “How traditional-method sparkling wine is made”**, can help show where disgorgement sits between riddling and dosage.
 
 ## Disgorgement compared with similar terms
 

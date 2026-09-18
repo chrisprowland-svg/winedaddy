@@ -107,7 +107,7 @@ You do not need an imported wine to follow this framework. Australian bottle sho
 
 Check the label for clues about **sweetness, alcohol, body and oak**, rather than relying on the grape name alone. The same variety can be made in different styles, and availability varies between bottle shops, restaurants, by-the-glass lists and vintages.
 
-One useful distinction is **dry versus fruity**. Dry refers to little or no noticeable residual sugar. Fruity describes aroma and flavour impressions. A dry Riesling, rosé or sparkling wine can still smell and taste full of fruit. This is the idea shown in **VIS-002 — “Dry does not mean flavourless.”**
+One useful distinction is **dry versus fruity**. Dry refers to little or no noticeable residual sugar. Fruity describes aroma and flavour impressions. A dry Riesling, rosé or sparkling wine can still smell and taste full of fruit.
 
 Serve the wine cool enough to feel refreshing, but remember that excessive chilling can suppress aroma. Most importantly, taste the pairing for yourself. If the wine seems hotter, more bitter or more drying after a mouthful of food, choose a style with less alcohol or tannin, more freshness or a touch more sweetness.
 

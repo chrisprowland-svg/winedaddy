@@ -60,7 +60,7 @@ Commonly reported descriptor families include:
 - spice;
 - earthy, leathery or savoury notes, particularly in some mature wines.
 
-These descriptions help you explore the wine, but they are not guarantees. A wine’s aromas can come from the grape itself, fermentation, maturation and bottle development. A reusable aroma-origin guide such as VIS-023 could help explain this distinction where available.
+These descriptions help you explore the wine, but they are not guarantees. A wine’s aromas can come from the grape itself, fermentation, maturation and bottle development.
 
 Also remember that a dry wine can still taste fruity. “Dry” mainly describes the wine’s residual sugar, not whether it smells or tastes of cherries or berries.
 

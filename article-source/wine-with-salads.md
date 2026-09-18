@@ -66,7 +66,7 @@ Do not confuse body with sweetness. A full-bodied wine is not necessarily sweet,
 
 Mango, pear, apple, dried fruit, honey or a sweet dressing can change the balance. Sweet food often makes a dry wine taste drier and less fruity. That is where an aromatic or off-dry white can be a useful alternative.
 
-“Dry” describes the wine’s lack of perceptible sweetness. It does not mean flavourless or free from fruit character. The [VIS-002 “Dry does not mean flavourless”] visual is suitable for this distinction.
+“Dry” describes the wine’s lack of perceptible sweetness. It does not mean flavourless or free from fruit character.
 
 ### Chilli and spice
 

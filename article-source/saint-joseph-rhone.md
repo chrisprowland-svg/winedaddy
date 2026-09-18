@@ -30,7 +30,6 @@ Tournon-sur-Rhône is the most useful regional centre for understanding the area
 
 From Lyon, the Tournon-sur-Rhône area is roughly 1¼ to 1¾ hours south by road. Treat that only as a broad orientation estimate: the journey varies with the route, traffic and starting point.
 
-A helpful visual shortcut is the registered **VIS-040 Northern Rhône orientation map**, provided it clearly marks Saint-Joseph and distinguishes it from neighbouring appellations.
 
 ## Why the landscape matters
 

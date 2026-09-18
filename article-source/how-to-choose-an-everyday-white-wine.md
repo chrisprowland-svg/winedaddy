@@ -98,7 +98,7 @@ Look for:
 
 Some information is required in relevant circumstances, while variety, vintage and geographical claims are conditional or optional. Australian controls also apply to claims about variety, vintage and geographical indication. A label that does not state a region, vintage or variety is not automatically evidence of poor quality.
 
-If you are using a label guide or visual, VIS-009 can help identify these fields. Remember that bottles do not all use the same layout, and not every label will show every optional detail.
+Remember that bottles do not all use the same layout, and not every label will show every optional detail.
 
 ## Serve it chilled, but not frozen
 

@@ -31,7 +31,6 @@ The word **parts** matters. The appellation does not automatically cover every v
 
 Ancona, the capital of Marche, is a useful major-city reference. Matelica is roughly 1.5–2 hours by car from Ancona, depending on the route and starting point. Treat that only as broad orientation, not a fixed travel time.
 
-The existing Italy orientation map, **VIS-024**, can help show Marche, Matelica and the inland position, provided it does not suggest that the whole of Marche or Macerata Province forms the appellation.
 
 ## What does the name mean?
 

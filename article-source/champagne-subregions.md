@@ -19,7 +19,6 @@ These areas are geographically distinct parts of the Champagne vineyard. They di
 
 Champagne lies in north-eastern France, roughly 150 kilometres east to north-east of Paris. Reims is the key orientation point for the northern part of the region, Épernay is useful for the central vineyard and Côte des Blancs, and Troyes helps orient the southern Côte des Bar. On a bottle, **Champagne** is the protected regional wine name. A town, village, cru, producer or cuvée name is a different kind of information.
 
-![VIS-047: Champagne geographic orientation map]
 
 ## Where are Champagne’s broad wine-growing areas?
 

@@ -63,7 +63,6 @@ Where they appear, these optional details can also help:
 
 Treat every clue as a piece of evidence rather than a promise. Australian rosé comes from multiple varieties and regions, and individual producer choices and vintage conditions can create substantial variation.
 
-*[Visual opportunity: VIS-009, Generic annotated wine-label callout, if confirmed suitable for this page.]*
 
 ## Choose a broad style route
 
