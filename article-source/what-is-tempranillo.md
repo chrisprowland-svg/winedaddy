@@ -26,7 +26,7 @@ The style can change considerably. A fresher example may be medium-bodied, brigh
 
 Tempranillo is also grown and made in Australia. Australian examples may show the same broad grape identity while reflecting their region, climate, vintage and winemaking choices.
 
-<!-- VISUAL:VIS-068 -->
+<!-- VISUAL:VIS-073 -->
 
 ## What does Tempranillo taste like?
 

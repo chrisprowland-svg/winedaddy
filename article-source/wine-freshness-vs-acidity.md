@@ -20,6 +20,8 @@ Think of acidity as one instrument in an orchestra. It may be an important part 
 
 This is why a wine can taste acidic without seeming fresh. It may be sharply tart but lack bright fruit, feel overly warm from alcohol, or seem flat because of oxidation. Conversely, a wine can seem fresh without tasting sharply acidic if its fruit is vivid, its aromas are lifted and its palate feels light and clean.
 
+<!-- VISUAL:VIS-089 -->
+
 ## Acidity: a component you can taste
 
 Wine acidity comes from organic acids, including tartaric and malic acids. In the glass, acidity is commonly experienced as:

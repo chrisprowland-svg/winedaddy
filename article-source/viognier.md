@@ -18,6 +18,8 @@ The grape is strongly associated with the northern Rhône in France, especially 
 
 For an Australian wine drinker, the simplest way to understand Viognier is as a fragrant white wine that can combine generous fruit, floral aromas and a rounded texture. It is commonly dry, but its ripe aromas can make it seem sweeter than it is.
 
+<!-- VISUAL:VIS-086 -->
+
 ## What does Viognier taste like?
 
 Viognier is often described as smelling and tasting of:

@@ -17,6 +17,8 @@ A typical Malbec may suggest ripe plum, blackberry, black cherry, violet and spi
 
 The most important thing to remember is that “Malbec” names the grape, not one universal style. Climate, elevation, site, ripeness, extraction, oak and blending all influence how the wine tastes.
 
+<!-- VISUAL:VIS-082 -->
+
 ## What does Malbec taste like?
 
 Malbec commonly produces a dark, richly coloured red wine. On the nose and palate, you may find:

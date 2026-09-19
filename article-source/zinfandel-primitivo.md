@@ -24,6 +24,8 @@ For an Australian wine learner, the simplest way to remember it is:
 
 ## What does Zinfandel or Primitivo taste like?
 
+<!-- VISUAL:VIS-088 -->
+
 A typical dry red example may be:
 
 - medium- to full-bodied;

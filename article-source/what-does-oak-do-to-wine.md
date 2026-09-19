@@ -22,6 +22,8 @@ So oak is not simply a flavouring. It is both a material that can contribute fla
 
 The result depends on the type of oak, whether it is new or used, the toast level, barrel size, time in contact with the wine and the wine itself. Fruit ripeness, acidity, alcohol, grape tannin, lees contact and bottle age also shape how oak is perceived.
 
+<!-- VISUAL:VIS-091 -->
+
 ## Oak flavour is only part of the story
 
 When people say a wine is “oaky”, they may be describing obvious aromas of vanilla, toast or smoke. Those impressions can come from compounds released by the wood, particularly after the inside of a barrel has been heated or **toasted** during manufacture.

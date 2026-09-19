@@ -20,6 +20,8 @@ Many Gamay wines feel relatively light to medium-bodied and supple, making them 
 
 The key distinction is simple: **Gamay is a grape, Beaujolais is a place and appellation, and carbonic maceration is a winemaking method.** They are closely connected, but they are not interchangeable terms.
 
+<!-- VISUAL:VIS-087 -->
+
 ## Where is Gamay grown?
 
 ### Beaujolais: Gamay’s best-known home

@@ -20,6 +20,8 @@ Tannin is not simply a flavour. It is mainly experienced as a mouthfeel or textu
 
 Red wines usually contain more noticeable tannin because their juice commonly ferments with grape skins, seeds and sometimes stems. White and rosé wines generally have less extracted grape tannin, but they are not automatically tannin-free.
 
+<!-- VISUAL:VIS-090 -->
+
 ## Where does tannin come from?
 
 ### Grape skins
