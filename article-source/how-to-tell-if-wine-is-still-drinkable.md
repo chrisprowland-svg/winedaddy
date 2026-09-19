@@ -18,6 +18,8 @@ If the bottle appears intact, pour a small amount and inspect the wine. Check it
 
 This process helps you judge **quality and enjoyment**. It cannot guarantee that a wine is safe in every circumstance. “Drinkable”, “sound”, “past its best”, “faulty” and “safe” are different ideas.
 
+<!-- VISUAL:VIS-071 -->
+
 ## A simple inspection-to-tasting sequence
 
 ### 1. Check the bottle and closure

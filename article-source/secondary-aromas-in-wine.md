@@ -20,6 +20,8 @@ Yeast can create new aroma compounds during alcoholic fermentation. Malolactic f
 
 These are useful associations, not diagnostic tests. A buttery smell does not prove that malolactic fermentation occurred, and a biscuit note does not prove that a wine spent time on lees. Several processes can contribute to the same aroma, while grape-derived compounds can also be changed during fermentation.
 
+<!-- VISUAL:VIS-023 -->
+
 ## The three aroma categories
 
 The three-part model is a practical way to organise what you smell in wine:

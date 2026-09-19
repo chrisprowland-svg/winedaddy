@@ -21,6 +21,8 @@ That is the basic distinction, but it is not the whole story. Grape variety, cli
 
 A practical way to choose is to ask what you prefer: freshness, fruit character, body or a drying texture.
 
+<!-- VISUAL:VIS-075 -->
+
 ## How the winemaking differs
 
 After grapes are harvested, the winemaker decides how much contact the juice should have with skins, seeds and sometimes stems. This is explained in more detail in [How wine is made](/how-wine-is-made/).

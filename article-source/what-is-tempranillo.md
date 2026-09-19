@@ -26,6 +26,8 @@ The style can change considerably. A fresher example may be medium-bodied, brigh
 
 Tempranillo is also grown and made in Australia. Australian examples may show the same broad grape identity while reflecting their region, climate, vintage and winemaking choices.
 
+<!-- VISUAL:VIS-068 -->
+
 ## What does Tempranillo taste like?
 
 A useful starting point is **cherry, plum and other red or dark fruit**, supported by acidity and tannin. Depending on the wine, you might also notice blackberry, strawberry, spice or savoury flavours.

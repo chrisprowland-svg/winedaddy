@@ -19,6 +19,8 @@ This means sparkling wine is a broad category, not one single style. It may be w
 
 Champagne is one particular type of sparkling wine: it comes from France’s Champagne region and must meet the region’s rules. Sparkling wine made elsewhere should not be called Champagne.
 
+<!-- VISUAL:VIS-069 -->
+
 ## What makes wine sparkling?
 
 The bubbles come from dissolved carbon dioxide. When the bottle is opened, pressure falls. The gas then leaves the wine, forming bubbles that rise through the glass.

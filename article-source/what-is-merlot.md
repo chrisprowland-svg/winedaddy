@@ -25,6 +25,8 @@ Most Merlot is dry. Its ripe fruit flavours can make it seem rich or sweet-fruit
 
 In the glass, Merlot is often medium to full bodied, with moderate acidity and tannins that feel softer or rounder than those in many Cabernet Sauvignon wines. That is a broad tendency rather than a rule. Some Merlots are lighter, fresher or more structured.
 
+<!-- VISUAL:VIS-064 -->
+
 ## What does Merlot taste like?
 
 Merlot often tastes of ripe red and dark fruit. Plum is a common description, but you might also notice blackberry, black cherry or other berry flavours.
