@@ -21,7 +21,7 @@ Keep bottles away from direct sunlight, kitchens, laundries, heating equipment a
 
 You do not need a traditional underground cellar. A stable interior cupboard may work for a small collection. If your home becomes hot in summer, a wine fridge can provide more reliable conditions. But remember: storage preserves a wine; it does not make every wine suitable for ageing or guarantee that it will improve.
 
-<!-- VISUAL:VIS-063 -->
+<!-- VISUAL:VIS-068 -->
 
 ## What does “cellaring wine” mean?
 

@@ -54,6 +54,8 @@ Second, dosage helps the winemaker achieve the intended sensory style. Sugar can
 
 That is why dosage should not be treated as a simple quality scale. Less dosage can suit a wine with plenty of freshness and structure, while a wine with different proportions may be more harmonious with a little more sugar. The best level is the one that works with the wine—not automatically the lowest possible level.
 
+<!-- VISUAL:VIS-093 -->
+
 ## Dosage and sparkling-wine sweetness terms
 
 The sugar categories below are **Champagne classifications**, not a universal Australian legal table:

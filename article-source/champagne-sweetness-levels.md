@@ -28,6 +28,8 @@ The most useful correction is that **Extra Dry is sweeter than Brut**. The terms
 
 These categories indicate sugar content, but they do not tell the whole taste story. A Champagne’s acidity, effervescence, fruit character, alcohol, serving temperature and overall balance can influence whether it seems fresh, rounded or sweet.
 
+<!-- VISUAL:VIS-093 -->
+
 ## The Champagne sweetness scale
 
 | Category | Sugar level | What the label tells you |

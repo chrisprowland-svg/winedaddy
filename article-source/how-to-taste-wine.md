@@ -16,7 +16,7 @@ To taste wine, begin with a clean glass, a reasonably neutral-smelling setting a
 
 That is wine tasting. It is not an exam, and you are not expected to recognise every fruit, spice or flower in the glass. The aim is to pay attention and describe your experience clearly.
 
-<!-- VISUAL:VIS-059 -->
+<!-- VISUAL:VIS-064 -->
 
 ## Prepare before tasting
 

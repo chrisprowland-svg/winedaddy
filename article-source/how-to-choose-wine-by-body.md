@@ -26,6 +26,8 @@ When choosing a wine, first decide which general feeling you prefer:
 
 These words are clues, not guarantees. The same grape variety can produce wines with different body depending on its region, vintage, ripeness, alcohol, oak and winemaking.
 
+<!-- VISUAL:VIS-095 -->
+
 ## Light-, medium- and full-bodied wine
 
 ### Light-bodied

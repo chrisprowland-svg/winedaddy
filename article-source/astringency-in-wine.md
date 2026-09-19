@@ -21,6 +21,8 @@ That does not mean tannin and astringency are interchangeable. **Tannin is a gro
 
 Astringency is often associated with structured red wines, so Australian learners may encounter words such as *tannic*, *grippy*, *drying* and *structured* when reading about Shiraz or Cabernet Sauvignon. But no grape variety guarantees a particular level of astringency, and Australian wine is not uniformly tannic or drying.
 
+<!-- VISUAL:VIS-090 -->
+
 ## Astringency, tannin, acidity and bitterness
 
 These terms can overlap in the same wine, but they describe different things.
