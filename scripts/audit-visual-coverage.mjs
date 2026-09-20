@@ -16,16 +16,34 @@ for (const file of files) {
 }
 
 const firstBatch = [
-  ['VIS-054','Pinot Noir at a glance','what-is-pinot-noir'],
-  ['VIS-055','Chardonnay at a glance','what-is-chardonnay'],
-  ['VIS-056','Shiraz at a glance','what-is-shiraz'],
-  ['VIS-057','Sauvignon Blanc at a glance','what-is-sauvignon-blanc'],
-  ['VIS-058','Riesling at a glance','what-is-riesling'],
-  ['VIS-059','A simple wine-tasting sequence','how-to-taste-wine'],
-  ['VIS-060','The building blocks of wine structure','wine-structure'],
-  ['VIS-061','Wine serving temperatures','wine-serving-temperature-explained'],
-  ['VIS-062','Decanting decision','when-to-decant-wine'],
-  ['VIS-063','Protecting wine in storage','how-to-cellar-wine'],
+  ['VIS-059','Pinot Noir at a glance','what-is-pinot-noir'],
+  ['VIS-060','Chardonnay at a glance','what-is-chardonnay'],
+  ['VIS-061','Shiraz at a glance','what-is-shiraz'],
+  ['VIS-062','Sauvignon Blanc at a glance','what-is-sauvignon-blanc'],
+  ['VIS-063','Riesling at a glance','what-is-riesling'],
+  ['VIS-064','A simple wine-tasting sequence','how-to-taste-wine'],
+  ['VIS-065','The building blocks of wine structure','wine-structure'],
+  ['VIS-066','Wine serving temperatures','wine-serving-temperature-explained'],
+  ['VIS-067','Decanting decision','when-to-decant-wine'],
+  ['VIS-068','Protecting wine in storage','how-to-cellar-wine'],
+].map(([visual_id,name,canary]) => ({visual_id,name,canary}));
+
+const finalBatch = [
+  ['VIS-081','Cabernet Franc at a glance','cabernet-franc'],
+  ['VIS-082','Malbec at a glance','malbec'],
+  ['VIS-083','Pinot Gris and Pinot Grigio at a glance','what-is-pinot-gris-pinot-grigio'],
+  ['VIS-084','Chenin Blanc at a glance','chenin-blanc'],
+  ['VIS-085','Muscat and Moscato at a glance','moscato-muscat'],
+  ['VIS-086','Viognier at a glance','viognier'],
+  ['VIS-087','Gamay at a glance','gamay'],
+  ['VIS-088','Zinfandel and Primitivo at a glance','zinfandel-primitivo'],
+  ['VIS-089','How acidity feels in wine','what-is-acidity-in-wine'],
+  ['VIS-090','How tannin feels in wine','what-are-tannins'],
+  ['VIS-091','Four choices that shape oak influence','what-does-oak-do-to-wine'],
+  ['VIS-092','Three common paths to rosé','what-is-rose'],
+  ['VIS-093','Champagne sweetness terms','champagne-sweetness-levels'],
+  ['VIS-094','ABV, serving size and standard drinks','alcohol-in-wine'],
+  ['VIS-095','Light, medium and full body','what-is-wine-body'],
 ].map(([visual_id,name,canary]) => ({visual_id,name,canary}));
 
 const report = {
@@ -44,6 +62,7 @@ const report = {
     publication: 'protected preview; explicit human approval required for PROD',
   },
   first_batch: firstBatch,
+  final_batch: finalBatch,
   asset_usage: Object.fromEntries([...assets].sort(([a],[b]) => a.localeCompare(b))),
 };
 

@@ -18,7 +18,7 @@ test('rejects an unregistered visual reference', () => {
 test('reports registered visual components', () => {
   assert.equal(hasVisualComponent('VIS-002'), true);
   assert.equal(hasVisualComponent('VIS-009'), true);
-  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-024','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-031','VIS-032','VIS-033','VIS-034','VIS-035','VIS-036','VIS-037','VIS-038','VIS-039','VIS-040','VIS-041','VIS-042','VIS-043','VIS-044','VIS-045','VIS-046','VIS-047','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053','VIS-054','VIS-055','VIS-056','VIS-057','VIS-058','VIS-059','VIS-060','VIS-061','VIS-062','VIS-063','VIS-064','VIS-065','VIS-066','VIS-067','VIS-068','VIS-069','VIS-070','VIS-071','VIS-072','VIS-073','VIS-074','VIS-075']) assert.equal(hasVisualComponent(id), true);
+  for (const id of ['VIS-001','VIS-003','VIS-004','VIS-005','VIS-006','VIS-007','VIS-008','VIS-010','VIS-011','VIS-012','VIS-013','VIS-014','VIS-015','VIS-016','VIS-017','VIS-018','VIS-019','VIS-020','VIS-021','VIS-022','VIS-023','VIS-024','VIS-025','VIS-026','VIS-027','VIS-028','VIS-029','VIS-030','VIS-031','VIS-032','VIS-033','VIS-034','VIS-035','VIS-036','VIS-037','VIS-038','VIS-039','VIS-040','VIS-041','VIS-042','VIS-043','VIS-044','VIS-045','VIS-046','VIS-047','VIS-048','VIS-049','VIS-050','VIS-051','VIS-052','VIS-053','VIS-059','VIS-060','VIS-061','VIS-062','VIS-063','VIS-064','VIS-065','VIS-066','VIS-067','VIS-068','VIS-069','VIS-070','VIS-071','VIS-072','VIS-073','VIS-074','VIS-075','VIS-076','VIS-077','VIS-078','VIS-079','VIS-080','VIS-081','VIS-082','VIS-083','VIS-084','VIS-085','VIS-086','VIS-087','VIS-088','VIS-089','VIS-090','VIS-091','VIS-092','VIS-093','VIS-094','VIS-095']) assert.equal(hasVisualComponent(id), true);
   assert.equal(hasVisualComponent('VIS-999'), false);
 });
 
@@ -26,13 +26,23 @@ test('keeps the reconciled visual rollout complete and production notes private'
   const sourceDir=path.resolve(new URL('../article-source',import.meta.url).pathname);
   const sources=fs.readdirSync(sourceDir).filter(file=>file.endsWith('.md')).map(file=>fs.readFileSync(path.join(sourceDir,file),'utf8'));
   const markers=sources.flatMap(source=>[...source.matchAll(/<!--\s*VISUAL:(VIS-\d{3})\s*-->/g)]);
-  assert.equal(markers.length,255);
-  assert.equal(new Set(markers.map(match=>match[1])).size,75);
+  assert.equal(markers.length,277);
+  assert.equal(new Set(markers.map(match=>match[1])).size,90);
   for(const source of sources) assert.doesNotMatch(source.replace(/<!--\s*VISUAL:VIS-\d{3}\s*-->/g,''),/VIS-\d{3}/);
 });
 
+test('renders the final visual batch as accessible semantic HTML', () => {
+  for (const id of ['VIS-081','VIS-082','VIS-083','VIS-084','VIS-085','VIS-086','VIS-087','VIS-088','VIS-089','VIS-090','VIS-091','VIS-092','VIS-093','VIS-094','VIS-095']) {
+    const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
+    assert.match(html, new RegExp(`id="${id.toLowerCase()}"`));
+    assert.match(html, /aria-labelledby=/);
+    assert.match(html, /<figcaption>/);
+    assert.doesNotMatch(html, /<img\b/);
+  }
+});
+
 test('renders the post-1000 visual batch as accessible semantic HTML', () => {
-  for (const id of ['VIS-054','VIS-055','VIS-056','VIS-057','VIS-058','VIS-059','VIS-060','VIS-061','VIS-062','VIS-063']) {
+  for (const id of ['VIS-059','VIS-060','VIS-061','VIS-062','VIS-063','VIS-064','VIS-065','VIS-066','VIS-067','VIS-068']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, new RegExp(`id="${id.toLowerCase()}"`));
     assert.match(html, /aria-labelledby=/);
@@ -42,7 +52,7 @@ test('renders the post-1000 visual batch as accessible semantic HTML', () => {
 });
 
 test('renders the second post-1000 visual batch as accessible semantic HTML', () => {
-  for (const id of ['VIS-064','VIS-065','VIS-066','VIS-067','VIS-068','VIS-069','VIS-070','VIS-071','VIS-072','VIS-073','VIS-074','VIS-075']) {
+  for (const id of ['VIS-069','VIS-070','VIS-071','VIS-072','VIS-073','VIS-074','VIS-075','VIS-076','VIS-077','VIS-078','VIS-079','VIS-080']) {
     const html = renderVisualComponents(`<!-- VISUAL:${id} -->`);
     assert.match(html, new RegExp(`id="${id.toLowerCase()}"`));
     assert.match(html, /aria-labelledby=/);

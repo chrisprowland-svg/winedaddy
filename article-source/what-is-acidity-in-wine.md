@@ -17,6 +17,8 @@ When acidity is noticeable, a wine may taste crisp, bright or energetic. It can 
 
 Neither style is automatically better. Acidity needs to make sense in the wine as a whole. It can keep a sweet wine from seeming heavy, give a rich white wine freshness, or help a red wine feel energetic rather than broad. But too much, too little or poorly integrated acidity can make a wine seem sharp, flat or unbalanced.
 
+<!-- VISUAL:VIS-089 -->
+
 ## How Does Acidity Feel?
 
 Acidity is easiest to recognise on the palate rather than by looking at the wine. Take a sip and notice whether your mouth begins to water. Does the wine feel refreshing and lively, or soft and broad? Does that freshness continue into the finish?

@@ -20,6 +20,8 @@ The names can offer a useful clue to style. Pinot Grigio is often linked with ea
 
 If you are choosing a bottle, treat “Gris” or “Grigio” as a starting point. Then read the rest of the label or producer description for clues such as **crisp**, **dry**, **fresh**, **textured**, **lees-aged**, **barrel-fermented** or **off-dry**.
 
+<!-- VISUAL:VIS-083 -->
+
 ## One Grape, Two Names
 
 The simplest way to understand Pinot Gris and Pinot Grigio is to think of them as two languages describing the same grape.

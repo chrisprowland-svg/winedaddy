@@ -26,7 +26,7 @@ Sangiovese is not a fixed recipe. Climate, vineyard site, ripeness, harvest timi
 
 The variety is famous in Italy through wines such as Chianti and Brunello di Montalcino, but it is also grown and made in Australia. Australian examples are produced in places including the King Valley, McLaren Vale, Riverina, Riverland and the Murray–Darling–Swan Hill area.
 
-<!-- VISUAL:VIS-067 -->
+<!-- VISUAL:VIS-072 -->
 
 ## What does Sangiovese taste like?
 

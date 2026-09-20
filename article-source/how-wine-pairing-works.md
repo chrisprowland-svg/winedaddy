@@ -22,7 +22,7 @@ For example, a fresh, acidic wine may make rich or fried food feel more refreshi
 
 These are principles, not laws. The same ingredient can need a different wine when it is poached, fried, grilled, smoked or covered in sauce. The best question is not “What is the official wine for this food?” but “What feature of this dish will shape the pairing?”
 
-<!-- VISUAL:VIS-074 -->
+<!-- VISUAL:VIS-079 -->
 
 ## The Main Pairing Principles
 

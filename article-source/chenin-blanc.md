@@ -10,6 +10,8 @@
 - South Africa and France’s Loire Valley are major reference points. Chenin Blanc is also grown in Australia.
 - “Dry” describes sweetness, not whether a wine tastes fruity.
 
+<!-- VISUAL:VIS-084 -->
+
 ## What does Chenin Blanc taste like?
 
 There is no single Chenin Blanc flavour profile. The grape’s character changes with climate, ripeness, harvest timing, sweetness and winemaking choices.

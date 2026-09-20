@@ -21,7 +21,7 @@ So, structure is not a scorecard with separate boxes. It is the impression creat
 
 The term is useful because it helps you describe how a wine feels, rather than only what it smells or tastes like.
 
-<!-- VISUAL:VIS-060 -->
+<!-- VISUAL:VIS-065 -->
 
 ## The building blocks of structure
 

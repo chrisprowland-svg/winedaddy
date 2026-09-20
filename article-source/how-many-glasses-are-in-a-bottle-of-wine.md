@@ -45,6 +45,8 @@ Bottle size matters as well. A 750 mL bottle is the common reference format, but
 
 **bottle volume ÷ pour size = approximate number of glasses**
 
+<!-- VISUAL:VIS-094 -->
+
 ## What about Australian standard drinks?
 
 A poured glass and a standard drink are different measurements.

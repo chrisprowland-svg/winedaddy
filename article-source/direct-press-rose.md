@@ -19,6 +19,8 @@ The colour comes mainly from pigments in the grape skins. By separating the juic
 
 Direct pressing is not the same as making rosé by removing juice from a red-wine ferment. That method is called **saignée**. In direct-press rosé, the grapes are processed for rosé from the beginning.
 
+<!-- VISUAL:VIS-092 -->
+
 ## How direct-press rosé is made
 
 ### 1. Grapes are harvested for rosé

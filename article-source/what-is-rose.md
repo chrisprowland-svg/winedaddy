@@ -21,6 +21,8 @@ The colour usually comes from controlled contact between juice and red grape ski
 
 The simplest way to understand rosé is this: it is usually made from red grapes, but handled so that the wine gets less colour and tannin from the skins than a typical red wine.
 
+<!-- VISUAL:VIS-092 -->
+
 ## How does rosé get its colour?
 
 Grape juice is not always deeply coloured simply because the grapes have dark skins. Much of the pigment that gives red wine its colour is extracted from the skins during winemaking.

@@ -19,6 +19,8 @@ Total alcohol depends on both the wine’s ABV and the size of the serving. A 15
 
 ABV also does not tell you whether a wine is sweet, good quality or dry. “Dry” concerns sweetness, while ABV concerns alcohol concentration. A dry wine can have relatively high or low alcohol. For the separate meaning of dry wine, see [What does dry wine mean?](/dry-wine-meaning/).
 
+<!-- VISUAL:VIS-094 -->
+
 ## How alcohol gets into wine
 
 Grapes contain sugars, principally glucose and fructose. During alcoholic fermentation, yeast uses those sugars and produces ethanol and carbon dioxide. The more fermentable sugar available, and the further fermentation proceeds, the greater the potential alcohol—although the final result depends on several decisions and conditions.

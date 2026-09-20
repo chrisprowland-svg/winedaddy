@@ -19,6 +19,8 @@ In Australia, **Moscato is also a protected wine term**. A wine using that term 
 
 The familiar Australian Moscato style is often sweet, fruity and sparkling or lightly sparkling. But Muscat varieties are also used for still wines, dry wines and fortified wines. Rutherglen Muscat, from north-east Victoria, is a particularly important Australian example of rich, sweet fortified Muscat.
 
+<!-- VISUAL:VIS-085 -->
+
 ## Muscat is a grape name; Moscato can be a label name
 
 Wine names can refer to a grape, a style, a place or a legal category. Moscato and Muscat are a good example of why those categories should not be confused.

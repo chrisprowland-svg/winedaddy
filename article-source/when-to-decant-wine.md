@@ -27,7 +27,7 @@ The second purpose is **aeration**: increasing the wine’s contact with air. Th
 
 So, decant a mature wine when sediment is expected, try decanting a small amount of a young, powerful wine if it seems closed, and serve most fresh everyday wines directly. The best decision depends on the individual bottle, not simply its colour, grape variety or country of origin.
 
-<!-- VISUAL:VIS-062 -->
+<!-- VISUAL:VIS-067 -->
 
 ## Decanting has two different jobs
 

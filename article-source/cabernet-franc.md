@@ -17,6 +17,8 @@ In the glass, Cabernet Franc often shows red fruit such as raspberry, redcurrant
 
 Cabernet Franc and Cabernet Sauvignon are separate varieties. Cabernet Franc is one of Cabernet Sauvignon’s parents, which helps explain their shared name and some family resemblance—but they are not the same grape.
 
+<!-- VISUAL:VIS-081 -->
+
 ## What does Cabernet Franc taste like?
 
 The most useful starting point is **fresh red fruit with aromatic and herbal detail**. You might notice raspberry, redcurrant or cherry, alongside violet-like flowers, fresh herbs, leafy notes or pepper.

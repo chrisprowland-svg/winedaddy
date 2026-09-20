@@ -21,7 +21,7 @@ That is the basic distinction, but it is not the whole story. Grape variety, cli
 
 A practical way to choose is to ask what you prefer: freshness, fruit character, body or a drying texture.
 
-<!-- VISUAL:VIS-075 -->
+<!-- VISUAL:VIS-080 -->
 
 ## How the winemaking differs
 

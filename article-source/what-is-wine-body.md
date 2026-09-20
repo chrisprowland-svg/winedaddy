@@ -21,6 +21,8 @@ Body is one part of wine structure. Alcohol, residual sugar, acidity, tannin, fl
 
 The categories are best understood as points on a spectrum. A wine can sit between light and medium, or medium and full. Two people may also describe the same wine slightly differently. That is normal: body is a sensory impression rather than a single laboratory measurement.
 
+<!-- VISUAL:VIS-095 -->
+
 ## Light-, Medium- and Full-Bodied Wine
 
 ### Light-bodied wine

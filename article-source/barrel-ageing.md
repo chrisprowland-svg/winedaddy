@@ -19,6 +19,8 @@ During barrel ageing, the wine interacts with the wood and receives gradual expo
 
 That means a barrel is not just a container that flavours wine. It is an active part of the winemaking process. The result depends on the barrel, the wine and how the maturation is managed. Barrel ageing can add complexity and integration in some wines, but excessive wood or oxygen can overwhelm fruit, dry out the palate or reduce freshness.
 
+<!-- VISUAL:VIS-091 -->
+
 ## What happens during barrel ageing?
 
 Three overlapping things happen in a barrel.
