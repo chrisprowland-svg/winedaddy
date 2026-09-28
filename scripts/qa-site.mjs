@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {cardTitle, escapeHtml, faviconHead, siteHeader} from '../site/site.mjs';
+import {cardTitle, escapeHtml, faviconHead, SEO_TITLE_MAX_LENGTH, seoTitle, siteHeader} from '../site/site.mjs';
 const root = process.cwd();
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'content/articles.json'), 'utf8'));
 const entityRegistry = JSON.parse(fs.readFileSync(path.join(root, 'content/knowledge/entities.json'), 'utf8'));
@@ -42,8 +42,16 @@ const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
 if (!servingWorker.includes('geography-panel|entity-links|learning-path-panel|grape-path-panel')) errors.push('serving Worker can strip knowledge-graph relationship panels');
 if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('const primaryNav')) errors.push('serving Worker must not override build-generated navigation');
-const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
+const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about', '/contact', '/privacy', '/search'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
+const seoTitles = new Map();
+for (const article of manifest.articles) {
+  const title = `${seoTitle(article)} | WineDaddy`;
+  if (title.length > SEO_TITLE_MAX_LENGTH) errors.push(`${article.slug}: SEO title exceeds ${SEO_TITLE_MAX_LENGTH} characters (${title.length})`);
+  const key = title.toLocaleLowerCase('en-AU');
+  if (seoTitles.has(key)) errors.push(`${article.slug}: duplicate SEO title with ${seoTitles.get(key)}: ${title}`);
+  seoTitles.set(key, article.slug);
+}
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
 const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'member_of_grape_path', 'has_grape_guide', 'same_as_grape', 'about_grape', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
 if (entityIds.size !== entityRegistry.entities.length) errors.push('entity registry contains duplicate IDs');
@@ -428,11 +436,15 @@ for (const article of manifest.articles) {
   const file = article.route.endsWith('/') ? path.join(root, article.route.slice(1), 'index.html') : path.join(root, article.route.slice(1));
   if (!fs.existsSync(file)) { errors.push(`${article.slug}: page missing`); continue; }
   const html = fs.readFileSync(file, 'utf8');
+  const expectedSeoTitle = `${seoTitle(article)} | WineDaddy`;
+  if (!html.includes(`<title>${escapeHtml(expectedSeoTitle)}</title>`)) errors.push(`${article.slug}: rendered SEO title is stale or incorrect`);
   if (/<h2[^>]*>Related (?:learning|reading)<\/h2>/i.test(html)) errors.push(`${article.slug}: legacy Related learning list remains`);
   check(html, /<meta name="viewport"/i, article.slug, 'viewport missing');
   check(html, /<link rel="icon" href="\/favicon\.ico" sizes="any">/i, article.slug, 'favicon metadata missing');
   if (!html.includes(`<link rel="canonical" href="https://winedaddy.com.au${article.route}"`)) errors.push(`${article.slug}: canonical incorrect`);
   check(html, /<script type="application\/ld\+json">/i, article.slug, 'JSON-LD missing');
+  check(html, /href="\/assets\/styles\.min\.css\?v=/i, article.slug, 'minified CSS missing');
+  check(html, /src="\/assets\/script\.min\.js\?v=/i, article.slug, 'minified JavaScript missing');
   check(html, /G-M281DG8YTP/i, article.slug, 'GA missing'); check(html, /1085436810811087/i, article.slug, 'Meta Pixel missing');
   check(html, /<section class="highlights"><h2>Highlights<\/h2>/i, article.slug, 'Highlights component missing');
   const highlightsStart = html.indexOf('<section class="highlights">'); const highlightsHeadingEnd = html.indexOf('</h2>', highlightsStart) + 5; const highlightsEnd = html.indexOf('</section>', highlightsHeadingEnd); const nextH2 = html.indexOf('<h2', highlightsHeadingEnd); if (nextH2 !== -1 && nextH2 < highlightsEnd) errors.push(`${article.slug}: Highlights panel swallows a later section`);

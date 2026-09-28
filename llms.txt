@@ -1,0 +1,15 @@
+# WineDaddy
+
+> Clear, practical wine education for Australian readers, covering wine fundamentals, grape varieties, regions and winemaking.
+
+## Core directories
+
+- [Wine Fundamentals](https://winedaddy.com.au/fundamentals/): Practical guides to tasting, serving, storing, choosing and understanding wine.
+- [Grapes](https://winedaddy.com.au/grapes/): Guides to grape varieties, their styles and where they grow.
+- [Regions](https://winedaddy.com.au/regions/): Wine regions organised by country, place and geographic hierarchy.
+- [Winemaking](https://winedaddy.com.au/winemaking/): How production choices shape finished wine.
+
+## About
+
+- [About WineDaddy](https://winedaddy.com.au/about): Editorial purpose and standards.
+- [Contact WineDaddy](https://winedaddy.com.au/contact): Corrections, questions and source suggestions.

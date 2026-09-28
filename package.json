@@ -10,11 +10,19 @@
     "visual:audit": "node scripts/audit-visual-coverage.mjs",
     "knowledge:build": "node scripts/build-knowledge-graph.mjs",
     "authority:audit": "npm run build && node scripts/audit-authority.mjs",
-    "build": "node scripts/build-knowledge-graph.mjs && node scripts/build-site.mjs",
+    "assets:minify": "esbuild assets/script.js --minify --outfile=assets/script.min.js && esbuild assets/styles.css --minify --outfile=assets/styles.min.css",
+    "build": "npm run assets:minify && node scripts/build-knowledge-graph.mjs && node scripts/build-site.mjs",
     "check": "npm run build && node scripts/qa-site.mjs && node scripts/audit-authority.mjs --gate",
     "test": "node --test workers/page-qa/test/*.test.mjs",
     "worker:check": "tsc -p workers/page-qa/tsconfig.json && wrangler deploy --dry-run --config workers/page-qa/wrangler.jsonc"
   },
-  "dependencies": {"marked": "^16.3.0"},
-  "devDependencies": {"@cloudflare/workers-types": "^5.20260818.1", "typescript": "^5.9.2", "wrangler": "^4.123.0"}
+  "dependencies": {
+    "marked": "^16.3.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260818.1",
+    "esbuild": "^0.25.12",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.123.0"
+  }
 }

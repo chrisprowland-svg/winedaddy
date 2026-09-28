@@ -44,3 +44,43 @@
 
 .shared-editorial-image{width:min(900px,calc(100% - 48px));margin:48px auto 8px}.article>.shared-editorial-image{width:100%;margin:0 0 42px}.shared-editorial-image img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border:1px solid var(--line);background:var(--cream)}.shared-editorial-image figcaption{margin-top:10px;color:var(--muted);font-size:13px;line-height:1.45}.shared-editorial-image figcaption:empty{display:none}
 @media(max-width:800px){.shared-editorial-image{width:min(100% - 32px,900px);margin-top:28px}.article>.shared-editorial-image{width:100%;margin-bottom:32px}}
+@media(max-width:800px){
+  .page-hero .section{padding:56px 20px 52px}
+  .page-hero h1{font-size:46px;line-height:1.02}
+  .page-hero .lede{font-size:18px;line-height:1.55}
+  .article{padding:48px 20px}
+  .article h2{font-size:34px;margin-top:46px}
+  .article h3{font-size:25px}
+  .article p,.article li{font-size:16px;line-height:1.55}
+  .highlights{padding:20px;margin-bottom:28px}
+  .highlights h2{font-size:28px;margin:0 0 12px}
+  .entity-links{padding:21px 20px;margin-bottom:28px}
+  .entity-links h2{font-size:27px;margin:4px 0 15px}
+  .entity-links div{gap:7px}
+  .entity-links a{padding:6px 9px;font-size:15px;line-height:1.35}
+  .grape-path-panel{padding:19px 20px;margin-bottom:28px}
+  .grape-path-panel h2{font-size:26px}
+  .grape-path-panel p{font-size:15px;line-height:1.5}
+  .grape-path-panel a{font-size:14px}
+  .shared-editorial-image img{height:min(78vw,320px);aspect-ratio:auto;object-fit:cover;object-position:center}
+}
+@media(min-width:801px){
+  .page-hero .section{padding-top:72px;padding-bottom:62px}
+  .page-hero h1{font-size:clamp(50px,5.5vw,72px);line-height:1.02}
+  .page-hero .lede{font-size:18px;line-height:1.55}
+  .article.article-wide{max-width:820px}
+  .article{padding-top:56px;padding-bottom:62px}
+  .article h2{font-size:36px;margin-top:50px}
+  .article h3{font-size:26px}
+  .article p,.article li{font-size:17px;line-height:1.58}
+  .highlights{padding:25px 30px}
+  .highlights h2{font-size:28px}
+  .entity-links{padding:23px 26px}
+  .entity-links h2{font-size:28px;margin-bottom:16px}
+  .entity-links div{gap:8px}
+  .entity-links a{padding:7px 10px;font-size:15px;line-height:1.35}
+  .grape-path-panel{padding:22px 25px}
+  .grape-path-panel h2{font-size:28px}
+  .shared-editorial-image{width:min(800px,calc(100% - 48px))}
+  .shared-editorial-image img{height:min(42vw,420px);aspect-ratio:auto;object-fit:cover;object-position:center}
+}
