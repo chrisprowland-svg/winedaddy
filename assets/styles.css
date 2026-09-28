@@ -84,3 +84,62 @@
   .shared-editorial-image{width:min(800px,calc(100% - 48px))}
   .shared-editorial-image img{height:min(42vw,420px);aspect-ratio:auto;object-fit:cover;object-position:center}
 }
+.home-hero{position:relative;min-height:520px;display:flex;align-items:center;overflow:hidden;background:var(--ink);color:var(--paper)}
+.home-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.home-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,18,15,.78) 0%,rgba(18,18,15,.52) 46%,rgba(18,18,15,.08) 78%)}
+.home-hero-copy{position:relative;z-index:1;width:min(var(--max),100%);margin:auto;padding:74px 24px}
+.home-hero-copy h1{max-width:700px;font-size:clamp(52px,6vw,78px);letter-spacing:-.05em;text-shadow:0 2px 24px rgba(0,0,0,.28)}
+.home-hero-copy .eyebrow{color:#f0d9df}
+.home-hero-copy .lede{max-width:590px;color:#fff;font-size:19px}
+.home-hero-copy .button{background:var(--wine)}
+.home-paths,.home-guides{padding-top:74px;padding-bottom:78px}
+.home-path-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.home-path-card,.home-guide-card{display:block;overflow:hidden;border:1px solid var(--line);background:var(--cream);color:var(--ink);text-decoration:none;transition:.2s}
+.home-path-card:hover,.home-guide-card:hover{transform:translateY(-3px);box-shadow:0 16px 38px rgba(0,0,0,.08)}
+.home-path-card>img{display:block;width:100%;height:150px;object-fit:cover}
+.home-card-copy{min-height:245px;padding:22px;display:flex;flex-direction:column;justify-content:space-between}
+.home-card-copy .num{font:700 34px/1 Georgia,serif;color:var(--wine)}
+.home-card-copy h3,.home-guide-copy h3{margin-bottom:10px}
+.home-card-copy p,.home-guide-copy p{margin:0;color:var(--muted)}
+.home-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.home-guide-card{display:grid;grid-template-columns:minmax(210px,.9fr) 1.1fr;min-height:220px;background:var(--paper)}
+.home-guide-card>img{width:100%;height:100%;min-height:220px;object-fit:cover}
+.home-guide-copy{padding:28px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.home-guide-copy h3{font-size:28px}
+.home-guide-copy b{margin-top:20px;color:var(--wine);font-size:13px}
+.home-approach{max-width:var(--max);margin:0 auto 82px;display:grid;grid-template-columns:1.1fr .9fr;background:var(--ink);color:var(--paper)}
+.home-approach>img{width:100%;height:100%;min-height:390px;object-fit:cover}
+.home-approach-copy{padding:55px;display:flex;flex-direction:column;justify-content:center}
+.home-approach-copy .kicker{color:#e6cbd2}
+.home-approach-copy h2{font-size:46px}
+.home-approach-copy p{color:#dedbd2;font-size:17px}
+.home-approach-copy .button.secondary{align-self:flex-start;color:var(--paper);border-color:var(--paper)}
+@media(max-width:1000px) and (min-width:801px){.home-path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-card-copy{min-height:205px}}
+@media(max-width:800px){
+  .home-hero{min-height:500px;align-items:flex-end}
+  .home-hero-shade{background:linear-gradient(0deg,rgba(18,18,15,.86) 0%,rgba(18,18,15,.48) 64%,rgba(18,18,15,.1) 100%)}
+  .home-hero-copy{padding:72px 20px 48px}
+  .home-hero-copy h1{font-size:46px;max-width:460px}
+  .home-hero-copy .lede{font-size:17px;line-height:1.5}
+  .home-paths,.home-guides{padding:52px 20px 58px}
+  .home-paths .section-head,.home-guides .section-head{margin-bottom:28px}
+  .home-paths .section-head h2,.home-guides .section-head h2{font-size:38px}
+  .home-path-grid,.home-guide-grid{grid-template-columns:1fr}
+  .home-path-card{display:grid;grid-template-columns:40% 60%}
+  .home-path-card>img{height:100%;min-height:190px}
+  .home-card-copy{min-height:190px;padding:19px}
+  .home-card-copy .num{font-size:28px}
+  .home-card-copy h3{font-size:23px}
+  .home-card-copy p{font-size:14px;line-height:1.45}
+  .home-guide-card{grid-template-columns:42% 58%;min-height:190px}
+  .home-guide-card>img{min-height:190px}
+  .home-guide-copy{padding:20px}
+  .home-guide-copy h3{font-size:23px}
+  .home-guide-copy p{font-size:14px;line-height:1.45}
+  .home-guide-copy b{margin-top:14px}
+  .home-approach{margin:0;grid-template-columns:1fr}
+  .home-approach>img{min-height:250px;height:250px}
+  .home-approach-copy{padding:42px 20px 48px}
+  .home-approach-copy h2{font-size:36px}
+  .home-approach-copy p{font-size:16px}
+}
