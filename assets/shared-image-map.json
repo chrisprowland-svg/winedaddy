@@ -2,7 +2,7 @@
   "version": 1,
   "generated_at": "2026-09-28T10:41:45.011Z",
   "policy": {
-    "maximum_shared_images": 100,
+    "maximum_shared_images": 103,
     "locality_required_for_regions": true,
     "placement": "editorial_context",
     "documentary_claim": false
@@ -907,6 +907,33 @@
       "caption": "AI-generated editorial impression; not documentary photography.",
       "width": 1536,
       "height": 1024
+    },
+    "WD-MED-900101": {
+      "src": "/assets/media/shared/wd-med-900101.webp",
+      "subject": "What is wine?",
+      "category": "fundamentals",
+      "alt": "Red and white wine with grapes in an Australian vineyard",
+      "caption": "AI-generated editorial impression; not documentary photography.",
+      "width": 1536,
+      "height": 1024
+    },
+    "WD-MED-900102": {
+      "src": "/assets/media/shared/wd-med-900102.webp",
+      "subject": "Tasmania wine region",
+      "category": "regions",
+      "alt": "A cool-climate Tasmanian vineyard overlooking blue water and forested mountains",
+      "caption": "AI-generated locality-aware editorial impression; not documentary photography.",
+      "width": 1536,
+      "height": 1024
+    },
+    "WD-MED-900103": {
+      "src": "/assets/media/shared/wd-med-900103.webp",
+      "subject": "What is fermentation?",
+      "category": "winemaking",
+      "alt": "Red wine fermenting on grape skins in an open stainless-steel vessel",
+      "caption": "AI-generated editorial impression; not documentary photography.",
+      "width": 1536,
+      "height": 1024
     }
   },
   "routes": {
@@ -1040,6 +1067,9 @@
     "/what-is-tempranillo/": "WD-MED-900022",
     "/what-is-tinta-barroca/": "WD-MED-900034",
     "/what-is-tirage-in-sparkling-wine/": "WD-MED-900062",
+    "/what-is-wine/": "WD-MED-900101",
+    "/tasmania-wine-region/": "WD-MED-900102",
+    "/what-is-fermentation/": "WD-MED-900103",
     "/wine-and-spicy-food-pairing/": "WD-MED-900009",
     "/wine-for-a-picnic/": "WD-MED-900079",
     "/wine-for-a-wedding/": "WD-MED-900081",
