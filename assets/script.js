@@ -172,3 +172,38 @@ if (processFilter) {
     if (empty) empty.hidden = visible !== 0;
   });
 }
+
+
+// Governed shared-image renderer. Route mappings are generated from the knowledge graph.
+(async function renderSharedEditorialImage() {
+  const article = document.querySelector('article.article');
+  const pageHero = document.querySelector('.page-hero');
+  if (!article && !pageHero) return;
+  try {
+    const response = await fetch('/assets/shared-image-map.json', { credentials: 'same-origin' });
+    if (!response.ok) return;
+    const registry = await response.json();
+    const route = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/';
+    const mediaId = registry.routes?.[route];
+    const asset = mediaId && registry.assets?.[mediaId];
+    if (!asset) return;
+    const figure = document.createElement('figure');
+    figure.className = 'shared-editorial-image';
+    figure.dataset.mediaId = mediaId;
+    const image = document.createElement('img');
+    image.src = asset.src;
+    image.alt = asset.alt || '';
+    image.width = Number(asset.width) || 1536;
+    image.height = Number(asset.height) || 1024;
+    image.loading = 'eager';
+    image.decoding = 'async';
+    image.fetchPriority = 'high';
+    const caption = document.createElement('figcaption');
+    caption.textContent = asset.caption || '';
+    figure.append(image, caption);
+    if (article) article.prepend(figure);
+    else pageHero.insertAdjacentElement('afterend', figure);
+  } catch (_) {
+    // Images are progressive enhancement; article content remains fully available.
+  }
+})();
