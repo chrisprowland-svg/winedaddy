@@ -62,4 +62,5 @@
   .grape-path-panel h2{font-size:26px}
   .grape-path-panel p{font-size:15px;line-height:1.5}
   .grape-path-panel a{font-size:14px}
+  .shared-editorial-image img{height:min(78vw,320px);aspect-ratio:auto;object-fit:cover;object-position:center}
 }
