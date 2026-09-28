@@ -5,13 +5,17 @@ export default {
     let auditPath;
     try { auditPath = decodeURIComponent(url.pathname); } catch { auditPath = url.pathname; }
     if (auditPath.startsWith('/reports/authority-audit')) {
-      return new Response('Not found', {status: 404, headers: {'X-Robots-Tag': 'noindex', 'Cache-Control': 'no-store'}});
+      return new Response('Not found', {status: 404, headers: {'X-Robots-Tag': 'noindex', 'Cache-Control': 'no-store', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload'}});
     }
     if (url.pathname === '/api/subscribe') return subscribe(request, env);
 
     const response = await env.ASSETS.fetch(request);
     const type = response.headers.get('content-type') || '';
-    if (!type.includes('text/html')) return response;
+    if (!type.includes('text/html')) {
+      const headers = new Headers(response.headers);
+      headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+      return new Response(response.body, {status: response.status, statusText: response.statusText, headers});
+    }
 
     let html = await response.text();
     const isArticle = /<article\b[^>]*>[\s\S]*?<\/article>/i.test(html);
@@ -42,6 +46,7 @@ export default {
     // serving Worker enforces the reader boundary and navigation only.
     const headers = new Headers(response.headers);
     headers.set('X-WineDaddy-QA', isArticle ? 'reader-boundary-enforced' : 'non-article-pass');
+    headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
     headers.delete('content-length');
     return new Response(html, {status: response.status, statusText: response.statusText, headers});
   }
@@ -75,5 +80,5 @@ async function subscribe(request, env) {
 }
 
 function json(body, status = 200) {
-  return new Response(JSON.stringify(body), {status, headers: {'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store'}});
+  return new Response(JSON.stringify(body), {status, headers: {'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload'}});
 }

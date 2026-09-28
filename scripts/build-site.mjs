@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {marked} from 'marked';
-import {SITE_URL, cardTitle, escapeHtml, faviconHead, pageDocument, sections, siteHeader} from '../site/site.mjs';
+import {SITE_URL, cardTitle, escapeHtml, faviconHead, pageDocument, sections, seoTitle, siteFooter, siteHeader} from '../site/site.mjs';
 import {renderVisualComponents} from '../site/visual-components.mjs';
 
 const root = process.cwd();
@@ -63,7 +63,7 @@ for (const article of manifest.articles) {
   if (grapePath) articleSchema.isPartOf = {'@type':'CollectionPage',name:grapePath.name,url:`${SITE_URL}/grapes/#${grapePath.id}`};
   const schema = {'@context':'https://schema.org','@graph':[articleSchema,breadcrumbSchema(article, section, geography, topicGeography, learningPath, grapePath)]};
   const heroTitle = geography?.entity.name || source.match(/^#\s+(.+)$/m)?.[1] || article.title;
-  const html = pageDocument({title: article.title, description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${learningPathPanel}${grapePathPanel}${body}${related}</article></main>`});
+  const html = pageDocument({title: seoTitle(article), description: article.description, canonicalPath, type: 'article', schema, body: `<main><section class="page-hero"><div class="section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/${article.section}/">${section.name}</a></p><p class="eyebrow">${section.name}</p><h1>${escapeHtml(heroTitle)}</h1><p class="lede">${escapeHtml(article.description)}</p><p class="article-meta">Foundation guide · Beginner friendly · Australian context</p></div></section><article class="article article-wide">${geographyPanel}${grapeRegionPanel}${learningPathPanel}${grapePathPanel}${body}${related}</article></main>`});
   const outputPath = canonicalPath.endsWith('/') ? path.join(root, canonicalPath.slice(1), 'index.html') : path.join(root, canonicalPath.slice(1));
   fs.mkdirSync(path.dirname(outputPath), {recursive: true});
   fs.writeFileSync(outputPath, html);
@@ -215,8 +215,26 @@ function renderGrapePath(group, alias) {
   const names = alias ? `<p class="grape-aliases"><b>Names:</b> ${escapeHtml(alias.aliases.join(' · '))}</p>` : '';
   return `<aside class="grape-path-panel" data-grape-path-context><p class="kicker">Grape pathway</p><h2>${escapeHtml(group.name)}</h2><p>${escapeHtml(group.description)}</p>${names}<a href="/grapes/#${group.id}">Explore this grape pathway →</a></aside>`;
 }
-function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
-function refreshStaticHeaders() { for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) { const target = path.join(root, file); let html = fs.readFileSync(target, 'utf8'); if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`); html = html.replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader()).replace(/\/assets\/styles\.css\?v=[^"]+/, '/assets/styles.css?v=20260913-1').replace(/\/assets\/script\.js\?v=[^"]+/, '/assets/script.js?v=20260913-1'); if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`); if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search.html`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); } fs.writeFileSync(target, html); } }
+function buildSitemap(articles) { const staticPaths = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about', '/contact', '/privacy', '/search']; const urls = [...staticPaths, ...articles.map(article => article.route)]; const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(route => `  <url><loc>${SITE_URL}${route}</loc></url>`).join('\n')}\n</urlset>\n`; fs.writeFileSync(path.join(root, 'sitemap.xml'), xml); }
+function refreshStaticHeaders() {
+  const cleanRoutes = new Map([['about.html', '/about'], ['contact.html', '/contact'], ['privacy.html', '/privacy'], ['search.html', '/search']]);
+  for (const file of ['index.html', 'about.html', 'contact.html', 'privacy.html', 'search.html']) {
+    const target = path.join(root, file);
+    let html = fs.readFileSync(target, 'utf8');
+    if (!/<header class="site-header">[\s\S]*?<\/header>/.test(html)) throw new Error(`${file}: shared header missing`);
+    if (!/<footer class="footer">[\s\S]*?<\/footer>/.test(html)) throw new Error(`${file}: shared footer missing`);
+    html = html
+      .replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader())
+      .replace(/<footer class="footer">[\s\S]*?<\/footer>/, siteFooter())
+      .replace(/\/assets\/styles\.css(?:\?v=[^"]+)?/, '/assets/styles.min.css?v=20260928-1')
+      .replace(/\/assets\/script\.js(?:\?v=[^"]+)?/, '/assets/script.min.js?v=20260928-1');
+    if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`);
+    const cleanRoute = cleanRoutes.get(file);
+    if (cleanRoute) html = html.replaceAll(`${SITE_URL}/${file}`, `${SITE_URL}${cleanRoute}`);
+    if (file === 'search.html' && !/<script type="application\/ld\+json">/.test(html)) { const schema = JSON.stringify({'@context':'https://schema.org','@type':'SearchResultsPage',name:'Search WineDaddy',url:`${SITE_URL}/search`}); html = html.replace('</head>', `<script type="application/ld+json">${schema}</script></head>`); }
+    fs.writeFileSync(target, html);
+  }
+}
 function visibleText(html) { return html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim(); }
 function renderRecommendations(items) { if (!items?.length) return ''; const cards = items.map(item => `<a class="graph-related-card" data-graph-related href="${item.route}"><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><b>Read guide →</b></a>`).join(''); return `<aside class="graph-related" aria-labelledby="explore-next-title"><p class="kicker">Related WineDaddy guides</p><h2 id="explore-next-title">Explore next</h2><div class="graph-related-grid">${cards}</div></aside>`; }
 function renderGrapeRegions(entity) {
