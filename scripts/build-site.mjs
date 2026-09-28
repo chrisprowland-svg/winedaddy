@@ -226,8 +226,8 @@ function refreshStaticHeaders() {
     html = html
       .replace(/<header class="site-header">[\s\S]*?<\/header>/, siteHeader())
       .replace(/<footer class="footer">[\s\S]*?<\/footer>/, siteFooter())
-      .replace(/\/assets\/styles\.css(?:\?v=[^"]+)?/, '/assets/styles.min.css?v=20260928-3')
-      .replace(/\/assets\/script\.js(?:\?v=[^"]+)?/, '/assets/script.min.js?v=20260928-3');
+      .replace(/\/assets\/styles\.css(?:\?v=[^"]+)?/, '/assets/styles.min.css?v=20260928-4')
+      .replace(/\/assets\/script\.js(?:\?v=[^"]+)?/, '/assets/script.min.js?v=20260928-4');
     if (!html.includes('href="/favicon.ico"')) html = html.replace('<meta name="viewport" content="width=device-width,initial-scale=1">', `<meta name="viewport" content="width=device-width,initial-scale=1">${faviconHead()}`);
     const cleanRoute = cleanRoutes.get(file);
     if (cleanRoute) html = html.replaceAll(`${SITE_URL}/${file}`, `${SITE_URL}${cleanRoute}`);

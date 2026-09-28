@@ -64,3 +64,23 @@
   .grape-path-panel a{font-size:14px}
   .shared-editorial-image img{height:min(78vw,320px);aspect-ratio:auto;object-fit:cover;object-position:center}
 }
+@media(min-width:801px){
+  .page-hero .section{padding-top:72px;padding-bottom:62px}
+  .page-hero h1{font-size:clamp(50px,5.5vw,72px);line-height:1.02}
+  .page-hero .lede{font-size:18px;line-height:1.55}
+  .article.article-wide{max-width:820px}
+  .article{padding-top:56px;padding-bottom:62px}
+  .article h2{font-size:36px;margin-top:50px}
+  .article h3{font-size:26px}
+  .article p,.article li{font-size:17px;line-height:1.58}
+  .highlights{padding:25px 30px}
+  .highlights h2{font-size:28px}
+  .entity-links{padding:23px 26px}
+  .entity-links h2{font-size:28px;margin-bottom:16px}
+  .entity-links div{gap:8px}
+  .entity-links a{padding:7px 10px;font-size:15px;line-height:1.35}
+  .grape-path-panel{padding:22px 25px}
+  .grape-path-panel h2{font-size:28px}
+  .shared-editorial-image{width:min(800px,calc(100% - 48px))}
+  .shared-editorial-image img{height:min(42vw,420px);aspect-ratio:auto;object-fit:cover;object-position:center}
+}
