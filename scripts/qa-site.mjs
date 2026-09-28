@@ -29,7 +29,8 @@ for (const route of ['/new-zealand/', '/marlborough/', '/central-otago/', '/hawk
 for (const route of ['/united-states/', '/napa-valley/', '/sonoma-coast/', '/santa-barbara-county-wine/', '/paso-robles/', '/willamette-valley/', '/finger-lakes-wine-region/', '/greece/', '/santorini-wine-region/', '/nemea-wine-region/', '/naoussa-wine-region/', '/hungary/', '/tokaj-wine-region/', '/eger-wine-region/', '/georgia/', '/england/']) if (!header.includes(`href="${route}"`)) errors.push(`North American/emerging European region submenu missing ${route}`);
 if ((header.match(/class="nav-region-group"/g) || []).length !== 18 || !header.includes('class="nav-group nav-winepedia"')) errors.push('Winepedia mega-menu structure missing');
 if (!header.includes('<summary>Winepedia</summary>') || /<details class="nav-group nav-winepedia" open/.test(header)) errors.push('Winepedia must be the closed primary knowledge menu');
-for (const label of ['Reviews', 'Shop']) if (!header.includes(`<span class="nav-future" aria-disabled="true">${label} <small>Coming soon</small></span>`) || new RegExp(`<a[^>]+>${label}`).test(header)) errors.push(`${label} must be a non-clickable coming-soon item`);
+if (!header.includes('<a href="/reviews/">Reviews</a>')) errors.push('Reviews navigation must link to the governed reviews landing page');
+if (!header.includes('<span class="nav-future" aria-disabled="true">Shop <small>Coming soon</small></span>') || /<a[^>]+>Shop/.test(header)) errors.push('Shop must remain a non-clickable coming-soon item');
 const regionMenu = header.match(/<div class="nav-region-directory">[\s\S]*?<div class="nav-mega-grid">([\s\S]*?)<\/div><\/div><\/div><\/details>/)?.[1] || '';
 const regionMenuCountries = textMatches(regionMenu, /class="nav-feature"[^>]*>(.*?)<\/a>/g);
 expectAlphabetical(regionMenuCountries, 'Regions menu countries');
@@ -42,7 +43,7 @@ const servingWorker = fs.readFileSync(path.join(root, '_worker.js'), 'utf8');
 if (/const primaryNav = '[^']*\/about\.html/.test(servingWorker)) errors.push('serving Worker reintroduces About into the primary navigation');
 if (!servingWorker.includes('geography-panel|entity-links|learning-path-panel|grape-path-panel')) errors.push('serving Worker can strip knowledge-graph relationship panels');
 if (servingWorker.includes('expandedPrimaryNav') || servingWorker.includes('const primaryNav')) errors.push('serving Worker must not override build-generated navigation');
-const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
+const staticRoutes = ['/', '/fundamentals/', '/grapes/', '/regions/', '/winemaking/', '/reviews/', '/about.html', '/contact.html', '/privacy.html', '/search.html'];
 const expectedRoutes = new Set([...staticRoutes, ...manifest.articles.map(article => article.route)]);
 const entityIds = new Set(entityRegistry.entities.map(entity => entity.id));
 const allowedPredicates = new Set(['editorially_related_to', 'member_of', 'member_of_path', 'has_learning_guide', 'member_of_grape_path', 'has_grape_guide', 'same_as_grape', 'about_grape', 'recommended_next', 'located_in', 'contains', 'grown_in', 'known_for', 'about_place', 'has_regional_guide']);
