@@ -183,8 +183,11 @@ if (processFilter) {
     const response = await fetch('/assets/shared-image-map.json', { credentials: 'same-origin' });
     if (!response.ok) return;
     const registry = await response.json();
-    const route = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/';
-    const mediaId = registry.routes?.[route];
+    const route = location.pathname.endsWith('/') || location.pathname.endsWith('.html')
+      ? location.pathname
+      : location.pathname + '/';
+    const mediaId = registry.routes?.[route]
+      || (route.endsWith('/') ? registry.routes?.[route.slice(0, -1) + '.html'] : null);
     const asset = mediaId && registry.assets?.[mediaId];
     if (!asset) return;
     const figure = document.createElement('figure');
