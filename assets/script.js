@@ -186,7 +186,8 @@ if (processFilter) {
     const route = location.pathname.endsWith('/') || location.pathname.endsWith('.html')
       ? location.pathname
       : location.pathname + '/';
-    const mediaId = registry.routes?.[route];
+    const mediaId = registry.routes?.[route]
+      || (route.endsWith('/') ? registry.routes?.[route.slice(0, -1) + '.html'] : null);
     const asset = mediaId && registry.assets?.[mediaId];
     if (!asset) return;
     const figure = document.createElement('figure');
