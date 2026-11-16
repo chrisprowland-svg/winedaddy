@@ -594,6 +594,14 @@
       "source": "article-source/bourgueil.md"
     },
     {
+      "slug": "brazil-wine-regions",
+      "route": "/brazil-wine-regions/",
+      "section": "regions",
+      "title": "Brazil Wine Regions: A Beginner’s Guide",
+      "description": "Understand Brazilian wine through Serra Gaúcha, southern growing conditions, sparkling wine, key grapes and regional label context.",
+      "source": "article-source/brazil-wine-regions.md"
+    },
+    {
       "slug": "brouilly-and-cote-de-brouilly",
       "route": "/brouilly-and-cote-de-brouilly/",
       "title": "Brouilly and Côte de Brouilly: understanding two Beaujolais appellations",
@@ -720,6 +728,14 @@
       "description": "Yes, but mainly for short-term chilling and opened-bottle preservation. Learn when to refrigerate wine and why a household fridge is unsuitable for long-term storage.",
       "section": "fundamentals",
       "source": "article-source/can-wine-be-stored-in-the-fridge.md"
+    },
+    {
+      "slug": "canada-wine-regions",
+      "route": "/canada-wine-regions/",
+      "section": "regions",
+      "title": "Canada Wine Regions: A Beginner’s Guide",
+      "description": "Understand Canadian wine through the Okanagan Valley, Niagara Peninsula, cool-climate growing conditions, key grapes and regional label context.",
+      "source": "article-source/canada-wine-regions.md"
     },
     {
       "slug": "canberra-district-subregions",
@@ -3744,6 +3760,22 @@
       "description": "Learn where Mount Benson is, how it fits within South Australia’s Limestone Coast, and what to expect from its Shiraz, Cabernet Sauvignon, Sauvignon Blanc, Chardonnay and Merlot.",
       "section": "regions",
       "source": "article-source/mount-benson-wine-region.md"
+    },
+    {
+      "slug": "mount-gambier-vs-alsace-pinot-gris",
+      "route": "/mount-gambier-vs-alsace-pinot-gris/",
+      "title": "Mount Gambier vs Alsace Pinot Gris: A Strong Australian Candidate for the Style",
+      "description": "Discover why Mount Gambier is a strong Australian candidate for Alsace-inspired Pinot Gris, and compare climate, texture, acidity, body and sweetness in the glass.",
+      "section": "regions",
+      "source": "article-source/mount-gambier-vs-alsace-pinot-gris.md"
+    },
+    {
+      "slug": "mount-gambier-vs-burgundy-pinot-noir",
+      "route": "/mount-gambier-vs-burgundy-pinot-noir/",
+      "title": "Why Mount Gambier Is Worth Comparing with Burgundy Pinot Noir",
+      "description": "Mount Gambier is a strong Australian candidate for Burgundy-inspired Pinot Noir. Compare its limestone-bearing sites, maritime influence and site variation with Burgundy, then taste the differences in acidity, tannin, fruit, oak and stems.",
+      "section": "regions",
+      "source": "article-source/mount-gambier-vs-burgundy-pinot-noir.md"
     },
     {
       "slug": "mount-gambier-wine-region",
@@ -8000,22 +8032,6 @@
       "description": "Learn what Zweigelt is, where it comes from, how it tastes, where it is grown—including Australia—and what food to serve with it.",
       "section": "grapes",
       "source": "article-source/zweigelt.md"
-    },
-    {
-      "slug": "canada-wine-regions",
-      "route": "/canada-wine-regions/",
-      "section": "regions",
-      "title": "Canada Wine Regions: A Beginner’s Guide",
-      "description": "Understand Canadian wine through the Okanagan Valley, Niagara Peninsula, cool-climate growing conditions, key grapes and regional label context.",
-      "source": "article-source/canada-wine-regions.md"
-    },
-    {
-      "slug": "brazil-wine-regions",
-      "route": "/brazil-wine-regions/",
-      "section": "regions",
-      "title": "Brazil Wine Regions: A Beginner’s Guide",
-      "description": "Understand Brazilian wine through Serra Gaúcha, southern growing conditions, sparkling wine, key grapes and regional label context.",
-      "source": "article-source/brazil-wine-regions.md"
     }
   ]
 }

@@ -32,6 +32,8 @@
     {"slug":"mclaren-vale-subregions","parent":"mclaren-vale-wine-region"},
     {"slug":"mendoza-subregions","parent":"argentina"},
     {"slug":"mosel-wine-classifications","parent":"mosel"},
+    {"slug":"mount-gambier-vs-alsace-pinot-gris","parent":"mount-gambier-wine-region"},
+    {"slug":"mount-gambier-vs-burgundy-pinot-noir","parent":"mount-gambier-wine-region"},
     {"slug":"napa-valley-sub-appellations","parent":"napa-valley"},
     {"slug":"orange-wine-region-elevation","parent":"orange-wine-region"},
     {"slug":"priorat-classifications","parent":"priorat"},
