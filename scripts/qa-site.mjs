@@ -326,7 +326,7 @@ for (const topic of regionTopics.topics) {
   if (!topicPage.includes('data-geography-hierarchy')) errors.push(`regional topic geography context missing: ${topic.slug}`);
   if (!topicPage.includes(`"item":"https://winedaddy.com.au/${topic.parent}/"`)) errors.push(`regional topic breadcrumb parent missing: ${topic.slug} -> ${topic.parent}`);
 }
-if (regionTopics.topics.length !== 41) errors.push(`regional topic audit expected 41 guides; found ${regionTopics.topics.length}`);
+if (regionTopics.topics.length !== 43) errors.push(`regional topic audit expected 43 guides; found ${regionTopics.topics.length}`);
 if (regionTaxonomyMigrations.migrations.length !== 35) errors.push(`regional taxonomy migration audit expected 35 guides; found ${regionTaxonomyMigrations.migrations.length}`);
 const migrationSlugs = new Set();
 for (const migration of regionTaxonomyMigrations.migrations) {
